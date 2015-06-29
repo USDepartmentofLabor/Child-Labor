@@ -8,18 +8,20 @@
 
 import UIKit
 
-class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
-    
-    var parser = NSXMLParser()
-    var goods = NSMutableArray()
-    var countries = NSMutableArray()
-    var currentGood = ""
-    var numCountriesPerGood = NSMutableDictionary()
-    var element = NSString()
-    var buffer = NSMutableString()
-    var sortedArray = NSArray()
+class GoodsTableViewController: UITableViewController {
     
     var state = 0
+    
+    var goodsXML = SWXMLHash.parse("<xml></xml>")
+    
+    var allGoods = NSMutableArray()
+    var numCountriesByGood: [String: Int] = [:]
+    
+    // Lists for countries in each advancement level section
+    var manGoods = NSMutableArray()
+    var agGoods = NSMutableArray()
+    var minGoods = NSMutableArray()
+    var othGoods = NSMutableArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,57 +35,44 @@ class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
         // Hide search bar by default
         self.tableView.setContentOffset(CGPointMake(0, 44), animated: false)
         
-        var urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_good", ofType: "xml")
-        let url:NSURL = NSURL.fileURLWithPath(urlpath!)!
-        parser = NSXMLParser(contentsOfURL: url)!
-        parser.delegate = self
-        parser.parse()
+        // Populate the list
+        let urlPath = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        goodsXML = SWXMLHash.parse(contents as! String)
+        
+        // Create lists of countries in each sector section
+        for good in goodsXML["Goods"]["Good"] {
+            if good["Countries"]["Country"].all.count > 0 {
+                allGoods.addObject((good["Good_Name"].element?.text)!)
+                numCountriesByGood.updateValue(good["Countries"]["Country"].all.count, forKey: (good["Good_Name"].element?.text)!)
+                
+                if good["Good_Sector"].element?.text == "Agriculture" {
+                    agGoods.addObject((good["Good_Name"].element?.text)!)
+                } else if good["Good_Sector"].element?.text == "Manufacturing" {
+                    manGoods.addObject((good["Good_Name"].element?.text)!)
+                } else if good["Good_Sector"].element?.text == "Mining" {
+                    minGoods.addObject((good["Good_Name"].element?.text)!)
+                } else {
+                    othGoods.addObject((good["Good_Name"].element?.text)!)
+                }
+            }
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
-        if let tableIndex = self.tableView.indexPathForSelectedRow() {
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
         }
     }
     
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [NSObject : AnyObject]) {
-        element = elementName
-        
-        buffer = NSMutableString.alloc()
-        buffer = ""
-    }
-    
-    func parser(parser: NSXMLParser, foundCharacters string: String?) {
-        buffer.appendString(string!)
-    }
-    
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "Good_Name" {
-            goods.addObject(buffer)
-            currentGood = buffer as String
-            countries = NSMutableArray()
-        }
-        
-        if elementName == "Good_List" {
-//            // Eliminate duplicates
-//            goods.setArray(NSSet(array: goods as [AnyObject]).allObjects)
-//            
-            // Alphabitize goods
-            sortedArray = (goods as AnyObject as! [String]).sorted {$0 < $1}
-        }
-        
-        if elementName == "Country" {
-            countries.addObject(buffer)
-        }
-        
-        if elementName == "Good" {
-            numCountriesPerGood[currentGood] = String(countries.count)
-        }
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -116,7 +105,7 @@ class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
             case 3:
                 return "Other"
             default:
-                println("default")
+                print("default")
             }
         default:
             return "All Goods"
@@ -131,19 +120,51 @@ class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
 
         switch state {
         case 1:
-            return 8
+            switch section {
+            case 0:
+                return agGoods.count
+            case 1:
+                return manGoods.count
+            case 2:
+                return minGoods.count
+            default:
+                return othGoods.count
+            }
+            
         default:
-            return goods.count
+            return allGoods.count
         }
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         
-        var goodName = (sortedArray.objectAtIndex(indexPath.row) as? String)!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-
+        var goodName = "Cotton"
+        
+        // Determine the grouping the user has selected
+        switch state {
+            
+        //
+        case 1:
+            
+            switch indexPath.section {
+            case 0:
+                goodName = agGoods[indexPath.row] as! String
+            case 1:
+                goodName = manGoods[indexPath.row] as! String
+            case 2:
+                goodName = minGoods[indexPath.row] as! String
+            default:
+                goodName = othGoods[indexPath.row] as! String
+            }
+            
+            // Default
+        default:
+            goodName = allGoods[indexPath.row] as! String
+        }
+        
         cell.textLabel?.text = goodName
-        cell.detailTextLabel?.text = numCountriesPerGood[goodName] as? String
+        cell.detailTextLabel?.text = String(numCountriesByGood[goodName]!)
         
         cell.imageView?.image = UIImage(named: goodName)
         
@@ -163,6 +184,23 @@ class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
         self.tableView.reloadData()
     }
     
+//    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
+//        // Determine the grouping the user has selected
+//        switch state {
+//            
+//        // For A—Z mode
+//        case 0:
+//            return Array()
+//            
+//        case 1:
+//            return ["Man", "Ag", "Min", "Oth"]
+//            
+//            // For other modes, no section index is necessary
+//        default:
+//            return Array()
+//        }
+//    }
+    
     func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String!) -> Bool {
         //        self.filterContentForSearchText(searchString)
         return true
@@ -176,7 +214,7 @@ class GoodsTableViewController: UITableViewController, NSXMLParserDelegate {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "goodSelectedFromGoodsTable" {
-            var svc = segue.destinationViewController as! GoodViewController
+            let svc = segue.destinationViewController as! GoodViewController
             svc.goodName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

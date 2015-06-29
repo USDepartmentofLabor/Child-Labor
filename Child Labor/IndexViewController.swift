@@ -53,7 +53,7 @@ class IndexViewController: UIViewController, UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Screen") as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("Screen")!
         
         switch indexPath.row {
         case 0:

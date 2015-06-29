@@ -8,18 +8,53 @@
 
 import UIKit
 
-class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, UISearchBarDelegate, UISearchDisplayDelegate {
+class CountriesTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate {
     
     @IBOutlet weak var countriesSearchBar: UISearchBar!
     
-    var parser = NSXMLParser()
-    var element = NSString()
-    var buffer = NSMutableString()
-    
-    var countries = NSMutableArray()
-    var regions = NSMutableArray()
-    
     var state = 0
+    
+    // Lists for countries in each letter section
+    var aCountries = NSMutableArray()
+    var bCountries = NSMutableArray()
+    var cCountries = NSMutableArray()
+    var dCountries = NSMutableArray()
+    var eCountries = NSMutableArray()
+    var fCountries = NSMutableArray()
+    var gCountries = NSMutableArray()
+    var hCountries = NSMutableArray()
+    var iCountries = NSMutableArray()
+    var jCountries = NSMutableArray()
+    var kCountries = NSMutableArray()
+    var lCountries = NSMutableArray()
+    var mCountries = NSMutableArray()
+    var nCountries = NSMutableArray()
+    var oCountries = NSMutableArray()
+    var pCountries = NSMutableArray()
+    var qCountries = NSMutableArray()
+    var rCountries = NSMutableArray()
+    var sCountries = NSMutableArray()
+    var tCountries = NSMutableArray()
+    var uCountries = NSMutableArray()
+    var vCountries = NSMutableArray()
+    var wCountries = NSMutableArray()
+    var xCountries = NSMutableArray()
+    var yCountries = NSMutableArray()
+    var zCountries = NSMutableArray()
+    
+    // Lists for countries in each advancement level section
+    var sigCountries = NSMutableArray()
+    var modCountries = NSMutableArray()
+    var minCountries = NSMutableArray()
+    var noCountries = NSMutableArray()
+    var noDataCountries = NSMutableArray()
+    
+    // Lists for countries in each region section
+    var asiaCountries = NSMutableArray()
+    var europeCountries = NSMutableArray()
+    var latinCountries = NSMutableArray()
+    var middleCountries = NSMutableArray()
+    var saharanCountries = NSMutableArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,46 +73,110 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         // Hide search bar by default
         self.tableView.setContentOffset(CGPointMake(0, 44), animated: false)
         
-        // Populate the list
-        var urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_country", ofType: "xml")
-        let url:NSURL = NSURL.fileURLWithPath(urlpath!)!
-        parser = NSXMLParser(contentsOfURL: url)!
-        parser.delegate = self
-        parser.parse()
+        // Get the country data
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        var countriesXML = SWXMLHash.parse(contents as! String)
         
-        var otherurlpath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
-        var contents = NSString(contentsOfFile: otherurlpath!, encoding: NSUTF8StringEncoding, error: nil)
-        let xml = SWXMLHash.parse(contents as! String)
-        
-        println(xml["Countries"]["Country"].all.count)
+        // For each country
+        for country in countriesXML["Countries"]["Country"] {
+            // Create lists of countries in each letter section
+            if Array((country["Name"].element?.text)!.characters)[0] == "A" {
+                aCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "B" {
+                bCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "C" {
+                cCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "D" {
+                dCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "E" {
+                eCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "F" {
+                fCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "G" {
+                gCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "H" {
+                hCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "I" {
+                iCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "J" {
+                jCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "K" {
+                kCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "L" {
+                lCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "M" {
+                mCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "N" {
+                nCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "O" {
+                oCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "P" {
+                pCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "Q" {
+                qCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "R" {
+                rCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "S" {
+                sCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "T" {
+                tCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "U" {
+                uCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "V" {
+                vCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "W" {
+                wCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "X" {
+                xCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "Y" {
+                yCountries.addObject((country["Name"].element?.text)!)
+            } else if Array((country["Name"].element?.text)!.characters)[0] == "Z" {
+                zCountries.addObject((country["Name"].element?.text)!)
+            }
+
+            // Create lists of countries in each advancement level section
+            if country["Advancement_Level"].element?.text == "Significant Advancement" {
+                sigCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Advancement_Level"].element?.text == "Moderate Advancement" {
+                modCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Advancement_Level"].element?.text == "Minimal Advancement" {
+                minCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Advancement_Level"].element?.text == "No Advancement" {
+                noCountries.addObject((country["Name"].element?.text)!)
+            } else {
+                noDataCountries.addObject((country["Name"].element?.text)!)
+            }
+
+            // Create lists of countries in each region section
+            if country["Region"].element?.text == "Asia & Pacific" {
+                asiaCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Region"].element?.text == "Europe & Eurasia" {
+                europeCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Region"].element?.text == "Latin America & Caribbean" {
+                latinCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Region"].element?.text == "Middle East & North Africa" {
+                middleCountries.addObject((country["Name"].element?.text)!)
+            } else if country["Region"].element?.text == "Sub-Saharan Africa" {
+                saharanCountries.addObject((country["Name"].element?.text)!)
+            }
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
-        if let tableIndex = self.tableView.indexPathForSelectedRow() {
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
         }
     }
     
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [NSObject : AnyObject]) {
-        element = elementName
-        
-        buffer = NSMutableString.alloc()
-        buffer = ""
-    }
-    
-    func parser(parser: NSXMLParser, foundCharacters string: String?) {
-        buffer.appendString(string!)
-    }
-    
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "Country_Name" {
-            countries.addObject(buffer)
-        }
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -103,7 +202,7 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         case 2:
             return 5
             
-        // For region mode
+        // Default
         default:
             return 1
         }
@@ -116,7 +215,7 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         // For A–Z mode
         case 0:
             // Set section title for each letter of the alphabet
-            return String(Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ")[section])
+            return String(Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[section])
         
         // For assessment level mode
         case 1:
@@ -148,7 +247,7 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
                 return "Sub-Saharan Africa"
             }
         
-        // For region mode
+        // Default
         default:
             return "All Countries"
         }
@@ -162,56 +261,207 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         
         // For A–Z mode
         case 0:
+            // Get the letter for this section
+            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[section]
             
-            var letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ")[section]
-            
-            // Count countries starting with this letter
-            var numberOfCountriesStartingWithThisLetter = 0
-            for country in countries {
-                if Array((country as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()))[0] == letter {
-                    numberOfCountriesStartingWithThisLetter++
-                }
+            switch section {
+            case 0:
+                return aCountries.count
+            case 1:
+                return bCountries.count
+            case 2:
+                return cCountries.count
+            case 3:
+                return dCountries.count
+            case 4:
+                return eCountries.count
+            case 5:
+                return fCountries.count
+            case 6:
+                return gCountries.count
+            case 7:
+                return hCountries.count
+            case 8:
+                return iCountries.count
+            case 9:
+                return jCountries.count
+            case 10:
+                return kCountries.count
+            case 11:
+                return lCountries.count
+            case 12:
+                return mCountries.count
+            case 13:
+                return nCountries.count
+            case 14:
+                return oCountries.count
+            case 15:
+                return pCountries.count
+            case 16:
+                return qCountries.count
+            case 17:
+                return rCountries.count
+            case 18:
+                return sCountries.count
+            case 19:
+                return tCountries.count
+            case 20:
+                return uCountries.count
+            case 21:
+                return vCountries.count
+            case 22:
+                return wCountries.count
+            case 23:
+                return xCountries.count
+            case 24:
+                return yCountries.count
+            case 25:
+                return zCountries.count
+            default:
+                return aCountries.count
             }
-            
-            return numberOfCountriesStartingWithThisLetter
             
         // For assessment level mode
         case 1:
-            return 5
-            
-        // For region mode
-        case 2:
-            return 5
+            switch section {
+            case 0:
+                return sigCountries.count
+            case 1:
+                return modCountries.count
+            case 2:
+                return minCountries.count
+            case 3:
+                return noCountries.count
+            default:
+                return noDataCountries.count
+            }
             
         // For region mode
         default:
-            return countries.count
+            switch section {
+            case 0:
+                return asiaCountries.count
+            case 1:
+                return europeCountries.count
+            case 2:
+                return latinCountries.count
+            case 3:
+                return middleCountries.count
+            default:
+                return saharanCountries.count
+            }
         }
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell")!
         
-        // Determine index of first country with this letter
-        var letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ")[indexPath.section]
+        var countryName = ""
         
-        // Count countries starting with this letter
-        var startingCountryIndex = 0
-        for country in countries {
-            if Array((country as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()))[0] != letter {
-                startingCountryIndex++
-            } else {
-                break;
+        // Determine the grouping the user has selected
+        switch state {
+            
+        // For A–Z mode
+        case 0:
+            // Determine index of first country with this letter
+            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[indexPath.section]
+            
+            switch indexPath.section {
+            case 0:
+                countryName = aCountries[indexPath.row] as! String
+            case 1:
+                countryName = bCountries[indexPath.row] as! String
+            case 2:
+                countryName = cCountries[indexPath.row] as! String
+            case 3:
+                countryName = dCountries[indexPath.row] as! String
+            case 4:
+                countryName = eCountries[indexPath.row] as! String
+            case 5:
+                countryName = fCountries[indexPath.row] as! String
+            case 6:
+                countryName = gCountries[indexPath.row] as! String
+            case 7:
+                countryName = hCountries[indexPath.row] as! String
+            case 8:
+                countryName = iCountries[indexPath.row] as! String
+            case 9:
+                countryName = jCountries[indexPath.row] as! String
+            case 10:
+                countryName = kCountries[indexPath.row] as! String
+            case 11:
+                countryName = lCountries[indexPath.row] as! String
+            case 12:
+                countryName = mCountries[indexPath.row] as! String
+            case 13:
+                countryName = nCountries[indexPath.row] as! String
+            case 14:
+                countryName = oCountries[indexPath.row] as! String
+            case 15:
+                countryName = pCountries[indexPath.row] as! String
+            case 16:
+                countryName = qCountries[indexPath.row] as! String
+            case 17:
+                countryName = rCountries[indexPath.row] as! String
+            case 18:
+                countryName = sCountries[indexPath.row] as! String
+            case 19:
+                countryName = tCountries[indexPath.row] as! String
+            case 20:
+                countryName = uCountries[indexPath.row] as! String
+            case 21:
+                countryName = vCountries[indexPath.row] as! String
+            case 22:
+                countryName = wCountries[indexPath.row] as! String
+            case 23:
+                countryName = xCountries[indexPath.row] as! String
+            case 24:
+                countryName = yCountries[indexPath.row] as! String
+            case 25:
+                countryName = zCountries[indexPath.row] as! String
+            default:
+                countryName = aCountries[indexPath.row] as! String
+            }
+            
+        // For assessment level mode
+        case 1:
+            
+            switch indexPath.section {
+            case 0:
+                countryName = sigCountries[indexPath.row] as! String
+            case 1:
+                countryName = modCountries[indexPath.row] as! String
+            case 2:
+                countryName = minCountries[indexPath.row] as! String
+            case 3:
+                countryName = noCountries[indexPath.row] as! String
+            default:
+                countryName = noDataCountries[indexPath.row] as! String
+            }
+            
+        // For region mode
+        default:
+            
+            switch indexPath.section {
+            case 0:
+                countryName = asiaCountries[indexPath.row] as! String
+            case 1:
+                countryName = europeCountries[indexPath.row] as! String
+            case 2:
+                countryName = latinCountries[indexPath.row] as! String
+            case 3:
+                countryName = middleCountries[indexPath.row] as! String
+            default:
+                countryName = saharanCountries[indexPath.row] as! String
             }
         }
         
-        var countryName = (countries.objectAtIndex(startingCountryIndex + indexPath.row) as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-
+        // Set cell title and icon
         cell.textLabel?.text = countryName
         let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil))
         cell.imageView?.image = flagImage
         
-        // Resize icons
+        // Resize icon
         if (flagImage != nil) {
             let adjustedWidth = flagImage!.size.width * 44 / flagImage!.size.height
             
@@ -234,7 +484,7 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         return cell
     }
     
-    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject] {
+    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
         // Determine the grouping the user has selected
         switch state {
         
@@ -242,14 +492,19 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
         case 0:
             return ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
             
+//        case 1:
+//            return ["Sig", "Mod", "Min", "No", "N/A"]
+//            
+//        case 2:
+//            return ["Asi", "Eur", "Lat", "Mid", "Afr"]
+            
         // For other modes, no section index is necessary
         default:
             return Array()
         }
     }
-
     
-    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String!) -> Bool {
+    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String?) -> Bool {
 //        self.filterContentForSearchText(searchString)
         return true
     }
@@ -304,7 +559,7 @@ class CountriesTableViewController: UITableViewController, NSXMLParserDelegate, 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "countrySelectedFromCountriesTable" {
-            var svc = segue.destinationViewController as! CountryViewController
+            let svc = segue.destinationViewController as! CountryViewController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

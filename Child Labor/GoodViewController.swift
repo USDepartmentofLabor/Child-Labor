@@ -12,6 +12,9 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
     
     var goodName = "Cotton"
     
+    var countriesXML = SWXMLHash.parse("<xml></xml>")
+    var goodsXML = SWXMLHash.parse("<xml></xml>")
+    
     var parser = NSXMLParser()
     var currentGood = ""
     var countries = NSMutableArray()
@@ -37,11 +40,29 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
         goodTitle.text = goodName
         goodImage.image = UIImage(named:goodName)!
 
-        var urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_good", ofType: "xml")
-        let url:NSURL = NSURL.fileURLWithPath(urlpath!)!
+        let urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_good", ofType: "xml")
+        let url:NSURL = NSURL.fileURLWithPath(urlpath!)
         parser = NSXMLParser(contentsOfURL: url)!
         parser.delegate = self
         parser.parse()
+        
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        countriesXML = SWXMLHash.parse(contents as! String)
+        
+        let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
+        var contentsGoods: NSString?
+        do {
+            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contentsGoods = nil
+        }
+        goodsXML = SWXMLHash.parse(contentsGoods as! String)
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,7 +70,7 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
         // Dispose of any resources that can be recreated.
     }
     
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [NSObject : AnyObject]) {
+    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
         element = elementName
         
         buffer = NSMutableString.alloc()
@@ -133,16 +154,16 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Country") as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("Country")!
         
-        var countryName = (countries.objectAtIndex(indexPath.row) as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        let countryName = (countries.objectAtIndex(indexPath.row) as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
         
         //
-        var clView : UIView? = cell.viewWithTag(101)
-        var flView : UIView? = cell.viewWithTag(102)
+        let clView : UIView? = cell.viewWithTag(101)
+        let flView : UIView? = cell.viewWithTag(102)
         
-        var clImage : UIImageView? = clView!.viewWithTag(201) as? UIImageView
-        var clLabel : UILabel? = clView!.viewWithTag(202) as? UILabel
+        let clImage : UIImageView? = clView!.viewWithTag(201) as? UIImageView
+        let clLabel : UILabel? = clView!.viewWithTag(202) as? UILabel
         
         cell.textLabel?.text = countryName
         let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil))
@@ -202,7 +223,7 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "countrySelectedFromGoodView" {
-            var svc = segue.destinationViewController as! CountryViewController
+            let svc = segue.destinationViewController as! CountryViewController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

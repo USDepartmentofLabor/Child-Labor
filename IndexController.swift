@@ -23,7 +23,6 @@ class IndexController: UITableViewController {
         self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-//        self.navigationController?.toolbar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
         
         // Background image
         let bgImageView = UIImageView(image: UIImage(named: "eo"))
@@ -35,7 +34,7 @@ class IndexController: UITableViewController {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
-        if let tableIndex = self.tableView.indexPathForSelectedRow() {
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
         }
     }

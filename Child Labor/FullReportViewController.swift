@@ -17,12 +17,12 @@ class FullReportViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         // Get the contents of the file to load
-        var localFilePath = NSBundle.mainBundle().pathForResource("Brazil", ofType: "pdf")
-        var targetURL = NSURL.fileURLWithPath(localFilePath!)
+        let localFilePath = NSBundle.mainBundle().pathForResource("Brazil", ofType: "pdf")
+        let targetURL = NSURL.fileURLWithPath(localFilePath!)
 
-        var pdfData = NSData(contentsOfURL: targetURL!)
+        let pdfData = NSData(contentsOfURL: targetURL)
         
-        webView.loadData(pdfData, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: nil)
+//        webView.loadData(pdfData!, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: nil)
     }
 
     @IBAction func closeFullReport(sender: AnyObject) {

@@ -8,25 +8,22 @@
 
 import UIKit
 
-class CountryViewController: UIViewController, NSXMLParserDelegate, UITableViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
+class CountryViewController: UIViewController, UITableViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var countryName = "Brazil"
     
-    var parser = NSXMLParser()
-    var currentCountry = ""
+    var countriesXML = SWXMLHash.parse("<xml></xml>")
+    var goodsXML = SWXMLHash.parse("<xml></xml>")
+    
     var goods = NSMutableArray()
-    var goodsExploitationType = NSMutableArray()
-    var clType = false
-    var flType = false
-    var fclType = false
-
-    var element = NSString()
-    var buffer = NSMutableString()
+    var exploitations = NSMutableArray()
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var countryTitle: UILabel!
+    @IBOutlet weak var advancementLevel: UILabel!
     @IBOutlet weak var countryProfile: UILabel!
     @IBOutlet weak var listHeader: UILabel!
+    @IBOutlet weak var countryMap: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,118 +31,111 @@ class CountryViewController: UIViewController, NSXMLParserDelegate, UITableViewD
         // Do any additional setup after loading the view.
         
         // Set view title
-        self.title = countryName
+        self.title = self.countryName
         
         // Set labels
-        countryTitle.text = countryName
+        countryTitle.text = self.countryName
         
-        // Parse the country's data
-        var urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_country", ofType: "xml")
-        let url:NSURL = NSURL.fileURLWithPath(urlpath!)!
-        parser = NSXMLParser(contentsOfURL: url)!
-        parser.delegate = self
-        parser.parse()
+        // Get the country data
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        countriesXML = SWXMLHash.parse(contents as! String)
+        
+        // Get the goods data
+        let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
+        var contentsGoods: NSString?
+        do {
+            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contentsGoods = nil
+        }
+        goodsXML = SWXMLHash.parse(contentsGoods as! String)
+        
+        for country in countriesXML["Countries"]["Country"] {
+            if country["Name"].element?.text == self.countryName {
+                advancementLevel.text = country["Advancement_Level"].element?.text
+                countryProfile.text = country["Description"].element?.text
+                countryMap.image = UIImage(named: (country["Name"].element?.text)! + "-map")
+                
+                for good in country["Goods"]["Good"] {
+                    goods.addObject((good["Good_Name"].element?.text)!)
+                    
+                    // Add the exploitation type to an array
+                    if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "No" {
+                        exploitations.addObject(0)
+                    } else if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "No" {
+                        exploitations.addObject(1)
+                    } else if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "Yes" && good["Forced_Child_Labor"].element?.text == "No" {
+                        exploitations.addObject(2)
+                    } else {
+                        exploitations.addObject(3)
+                    }
+                }
+                
+                break;
+            }
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
-        if let tableIndex = self.tableView.indexPathForSelectedRow() {
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
         }
     }
     
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [NSObject : AnyObject]) {
-        element = elementName
-        
-        buffer = NSMutableString.alloc()
-        buffer = ""
-        
-        if elementName == "Good" {
-            clType = false
-            flType = false
-            fclType = false
-        }
-    }
-    
-    func parser(parser: NSXMLParser, foundCharacters string: String?) {
-        buffer.appendString(string!)
-    }
-    
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "Country_Name" {
-            currentCountry = buffer as String
-        }
-        
-        if elementName == "Child_Labor" {
-            if (buffer as String == "T") {
-                clType = true
-            }
-        }
-        
-        if elementName == "Forced_Labor" {
-            if (buffer as String == "T") {
-                flType = true
-            }
-        }
-        
-        if elementName == "Forced_Child_Labor" {
-            if (buffer as String == "T") {
-                fclType = true
-            }
-        }
-        
-        if elementName == "Good_Name" {
-            if currentCountry == countryName {
-                goods.addObject(buffer)
-            }
-        }
-        
-        if elementName == "Good" {
-            if currentCountry == countryName {
-                if clType && !flType && !fclType {
-                    goodsExploitationType.addObject(0)
-                } else if !clType && flType && !fclType {
-                    goodsExploitationType.addObject(1)
-                } else if clType && flType && !fclType {
-                    goodsExploitationType.addObject(2)
-                } else {
-                    goodsExploitationType.addObject(3)
-                }
-            }
-        }
-    }
-    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        listHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITED LABOR"
-
-        return goods.count
+        for country in countriesXML["Countries"]["Country"] {
+            if country["Name"].element?.text == self.countryName {
+                let numGoods = country["Goods"]["Good"].all.count
+                
+                listHeader.text = String(numGoods) + " GOOD" + (numGoods == 1 ? "" : "S") + " PRODUCED WITH EXPLOITED LABOR"
+                
+                return numGoods
+            }
+        }
+        
+        return 0
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Good", forIndexPath: indexPath) as! UICollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Good", forIndexPath: indexPath) as UICollectionViewCell
         
         //
-        var goodButton : UIButton? = cell.viewWithTag(201) as? UIButton
-        var goodLabel : UILabel? = cell.viewWithTag(301) as? UILabel
+        let goodButton : UIButton? = cell.viewWithTag(201) as? UIButton
+        let goodLabel : UILabel? = cell.viewWithTag(301) as? UILabel
         
         //
-        var cl : UIView? = cell.viewWithTag(101)
-        var fl : UIView? = cell.viewWithTag(102)
+        let cl : UIView? = cell.viewWithTag(101)
+        let fl : UIView? = cell.viewWithTag(102)
         
-        var clImage : UIImageView? = cl!.viewWithTag(401) as? UIImageView
-        var clLabel : UILabel? = cl!.viewWithTag(402) as? UILabel
+        let clImage : UIImageView? = cl!.viewWithTag(401) as? UIImageView
+        let clLabel : UILabel? = cl!.viewWithTag(402) as? UILabel
+        
+        var countryIndex = 0
+        for country in countriesXML["Countries"]["Country"] {
+            if country["Name"].element?.text != self.countryName {
+                countryIndex++
+            } else {
+                break;
+            }
+        }
         
         // Parse out the name of the good
-        var goodName = ((goods[indexPath.row]) as! String).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        let goodName = countriesXML["Countries"]["Country"][countryIndex]["Goods"]["Good"][indexPath.row]["Good_Name"].element?.text
         
         goodLabel?.text = goodName
+        goodButton!.setImage(UIImage(named:goodName!)?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
         
-        goodButton!.setImage(UIImage(named:goodName)?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
-        
-        // Hide
-        switch goodsExploitationType.objectAtIndex(indexPath.row) as! Int {
+        // 
+        switch exploitations[indexPath.row] as! Int {
         case 0:
             cl?.hidden = false
             fl?.hidden = true
@@ -162,7 +152,7 @@ class CountryViewController: UIViewController, NSXMLParserDelegate, UITableViewD
             clLabel?.textColor = UIColor.blackColor()
             clLabel?.text = "F. Child"
         }
-        
+
         return cell
     }
     
@@ -184,7 +174,7 @@ class CountryViewController: UIViewController, NSXMLParserDelegate, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Indicator") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Indicator")!
         
         switch indexPath.section {
         case 0:
