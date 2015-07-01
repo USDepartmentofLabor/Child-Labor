@@ -68,7 +68,7 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
                     // Add the exploitation type to an array
                     if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "No" {
                         exploitations.addObject(0)
-                    } else if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "No" {
+                    } else if good["Child_Labor"].element?.text == "No" && good["Forced_Labor"].element?.text == "Yes" {
                         exploitations.addObject(1)
                     } else if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "Yes" && good["Forced_Child_Labor"].element?.text == "No" {
                         exploitations.addObject(2)
@@ -132,19 +132,28 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
         let goodName = countriesXML["Countries"]["Country"][countryIndex]["Goods"]["Good"][indexPath.row]["Good_Name"].element?.text
         
         goodLabel?.text = goodName
-        goodButton!.setImage(UIImage(named:goodName!)?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
+        goodButton!.setImage(UIImage(named:goodName!.stringByReplacingOccurrencesOfString("/", withString: ":"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
         
         // 
         switch exploitations[indexPath.row] as! Int {
         case 0:
             cl?.hidden = false
             fl?.hidden = true
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
         case 1:
             cl?.hidden = true
             fl?.hidden = false
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
         case 2:
             cl?.hidden = false
             fl?.hidden = false
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
         default:
             cl?.hidden = false
             fl?.hidden = false
@@ -184,7 +193,7 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
             case 1:
                 cell.textLabel?.text = "Statistics"
             case 2:
-                cell.textLabel?.text = "Conventions"
+                cell.textLabel?.text = "International Conventions"
             default:
                 cell.textLabel?.text = "Laws"
             }
@@ -227,14 +236,12 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
     }
     
 
-    /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "goodSelectedFromCountryProfile" {
+            let svc = segue.destinationViewController as! GoodViewController
+            svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
+        }
     }
-    */
 
 }

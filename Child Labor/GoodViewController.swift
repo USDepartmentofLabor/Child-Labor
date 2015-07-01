@@ -38,7 +38,7 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
         // Do any additional setup after loading the view.
         self.title = goodName
         goodTitle.text = goodName
-        goodImage.image = UIImage(named:goodName)!
+        goodImage.image = UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))!
 
         let urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_good", ofType: "xml")
         let url:NSURL = NSURL.fileURLWithPath(urlpath!)

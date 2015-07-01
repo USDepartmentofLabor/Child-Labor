@@ -111,4 +111,14 @@ class IndexController: UITableViewController {
     }
     */
 
+    @IBAction func openIlabWebsite(sender: AnyObject) {
+        // Open website
+        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov/ilab/")!)
+    }
+    
+    @IBAction func openDolWebsite(sender: AnyObject) {
+        // Open website
+        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov")!)
+    }
+    
 }

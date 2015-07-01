@@ -166,7 +166,7 @@ class GoodsTableViewController: UITableViewController {
         cell.textLabel?.text = goodName
         cell.detailTextLabel?.text = String(numCountriesByGood[goodName]!)
         
-        cell.imageView?.image = UIImage(named: goodName)
+        cell.imageView?.image = UIImage(named: goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))
         
         // Resize icons
         let rect = CGRectMake(0, 0, 33, 33)
