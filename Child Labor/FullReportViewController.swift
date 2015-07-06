@@ -9,6 +9,8 @@
 import UIKit
 
 class FullReportViewController: UIViewController {
+    
+    var countryName = "Brazil"
 
     @IBOutlet weak var webView: UIWebView!
     
@@ -17,12 +19,12 @@ class FullReportViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         // Get the contents of the file to load
-        let localFilePath = NSBundle.mainBundle().pathForResource("Brazil", ofType: "pdf")
+        let localFilePath = NSBundle.mainBundle().pathForResource(countryName, ofType: "pdf")
         let targetURL = NSURL.fileURLWithPath(localFilePath!)
 
         let pdfData = NSData(contentsOfURL: targetURL)
         
-//        webView.loadData(pdfData!, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: nil)
+        webView.loadData(pdfData!, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL())
     }
 
     @IBAction func closeFullReport(sender: AnyObject) {

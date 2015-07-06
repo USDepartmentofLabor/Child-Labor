@@ -32,9 +32,6 @@ class GoodsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Hide search bar by default
-        self.tableView.setContentOffset(CGPointMake(0, 44), animated: false)
-        
         // Populate the list
         let urlPath = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
         var contents: NSString?
@@ -201,16 +198,6 @@ class GoodsTableViewController: UITableViewController {
 //        }
 //    }
     
-    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String!) -> Bool {
-        //        self.filterContentForSearchText(searchString)
-        return true
-    }
-    
-    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
-        //        self.filterContentForSearchText(self.searchDisplayController!.searchBar.text)
-        return true
-    }
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "goodSelectedFromGoodsTable" {

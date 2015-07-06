@@ -8,29 +8,22 @@
 
 import UIKit
 
-class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDelegate {
+class GoodViewController: UIViewController, UITableViewDelegate {
     
     var goodName = "Cotton"
     
     var countriesXML = SWXMLHash.parse("<xml></xml>")
     var goodsXML = SWXMLHash.parse("<xml></xml>")
     
-    var parser = NSXMLParser()
-    var currentGood = ""
     var countries = NSMutableArray()
-    var countryExploitationType = NSMutableArray()
-    var clType = false
-    var flType = false
-    var fclType = false
-    var elements = NSMutableDictionary()
-    var element = NSString()
-    var buffer = NSMutableString()
-    var sortedArray = NSArray()
+    var exploitations = NSMutableArray()
     
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var goodImage: UIImageView!
     @IBOutlet weak var goodTitle: UILabel!
+    
+    @IBOutlet weak var sector: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,12 +33,6 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
         goodTitle.text = goodName
         goodImage.image = UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))!
 
-        let urlpath = NSBundle.mainBundle().pathForResource("all_goods_by_good", ofType: "xml")
-        let url:NSURL = NSURL.fileURLWithPath(urlpath!)
-        parser = NSXMLParser(contentsOfURL: url)!
-        parser.delegate = self
-        parser.parse()
-        
         let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
         var contents: NSString?
         do {
@@ -63,71 +50,43 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
             contentsGoods = nil
         }
         goodsXML = SWXMLHash.parse(contentsGoods as! String)
+        
+        for good in goodsXML["Goods"]["Good"] {
+            if good["Good_Name"].element?.text == self.goodName {
+                sector.text = good["Good_Sector"].element?.text
+                
+                for country in good["Countries"]["Country"] {
+                    countries.addObject((country["Country_Name"].element?.text)!)
+                    
+                    // Add the exploitation type to an array
+                    if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" {
+                        exploitations.addObject(0)
+                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" {
+                        exploitations.addObject(1)
+                    } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" {
+                        exploitations.addObject(2)
+                    } else {
+                        exploitations.addObject(3)
+                    }
+                }
+                
+                break;
+            }
+        }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Clears selection on viewWillAppear
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
-        element = elementName
-        
-        buffer = NSMutableString.alloc()
-        buffer = ""
-        
-        if elementName == "Country" {
-            clType = false
-            flType = false
-            fclType = false
-        }
-    }
-    
-    func parser(parser: NSXMLParser, foundCharacters string: String?) {
-        buffer.appendString(string!)
-    }
-    
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "Good_Name" {
-            currentGood = buffer as String
-        }
-        
-        if elementName == "Child_Labor" {
-            if (buffer as String == "T") {
-                clType = true
-            }
-        }
-        if elementName == "Forced_Labor" {
-            if (buffer as String == "T") {
-                flType = true
-            }
-        }
-        if elementName == "Forced_Child_Labor" {
-            if (buffer as String == "T") {
-                fclType = true
-            }
-        }
-
-        
-        if elementName == "Country_Name" {
-            if currentGood == goodName {
-                countries.addObject(buffer)
-            }
-        }
-        if elementName == "Country" {
-            if currentGood == goodName {
-                if clType && !flType && !fclType {
-                    countryExploitationType.addObject(0)
-                } else if !clType && flType && !fclType {
-                    countryExploitationType.addObject(1)
-                } else if clType && flType && !fclType {
-                    countryExploitationType.addObject(2)
-                } else {
-                    countryExploitationType.addObject(3)
-                }
-                
-            }
-        }
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -159,11 +118,11 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
         let countryName = (countries.objectAtIndex(indexPath.row) as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
         
         //
-        let clView : UIView? = cell.viewWithTag(101)
-        let flView : UIView? = cell.viewWithTag(102)
+        let cl : UIView? = cell.viewWithTag(101)
+        let fl : UIView? = cell.viewWithTag(102)
         
-        let clImage : UIImageView? = clView!.viewWithTag(201) as? UIImageView
-        let clLabel : UILabel? = clView!.viewWithTag(202) as? UILabel
+        let clImage : UIImageView? = cl!.viewWithTag(201) as? UIImageView
+        let clLabel : UILabel? = cl!.viewWithTag(202) as? UILabel
         
         cell.textLabel?.text = countryName
         let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil))
@@ -189,31 +148,33 @@ class GoodViewController: UIViewController, NSXMLParserDelegate, UITableViewDele
             }
         }
         
-        // Hide
-        switch countryExploitationType.objectAtIndex(indexPath.row) as! Int {
+        //
+        switch exploitations[indexPath.row] as! Int {
         case 0:
-            clView?.hidden = false
-            flView?.hidden = true
+            cl?.hidden = false
+            fl?.hidden = true
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
         case 1:
-            clView?.hidden = true
-            flView?.hidden = false
+            cl?.hidden = true
+            fl?.hidden = false
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
         case 2:
-            clView?.hidden = false
-            flView?.hidden = false
-        case 3:
-            clView?.hidden = false
-            flView?.hidden = false
-            
+            cl?.hidden = false
+            fl?.hidden = false
+            clImage?.image = UIImage(named: "hand")
+            clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+            clLabel?.text = "Child"
+        default:
+            cl?.hidden = false
+            fl?.hidden = false
             clImage?.image = UIImage(named: "hand-black")
             clLabel?.textColor = UIColor.blackColor()
-            clLabel?.text = "Forced Child"
-        default:
-            break
+            clLabel?.text = "F. Child"
         }
-        
-        // Because of iOS 7+ bug, cell background needs to be set to transparent after all other manipulations of the cell, or it reverts back to white
-        cell.backgroundColor = UIColor.clearColor()
-        cell.contentView.backgroundColor = UIColor.clearColor()
         
         return cell
     }

@@ -12,8 +12,6 @@ class IndexViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
-    @IBOutlet weak var toolbar: UIToolbar!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,13 +22,19 @@ class IndexViewController: UIViewController, UITableViewDelegate {
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         
-//        self.toolbar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
-//        self.toolbar.tintColor = UIColor.whiteColor()
-        
         // Background image
         let bgImageView = UIImageView(image: UIImage(named: "eo"))
         bgImageView.contentMode = UIViewContentMode.ScaleAspectFill
         self.tableView.backgroundView = bgImageView
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Clears selection on viewWillAppear
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,7 +70,29 @@ class IndexViewController: UIViewController, UITableViewDelegate {
         
         return cell
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        switch indexPath.row {
+        case 0:
+            self.performSegueWithIdentifier("countriesSelectedFromIndex", sender: self)
+        case 1:
+            self.performSegueWithIdentifier("goodsSelectedFromIndex", sender: self)
+        default:
+            self.performSegueWithIdentifier("exploitationSelectedFromIndex", sender: self)
+        }
+    }
 
+    @IBAction func openIlabWebsite(sender: AnyObject) {
+        // Open website
+        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov/ilab/")!)
+    }
+    
+    @IBAction func openDolWebsite(sender: AnyObject) {
+        // Open website
+        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov")!)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

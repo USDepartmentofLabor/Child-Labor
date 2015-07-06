@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CountriesTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate {
+class CountriesTableViewController: UITableViewController {
     
     @IBOutlet weak var countriesSearchBar: UISearchBar!
     
@@ -65,13 +65,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate, 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        self.countriesSearchBar.delegate = self
-        
         // Give section index a clear background
         self.tableView.sectionIndexBackgroundColor = UIColor.clearColor()
-        
-        // Hide search bar by default
-        self.tableView.setContentOffset(CGPointMake(0, 44), animated: false)
         
         // Get the country data
         let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
@@ -262,7 +257,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate, 
         // For A–Z mode
         case 0:
             // Get the letter for this section
-            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[section]
+//            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[section]
             
             switch section {
             case 0:
@@ -364,7 +359,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate, 
         // For A–Z mode
         case 0:
             // Determine index of first country with this letter
-            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[indexPath.section]
+//            let letter = Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[indexPath.section]
             
             switch indexPath.section {
             case 0:
@@ -504,16 +499,6 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate, 
         }
     }
     
-    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchString searchString: String?) -> Bool {
-//        self.filterContentForSearchText(searchString)
-        return true
-    }
-    
-    func searchDisplayController(controller: UISearchDisplayController, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
-//        self.filterContentForSearchText(self.searchDisplayController!.searchBar.text)
-        return true
-    }
-
     @IBAction func groupChanged(sender: UISegmentedControl) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()

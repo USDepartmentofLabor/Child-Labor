@@ -458,8 +458,6 @@
 		8347AA0A1B3F597300C439BA /* Tokelau.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA091B3F597300C439BA /* Tokelau.png */; };
 		8347AA0C1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */; };
 		8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascension_and_Tristan_da_Cunha_(formerly_called_Saint_Helena).png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension_and_Tristan_da_Cunha_(formerly_called_Saint_Helena).png */; };
-		83503C471AF295500065CDD1 /* all_goods_by_country.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83503C461AF295500065CDD1 /* all_goods_by_country.xml */; };
-		83503C491AF297AA0065CDD1 /* all_goods_by_good.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83503C481AF297AA0065CDD1 /* all_goods_by_good.xml */; };
 		835537051B3DF9A80008A180 /* goods_by_good_2013.xml in Resources */ = {isa = PBXBuildFile; fileRef = 835537031B3DF9A80008A180 /* goods_by_good_2013.xml */; };
 		8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BBA81B3CC67C008C547A /* SWXMLHash.swift */; };
 		836633B41B2F0734007C127E /* ilab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B21B2F0734007C127E /* ilab@3x.png */; };
@@ -540,7 +538,6 @@
 		83800C841AA4D40300DD47EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83800C831AA4D40300DD47EB /* Images.xcassets */; };
 		83800C871AA4D40300DD47EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83800C851AA4D40300DD47EB /* LaunchScreen.xib */; };
 		83800C931AA4D40300DD47EB /* Child_LaborTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C921AA4D40300DD47EB /* Child_LaborTests.swift */; };
-		83800C9D1AA4D55200DD47EB /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C9C1AA4D55200DD47EB /* IndexController.swift */; };
 		83948AF51B38C23D00125260 /* Afghanistan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD51B38C23C00125260 /* Afghanistan.pdf */; };
 		83948AF61B38C23D00125260 /* Albania.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD61B38C23C00125260 /* Albania.pdf */; };
 		83948AF71B38C23D00125260 /* Algeria.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD71B38C23C00125260 /* Algeria.pdf */; };
@@ -1392,8 +1389,6 @@
 		8347AA091B3F597300C439BA /* Tokelau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokelau.png; sourceTree = "<group>"; };
 		8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heard_and_McDonald_Islands.png; sourceTree = "<group>"; };
 		8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension_and_Tristan_da_Cunha_(formerly_called_Saint_Helena).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint_Helena,_Ascension_and_Tristan_da_Cunha_(formerly_called_Saint_Helena).png"; sourceTree = "<group>"; };
-		83503C461AF295500065CDD1 /* all_goods_by_country.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = all_goods_by_country.xml; sourceTree = "<group>"; };
-		83503C481AF297AA0065CDD1 /* all_goods_by_good.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = all_goods_by_good.xml; sourceTree = "<group>"; };
 		835537031B3DF9A80008A180 /* goods_by_good_2013.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = goods_by_good_2013.xml; sourceTree = "<group>"; };
 		8364BBA81B3CC67C008C547A /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		836633B21B2F0734007C127E /* ilab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ilab@3x.png"; sourceTree = "<group>"; };
@@ -1478,7 +1473,6 @@
 		83800C8C1AA4D40300DD47EB /* Child LaborTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child LaborTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83800C911AA4D40300DD47EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83800C921AA4D40300DD47EB /* Child_LaborTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child_LaborTests.swift; sourceTree = "<group>"; };
-		83800C9C1AA4D55200DD47EB /* IndexController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexController.swift; path = ../IndexController.swift; sourceTree = "<group>"; };
 		83948AD51B38C23C00125260 /* Afghanistan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Afghanistan.pdf; sourceTree = "<group>"; };
 		83948AD61B38C23C00125260 /* Albania.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Albania.pdf; sourceTree = "<group>"; };
 		83948AD71B38C23C00125260 /* Algeria.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Algeria.pdf; sourceTree = "<group>"; };
@@ -2695,7 +2689,6 @@
 				83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */,
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
 				831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */,
-				83800C9C1AA4D55200DD47EB /* IndexController.swift */,
 				83263FC51B14CD5000F7F71D /* IndexViewController.swift */,
 				839C97C31B015D800054C83B /* GoodViewController.swift */,
 				83B1DE381AAD328A00E06742 /* GoodsTableViewController.swift */,
@@ -2717,8 +2710,6 @@
 				83948AD41B38C22800125260 /* PDFs */,
 				8337E41A1B3CD89100624D81 /* countries_2013.xml */,
 				835537031B3DF9A80008A180 /* goods_by_good_2013.xml */,
-				83503C461AF295500065CDD1 /* all_goods_by_country.xml */,
-				83503C481AF297AA0065CDD1 /* all_goods_by_good.xml */,
 				83B3E9891B3B519300742BC7 /* key-fcl@3x.png */,
 				83B3E9861B3B519300742BC7 /* key-fcl@2x.png */,
 				83B3E9851B3B519300742BC7 /* key-fl@3x.png */,
@@ -3045,7 +3036,6 @@
 				8310FE7E1ABB11310025F7AE /* Bahrain.png in Resources */,
 				83712E261B21D85A004E30E5 /* Footwear (sandals)-44@3x.png in Resources */,
 				8310FECB1ABB11310025F7AE /* Iran.png in Resources */,
-				83503C471AF295500065CDD1 /* all_goods_by_country.xml in Resources */,
 				83948B6E1B38C25C00125260 /* Moldova.pdf in Resources */,
 				8310FF451ABB11310025F7AE /* US_Virgin_Islands.png in Resources */,
 				83012C121B1E379D00EB3C92 /* Silk Thread-44@3x.png in Resources */,
@@ -3397,7 +3387,6 @@
 				8310FF2E1ABB11310025F7AE /* Sweden.png in Resources */,
 				83712E511B21E220004E30E5 /* Garments-44@3x.png in Resources */,
 				8310FF321ABB11310025F7AE /* Tajikistan.png in Resources */,
-				83503C491AF297AA0065CDD1 /* all_goods_by_good.xml in Resources */,
 				83B3E9931B3B5DA400742BC7 /* dol@2x.png in Resources */,
 				83E01D651B1E4A770079C399 /* Gems-44@2x.png in Resources */,
 				83E01D8F1B1E4C4E0079C399 /* Stones.png in Resources */,
@@ -3902,7 +3891,6 @@
 				83263FC61B14CD5000F7F71D /* IndexViewController.swift in Sources */,
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
 				839C97C41B015D800054C83B /* GoodViewController.swift in Sources */,
-				83800C9D1AA4D55200DD47EB /* IndexController.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				83B1DE391AAD328A00E06742 /* GoodsTableViewController.swift in Sources */,

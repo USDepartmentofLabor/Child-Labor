@@ -25,6 +25,10 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
     @IBOutlet weak var listHeader: UILabel!
     @IBOutlet weak var countryMap: UIImageView!
     
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var scrollContent: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -230,6 +234,19 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
         }
     }
 
+    @IBAction func showEntireProfile(sender: AnyObject) {
+        // Expand the label with the profile in it
+        self.countryProfile.numberOfLines = 0
+        self.countryProfile.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        self.countryProfile.sizeToFit()
+        
+        // Hide the "more" button
+        (sender as! UIView).hidden = true
+        
+        // Expand the size of the scroll content view
+        self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.width, countryProfile.frame.height + 575)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -241,6 +258,9 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
         if segue.identifier == "goodSelectedFromCountryProfile" {
             let svc = segue.destinationViewController as! GoodViewController
             svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
+        } else if segue.identifier == "presentFullReportDocument" {
+            let svc = segue.destinationViewController as! FullReportViewController
+            svc.countryName = self.countryName
         }
     }
 
