@@ -784,11 +784,8 @@
 		8398F2881B442A7E00CA215E /* Soap-44@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8398F2851B442A7E00CA215E /* Soap-44@3x.png */; };
 		8398F2891B442A7E00CA215E /* Soap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8398F2861B442A7E00CA215E /* Soap.png */; };
 		8398F28A1B442A7E00CA215E /* Soap-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8398F2871B442A7E00CA215E /* Soap-44@2x.png */; };
-		839C97C21B015D6B0054C83B /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839C97C11B015D6B0054C83B /* CountryViewController.swift */; };
-		839C97C41B015D800054C83B /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839C97C31B015D800054C83B /* GoodViewController.swift */; };
 		839C97C81B017BB50054C83B /* Baked Goods@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 839C97C61B017BB50054C83B /* Baked Goods@2x.png */; };
 		839C97CA1B017C040054C83B /* Baked Goods-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 839C97C91B017C040054C83B /* Baked Goods-44@2x.png */; };
-		83B1DE391AAD328A00E06742 /* GoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1DE381AAD328A00E06742 /* GoodsTableViewController.swift */; };
 		83B1DE3D1AAD3BB100E06742 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */; };
 		83B262C71B4CA9DC00D78041 /* countries_xls_2013.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83B262C61B4CA9DC00D78041 /* countries_xls_2013.xml */; };
 		83B262C91B4CC44E00D78041 /* British_Indian_Ocean_Territories.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B262C81B4CC44E00D78041 /* British_Indian_Ocean_Territories.png */; };
@@ -931,6 +928,9 @@
 		83E01DAC1B1E4EC40079C399 /* Tobacco-44@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E01DA91B1E4EC40079C399 /* Tobacco-44@3x.png */; };
 		83E01DAD1B1E4EC40079C399 /* Tobacco-44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E01DAA1B1E4EC40079C399 /* Tobacco-44@2x.png */; };
 		83E01DAE1B1E4EC40079C399 /* Tobacco.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E01DAB1B1E4EC40079C399 /* Tobacco.png */; };
+		83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF039D1B4D943200C2AECE /* GoodController.swift */; };
+		83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */; };
+		83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF03A11B4D9DE200C2AECE /* CountryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1725,11 +1725,8 @@
 		8398F2851B442A7E00CA215E /* Soap-44@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soap-44@3x.png"; sourceTree = "<group>"; };
 		8398F2861B442A7E00CA215E /* Soap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soap.png; sourceTree = "<group>"; };
 		8398F2871B442A7E00CA215E /* Soap-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Soap-44@2x.png"; sourceTree = "<group>"; };
-		839C97C11B015D6B0054C83B /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
-		839C97C31B015D800054C83B /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 		839C97C61B017BB50054C83B /* Baked Goods@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baked Goods@2x.png"; sourceTree = "<group>"; };
 		839C97C91B017C040054C83B /* Baked Goods-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baked Goods-44@2x.png"; sourceTree = "<group>"; };
-		83B1DE381AAD328A00E06742 /* GoodsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsTableViewController.swift; sourceTree = "<group>"; };
 		83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 		83B262C61B4CA9DC00D78041 /* countries_xls_2013.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_xls_2013.xml; sourceTree = "<group>"; };
 		83B262C81B4CC44E00D78041 /* British_Indian_Ocean_Territories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = British_Indian_Ocean_Territories.png; sourceTree = "<group>"; };
@@ -1872,6 +1869,9 @@
 		83E01DA91B1E4EC40079C399 /* Tobacco-44@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tobacco-44@3x.png"; sourceTree = "<group>"; };
 		83E01DAA1B1E4EC40079C399 /* Tobacco-44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tobacco-44@2x.png"; sourceTree = "<group>"; };
 		83E01DAB1B1E4EC40079C399 /* Tobacco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tobacco.png; sourceTree = "<group>"; };
+		83EF039D1B4D943200C2AECE /* GoodController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodController.swift; sourceTree = "<group>"; };
+		83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsTableViewController.swift; sourceTree = "<group>"; };
+		83EF03A11B4D9DE200C2AECE /* CountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2699,13 +2699,13 @@
 			children = (
 				83800C7C1AA4D40300DD47EB /* AppDelegate.swift */,
 				834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */,
-				839C97C11B015D6B0054C83B /* CountryViewController.swift */,
+				83EF03A11B4D9DE200C2AECE /* CountryController.swift */,
 				83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */,
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
 				831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */,
 				83263FC51B14CD5000F7F71D /* IndexViewController.swift */,
-				839C97C31B015D800054C83B /* GoodViewController.swift */,
-				83B1DE381AAD328A00E06742 /* GoodsTableViewController.swift */,
+				83EF039D1B4D943200C2AECE /* GoodController.swift */,
+				83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */,
 				834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */,
 				834D8DA61B4C5EFA001CD795 /* StatisticsTableViewController.swift */,
 				834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */,
@@ -3906,18 +3906,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
-				839C97C21B015D6B0054C83B /* CountryViewController.swift in Sources */,
+				83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */,
 				834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */,
 				834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */,
 				83B1DE3D1AAD3BB100E06742 /* CountriesTableViewController.swift in Sources */,
 				83263FC61B14CD5000F7F71D /* IndexViewController.swift in Sources */,
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
-				839C97C41B015D800054C83B /* GoodViewController.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
+				83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */,
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
-				83B1DE391AAD328A00E06742 /* GoodsTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

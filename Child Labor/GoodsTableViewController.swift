@@ -201,7 +201,7 @@ class GoodsTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "goodSelectedFromGoodsTable" {
-            let svc = segue.destinationViewController as! GoodViewController
+            let svc = segue.destinationViewController as! GoodController
             svc.goodName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

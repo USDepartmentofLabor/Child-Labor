@@ -485,11 +485,11 @@ class CountriesTableViewController: UITableViewController {
             }
         }
         
-        if hasDataByCounty[countryName] == false {
-            cell.textLabel?.textColor = UIColor.lightGrayColor()
-            cell.detailTextLabel?.hidden = false
-            cell.userInteractionEnabled = false
-        }
+//        if hasDataByCounty[countryName] == false {
+//            cell.textLabel?.textColor = UIColor.lightGrayColor()
+//            cell.detailTextLabel?.hidden = false
+//            cell.userInteractionEnabled = false
+//        }
         
         return cell
     }
@@ -559,7 +559,7 @@ class CountriesTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "countrySelectedFromCountriesTable" {
-            let svc = segue.destinationViewController as! CountryViewController
+            let svc = segue.destinationViewController as! CountryController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

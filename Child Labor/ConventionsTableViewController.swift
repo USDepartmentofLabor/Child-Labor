@@ -1,5 +1,5 @@
 //
-//  LawsTableViewController.swift
+//  ConventionsTableViewController.swift
 //  Child Labor
 //
 //  Created by E J Kalafarski on 7/7/15.
@@ -8,14 +8,16 @@
 
 import UIKit
 
-class LawsTableViewController: UITableViewController {
-    
+class ConventionsTableViewController: UITableViewController {
+
     var countryName = "Brazil"
     
-    @IBOutlet weak var minimumAgeForWorkLabel: UILabel!
-    @IBOutlet weak var minimumAgeForHazardousWorkLabel: UILabel!
-    @IBOutlet weak var compulsoryEducationLabel: UILabel!
-    @IBOutlet weak var freeEducationLabel: UILabel!
+    @IBOutlet weak var ilo138Label: UILabel!
+    @IBOutlet weak var ilo182Label: UILabel!
+    @IBOutlet weak var unCRCLabel: UILabel!
+    @IBOutlet weak var unCRCArmedLabel: UILabel!
+    @IBOutlet weak var unCRCSaleLabel: UILabel!
+    @IBOutlet weak var unCRCTraffickingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,71 +42,79 @@ class LawsTableViewController: UITableViewController {
             if country["Name"].element?.text == self.countryName {
                 
                 //
-                if let minAgeEstablished = country["Minimum_Age_for_Work_Established"].element {
-                    if minAgeEstablished.text != nil {
-                        if minAgeEstablished.text! == "Yes" {
-                            if let minAge = country["Minimum_Age_for_Work"].element {
-                                if minAge.text != nil {
-                                    if minAge.text! != "" {
-                                        minimumAgeForWorkLabel.text = "Yes (" + minAge.text! + ")"
-                                        minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
-                                    }
-                                }
-                            }
-                        } else if minAgeEstablished.text! == "No" {
-                            minimumAgeForWorkLabel.text = "No"
-                            minimumAgeForWorkLabel.textColor = UIColor.redColor()
-                        }
-                    }
-                }
-                
-                //
-                if let minHazAgeEstablished = country["Minimum_Age_for_Hazardous_Work_Established"].element {
-                    if minHazAgeEstablished.text != nil {
-                        if minHazAgeEstablished.text! == "Yes" {
-                            if let minHazAge = country["Minimum_Age_for_Hazardous_Work"].element {
-                                if minHazAge.text != nil {
-                                    if minHazAge.text! != "" {
-                                        minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + ")"
-                                        minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
-                                    }
-                                }
-                            }
-                        } else if minHazAgeEstablished.text! == "No" {
-                            minimumAgeForHazardousWorkLabel.text = "No"
-                            minimumAgeForHazardousWorkLabel.textColor = UIColor.redColor()
-                        }
-                    }
-                }
-                
-                //
-                if let minComAgeEstablished = country["Compulsory_Education_Age_Established"].element {
-                    if minComAgeEstablished.text != nil {
-                        if minComAgeEstablished.text! == "Yes" {
-                            if let minComAge = country["Minimum_Age_for_Compulsory_Education"].element {
-                                if minComAge.text != nil {
-                                    if minComAge.text! != "" {
-                                        compulsoryEducationLabel.text = "Yes (" + minComAge.text! + ")"
-                                        compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
-                                    }
-                                }
-                            }
-                        } else if minComAgeEstablished.text! == "No" {
-                            compulsoryEducationLabel.text = "No"
-                            compulsoryEducationLabel.textColor = UIColor.redColor()
-                        }
-                    }
-                }
-                
-                //
-                if let freeEdEstablished = country["Free_Public_Education_Established"].element {
+                if let freeEdEstablished = country["C_138_Ratified"].element {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
-                            freeEducationLabel.text = "Yes"
-                            freeEducationLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            ilo138Label.text = "Yes"
+                            ilo138Label.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
-                            freeEducationLabel.text = "No"
-                            freeEducationLabel.textColor = UIColor.redColor()
+                            ilo138Label.text = "No"
+                            ilo138Label.textColor = UIColor.redColor()
+                        }
+                    }
+                }
+                
+                //
+                if let freeEdEstablished = country["C_182_Ratified"].element {
+                    if freeEdEstablished.text != nil {
+                        if freeEdEstablished.text! == "Yes" {
+                            ilo182Label.text = "Yes"
+                            ilo182Label.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                        } else if freeEdEstablished.text! == "No" {
+                            ilo182Label.text = "No"
+                            ilo182Label.textColor = UIColor.redColor()
+                        }
+                    }
+                }
+                
+                //
+                if let freeEdEstablished = country["Convention_on_the_Rights_of_the_Child_Ratified"].element {
+                    if freeEdEstablished.text != nil {
+                        if freeEdEstablished.text! == "Yes" {
+                            unCRCLabel.text = "Yes"
+                            unCRCLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                        } else if freeEdEstablished.text! == "No" {
+                            unCRCLabel.text = "No"
+                            unCRCLabel.textColor = UIColor.redColor()
+                        }
+                    }
+                }
+                
+                //
+                if let freeEdEstablished = country["CRC_Armed_Conflict_Ratified"].element {
+                    if freeEdEstablished.text != nil {
+                        if freeEdEstablished.text! == "Yes" {
+                            unCRCArmedLabel.text = "Yes"
+                            unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                        } else if freeEdEstablished.text! == "No" {
+                            unCRCArmedLabel.text = "No"
+                            unCRCArmedLabel.textColor = UIColor.redColor()
+                        }
+                    }
+                }
+                
+                //
+                if let freeEdEstablished = country["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
+                    if freeEdEstablished.text != nil {
+                        if freeEdEstablished.text! == "Yes" {
+                            unCRCSaleLabel.text = "Yes"
+                            unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                        } else if freeEdEstablished.text! == "No" {
+                            unCRCSaleLabel.text = "No"
+                            unCRCSaleLabel.textColor = UIColor.redColor()
+                        }
+                    }
+                }
+                
+                //
+                if let freeEdEstablished = country["Palermo_Ratified"].element {
+                    if freeEdEstablished.text != nil {
+                        if freeEdEstablished.text! == "Yes" {
+                            unCRCTraffickingLabel.text = "Yes"
+                            unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                        } else if freeEdEstablished.text! == "No" {
+                            unCRCTraffickingLabel.text = "No"
+                            unCRCTraffickingLabel.textColor = UIColor.redColor()
                         }
                     }
                 }
@@ -112,8 +122,6 @@ class LawsTableViewController: UITableViewController {
                 break;
             }
         }
-
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -127,15 +135,20 @@ class LawsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Ratifications"
+    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 4
+        return 6
     }
 
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Law", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Convention", forIndexPath: indexPath)
+
 
         return cell
     }

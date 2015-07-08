@@ -50,6 +50,7 @@ class StatisticsTableViewController: UITableViewController {
                                 if percentageWorking.text! != "" {
                                     if totalWorking.text! != "" {
                                         workingLabel.text = String(format: "%.2f", (percentageWorking.text! as NSString).floatValue) + "% (" + String(format: "%.2f", (totalWorking.text! as NSString).floatValue) + ")"
+                                        workingLabel.textColor = UIColor.darkGrayColor()
                                     }
                                 }
                             }
@@ -62,6 +63,7 @@ class StatisticsTableViewController: UITableViewController {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
                             agricultureLabel.text = String(format: "%.2f", (agriculturePercentage.text! as NSString).floatValue) + "%"
+                            agricultureLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
                 }
@@ -71,6 +73,7 @@ class StatisticsTableViewController: UITableViewController {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
                             servicesLabel.text = String(format: "%.2f", (servicesPercentage.text! as NSString).floatValue) + "%"
+                            servicesLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
                 }
@@ -80,6 +83,7 @@ class StatisticsTableViewController: UITableViewController {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
                             industryLabel.text = String(format: "%.2f", (industryPercentage.text! as NSString).floatValue) + "%"
+                            industryLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
                 }
@@ -89,6 +93,7 @@ class StatisticsTableViewController: UITableViewController {
                     if attendingPercentage.text != nil {
                         if attendingPercentage.text! != "" {
                             attendingSchoolLabel.text = String(format: "%.2f", (attendingPercentage.text! as NSString).floatValue) + "%"
+                            attendingSchoolLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
                 }
@@ -98,6 +103,7 @@ class StatisticsTableViewController: UITableViewController {
                     if combiningPercentage.text != nil {
                         if combiningPercentage.text! != "" {
                             combiningWorkAndSchoolLabel.text = String(format: "%.2f", (combiningPercentage.text! as NSString).floatValue) + "%"
+                            combiningWorkAndSchoolLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
                 }
@@ -107,7 +113,8 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
                             primaryCompletionRateLabel.text = String(format: "%.2f", (primaryRate.text! as NSString).floatValue) + "%"
-                        }
+                            primaryCompletionRateLabel.textColor = UIColor.darkGrayColor()
+                       }
                     }
                 }
                 
