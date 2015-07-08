@@ -10,9 +10,9 @@ import UIKit
 
 class CountriesTableViewController: UITableViewController {
     
-    @IBOutlet weak var countriesSearchBar: UISearchBar!
-    
     var state = 0
+    
+    var hasDataByCounty: [String: Bool] = [:]
     
     // Lists for countries in each letter section
     var aCountries = NSMutableArray()
@@ -69,7 +69,7 @@ class CountriesTableViewController: UITableViewController {
         self.tableView.sectionIndexBackgroundColor = UIColor.clearColor()
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_xls_2013", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
@@ -80,85 +80,94 @@ class CountriesTableViewController: UITableViewController {
         
         // For each country
         for country in countriesXML["Countries"]["Country"] {
+            let countryName = country["Name"].element?.text
+            
             // Create lists of countries in each letter section
-            if Array((country["Name"].element?.text)!.characters)[0] == "A" {
-                aCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "B" {
-                bCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "C" {
-                cCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "D" {
-                dCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "E" {
-                eCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "F" {
-                fCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "G" {
-                gCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "H" {
-                hCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "I" {
-                iCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "J" {
-                jCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "K" {
-                kCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "L" {
-                lCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "M" {
-                mCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "N" {
-                nCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "O" {
-                oCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "P" {
-                pCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "Q" {
-                qCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "R" {
-                rCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "S" {
-                sCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "T" {
-                tCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "U" {
-                uCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "V" {
-                vCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "W" {
-                wCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "X" {
-                xCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "Y" {
-                yCountries.addObject((country["Name"].element?.text)!)
-            } else if Array((country["Name"].element?.text)!.characters)[0] == "Z" {
-                zCountries.addObject((country["Name"].element?.text)!)
+            if Array(countryName!.characters)[0] == "A" {
+                aCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "B" {
+                bCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "C" {
+                cCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "D" {
+                dCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "E" {
+                eCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "F" {
+                fCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "G" {
+                gCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "H" {
+                hCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "I" {
+                iCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "J" {
+                jCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "K" {
+                kCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "L" {
+                lCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "M" {
+                mCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "N" {
+                nCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "O" {
+                oCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "P" {
+                pCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "Q" {
+                qCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "R" {
+                rCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "S" {
+                sCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "T" {
+                tCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "U" {
+                uCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "V" {
+                vCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "W" {
+                wCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "X" {
+                xCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "Y" {
+                yCountries.addObject(countryName!)
+            } else if Array(countryName!.characters)[0] == "Z" {
+                zCountries.addObject(countryName!)
             }
 
             // Create lists of countries in each advancement level section
-            if country["Advancement_Level"].element?.text == "Significant Advancement" {
-                sigCountries.addObject((country["Name"].element?.text)!)
-            } else if country["Advancement_Level"].element?.text == "Moderate Advancement" {
-                modCountries.addObject((country["Name"].element?.text)!)
-            } else if country["Advancement_Level"].element?.text == "Minimal Advancement" {
-                minCountries.addObject((country["Name"].element?.text)!)
+            if country["Advancement_Level"].element?.text == "Significant" {
+                sigCountries.addObject(countryName!)
+            } else if country["Advancement_Level"].element?.text == "Moderate" {
+                modCountries.addObject(countryName!)
+            } else if country["Advancement_Level"].element?.text == "Minimal" {
+                minCountries.addObject(countryName!)
             } else if country["Advancement_Level"].element?.text == "No Advancement" {
-                noCountries.addObject((country["Name"].element?.text)!)
+                noCountries.addObject(countryName!)
             } else {
-                noDataCountries.addObject((country["Name"].element?.text)!)
+                noDataCountries.addObject(countryName!)
             }
 
             // Create lists of countries in each region section
             if country["Region"].element?.text == "Asia & Pacific" {
-                asiaCountries.addObject((country["Name"].element?.text)!)
+                asiaCountries.addObject(countryName!)
             } else if country["Region"].element?.text == "Europe & Eurasia" {
-                europeCountries.addObject((country["Name"].element?.text)!)
+                europeCountries.addObject(countryName!)
             } else if country["Region"].element?.text == "Latin America & Caribbean" {
-                latinCountries.addObject((country["Name"].element?.text)!)
+                latinCountries.addObject(countryName!)
             } else if country["Region"].element?.text == "Middle East & North Africa" {
-                middleCountries.addObject((country["Name"].element?.text)!)
+                middleCountries.addObject(countryName!)
             } else if country["Region"].element?.text == "Sub-Saharan Africa" {
-                saharanCountries.addObject((country["Name"].element?.text)!)
+                saharanCountries.addObject(countryName!)
+            }
+            
+            // Record whether each country has a profile in an associative array
+            if (country["Description"].element?.text == nil && country["Goods"]["Good"].all.count == 0) {
+                hasDataByCounty[countryName!] = false
+            } else {
+                hasDataByCounty[countryName!] = true
             }
         }
     }
@@ -475,7 +484,13 @@ class CountriesTableViewController: UITableViewController {
                 UIGraphicsEndImageContext();
             }
         }
-
+        
+        if hasDataByCounty[countryName] == false {
+            cell.textLabel?.textColor = UIColor.lightGrayColor()
+            cell.detailTextLabel?.hidden = false
+            cell.userInteractionEnabled = false
+        }
+        
         return cell
     }
     

@@ -33,7 +33,7 @@ class GoodViewController: UIViewController, UITableViewDelegate {
         goodTitle.text = goodName
         goodImage.image = UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))!
 
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_xls_2013", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)

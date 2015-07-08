@@ -12,9 +12,6 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
     
     var countryName = "Brazil"
     
-    var countriesXML = SWXMLHash.parse("<xml></xml>")
-    var goodsXML = SWXMLHash.parse("<xml></xml>")
-    
     var goods = NSMutableArray()
     var exploitations = NSMutableArray()
 
@@ -41,40 +38,40 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
         countryTitle.text = self.countryName
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_xls_2013", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
         } catch _ {
             contents = nil
         }
-        countriesXML = SWXMLHash.parse(contents as! String)
-        
-        // Get the goods data
-        let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
-        var contentsGoods: NSString?
-        do {
-            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: NSUTF8StringEncoding)
-        } catch _ {
-            contentsGoods = nil
-        }
-        goodsXML = SWXMLHash.parse(contentsGoods as! String)
+        let countriesXML = SWXMLHash.parse(contents as! String)
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
-                advancementLevel.text = country["Advancement_Level"].element?.text
-                countryProfile.text = country["Description"].element?.text
                 countryMap.image = UIImage(named: (country["Name"].element?.text)! + "-map")
+                if (country["Advancement_Level"].element?.text != nil) {
+                    advancementLevel.text = (country["Advancement_Level"].element?.text)! + " Advancement"
+                } else {
+                    advancementLevel.text = "No Assessment Level Data"
+                }
+                countryProfile.text = country["Description"].element?.text
                 
                 for good in country["Goods"]["Good"] {
-                    goods.addObject((good["Good_Name"].element?.text)!)
+                    let goodName = good["Good_Name"].element?.text
+                    
+                    let childLaborStatusForGood = good["Child_Labor"].element?.text
+                    let forcedLaborStatusForGood = good["Forced_Labor"].element?.text
+                    let forcedChildLaborStatusForGood = good["Forced_Child_Labor"].element?.text
+                    
+                    goods.addObject(goodName!)
                     
                     // Add the exploitation type to an array
-                    if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "No" {
+                    if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "No" {
                         exploitations.addObject(0)
-                    } else if good["Child_Labor"].element?.text == "No" && good["Forced_Labor"].element?.text == "Yes" {
+                    } else if childLaborStatusForGood == "No" && forcedLaborStatusForGood == "Yes" {
                         exploitations.addObject(1)
-                    } else if good["Child_Labor"].element?.text == "Yes" && good["Forced_Labor"].element?.text == "Yes" && good["Forced_Child_Labor"].element?.text == "No" {
+                    } else if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "Yes" && forcedChildLaborStatusForGood == "No" {
                         exploitations.addObject(2)
                     } else {
                         exploitations.addObject(3)
@@ -96,17 +93,9 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        for country in countriesXML["Countries"]["Country"] {
-            if country["Name"].element?.text == self.countryName {
-                let numGoods = country["Goods"]["Good"].all.count
-                
-                listHeader.text = String(numGoods) + " GOOD" + (numGoods == 1 ? "" : "S") + " PRODUCED WITH EXPLOITED LABOR"
-                
-                return numGoods
-            }
-        }
+        listHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITED LABOR"
         
-        return 0
+        return goods.count
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -123,20 +112,20 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
         let clImage : UIImageView? = cl!.viewWithTag(401) as? UIImageView
         let clLabel : UILabel? = cl!.viewWithTag(402) as? UILabel
         
-        var countryIndex = 0
-        for country in countriesXML["Countries"]["Country"] {
-            if country["Name"].element?.text != self.countryName {
-                countryIndex++
-            } else {
-                break;
-            }
-        }
-        
+//        var countryIndex = 0
+//        for country in countriesXML["Countries"]["Country"] {
+//            if country["Name"].element?.text != self.countryName {
+//                countryIndex++
+//            } else {
+//                break;
+//            }
+//        }
+//        
         // Parse out the name of the good
-        let goodName = countriesXML["Countries"]["Country"][countryIndex]["Goods"]["Good"][indexPath.row]["Good_Name"].element?.text
+        let goodName = goods[indexPath.row]
         
-        goodLabel?.text = goodName
-        goodButton!.setImage(UIImage(named:goodName!.stringByReplacingOccurrencesOfString("/", withString: ":"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
+        goodLabel?.text = goodName as? String
+        goodButton!.setImage(UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
         
         // 
         switch exploitations[indexPath.row] as! Int {
@@ -260,6 +249,18 @@ class CountryViewController: UIViewController, UITableViewDelegate, UICollection
             svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
         } else if segue.identifier == "presentFullReportDocument" {
             let svc = segue.destinationViewController as! FullReportViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentSuggestedActions" {
+            let svc = segue.destinationViewController as! SuggestedActionsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentStatistics" {
+            let svc = segue.destinationViewController as! StatisticsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentConventions" {
+            let svc = segue.destinationViewController as! ConventionsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentLaws" {
+            let svc = segue.destinationViewController as! LawsTableViewController
             svc.countryName = self.countryName
         }
     }
