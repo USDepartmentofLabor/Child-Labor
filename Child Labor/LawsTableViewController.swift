@@ -46,7 +46,7 @@ class LawsTableViewController: UITableViewController {
                             if let minAge = country["Minimum_Age_for_Work"].element {
                                 if minAge.text != nil {
                                     if minAge.text! != "" {
-                                        minimumAgeForWorkLabel.text = "Yes (" + minAge.text! + ")"
+                                        minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
                                         minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
                                     }
                                 }
@@ -65,7 +65,7 @@ class LawsTableViewController: UITableViewController {
                             if let minHazAge = country["Minimum_Age_for_Hazardous_Work"].element {
                                 if minHazAge.text != nil {
                                     if minHazAge.text! != "" {
-                                        minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + ")"
+                                        minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
                                         minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
                                     }
                                 }
@@ -84,7 +84,7 @@ class LawsTableViewController: UITableViewController {
                             if let minComAge = country["Minimum_Age_for_Compulsory_Education"].element {
                                 if minComAge.text != nil {
                                     if minComAge.text! != "" {
-                                        compulsoryEducationLabel.text = "Yes (" + minComAge.text! + ")"
+                                        compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
                                         compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
                                     }
                                 }

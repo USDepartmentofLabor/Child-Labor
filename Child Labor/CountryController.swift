@@ -123,6 +123,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             }
         }
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Make sure the ugly table cell selection is cleared when returning to this view
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -111,7 +111,7 @@ class GoodController: UITableViewController {
         let clLabel : UILabel? = cl!.viewWithTag(202) as? UILabel
         
         titleLabel?.text = countryName
-        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil))
+        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil))
         cell.imageView?.image = flagImage
         
         // Resize flag icons to a constant width, centered vertically

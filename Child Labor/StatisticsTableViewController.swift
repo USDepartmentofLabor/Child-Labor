@@ -45,12 +45,23 @@ class StatisticsTableViewController: UITableViewController {
                 // Working
                 if let percentageWorking = country["Children_Work_Statistics"]["Children_Work_Statistic"][0]["Total_Percentage_of_Working_Children"].element {
                     if let totalWorking = country["Children_Work_Statistics"]["Children_Work_Statistic"][0]["Total_Working_Population"].element {
-                        if percentageWorking.text != nil {
-                            if totalWorking.text != nil {
-                                if percentageWorking.text! != "" {
-                                    if totalWorking.text! != "" {
-                                        workingLabel.text = String(format: "%.2f", (percentageWorking.text! as NSString).floatValue) + "% (" + String(format: "%.2f", (totalWorking.text! as NSString).floatValue) + ")"
-                                        workingLabel.textColor = UIColor.darkGrayColor()
+                        if let ageRange = country["Children_Work_Statistics"]["Children_Work_Statistic"][0]["Age_Range"].element {
+                            if percentageWorking.text != nil {
+                                if totalWorking.text != nil {
+                                    if ageRange.text != nil {
+                                        if percentageWorking.text! != "" {
+                                            if totalWorking.text! != "" {
+                                                if ageRange.text! != "" {
+                                                    let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
+                                                    let numberFormatter = NSNumberFormatter()
+                                                    numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
+                                                    let numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
+
+                                                    workingLabel.text = String(format: "%.2f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                                    workingLabel.textColor = UIColor.darkGrayColor()
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
