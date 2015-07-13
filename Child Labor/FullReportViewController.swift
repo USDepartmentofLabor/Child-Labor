@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FullReportViewController: UIViewController {
+class FullReportViewController: GAITrackedViewController {
     
     var countryName = "Brazil"
 
@@ -18,6 +18,10 @@ class FullReportViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // View name for Google Analytics
+        self.screenName = "Report PDF Screen"
+
         // Get the contents of the file to load
         let localFilePath = NSBundle.mainBundle().pathForResource(countryName, ofType: "pdf")
         let targetURL = NSURL.fileURLWithPath(localFilePath!)

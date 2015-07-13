@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IndexViewController: UIViewController, UITableViewDelegate {
+class IndexViewController: GAITrackedViewController, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -16,6 +16,9 @@ class IndexViewController: UIViewController, UITableViewDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // View name for Google Analytics
+        self.screenName = "Index Screen"
         
         // Navigation bar color
         self.navigationController?.navigationBar.barStyle = UIBarStyle.Black

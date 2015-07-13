@@ -540,6 +540,12 @@
 		83800C841AA4D40300DD47EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83800C831AA4D40300DD47EB /* Images.xcassets */; };
 		83800C871AA4D40300DD47EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83800C851AA4D40300DD47EB /* LaunchScreen.xib */; };
 		83800C931AA4D40300DD47EB /* Child_LaborTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C921AA4D40300DD47EB /* Child_LaborTests.swift */; };
+		8386CABF1B516F6C00B5DF1C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386CABE1B516F6C00B5DF1C /* libsqlite3.0.tbd */; };
+		8386CAC11B51702F00B5DF1C /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386CAC01B51702F00B5DF1C /* libGoogleAnalyticsServices.a */; };
+		838A755D1B516E3100CE8465 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838A755C1B516E3100CE8465 /* CoreData.framework */; };
+		838A755F1B516E4100CE8465 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838A755E1B516E4100CE8465 /* SystemConfiguration.framework */; };
+		838A75611B516E9800CE8465 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 838A75601B516E9800CE8465 /* libsqlite3.tbd */; };
+		838A75631B516EA000CE8465 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 838A75621B516EA000CE8465 /* libz.tbd */; };
 		83948AF51B38C23D00125260 /* Afghanistan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD51B38C23C00125260 /* Afghanistan.pdf */; };
 		83948AF61B38C23D00125260 /* Albania.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD61B38C23C00125260 /* Albania.pdf */; };
 		83948AF71B38C23D00125260 /* Algeria.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948AD71B38C23C00125260 /* Algeria.pdf */; };
@@ -1398,6 +1404,16 @@
 		834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LawsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConventionsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA61B4C5EFA001CD795 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
+		835E54961B51665D00EE7B26 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		835E54971B51665D00EE7B26 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		835E54981B51665D00EE7B26 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		835E54991B51665D00EE7B26 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		835E549A1B51665D00EE7B26 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		835E549B1B51665D00EE7B26 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		835E549C1B51665D00EE7B26 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		835E549D1B51665D00EE7B26 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		835E549E1B51665D00EE7B26 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		835E549F1B51674000EE7B26 /* Child Labor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Child Labor-Bridging-Header.h"; sourceTree = "<group>"; };
 		8364BBA81B3CC67C008C547A /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		836633B21B2F0734007C127E /* ilab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ilab@3x.png"; sourceTree = "<group>"; };
 		836633B31B2F0734007C127E /* ilab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ilab@2x.png"; sourceTree = "<group>"; };
@@ -1481,6 +1497,12 @@
 		83800C8C1AA4D40300DD47EB /* Child LaborTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child LaborTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83800C911AA4D40300DD47EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83800C921AA4D40300DD47EB /* Child_LaborTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child_LaborTests.swift; sourceTree = "<group>"; };
+		8386CABE1B516F6C00B5DF1C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8386CAC01B51702F00B5DF1C /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		838A755C1B516E3100CE8465 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		838A755E1B516E4100CE8465 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		838A75601B516E9800CE8465 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		838A75621B516EA000CE8465 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		83948AD51B38C23C00125260 /* Afghanistan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Afghanistan.pdf; sourceTree = "<group>"; };
 		83948AD61B38C23C00125260 /* Albania.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Albania.pdf; sourceTree = "<group>"; };
 		83948AD71B38C23C00125260 /* Algeria.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Algeria.pdf; sourceTree = "<group>"; };
@@ -1879,6 +1901,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8386CABF1B516F6C00B5DF1C /* libsqlite3.0.tbd in Frameworks */,
+				838A75631B516EA000CE8465 /* libz.tbd in Frameworks */,
+				838A75611B516E9800CE8465 /* libsqlite3.tbd in Frameworks */,
+				838A755F1B516E4100CE8465 /* SystemConfiguration.framework in Frameworks */,
+				838A755D1B516E3100CE8465 /* CoreData.framework in Frameworks */,
+				8386CAC11B51702F00B5DF1C /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2262,6 +2290,22 @@
 				8310FE6E1ABB11310025F7AE /* Zimbabwe.png */,
 			);
 			name = Flags;
+			sourceTree = "<group>";
+		};
+		835E54951B51663E00EE7B26 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				835E549E1B51665D00EE7B26 /* GAI.h */,
+				835E54971B51665D00EE7B26 /* GAIDictionaryBuilder.h */,
+				835E54981B51665D00EE7B26 /* GAIEcommerceProduct.h */,
+				835E54991B51665D00EE7B26 /* GAIEcommerceProductAction.h */,
+				835E549A1B51665D00EE7B26 /* GAIEcommercePromotion.h */,
+				835E549B1B51665D00EE7B26 /* GAIFields.h */,
+				835E549C1B51665D00EE7B26 /* GAILogger.h */,
+				835E549D1B51665D00EE7B26 /* GAITrackedViewController.h */,
+				835E54961B51665D00EE7B26 /* GAITracker.h */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		8369A4241AF56119003F640D /* Icons */ = {
@@ -2679,9 +2723,16 @@
 		83800C6E1AA4D40300DD47EB = {
 			isa = PBXGroup;
 			children = (
+				8386CAC01B51702F00B5DF1C /* libGoogleAnalyticsServices.a */,
+				8386CABE1B516F6C00B5DF1C /* libsqlite3.0.tbd */,
+				838A75621B516EA000CE8465 /* libz.tbd */,
+				838A75601B516E9800CE8465 /* libsqlite3.tbd */,
+				838A755E1B516E4100CE8465 /* SystemConfiguration.framework */,
+				838A755C1B516E3100CE8465 /* CoreData.framework */,
 				83800C791AA4D40300DD47EB /* Child Labor */,
 				83800C8F1AA4D40300DD47EB /* Child LaborTests */,
 				83800C781AA4D40300DD47EB /* Products */,
+				835E549F1B51674000EE7B26 /* Child Labor-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2721,6 +2772,7 @@
 		83800C7A1AA4D40300DD47EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				835E54951B51663E00EE7B26 /* Analytics */,
 				8310FD8E1ABB10FA0025F7AE /* Flags */,
 				8369A4241AF56119003F640D /* Icons */,
 				8303DEE31B41F20300E4FD42 /* Maps */,
@@ -4044,11 +4096,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -4057,11 +4115,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

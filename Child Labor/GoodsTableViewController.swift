@@ -32,6 +32,11 @@ class GoodsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        // Record GA view
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker.set(kGAIScreenName, value: "Goods List Screen")
+        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        
         // Populate the list
         let urlPath = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
         var contents: NSString?

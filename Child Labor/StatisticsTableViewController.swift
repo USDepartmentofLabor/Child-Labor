@@ -29,6 +29,11 @@ class StatisticsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        // Record GA view
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker.set(kGAIScreenName, value: "Statistics Screen")
+        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        
         // Get the country data
         let urlPath = NSBundle.mainBundle().pathForResource("countries_xls_2013", ofType: "xml")
         var contents: NSString?
