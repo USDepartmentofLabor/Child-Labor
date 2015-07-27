@@ -176,7 +176,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         let goodName = goods[indexPath.row]
         
         goodLabel?.text = goodName as? String
-        goodButton!.setImage(UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
+        goodButton!.setImage(UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
         
         //
         switch exploitations[indexPath.row] as! Int {

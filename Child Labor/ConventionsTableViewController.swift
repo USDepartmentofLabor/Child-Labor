@@ -51,7 +51,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             ilo138Label.text = "Yes"
-                            ilo138Label.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            ilo138Label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             ilo138Label.text = "No"
                             ilo138Label.textColor = UIColor.redColor()
@@ -64,7 +64,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             ilo182Label.text = "Yes"
-                            ilo182Label.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            ilo182Label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             ilo182Label.text = "No"
                             ilo182Label.textColor = UIColor.redColor()
@@ -77,7 +77,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             unCRCLabel.text = "Yes"
-                            unCRCLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            unCRCLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             unCRCLabel.text = "No"
                             unCRCLabel.textColor = UIColor.redColor()
@@ -90,7 +90,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             unCRCArmedLabel.text = "Yes"
-                            unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             unCRCArmedLabel.text = "No"
                             unCRCArmedLabel.textColor = UIColor.redColor()
@@ -103,7 +103,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             unCRCSaleLabel.text = "Yes"
-                            unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             unCRCSaleLabel.text = "No"
                             unCRCSaleLabel.textColor = UIColor.redColor()
@@ -116,7 +116,7 @@ class ConventionsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             unCRCTraffickingLabel.text = "Yes"
-                            unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             unCRCTraffickingLabel.text = "No"
                             unCRCTraffickingLabel.textColor = UIColor.redColor()

@@ -52,7 +52,7 @@ class LawsTableViewController: UITableViewController {
                                 if minAge.text != nil {
                                     if minAge.text! != "" {
                                         minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
-                                        minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                                        minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
@@ -71,7 +71,7 @@ class LawsTableViewController: UITableViewController {
                                 if minHazAge.text != nil {
                                     if minHazAge.text! != "" {
                                         minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
-                                        minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                                        minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
@@ -90,7 +90,7 @@ class LawsTableViewController: UITableViewController {
                                 if minComAge.text != nil {
                                     if minComAge.text! != "" {
                                         compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
-                                        compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                                        compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
@@ -106,7 +106,7 @@ class LawsTableViewController: UITableViewController {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             freeEducationLabel.text = "Yes"
-                            freeEducationLabel.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
+                            freeEducationLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                         } else if freeEdEstablished.text! == "No" {
                             freeEducationLabel.text = "No"
                             freeEducationLabel.textColor = UIColor.redColor()
