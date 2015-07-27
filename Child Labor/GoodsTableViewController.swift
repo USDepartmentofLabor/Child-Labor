@@ -168,16 +168,8 @@ class GoodsTableViewController: UITableViewController {
         cell.textLabel?.text = goodName
         cell.detailTextLabel?.text = String(numCountriesByGood[goodName]!)
         
-        cell.imageView?.image = UIImage(named: goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))
+        cell.imageView?.image = UIImage(named: "icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_") + "-33")
         
-        // Resize icons
-        let rect = CGRectMake(0, 0, 33, 33)
-        let size = CGSizeMake(33, 33)
-        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale)
-        cell.imageView?.image?.drawInRect(rect)
-        cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext();
-
         return cell
     }
 

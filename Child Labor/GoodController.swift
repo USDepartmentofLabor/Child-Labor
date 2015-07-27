@@ -36,7 +36,7 @@ class GoodController: UITableViewController {
         // Do any additional setup after loading the view.
         self.title = goodName
         goodTitle.text = goodName
-        goodImage.image = UIImage(named:goodName.stringByReplacingOccurrencesOfString("/", withString: ":"))!
+        goodImage.image = UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))!
         
         let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
         var contentsGoods: NSString?
