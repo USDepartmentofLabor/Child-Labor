@@ -144,6 +144,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
+        tableView.backgroundColor = UIColor.whiteColor()
+
         collectionHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITIVE LABOR"
         
         return goods.count

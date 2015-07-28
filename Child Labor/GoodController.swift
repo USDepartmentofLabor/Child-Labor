@@ -19,6 +19,8 @@ class GoodController: UITableViewController {
     @IBOutlet weak var goodImage: UIImageView!
     @IBOutlet weak var sector: UILabel!
     
+    var state = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -88,16 +90,50 @@ class GoodController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
     
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "PRODUCED WITH EXPLOITIVE LABOR IN " + String(countries.count) + " COUNTR" + (countries.count == 1 ? "Y" : "IES")
+        var typeOfLabor = ""
+        var numCountriesWithThisType = 0
+        switch state {
+        case 0:
+            typeOfLabor = "Exploitive"
+            
+            numCountriesWithThisType = countries.count
+        case 1:
+            typeOfLabor = "Child"
+
+            for i in 0...countries.count - 1 {
+                if exploitations[i] as! Int == 0 || exploitations[i] as! Int == 2 || exploitations[i] as! Int == 3 {
+                    numCountriesWithThisType++
+                }
+            }
+        case 2:
+            typeOfLabor = "Forced"
+
+            for i in 0...countries.count - 1 {
+                if exploitations[i] as! Int == 1 || exploitations[i] as! Int == 2 || exploitations[i] as! Int == 3 {
+                    numCountriesWithThisType++
+                }
+            }
+        default:
+            typeOfLabor = "Forced Child"
+
+            for i in 0...countries.count - 1 {
+                if exploitations[i] as! Int == 3 {
+                    numCountriesWithThisType++
+                }
+            }
+}
+        
+        return "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y" : "ies")
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
+        tableView.backgroundColor = UIColor.whiteColor()
+        
         return countries.count
     }
 
@@ -139,6 +175,10 @@ class GoodController: UITableViewController {
             }
         }
         
+        cell.backgroundColor = UIColor.whiteColor()
+        titleLabel?.textColor = UIColor.blackColor()
+        cell.userInteractionEnabled = true
+        
         //
         switch exploitations[indexPath.row] as! Int {
         case 0:
@@ -147,18 +187,36 @@ class GoodController: UITableViewController {
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            
+            if state == 2 || state == 3 {
+                cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
+                titleLabel?.textColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
+                cell.userInteractionEnabled = false
+            }
         case 1:
             cl?.hidden = true
             fl?.hidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            
+            if state == 1 || state == 3 {
+                cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
+                titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
+                cell.userInteractionEnabled = false
+            }
         case 2:
             cl?.hidden = false
             fl?.hidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            
+            if state == 3 {
+                cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
+                titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
+                cell.userInteractionEnabled = false
+            }
         default:
             cl?.hidden = false
             fl?.hidden = false
@@ -205,6 +263,11 @@ class GoodController: UITableViewController {
     }
     */
 
+    @IBAction func filterChanged(sender: AnyObject) {
+        state = sender.selectedSegmentIndex
+        self.tableView.reloadData()
+    }
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "countrySelectedFromGoodView" {
