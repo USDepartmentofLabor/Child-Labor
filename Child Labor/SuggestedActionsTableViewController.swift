@@ -98,23 +98,23 @@ class SuggestedActionsTableViewController: UITableViewController {
         switch section {
         case 0:
             if laws.count == 0 {
-                return "N/A"
+                return "No Actions"
             }
         case 1:
             if enforcement.count == 0 {
-                return "N/A"
+                return "No Actions"
             }
         case 2:
             if coordination.count == 0 {
-                return "N/A"
+                return "No Actions"
             }
         case 3:
             if governmentPolicies.count == 0 {
-                return "N/A"
+                return "No Actions"
             }
         default:
             if socialPrograms.count == 0 {
-                return "N/A"
+                return "No Actions"
             }
         }
         
