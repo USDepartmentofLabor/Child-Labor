@@ -45,79 +45,80 @@ class ConventionsTableViewController: UITableViewController {
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
+                let masterData = country["Master_Data"]
                 
-                //
-                if let freeEdEstablished = country["C_138_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // Minimum Age
+                if let minimumAge = masterData["C_138_Ratified"].element {
+                    if minimumAge.text != nil {
+                        if minimumAge.text! == "Yes" {
                             ilo138Label.text = "Yes"
                             ilo138Label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if minimumAge.text! == "No" {
                             ilo138Label.text = "No"
                             ilo138Label.textColor = UIColor.redColor()
                         }
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["C_182_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // Worst Forms of Child Labor
+                if let worstForms = masterData["C_182_Ratified"].element {
+                    if worstForms.text != nil {
+                        if worstForms.text! == "Yes" {
                             ilo182Label.text = "Yes"
                             ilo182Label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if worstForms.text! == "No" {
                             ilo182Label.text = "No"
                             ilo182Label.textColor = UIColor.redColor()
                         }
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["Convention_on_the_Rights_of_the_Child_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // UN CRC
+                if let unCRC = masterData["Convention_on_the_Rights_of_the_Child_Ratified"].element {
+                    if unCRC.text != nil {
+                        if unCRC.text! == "Yes" {
                             unCRCLabel.text = "Yes"
                             unCRCLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if unCRC.text! == "No" {
                             unCRCLabel.text = "No"
                             unCRCLabel.textColor = UIColor.redColor()
                         }
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["CRC_Armed_Conflict_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // Armed Conflict
+                if let armedConflict = masterData["CRC_Armed_Conflict_Ratified"].element {
+                    if armedConflict.text != nil {
+                        if armedConflict.text! == "Yes" {
                             unCRCArmedLabel.text = "Yes"
                             unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if armedConflict.text! == "No" {
                             unCRCArmedLabel.text = "No"
                             unCRCArmedLabel.textColor = UIColor.redColor()
                         }
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // Sexual Exploitation
+                if let sexualExploitation = masterData["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
+                    if sexualExploitation.text != nil {
+                        if sexualExploitation.text! == "Yes" {
                             unCRCSaleLabel.text = "Yes"
                             unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if sexualExploitation.text! == "No" {
                             unCRCSaleLabel.text = "No"
                             unCRCSaleLabel.textColor = UIColor.redColor()
                         }
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["Palermo_Ratified"].element {
-                    if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                // Trafficking
+                if let trafficking = masterData["Palermo_Ratified"].element {
+                    if trafficking.text != nil {
+                        if trafficking.text! == "Yes" {
                             unCRCTraffickingLabel.text = "Yes"
                             unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if trafficking.text! == "No" {
                             unCRCTraffickingLabel.text = "No"
                             unCRCTraffickingLabel.textColor = UIColor.redColor()
                         }

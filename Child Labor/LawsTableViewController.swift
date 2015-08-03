@@ -43,12 +43,13 @@ class LawsTableViewController: UITableViewController {
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
+                let masterData = country["Master_Data"]
                 
-                //
-                if let minAgeEstablished = country["Minimum_Age_for_Work_Established"].element {
+                // Minimum Age for Work
+                if let minAgeEstablished = masterData["Minimum_Age_for_Work_Estabslished"].element {
                     if minAgeEstablished.text != nil {
                         if minAgeEstablished.text! == "Yes" {
-                            if let minAge = country["Minimum_Age_for_Work"].element {
+                            if let minAge = masterData["Minimum_Age_for_Work"].element {
                                 if minAge.text != nil {
                                     if minAge.text! != "" {
                                         minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
@@ -63,11 +64,11 @@ class LawsTableViewController: UITableViewController {
                     }
                 }
                 
-                //
-                if let minHazAgeEstablished = country["Minimum_Age_for_Hazardous_Work_Established"].element {
+                // Minimum Age for Hazardous Work
+                if let minHazAgeEstablished = masterData["Minimum_Age_for_Hazardous_Work_Estabslished"].element {
                     if minHazAgeEstablished.text != nil {
                         if minHazAgeEstablished.text! == "Yes" {
-                            if let minHazAge = country["Minimum_Age_for_Hazardous_Work"].element {
+                            if let minHazAge = masterData["Minimum_Age_for_Hazardous_Work"].element {
                                 if minHazAge.text != nil {
                                     if minHazAge.text! != "" {
                                         minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
@@ -82,11 +83,11 @@ class LawsTableViewController: UITableViewController {
                     }
                 }
                 
-                //
-                if let minComAgeEstablished = country["Compulsory_Education_Age_Established"].element {
+                // Compulsory Education Age
+                if let minComAgeEstablished = masterData["Compulsory_Education_Age_Estabslished"].element {
                     if minComAgeEstablished.text != nil {
                         if minComAgeEstablished.text! == "Yes" {
-                            if let minComAge = country["Minimum_Age_for_Compulsory_Education"].element {
+                            if let minComAge = masterData["Minimum_Age_for_Compulsory_Education"].element {
                                 if minComAge.text != nil {
                                     if minComAge.text! != "" {
                                         compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
@@ -101,8 +102,8 @@ class LawsTableViewController: UITableViewController {
                     }
                 }
                 
-                //
-                if let freeEdEstablished = country["Free_Public_Education_Established"].element {
+                // Free Public Education
+                if let freeEdEstablished = masterData["Free_Public_Education_Estabslished"].element {
                     if freeEdEstablished.text != nil {
                         if freeEdEstablished.text! == "Yes" {
                             freeEducationLabel.text = "Yes"

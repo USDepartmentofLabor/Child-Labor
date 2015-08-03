@@ -93,7 +93,34 @@ class SuggestedActionsTableViewController: UITableViewController {
             return "Social Programs"
         }
     }
-
+    
+    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            if laws.count == 0 {
+                return "N/A"
+            }
+        case 1:
+            if enforcement.count == 0 {
+                return "N/A"
+            }
+        case 2:
+            if coordination.count == 0 {
+                return "N/A"
+            }
+        case 3:
+            if governmentPolicies.count == 0 {
+                return "N/A"
+            }
+        default:
+            if socialPrograms.count == 0 {
+                return "N/A"
+            }
+        }
+        
+        return ""
+    }
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
