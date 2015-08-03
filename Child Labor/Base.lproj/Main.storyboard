@@ -6,10 +6,27 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qmd-V2-et5">
+            <objects>
+                <navigationController id="3s6-C9-493" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="toz-Pg-IPJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JpZ-F1-kB2" kind="relationship" relationship="rootViewController" id="QeZ-HA-Wik"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vqf-zq-rzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-435" y="-595"/>
+        </scene>
         <!--More Info-->
         <scene sceneID="ZjA-w2-jSH">
             <objects>
-                <tableViewController title="More Info" id="JpZ-F1-kB2" sceneMemberID="viewController">
+                <tableViewController title="More Info" id="JpZ-F1-kB2" customClass="MoreInfoController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="uqP-QA-WmW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,6 +54,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="fO1-6b-bgc" kind="show" identifier="presentAboutThisApp" id="q6X-np-kmw"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Re0-c4-Bbx" style="IBUITableViewCellStyleDefault" id="b7Z-yk-Nmo">
                                         <rect key="frame" x="0.0" y="143" width="600" height="44"/>
@@ -57,6 +77,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="fO1-6b-bgc" kind="show" identifier="presentMethodology" id="UrS-Cc-ziQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -66,10 +89,52 @@
                             <outlet property="delegate" destination="JpZ-F1-kB2" id="9kk-Dz-7C5"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="More Info" id="8Xk-ge-1bi">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="eXd-vA-7SC">
+                            <connections>
+                                <action selector="dismissMoreInfo:" destination="JpZ-F1-kB2" id="u6u-PN-gQO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDX-Oz-kZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="391" y="-595"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="gOn-ut-gwr">
+            <objects>
+                <viewController id="fO1-6b-bgc" customClass="InfoViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9wm-eu-UoH"/>
+                        <viewControllerLayoutGuide type="bottom" id="UDC-W0-cvr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LzR-sp-UKB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JPy-sD-GFa">
+                                <rect key="frame" x="4" y="0.0" width="592" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JPy-sD-GFa" secondAttribute="trailing" constant="-16" id="8d3-zA-Aeu"/>
+                            <constraint firstItem="JPy-sD-GFa" firstAttribute="leading" secondItem="LzR-sp-UKB" secondAttribute="leadingMargin" constant="-16" id="Aeg-Bf-WyQ"/>
+                            <constraint firstItem="UDC-W0-cvr" firstAttribute="top" secondItem="JPy-sD-GFa" secondAttribute="bottom" id="fG2-bS-jWu"/>
+                            <constraint firstItem="JPy-sD-GFa" firstAttribute="top" secondItem="9wm-eu-UoH" secondAttribute="bottom" constant="-64" id="jZq-jc-zoa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="JPy-sD-GFa" id="whn-3b-AVP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0BH-Jh-KSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="-595"/>
         </scene>
         <!--Child Labor-->
         <scene sceneID="vxG-M1-AhV">
@@ -119,7 +184,7 @@
                                 <animations/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="JpZ-F1-kB2" kind="show" id="c7x-he-gpS"/>
+                                    <segue destination="3s6-C9-493" kind="presentation" id="tU9-Bz-tsF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -918,7 +983,7 @@
                             <tableViewSection headerTitle="Children" footerTitle="Data are from most recent year available. For more information, see Table 1 of the Report PDF." id="sFR-Xx-8ZW">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="ByX-Sv-C85">
-                                        <rect key="frame" x="0.0" y="50" width="600" height="160"/>
+                                        <rect key="frame" x="0.0" y="114" width="600" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ByX-Sv-C85" id="llw-WK-AU0">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="159"/>
@@ -1010,7 +1075,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="JXJ-8k-iyp" detailTextLabel="NBP-aM-cEF" style="IBUITableViewCellStyleValue1" id="QbJ-5J-Wtv">
-                                        <rect key="frame" x="0.0" y="210" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="274" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QbJ-5J-Wtv" id="qUU-up-Klj">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -1038,7 +1103,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="UKP-m9-Z8i" detailTextLabel="ZpY-GM-VDw" style="IBUITableViewCellStyleValue1" id="naK-tF-5X7">
-                                        <rect key="frame" x="0.0" y="254" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="318" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="naK-tF-5X7" id="VDH-sP-hjn">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -1066,7 +1131,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="DVV-Td-x1q" detailTextLabel="HJq-b1-Eo2" style="IBUITableViewCellStyleValue1" id="d9Z-50-CJ2">
-                                        <rect key="frame" x="0.0" y="298" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="362" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d9Z-50-CJ2" id="EpG-Jf-ZsV">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -1279,6 +1344,7 @@
                                             <rect key="frame" x="15" y="12" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
+                                            <gestureRecognizers/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1340,7 +1406,7 @@
         <scene sceneID="anq-nz-XzT">
             <objects>
                 <tableViewController title="Exploitation Types" id="jLv-Y3-Yma" customClass="ExploitationTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HRp-sr-uTO">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HRp-sr-uTO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
@@ -1490,6 +1556,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <segue destination="XXp-C1-tOM" kind="show" identifier="countrySelectedFromExploitationTable" id="Qkd-VV-gmI"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1756,7 +1825,8 @@
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9ge-aL-a3Z"/>
-        <segue reference="o2e-dV-zlY"/>
+        <segue reference="Qkd-VV-gmI"/>
+        <segue reference="iR0-4H-bt0"/>
+        <segue reference="UrS-Cc-ziQ"/>
     </inferredMetricsTieBreakers>
 </document>

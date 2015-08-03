@@ -647,6 +647,10 @@
 		83948BCA1B38C27800125260 /* Yeman.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948BB81B38C27800125260 /* Yeman.pdf */; };
 		83948BCB1B38C27800125260 /* Zambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948BB91B38C27800125260 /* Zambia.pdf */; };
 		83948BCC1B38C27800125260 /* Zimbabwe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 83948BBA1B38C27800125260 /* Zimbabwe.pdf */; };
+		83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A3B1171B6BCACB002380E6 /* InfoViewController.swift */; };
+		83A3B11B1B6BCB8E002380E6 /* methodology.html in Resources */ = {isa = PBXBuildFile; fileRef = 83A3B1191B6BCB8E002380E6 /* methodology.html */; };
+		83A3B11C1B6BCB8E002380E6 /* aboutthisapp.html in Resources */ = {isa = PBXBuildFile; fileRef = 83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */; };
+		83A3B11E1B6BCEF1002380E6 /* MoreInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A3B11D1B6BCEF1002380E6 /* MoreInfoController.swift */; };
 		83A75F461B604EB3003B2BF9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A75F451B604EB3003B2BF9 /* libsqlite3.tbd */; };
 		83AD124A1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11BE1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png */; };
 		83AD124B1B668E71004B92D3 /* icons_Artificial_Flowers-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11BF1B668E71004B92D3 /* icons_Artificial_Flowers-33@3x.png */; };
@@ -1620,6 +1624,10 @@
 		83948BB81B38C27800125260 /* Yeman.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Yeman.pdf; sourceTree = "<group>"; };
 		83948BB91B38C27800125260 /* Zambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zambia.pdf; sourceTree = "<group>"; };
 		83948BBA1B38C27800125260 /* Zimbabwe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zimbabwe.pdf; sourceTree = "<group>"; };
+		83A3B1171B6BCACB002380E6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		83A3B1191B6BCB8E002380E6 /* methodology.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = methodology.html; sourceTree = "<group>"; };
+		83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutthisapp.html; sourceTree = "<group>"; };
+		83A3B11D1B6BCEF1002380E6 /* MoreInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoController.swift; sourceTree = "<group>"; };
 		83A75F451B604EB3003B2BF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		83AD11BE1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Alcoholic_Beverages-33@3x.png"; sourceTree = "<group>"; };
 		83AD11BF1B668E71004B92D3 /* icons_Artificial_Flowers-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Artificial_Flowers-33@3x.png"; sourceTree = "<group>"; };
@@ -2802,9 +2810,11 @@
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
 				831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */,
 				83263FC51B14CD5000F7F71D /* IndexViewController.swift */,
+				83A3B1171B6BCACB002380E6 /* InfoViewController.swift */,
 				83EF039D1B4D943200C2AECE /* GoodController.swift */,
 				83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */,
 				834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */,
+				83A3B11D1B6BCEF1002380E6 /* MoreInfoController.swift */,
 				834D8DA61B4C5EFA001CD795 /* StatisticsTableViewController.swift */,
 				834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
@@ -2827,6 +2837,8 @@
 				83B262C61B4CA9DC00D78041 /* countries_xls_2013.xml */,
 				83C070091B4C49500022FA39 /* goods_by_good_2013.xml */,
 				83C0700B1B4C497A0022FA39 /* country_2013.xml */,
+				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
+				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
 				83B3E9891B3B519300742BC7 /* key-fcl@3x.png */,
 				83B3E9861B3B519300742BC7 /* key-fcl@2x.png */,
@@ -3215,6 +3227,7 @@
 				8303DF931B41F21A00E4FD42 /* Honduras-map.png in Resources */,
 				8310FEC51ABB11310025F7AE /* Honduras.png in Resources */,
 				83AD13671B669137004B92D3 /* icons_Beans_(green_beans)-33@2x.png in Resources */,
+				83A3B11C1B6BCB8E002380E6 /* aboutthisapp.html in Resources */,
 				8335AF651B667963000748F0 /* icons_Rubber.png in Resources */,
 				8310FF3B1ABB11310025F7AE /* Turkey.png in Resources */,
 				8310FE8B1ABB11310025F7AE /* British_Virgin_Islands.png in Resources */,
@@ -3247,6 +3260,7 @@
 				83948B941B38C26D00125260 /* Paraguay.pdf in Resources */,
 				8335AF1B1B667963000748F0 /* icons_Beef.png in Resources */,
 				83AD12721B668E71004B92D3 /* icons_Diamonds-33@3x.png in Resources */,
+				83A3B11B1B6BCB8E002380E6 /* methodology.html in Resources */,
 				83948B051B38C23D00125260 /* Botswana.pdf in Resources */,
 				8303DF681B41F21A00E4FD42 /* Bangladesh-map.png in Resources */,
 				83AD12621B668E71004B92D3 /* icons_Chile_Peppers-33@3x.png in Resources */,
@@ -4032,9 +4046,11 @@
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
 				83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */,
+				83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */,
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
+				83A3B11E1B6BCEF1002380E6 /* MoreInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
