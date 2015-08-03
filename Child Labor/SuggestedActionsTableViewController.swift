@@ -33,7 +33,7 @@ class SuggestedActionsTableViewController: UITableViewController {
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("country_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app_2013", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
@@ -43,31 +43,23 @@ class SuggestedActionsTableViewController: UITableViewController {
         var dataXML = SWXMLHash.parse(contents as! String)
         
         // For each country
-        for country in dataXML["country_profiles"]["country"] {
-            if country["country"].element?.text == countryName {
-                for area in country["section"][6]["table"]["area"] {
-                    
-                    if area["area"].element?.text! == "Laws" {
-                        for action in area["action"] {
-                            laws.addObject((action["action"].element?.text!)!)
-                        }
-                    } else if area["area"].element?.text! == "Enforcement" {
-                        for action in area["action"] {
-                            enforcement.addObject((action["action"].element?.text!)!)
-                        }
-                    } else if area["area"].element?.text! == "Coordination" {
-                        for action in area["action"] {
-                            coordination.addObject((action["action"].element?.text!)!)
-                        }
-                    } else if area["area"].element?.text! == "Government Policies" {
-                        for action in area["action"] {
-                            governmentPolicies.addObject((action["action"].element?.text!)!)
-                        }
-                    } else if area["area"].element?.text! == "Social Programs" {
-                        for action in area["action"] {
-                            socialPrograms.addObject((action["action"].element?.text!)!)
-                        }
-                    }
+        for country in dataXML["Countries"]["Country"] {
+            if country["Name"].element?.text == countryName {
+                
+                for action in country["Suggested_Actions"]["Laws"]["Action"] {
+                    laws.addObject((action["Name"].element?.text!)!)
+                }
+                for action in country["Suggested_Actions"]["Enforcement"]["Action"] {
+                    enforcement.addObject((action["Name"].element?.text!)!)
+                }
+                for action in country["Suggested_Actions"]["Coordination"]["Action"] {
+                    coordination.addObject((action["Name"].element?.text!)!)
+                }
+                for action in country["Suggested_Actions"]["Government_Policies"]["Action"] {
+                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                }
+                for action in country["Suggested_Actions"]["Social_Programs"]["Action"] {
+                    socialPrograms.addObject((action["Name"].element?.text!)!)
                 }
                 
                 break
