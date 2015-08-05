@@ -512,6 +512,7 @@
 		8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BBA81B3CC67C008C547A /* SWXMLHash.swift */; };
 		836633B41B2F0734007C127E /* ilab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B21B2F0734007C127E /* ilab@3x.png */; };
 		836633B51B2F0734007C127E /* ilab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B31B2F0734007C127E /* ilab@2x.png */; };
+		8378C21F1B72B3890063CE17 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8378C21E1B72B3890063CE17 /* Background.png */; };
 		837B5D851AAB68F600731F83 /* eo.png in Resources */ = {isa = PBXBuildFile; fileRef = 837B5D841AAB68F600731F83 /* eo.png */; };
 		83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C7C1AA4D40300DD47EB /* AppDelegate.swift */; };
 		83800C821AA4D40300DD47EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83800C801AA4D40300DD47EB /* Main.storyboard */; };
@@ -1484,6 +1485,7 @@
 		8364BBA81B3CC67C008C547A /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		836633B21B2F0734007C127E /* ilab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ilab@3x.png"; sourceTree = "<group>"; };
 		836633B31B2F0734007C127E /* ilab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ilab@2x.png"; sourceTree = "<group>"; };
+		8378C21E1B72B3890063CE17 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		837B5D841AAB68F600731F83 /* eo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eo.png; sourceTree = "<group>"; };
 		83800C771AA4D40300DD47EB /* Child Labor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Child Labor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83800C7B1AA4D40300DD47EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2853,6 +2855,7 @@
 				836633B31B2F0734007C127E /* ilab@2x.png */,
 				83B3E9921B3B5DA400742BC7 /* dol@3x.png */,
 				83B3E9911B3B5DA400742BC7 /* dol@2x.png */,
+				8378C21E1B72B3890063CE17 /* Background.png */,
 				837B5D841AAB68F600731F83 /* eo.png */,
 				83800C7B1AA4D40300DD47EB /* Info.plist */,
 			);
@@ -3761,6 +3764,7 @@
 				8303DFBF1B41F21A00E4FD42 /* Seychelles-map.png in Resources */,
 				8335AEA71B667919000748F0 /* Yemen-map.png in Resources */,
 				8303DF711B41F21A00E4FD42 /* Burkina Faso-map.png in Resources */,
+				8378C21F1B72B3890063CE17 /* Background.png in Resources */,
 				83AD126B1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png in Resources */,
 				8310FF361ABB11310025F7AE /* Timor-Leste.png in Resources */,
 				83AD139E1B669137004B92D3 /* icons_Glass-33@2x.png in Resources */,
