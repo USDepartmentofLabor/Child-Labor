@@ -143,11 +143,11 @@ class CountriesTableViewController: UITableViewController {
             }
 
             // Create lists of countries in each advancement level section
-            if country["Advancement_Level"].element?.text == "Significant" {
+            if country["Advancement_Level"].element?.text == "Significant Advancement" {
                 sigCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "Moderate" {
+            } else if country["Advancement_Level"].element?.text == "Moderate Advancement" {
                 modCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "Minimal" {
+            } else if country["Advancement_Level"].element?.text == "Minimal Advancement" {
                 minCountries.addObject(countryName!)
             } else if country["Advancement_Level"].element?.text == "No Advancement" {
                 noCountries.addObject(countryName!)
