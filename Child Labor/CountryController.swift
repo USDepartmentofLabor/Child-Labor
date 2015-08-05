@@ -59,11 +59,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             if country["Name"].element?.text == self.countryName {
                 countryMap.image = UIImage(named: (country["Name"].element?.text)! + "-map")
                 if (country["Advancement_Level"].element?.text != nil) {
-                    if (country["Advancement_Level"].element?.text)! == "No Advancement" {
-                        advancementLevel.text = (country["Advancement_Level"].element?.text)!
-                    } else {
-                        advancementLevel.text = (country["Advancement_Level"].element?.text)! + " Advancement"
-                    }
+                    advancementLevel.text = (country["Advancement_Level"].element?.text)!
                 } else {
                     advancementLevel.text = "No Assessment Level Data"
                 }
