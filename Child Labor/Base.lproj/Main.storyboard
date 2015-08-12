@@ -136,7 +136,7 @@
             </objects>
             <point key="canvasLocation" x="1232" y="-595"/>
         </scene>
-        <!--Child Labor-->
+        <!--Sweat & Toil-->
         <scene sceneID="vxG-M1-AhV">
             <objects>
                 <viewController id="hfT-IT-hDl" customClass="IndexViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
@@ -199,7 +199,7 @@
                             <constraint firstItem="HsY-2Z-XBB" firstAttribute="leading" secondItem="LIi-f3-ru4" secondAttribute="leadingMargin" constant="-16" id="xCn-bG-vYv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Child Labor" id="ovW-Hg-zbW">
+                    <navigationItem key="navigationItem" title="Sweat &amp; Toil" id="ovW-Hg-zbW">
                         <barButtonItem key="backBarButtonItem" title=" " id="cEN-wf-RvU"/>
                         <barButtonItem key="leftBarButtonItem" image="ilab.png" id="EG3-d7-7Wo">
                             <connections>
