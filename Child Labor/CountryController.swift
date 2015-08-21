@@ -216,12 +216,18 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        switch section {
-        case 0:
-            return 4
-        default:
-            return 1
+        // If this is a TVPRA-only country, it has no indicators or PDF
+        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam"].contains(self.countryName) {
+            return 0
+        // Otherwise
+        } else {
+            switch section {
+            case 0:
+                return 4
+            default:
+                // Hide all report PDFs until they are available for 2014 (future update)
+                return 0
+            }
         }
     }
 
