@@ -26,7 +26,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate {
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         
         // Background image
-        let bgImageView = UIImageView(image: UIImage(named: "eo"))
+        let bgImageView = UIImageView(image: UIImage(named: "Background"))
         bgImageView.contentMode = UIViewContentMode.ScaleAspectFill
         self.tableView.backgroundView = bgImageView
     }
