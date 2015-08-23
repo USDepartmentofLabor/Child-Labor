@@ -35,7 +35,7 @@ class StatisticsTableViewController: UITableViewController {
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)

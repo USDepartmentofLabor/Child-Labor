@@ -38,7 +38,7 @@ class GoodsTableViewController: UITableViewController {
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Populate the list
-        let urlPath = NSBundle.mainBundle().pathForResource("goods_by_good_2013", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("complete_goods_by_good", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
