@@ -182,7 +182,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zem-wa-Uie">
                                 <rect key="frame" x="558" y="568" width="22" height="22"/>
                                 <animations/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="3s6-C9-493" kind="presentation" id="tU9-Bz-tsF"/>
                                 </connections>
