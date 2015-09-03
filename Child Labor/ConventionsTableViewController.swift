@@ -56,6 +56,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if minimumAge.text! == "No" {
                             ilo138Label.text = "No"
                             ilo138Label.textColor = UIColor.redColor()
+                        } else if minimumAge.text! == "N/A" {
+                            ilo138Label.text = "N/A"
                         }
                     }
                 }
@@ -69,6 +71,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if worstForms.text! == "No" {
                             ilo182Label.text = "No"
                             ilo182Label.textColor = UIColor.redColor()
+                        } else if worstForms.text! == "N/A" {
+                            ilo182Label.text = "N/A"
                         }
                     }
                 }
@@ -82,6 +86,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if unCRC.text! == "No" {
                             unCRCLabel.text = "No"
                             unCRCLabel.textColor = UIColor.redColor()
+                        } else if unCRC.text! == "N/A" {
+                            unCRCLabel.text = "N/A"
                         }
                     }
                 }
@@ -95,6 +101,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if armedConflict.text! == "No" {
                             unCRCArmedLabel.text = "No"
                             unCRCArmedLabel.textColor = UIColor.redColor()
+                        } else if armedConflict.text! == "N/A" {
+                            unCRCArmedLabel.text = "N/A"
                         }
                     }
                 }
@@ -108,6 +116,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if sexualExploitation.text! == "No" {
                             unCRCSaleLabel.text = "No"
                             unCRCSaleLabel.textColor = UIColor.redColor()
+                        } else if sexualExploitation.text! == "N/A" {
+                            unCRCSaleLabel.text = "N/A"
                         }
                     }
                 }
@@ -121,6 +131,8 @@ class ConventionsTableViewController: UITableViewController {
                         } else if trafficking.text! == "No" {
                             unCRCTraffickingLabel.text = "No"
                             unCRCTraffickingLabel.textColor = UIColor.redColor()
+                        } else if trafficking.text! == "N/A" {
+                            unCRCTraffickingLabel.text = "N/A"
                         }
                     }
                 }

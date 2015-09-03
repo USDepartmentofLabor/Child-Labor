@@ -149,7 +149,7 @@ class CountriesTableViewController: UITableViewController {
                 modCountries.addObject(countryName!)
             } else if country["Advancement_Level"].element?.text == "Minimal Advancement" {
                 minCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "No Advancement" {
+            } else if country["Advancement_Level"].element?.text == "No Advancement" || country["Advancement_Level"].element?.text == "No Advancement - Efforts Made But Complicit" {
                 noCountries.addObject(countryName!)
             } else {
                 noDataCountries.addObject(countryName!)
@@ -224,7 +224,7 @@ class CountriesTableViewController: UITableViewController {
         // For A–Z mode
         case 0:
             // Set section title for each letter of the alphabet
-            return String(Array("ABCDEFGHIJKLMNOPQRSTUVQXYZ".characters)[section])
+            return String(Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters)[section])
         
         // For assessment level mode
         case 1:

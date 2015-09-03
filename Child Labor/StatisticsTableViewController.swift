@@ -64,7 +64,7 @@ class StatisticsTableViewController: UITableViewController {
                                                     numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
                                                     let numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
 
-                                                    workingLabel.text = String(format: "%.2f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                                    workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
                                                     workingLabel.textColor = UIColor.darkGrayColor()
                                                 }
                                             }
@@ -80,7 +80,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let agriculturePercentage = statistics["Children_Work_Statistics"]["Agriculture"].element {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
-                            agricultureLabel.text = String(format: "%.2f", (agriculturePercentage.text! as NSString).floatValue) + "%"
+                            agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue) + "%"
                             agricultureLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
@@ -90,7 +90,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let servicesPercentage = statistics["Children_Work_Statistics"]["Services"].element {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
-                            servicesLabel.text = String(format: "%.2f", (servicesPercentage.text! as NSString).floatValue) + "%"
+                            servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue) + "%"
                             servicesLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
@@ -100,7 +100,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let industryPercentage = statistics["Children_Work_Statistics"]["Industry"].element {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
-                            industryLabel.text = String(format: "%.2f", (industryPercentage.text! as NSString).floatValue) + "%"
+                            industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue) + "%"
                             industryLabel.textColor = UIColor.darkGrayColor()
                         }
                     }
@@ -113,7 +113,7 @@ class StatisticsTableViewController: UITableViewController {
                             if attendingAgeRange.text != nil {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
-                                        attendingSchoolLabel.text = String(format: "%.2f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
+                                        attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
                                         attendingSchoolLabel.textColor = UIColor.darkGrayColor()
                                     }
                                 }
@@ -129,7 +129,7 @@ class StatisticsTableViewController: UITableViewController {
                             if combiningAgeRange.text != nil {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
-                                        combiningWorkAndSchoolLabel.text = String(format: "%.2f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
+                                        combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
                                         combiningWorkAndSchoolLabel.textColor = UIColor.darkGrayColor()
                                     }
                                 }
@@ -142,7 +142,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let primaryRate = statistics["UNESCO_Primary_Completion_Rate"]["Rate"].element {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
-                            primaryCompletionRateLabel.text = String(format: "%.2f", (primaryRate.text! as NSString).floatValue) + "%"
+                            primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue) + "%"
                             primaryCompletionRateLabel.textColor = UIColor.darkGrayColor()
                        }
                     }
