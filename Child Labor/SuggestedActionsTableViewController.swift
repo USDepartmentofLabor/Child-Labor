@@ -46,18 +46,30 @@ class SuggestedActionsTableViewController: UITableViewController {
         for country in dataXML["Countries"]["Country"] {
             if country["Name"].element?.text == countryName {
                 
+                // Duping these to accomodate inconsistent element name in the XML
+                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"] {
+                    laws.addObject((action["Name"].element?.text!)!)
+                }
                 for action in country["Suggested_Actions"]["Laws"]["Action"] {
                     laws.addObject((action["Name"].element?.text!)!)
                 }
+                
                 for action in country["Suggested_Actions"]["Enforcement"]["Action"] {
                     enforcement.addObject((action["Name"].element?.text!)!)
                 }
+                
                 for action in country["Suggested_Actions"]["Coordination"]["Action"] {
                     coordination.addObject((action["Name"].element?.text!)!)
                 }
+                
+                // Duping these to accomodate inconsistent element name in the XML
                 for action in country["Suggested_Actions"]["Government_Policies"]["Action"] {
                     governmentPolicies.addObject((action["Name"].element?.text!)!)
                 }
+                for action in country["Suggested_Actions"]["Policies"]["Action"] {
+                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                }
+                
                 for action in country["Suggested_Actions"]["Social_Programs"]["Action"] {
                     socialPrograms.addObject((action["Name"].element?.text!)!)
                 }
