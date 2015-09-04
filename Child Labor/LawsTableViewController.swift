@@ -84,7 +84,7 @@ class LawsTableViewController: UITableViewController {
                 }
                 
                 // Compulsory Education Age
-                if let minComAgeEstablished = masterData["Compulsory_Education_Age_Estabslished"].element {
+                if let minComAgeEstablished = masterData["Compulsory_Education_Age_Established"].element {
                     if minComAgeEstablished.text != nil {
                         if minComAgeEstablished.text! == "Yes" {
                             if let minComAge = masterData["Minimum_Age_for_Compulsory_Education"].element {
