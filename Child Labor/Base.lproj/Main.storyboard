@@ -709,8 +709,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMq-2d-LSD">
-                                            <rect key="frame" x="18" y="16" width="564" height="67"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMq-2d-LSD">
+                                            <rect key="frame" x="18" y="8" width="564" height="83"/>
                                             <animations/>
                                             <string key="text">Expand the Penal Code’s definition of human trafficking to cover trafficking for labor exploitation as a criminal offense. Expand the Penal Code’s definition of human trafficking to cover trafficking for labor exploitation as a criminal offense. Expand the Penal Code’s definition of human trafficking to cover trafficking for labor exploitation as a criminal offense.</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -720,10 +720,17 @@
                                     </subviews>
                                     <animations/>
                                     <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="qMq-2d-LSD" secondAttribute="bottom" id="TfQ-zb-jhF"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="qMq-2d-LSD" secondAttribute="trailing" constant="10" id="cXA-gS-GVv"/>
                                         <constraint firstAttribute="centerY" secondItem="qMq-2d-LSD" secondAttribute="centerY" id="csM-hC-A3J"/>
                                         <constraint firstItem="qMq-2d-LSD" firstAttribute="leading" secondItem="d7Y-eN-LnJ" secondAttribute="leadingMargin" constant="10" id="dGk-8s-kHe"/>
+                                        <constraint firstAttribute="topMargin" secondItem="qMq-2d-LSD" secondAttribute="top" id="t7d-d0-Fed"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="csM-hC-A3J"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <animations/>
                             </tableViewCell>
