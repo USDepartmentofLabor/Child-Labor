@@ -43,7 +43,7 @@ class SuggestedActionsTableViewController: UITableViewController {
         } catch _ {
             contents = nil
         }
-        var dataXML = SWXMLHash.parse(contents as! String)
+        let dataXML = SWXMLHash.parse(contents as! String)
         
         // For each country
         for country in dataXML["Countries"]["Country"] {

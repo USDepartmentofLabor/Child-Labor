@@ -81,7 +81,7 @@ class CountriesTableViewController: UITableViewController {
         } catch _ {
             contents = nil
         }
-        var countriesXML = SWXMLHash.parse(contents as! String)
+        let countriesXML = SWXMLHash.parse(contents as! String)
         
         // For each country
         for country in countriesXML["Countries"]["Country"] {
@@ -467,7 +467,7 @@ class CountriesTableViewController: UITableViewController {
         
         // Set cell title and icon
         cell.textLabel?.text = countryName
-        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil))
+        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil))
         cell.imageView?.image = flagImage
         
         // Resize icon

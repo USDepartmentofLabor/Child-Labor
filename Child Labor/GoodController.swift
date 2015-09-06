@@ -47,7 +47,7 @@ class GoodController: UITableViewController {
         } catch _ {
             contentsGoods = nil
         }
-        var goodsXML = SWXMLHash.parse(contentsGoods as! String)
+        let goodsXML = SWXMLHash.parse(contentsGoods as! String)
         
         for good in goodsXML["Goods"]["Good"] {
             if good["Good_Name"].element?.text == self.goodName {
