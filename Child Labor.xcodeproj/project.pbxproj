@@ -347,6 +347,7 @@
 		8310FF4C1ABB11310025F7AE /* Yemen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE6C1ABB11310025F7AE /* Yemen.png */; };
 		8310FF4D1ABB11310025F7AE /* Zambia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE6D1ABB11310025F7AE /* Zambia.png */; };
 		8310FF4E1ABB11310025F7AE /* Zimbabwe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE6E1ABB11310025F7AE /* Zimbabwe.png */; };
+		831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */; };
 		831EC8AE1B9C9AD800FEEC57 /* Fact Sheet-Reports 3.34pm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 831EC8AB1B9C9AD800FEEC57 /* Fact Sheet-Reports 3.34pm.pdf */; settings = {ASSET_TAGS = (); }; };
 		831EC8AF1B9C9AD800FEEC57 /* Fact Sheets-OFCT 8.28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 831EC8AC1B9C9AD800FEEC57 /* Fact Sheets-OFCT 8.28.pdf */; settings = {ASSET_TAGS = (); }; };
@@ -1313,6 +1314,7 @@
 		8310FE6C1ABB11310025F7AE /* Yemen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yemen.png; sourceTree = "<group>"; };
 		8310FE6D1ABB11310025F7AE /* Zambia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zambia.png; sourceTree = "<group>"; };
 		8310FE6E1ABB11310025F7AE /* Zimbabwe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zimbabwe.png; sourceTree = "<group>"; };
+		831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactSheetViewController.swift; sourceTree = "<group>"; };
 		831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullReportViewController.swift; sourceTree = "<group>"; };
 		831EC8AB1B9C9AD800FEEC57 /* Fact Sheet-Reports 3.34pm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Reports 3.34pm.pdf"; sourceTree = "<group>"; };
 		831EC8AC1B9C9AD800FEEC57 /* Fact Sheets-OFCT 8.28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheets-OFCT 8.28.pdf"; sourceTree = "<group>"; };
@@ -2812,6 +2814,7 @@
 				83EF03A11B4D9DE200C2AECE /* CountryController.swift */,
 				83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */,
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
+				831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */,
 				831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */,
 				83263FC51B14CD5000F7F71D /* IndexViewController.swift */,
 				83A3B1171B6BCACB002380E6 /* InfoViewController.swift */,
@@ -4062,6 +4065,7 @@
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
+				831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */,
 				83A3B11E1B6BCEF1002380E6 /* MoreInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

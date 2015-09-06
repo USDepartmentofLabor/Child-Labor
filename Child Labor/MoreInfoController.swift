@@ -37,11 +37,16 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        switch section {
+        case 0:
+            return 2
+        default:
+            return 3
+        }
     }
 
     /*
@@ -102,6 +107,15 @@ class MoreInfoController: UITableViewController {
         } else if segue.identifier == "presentMethodology" {
             let destinationViewController = segue.destinationViewController as! InfoViewController
             destinationViewController.infoContent = "methodology"
+        } else if segue.identifier == "presentReportsFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "Fact Sheet-Reports 3.34pm"
+        } else if segue.identifier == "presentOCFTFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "Fact Sheets-OFCT 8.28"
+        } else if segue.identifier == "presentProgramsFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "Fact Sheets-Programming 8.28"
         }
     }
 

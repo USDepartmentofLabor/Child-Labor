@@ -50,7 +50,7 @@ class InfoViewController: UIViewController, UIWebViewDelegate {
     
     func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
         // If it's a web link
-        if request.URL!.scheme == "http" {
+        if request.URL!.scheme == "http" || request.URL!.scheme == "https" || request.URL!.scheme == "mailto" {
             UIApplication.sharedApplication().openURL(request.URL!)
             return false
         }
