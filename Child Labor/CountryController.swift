@@ -57,7 +57,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
-                countryMap.image = UIImage(named: (country["Name"].element?.text)!.stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil) + "-map")
+                countryMap.image = UIImage(named: (country["Name"].element?.text)!.stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil) + "-map")
                 if (country["Advancement_Level"].element?.text != nil) {
                     advancementLevel.text = (country["Advancement_Level"].element?.text)!
                 } else {
