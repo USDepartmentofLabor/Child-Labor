@@ -52,7 +52,14 @@ class LawsTableViewController: UITableViewController {
                             if let minAge = masterData["Minimum_Age_for_Work"].element {
                                 if minAge.text != nil {
                                     if minAge.text! != "" {
-                                        minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
+                                        
+                                        // If the age field contains a slash, use it as a string and not a float
+                                        if minAge.text!.containsString("/") {
+                                            minimumAgeForWorkLabel.text = "Yes (" + minAge.text! + ")"
+                                        } else {
+                                            minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
+                                        }
+
                                         minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
@@ -71,7 +78,14 @@ class LawsTableViewController: UITableViewController {
                             if let minHazAge = masterData["Minimum_Age_for_Hazardous_Work"].element {
                                 if minHazAge.text != nil {
                                     if minHazAge.text! != "" {
-                                        minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
+                                        
+                                        // If the age field contains a slash, use it as a string and not a float
+                                        if minHazAge.text!.containsString("/") {
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + ")"
+                                        } else {
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
+                                        }
+                                        
                                         minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
@@ -90,7 +104,14 @@ class LawsTableViewController: UITableViewController {
                             if let minComAge = masterData["Minimum_Age_for_Compulsory_Education"].element {
                                 if minComAge.text != nil {
                                     if minComAge.text! != "" {
-                                        compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
+                                        
+                                        // If the age field contains a slash, use it as a string and not a float
+                                        if minComAge.text!.containsString("/") {
+                                            compulsoryEducationLabel.text = "Yes (" + minComAge.text! + ")"
+                                        } else {
+                                            compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
+                                        }
+
                                         compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
                                     }
                                 }
