@@ -937,6 +937,8 @@
 		83AD13EB1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135F1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png */; };
 		83AD13EC1B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13601B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png */; };
 		83AD13ED1B669137004B92D3 /* icons_Zinc-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13611B669137004B92D3 /* icons_Zinc-33@2x.png */; };
+		83B05CD51B9F1DE400A0F53A /* countries_for_app.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */; settings = {ASSET_TAGS = (); }; };
+		83B05CD61B9F1DE400A0F53A /* complete_goods_by_good.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */; settings = {ASSET_TAGS = (); }; };
 		83B1DE3D1AAD3BB100E06742 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */; };
 		83B262C91B4CC44E00D78041 /* British_Indian_Ocean_Territories.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B262C81B4CC44E00D78041 /* British_Indian_Ocean_Territories.png */; };
 		83B3E97B1B3B4FAA00742BC7 /* hand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B3E9791B3B4FA900742BC7 /* hand@2x.png */; };
@@ -956,8 +958,8 @@
 		83C0700A1B4C49500022FA39 /* goods_by_good_2013.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83C070091B4C49500022FA39 /* goods_by_good_2013.xml */; };
 		83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */; };
 		83C7ED921B89FB0900278C32 /* countries_for_app_2013.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83C7ED911B89FB0900278C32 /* countries_for_app_2013.xml */; };
-		83D4E67F1B89F95C00AEF648 /* complete_goods_by_good.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83D4E67D1B89F95C00AEF648 /* complete_goods_by_good.xml */; };
-		83D4E6801B89F95C00AEF648 /* countries_for_app.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83D4E67E1B89F95C00AEF648 /* countries_for_app.xml */; };
+		83D4E67F1B89F95C00AEF648 /* complete_goods_by_good_OLD.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83D4E67D1B89F95C00AEF648 /* complete_goods_by_good_OLD.xml */; };
+		83D4E6801B89F95C00AEF648 /* countries_for_app_OLD.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83D4E67E1B89F95C00AEF648 /* countries_for_app_OLD.xml */; };
 		83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF039D1B4D943200C2AECE /* GoodController.swift */; };
 		83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */; };
 		83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF03A11B4D9DE200C2AECE /* CountryController.swift */; };
@@ -1918,6 +1920,8 @@
 		83AD135F1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wolframite_(tungsten_ore)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13601B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Yerba_Mate_(stimulant_plant)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13611B669137004B92D3 /* icons_Zinc-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Zinc-33@2x.png"; sourceTree = "<group>"; };
+		83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_for_app.xml; sourceTree = "<group>"; };
+		83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = complete_goods_by_good.xml; sourceTree = "<group>"; };
 		83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 		83B262C81B4CC44E00D78041 /* British_Indian_Ocean_Territories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = British_Indian_Ocean_Territories.png; sourceTree = "<group>"; };
 		83B3E9791B3B4FA900742BC7 /* hand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand@2x.png"; sourceTree = "<group>"; };
@@ -1937,8 +1941,8 @@
 		83C070091B4C49500022FA39 /* goods_by_good_2013.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = goods_by_good_2013.xml; sourceTree = "<group>"; };
 		83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploitationTableViewController.swift; path = ../ExploitationTableViewController.swift; sourceTree = "<group>"; };
 		83C7ED911B89FB0900278C32 /* countries_for_app_2013.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_for_app_2013.xml; sourceTree = "<group>"; };
-		83D4E67D1B89F95C00AEF648 /* complete_goods_by_good.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = complete_goods_by_good.xml; sourceTree = "<group>"; };
-		83D4E67E1B89F95C00AEF648 /* countries_for_app.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_for_app.xml; sourceTree = "<group>"; };
+		83D4E67D1B89F95C00AEF648 /* complete_goods_by_good_OLD.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = complete_goods_by_good_OLD.xml; sourceTree = "<group>"; };
+		83D4E67E1B89F95C00AEF648 /* countries_for_app_OLD.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_for_app_OLD.xml; sourceTree = "<group>"; };
 		83EF039D1B4D943200C2AECE /* GoodController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodController.swift; sourceTree = "<group>"; };
 		83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsTableViewController.swift; sourceTree = "<group>"; };
 		83EF03A11B4D9DE200C2AECE /* CountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
@@ -2843,8 +2847,10 @@
 				83948AD41B38C22800125260 /* PDFs */,
 				83C7ED911B89FB0900278C32 /* countries_for_app_2013.xml */,
 				83C070091B4C49500022FA39 /* goods_by_good_2013.xml */,
-				83D4E67E1B89F95C00AEF648 /* countries_for_app.xml */,
-				83D4E67D1B89F95C00AEF648 /* complete_goods_by_good.xml */,
+				83D4E67E1B89F95C00AEF648 /* countries_for_app_OLD.xml */,
+				83D4E67D1B89F95C00AEF648 /* complete_goods_by_good_OLD.xml */,
+				83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */,
+				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				831EC8AB1B9C9AD800FEEC57 /* Fact Sheet-Reports 3.34pm.pdf */,
@@ -3117,6 +3123,7 @@
 				83948B721B38C25C00125260 /* Mozambique.pdf in Resources */,
 				83948B0D1B38C23D00125260 /* Chad.pdf in Resources */,
 				8303DF841B41F21A00E4FD42 /* Egypt-map.png in Resources */,
+				83B05CD51B9F1DE400A0F53A /* countries_for_app.xml in Resources */,
 				8303DF9F1B41F21A00E4FD42 /* Lesotho-map.png in Resources */,
 				8310FE9C1ABB11310025F7AE /* Cook_Islands.png in Resources */,
 				83AD13C51B669137004B92D3 /* icons_Rubies-33@2x.png in Resources */,
@@ -3676,7 +3683,7 @@
 				8310FEC21ABB11310025F7AE /* Guinea.png in Resources */,
 				83948B121B38C23D00125260 /* CongoRepublic.pdf in Resources */,
 				8303DFCF1B41F21A00E4FD42 /* Trinidad and Tobago-map.png in Resources */,
-				83D4E6801B89F95C00AEF648 /* countries_for_app.xml in Resources */,
+				83D4E6801B89F95C00AEF648 /* countries_for_app_OLD.xml in Resources */,
 				8303DF9E1B41F21A00E4FD42 /* Lebanon-map.png in Resources */,
 				8335AF9E1B668002000748F0 /* icons_Physic_Nuts_Castor_Beans.png in Resources */,
 				8310FEC61ABB11310025F7AE /* Hong_Kong.png in Resources */,
@@ -3799,6 +3806,7 @@
 				8335AF1E1B667963000748F0 /* icons_Brassware.png in Resources */,
 				83948B991B38C26D00125260 /* SaintKittsNevis.pdf in Resources */,
 				83AD13E61B669137004B92D3 /* icons_Tomatoes-33@2x.png in Resources */,
+				83B05CD61B9F1DE400A0F53A /* complete_goods_by_good.xml in Resources */,
 				83AD12971B668E71004B92D3 /* icons_Locks-33@3x.png in Resources */,
 				8335AEA11B6678DC000748F0 /* Macedonia-map.png in Resources */,
 				8303DF6C1B41F21A00E4FD42 /* Bhutan-map.png in Resources */,
@@ -4013,7 +4021,7 @@
 				83AD128D1B668E71004B92D3 /* icons_Gypsum_(mineral)-33@3x.png in Resources */,
 				83AD136C1B669137004B92D3 /* icons_Brassware-33@2x.png in Resources */,
 				8310FEA01ABB11310025F7AE /* Cuba.png in Resources */,
-				83D4E67F1B89F95C00AEF648 /* complete_goods_by_good.xml in Resources */,
+				83D4E67F1B89F95C00AEF648 /* complete_goods_by_good_OLD.xml in Resources */,
 				83AD13EC1B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png in Resources */,
 				83B3E98E1B3B519300742BC7 /* key-cl@3x.png in Resources */,
 				8310FEC91ABB11310025F7AE /* India.png in Resources */,
