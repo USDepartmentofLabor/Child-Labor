@@ -291,6 +291,9 @@
                                 <rect key="frame" x="558" y="568" width="22" height="22"/>
                                 <animations/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="More Info"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="3s6-C9-493" kind="presentation" id="tU9-Bz-tsF"/>
                                 </connections>
@@ -310,11 +313,17 @@
                     <navigationItem key="navigationItem" title="Sweat &amp; Toil" id="ovW-Hg-zbW">
                         <barButtonItem key="backBarButtonItem" title=" " id="cEN-wf-RvU"/>
                         <barButtonItem key="leftBarButtonItem" image="ilab.png" id="EG3-d7-7Wo">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="Bureau of International Labor Affairs (ILAB)"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="openIlabWebsite:" destination="hfT-IT-hDl" id="jsQ-qY-j5P"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="dol.png" id="KPk-Mt-v8H">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="Department of Labor"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="openDolWebsite:" destination="hfT-IT-hDl" id="dAA-fO-MQq"/>
                             </connections>
@@ -1548,9 +1557,9 @@
                                     </constraints>
                                     <segments>
                                         <segment title="All"/>
-                                        <segment title="" image="key-cl.png"/>
-                                        <segment title="" image="key-fl.png"/>
-                                        <segment title="" image="key-fcl.png"/>
+                                        <segment title="" image="child-labor.png"/>
+                                        <segment title="" image="forced-labor.png"/>
+                                        <segment title="" image="forced-child-labor.png"/>
                                     </segments>
                                     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
@@ -1762,9 +1771,9 @@
                                     </constraints>
                                     <segments>
                                         <segment title="All"/>
-                                        <segment title="" image="key-cl.png"/>
-                                        <segment title="" image="key-fl.png"/>
-                                        <segment title="" image="key-fcl.png"/>
+                                        <segment title="" image="child-labor.png"/>
+                                        <segment title="" image="forced-labor.png"/>
+                                        <segment title="" image="forced-child-labor.png"/>
                                     </segments>
                                     <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
@@ -1939,20 +1948,20 @@
     </scenes>
     <resources>
         <image name="Brazil-map.png" width="945" height="942"/>
+        <image name="child-labor.png" width="60" height="50"/>
         <image name="dol.png" width="45" height="45"/>
+        <image name="forced-child-labor.png" width="60" height="50"/>
+        <image name="forced-labor.png" width="60" height="50"/>
         <image name="hand.png" width="12" height="12"/>
         <image name="icons_Cotton-33.png" width="33" height="33"/>
         <image name="icons_Cotton.png" width="1024" height="1024"/>
         <image name="ilab.png" width="66" height="33"/>
-        <image name="key-cl.png" width="60" height="50"/>
-        <image name="key-fcl.png" width="60" height="50"/>
-        <image name="key-fl.png" width="60" height="50"/>
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U6o-sZ-F5w"/>
+        <segue reference="9ge-aL-a3Z"/>
         <segue reference="iR0-4H-bt0"/>
-        <segue reference="Qkd-VV-gmI"/>
         <segue reference="q6X-np-kmw"/>
+        <segue reference="U6o-sZ-F5w"/>
     </inferredMetricsTieBreakers>
 </document>

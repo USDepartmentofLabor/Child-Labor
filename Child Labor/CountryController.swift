@@ -177,6 +177,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         goodLabel?.text = goodName as? String
         goodButton!.setImage(UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
         
+        goodButton?.accessibilityLabel = goodName as? String
+        
         //
         switch exploitations[indexPath.row] as! Int {
         case 0:

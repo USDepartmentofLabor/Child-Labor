@@ -68,7 +68,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate {
         case 1:
             cell.textLabel?.text = "Goods"
         default:
-            cell.textLabel?.text = "Exploitation Type"
+            cell.textLabel?.text = "Exploitation Types"
         }
         
         return cell
