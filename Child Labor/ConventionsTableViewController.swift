@@ -82,7 +82,7 @@ class ConventionsTableViewController: UITableViewController {
                     if unCRC.text != nil {
                         if unCRC.text! == "Yes" {
                             unCRCLabel.text = "Yes"
-                            unCRCLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
+                            unCRCLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if unCRC.text! == "No" {
                             unCRCLabel.text = "No"
                             unCRCLabel.textColor = UIColor.redColor()
@@ -97,7 +97,7 @@ class ConventionsTableViewController: UITableViewController {
                     if armedConflict.text != nil {
                         if armedConflict.text! == "Yes" {
                             unCRCArmedLabel.text = "Yes"
-                            unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
+                            unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if armedConflict.text! == "No" {
                             unCRCArmedLabel.text = "No"
                             unCRCArmedLabel.textColor = UIColor.redColor()
@@ -112,7 +112,7 @@ class ConventionsTableViewController: UITableViewController {
                     if sexualExploitation.text != nil {
                         if sexualExploitation.text! == "Yes" {
                             unCRCSaleLabel.text = "Yes"
-                            unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
+                            unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if sexualExploitation.text! == "No" {
                             unCRCSaleLabel.text = "No"
                             unCRCSaleLabel.textColor = UIColor.redColor()
@@ -127,7 +127,7 @@ class ConventionsTableViewController: UITableViewController {
                     if trafficking.text != nil {
                         if trafficking.text! == "Yes" {
                             unCRCTraffickingLabel.text = "Yes"
-                            unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.8, blue: 0.0, alpha: 1.0)
+                            unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                         } else if trafficking.text! == "No" {
                             unCRCTraffickingLabel.text = "No"
                             unCRCTraffickingLabel.textColor = UIColor.redColor()
