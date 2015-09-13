@@ -312,7 +312,7 @@
 			<Palermo_Ratified>Yes</Palermo_Ratified>
 			<Minimum_Age_for_Work_Estabslished>Yes</Minimum_Age_for_Work_Estabslished>
 			<Minimum_Age_for_Work>16.0</Minimum_Age_for_Work>
-			<Minimum_Age_for_Hazardous_Work_Estabslished>yes</Minimum_Age_for_Hazardous_Work_Estabslished>
+			<Minimum_Age_for_Hazardous_Work_Estabslished>Yes</Minimum_Age_for_Hazardous_Work_Estabslished>
 			<Minimum_Age_for_Hazardous_Work>16.0</Minimum_Age_for_Hazardous_Work>
 			<Compulsory_Education_Age_Established>Yes</Compulsory_Education_Age_Established>
 			<Minimum_Age_for_Compulsory_Education>16.0</Minimum_Age_for_Compulsory_Education>
@@ -3823,7 +3823,7 @@
 			<Children_Work_Statistics>
 				<Age_Range>5-14</Age_Range>
 				<Total_Percentage_of_Working_Children>5.92842564157</Total_Percentage_of_Working_Children>
-				<Total_Working_Population>514092.5</Total_Working_Population>
+				<Total_Working_Population>514093</Total_Working_Population>
 				<Agriculture>39.1722311036</Agriculture>
 				<Services>40.6505264337</Services>
 				<Industry>20.1772424627</Industry>
@@ -5611,7 +5611,7 @@
 			<Minimum_Age_for_Hazardous_Work_Estabslished>Yes</Minimum_Age_for_Hazardous_Work_Estabslished>
 			<Minimum_Age_for_Hazardous_Work>18.0</Minimum_Age_for_Hazardous_Work>
 			<Compulsory_Education_Age_Established>Yes</Compulsory_Education_Age_Established>
-			<Minimum_Age_for_Compulsory_Education>17.0</Minimum_Age_for_Compulsory_Education>
+			<Minimum_Age_for_Compulsory_Education>15.0</Minimum_Age_for_Compulsory_Education>
 			<Free_Public_Education_Estabslished>No</Free_Public_Education_Estabslished>
 		</Master_Data>
 		<Suggested_Actions>
@@ -5808,10 +5808,6 @@
 		</Master_Data>
 		<Suggested_Actions>
 			<Legal_Framework>
-				<Action>
-					<Name></Name>
-					<Years></Years>
-				</Action>
 				<Action>
 					<Name>Adopt legislation that increases the age of compulsory education to 16 so that it is commensurate with the minimum age for work.</Name>
 					<Years>2010 &#8211; 2014</Years>
@@ -7314,7 +7310,7 @@
 				<Total_Working_Population>816363.0</Total_Working_Population>
 				<Agriculture>61.59</Agriculture>
 				<Services>26.46</Services>
-				<Industry>11.95</Industry>
+				<Industry>12.00</Industry>
 			</Children_Work_Statistics>
 			<Education_Statistics_Attendance_Statistics>
 				<Year>2010.0</Year>
@@ -11691,7 +11687,7 @@
 			<Minimum_Age_for_Hazardous_Work>18.0</Minimum_Age_for_Hazardous_Work>
 			<Compulsory_Education_Age_Established>No</Compulsory_Education_Age_Established>
 			<Minimum_Age_for_Compulsory_Education>None</Minimum_Age_for_Compulsory_Education>
-			<Free_Public_Education_Estabslished>Yes</Free_Public_Education_Estabslished>
+			<Free_Public_Education_Estabslished>No</Free_Public_Education_Estabslished>
 		</Master_Data>
 		<Suggested_Actions>
 			<Legal_Framework>
@@ -14002,7 +13998,7 @@
 				<Total_Percentage_of_Working_Children>9.17</Total_Percentage_of_Working_Children>
 				<Total_Working_Population>302864.63</Total_Working_Population>
 				<Agriculture>66.97</Agriculture>
-				<Services>17.05</Services>
+				<Services>17.10</Services>
 				<Industry>15.98</Industry>
 			</Children_Work_Statistics>
 			<Education_Statistics_Attendance_Statistics>
@@ -14017,7 +14013,7 @@
 			</Children_Working_and_Studying_7-14_yrs_old>
 			<UNESCO_Primary_Completion_Rate>
 				<Year>2012.0</Year>
-				<Rate>96.8</Rate>
+				<Rate>96.9</Rate>
 			</UNESCO_Primary_Completion_Rate>
 		</Country_Statistics>
 		<Master_Data>
