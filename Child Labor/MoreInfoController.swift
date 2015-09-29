@@ -37,13 +37,15 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
             return 2
+        case 1:
+            return 1
         default:
             return 3
         }
@@ -107,6 +109,9 @@ class MoreInfoController: UITableViewController {
         } else if segue.identifier == "presentMethodology" {
             let destinationViewController = segue.destinationViewController as! InfoViewController
             destinationViewController.infoContent = "methodology"
+        } else if segue.identifier == "presentReportIntroduction" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "2014 Child Labor_app"
         } else if segue.identifier == "presentReportsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheet-Reports 3.34pm"

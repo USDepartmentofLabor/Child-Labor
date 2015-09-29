@@ -227,8 +227,12 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             case 0:
                 return 4
             default:
-                // Hide all report PDFs until they are available for 2014 (future update)
-                return 0
+                // If this is British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no PDF
+                if ["British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands"].contains(self.countryName) {
+                    return 0
+                }
+
+                return 1
             }
         }
     }
