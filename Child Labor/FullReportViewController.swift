@@ -22,14 +22,6 @@ class FullReportViewController: GAITrackedViewController {
         // View name for Google Analytics
         self.screenName = "Report PDF Screen"
         
-        // Territories without their own PDF identified by ILAB should link to the "miscellaneous" PDF
-//        switch countryName {
-//        case "British Virgin Islands", "Christmas Island", "Cocos (Keeling) Islands", "Cook Islands", "Falkland Islands (Islas Malvinas)", "Montserrat", "Niue", "Norfolk Island", "Saint Helena, Ascension, and Tristan de Cunha", "Tokelau", "Wallis and Futuna", "West Bank and the Gaza Strip", "Western Sahara":
-//            countryName = "All_Non-IndependentCountriesTerritories"
-//        default:
-//            break
-//        }
-        
         // Get the contents of the file to load
         let localFilePath = NSBundle.mainBundle().pathForResource(countryName, ofType: "pdf")
         let targetURL = NSURL.fileURLWithPath(localFilePath!)

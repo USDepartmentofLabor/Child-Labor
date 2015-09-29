@@ -308,7 +308,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
         } else if segue.identifier == "presentFullReportDocument" {
             let svc = segue.destinationViewController as! FullReportViewController
-            svc.countryName = self.countryName
+            svc.countryName = self.countryName.stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil)
         } else if segue.identifier == "presentSuggestedActions" {
             let svc = segue.destinationViewController as! SuggestedActionsTableViewController
             svc.countryName = self.countryName
