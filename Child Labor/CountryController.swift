@@ -218,20 +218,20 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // If this is a TVPRA-only country, it has no indicators or PDF
-        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam"].contains(self.countryName) {
+        // If this is a TVPRA-only country, or one of British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no indicator or PDF buttons, so return 0 for both sections
+        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands"].contains(self.countryName) {
             return 0
+            
         // Otherwise
         } else {
             switch section {
+            
+            // Indicator buttons
             case 0:
                 return 4
+            
+            // Full Report PDF button
             default:
-                // If this is British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no PDF
-                if ["British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands"].contains(self.countryName) {
-                    return 0
-                }
-
                 return 1
             }
         }

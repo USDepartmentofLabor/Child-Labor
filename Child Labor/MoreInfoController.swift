@@ -111,16 +111,16 @@ class MoreInfoController: UITableViewController {
             destinationViewController.infoContent = "methodology"
         } else if segue.identifier == "presentReportIntroduction" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "2014 Child Labor_app"
+            destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
         } else if segue.identifier == "presentReportsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheet-Reports 3.34pm"
+            destinationViewController.factSheet = "Fact Sheets-Reports"
         } else if segue.identifier == "presentOCFTFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheets-OFCT 8.28"
+            destinationViewController.factSheet = "Fact Sheets-OCFT"
         } else if segue.identifier == "presentProgramsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheets-Programming 8.28"
+            destinationViewController.factSheet = "Fact Sheets-Programming"
         }
     }
 
