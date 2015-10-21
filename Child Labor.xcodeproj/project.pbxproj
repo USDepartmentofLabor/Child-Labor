@@ -4256,7 +4256,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.Child-Labor";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.dol.ChildLabor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4275,7 +4275,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.Child-Labor";
+				PRODUCT_BUNDLE_IDENTIFIER = gov.dol.ChildLabor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f9db97a6-2b38-42a1-9544-537553df8e29";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
