@@ -47,6 +47,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    @available(iOS 9.0, *)
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+        let navigationController = self.window?.rootViewController as! UINavigationController
+        let mainViewController = navigationController.viewControllers[0] as! IndexViewController
+        
+        navigationController.popToRootViewControllerAnimated(false)
+        if shortcutItem.type == "OpenCountries" {
+            mainViewController.performSegueWithIdentifier("countriesSelectedFromIndex", sender: self)
+        } else if shortcutItem.type == "OpenGoods" {
+            mainViewController.performSegueWithIdentifier("goodsSelectedFromIndex", sender: self)
+        } else if shortcutItem.type == "OpenExploitationTypes" {
+            mainViewController.performSegueWithIdentifier("exploitationSelectedFromIndex", sender: self)
+        }
+    }
 
 
 }
