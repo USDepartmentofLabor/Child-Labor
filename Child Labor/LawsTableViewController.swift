@@ -139,6 +139,9 @@ class LawsTableViewController: UITableViewController {
                 break;
             }
         }
+        
+        // Footer
+        // * - Does Not Meet International Standards. † - Age calculated based on available information.
 
         
     }

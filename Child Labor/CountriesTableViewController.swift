@@ -14,6 +14,9 @@ class CountriesTableViewController: UITableViewController {
     
     var hasDataByCounty: [String: Bool] = [:]
     
+    @IBOutlet weak var searchFilter: UITextField!
+    @IBOutlet weak var searchFilterview: UIView!
+    
     // Lists for countries in each letter section
     var aCountries = NSMutableArray()
     var bCountries = NSMutableArray()
@@ -42,6 +45,34 @@ class CountriesTableViewController: UITableViewController {
     var yCountries = NSMutableArray()
     var zCountries = NSMutableArray()
     
+    var aCountriesAll = NSMutableArray()
+    var bCountriesAll = NSMutableArray()
+    var cCountriesAll = NSMutableArray()
+    var dCountriesAll = NSMutableArray()
+    var eCountriesAll = NSMutableArray()
+    var fCountriesAll = NSMutableArray()
+    var gCountriesAll = NSMutableArray()
+    var hCountriesAll = NSMutableArray()
+    var iCountriesAll = NSMutableArray()
+    var jCountriesAll = NSMutableArray()
+    var kCountriesAll = NSMutableArray()
+    var lCountriesAll = NSMutableArray()
+    var mCountriesAll = NSMutableArray()
+    var nCountriesAll = NSMutableArray()
+    var oCountriesAll = NSMutableArray()
+    var pCountriesAll = NSMutableArray()
+    var qCountriesAll = NSMutableArray()
+    var rCountriesAll = NSMutableArray()
+    var sCountriesAll = NSMutableArray()
+    var tCountriesAll = NSMutableArray()
+    var uCountriesAll = NSMutableArray()
+    var vCountriesAll = NSMutableArray()
+    var wCountriesAll = NSMutableArray()
+    var xCountriesAll = NSMutableArray()
+    var yCountriesAll = NSMutableArray()
+    var zCountriesAll = NSMutableArray()
+    
+    
     // Lists for countries in each advancement level section
     var sigCountries = NSMutableArray()
     var modCountries = NSMutableArray()
@@ -49,12 +80,24 @@ class CountriesTableViewController: UITableViewController {
     var noCountries = NSMutableArray()
     var noDataCountries = NSMutableArray()
     
+    var sigCountriesAll = NSMutableArray()
+    var modCountriesAll = NSMutableArray()
+    var minCountriesAll = NSMutableArray()
+    var noCountriesAll = NSMutableArray()
+    var noDataCountriesAll = NSMutableArray()
+    
     // Lists for countries in each region section
     var asiaCountries = NSMutableArray()
     var europeCountries = NSMutableArray()
     var latinCountries = NSMutableArray()
     var middleCountries = NSMutableArray()
     var saharanCountries = NSMutableArray()
+    
+    var asiaCountriesAll = NSMutableArray()
+    var europeCountriesAll = NSMutableArray()
+    var latinCountriesAll = NSMutableArray()
+    var middleCountriesAll = NSMutableArray()
+    var saharanCountriesAll = NSMutableArray()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -175,6 +218,46 @@ class CountriesTableViewController: UITableViewController {
                 hasDataByCounty[countryName!] = true
             }
         }
+        
+        // Save all values for each section so that we can filter later
+        aCountriesAll = aCountries
+        bCountriesAll = bCountries
+        cCountriesAll = cCountries
+        dCountriesAll = dCountries
+        eCountriesAll = eCountries
+        fCountriesAll = fCountries
+        gCountriesAll = gCountries
+        hCountriesAll = hCountries
+        iCountriesAll = iCountries
+        jCountriesAll = jCountries
+        kCountriesAll = kCountries
+        lCountriesAll = lCountries
+        mCountriesAll = mCountries
+        nCountriesAll = nCountries
+        oCountriesAll = oCountries
+        pCountriesAll = pCountries
+        qCountriesAll = qCountries
+        rCountriesAll = rCountries
+        sCountriesAll = sCountries
+        tCountriesAll = tCountries
+        uCountriesAll = uCountries
+        vCountriesAll = vCountries
+        wCountriesAll = wCountries
+        xCountriesAll = xCountries
+        yCountriesAll = yCountries
+        zCountriesAll = zCountries
+        
+        sigCountriesAll = sigCountries
+        modCountriesAll = modCountries
+        minCountriesAll = minCountries
+        noCountriesAll = noCountries
+        noDataCountriesAll = noDataCountries
+        
+        asiaCountriesAll = asiaCountries
+        europeCountriesAll = europeCountries
+        latinCountriesAll = latinCountries
+        middleCountriesAll = middleCountries
+        saharanCountriesAll = saharanCountries
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -218,6 +301,12 @@ class CountriesTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        // If empty section don't return a header
+        if getSectionData(section).count == 0 {
+            return nil
+        }
+        
         // Determine which grouping the user has selected
         switch state {
             
@@ -499,30 +588,196 @@ class CountriesTableViewController: UITableViewController {
         return cell
     }
     
-    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
-        // Determine the grouping the user has selected
-        switch state {
-        
-        // For A—Z mode
-        case 0:
-            return ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-            
-//        case 1:
-//            return ["Sig", "Mod", "Min", "No", "N/A"]
+//    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
+//        
+//        // Determine the grouping the user has selected
+//        switch state {
+//        
+//        // For A—Z mode
+//        case 0:
+//            return ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 //            
-//        case 2:
-//            return ["Asi", "Eur", "Lat", "Mid", "Afr"]
-            
-        // For other modes, no section index is necessary
-        default:
-            return Array()
-        }
-    }
+////        case 1:
+////            return ["Sig", "Mod", "Min", "No", "N/A"]
+////            
+////        case 2:
+////            return ["Asi", "Eur", "Lat", "Mid", "Afr"]
+//            
+//        // For other modes, no section index is necessary
+//        default:
+//            return Array()
+//        }
+//    }
     
     @IBAction func groupChanged(sender: UISegmentedControl) {
         state = sender.selectedSegmentIndex
+        
+        // self.searchFilterview.hidden = state != 0
         self.tableView.reloadData()
     }
+    
+    @IBAction func filterResults(sender: AnyObject) {
+        let query = self.searchFilter.text
+        
+        aCountries = filterSection(aCountriesAll, query: query!)
+        bCountries = filterSection(bCountriesAll, query: query!)
+        cCountries = filterSection(cCountriesAll, query: query!)
+        dCountries = filterSection(dCountriesAll, query: query!)
+        eCountries = filterSection(eCountriesAll, query: query!)
+        fCountries = filterSection(fCountriesAll, query: query!)
+        gCountries = filterSection(gCountriesAll, query: query!)
+        hCountries = filterSection(hCountriesAll, query: query!)
+        iCountries = filterSection(iCountriesAll, query: query!)
+        jCountries = filterSection(jCountriesAll, query: query!)
+        kCountries = filterSection(kCountriesAll, query: query!)
+        lCountries = filterSection(lCountriesAll, query: query!)
+        mCountries = filterSection(mCountriesAll, query: query!)
+        nCountries = filterSection(nCountriesAll, query: query!)
+        oCountries = filterSection(oCountriesAll, query: query!)
+        pCountries = filterSection(pCountriesAll, query: query!)
+        qCountries = filterSection(qCountriesAll, query: query!)
+        rCountries = filterSection(rCountriesAll, query: query!)
+        sCountries = filterSection(sCountriesAll, query: query!)
+        tCountries = filterSection(tCountriesAll, query: query!)
+        uCountries = filterSection(uCountriesAll, query: query!)
+        vCountries = filterSection(vCountriesAll, query: query!)
+        wCountries = filterSection(wCountriesAll, query: query!)
+        xCountries = filterSection(xCountriesAll, query: query!)
+        yCountries = filterSection(yCountriesAll, query: query!)
+        zCountries = filterSection(zCountriesAll, query: query!)
+        
+        sigCountries = filterSection(sigCountriesAll, query: query!)
+        modCountries = filterSection(modCountriesAll, query: query!)
+        minCountries = filterSection(minCountriesAll, query: query!)
+        noCountries = filterSection(noCountriesAll, query: query!)
+        noDataCountries = filterSection(noDataCountriesAll, query: query!)
+        
+        asiaCountries = filterSection(asiaCountries, query: query!)
+        europeCountries = filterSection(europeCountriesAll, query: query!)
+        latinCountries = filterSection(latinCountriesAll, query: query!)
+        middleCountries = filterSection(middleCountriesAll, query: query!)
+        saharanCountries = filterSection(saharanCountriesAll, query: query!)
+        
+        tableView.reloadData();
+    }
+    
+    func filterSection(array: NSMutableArray, query: String) -> NSMutableArray {
+        if query.isEmpty {
+            return array
+        }
+        
+        let tempArray = array.filter() {
+            let countryName = ($0 as! String)
+            return countryName.lowercaseString.hasPrefix(query.lowercaseString)
+        }
+        return NSMutableArray(array: tempArray)
+    }
+    
+    func getSectionData(section: Int) -> NSMutableArray {
+        
+        // Determine the grouping the user has selected
+        switch state {
+            
+        // For A–Z mode
+        case 0:
+            
+            switch section {
+            case 0:
+                return aCountries
+            case 1:
+                return bCountries
+            case 2:
+                return cCountries
+            case 3:
+                return dCountries
+            case 4:
+                return eCountries
+            case 5:
+                return fCountries
+            case 6:
+                return gCountries
+            case 7:
+                return hCountries
+            case 8:
+                return iCountries
+            case 9:
+                return jCountries
+            case 10:
+                return kCountries
+            case 11:
+                return lCountries
+            case 12:
+                return mCountries
+            case 13:
+                return nCountries
+            case 14:
+                return oCountries
+            case 15:
+                return pCountries
+            case 16:
+                return qCountries
+            case 17:
+                return rCountries
+            case 18:
+                return sCountries
+            case 19:
+                return tCountries
+            case 20:
+                return uCountries
+            case 21:
+                return vCountries
+            case 22:
+                return wCountries
+            case 23:
+                return xCountries
+            case 24:
+                return yCountries
+            case 25:
+                return zCountries
+            default:
+                return aCountries
+            }
+            
+        // For assessment level mode
+        case 1:
+            switch section {
+            case 0:
+                return sigCountries
+            case 1:
+                return modCountries
+            case 2:
+                return minCountries
+            case 3:
+                return noCountries
+            default:
+                return noDataCountries
+            }
+            
+        // For region mode
+        default:
+            switch section {
+            case 0:
+                return asiaCountries
+            case 1:
+                return europeCountries
+            case 2:
+                return latinCountries
+            case 3:
+                return middleCountries
+            default:
+                return saharanCountries
+            }
+        }
+    
+    }
+    
+    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if (getSectionData(section).count == 0) {
+            return CGFloat.min
+        }
+        return UITableViewAutomaticDimension;
+    }
+    
     
     /*
     // Override to support conditional editing of the table view.

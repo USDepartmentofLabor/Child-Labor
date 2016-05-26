@@ -228,7 +228,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             
             // Indicator buttons
             case 0:
-                return 4
+                return 6
             
             // Full Report PDF button
             default:
@@ -281,6 +281,23 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         return true
     }
     */
+    
+    override func tableView(tableView: UITableView,
+                            didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        if (indexPath.row == 3) {
+            if ["Bosnia and Herzegovina", "Iraq", "Pakistan", "Tanzania"].contains(self.countryName) {
+                performSegueWithIdentifier("presentLawsMulti", sender: self)
+            }
+            else if ["Philippines"].contains(self.countryName) {
+                performSegueWithIdentifier("presentLawsBeta", sender: self)
+            }
+            else {
+                performSegueWithIdentifier("presentLaws", sender: self)
+            }
+        }
+    
+    }
     
     @IBAction func showWholeProfile(sender: AnyObject) {
         let oldHeightOfCountryProfile = countryProfile.frame.height

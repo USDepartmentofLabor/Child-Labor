@@ -22,6 +22,14 @@ class GoodsTableViewController: UITableViewController {
     var agGoods = NSMutableArray()
     var minGoods = NSMutableArray()
     var othGoods = NSMutableArray()
+    
+    var allGoodsAll = NSMutableArray()
+    var manGoodsAll = NSMutableArray()
+    var agGoodsAll = NSMutableArray()
+    var minGoodsAll = NSMutableArray()
+    var othGoodsAll = NSMutableArray()
+    
+    @IBOutlet weak var searchFilter: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +72,13 @@ class GoodsTableViewController: UITableViewController {
                 }
             }
         }
+        
+        // Save all values for each section so that we can filter later
+        allGoodsAll = allGoods
+        agGoodsAll = agGoods
+        manGoodsAll = manGoods
+        minGoodsAll = minGoods
+        othGoodsAll = othGoods
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -177,6 +192,31 @@ class GoodsTableViewController: UITableViewController {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
+    
+    @IBAction func filterResults(sender: AnyObject) {
+        let query = self.searchFilter.text
+        
+        allGoods = filterSection(allGoodsAll, query: query!)
+        manGoods = filterSection(manGoodsAll, query: query!)
+        minGoods = filterSection(minGoodsAll, query: query!)
+        agGoods = filterSection(agGoodsAll, query: query!)
+        othGoods = filterSection(othGoodsAll, query: query!)
+        
+        tableView.reloadData();
+    }
+    
+    func filterSection(array: NSMutableArray, query: String) -> NSMutableArray {
+        if query.isEmpty {
+            return array
+        }
+        
+        let tempArray = array.filter() {
+            let goodName = ($0 as! String)
+            return goodName.lowercaseString.rangeOfString(query.lowercaseString) != nil
+        }
+        return NSMutableArray(array: tempArray)
+    }
+    
     
 //    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
 //        // Determine the grouping the user has selected
