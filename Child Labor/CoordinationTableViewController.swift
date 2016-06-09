@@ -1,5 +1,5 @@
 //
-//  SuggestedActionsTableViewController.swift
+//  CoordinationTableViewController.swift
 //  Child Labor
 //
 //  Created by E J Kalafarski on 7/7/15.
@@ -27,12 +27,12 @@ class CoordinationTableViewController: UITableViewController {
         
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        
+        /*
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Suggested Actions Screen")
+        tracker.set(kGAIScreenName, value: "Coordination Table Screen")
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
-        
+
         // Get the country data
         let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
         var contents: NSString?
@@ -42,7 +42,7 @@ class CoordinationTableViewController: UITableViewController {
             contents = nil
         }
         let dataXML = SWXMLHash.parse(contents as! String)
-        
+        */
         coordination.addObject("Department of the State Coordinator for Combatting Trafficking in Persons within the Ministry of Security (MOS)")
         
         coordination.addObject("Strike Force for Combatting Trafficking in Persons and Organized Illegal Migration (Anti-Trafficking Strike Force)")

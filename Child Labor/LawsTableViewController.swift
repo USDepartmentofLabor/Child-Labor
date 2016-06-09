@@ -55,9 +55,9 @@ class LawsTableViewController: UITableViewController {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
                                         if minAge.text!.containsString("/") {
-                                            minimumAgeForWorkLabel.text = "Yes (" + minAge.text! + ")"
+                                            minimumAgeForWorkLabel.text = "Yes* (" + minAge.text! + ")"
                                         } else {
-                                            minimumAgeForWorkLabel.text = "Yes (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
+                                            minimumAgeForWorkLabel.text = "Yes* (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
                                         }
 
                                         minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
@@ -81,9 +81,9 @@ class LawsTableViewController: UITableViewController {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
                                         if minHazAge.text!.containsString("/") {
-                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + ")"
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + "‡)"
                                         } else {
-                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + ")"
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + "‡)"
                                         }
                                         
                                         minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
@@ -107,9 +107,9 @@ class LawsTableViewController: UITableViewController {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
                                         if minComAge.text!.containsString("/") {
-                                            compulsoryEducationLabel.text = "Yes (" + minComAge.text! + ")"
+                                            compulsoryEducationLabel.text = "Yes* (" + minComAge.text! + "‡)"
                                         } else {
-                                            compulsoryEducationLabel.text = "Yes (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + ")"
+                                            compulsoryEducationLabel.text = "Yes* (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + "‡)"
                                         }
 
                                         compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)

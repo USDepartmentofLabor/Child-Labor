@@ -1,5 +1,5 @@
 //
-//  SuggestedActionsTableViewController.swift
+//  EnforcementTableViewController.swift
 //  Child Labor
 //
 //  Created by E J Kalafarski on 7/7/15.
@@ -29,7 +29,7 @@ class EnforcementTableViewController: UITableViewController {
         
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        
+        /*
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
         tracker.set(kGAIScreenName, value: "Enforcement Screen")
@@ -44,7 +44,7 @@ class EnforcementTableViewController: UITableViewController {
             contents = nil
         }
         let dataXML = SWXMLHash.parse(contents as! String)
-        
+        */
         enforcement.addObject("FBiH Ministry of Labor and Social Policy’s Federal Inspection Agency and Cantonal-Level Labor Inspectorates")
         enforcement.addObject("RS Ministry of Labor and Veterans’ Labor Inspectorate")
         enforcement.addObject("BD Administrative Support Department")

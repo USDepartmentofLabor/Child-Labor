@@ -106,7 +106,7 @@ class GoodController: UITableViewController {
 
             for i in 0...countries.count - 1 {
                 if exploitations[i] as! Int == 0 || exploitations[i] as! Int == 2 || exploitations[i] as! Int == 3 {
-                    numCountriesWithThisType++
+                    numCountriesWithThisType += 1
                 }
             }
         case 2:
@@ -114,7 +114,7 @@ class GoodController: UITableViewController {
 
             for i in 0...countries.count - 1 {
                 if exploitations[i] as! Int == 1 || exploitations[i] as! Int == 2 || exploitations[i] as! Int == 3 {
-                    numCountriesWithThisType++
+                    numCountriesWithThisType += 1
                 }
             }
         default:
@@ -122,7 +122,7 @@ class GoodController: UITableViewController {
 
             for i in 0...countries.count - 1 {
                 if exploitations[i] as! Int == 3 {
-                    numCountriesWithThisType++
+                    numCountriesWithThisType += 1
                 }
             }
 }
