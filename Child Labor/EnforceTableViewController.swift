@@ -36,19 +36,41 @@ class EnforceTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 2
+        return 9
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        if state == section {
-            if section == 0 {
-                return 18
+        if state == 0 {
+            switch section {
+            case 0:
+                return 3
+            case 1:
+                return 3
+            case 2:
+                return 3
+            case 3:
+                return 3
+            case 4:
+                return 2
+            case 5:
+                return 2
+            case 6:
+                return 2
+            default:
+                return 0
             }
-            return 8
         }
-        
-        return 0
+        else {
+            switch section {
+            case 7:
+                return 5
+            case 8:
+                return 3
+            default:
+                return 0
+            }
+        }
     }
     
     @IBAction func changeSection(sender: AnyObject) {
@@ -57,18 +79,41 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        if (state == section) {
-            // return UITableViewAutomaticDimension;
+        if (state == 0 && section <= 6) {
+            return UITableViewAutomaticDimension;
         }
+        
+        if (state == 1 && section > 6) {
+            return UITableViewAutomaticDimension;
+        }
+        
         return CGFloat.min
     }
     
     override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        if (state == section) {
+        if (state == 0 && section <= 6) {
             return UITableViewAutomaticDimension;
         }
+        
+        if (state == 1 && section > 6) {
+            return UITableViewAutomaticDimension;
+        }
+        
         return CGFloat.min
     }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if (state == 0 && section <= 6) {
+            return super.tableView(tableView, titleForHeaderInSection: section)
+        }
+        
+        if (state == 1 && section > 6) {
+            return super.tableView(tableView, titleForHeaderInSection: section)
+        }
+        
+        return nil
+    }
+
 
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
