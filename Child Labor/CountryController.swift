@@ -286,7 +286,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                             didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if (indexPath.row == 3) {
-            if ["Bosnia and Herzegovina", "Iraq", "Pakistan", "Tanzania"].contains(self.countryName) {
+            if ["Bosnia and Herzegovina"].contains(self.countryName) {
                 performSegueWithIdentifier("presentLawsMulti", sender: self)
             }
             else if ["Philippines"].contains(self.countryName) {
@@ -294,6 +294,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             }
             else {
                 performSegueWithIdentifier("presentLaws", sender: self)
+            }
+        }
+        
+        if (indexPath.row == 4) {
+            if ["Bosnia and Herzegovina"].contains(self.countryName) {
+                performSegueWithIdentifier("presentEnforcementMulti", sender: self)
+            }
+            else {
+                performSegueWithIdentifier("presentEnforcement", sender: self)
             }
         }
     
