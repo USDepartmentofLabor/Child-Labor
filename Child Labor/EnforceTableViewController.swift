@@ -83,7 +83,7 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        if (state == 1 && section > 6) {
+        if (state == 1 && section > 7) {
             return UITableViewAutomaticDimension;
         }
         
