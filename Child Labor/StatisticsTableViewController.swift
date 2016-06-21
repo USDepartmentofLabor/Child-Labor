@@ -63,8 +63,12 @@ class StatisticsTableViewController: UITableViewController {
                                                     let numberFormatter = NSNumberFormatter()
                                                     numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
                                                     let numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
-
-                                                    workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                                    if (numberWithCommas != "0") {
+                                                        workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                                    }
+                                                    else {
+                                                        workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
+                                                    }
                                                     workingLabel.textColor = UIColor.darkGrayColor()
                                                 }
                                             }

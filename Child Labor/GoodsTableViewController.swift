@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GoodsTableViewController: UITableViewController {
+class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
     
     var state = 0
     
@@ -29,7 +29,7 @@ class GoodsTableViewController: UITableViewController {
     var minGoodsAll = NSMutableArray()
     var othGoodsAll = NSMutableArray()
     
-    @IBOutlet weak var searchFilter: UITextField!
+    @IBOutlet weak var searchBarFilter: UISearchBar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +79,8 @@ class GoodsTableViewController: UITableViewController {
         manGoodsAll = manGoods
         minGoodsAll = minGoods
         othGoodsAll = othGoods
+        
+        self.searchBarFilter.delegate = self
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -193,8 +195,13 @@ class GoodsTableViewController: UITableViewController {
         self.tableView.reloadData()
     }
     
-    @IBAction func filterResults(sender: AnyObject) {
-        let query = self.searchFilter.text
+    
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        filterResults()
+    }
+    
+    func filterResults() {
+        let query = self.searchBarFilter.text
         
         allGoods = filterSection(allGoodsAll, query: query!)
         manGoods = filterSection(manGoodsAll, query: query!)
@@ -237,6 +244,8 @@ class GoodsTableViewController: UITableViewController {
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        self.searchBarFilter.text = nil
+        filterResults()
         if segue.identifier == "goodSelectedFromGoodsTable" {
             let svc = segue.destinationViewController as! GoodController
             svc.goodName = (sender as! UITableViewCell).textLabel!.text!

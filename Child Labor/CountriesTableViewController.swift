@@ -8,14 +8,14 @@
 
 import UIKit
 
-class CountriesTableViewController: UITableViewController {
+class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
     var state = 0
     
     var hasDataByCounty: [String: Bool] = [:]
     
-    @IBOutlet weak var searchFilter: UITextField!
     @IBOutlet weak var searchFilterview: UIView!
+    @IBOutlet weak var searchBarFilter: UISearchBar!
     
     // Lists for countries in each letter section
     var aCountries = NSMutableArray()
@@ -115,6 +115,8 @@ class CountriesTableViewController: UITableViewController {
         
         // Give section index a clear background
         self.tableView.sectionIndexBackgroundColor = UIColor.clearColor()
+        
+        self.searchBarFilter.delegate = self
         
         // Get the country data
         let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
@@ -616,8 +618,12 @@ class CountriesTableViewController: UITableViewController {
         self.tableView.reloadData()
     }
     
-    @IBAction func filterResults(sender: AnyObject) {
-        let query = self.searchFilter.text
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        filterResults()
+    }
+    
+    func filterResults() {
+        let query = self.searchBarFilter.text
         
         aCountries = filterSection(aCountriesAll, query: query!)
         bCountries = filterSection(bCountriesAll, query: query!)
@@ -667,7 +673,7 @@ class CountriesTableViewController: UITableViewController {
         }
         
         let tempArray = array.filter() {
-            let countryName = ($0 as! String)
+            let countryName = ($0 as! String).stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil)
             return countryName.lowercaseString.hasPrefix(query.lowercaseString)
         }
         return NSMutableArray(array: tempArray)
@@ -818,6 +824,9 @@ class CountriesTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        self.searchBarFilter.text = nil
+        filterResults()
+        
         if segue.identifier == "countrySelectedFromCountriesTable" {
             let svc = segue.destinationViewController as! CountryController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!

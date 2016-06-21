@@ -349,20 +349,21 @@
                             <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Filter Countries" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i79-XB-bM8">
-                                    <rect key="frame" x="50" y="7" width="500" height="30"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <searchBar contentMode="redraw" placeholder="Filter Countries" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-AJ-Owm">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <textInputTraits key="textInputTraits"/>
-                                    <connections>
-                                        <action selector="filterResults:" destination="Zn1-9i-5DA" eventType="editingChanged" id="26J-za-dHG"/>
-                                    </connections>
-                                </textField>
+                                    <scopeButtonTitles>
+                                        <string>Title</string>
+                                        <string>Title</string>
+                                    </scopeButtonTitles>
+                                </searchBar>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="i79-XB-bM8" firstAttribute="leading" secondItem="lE6-py-coy" secondAttribute="leading" constant="50" id="63o-Iw-Zgz"/>
-                                <constraint firstItem="i79-XB-bM8" firstAttribute="centerX" secondItem="lE6-py-coy" secondAttribute="centerX" id="gxy-0n-spK"/>
-                                <constraint firstItem="i79-XB-bM8" firstAttribute="centerY" secondItem="lE6-py-coy" secondAttribute="centerY" id="xfX-aX-3qR"/>
+                                <constraint firstAttribute="trailing" secondItem="7Zh-AJ-Owm" secondAttribute="trailing" id="AzL-cJ-hAc"/>
+                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="centerY" secondItem="lE6-py-coy" secondAttribute="centerY" id="L4o-YO-NHk"/>
+                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="centerX" secondItem="lE6-py-coy" secondAttribute="centerX" id="XGy-fH-KxE"/>
+                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="leading" secondItem="lE6-py-coy" secondAttribute="leading" id="tSn-kR-Xk0"/>
                             </constraints>
                         </view>
                         <prototypes>
@@ -425,7 +426,7 @@
                         </view>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchFilter" destination="i79-XB-bM8" id="r3S-S2-dYu"/>
+                        <outlet property="searchBarFilter" destination="7Zh-AJ-Owm" id="RqZ-To-yDP"/>
                         <outlet property="searchFilterview" destination="lE6-py-coy" id="oPe-Il-F6g"/>
                     </connections>
                 </tableViewController>
@@ -1420,20 +1421,21 @@
                             <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Filter Goods" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5rf-G5-8BR">
-                                    <rect key="frame" x="50" y="7" width="500" height="30"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <searchBar contentMode="redraw" placeholder="Filter Goods" translatesAutoresizingMaskIntoConstraints="NO" id="lNv-nf-lom">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <textInputTraits key="textInputTraits"/>
-                                    <connections>
-                                        <action selector="filterResults:" destination="Ov4-p0-IDg" eventType="editingChanged" id="JmT-w6-wk0"/>
-                                    </connections>
-                                </textField>
+                                    <scopeButtonTitles>
+                                        <string>Title</string>
+                                        <string>Title</string>
+                                    </scopeButtonTitles>
+                                </searchBar>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="5rf-G5-8BR" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" constant="50" id="3Xh-JT-MF6"/>
-                                <constraint firstItem="5rf-G5-8BR" firstAttribute="centerX" secondItem="cUD-FN-T6L" secondAttribute="centerX" id="LY2-Qf-S0E"/>
-                                <constraint firstItem="5rf-G5-8BR" firstAttribute="centerY" secondItem="cUD-FN-T6L" secondAttribute="centerY" id="lbs-wJ-jB6"/>
+                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="A1f-hn-Beo"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="F81-R2-t4A"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="centerX" secondItem="cUD-FN-T6L" secondAttribute="centerX" id="cdY-M9-lWx"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="centerY" secondItem="cUD-FN-T6L" secondAttribute="centerY" id="o9E-jp-Z6S"/>
                             </constraints>
                         </view>
                         <prototypes>
@@ -1496,12 +1498,12 @@
                         </view>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchFilter" destination="5rf-G5-8BR" id="WFh-59-6HJ"/>
+                        <outlet property="searchBarFilter" destination="lNv-nf-lom" id="H7y-sz-isN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSy-z5-l32" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="1065"/>
+            <point key="canvasLocation" x="1329" y="1060"/>
         </scene>
         <!--Exploitation Types-->
         <scene sceneID="anq-nz-XzT">
@@ -3698,7 +3700,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6W-9v-dFc">
                                                     <rect key="frame" x="557" y="29" width="28" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.74901960779999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Refresher Courses Provided" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ori-kJ-UQ7">
@@ -5491,9 +5493,9 @@
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3NZ-qU-LZw"/>
-        <segue reference="q6X-np-kmw"/>
         <segue reference="pMt-qz-cXq"/>
-        <segue reference="o2e-dV-zlY"/>
+        <segue reference="q6X-np-kmw"/>
+        <segue reference="xQ3-Ct-UlW"/>
+        <segue reference="3NZ-qU-LZw"/>
     </inferredMetricsTieBreakers>
 </document>
