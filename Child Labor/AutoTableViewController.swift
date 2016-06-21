@@ -1,26 +1,19 @@
 //
-//  CoordTableViewController.swift
+//  AutoTableViewController.swift
 //  Child Labor
 //
-//  Created by Trumaine Johnson on 5/20/16.
+//  Created by Trumaine Johnson on 6/20/16.
 //  Copyright © 2016 U.S. Department of Labor. All rights reserved.
 //
 
 import UIKit
 
-class CoordTableViewController: UITableViewController {
-    
-    var state = 0
-    
+class AutoTableViewController: UITableViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Coordination Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
-        
-        self.tableView.estimatedRowHeight = 80.0
+        self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
 
         // Uncomment the following line to preserve selection between presentations
@@ -34,47 +27,23 @@ class CoordTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 3
-    }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        if state == section {
-            return 1
-        }
-        
-        return 1
-    }
-    
-    @IBAction func changeSection(sender: AnyObject) {
-        state = sender.selectedSegmentIndex
-        self.tableView.reloadData()
-    }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
-    
-//    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        if (state == section) {
-//            // return UITableViewAutomaticDimension;
-//        }
-//        return CGFloat.min
+
+    // MARK: - Table view data source
+
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
 //    }
-//    
-//    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-//        if (state == section) {
-//            return UITableViewAutomaticDimension;
-//        }
-//        return CGFloat.min
+//
+//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 0
 //    }
-    
-    
+
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)

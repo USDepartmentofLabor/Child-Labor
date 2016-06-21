@@ -15,6 +15,9 @@ class EnforceTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.estimatedRowHeight = 50.0;
+        self.tableView.rowHeight = UITableViewAutomaticDimension;
+        
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
         tracker.set(kGAIScreenName, value: "Enforcement Screen")
@@ -112,6 +115,10 @@ class EnforceTableViewController: UITableViewController {
         }
         
         return nil
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
     }
 
 

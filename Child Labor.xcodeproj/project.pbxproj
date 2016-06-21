@@ -11,6 +11,7 @@
 		38BC75341CE9B2CC00C53216 /* CoordinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75331CE9B2CC00C53216 /* CoordinationTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
 		38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75371CEED79100C53216 /* EnforceTableViewController.swift */; };
+		38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
 		8303DF641B41F21A00E4FD42 /* Argentina-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE81B41F21A00E4FD42 /* Argentina-map.png */; };
@@ -1000,6 +1001,7 @@
 		38BC75331CE9B2CC00C53216 /* CoordinationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinationTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
 		38BC75371CEED79100C53216 /* EnforceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforceTableViewController.swift; sourceTree = "<group>"; };
+		38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
 		8303DEE81B41F21A00E4FD42 /* Argentina-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Argentina-map.png"; sourceTree = "<group>"; };
@@ -3021,6 +3023,7 @@
 				83800C7A1AA4D40300DD47EB /* Supporting Files */,
 				38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */,
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
+				38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */,
 			);
 			path = "Child Labor";
 			sourceTree = "<group>";
@@ -4139,6 +4142,7 @@
 				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
 				38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */,
+				38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */,
 				83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */,
 				834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */,
 				834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */,
