@@ -37,7 +37,7 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,8 +46,10 @@ class MoreInfoController: UITableViewController {
             return 2
         case 1:
             return 1
-        default:
+        case 2:
             return 3
+        default:
+            return 1
         }
     }
 
@@ -121,6 +123,9 @@ class MoreInfoController: UITableViewController {
         } else if segue.identifier == "presentProgramsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheets-Programming"
+        } else if segue.identifier == "presentToolkit" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "ILAB Toolkit Handout"
         }
     }
 

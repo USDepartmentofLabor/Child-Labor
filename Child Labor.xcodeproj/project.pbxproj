@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38B7C1761D1DA8B000C02975 /* ILAB Toolkit Handout.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38B7C1751D1DA8B000C02975 /* ILAB Toolkit Handout.pdf */; };
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75341CE9B2CC00C53216 /* CoordinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75331CE9B2CC00C53216 /* CoordinationTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
@@ -997,6 +998,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38B7C1751D1DA8B000C02975 /* ILAB Toolkit Handout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "ILAB Toolkit Handout.pdf"; path = "../../../ILAB Toolkit Handout.pdf"; sourceTree = "<group>"; };
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75331CE9B2CC00C53216 /* CoordinationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinationTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
@@ -3042,6 +3044,7 @@
 				835618A91BD7E145007BCF75 /* Fact Sheets-OCFT.pdf */,
 				835618AA1BD7E145007BCF75 /* Fact Sheets-Programming.pdf */,
 				835618AB1BD7E145007BCF75 /* Fact Sheets-Reports.pdf */,
+				38B7C1751D1DA8B000C02975 /* ILAB Toolkit Handout.pdf */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
@@ -3328,6 +3331,7 @@
 				8303DF6F1B41F21A00E4FD42 /* Botswana-map.png in Resources */,
 				8310FF341ABB11310025F7AE /* Thailand.png in Resources */,
 				8335AF771B667963000748F0 /* icons_Sunflowers.png in Resources */,
+				38B7C1761D1DA8B000C02975 /* ILAB Toolkit Handout.pdf in Resources */,
 				83AD12CB1B668E71004B92D3 /* icons_Timber-33@3x.png in Resources */,
 				83AD13731B669137004B92D3 /* icons_Cassava-33@2x.png in Resources */,
 				83AD12961B668E71004B92D3 /* icons_Lobsters-33@3x.png in Resources */,
