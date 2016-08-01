@@ -11,7 +11,38 @@ import UIKit
 class EnforceTableViewController: UITableViewController {
     
     var state = 0
-
+    var countryName = "Brazil"
+    var hasFooter = false
+    
+    @IBOutlet weak var laborFundingLabel: UILabel!
+    @IBOutlet weak var laborInspectorsLabel: UILabel!
+    @IBOutlet weak var laborDedicatedInspectorsLabel: UILabel!
+    @IBOutlet weak var laborAccessPenaltiesLabel: UILabel!
+    @IBOutlet weak var laborInspectionsLabel: UILabel!
+    @IBOutlet weak var laborWorksiteInspectionsLabel: UILabel!
+    @IBOutlet weak var laborDeskReviewInspectionsLabel: UILabel!
+    @IBOutlet weak var laborViolationsLabel: UILabel!
+    @IBOutlet weak var laborPenaltiesImposedLabel: UILabel!
+    @IBOutlet weak var laborPenaltiesCollectedLabel: UILabel!
+    @IBOutlet weak var laborRoutineConductedLabel: UILabel!
+    @IBOutlet weak var laborRoutineTargetedLabel: UILabel!
+    @IBOutlet weak var laborUnannouncedPremittedLabel: UILabel!
+    @IBOutlet weak var laborUnannouncedConductedLabel: UILabel!
+    @IBOutlet weak var laborEmployeeTrainingLabel: UILabel!
+    @IBOutlet weak var laborLawTrainingLabel: UILabel!
+    @IBOutlet weak var laborRefresherCoursesLabel: UILabel!
+    @IBOutlet weak var laborComplaintMechanismLabel: UILabel!
+    @IBOutlet weak var laborReferralMechanismLabel: UILabel!
+    @IBOutlet weak var criminalInvestigationsLabel: UILabel!
+    @IBOutlet weak var criminalViolationsLabel: UILabel!
+    @IBOutlet weak var criminalProsecutionsLabel: UILabel!
+    @IBOutlet weak var criminalConvictionsLabel: UILabel!
+    @IBOutlet weak var criminalReferralMechanismLabel: UILabel!
+    @IBOutlet weak var criminalEmployeeTrainingLabel: UILabel!
+    @IBOutlet weak var criminalNewLawsTrainingLabel: UILabel!
+    @IBOutlet weak var criminalRefresherCoursesLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +59,68 @@ class EnforceTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        // Get the country data
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        let countriesXML = SWXMLHash.parse(contents as! String)
+        
+        for country in countriesXML["Countries"]["Country"] {
+            if country["Name"].element?.text == self.countryName {
+                let enforcements = country["Enforcements"]
+                setEnforcement(self.laborFundingLabel, text: enforcements["Labor_Funding"].element?.text)
+                setEnforcement(self.laborInspectorsLabel, text: enforcements["Labor_Inspectors"].element?.text)
+                setEnforcement(self.laborDedicatedInspectorsLabel, text: enforcements["Dedicated_Labor_Inspectors"].element?.text)
+                setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
+                setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
+                setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Worksite_Inspections"].element?.text)
+                setEnforcement(self.laborDeskReviewInspectionsLabel, text: enforcements["Labor_Desk_Review_Inspections"].element?.text)
+                setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
+                setEnforcement(self.laborPenaltiesImposedLabel, text: enforcements["Labor_Penalties_Imposed"].element?.text)
+                setEnforcement(self.laborPenaltiesCollectedLabel, text: enforcements["Labor_Penalties_Collected"].element?.text)
+                setEnforcement(self.laborRoutineConductedLabel, text: enforcements["Labor_Routine_Inspections_Conducted"].element?.text)
+                setEnforcement(self.laborRoutineTargetedLabel, text: enforcements["Labor_Routine_Inspections_Targeted"].element?.text)
+                setEnforcement(self.laborUnannouncedPremittedLabel, text: enforcements["Labor_Unannounced_Inspections_Premitted"].element?.text)
+                setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
+                setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
+                setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
+                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
+                setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
+                setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
+                setEnforcement(self.criminalInvestigationsLabel, text: enforcements["Criminal_Investigations"].element?.text)
+                setEnforcement(self.criminalViolationsLabel, text: enforcements["Criminal_Violations"].element?.text)
+                setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
+                setEnforcement(self.criminalConvictionsLabel, text: enforcements["Criminal_Convictions"].element?.text)
+                setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
+                setEnforcement(self.criminalEmployeeTrainingLabel, text: enforcements["Criminal_New_Employee_Training"].element?.text)
+                setEnforcement(self.criminalNewLawsTrainingLabel, text: enforcements["Criminal_New_Law_Training"].element?.text)
+                setEnforcement(self.criminalRefresherCoursesLabel, text: enforcements["Criminal_Refresher_Courses"].element?.text)
+            }
+        }
+    }
+    
+    func setEnforcement(label: UILabel, text: String?) {
+        if (text != nil) {
+            label.text = text
+            if let number = Int(text!) {
+                let numberFormatter = NSNumberFormatter()
+                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
+                label.text = numberFormatter.stringFromNumber(number)!
+            }
+            
+            if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
+                label.textColor = UIColor.blackColor()
+            }
+            
+            if (text!.containsString("*")) {
+                self.hasFooter = true
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -112,6 +205,24 @@ class EnforceTableViewController: UITableViewController {
         
         if (state == 1 && section > 6) {
             return super.tableView(tableView, titleForHeaderInSection: section)
+        }
+        
+        return nil
+    }
+    
+    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        if (state == 0 && section <= 6) {
+            if (section == 6 && self.hasFooter) {
+                return "* The Government does not make this information publicly available";
+            }
+            return super.tableView(tableView, titleForFooterInSection: section)
+        }
+        
+        if (state == 1 && section > 6) {
+            if (section == 8 && self.hasFooter) {
+                return "* The Government does not make this information publicly available";
+            }
+            return super.tableView(tableView, titleForFooterInSection: section)
         }
         
         return nil

@@ -119,7 +119,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.searchBarFilter.delegate = self
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
@@ -188,13 +188,13 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             }
 
             // Create lists of countries in each advancement level section
-            if country["Advancement_Level"].element?.text == "Significant Advancement" {
+            if ((country["Advancement_Level"].element?.text?.hasPrefix("Significant")) == true) {
                 sigCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "Moderate Advancement" {
+            } else if country["Advancement_Level"].element?.text?.hasPrefix("Moderate") == true {
                 modCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "Minimal Advancement" {
+            } else if country["Advancement_Level"].element?.text?.hasPrefix("Minimal") == true{
                 minCountries.addObject(countryName!)
-            } else if country["Advancement_Level"].element?.text == "No Advancement" || country["Advancement_Level"].element?.text == "No Advancement - Efforts Made But Complicit" {
+            } else if country["Advancement_Level"].element?.text?.hasPrefix("No Advancement") == true {
                 noCountries.addObject(countryName!)
             } else {
                 noDataCountries.addObject(countryName!)

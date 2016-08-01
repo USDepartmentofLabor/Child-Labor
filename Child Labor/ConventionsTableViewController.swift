@@ -34,7 +34,7 @@ class ConventionsTableViewController: UITableViewController {
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
@@ -45,10 +45,10 @@ class ConventionsTableViewController: UITableViewController {
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
-                let masterData = country["Master_Data"]
+                let conventions = country["Conventions"]
                 
                 // Minimum Age
-                if let minimumAge = masterData["C_138_Ratified"].element {
+                if let minimumAge = conventions["C_138_Ratified"].element {
                     if minimumAge.text != nil {
                         if minimumAge.text! == "Yes" {
                             ilo138Label.text = "Yes"
@@ -63,7 +63,7 @@ class ConventionsTableViewController: UITableViewController {
                 }
                 
                 // Worst Forms of Child Labor
-                if let worstForms = masterData["C_182_Ratified"].element {
+                if let worstForms = conventions["C_182_Ratified"].element {
                     if worstForms.text != nil {
                         if worstForms.text! == "Yes" {
                             ilo182Label.text = "Yes"
@@ -78,7 +78,7 @@ class ConventionsTableViewController: UITableViewController {
                 }
                 
                 // UN CRC
-                if let unCRC = masterData["Convention_on_the_Rights_of_the_Child_Ratified"].element {
+                if let unCRC = conventions["Convention_on_the_Rights_of_the_Child_Ratified"].element {
                     if unCRC.text != nil {
                         if unCRC.text! == "Yes" {
                             unCRCLabel.text = "Yes"
@@ -93,7 +93,7 @@ class ConventionsTableViewController: UITableViewController {
                 }
                 
                 // Armed Conflict
-                if let armedConflict = masterData["CRC_Armed_Conflict_Ratified"].element {
+                if let armedConflict = conventions["CRC_Armed_Conflict_Ratified"].element {
                     if armedConflict.text != nil {
                         if armedConflict.text! == "Yes" {
                             unCRCArmedLabel.text = "Yes"
@@ -108,7 +108,7 @@ class ConventionsTableViewController: UITableViewController {
                 }
                 
                 // Sexual Exploitation
-                if let sexualExploitation = masterData["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
+                if let sexualExploitation = conventions["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
                     if sexualExploitation.text != nil {
                         if sexualExploitation.text! == "Yes" {
                             unCRCSaleLabel.text = "Yes"
@@ -123,7 +123,7 @@ class ConventionsTableViewController: UITableViewController {
                 }
                 
                 // Trafficking
-                if let trafficking = masterData["Palermo_Ratified"].element {
+                if let trafficking = conventions["Palermo_Ratified"].element {
                     if trafficking.text != nil {
                         if trafficking.text! == "Yes" {
                             unCRCTraffickingLabel.text = "Yes"

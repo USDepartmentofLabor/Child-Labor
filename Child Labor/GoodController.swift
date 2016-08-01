@@ -40,7 +40,7 @@ class GoodController: UITableViewController {
         goodTitle.text = goodName
         goodImage.image = UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))!
         
-        let urlPathGoods = NSBundle.mainBundle().pathForResource("complete_goods_by_good", ofType: "xml")
+        let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_2015", ofType: "xml")
         var contentsGoods: NSString?
         do {
             contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: NSUTF8StringEncoding)

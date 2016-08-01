@@ -14,6 +14,10 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
     
     var goodsXML = SWXMLHash.parse("<xml></xml>")
     
+    
+    
+    
+    
     var allGoods = NSMutableArray()
     var numCountriesByGood: [String: Int] = [:]
     
@@ -46,7 +50,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Populate the list
-        let urlPath = NSBundle.mainBundle().pathForResource("complete_goods_by_good", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("goods_2015", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)

@@ -11,6 +11,13 @@ import UIKit
 class CoordTableViewController: UITableViewController {
     
     var state = 0
+    var countryName = "Brazil"
+    
+    
+    @IBOutlet weak var coordLabel: UILabel!
+    @IBOutlet weak var policyLabel: UILabel!
+    @IBOutlet weak var programLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +35,37 @@ class CoordTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        
+        // Get the country data
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+        } catch _ {
+            contents = nil
+        }
+        let countriesXML = SWXMLHash.parse(contents as! String)
+        
+        for country in countriesXML["Countries"]["Country"] {
+            if country["Name"].element?.text == self.countryName {
+                setMechanism(self.coordLabel, text: country["Mechanisms"]["Coordination"].element?.text)
+                setMechanism(self.policyLabel, text: country["Mechanisms"]["Policy"].element?.text)
+                setMechanism(self.programLabel, text: country["Mechanisms"]["Program"].element?.text)
+            }
+        }
+    }
+    
+    func setMechanism(label: UILabel, text: String?) {
+        if (text != nil) {
+            label.text = text
+            if (text!.hasPrefix("Yes") == true) {
+                label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
+            }
+            else if (text!.hasPrefix("No") == true) {
+                label.textColor = UIColor.redColor()
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -46,7 +46,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         countryTitle.text = countryName
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
+        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
@@ -293,13 +293,13 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 performSegueWithIdentifier("presentLawsBeta", sender: self)
             }
             else {
-                performSegueWithIdentifier("presentLaws", sender: self)
+                performSegueWithIdentifier("presentLawsBeta", sender: self)
             }
         }
         
         if (indexPath.row == 4) {
             if ["Bosnia and Herzegovina"].contains(self.countryName) {
-                performSegueWithIdentifier("presentEnforcementMulti", sender: self)
+                performSegueWithIdentifier("presentEnforcement", sender: self)
             }
             else {
                 performSegueWithIdentifier("presentEnforcement", sender: self)
@@ -346,6 +346,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             svc.countryName = self.countryName
         } else if segue.identifier == "presentLaws" {
             let svc = segue.destinationViewController as! LawsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentLawsBeta" {
+            let svc = segue.destinationViewController as! LegalStandardsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentEnforcement" {
+            let svc = segue.destinationViewController as! EnforceTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentCoordination" {
+            let svc = segue.destinationViewController as! CoordTableViewController
             svc.countryName = self.countryName
         }
     }
