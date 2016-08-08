@@ -123,6 +123,23 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 break;
             }
         }
+        
+        let countryLines = numberOfLinesInLabel(countryTitle)
+        print("country: " + String(countryLines))
+        print("advance: " + String(numberOfLinesInLabel(advancementLevel)))
+        if countryTitle.text?.characters.count > 10 {
+            headerView.frame.size.height += 48
+        }
+        
+        
+    }
+    
+    func numberOfLinesInLabel(label: UILabel) -> Int {
+        print(label.frame.size.height)
+        label.numberOfLines = 0
+        label.sizeToFit()
+        print(label.frame.size.height)
+        return 0
     }
     
     override func viewWillAppear(animated: Bool) {

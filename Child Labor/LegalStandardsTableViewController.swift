@@ -64,8 +64,7 @@ class LegalStandardsTableViewController: UITableViewController {
                 setLegalStandard(self.minimumHazardousWorkLabel, standardXML: legalStandards["Minimum_Hazardous_Work"])
                 setLegalStandard(self.minimumComplusoryMilitaryLabel, standardXML: legalStandards["Minimum_Compulsory_Military"])
                 setLegalStandard(self.minimumVoluntaryMilitaryLabel, standardXML: legalStandards["Minumum_Voluntary_Military"])
-                // setLegalStandard(self.typesHazardousWorkLabel, standardXML: legalStandards["Types_Hazardous_Work"])
-                setLegalStandard(self.prohibitionHazardousOccupationsLabel, standardXML: legalStandards["Prohibition_Hazardous_Occupations"])
+                setLegalStandard(self.typesHazardousWorkLabel, standardXML: legalStandards["Types_Hazardous_Work"])
                 setLegalStandard(self.prohibitionForcedLaborLabel, standardXML: legalStandards["Prohibition_Forced_Labor"])
                 setLegalStandard(self.prohibitionChildTraffickingLabel, standardXML: legalStandards["Prohibition_Child_Trafficking"])
                 setLegalStandard(self.prohibitionCSECLabel, standardXML: legalStandards["Prohibition_CSEC"])
@@ -98,7 +97,7 @@ class LegalStandardsTableViewController: UITableViewController {
                     self.hasAgeFooter = true
                     labelText += "‡"
                 }
-                if age!.containsString("/") {
+                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel].contains(label) && age!.containsString("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
                 }
@@ -108,8 +107,22 @@ class LegalStandardsTableViewController: UITableViewController {
         
         if (labelText != "") {
             label.text = labelText
-            if (labelText.hasPrefix("Yes") == true) {
+            if (labelText.containsString("Φ")) {
+                let idx = labelText.characters.indexOf("Φ")
+                let pos = labelText.startIndex.distanceTo(idx!);
+                
+                let attrText : NSMutableAttributedString = NSMutableAttributedString(string: labelText)
+                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFontOfSize(UIFont.systemFontSize() * 0.75), range:NSMakeRange(pos, 1))
+                attrText.addAttribute(kCTSuperscriptAttributeName as String, value:1, range:NSMakeRange(pos, 1))
+                label.attributedText = attrText;
+                
+            }
+            
+            if (labelText.hasPrefix("Yes") == true && conformsStandard) {
                 label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
+            }
+            else if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
+                label.textColor = UIColor.redColor()
             }
             else if (labelText.hasPrefix("No") == true) {
                 label.textColor = UIColor.redColor()

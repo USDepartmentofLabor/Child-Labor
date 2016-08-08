@@ -42,6 +42,7 @@ class EnforceTableViewController: UITableViewController {
     @IBOutlet weak var criminalNewLawsTrainingLabel: UILabel!
     @IBOutlet weak var criminalRefresherCoursesLabel: UILabel!
     
+    @IBOutlet weak var laborDedicatedInspectorsCell: UITableViewCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -102,6 +103,12 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.criminalRefresherCoursesLabel, text: enforcements["Criminal_Refresher_Courses"].element?.text)
             }
         }
+        
+        let text = self.laborDedicatedInspectorsLabel.text
+        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
+            self.laborDedicatedInspectorsCell.hidden = true
+        }
+        
     }
     
     func setEnforcement(label: UILabel, text: String?) {
@@ -111,6 +118,9 @@ class EnforceTableViewController: UITableViewController {
                 let numberFormatter = NSNumberFormatter()
                 numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
                 label.text = numberFormatter.stringFromNumber(number)!
+                if self.laborFundingLabel == label {
+                    label.text = "$" + numberFormatter.stringFromNumber(number)!
+                }
             }
             
             if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
@@ -229,7 +239,9 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        let cell: UITableViewCell = super.tableView(tableView, cellForRowAtIndexPath:indexPath)
+        
+        return cell.hidden ? 0 : UITableViewAutomaticDimension
     }
 
 
