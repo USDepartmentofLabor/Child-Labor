@@ -3069,33 +3069,55 @@
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Minimum_Work>
-      <Minimum_Hazardous_Work></Minimum_Hazardous_Work>
+      <Minimum_Hazardous_Work>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Standard>Yes </Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>RS</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>BD</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Bosnia and Herzegovina (BiH)</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -3130,7 +3152,29 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minumum_Voluntary_Military>
-      <Types_Hazardous_Work></Types_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+      </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
@@ -3306,7 +3350,20 @@
           <Enforcement>Unknown*</Enforcement>
         </Territory>
       </Labor_Funding>
-      <Labor_Inspectors></Labor_Inspectors>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Enforcement>78</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Enforcement>36</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Enforcement>7</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
       <Dedicated_Labor_Inspectors>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
@@ -3363,7 +3420,20 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_New_Law_Training>
-      <Labor_Refresher_Courses></Labor_Refresher_Courses>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
@@ -3466,7 +3536,12 @@
           <Enforcement>No</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism></Labor_Referral_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>BiH</Territory_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
@@ -3503,7 +3578,24 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses></Criminal_Refresher_Courses>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BiH</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
       <Criminal_Investigations>
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
@@ -3576,7 +3668,24 @@
           <Enforcement>1</Enforcement>
         </Territory>
       </Criminal_Convictions>
-      <Criminal_Referral_Mechanism></Criminal_Referral_Mechanism>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>FBiH</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>RS</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BD</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>BiH</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions></Suggested_Actions>
     <Mechanisms>
@@ -13150,19 +13259,34 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minimum_Work>
-      <Minimum_Hazardous_Work></Minimum_Hazardous_Work>
+      <Minimum_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Standard>Yes </Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -13183,7 +13307,22 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minumum_Voluntary_Military>
-      <Types_Hazardous_Work></Types_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
@@ -13292,7 +13431,16 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Funding>
-      <Labor_Inspectors></Labor_Inspectors>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Enforcement>120</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
       <Dedicated_Labor_Inspectors>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
@@ -13333,7 +13481,16 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_New_Law_Training>
-      <Labor_Refresher_Courses></Labor_Refresher_Courses>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
@@ -13444,7 +13601,16 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism></Labor_Referral_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
@@ -13465,7 +13631,16 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses></Criminal_Refresher_Courses>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
       <Criminal_Investigations>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
@@ -13506,7 +13681,16 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Convictions>
-      <Criminal_Referral_Mechanism></Criminal_Referral_Mechanism>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20179,12 +20363,34 @@ Ensuring children’s safety in schools
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minimum_Work>
-      <Minimum_Hazardous_Work></Minimum_Hazardous_Work>
+      <Minimum_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>KP</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>19</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
@@ -20198,7 +20404,29 @@ Ensuring children’s safety in schools
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minumum_Voluntary_Military>
-      <Types_Hazardous_Work></Types_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>KP</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
@@ -20338,7 +20566,20 @@ Ensuring children’s safety in schools
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Funding>
-      <Labor_Inspectors></Labor_Inspectors>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Enforcement>2711</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa(KP)</Territory_Name>
+          <Enforcement>54</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Enforcement>138</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
       <Dedicated_Labor_Inspectors>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
@@ -20363,14 +20604,19 @@ Ensuring children’s safety in schools
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_New_Law_Training>
-      <Labor_Refresher_Courses></Labor_Refresher_Courses>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa(KP)</Territory_Name>
+          <Territory_Name>KP</Territory_Name>
           <Enforcement>2094</Enforcement>
         </Territory>
         <Territory>
@@ -20446,7 +20692,12 @@ Ensuring children’s safety in schools
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism></Labor_Referral_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
@@ -20459,7 +20710,12 @@ Ensuring children’s safety in schools
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses></Criminal_Refresher_Courses>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
       <Criminal_Investigations>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
@@ -20484,7 +20740,12 @@ Ensuring children’s safety in schools
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Convictions>
-      <Criminal_Referral_Mechanism></Criminal_Referral_Mechanism>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25387,19 +25648,34 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minimum_Work>
-      <Minimum_Hazardous_Work></Minimum_Hazardous_Work>
+      <Minimum_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Standard>N/A*</Standard>
-          <Age>N/A*</Age>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -25420,7 +25696,22 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Minumum_Voluntary_Military>
-      <Types_Hazardous_Work></Types_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
@@ -25529,7 +25820,16 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Funding>
-      <Labor_Inspectors></Labor_Inspectors>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
       <Dedicated_Labor_Inspectors>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
@@ -25570,7 +25870,16 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_New_Law_Training>
-      <Labor_Refresher_Courses></Labor_Refresher_Courses>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
@@ -25681,7 +25990,16 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism></Labor_Referral_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
@@ -25702,7 +26020,16 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses></Criminal_Refresher_Courses>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
       <Criminal_Investigations>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
@@ -25743,7 +26070,16 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Convictions>
-      <Criminal_Referral_Mechanism></Criminal_Referral_Mechanism>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>

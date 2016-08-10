@@ -377,6 +377,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         } else if segue.identifier == "presentEnforcement" {
             let svc = segue.destinationViewController as! EnforceTableViewController
             svc.countryName = self.countryName
+        } else if segue.identifier == "presentEnforcementMulti" {
+            let svc = segue.destinationViewController as! EnforcementMultiTableViewController
+            svc.countryName = self.countryName
         } else if segue.identifier == "presentCoordination" {
             let svc = segue.destinationViewController as! CoordTableViewController
             svc.countryName = self.countryName

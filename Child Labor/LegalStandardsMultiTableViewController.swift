@@ -154,20 +154,21 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
             nameLabel.text = "All Territories"
             
+            let valueLabel = cell.contentView.viewWithTag(11) as! UILabel
+            valueLabel.text = "Unavailable"
+            valueLabel.textColor = UIColor.lightGrayColor()
+            
             return cell
         }
         
         var index = 1
         for territory in territories["Territory"] {
             let tag = index * 10
-            print(tag)
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
-            nameLabel.hidden = false
             nameLabel.text = territory["Territory_Name"].element?.text
             
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
-            valueLabel.hidden = false
             setLegalStandard(valueLabel, standardXML: territory)
             
             index += 1
