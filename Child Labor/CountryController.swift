@@ -11,9 +11,12 @@ import UIKit
 class CountryController: UITableViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var countryName = "Brazil"
+    var multipleTerritories = false
     
     var goods = NSMutableArray()
     var exploitations = NSMutableArray()
+    
+    var adjustedLabels = false
 
     @IBOutlet weak var headerView: UIView!
     
@@ -120,26 +123,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     }
                 }
                 
+                multipleTerritories = country["Multiple_Territories"].element?.text == "Yes"
+                
                 break;
             }
         }
-        
-        let countryLines = numberOfLinesInLabel(countryTitle)
-        print("country: " + String(countryLines))
-        print("advance: " + String(numberOfLinesInLabel(advancementLevel)))
-        if countryTitle.text?.characters.count > 10 {
-            headerView.frame.size.height += 48
-        }
-        
-        
-    }
-    
-    func numberOfLinesInLabel(label: UILabel) -> Int {
-        print(label.frame.size.height)
-        label.numberOfLines = 0
-        label.sizeToFit()
-        print(label.frame.size.height)
-        return 0
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -150,7 +138,29 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
         }
     }
-
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        if (!adjustedLabels) {
+            // Expand header frame relative to new label heights
+            var newRect = headerView.frame
+            newRect.size.height += getLabelSizeIncrease(countryTitle) + getLabelSizeIncrease(advancementLevel)
+            headerView.frame = newRect
+            self.tableView.tableHeaderView = headerView
+            adjustedLabels = true
+        }
+    }
+    
+    func getLabelSizeIncrease(label: UILabel) -> CGFloat {
+        let old = label.frame.height;
+        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.sizeToFit()
+        label.layoutIfNeeded()
+        return label.frame.height - old
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -303,20 +313,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                             didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if (indexPath.row == 3) {
-            if ["Bosnia and Herzegovina"].contains(self.countryName) {
-                performSegueWithIdentifier("presentLawsMulti", sender: self)
-            }
-            else if ["Philippines"].contains(self.countryName) {
-                performSegueWithIdentifier("presentLawsBeta", sender: self)
+            if multipleTerritories {
+                performSegueWithIdentifier("presentLegalStandardsMulti", sender: self)
             }
             else {
-                performSegueWithIdentifier("presentLawsBeta", sender: self)
+                performSegueWithIdentifier("presentLegalStandards", sender: self)
             }
         }
         
         if (indexPath.row == 4) {
-            if ["Bosnia and Herzegovina"].contains(self.countryName) {
-                performSegueWithIdentifier("presentEnforcement", sender: self)
+            if multipleTerritories {
+                performSegueWithIdentifier("presentEnforcementMulti", sender: self)
             }
             else {
                 performSegueWithIdentifier("presentEnforcement", sender: self)
@@ -361,10 +368,10 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         } else if segue.identifier == "presentConventions" {
             let svc = segue.destinationViewController as! ConventionsTableViewController
             svc.countryName = self.countryName
-        } else if segue.identifier == "presentLaws" {
-            let svc = segue.destinationViewController as! LawsTableViewController
+        } else if segue.identifier == "presentLegalStandardsMulti" {
+            let svc = segue.destinationViewController as! LegalStandardsMultiTableViewController
             svc.countryName = self.countryName
-        } else if segue.identifier == "presentLawsBeta" {
+        } else if segue.identifier == "presentLegalStandards" {
             let svc = segue.destinationViewController as! LegalStandardsTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentEnforcement" {

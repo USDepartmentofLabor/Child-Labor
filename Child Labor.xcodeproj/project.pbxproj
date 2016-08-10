@@ -24,6 +24,8 @@
 		38CA95501D4FF4F200319316 /* icons_Silk_Cocoons.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95471D4FF4F200319316 /* icons_Silk_Cocoons.png */; };
 		38CA95511D4FF4F200319316 /* icons_Silk_Cocoons-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95481D4FF4F200319316 /* icons_Silk_Cocoons-33@2x.png */; };
 		38CA95521D4FF4F200319316 /* icons_Silk_Cocoons-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95491D4FF4F200319316 /* icons_Silk_Cocoons-33@3x.png */; };
+		38E3E7D91D5A896400E0724A /* EnforcementMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */; };
+		38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */; };
 		38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
@@ -1027,6 +1029,8 @@
 		38CA95471D4FF4F200319316 /* icons_Silk_Cocoons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Silk_Cocoons.png; sourceTree = "<group>"; };
 		38CA95481D4FF4F200319316 /* icons_Silk_Cocoons-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Silk_Cocoons-33@2x.png"; sourceTree = "<group>"; };
 		38CA95491D4FF4F200319316 /* icons_Silk_Cocoons-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Silk_Cocoons-33@3x.png"; sourceTree = "<group>"; };
+		38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementMultiTableViewController.swift; sourceTree = "<group>"; };
+		38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiTableViewController.swift; sourceTree = "<group>"; };
 		38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
@@ -3041,6 +3045,7 @@
 				83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */,
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
 				831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */,
+				38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */,
 				831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */,
 				83263FC51B14CD5000F7F71D /* IndexViewController.swift */,
 				83A3B1171B6BCACB002380E6 /* InfoViewController.swift */,
@@ -3048,12 +3053,13 @@
 				83EF039F1B4D944E00C2AECE /* GoodsTableViewController.swift */,
 				834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */,
 				38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */,
-				38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */,
 				83A3B11D1B6BCEF1002380E6 /* MoreInfoController.swift */,
 				834D8DA61B4C5EFA001CD795 /* StatisticsTableViewController.swift */,
 				834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */,
 				38BC75331CE9B2CC00C53216 /* CoordinationTableViewController.swift */,
 				38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */,
+				38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */,
+				38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */,
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
 				83800C801AA4D40300DD47EB /* Main.storyboard */,
@@ -4192,6 +4198,7 @@
 			files = (
 				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
+				38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */,
 				38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */,
 				38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */,
 				38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */,
@@ -4199,6 +4206,7 @@
 				834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */,
 				834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */,
 				83B1DE3D1AAD3BB100E06742 /* CountriesTableViewController.swift in Sources */,
+				38E3E7D91D5A896400E0724A /* EnforcementMultiTableViewController.swift in Sources */,
 				83263FC61B14CD5000F7F71D /* IndexViewController.swift in Sources */,
 				38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */,
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
