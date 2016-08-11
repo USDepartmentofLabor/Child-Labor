@@ -97,11 +97,11 @@ class LegalStandardsTableViewController: UITableViewController {
                     self.hasAgeFooter = true
                     labelText += "‡"
                 }
+                labelText += ")"
                 if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel].contains(label) && age!.containsString("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
                 }
-                labelText += ")"
             }
         }
         
