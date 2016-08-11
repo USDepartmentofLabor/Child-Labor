@@ -11,8 +11,10 @@ import UIKit
 class EnforceTableViewController: UITableViewController {
     
     var state = 0
+    var tempState = 0
     var countryName = "Brazil"
-    var hasFooter = false
+    var hasLaborFooter = false
+    var hasCriminalFooter = false
     
     @IBOutlet weak var laborFundingLabel: UILabel!
     @IBOutlet weak var laborInspectorsLabel: UILabel!
@@ -74,6 +76,8 @@ class EnforceTableViewController: UITableViewController {
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
                 let enforcements = country["Enforcements"]
+                
+                tempState = 0
                 setEnforcement(self.laborFundingLabel, text: enforcements["Labor_Funding"].element?.text)
                 setEnforcement(self.laborInspectorsLabel, text: enforcements["Labor_Inspectors"].element?.text)
                 setEnforcement(self.laborDedicatedInspectorsLabel, text: enforcements["Dedicated_Labor_Inspectors"].element?.text)
@@ -93,6 +97,8 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
                 setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
                 setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
+                
+                tempState = 1
                 setEnforcement(self.criminalInvestigationsLabel, text: enforcements["Criminal_Investigations"].element?.text)
                 setEnforcement(self.criminalViolationsLabel, text: enforcements["Criminal_Violations"].element?.text)
                 setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
@@ -128,7 +134,12 @@ class EnforceTableViewController: UITableViewController {
             }
             
             if (text!.containsString("*")) {
-                self.hasFooter = true
+                if tempState == 0 {
+                    self.hasLaborFooter = true
+                }
+                else {
+                    self.hasCriminalFooter = true
+                }
             }
         }
     }
@@ -222,14 +233,14 @@ class EnforceTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
-            if (section == 6 && self.hasFooter) {
+            if (section == 6 && self.hasLaborFooter) {
                 return "* The Government does not make this information publicly available";
             }
             return super.tableView(tableView, titleForFooterInSection: section)
         }
         
         if (state == 1 && section > 6) {
-            if (section == 8 && self.hasFooter) {
+            if (section == 8 && self.hasCriminalFooter) {
                 return "* The Government does not make this information publicly available";
             }
             return super.tableView(tableView, titleForFooterInSection: section)

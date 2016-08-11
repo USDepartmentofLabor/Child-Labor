@@ -658,7 +658,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         noCountries = filterSection(noCountriesAll, query: query!)
         noDataCountries = filterSection(noDataCountriesAll, query: query!)
         
-        asiaCountries = filterSection(asiaCountries, query: query!)
+        asiaCountries = filterSection(asiaCountriesAll, query: query!)
         europeCountries = filterSection(europeCountriesAll, query: query!)
         latinCountries = filterSection(latinCountriesAll, query: query!)
         middleCountries = filterSection(middleCountriesAll, query: query!)

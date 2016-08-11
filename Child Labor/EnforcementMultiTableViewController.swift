@@ -13,7 +13,8 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     var state = 0
     var countryName = "Brazil"
-    var hasFooter = false
+    var hasLaborFooter = false
+    var hasCriminalFooter = false
     var showDedicatedInspectors = false
     
     var laborFundingRow = false
@@ -149,11 +150,11 @@ class EnforcementMultiTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        if (state == 0 && section == 6 && self.hasFooter) {
+        if (state == 0 && section == 6 && self.hasLaborFooter) {
             return "* The Government does not make this information publicly available";
         }
         
-        if (state == 1 && section == 1 && self.hasFooter) {
+        if (state == 1 && section == 1 && self.hasCriminalFooter) {
             return "* The Government does not make this information publicly available";
         }
         
@@ -266,7 +267,12 @@ class EnforcementMultiTableViewController: UITableViewController {
             }
             
             if (text!.containsString("*")) {
-                self.hasFooter = true
+                if self.state == 0 {
+                    self.hasLaborFooter = true
+                }
+                else {
+                    self.hasCriminalFooter = true
+                }
             }
         }
     }

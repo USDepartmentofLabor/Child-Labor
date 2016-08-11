@@ -186,7 +186,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         var labelText = ""
         if (standard != nil) {
             labelText = standard!
-            if (!conformsStandard) {
+            if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
                 labelText += "*"
             }
@@ -224,10 +224,10 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             else if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 label.textColor = UIColor.redColor()
             }
-            else if (labelText.hasPrefix("No") == true) {
+            else if (labelText.hasPrefix("No") == true || labelText.hasPrefix("Unknown") == true) {
                 label.textColor = UIColor.redColor()
             }
-            else if (labelText.hasPrefix("N/A") == false && labelText.hasPrefix("Unknown") == false && labelText.hasPrefix("Unavailable") == false) {
+            else if (labelText.hasPrefix("N/A") == false && labelText.hasPrefix("Unavailable") == false) {
                 label.textColor = UIColor.blackColor()
             }
             else {
