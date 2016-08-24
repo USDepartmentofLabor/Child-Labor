@@ -197,11 +197,11 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                     self.hasAgeFooter = true
                     labelText += "‡"
                 }
+                labelText += ")"
                 if (self.combatRow && age!.containsString("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
                 }
-                labelText += ")"
             }
         }
         
