@@ -125,7 +125,7 @@ class MoreInfoController: UITableViewController {
             destinationViewController.factSheet = "Fact Sheets-Programming"
         } else if segue.identifier == "presentToolkit" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "ILAB Toolkit Handout"
+            destinationViewController.factSheet = "Business Toolkit"
         }
     }
 

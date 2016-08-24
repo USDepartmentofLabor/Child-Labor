@@ -111,7 +111,7 @@ class EnforceTableViewController: UITableViewController {
         }
         
         let text = self.laborDedicatedInspectorsLabel.text
-        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
+        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
             self.laborDedicatedInspectorsCell.hidden = true
         }
         
@@ -120,7 +120,7 @@ class EnforceTableViewController: UITableViewController {
     func setEnforcement(label: UILabel, text: String?) {
         if (text != nil) {
             label.text = text
-            if let number = Int(text!) {
+            if let number = Float(text!) {
                 let numberFormatter = NSNumberFormatter()
                 numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
                 label.text = numberFormatter.stringFromNumber(number)!
@@ -167,11 +167,11 @@ class EnforceTableViewController: UITableViewController {
             case 2:
                 return 3
             case 3:
-                return 2
+                return 3
             case 4:
                 return 2
             case 5:
-                return 3
+                return 2
             case 6:
                 return 2
             default:
@@ -181,9 +181,9 @@ class EnforceTableViewController: UITableViewController {
         else {
             switch section {
             case 7:
-                return 5
-            case 8:
                 return 3
+            case 8:
+                return 5
             default:
                 return 0
             }
@@ -200,7 +200,7 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        if (state == 1 && section > 7) {
+        if (state == 1 && section >= 7) {
             return UITableViewAutomaticDimension;
         }
         

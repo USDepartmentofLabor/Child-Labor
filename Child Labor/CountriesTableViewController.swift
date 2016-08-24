@@ -78,12 +78,14 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     var modCountries = NSMutableArray()
     var minCountries = NSMutableArray()
     var noCountries = NSMutableArray()
+    var noAssessmentCountries = NSMutableArray()
     var noDataCountries = NSMutableArray()
     
     var sigCountriesAll = NSMutableArray()
     var modCountriesAll = NSMutableArray()
     var minCountriesAll = NSMutableArray()
     var noCountriesAll = NSMutableArray()
+    var noAssessmentCountriesAll = NSMutableArray()
     var noDataCountriesAll = NSMutableArray()
     
     // Lists for countries in each region section
@@ -196,6 +198,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 minCountries.addObject(countryName!)
             } else if country["Advancement_Level"].element?.text?.hasPrefix("No Advancement") == true {
                 noCountries.addObject(countryName!)
+            } else if country["Advancement_Level"].element?.text?.hasPrefix("No Assessment") == true {
+                noAssessmentCountries.addObject(countryName!)
             } else {
                 noDataCountries.addObject(countryName!)
             }
@@ -253,6 +257,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         modCountriesAll = modCountries
         minCountriesAll = minCountries
         noCountriesAll = noCountries
+        noAssessmentCountriesAll = noAssessmentCountries
         noDataCountriesAll = noDataCountries
         
         asiaCountriesAll = asiaCountries
@@ -290,7 +295,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         
         // For assessment level mode
         case 1:
-            return 5
+            return 6
             
         // For region mode
         case 2:
@@ -328,8 +333,10 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 return "Minimal Advancement"
             case 3:
                 return "No Advancement"
+            case 4:
+                return "No Assessment"
             default:
-                return "No Data"
+                return "Not Covered in TDA Report"
             }
         
         // For region mode
@@ -432,6 +439,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 return minCountries.count
             case 3:
                 return noCountries.count
+            case 4:
+                return noAssessmentCountries.count
             default:
                 return noDataCountries.count
             }
@@ -535,6 +544,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 countryName = minCountries[indexPath.row] as! String
             case 3:
                 countryName = noCountries[indexPath.row] as! String
+            case 4:
+                countryName = noAssessmentCountries[indexPath.row] as! String
             default:
                 countryName = noDataCountries[indexPath.row] as! String
             }
@@ -656,6 +667,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         modCountries = filterSection(modCountriesAll, query: query!)
         minCountries = filterSection(minCountriesAll, query: query!)
         noCountries = filterSection(noCountriesAll, query: query!)
+        noAssessmentCountries = filterSection(noAssessmentCountriesAll, query: query!)
         noDataCountries = filterSection(noDataCountriesAll, query: query!)
         
         asiaCountries = filterSection(asiaCountriesAll, query: query!)
@@ -755,6 +767,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 return minCountries
             case 3:
                 return noCountries
+            case 4:
+                return noAssessmentCountries
             default:
                 return noDataCountries
             }

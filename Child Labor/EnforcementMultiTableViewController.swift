@@ -57,22 +57,22 @@ class EnforcementMultiTableViewController: UITableViewController {
                 
                 for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"] {
                     let text = territory["Enforcement"].element?.text
-                    if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
+                    if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
                         showDedicatedInspectors = false
                     }
                 }
                 
                 
                 let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Dedicated_Labor_Inspectors"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Authorized_Access_Penalties"]]
-                let sectionA2 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"], enforcements["Labor_Desk_Review_Inspections"]]
-                let sectionA3 = [enforcements["Labor_Violations"], enforcements["Labor_Penalties_Imposed"], enforcements["Labor_Penalties_Collected"]]
-                let sectionA4 = [enforcements["Labor_Routine_Inspections_Conducted"], enforcements["Labor_Routine_Inspections_Targeted"]]
-                let sectionA5 = [enforcements["Labor_Unannounced_Inspections_Premitted"], enforcements["Labor_Unannounced_Inspections_Conducted"]]
-                let sectionA6 = [enforcements["Labor_New_Employee_Training"], enforcements["Labor_New_Law_Training"], enforcements["Labor_Refresher_Courses"]]
+                let sectionA2 = [enforcements["Labor_New_Employee_Training"], enforcements["Labor_New_Law_Training"], enforcements["Labor_Refresher_Courses"]]
+                let sectionA3 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"], enforcements["Labor_Desk_Review_Inspections"]]
+                let sectionA4 = [enforcements["Labor_Violations"], enforcements["Labor_Penalties_Imposed"], enforcements["Labor_Penalties_Collected"]]
+                let sectionA5 = [enforcements["Labor_Routine_Inspections_Conducted"], enforcements["Labor_Routine_Inspections_Targeted"]]
+                let sectionA6 = [enforcements["Labor_Unannounced_Inspections_Premitted"], enforcements["Labor_Unannounced_Inspections_Conducted"]]
                 let sectionA7 = [enforcements["Labor_Complaint_Mechanism"], enforcements["Labor_Referral_Mechanism"]]
                 
-                let sectionB1 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"]]
-                let sectionB2 = [enforcements["Criminal_New_Employee_Training"], enforcements["Criminal_New_Law_Training"], enforcements["Criminal_Refresher_Courses"]]
+                let sectionB1 = [enforcements["Criminal_New_Employee_Training"], enforcements["Criminal_New_Law_Training"], enforcements["Criminal_Refresher_Courses"]]
+                let sectionB2 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"]]
                 
                 sectionTerritories.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
                 sectionTerritories.append([sectionB1, sectionB2])
@@ -81,15 +81,15 @@ class EnforcementMultiTableViewController: UITableViewController {
         
         
         let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Dedicated Labor Inspectors", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "Inspectorate Authorized to Assess Penalties"]
-        let sectionA2 = ["No. Of Inspections", "No. Conducted at Worksite", "No. Conducted by Desk Reviews"]
-        let sectionA3 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]
-        let sectionA4 = ["Conducted", "Targeted"]
-        let sectionA5 = ["Permitted", "Conducted"]
-        let sectionA6 = ["Initial Training for New Employees", "Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
+        let sectionA2 = ["Initial Training for New Employees", "Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
+        let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite", "No. Conducted by Desk Reviews"]
+        let sectionA4 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]
+        let sectionA5 = ["Conducted", "Targeted"]
+        let sectionA6 = ["Permitted", "Conducted"]
         let sectionA7 = ["Complaint Mechanism Exists", "Referral Mechanism Exists btwn Authorities and Social Services"]
         
-        let sectionB1 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Services"]
-        let sectionB2 = ["Initial Training for New Employees", "Training on New Laws Related to WFCL", "Refresher Courses Provided"]
+        let sectionB1 = ["Initial Training for New Employees", "Training on New Laws Related to WFCL", "Refresher Courses Provided"]
+        let sectionB2 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Services"]
         
         sectionTitles.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
         sectionTitles.append([sectionB1, sectionB2])
@@ -122,15 +122,15 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 0:
                 return nil
             case 1:
-                return "Labor Inspections:"
-            case 2:
-                return "Child Labor Violations:"
-            case 3:
-                return "Routine Inspections:"
-            case 4:
-                return "Unannounced Inspections:"
-            case 5:
                 return "Training For Labor Inspectors:"
+            case 2:
+                return "Labor Inspections:"
+            case 3:
+                return "Child Labor Violations:"
+            case 4:
+                return "Routine Inspections:"
+            case 5:
+                return "Unannounced Inspections:"
             case 6:
                 return nil
             default:
@@ -140,9 +140,10 @@ class EnforcementMultiTableViewController: UITableViewController {
         else {
             switch section {
             case 0:
-                return nil
-            case 1:
                 return "Training For Investigators"
+            case 1:
+                return nil
+            
             default:
                 return nil
             }
@@ -183,11 +184,11 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 2:
                 return 3
             case 3:
-                return 2
+                return 3
             case 4:
                 return 2
             case 5:
-                return 3
+                return 2
             case 6:
                 return 2
             default:
@@ -197,9 +198,9 @@ class EnforcementMultiTableViewController: UITableViewController {
         else {
             switch section {
             case 0:
-                return 5
-            case 1:
                 return 3
+            case 1:
+                return 5
             default:
                 return 0
             }

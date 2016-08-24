@@ -64,7 +64,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 if (country["Advancement_Level"].element?.text != nil) {
                     advancementLevel.text = (country["Advancement_Level"].element?.text)!
                 } else {
-                    advancementLevel.text = "No Assessment Level Data"
+                    advancementLevel.text = "Not Covered in TDA Report"
+                    countryMap.image = nil
                 }
                 
                 // If there is no profile for this country
@@ -246,7 +247,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If this is a TVPRA-only country, or one of British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no indicator or PDF buttons, so return 0 for both sections
-        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands"].contains(self.countryName) {
+        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
             return 0
             
         // Otherwise

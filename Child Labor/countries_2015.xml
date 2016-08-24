@@ -161,9 +161,6 @@
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Provide a legal basis for the enforcement of child labor laws through labor inspection.</Name>
-        </Action>
-        <Action>
           <Name>Ensure that laws protect all children, including boys, from commercial sexual exploitation.</Name>
         </Action>
         <Action>
@@ -247,7 +244,7 @@
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2015, Albania made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government raised the minimum age at which children may participate in apprenticeship programs and light work to 15. The Government also issued a detailed instruction to national child protection stakeholders outlining each stakeholder’s role in child protection and the best practices for assisting vulnerable children. However, children in Albania are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in forced begging.  Enforcement of child labor law remains challenging due to the limited number of inspectors in the State Inspectorate for Labor and Social Services and the General Directorate of State Police.  In addition, programs to combat child labor are insufficient to adequately address the extent of the problem.</Description>
+    <Description>In 2015, Albania made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government raised the minimum age at which children may participate in apprenticeship programs and light work to 15. The Government also issued a detailed instruction to national child protection stakeholders outlining each stakeholder’s role in child protection and the best practices for assisting vulnerable children. However, children in Albania are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in forced begging. Enforcement of child labor laws remains challenging due to the limited number of inspectors in the State Inspectorate for Labor and Social Services and the General Directorate of State.  In addition, programs to combat child labor are insufficient to adequately address the extent of the problem.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -283,13 +280,13 @@
         <Standard>Yes</Standard>
         <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>Yes</Standard>
         <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Standard>N/A</Standard>
@@ -1002,7 +999,7 @@
     <Region>Latin America &amp; the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
-    <Description>In 2015, Argentina made a significant advancement in efforts to eliminate the worst forms of child labor. The Government passed the Third National Plan for the Prevention and Eradication of Child Labor and the Regulation of Adolescent Work for 2016–2020. The Government also passed the Law on Early Education, which establishes compulsory education beginning at age 4. In addition, the Ministry of Justice and Human Rights created five Regional Offices for the Rescue and Care of Trafficking Victims in the Provinces of Chaco, La Pampa, La Rioja, Mendoza, and Santa Fe. The National Commission for the Eradication of Child Labor organized two national meetings which convened provincial and local government officials to discuss advances and challenges in addressing child labor issues. The National Registry of Agricultural Workers and Employers continued to run multiple programs to prevent and eliminate child labor, including a program to strengthen schools in rural areas where children whose parents work in agriculture may be at risk of child labor. However, children in Argentina are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in commercial sexual exploitation sometimes as a result of human trafficking. Argentina has not adopted a list of hazardous occupations that are prohibited for children under 18. In addition, the Government does not appear to publish key labor and criminal law enforcement data on child labor, including its worst forms.</Description>
+    <Description>In 2015, Argentina made a significant advancement in efforts to eliminate the worst forms of child labor. The Government passed the Third National Plan for the Prevention and Eradication of Child Labor and the Regulation of Adolescent Work for 2016–2020. The Government also passed the Law on Early Education, which establishes compulsory education beginning at age 4. In addition, the Ministry of Justice and Human Rights created five Regional Offices for the Rescue and Care of Trafficking Victims in the Provinces of Chaco, La Pampa, La Rioja, Mendoza, and Santa Fe. The National Commission for the Eradication of Child Labor organized two national meetings which convened provincial and local government officials to discuss advances and challenges in addressing child labor issues. The National Registry of Agricultural Workers and Employers continued to run multiple programs to prevent and eliminate child labor, including a program to strengthen schools in rural areas where children whose parents work in agriculture may be at risk of child labor. However, children in Argentina are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in commercial sexual exploitation sometimes as a result of human trafficking. Argentina has not determined the types of hazardous occupations that are prohibited for children under 18. In addition, the Government does not appear to publish key labor and criminal law enforcement data on child labor, including its worst forms.</Description>
     <Goods>
       <Good>
         <Good_Name>Blueberries</Good_Name>
@@ -1180,8 +1177,8 @@
       <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
       <Labor_Violations>Unknown</Labor_Violations>
-      <Labor_Penalties_Imposed>Unknown</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>Unknown</Labor_Penalties_Collected>
+      <Labor_Penalties_Imposed>Unknown*</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>Unknown*</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
@@ -1267,8 +1264,8 @@
     <Name>Armenia</Name>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Continued Policy that Delayed Advancement</Advancement_Level>
-    <Description>In 2015, Armenia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Armenia is receiving this assessment because it continued to implement a policy that delayed advancement in eliminating the worst forms of child labor. Since 2014, the Government has lacked a functioning labor inspection mechanism to monitor, inspect, and enforce child labor laws. Otherwise, the Government made efforts by developing and conducting a National Child Labor Survey and introducing regulations that placed restrictions on acceptable working hours for children employed in the entertainment industry. Children in Armenia are engaged in child labor in the services sector. The Government also lacks a mechanism to coordinate its efforts to address all forms of child labor, including its worst forms. In addition, no programs exist to aid children engaged in work activities on the street or in agriculture.</Description>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
+    <Description>In 2015, Armenia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Armenia is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. The Government failed to remedy the uncertainty regarding its authority to monitor, inspect, and enforce child labor laws caused by its 2014 repeal of Article 34 of the Labor Code, which previously established the Government’s authority to conduct routine labor inspections. Since that time, the Government has lacked a functioning labor inspection mechanism to monitor, inspect, and enforce child labor laws. Otherwise, the Government made efforts by developing and conducting a National Child Labor Survey and introducing regulations that placed restrictions on acceptable working hours for children employed in the entertainment industry. Children in Armenia are engaged in child labor in the services sector. The Government also lacks a mechanism to coordinate its efforts to address all forms of child labor, including its worst forms. In addition, no programs exist to aid children engaged in work activities on the street or in agriculture.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -1634,9 +1631,6 @@
           <Name>Conduct research to determine the extent of children’s continued involvement in the production of commercial agricultural goods, and to determine specific activities related to children’s work in construction in order to inform policies and programs.</Name>
         </Action>
         <Action>
-          <Name>Ensure that all children, including internally displaced and refugee children and children with disabilities are able to access education.</Name>
-        </Action>
-        <Action>
           <Name>Institute programs to address child labor in agriculture and on the streets</Name>
         </Action>
         <Action>
@@ -1655,7 +1649,7 @@
     <Region>Middle East &amp; North Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
-    <Description>In 2015, Bahrain made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government launched a multilingual hotline, which the public can use to report cases of human trafficking and abuse of migrant workers. Although the problem does not appear to be widespread, children are engaged in the worst forms of child labor, including in commercial sexual exploitation. The Government has not conducted research to determine the nature and extent of the worst forms of child labor in the country. Furthermore, the Government has not published information on its law enforcement efforts or established mechanisms to coordinate its efforts among government agencies and other stakeholders to address child labor, including all its worst forms, among government agencies and other stakeholders.</Description>
+    <Description>In 2015, Bahrain made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government launched a multilingual hotline, which the public can use to report cases of human trafficking and abuse of migrant workers. Although the problem does not appear to be widespread, children are engaged in the worst forms of child labor, including in commercial sexual exploitation. The Government has not conducted research to determine the nature and extent of the worst forms of child labor in the country. Furthermore, the Government has not published information on its law enforcement efforts or established mechanisms to coordinate its efforts among government agencies and other stakeholders to address child labor, including its worst forms.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -2249,7 +2243,7 @@
       <Labor_New_Employee_Training>Unknown</Labor_New_Employee_Training>
       <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
-      <Labor_Inspections>Unknown</Labor_Inspections>
+      <Labor_Inspections>Unknown*</Labor_Inspections>
       <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
       <Labor_Violations>Unknown</Labor_Violations>
@@ -2291,6 +2285,9 @@
         </Action>
         <Action>
           <Name>Make information publicly available on enforcement efforts to combat the worst forms of child labor, including the number of trainings, complaints, criminal investigations, convictions, and penalties.</Name>
+        </Action>
+        <Action>
+          <Name>Make information publicly available on labor inspectorate responsibilities, including authority to assess penalties and conduct unannounced inspections, number of labor inspections conducted, and child labor violations found.</Name>
         </Action>
       </Enforcement>
       <Coordination>
@@ -2475,22 +2472,19 @@
       </Legal_Framework>
       <Enforcement>
         <Action>
-          <Name>Provide training on the worst forms of child labor to labor law enforcement officials.</Name>
+          <Name>Collect and publish information on labor law enforcement efforts, including labor inspectorate funding, training labor inspectors receive, and the number of labor inspections.</Name>
         </Action>
         <Action>
-          <Name>Increase resources to enforce laws against child labor and provide immediate victim assistance.</Name>
+          <Name>Establish a referral mechanism between labor authorities and social services.</Name>
         </Action>
         <Action>
-          <Name>Make publicly available information on labor inspection funding; the number and type of labor inspections conducted; whether routine inspections are targeted; and the number of labor and criminal law inspections and investigations, prosecutions, convictions, and penalties related to child labor, including its worst forms.</Name>
+          <Name>Collect and publish data on the number of investigations and individuals prosecuted, convicted, and sentenced for crimes related to human trafficking and commercial sexual exploitation, disaggregated by age and sex of the victim, in FBiH, RS, and BD.</Name>
         </Action>
         <Action>
-          <Name>Strengthen the labor inspectorate by initiating routine inspections rather than performing inspections solely based on complaints received.</Name>
+          <Name>Increase training for prosecutors and judges on how to properly apply criminal law in cases of child labor trafficking, forced labor, and forced begging. </Name>
         </Action>
         <Action>
-          <Name>Establish a mechanism to coordinate enforcement actions between labor and criminal law enforcement agencies.</Name>
-        </Action>
-        <Action>
-          <Name>Increase the resources available to law enforcement officials to efficiently track child labor cases.</Name>
+          <Name>Ensure that all children identified as engaged in child labor are referred to appropriate social services.</Name>
         </Action>
       </Enforcement>
       <Coordination>
@@ -2723,7 +2717,7 @@
     <Name>Bolivia</Name>
     <Region>Latin America &amp; the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
     <Description>In 2015, Bolivia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Bolivia is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. Bolivia’s Child and Adolescent Code, passed in 2014, allows children as young as 10 years old to be self-employed under certain conditions. Otherwise, the Government made efforts by adopting the National Action Plan to Combat Trafficking and Smuggling of Persons, increasing the number of labor inspectors from 95 to 97, and dedicating 10 of these inspectors to investigating child labor in high-risk areas. Children in Bolivia are engaged in the worst forms of child labor, including in mining and in the harvesting of sugarcane. The Offices of the Child Advocate, required by the Child and Adolescent Code to authorize child work and assist victims of child labor, are absent or underfunded in many municipalities, leaving some children unprotected and vulnerable to the worst forms of child labor. The Government also lacks a comprehensive child labor policy.</Description>
     <Goods>
       <Good>
@@ -3014,7 +3008,7 @@
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>Yes</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2015, Bosnia and Herzegovina made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government adopted the Action Plan for Children of Bosnia and Herzegovina, which calls for the improvement of coordination on addressing forced begging and other forms of child labor, the expansion of social services to children living and working on the street, and the improvement of birth registration rates in the Roma community. Legislation introduced in 2015 increased the penalties in one of the country’s entities, Republika Srpska, and the self-governing Brčko District for individuals convicted of trafficking children for the purposes of commercial sexual exploitation or forced labor.  In addition, the State Coordinator for Combating Trafficking in Persons collaborated with the State-level Prosecutorial Training Center and the OSCE to develop curricula on human trafficking that can be used to train judges and prosecutors. However, children in Bosnia and Herzegovina are engaged in child labor, including in street work, particularly begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation as a result of human trafficking. The Government lacks a mechanism to coordinate its efforts to address child labor, including all its worst forms. The country’s other entity, the Federation of Bosnia and Herzegovina, has yet to pass an anti-human trafficking amendment that would harmonize its criminal code with state-level legislation and ensure the prohibition of all forms of human trafficking across the entire country. In addition, the minimum age protections in the Federation of Bosnia and Herzegovina, Republika Srspska, and Brčko District labor codes do not apply to children who are self-employed or working outside formal employment relationships.</Description>
+    <Description>In 2015, Bosnia and Herzegovina made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government adopted the Action Plan for Children of Bosnia and Herzegovina, which calls for the improvement of coordination on addressing forced begging and other forms of child labor, the expansion of social services to children living and working on the street, and the improvement of birth registration rates in the Roma community. The State of Bosnia and Herzegovina (BiH) increased the penalties for individuals convicted of international trafficking of children.  In addition, the State Coordinator for Combating Trafficking in Persons collaborated with the State-level Prosecutorial Training Center and the OSCE to develop curricula on human trafficking that can be used to train judges and prosecutors. However, children in Bosnia and Herzegovina are engaged in child labor, including in street work, particularly begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation as a result of human trafficking. The Government lacks a mechanism to coordinate its efforts to address child labor, including all its worst forms. In addition, the minimum age protections in the Federation of Bosnia and Herzegovina, Republika Srspska, and Brčko District labor codes do not apply to children who are self-employed or working outside formal employment relationships.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -3126,28 +3120,28 @@
         <Territory>
           <Territory_Name>FBiH</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>RS</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>BD</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>BiH</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -3300,14 +3294,14 @@
           <Territory_Name>RS</Territory_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
-          <Calculated_Age>Yes</Calculated_Age>
+          <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>BD</Territory_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
-          <Calculated_Age>Yes</Calculated_Age>
+          <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Compulsory_Education>
@@ -3338,15 +3332,15 @@
     <Enforcements>
       <Labor_Funding>
         <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina (FBiH)</Territory_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina  (FBiH)</Territory_Name>
           <Enforcement>Unknown*</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska (RS)</Territory_Name>
+          <Territory_Name>Republika Srpska  (RS)</Territory_Name>
           <Enforcement>Unknown*</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Brčko District (BD)</Territory_Name>
+          <Territory_Name>Brčko District  (BD)</Territory_Name>
           <Enforcement>Unknown*</Enforcement>
         </Territory>
       </Labor_Funding>
@@ -3478,7 +3472,7 @@
       </Labor_Desk_Review_Inspections>
       <Labor_Violations>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina (BiH)</Territory_Name>
+          <Territory_Name>Bosnia and Herzegovina  (BiH)</Territory_Name>
           <Enforcement>0</Enforcement>
         </Territory>
       </Labor_Violations>
@@ -3687,7 +3681,84 @@
         </Territory>
       </Criminal_Referral_Mechanism>
     </Enforcements>
-    <Suggested_Actions></Suggested_Actions>
+    <Suggested_Actions>
+      <Legal_Framework>
+        <Action>
+          <Name>Ensure that laws exist in all entities that clearly and comprehensively describe the hazardous occupations and activities prohibited for children.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that BiH law prohibits the use of children in illicit activities, including the use, procurement, and offering of children for the production and trafficking of drugs.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that children engaged in commercial sexual exploitation are treated as victims rather than criminals under FBiH law.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that BiH law criminally prohibits the use of a child for prostitution, even if that child has not been trafficked.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that all children are protected by labor law, including those who work in the informal sector, such as children engaged in street work.</Name>
+        </Action>
+      </Legal_Framework>
+      <Enforcement>
+        <Action>
+          <Name>Collect and publish information on labor law enforcement efforts, including labor inspectorate funding, training labor inspectors receive, and the number of labor inspections.</Name>
+        </Action>
+        <Action>
+          <Name>Establish a referral mechanism between labor authorities and social services.</Name>
+        </Action>
+        <Action>
+          <Name>Collect and publish data on the number of investigations and individuals prosecuted, convicted, and sentenced for crimes related to human trafficking and commercial sexual exploitation, disaggregated by age and sex of the victim, in FBiH, RS, and BD.</Name>
+        </Action>
+        <Action>
+          <Name>Increase training for prosecutors and judges on how to properly apply criminal law in cases of child labor trafficking, forced labor, and forced begging. </Name>
+        </Action>
+        <Action>
+          <Name>Ensure that all children identified as engaged in child labor are referred to appropriate social services.</Name>
+        </Action>
+      </Enforcement>
+      <Coordination>
+        <Action>
+          <Name>Establish coordinating mechanisms to combat child labor, including in all its worst forms.</Name>
+        </Action>
+        <Action>
+          <Name>Improve the coordination among Regional Monitoring Teams on referral and protection of human trafficking victims.</Name>
+        </Action>
+      </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Integrate child labor prevention and elimination strategies into new and existing policies.</Name>
+        </Action>
+        <Action>
+          <Name>Adopt a policy designed to address child labor and the worst forms of child labor other than child trafficking, including in commercial sexual exploitation, forced labor, and illicit activities.</Name>
+        </Action>
+        <Action>
+          <Name>Expand and provide adequate funding for existing programs aimed at improving access to education for Roma children and implementing the commitments of including Roma into society by providing for basic needs.</Name>
+        </Action>
+      </Government_Policies>
+      <Social_Programs>
+        <Action>
+          <Name>Collect data on children involved in the worst forms of child labor in order to enhance policymakers’ ability to identify problems more accurately and to address them more effectively.</Name>
+        </Action>
+        <Action>
+          <Name>Promote inclusive education for minority children, including Roma, by expanding efforts to reduce discrimination in schools, to mitigate the costs associated with education, and to assist Roma and other families at risk of statelessness to register for citizenship documentation that entitles their children to access to school.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure inclusive education for children with disabilities, particularly children with extensive disabilities, by ensuring that all schools have enough resources to provide necessary accommodations for them.</Name>
+        </Action>
+        <Action>
+          <Name>Increase funding for programs that provide social services, including housing, for child trafficking victims.</Name>
+        </Action>
+        <Action>
+          <Name>Institutionalize and provide sufficient funding for Daily Centers to ensure that they have the resources and technical support necessary to assist children involved in child labor and those who are at risk of involvement.</Name>
+        </Action>
+        <Action>
+          <Name>Strengthen social protection programs that provide support to economically vulnerable families in order to reduce their reliance on child labor.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that resources for human trafficking victims are sufficient to meet the needs of domestic victims.</Name>
+        </Action>
+      </Social_Programs>
+    </Suggested_Actions>
     <Mechanisms>
       <Coordination>No</Coordination>
       <Policy>Yes</Policy>
@@ -4616,7 +4687,7 @@
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
+      <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>Yes</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>Unknown</Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
@@ -4694,19 +4765,19 @@
         <Good_Name>Bamboo</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Beans (green, soy, yellow)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Jade</Good_Name>
@@ -4730,13 +4801,13 @@
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubies</Good_Name>
@@ -4760,7 +4831,7 @@
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sunflowers</Good_Name>
@@ -4772,7 +4843,7 @@
         <Good_Name>Teak</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -5790,7 +5861,7 @@
       <Labor_Inspections>Unknown*</Labor_Inspections>
       <Labor_Worksite_Inspections>Unknown*</Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections>Unknown*</Labor_Desk_Review_Inspections>
-      <Labor_Violations>2679</Labor_Violations>
+      <Labor_Violations>Unknown*</Labor_Violations>
       <Labor_Penalties_Imposed>Unknown*</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>Unknown*</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
@@ -5803,7 +5874,7 @@
       <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
       <Criminal_Investigations>Unknown</Criminal_Investigations>
-      <Criminal_Violations>1475</Criminal_Violations>
+      <Criminal_Violations>2679</Criminal_Violations>
       <Criminal_Prosecutions>0</Criminal_Prosecutions>
       <Criminal_Convictions>0</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
@@ -5866,9 +5937,9 @@
       </Social_Programs>
     </Suggested_Actions>
     <Mechanisms>
-      <Coordination>Yes*</Coordination>
-      <Policy>Yes*</Policy>
-      <Program>Yes*</Program>
+      <Coordination>Yes</Coordination>
+      <Policy>Yes</Policy>
+      <Program>Yes</Program>
     </Mechanisms>
   </Country>
   <Country>
@@ -6182,14 +6253,14 @@
       <Labor_Inspectors>550</Labor_Inspectors>
       <Dedicated_Labor_Inspectors>N/A</Dedicated_Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
+      <Labor_New_Employee_Training>Unknown</Labor_New_Employee_Training>
       <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
       <Labor_Inspections>124565</Labor_Inspections>
-      <Labor_Worksite_Inspections>121722</Labor_Worksite_Inspections>
-      <Labor_Desk_Review_Inspections>2843</Labor_Desk_Review_Inspections>
+      <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
+      <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
       <Labor_Violations>526</Labor_Violations>
-      <Labor_Penalties_Imposed>524</Labor_Penalties_Imposed>
+      <Labor_Penalties_Imposed>Unknown</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>Unknown</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>No</Labor_Routine_Inspections_Targeted>
@@ -6214,13 +6285,16 @@
       </Legal_Framework>
       <Enforcement>
         <Action>
+          <Name>Make publicly available information on the training system for new labor inspectors, the number of labor inspections conducted at worksites and by desk review, and the number of child labor violations for which penalties were imposed and collected.</Name>
+        </Action>
+        <Action>
           <Name>Strengthen the labor inspectorate by initiating targeted inspections based on analysis of data related to risk-prone sectors and patterns of serious incidents.</Name>
         </Action>
         <Action>
           <Name>Hire a sufficient number of labor inspectors to effectively enforce laws related to child labor.</Name>
         </Action>
         <Action>
-          <Name>Make publicly available information on the training system for new criminal investigators.</Name>
+          <Name>Make publicly available information on the training system for new investigators, the number of criminal violations found, and the number of prosecutions initiated related to the worst forms of child labor.</Name>
         </Action>
       </Enforcement>
       <Coordination>
@@ -6262,7 +6336,7 @@
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Christmas Decorations</Good_Name>
@@ -6280,7 +6354,7 @@
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Electronics</Good_Name>
@@ -6322,7 +6396,7 @@
         <Good_Name>Toys</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -6457,7 +6531,7 @@
       <Compulsory_Education>
         <Standard>Yes</Standard>
         <Age>17</Age>
-        <Calculated_Age>No</Calculated_Age>
+        <Calculated_Age>Yes</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
       <Free_Public_Education>
@@ -7297,7 +7371,7 @@
       <Labor_Inspections>Unknown</Labor_Inspections>
       <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
-      <Labor_Violations>2549</Labor_Violations>
+      <Labor_Violations>Unknown</Labor_Violations>
       <Labor_Penalties_Imposed>Unknown</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>Unknown</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Unknown</Labor_Routine_Inspections_Conducted>
@@ -7310,7 +7384,7 @@
       <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
       <Criminal_Investigations>7</Criminal_Investigations>
-      <Criminal_Violations>2102</Criminal_Violations>
+      <Criminal_Violations>2549</Criminal_Violations>
       <Criminal_Prosecutions>1</Criminal_Prosecutions>
       <Criminal_Convictions>1</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
@@ -7506,8 +7580,8 @@
       <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
       <Labor_Refresher_Courses>No</Labor_Refresher_Courses>
       <Labor_Inspections>Unknown*</Labor_Inspections>
-      <Labor_Worksite_Inspections>Unknown*</Labor_Worksite_Inspections>
-      <Labor_Desk_Review_Inspections>Unknown*</Labor_Desk_Review_Inspections>
+      <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
+      <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
       <Labor_Violations>0</Labor_Violations>
       <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
@@ -8560,8 +8634,8 @@
     <Name>Dominican Republic</Name>
     <Region>Latin America &amp; the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Continued Policy and Practice that Delayed Advancement</Advancement_Level>
-    <Description>In 2015, the Dominican Republic made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, the Dominican Republic is receiving this assessment because it continued a policy and practice that delayed advancement in eliminating the worst forms of child labor whereby certain children, particularly those of Haitian descent, remain at increased vulnerability to labor exploitation due to limitations on educational opportunities. These limitations relate to the misapplication of Dominican law and policies by some school officials who incorrectly require that children present birth certificates or other identifying documentation to enroll in or complete school. Otherwise, the Government made efforts by launching the social program Progressing Together and expanding the Extended School Day Program. Children in the Dominican Republic are engaged in the worst forms of child labor, including in agriculture and commercial sexual exploitation sometimes as a result of human trafficking.  The National Steering Committee to Eliminate Child Labor and its Local Committees appear to lack sufficient resources to effectively coordinate efforts to address child labor. In addition, social programs for victims of harmful agricultural work and commercial sexual exploitation do not appear to address the scope of these problems.</Description>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Continued Practice that Delayed Advancement</Advancement_Level>
+    <Description>In 2015, the Dominican Republic made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, the Dominican Republic is receiving this assessment because it continued a practice that delayed advancement in eliminating the worst forms of child labor. Some children, particularly those of Haitian descent, were prohibited by school officials from attending or completing school if they could not present birth certificates or other identifying documents, making them more vulnerable to the worst forms of child labor. This practice continued despite Dominican law and policies that prohibit the exclusion of children from the educational system based on a lack of identity documents. Otherwise, the Government made efforts by launching the social program Progressing Together and expanding the Extended School Day Program. Children in the Dominican Republic are engaged in the worst forms of child labor, including in agriculture and commercial sexual exploitation sometimes as a result of human trafficking. The National Steering Committee to Eliminate Child Labor and its Local Committees appear to lack sufficient resources to effectively coordinate efforts to address child labor. In addition, social programs for victims of harmful agricultural work and commercial sexual exploitation do not appear to address the scope of these problems.</Description>
     <Goods>
       <Good>
         <Good_Name>Baked Goods</Good_Name>
@@ -8709,7 +8783,7 @@
       <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
+      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>Unknown</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
@@ -8737,7 +8811,7 @@
           <Name>Correctly interpret and apply the law to allow all children without birth certificates or other identity documents to enroll in primary and secondary education and complete schooling.</Name>
         </Action>
         <Action>
-          <Name>Authorize the labor inspectorate to assess and collect  penalties.</Name>
+          <Name>Authorize the labor inspectorate to assess penalties.</Name>
         </Action>
         <Action>
           <Name>Publish information about the training for labor inspectors and statistics on the number of child labor violation penalties imposed and collected.</Name>
@@ -9109,7 +9183,7 @@
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Standard>Yes</Standard>
@@ -9162,7 +9236,7 @@
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>No action</Name>
+          <Name>Ensure that the law clearly criminally prohibits the procuring of children for pornography and pornographic performances under all circumstances, as well as benefiting from a monetary transaction involving a child in pornographic performances.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -9337,7 +9411,7 @@
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
       <Labor_Inspections>27241</Labor_Inspections>
       <Labor_Worksite_Inspections>27241</Labor_Worksite_Inspections>
-      <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
+      <Labor_Desk_Review_Inspections>0</Labor_Desk_Review_Inspections>
       <Labor_Violations>11</Labor_Violations>
       <Labor_Penalties_Imposed>0</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>0</Labor_Penalties_Collected>
@@ -9370,7 +9444,7 @@
           <Name>Ensure that the number of labor inspectors is sufficient to fully enforce child labor laws.</Name>
         </Action>
         <Action>
-          <Name>Make publicly avilable information on whether unannounced or targeted inspections are conducted, including the sectors and geographical regions in which inspections are conducted, and on the activities in which children are engaged as a result of inspections.</Name>
+          <Name>Make publicly available information on whether unannounced or targeted inspections are conducted, including the sectors and geographical regions in which inspections are conducted, and on the activities in which children are engaged as a result of inspections.</Name>
         </Action>
         <Action>
           <Name>Strengthen enforcement of child labor and other laws by streamlining the labor inspection process and the issuance of fines.</Name>
@@ -9466,14 +9540,14 @@
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
-        <Standard>No</Standard>
-        <Age></Age>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
-        <Age></Age>
+        <Standard>Yes </Standard>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -9841,7 +9915,7 @@
     </Mechanisms>
   </Country>
   <Country>
-    <Name>Falkland Islands (Isla Malvinas)</Name>
+    <Name>Falkland Islands (Islas Malvinas)</Name>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -10580,8 +10654,8 @@
     <Name>Georgia</Name>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Continued Policy that Delayed Advancement</Advancement_Level>
-    <Description>In 2015, Georgia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Georgia is receiving this assessment because it continued to implement a policy that delayed advancement in eliminating the worst forms of child labor. Since 2006, the Government has lacked a functioning labor inspection mechanism to monitor, inspect, and enforce child labor laws. Otherwise, the Government made efforts by amending the Labor Code to introduce restrictions on the number of hours children are allowed to work, developing and conducting a National Child Labor Survey, and developing a new methodology for identifying vulnerable children. Children in Georgia are engaged in child labor in agriculture and in the worst forms of child labor in forced begging. The Government also lacks a coordinating mechanism to address child labor. In addition, the compulsory education age left 15-year-old children vulnerable to the worst forms of child labor, as they are not required to be in school, but are not legally permitted to work full time.</Description>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
+    <Description>In 2015, Georgia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Georgia is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. The Government failed to remedy the abolition of its labor inspectorate, caused by its adoption of the current Labor Code in 2006. Since that time, the Government has lacked a functioning labor inspection mechanism to monitor, inspect, and enforce child labor laws. Otherwise, the Government made efforts by amending the Labor Code to introduce restrictions on the number of hours children are allowed to work, developing and conducting a National Child Labor Survey, and developing a new methodology for identifying vulnerable children. Children in Georgia are engaged in child labor in agriculture and in the worst forms of child labor in forced begging. The Government also lacks a coordinating mechanism to address child labor. In addition, the compulsory education age left 15-year-old children vulnerable to the worst forms of child labor, as they are not required to be in school, but are not legally permitted to work full time.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -11064,7 +11138,7 @@
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Standard>Yes</Standard>
@@ -12519,8 +12593,8 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Labor_Inspectors>135</Labor_Inspectors>
       <Dedicated_Labor_Inspectors>N/A</Dedicated_Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>Unknown</Labor_New_Employee_Training>
-      <Labor_New_Law_Training>Unknown</Labor_New_Law_Training>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>Yes</Labor_New_Law_Training>
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
       <Labor_Inspections>Unknown</Labor_Inspections>
       <Labor_Worksite_Inspections>7188</Labor_Worksite_Inspections>
@@ -12529,10 +12603,10 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Labor_Penalties_Imposed>3</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>3</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>Unknown</Labor_Routine_Inspections_Targeted>
+      <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>Unknown</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>No</Labor_Complaint_Mechanism>
+      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>No</Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>Unknown</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
@@ -13112,6 +13186,11 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
+      <Legal_Framework>
+        <Action>
+          <Name>No action</Name>
+        </Action>
+      </Legal_Framework>
       <Enforcement>
         <Action>
           <Name>Increase the number of labor inspectors responsible for enforcing laws related to child labor to provide adequate coverage of the workforce and provide sufficient funds for labor inspections.</Name>
@@ -13295,14 +13374,14 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -13458,7 +13537,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
         </Territory>
         <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
-          <Enforcement>Yes</Enforcement>
+          <Enforcement>Unknown</Enforcement>
         </Territory>
       </Authorized_Access_Penalties>
       <Labor_New_Employee_Training>
@@ -13528,7 +13607,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
         </Territory>
         <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
-          <Enforcement>60</Enforcement>
+          <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Violations>
       <Labor_Penalties_Imposed>
@@ -13701,10 +13780,10 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Name>Ensure that child trafficking laws do not require a showing of force, coercion, or threat, in accordance with international standards.</Name>
         </Action>
         <Action>
-          <Name>Ensure that the use of children in illicit activities remains illegal.</Name>
+          <Name>Ensure that the law criminally prohibits the use of children in illicit activities, including in the production and trafficking of drugs.</Name>
         </Action>
         <Action>
-          <Name>Increase penalties for the use of children in armed conflict to deter violations.</Name>
+          <Name>Ensure that the law criminally prohibits compulsory recruitment of all children under 18, the voluntary recruitment of children under 15 by non-state groups, and the use of all children in hostilities.</Name>
         </Action>
         <Action>
           <Name>Increase the age of compulsory schooling to at least 15, the minimum age for work.</Name>
@@ -13948,14 +14027,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
     <Description>In  2015, Jordan made a significant advancement in efforts to eliminate the worst forms of child labor. The Government launched a national child labor survey and initiated a program to institutionalize the regular training of school teachers on child labor. The Government strengthened enforcement of minimum age protections by hiring 66 new labor inspectors, and it also approved a national mechanism to refer victims of human trafficking to rehabilitation or repatriation services. In addition, the Government expanded the implementation of the National Framework to Combat Child Labor to three additional governorates, a total of nine out of twelve, and supported a new program that will conduct research on hazardous child labor in specific sectors. However, children in Jordan are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in street work. Children in Jordan face barriers to access education, and programs to combat the worst forms of child labor are insufficient to adequately address the extent of the problem.</Description>
-    <Goods>
-      <Good>
-        <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-    </Goods>
+    <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -14214,7 +14286,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Standard>Yes</Standard>
@@ -15100,7 +15172,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       </Government_Policies>
       <Social_Programs>
         <Action>
-          <Name>Ensure that all children have access to free education.</Name>
+          <Name>Ensure that all children have access to free education, including children with disabilities and those without birth certificates.</Name>
         </Action>
         <Action>
           <Name>Expand existing programs to address the scope of the child labor problem.</Name>
@@ -15160,8 +15232,8 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <C_138_Ratified>Yes</C_138_Ratified>
       <C_182_Ratified>Yes</C_182_Ratified>
       <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
-      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>Yes</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
-      <CRC_Armed_Conflict_Ratified>No</CRC_Armed_Conflict_Ratified>
+      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>No</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
+      <CRC_Armed_Conflict_Ratified>Yes</CRC_Armed_Conflict_Ratified>
       <Palermo_Ratified>Yes</Palermo_Ratified>
     </Conventions>
     <Legal_Standards>
@@ -15222,7 +15294,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Compulsory_Education>
         <Standard>Yes</Standard>
         <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
+        <Calculated_Age>Yes</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
       <Free_Public_Education>
@@ -15710,7 +15782,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2015, Macedonia made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government amended its laws to classify the forced begging of children as a human trafficking offense and codify that children cannot provide legally valid consent to engage in prostitution. The Ministry of the Interior collaborated with UNHCR and smaller NGOs to draft standard operating procedures for addressing the needs of unaccompanied and separated migrant, refugee, or asylum-seeking children transiting through the country, which the Government adopted in December. Mobile teams of social workers and plainclothes police officers from the Ministry of the Interior removed 78 children from street work and took them to day care centers. However, children in Macedonia are engaged in child labor, including in begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation. Macedonia lacks recent, comprehensive data on the nature and extent of child labor in the country, including activities involving farming, street work, and commercial sexual exploitation. The law’s minimum age protections do not apply to children who are self-employed or working outside formal employment relationships.</Description>
+    <Description>In 2015, Macedonia made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government amended its laws to classify the forced begging of children as a human trafficking offense and codify that children cannot provide legally valid consent to engage in prostitution. The Ministry of the Interior collaborated with UNHCR and smaller NGOs to draft standard operating procedures for addressing the needs of unaccompanied and separated migrant, refugee, or asylum-seeking children transiting through the country, which the Government adopted in December. Mobile teams of social workers and plainclothes police officers from the Ministry of the Interior removed 78 children from street work and took them to daycare centers. However, children in Macedonia are engaged in child labor, including in begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation. Macedonia lacks recent, comprehensive data on the nature and extent of child labor in the country, including activities involving farming, street work, and commercial sexual exploitation. The law’s minimum age protections do not apply to children who are self-employed or working outside formal employment relationships. In addition, the use, procurement, and offering of children for the production and trafficking of drugs is not criminally prohibited.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -15835,7 +15907,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Criminal_Investigations>Unknown</Criminal_Investigations>
       <Criminal_Violations>Unknown</Criminal_Violations>
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
-      <Criminal_Convictions>Unknown</Criminal_Convictions>
+      <Criminal_Convictions>7</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
@@ -15858,7 +15930,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Name>Provide labor inspectors with an electronic system to record and share data on inspections, including the number of inspections and the number of violations found, and the number of citations issued by the SLI and the MLSP to a particular entity. Make this data publicly available.</Name>
         </Action>
         <Action>
-          <Name>Make information publicly available on the number of investigations, violations, prosecutions, convictions, and penalties implemented for criminal acts involving worst forms of child labor.</Name>
+          <Name>Make information publicly available on the number of investigations, violations, prosecutions, convictions, and penalties imposed for criminal acts involving worst forms of child labor.</Name>
         </Action>
         <Action>
           <Name>Reduce the vulnerability to child trafficking of unaccompanied children either transiting through Macedonia or seeking asylum in the country by effectively implementing the SOPs and ending the practice of granting random adult refugees guardianship of these children.</Name>
@@ -15867,7 +15939,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Name>Provide sufficient funding to the Prosecutor’s Office.</Name>
         </Action>
         <Action>
-          <Name>Ensure law enforcement agencies have sufficient training and resources to investigate reported child trafficking cases and proactively identify child trafficking victims.</Name>
+          <Name>Ensure law enforcement agencies screen migrants, refugees, and asylum seekers to identify child trafficking victims and investigate these cases.</Name>
         </Action>
       </Enforcement>
       <Coordination>
@@ -15885,7 +15957,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
           <Name>Conduct research to determine the activities carried out by children engaged in child labor, including those working in farming and street work, and being subjected to commercial sexual exploitation.</Name>
         </Action>
         <Action>
-          <Name>Reduce barriers to education by increasing the number of teachers who can provide education in the Romani language, ensuring that children are able to obtain registration documents, and eliminating the placement of children in school for children with intellectual disabilities on the basis of ethnicity.</Name>
+          <Name>Reduce barriers to education by increasing the number of teachers who can provide education in the Romani language, ensuring that children are able to obtain registration documents, and eliminating the placement of children in schools for children with intellectual disabilities on the basis of ethnicity.</Name>
         </Action>
         <Action>
           <Name>Increase funding dedicated to combating child trafficking, and ensure that child trafficking victims receive assistance that addresses their specific needs.</Name>
@@ -17182,7 +17254,7 @@ Ensuring children’s safety in schools
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>No action.</Name>
+          <Name>No Action.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -17484,7 +17556,7 @@ Ensuring children’s safety in schools
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Ensure that labor law protections extend to children working outside of contractual relationships.</Name>
+          <Name>Ensure that labor law protections extend to children who are self-employed or working outside of contractual relationships.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -17492,7 +17564,7 @@ Ensuring children’s safety in schools
           <Name>Institutionalize and publish information about training for investigators, ensuring that investigators, including police officers who conduct foot patrols, receive training on new laws related to the worst forms of child labor.</Name>
         </Action>
         <Action>
-          <Name>Make enforcement data, including the number of labor inspections conducted at worksites or only by desk review, the number of cases where the penalties imposed were collected, and whether inspections are targeted,  publicly available.</Name>
+          <Name>Make enforcement data, including the number of labor inspections conducted at worksites and by desk review, the number of cases where the penalties imposed were collected, and whether inspections are targeted, publicly available.</Name>
         </Action>
         <Action>
           <Name>Increase funding for the State Labor Inspectorate to ensure that it can employ the number of inspectors needed and provide inspectors with the financial resources necessary to carry out adequate child labor inspections.</Name>
@@ -17502,6 +17574,9 @@ Ensuring children’s safety in schools
         </Action>
         <Action>
           <Name>Ensure that the government mechanism for filing and responding to child labor complaints functions properly.</Name>
+        </Action>
+        <Action>
+          <Name>Strengthen measures to reduce corruption in the judicial system to ensure that perpetrators of crimes related to the worst forms of child labor are convicted and sentenced according to law.</Name>
         </Action>
       </Enforcement>
       <Coordination>
@@ -17528,7 +17603,7 @@ Ensuring children’s safety in schools
           <Name>Institute targeted support programs that eliminate discrimination and violence against Romani children and promote equal access to education.</Name>
         </Action>
         <Action>
-          <Name>Ensure sufficient supoort for child trafficking victims.</Name>
+          <Name>Ensure sufficient support for child trafficking victims.</Name>
         </Action>
         <Action>
           <Name>Ensure current child labor programs are sustainable by providing increased financial support.</Name>
@@ -17637,13 +17712,13 @@ Ensuring children’s safety in schools
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Standard>Yes</Standard>
@@ -17697,6 +17772,12 @@ Ensuring children’s safety in schools
       <Legal_Framework>
         <Action>
           <Name>Ensure that laws related to labor cover all children, including those working without employment contracts.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that laws clearly and comprehensively prohibit the use, procurement, and offering of all children under age 18 for the production of pornography and pornographic performances.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that laws criminally prohibit child trafficking for the purpose of commercial sexual exploitation and forced labor.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -17755,7 +17836,7 @@ Ensuring children’s safety in schools
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
-    <Description>In 2015, Montenegro made a significant advancement in efforts to eliminate the worst forms of child labor. The Ministry of Labor and Social Welfare adopted the Code of Rules, which prescribes minimum workplace protections for employers and employees, specifically emphasizing protections for underage workers. The Police Directorate formed a three-member trafficking in persons team that focuses on all forms of trafficking in persons, including child labor. The National Trafficking in Persons Office provided technical assistance to the Ministries of Health and Education to create guidance on trafficking in persons and adopted an action plan to combat human trafficking in 2016. Additionally, the Government of Montenegro signed a memorandum of understanding with the ILO to conduct a study of the child labor situation. However, children in Montenegro are engaged in child labor, including in begging, and in the worst forms of child labor, including being subjected to commercial sexual exploitation. The legal framework lacks a clear criminal prohibition on the use of children for the production and trafficking of drugs.</Description>
+    <Description>In 2015, Montenegro made a significant advancement in efforts to eliminate the worst forms of child labor. The Ministry of Labor and Social Welfare adopted the Code of Rules, which prescribes minimum workplace protections for employers and employees, specifically emphasizing protections for underage workers. The Police Directorate formed a three-member trafficking in persons team that focuses on all forms of trafficking in persons, including child labor. The National Trafficking in Persons Office provided technical assistance to the Ministries of Health and Education to create guidance on trafficking in persons and adopted an action plan to combat human trafficking in 2016. Additionally, the Government of Montenegro signed a memorandum of understanding with the ILO to conduct a study of the child labor situation. However, children in Montenegro are engaged in child labor, including in begging, and in the worst forms of child labor, including being subjected to commercial sexual exploitation. In addition, the Government has no social programs to address child labor in street work, forced begging, or commercial sexual exploitation of children.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -17836,10 +17917,10 @@ Ensuring children’s safety in schools
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
+        <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
       <Compulsory_Education>
         <Standard>Yes</Standard>
@@ -17879,7 +17960,7 @@ Ensuring children’s safety in schools
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
       <Criminal_Investigations>122</Criminal_Investigations>
       <Criminal_Violations>125</Criminal_Violations>
-      <Criminal_Prosecutions>7</Criminal_Prosecutions>
+      <Criminal_Prosecutions>1</Criminal_Prosecutions>
       <Criminal_Convictions>0</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
     </Enforcements>
@@ -17887,9 +17968,6 @@ Ensuring children’s safety in schools
       <Legal_Framework>
         <Action>
           <Name>Ensure that the types of work prohibited for children are comprehensive, and include night work and carrying heavy loads.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that the use of children in the production and trafficking of drugs is clearly criminally prohibited. </Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -18247,10 +18325,10 @@ Ensuring children’s safety in schools
           <Name>Ensure that laws prohibit children from being used, procured, or offered for the production and trafficking of illicit drugs.</Name>
         </Action>
         <Action>
-          <Name>Ensure that all children are protected by law, including children under 16 in night work. </Name>
+          <Name>Ensure that all children are protected by law, including children who are self-employed, work for artisan businesses with less than five employees, or in private farms. </Name>
         </Action>
         <Action>
-          <Name>Increase the penalties for those who employ children under age 18 in hazardous work.</Name>
+          <Name>Increase the penalties for those who employ children in hazardous work.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -18282,7 +18360,7 @@ Ensuring children’s safety in schools
           <Name>Conduct a comprehensive study of children’s work activities, including in domestic work, commercial sexual exploitation, street work, farming, construction, and forestry, to determine whether children are engaged in or at risk of being involved in child labor, and the number child laborers.</Name>
         </Action>
         <Action>
-          <Name>Take measures to ensure children’s safety in schools and remove barriers to accessing education.</Name>
+          <Name>Take measures to ensure children’s safety in schools and remove barriers to education.</Name>
         </Action>
         <Action>
           <Name>Expand existing programs to address the scope of the child labor problem.</Name>
@@ -18776,7 +18854,7 @@ Ensuring children’s safety in schools
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Standard>Yes</Standard>
@@ -18800,7 +18878,7 @@ Ensuring children’s safety in schools
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
       <Compulsory_Education>
         <Standard>No</Standard>
@@ -19077,7 +19155,7 @@ Ensuring children’s safety in schools
       <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
+      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>Unknown</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>Yes</Criminal_New_Law_Training>
@@ -19812,9 +19890,9 @@ Ensuring children’s safety in schools
       </Social_Programs>
     </Suggested_Actions>
     <Mechanisms>
-      <Coordination>Yes</Coordination>
-      <Policy>No</Policy>
-      <Program>No</Program>
+      <Coordination>N/A</Coordination>
+      <Policy>N/A</Policy>
+      <Program>N/A</Program>
     </Mechanisms>
   </Country>
   <Country>
@@ -19984,9 +20062,9 @@ Ensuring children’s safety in schools
       </Social_Programs>
     </Suggested_Actions>
     <Mechanisms>
-      <Coordination>Yes</Coordination>
-      <Policy>No</Policy>
-      <Program>No</Program>
+      <Coordination>N/A</Coordination>
+      <Policy>N/A</Policy>
+      <Program>N/A</Program>
     </Mechanisms>
   </Country>
   <Country>
@@ -20399,7 +20477,7 @@ Ensuring children’s safety in schools
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -20410,21 +20488,21 @@ Ensuring children’s safety in schools
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>KP</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
@@ -20456,14 +20534,14 @@ Ensuring children’s safety in schools
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>KP</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
@@ -20472,21 +20550,21 @@ Ensuring children’s safety in schools
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>KP</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
@@ -20520,38 +20598,10 @@ Ensuring children’s safety in schools
           <Calculated_Age>Yes</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Standard>Yes</Standard>
-          <Age>16</Age>
-          <Calculated_Age>Yes</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Standard>Yes</Standard>
-          <Age>16</Age>
-          <Calculated_Age>Yes</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
       </Compulsory_Education>
       <Free_Public_Education>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -20572,7 +20622,7 @@ Ensuring children’s safety in schools
           <Enforcement>2711</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa(KP)</Territory_Name>
+          <Territory_Name>Khyber Pakhtunkhwa (KP)</Territory_Name>
           <Enforcement>54</Enforcement>
         </Territory>
         <Territory>
@@ -20958,7 +21008,7 @@ Ensuring children’s safety in schools
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
       <Labor_Inspections>2784</Labor_Inspections>
       <Labor_Worksite_Inspections>Unknown</Labor_Worksite_Inspections>
-      <Labor_Desk_Review_Inspections>0</Labor_Desk_Review_Inspections>
+      <Labor_Desk_Review_Inspections>Unknown</Labor_Desk_Review_Inspections>
       <Labor_Violations>78</Labor_Violations>
       <Labor_Penalties_Imposed>29</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>1</Labor_Penalties_Collected>
@@ -21405,7 +21455,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>No action</Name>
+          <Name>No Legal Action</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -21635,7 +21685,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Ensure that the minimum age for work in fishing, mining, and night work between, is 18 or that adolescents age 16 and older receive adequate, specific instruction or training and that their health, safety, and morals are fully protected.</Name>
+          <Name>Ensure that the minimum age for work in fishing, mining, and night work is 18 or that adolescents age 16 and older receive adequate, specific instruction or training and that their health, safety, and morals are fully protected.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -22330,7 +22380,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     </Mechanisms>
   </Country>
   <Country>
-    <Name>Saint Helena,  Ascensión, and Tristán da Cunha</Name>
+    <Name>Saint Helena, Ascensión, and Tristán da Cunha</Name>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>No Advancement</Advancement_Level>
@@ -22499,9 +22549,9 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       </Social_Programs>
     </Suggested_Actions>
     <Mechanisms>
-      <Coordination>No</Coordination>
-      <Policy>No</Policy>
-      <Program>No</Program>
+      <Coordination>N/A</Coordination>
+      <Policy>N/A</Policy>
+      <Program>N/A</Program>
     </Mechanisms>
   </Country>
   <Country>
@@ -22753,7 +22803,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Standard>Yes</Standard>
@@ -23433,7 +23483,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
-    <Description>In 2015, Serbia made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government adopted changes to the Inspection Surveillance Law, which grants the Labor Inspectorate broader and increased authority to inspect unregistered business entities. However, children in Serbia are engaged in child labor, including in begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation as a result of human trafficking.  The Government lacks a national policy to combat child labor. The Council for Combating Trafficking in Human Beings did not meet during the reporting period and, although the National Council for Children’s Rights held two meetings, these did not result in substantive action to reduce child labor in the country.</Description>
+    <Description>In 2015, Serbia made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government adopted changes to the Inspection Surveillance Law, which grants the Labor Inspectorate broader and increased authority to inspect unregistered business entities. However, children in Serbia are engaged in child labor, including in begging. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation as a result of human trafficking. The Government lacks a national policy to combat child labor. The Council for Combating Trafficking in Human Beings did not meet during the reporting period and, although the National Council for Children’s Rights held two meetings, these did not result in substantive action to reduce child labor in the country.</Description>
     <Goods></Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -23493,7 +23543,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Standard>Yes</Standard>
@@ -23564,7 +23614,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>No action.</Name>
+          <Name>No Action.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -23589,7 +23639,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Name>Ensure that coordinating mechanisms to combat child labor, including its worst forms, such as the Council for Children’s Rights and the Council for Combating Trafficking in Human Beings, fulfill their mandate.</Name>
         </Action>
         <Action>
-          <Name>Ensure that the National Anti-Trafficking Coordinator has sufficient resources to effectively address key coordination issues such as police investigations, prosecutions, and the protection of trafficking victims, and increase the National Anti-Trafficking Coordinator’s independence by no longer requiring the coordinator receive approval from the Cabinet of the Minister of the Interior to work or meet with non-Serbian governmental officials or organizations.</Name>
+          <Name>Ensure that the National Anti-Trafficking Coordinator has sufficient resources to effectively address key coordination issues such as police investigations, prosecutions, and the protection of trafficking victims, and increase the National Anti-Trafficking Coordinator’s independence.</Name>
         </Action>
       </Coordination>
       <Government_Policies>
@@ -23821,8 +23871,8 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Name>Sierra Leone</Name>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Regression in Policy that Delayed Advancement</Advancement_Level>
-    <Description>In 2015, Sierra Leone made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Sierra Leone is receiving this assessment because it implemented a regression in policy that delayed advancement in eliminating the worst forms of child labor. Girls who were pregnant – whose numbers increased significantly during the Ebola Virus Disease outbreak – were not allowed to take secondary and post-secondary school entrance exams or attend regular public schools during the reporting period, making them more vulnerable to the worst forms of child labor.  Otherwise, the Government made efforts by launching its National Ebola Recovery Strategy and finalizing its human trafficking database and a National Referral Mechanism to assist victims of human trafficking. Children in Sierra Leone are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in diamond mining.  Sierra Leone’s laws do not adequately protect children from involvement in hazardous work and the country does not have an approved national action plan on child labor. </Description>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Regression in Policy that Delayed Advancement</Advancement_Level>
+    <Description>In 2015, Sierra Leone made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Sierra Leone is receiving this assessment because it implemented a regression in policy that delayed advancement in eliminating the worst forms of child labor. Girls who were pregnant were prohibited by a Government policy from taking secondary and post-secondary school entrance exams or attending regular public schools during the reporting period, making them more vulnerable to the worst forms of child labor. Otherwise, the Government made efforts by launching its National Ebola Recovery Strategy and finalizing its human trafficking database and a National Referral Mechanism to assist victims of human trafficking. Children in Sierra Leone are engaged in child labor, including in agriculture, and in the worst forms of child labor, including in diamond mining. Sierra Leone’s laws do not adequately protect children from involvement in hazardous work and the country does not have an approved national action plan on child labor. </Description>
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
@@ -24121,7 +24171,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Standard>Yes</Standard>
@@ -24250,7 +24300,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Name>Somalia</Name>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Regression in Practice that Delayed Advancement</Advancement_Level>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Regression in Practice that Delayed Advancement</Advancement_Level>
     <Description>In 2015, Somalia made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Somalia is receiving this assessment because it implemented a regression in practice that delayed advancement in eliminating the worst forms of child labor. Somalia is receiving this assessment because of the Somali National Army’s recruitment and use of children in armed conflict during the reporting period. Otherwise, the Government made efforts by ratifying the UN CRC and taking steps to implement the National Action Plan on Sexual Violence in Conflict. Children in Somalia are also engaged in child labor, including in street work.  Laws do not identify hazardous occupations or activities prohibited for children, and child trafficking for labor and sexual exploitation is not criminally prohibited. In addition, the Government did not employ labor inspectors and conducted no inspections.</Description>
     <Goods></Goods>
     <Country_Statistics>
@@ -24308,7 +24358,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Types_Hazardous_Work>
-        <Standard>Yes</Standard>
+        <Standard>No</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
@@ -24668,7 +24718,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Industry>1.6</Industry>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
-        <Age_Range>42535</Age_Range>
+        <Age_Range>6-14</Age_Range>
         <Percentage>31.5</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
@@ -25274,9 +25324,6 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       </Coordination>
       <Government_Policies>
         <Action>
-          <Name>Integrate child labor elimination and prevention strategies into the Second Socialist Plan for the Economic and Social Development of the Nation.</Name>
-        </Action>
-        <Action>
           <Name>Develop and implement a National Action Plan on the elimination of child labor.</Name>
         </Action>
         <Action>
@@ -25410,7 +25457,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
       <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
       <Labor_Refresher_Courses>No</Labor_Refresher_Courses>
-      <Labor_Inspections>Unkown*</Labor_Inspections>
+      <Labor_Inspections>Unknown*</Labor_Inspections>
       <Labor_Worksite_Inspections>Unknown*</Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections>0*</Labor_Desk_Review_Inspections>
       <Labor_Violations>0*</Labor_Violations>
@@ -25607,9 +25654,9 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>25.1</Total_Percentage_of_Working_Children>
         <Total_Working_Population>3157442</Total_Working_Population>
-        <Agriculture>N/A</Agriculture>
-        <Services>N/A</Services>
-        <Industry>N/A</Industry>
+        <Agriculture></Agriculture>
+        <Services></Services>
+        <Industry></Industry>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -25684,14 +25731,14 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -25781,14 +25828,14 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Territory_Name>Mainland</Territory_Name>
           <Standard>Yes</Standard>
           <Age>14</Age>
-          <Calculated_Age>Yes</Calculated_Age>
+          <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Standard>Yes</Standard>
           <Age>14</Age>
-          <Calculated_Age>Yes</Calculated_Age>
+          <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Compulsory_Education>
@@ -26098,6 +26145,12 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Name>Make information publicly available on child labor inspection mechanisms and elimination activities such as labor inspectorate budgetary allocation, number of labor inspectors, trainings provided, child labor violations found, penalties imposed and collected, and routine and unannounced inspections conducted at work-sites by the Ministry of Labor on mainland Tanzania and Zanzibar.</Name>
         </Action>
         <Action>
+          <Name>Provide adequate resources to conduct child labor inspections.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that reporting and referral mechanisms are effective. </Name>
+        </Action>
+        <Action>
           <Name>Make information publicly available on enforcement efforts to combat the worst forms of child labor, including whether trainings were provided, investigations conducted, violations found, prosecutions initiated, and criminal convictions on mainland Tanzania and Zanzibar.</Name>
         </Action>
       </Enforcement>
@@ -26249,10 +26302,10 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
+        <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
       <Compulsory_Education>
         <Standard>Yes</Standard>
@@ -27292,7 +27345,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2015, Turkey made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government implemented a project in cooperation with the ILO that provided services to more than 1,000 children working in commercial hazelnut production and amended the Labor Law to provide protections for children working in the arts and commercial advertising. However, children in Turkey are engaged in child labor in street work and mobile seasonal work in agriculture. The Government does not have laws that protect children working in agricultural enterprises employing fewer than 50 workers, in small shops employing up to three persons, or in domestic work. Although the Government took important steps to increase Syrian refugee children’s access to education and other services nationwide, many Syrian refugee children in urban areas of Turkey had low or no access to education and other social services, leaving significant numbers at increased risk of exploitation in the worst forms of child labor.</Description>
+    <Description>In 2015, Turkey made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government implemented a project in cooperation with the ILO that provided services to more than 1,000 children working in commercial hazelnut production and amended the Labor Law to provide protections for children working in the arts and commercial advertising. However, children in Turkey are engaged in child labor in street work and mobile seasonal work in agriculture. The Government does not have laws that protect children working in agricultural enterprises employing fewer than 50 workers. Although the Government took important steps to increase Syrian refugee children’s access to education and other services nationwide, many Syrian refugee children in urban areas of Turkey had low or no access to education and other social services, leaving significant numbers at increased risk of exploitation in the worst forms of child labor.</Description>
     <Goods>
       <Good>
         <Good_Name>Citrus Fruits</Good_Name>
@@ -27472,10 +27525,10 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Ensure that the law provides protections for children working in small agricultural enterprises, small businesses, and domestic work.</Name>
+          <Name>Ensure that the law provides protections for children working in small agricultural enterprises.</Name>
         </Action>
         <Action>
-          <Name>Ensure that the use of children in the production of drugs is criminally prohibited.</Name>
+          <Name>Ensure that the use of children in the production and trafficking of drugs is explicitly criminally prohibited.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -28029,8 +28082,8 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Name>Ukraine</Name>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
-    <Description>In 2015, Ukraine made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Ukraine is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. Ukraine enacted legislation in 2014 that required the State Labor Service to request approval from the Cabinet of Ministers before conducting any inspection not related to a criminal investigation. This bureaucratic restriction effectively imposed a moratorium on inspections during the reporting period. Otherwise, the Government made efforts by providing training to a significant number of law enforcement personnel on the application of laws against child trafficking, adopting a new State Program for Countering Human Trafficking, and developing a comprehensive curriculum on human trafficking prevention for use in schools, Children in Ukraine are engaged in child labor, including in street work and in the worst forms of child labor, including in pornography.  There are no laws or regulations that prohibit possessing child pornography or benefitting from its proceeds, and the age of consent for sexual relationships is not clearly defined, which puts children at risk of prosecution in cases of commercial sexual exploitation. In addition, national policies related to child labor lack sufficient funding for effective implementation. Ukraine’s armed conflict with Russian-backed separatists in the east of the country continued, which may have impacted the Government’s ability to address the worst forms of child labor. </Description>
+    <Advancement_Level>Minimal Advancement Advancement – Efforts Made but Continued Law that Delayed Advancement</Advancement_Level>
+    <Description>In 2015, Ukraine made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Ukraine is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. Ukraine enacted legislation in 2014 that required the State Labor Service to request approval from the Cabinet of Ministers before conducting any inspection not related to a criminal investigation. This bureaucratic restriction effectively imposed a moratorium on inspections during the reporting period. Otherwise, the Government made efforts by providing training to a significant number of law enforcement personnel on the application of laws against child trafficking, adopting a new State Program for Countering Human Trafficking, and developing a comprehensive curriculum on human trafficking prevention for use in schools. Children in Ukraine are engaged in child labor, including in street work and in the worst forms of child labor, including in pornography.  The legal framework lacks prohibitions on possessing child pornography or benefitting from its proceeds, and the age of consent for sexual relationships is not clearly defined, which puts children at risk of prosecution in cases of commercial sexual exploitation. In addition, national policies related to child labor lack sufficient funding for effective implementation. Ukraine’s armed conflict with Russian-backed separatists in the east of the country continued, which may have impacted the Government’s ability to address the worst forms of child labor. </Description>
     <Goods>
       <Good>
         <Good_Name>Coal</Good_Name>
@@ -28440,7 +28493,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Region>Asia &amp; the Pacific</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>No Advancement – Efforts Made but Complicit in Forced Child Labor</Advancement_Level>
-    <Description>In 2015, Uzbekistan made efforts to eliminate the worst forms of child labor, but was also complicit in the use of forced child labor. While the Government participated in an ILO-led Third Party Monitoring exercise that covered ten regions of Uzbekistan, conducted its own Coordination Council-led monitoring of the remaining regions, and carried out a national campaign to raise awareness of the prohibition on forced child labor in the cotton harvest, Uzbekistan received this assessment because some local officials continued to mobilize children to pick cotton in multiple regions of the country, including children studying at colleges in numerous districts of the Jizzakh and Khorezm regions. The Government also maintained policies in the cotton sector that mandate regional harvest quotas and set crop prices at levels that create incentives for local administrators to forcibly mobilize labor, creating an ongoing risk of forced child labor.  Children in Uzbekistan are engaged in harvesting cotton and cultivating silk cocoons. There is an overall lack of current data on child labor in Uzbekistan and existing social programs are insufficient to fully address the extent of the known child labor problem. The Feedback Mechanism for reporting labor violations in the cotton harvest did not become operational until mid-way through the harvest and was sometimes inaccessible to callers, indicating flaws in the system for receiving and processing child labor complaints. In addition, members of civil society who attempted to conduct independent monitoring of child labor in the cotton harvest reported experiencing surveillance, intimidation, and detention by the local government authorities.  </Description>
+    <Description>In 2015, Uzbekistan made efforts to eliminate the worst forms of child labor, but was also complicit in the use of forced child labor. While the Government participated in an ILO-led Third Party Monitoring exercise that covered ten regions of Uzbekistan, conducted its own Coordination Council-led monitoring of the remaining regions, and carried out a national campaign to raise awareness of the prohibition on forced child labor in the cotton harvest, Uzbekistan is receiving an assessment of no advancement because some local officials continued to mobilize children to pick cotton in multiple regions of the country, including children studying at colleges in numerous districts of the Jizzakh and Khorezm regions. The Government also maintained policies in the cotton sector that mandate regional harvest quotas and set crop prices at levels that create incentives for local administrators to forcibly mobilize labor, creating an ongoing risk of forced child labor.  Children in Uzbekistan are engaged in harvesting cotton and cultivating silk cocoons. There is an overall lack of current data on child labor in Uzbekistan and existing social programs are insufficient to fully address the extent of the known child labor problem. The Feedback Mechanism for reporting labor violations in the cotton harvest did not become operational until mid-way through the harvest and was sometimes inaccessible to callers, indicating flaws in the system for receiving and processing child labor complaints. In addition, members of civil society who attempted to conduct independent monitoring of child labor in the cotton harvest reported experiencing surveillance, intimidation, and detention by the local government authorities.  </Description>
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
@@ -28584,7 +28637,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Strengthen protections against forced labor and the commercial sexual exploitation of children by criminally prohibiting slavery, debt bondage, the possession of child pornography, and use, procurement, offering, and benefitting from the sexual exploitation of a child for prostitution.</Name>
+          <Name>Strengthen protections against the commercial sexual exploitation of children by criminally prohibiting the possession of child pornography, and use, procurement, offering, and benefitting from the sexual exploitation of a child for prostitution.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -28601,7 +28654,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Name>Increase the number of labor inspectors responsible for enforcing laws related to child labor in order to provide adequate coverage of the workforce.</Name>
         </Action>
         <Action>
-          <Name>Target labor and criminal inspections, including unannounced inspections, in areas where hazardous child labor is known to occur, especially in the cotton sector.</Name>
+          <Name>Target labor and criminal inspections, including unannounced inspections, in areas where hazardous child labor is known to occur, especially in the cotton sector..</Name>
         </Action>
         <Action>
           <Name>Establish a comprehensive cotton harvest monitoring and enforcement system that investigates worker complaints and third-party reports of school closings and mobilization of children under age 18 to work in the cotton harvest or other forms of child labor, and applies penalties against responsible individuals, including local or regional government authorities (such as hokim or town mayors), who are involved in the mobilization of children.</Name>
@@ -28612,7 +28665,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       </Enforcement>
       <Coordination>
         <Action>
-          <Name>Increase coordination efforts directed  at regional and district governments to ensure local governments are both aware of and committed to implementing the laws and policies prohibiting child labor in cotton production and other sectors.</Name>
+          <Name>Increase coordination efforts directed at regional and district governments to ensure local governments are both aware of and committed to implementing the laws and policies prohibiting child labor in cotton production and other sectors.</Name>
         </Action>
       </Coordination>
       <Government_Policies>
@@ -28848,7 +28901,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Region>Latin America &amp; the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
-    <Description>In 2015, Venezuela made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government adopted the XIX Inter-American Conference of Ministers of Labor Plan of Action prioritizing the elimination of child labor and maintained policies and programs that aim to alleviate poverty and improve conditions for some working children. However, children in Venezuela are engaged in child labor, including in domestic work. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. The Government has not established a list of hazardous occupations prohibited for children, and does not make information on the enforcement of child labor laws publicly available. In addition, information is not available on the effectiveness of the Government’s coordinating body on child labor, and the Government does not have sufficient efforts in place to protect children in key sectors where child labor is prevalent.
+    <Description>In 2015, Venezuela made a minimal advancement in efforts to eliminate the worst forms of child labor. The Government adopted the XIX Inter-American Conference of Ministers of Labor Plan of Action prioritizing the elimination of child labor and maintained policies and programs that aim to alleviate poverty and improve conditions for some working children. However, children in Venezuela are engaged in child labor, including in domestic work. Children are also engaged in the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. The Government has not made publicly available a list of hazardous occupations prohibited for children, and does not make information on the enforcement of child labor laws publicly available. In addition, information is not available on the effectiveness of the Government’s coordinating body on child labor, and the Government does not have sufficient efforts in place to protect children in key sectors where child labor is prevalent.
 
 </Description>
     <Goods></Goods>
@@ -28992,7 +29045,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Name>Ensure that all children are able to obtain identity documents to increase their access to education and reduce their vulnerability to labor exploitation.</Name>
         </Action>
         <Action>
-          <Name>Make publicly available information on the labor inspectorate’s funding; the number of labor inspectors; whether the inspectorate is authorized to assess penalties; the training system for labor inspectors; the number of labor inspections conducted at worksites and by desk review; the number of child labor violations found and for which penalties were imposed and collected; whether inspections are routine and targeted; whether unannounced inspections are permitted and conducted; complaint and referral mechanisms; and the number of criminal nvestigations, violations found, prosecutions initiated, and convictions related to the worst forms of child labor.</Name>
+          <Name>Make publicly available information on the labor inspectorate’s funding; the number of labor inspectors; whether the inspectorate is authorized to assess penalties; the training system for labor inspectors; the number of labor inspections conducted at worksites and by desk review; the number of child labor violations found and for which penalties were imposed and collected; whether inspections are routine and targeted; whether unannounced inspections are permitted and conducted; complaint and referral mechanisms; and the number of criminal investigations, violations found, prosecutions initiated, and convictions related to the worst forms of child labor.</Name>
         </Action>
         <Action>
           <Name>Effectively monitor employed youth of legal working age to ensure their employment does not negatively impact their education or place them in a worst form of child labor.</Name>
@@ -29085,7 +29138,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
@@ -29420,7 +29473,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Standard>Yes</Standard>
@@ -29435,10 +29488,10 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
+        <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
       <Compulsory_Education>
         <Standard>Yes</Standard>
@@ -29485,7 +29538,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
     <Suggested_Actions>
       <Legal_Framework>
         <Action>
-          <Name>Ensure the law criminally prohibits all stages of human trafficking, human trafficking for forced labor and commercial sexual exploitation, and both domestic and international human trafficking, in accordance with international standards.</Name>
+          <Name>Ensure the law criminally prohibits all stages of human trafficking, trafficking for forced labor and commercial sexual exploitation, and both domestic and international trafficking, in accordance with international standards.</Name>
         </Action>
       </Legal_Framework>
       <Enforcement>
@@ -29509,7 +29562,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       </Coordination>
       <Government_Policies>
         <Action>
-          <Name>Integrate child labor elimination and prevention strategies into existing policies , including the Education Development Strategic Plan and the Policy of Nonviolence and Discipline in Schools.</Name>
+          <Name>Integrate child labor elimination and prevention strategies into existing policies, including the Education Development Strategic Plan and the Policy of Nonviolence and Discipline in Schools.</Name>
         </Action>
       </Government_Policies>
       <Social_Programs>
@@ -29568,7 +29621,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>Yes</Standard>
@@ -29592,7 +29645,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Standard>Yes</Standard>
@@ -29789,7 +29842,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Standard>Yes</Standard>
         <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Standard>Yes</Standard>
@@ -29845,7 +29898,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
           <Name>Accede to the Palermo Protocol on Trafficking in Persons.</Name>
         </Action>
         <Action>
-          <Name>Make Ministerial Decree No. 11 publicly available.</Name>
+          <Name>Make publicly available the Ministerial Order No. 11 of 2013.</Name>
         </Action>
         <Action>
           <Name>Ensure that debt bondage, slavery, and all phases of child trafficking are criminally prohibited.</Name>

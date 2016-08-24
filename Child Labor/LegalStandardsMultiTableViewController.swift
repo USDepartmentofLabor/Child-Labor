@@ -99,7 +99,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         if (section == 3 && (self.hasStandardsFooter || self.hasAgeFooter || self.hasCombatFooter)) {
             var footer = ""
             if (self.hasStandardsFooter) {
-                footer += "* Does not meet International Standards";
+                footer += "* Note: There are gaps in the legal framework, as articulated in the chapter report";
             }
             if (self.hasAgeFooter) {
                 footer += "\n‡ Age calculated based on available information"

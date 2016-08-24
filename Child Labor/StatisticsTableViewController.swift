@@ -14,8 +14,8 @@ class StatisticsTableViewController: UITableViewController {
     
     @IBOutlet weak var workingLabel: UILabel!
     @IBOutlet weak var agricultureLabel: UILabel!
-    @IBOutlet weak var servicesLabel: UILabel!
     @IBOutlet weak var industryLabel: UILabel!
+    @IBOutlet weak var servicesLabel: UILabel!
     @IBOutlet weak var attendingSchoolLabel: UILabel!
     @IBOutlet weak var combiningWorkAndSchoolLabel: UILabel!
     @IBOutlet weak var primaryCompletionRateLabel: UILabel!
@@ -54,24 +54,24 @@ class StatisticsTableViewController: UITableViewController {
                     if let totalWorking = statistics["Children_Work_Statistics"]["Total_Working_Population"].element {
                         if let ageRange = statistics["Children_Work_Statistics"]["Age_Range"].element {
                             if percentageWorking.text != nil {
-                                if totalWorking.text != nil {
-                                    if ageRange.text != nil {
-                                        if percentageWorking.text! != "" {
-                                            if totalWorking.text! != "" {
-                                                if ageRange.text! != "" {
-                                                    let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
-                                                    let numberFormatter = NSNumberFormatter()
-                                                    numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                                                    let numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
-                                                    if (numberWithCommas != "0") {
-                                                        workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
-                                                    }
-                                                    else {
-                                                        workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
-                                                    }
-                                                    workingLabel.textColor = UIColor.darkGrayColor()
-                                                }
+                                if ageRange.text != nil {
+                                    if percentageWorking.text! != "" {
+                                        if ageRange.text! != "" {
+                                            var numberWithCommas = "0"
+                                            if ((totalWorking.text != nil && totalWorking.text! != "")) {
+                                                let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
+                                                let numberFormatter = NSNumberFormatter()
+                                                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
+                                                numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
                                             }
+
+                                            if (numberWithCommas != "0") {
+                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                            }
+                                            else {
+                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
+                                            }
+                                            workingLabel.textColor = UIColor.darkGrayColor()
                                         }
                                     }
                                 }

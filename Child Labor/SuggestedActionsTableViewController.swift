@@ -97,7 +97,7 @@ class SuggestedActionsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return "Laws"
+            return "Legal Standards"
         case 1:
             return "Enforcement"
         case 2:
