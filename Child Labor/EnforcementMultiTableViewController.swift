@@ -57,8 +57,8 @@ class EnforcementMultiTableViewController: UITableViewController {
                 
                 for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"] {
                     let text = territory["Enforcement"].element?.text
-                    if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
-                        showDedicatedInspectors = false
+                    if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
+                        showDedicatedInspectors = true
                     }
                 }
                 
