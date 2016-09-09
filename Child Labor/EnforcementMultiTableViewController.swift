@@ -164,11 +164,11 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if (state == 0 && section == 6) {
-            return 40
+            return 50
         }
         
         if (state == 1 && section == 1) {
-            return 40
+            return 50
         }
         return UITableViewAutomaticDimension
     }
@@ -220,6 +220,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[state][indexPath.section][indexPath.row]
+        standardLabel.accessibilityLabel = sectionTitles[state][indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
         
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
@@ -227,7 +228,8 @@ class EnforcementMultiTableViewController: UITableViewController {
             
             let valueLabel = cell.contentView.viewWithTag(11) as! UILabel
             valueLabel.text = "Unavailable"
-            valueLabel.textColor = UIColor.lightGrayColor()
+            valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
+            
             
             return cell
         }
@@ -264,8 +266,10 @@ class EnforcementMultiTableViewController: UITableViewController {
                 label.textColor = UIColor.blackColor()
             }
             else {
-                label.textColor = UIColor.lightGrayColor()
+                label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
+            
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text
             
             if (text!.containsString("*")) {
                 if self.state == 0 {
@@ -274,6 +278,8 @@ class EnforcementMultiTableViewController: UITableViewController {
                 else {
                     self.hasCriminalFooter = true
                 }
+                label.accessibilityLabel = label.accessibilityLabel! + ", the Government does not make this information publicly available"
+                
             }
         }
     }

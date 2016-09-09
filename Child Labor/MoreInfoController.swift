@@ -37,7 +37,7 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 4
+        return 5
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -45,8 +45,10 @@ class MoreInfoController: UITableViewController {
         case 0:
             return 2
         case 1:
-            return 1
+            return 3
         case 2:
+            return 4
+        case 3:
             return 3
         default:
             return 1

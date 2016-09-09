@@ -73,8 +73,6 @@ class LegalStandardsTableViewController: UITableViewController {
                 setLegalStandard(self.freePublicEducationLabel, standardXML: legalStandards["Free_Public_Education"])
             }
         }
-
-        
     }
     
     func setLegalStandard(label: UILabel, standardXML: XMLIndexer!) {
@@ -84,23 +82,29 @@ class LegalStandardsTableViewController: UITableViewController {
         let conformsStandard = standardXML["Conforms_To_Intl_Standard"].element?.text != "No"
         
         var labelText = ""
+        var accessibleText = ""
         if (standard != nil) {
             labelText = standard!
+            accessibleText = standard!
             if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
                 labelText += "*"
+                accessibleText += ", there are gaps in the legal framework as articulated in the chapter report "
             }
             
             if (age != nil) {
                 labelText += " (" + age!
+                accessibleText += ", " + age!
                 if (calculatedAge) {
                     self.hasAgeFooter = true
                     labelText += "‡"
+                    accessibleText += ", age calculated based on available information "
                 }
                 labelText += ")"
                 if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel].contains(label) && age!.containsString("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
+                    accessibleText += ", ages denoted are combat/non-combat "
                 }
             }
         }
@@ -130,6 +134,8 @@ class LegalStandardsTableViewController: UITableViewController {
             else if (labelText.hasPrefix("N/A") == false && labelText.hasPrefix("Unavailable") == false) {
                 label.textColor = UIColor.blackColor()
             }
+            
+            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText
         }
     }
 

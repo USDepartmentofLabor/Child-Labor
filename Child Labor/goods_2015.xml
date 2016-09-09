@@ -1196,9 +1196,9 @@
       <Country>
         <Country_Name>China</Country_Name>
         <Country_Region>Asia &amp; the Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Malaysia</Country_Name>
@@ -2288,19 +2288,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Potatoes</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Lebanon</Country_Name>
-        <Country_Region>Middle East &amp; North Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Pornography</Good_Name>
     <Good_Sector>Other</Good_Sector>
     <Countries>
@@ -2349,6 +2336,19 @@
       <Country>
         <Country_Name>Ukraine</Country_Name>
         <Country_Region>Europe &amp; Eurasia</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Potatoes</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Lebanon</Country_Name>
+        <Country_Region>Middle East &amp; North Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -2652,6 +2652,19 @@
     </Countries>
   </Good>
   <Good>
+    <Good_Name>Silk Cocoons</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Uzbekistan</Country_Name>
+        <Country_Region>Asia &amp; the Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Silk Fabric</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
@@ -2673,19 +2686,6 @@
         <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Silk Cocoons</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Uzbekistan</Country_Name>
-        <Country_Region>Asia &amp; the Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>

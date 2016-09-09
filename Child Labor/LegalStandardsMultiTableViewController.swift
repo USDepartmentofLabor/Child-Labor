@@ -115,7 +115,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if section == 3 {
-            return 60
+            return 80
         }
         return UITableViewAutomaticDimension
     }
@@ -149,6 +149,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[indexPath.section][indexPath.row]
+        standardLabel.accessibilityLabel = sectionTitles[indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
         
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
@@ -156,7 +157,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             
             let valueLabel = cell.contentView.viewWithTag(11) as! UILabel
             valueLabel.text = "Unavailable"
-            valueLabel.textColor = UIColor.lightGrayColor()
+            valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             
             return cell
         }
@@ -184,23 +185,29 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         let conformsStandard = standardXML["Conforms_To_Intl_Standard"].element?.text != "No"
         
         var labelText = ""
+        var accessibleText = ""
         if (standard != nil) {
             labelText = standard!
+            accessibleText = standard!
             if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
                 labelText += "*"
+                accessibleText += ", there are gaps in the legal framework as articulated in the chapter report "
             }
             
             if (age != nil) {
                 labelText += " (" + age!
+                accessibleText += ", " + age!
                 if (calculatedAge) {
                     self.hasAgeFooter = true
                     labelText += "‡"
+                    accessibleText += ", age calculated based on available information "
                 }
                 labelText += ")"
                 if (self.combatRow && age!.containsString("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
+                    accessibleText += ", ages denoted are combat/non-combat "
                 }
             }
         }
@@ -231,8 +238,10 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 label.textColor = UIColor.blackColor()
             }
             else {
-                label.textColor = UIColor.lightGrayColor()
+                label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
+            
+            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText
         }
     }
 

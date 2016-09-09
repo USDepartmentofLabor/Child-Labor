@@ -133,6 +133,8 @@ class EnforceTableViewController: UITableViewController {
                 label.textColor = UIColor.blackColor()
             }
             
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text
+            
             if (text!.containsString("*")) {
                 if tempState == 0 {
                     self.hasLaborFooter = true
@@ -140,6 +142,7 @@ class EnforceTableViewController: UITableViewController {
                 else {
                     self.hasCriminalFooter = true
                 }
+                label.accessibilityLabel = label.accessibilityLabel! + ", the Government does not make this information publicly available"
             }
         }
     }
