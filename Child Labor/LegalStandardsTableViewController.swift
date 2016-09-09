@@ -89,7 +89,7 @@ class LegalStandardsTableViewController: UITableViewController {
             if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
                 labelText += "*"
-                accessibleText += ", there are gaps in the legal framework as articulated in the chapter report "
+                accessibleText += ", note there are gaps in the legal framework as articulated in the chapter report "
             }
             
             if (age != nil) {

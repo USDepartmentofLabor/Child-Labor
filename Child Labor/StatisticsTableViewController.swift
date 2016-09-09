@@ -71,7 +71,7 @@ class StatisticsTableViewController: UITableViewController {
                                             else {
                                                 workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
                                             }
-                                            workingLabel.textColor = UIColor.darkGrayColor()
+                                            workingLabel.textColor = UIColor.blackColor()
                                         }
                                     }
                                 }
@@ -85,7 +85,7 @@ class StatisticsTableViewController: UITableViewController {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
                             agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue) + "%"
-                            agricultureLabel.textColor = UIColor.darkGrayColor()
+                            agricultureLabel.textColor = UIColor.blackColor()
                         }
                     }
                 }
@@ -95,7 +95,7 @@ class StatisticsTableViewController: UITableViewController {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
                             servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue) + "%"
-                            servicesLabel.textColor = UIColor.darkGrayColor()
+                            servicesLabel.textColor = UIColor.blackColor()
                         }
                     }
                 }
@@ -105,7 +105,7 @@ class StatisticsTableViewController: UITableViewController {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
                             industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue) + "%"
-                            industryLabel.textColor = UIColor.darkGrayColor()
+                            industryLabel.textColor = UIColor.blackColor()
                         }
                     }
                 }
@@ -118,7 +118,7 @@ class StatisticsTableViewController: UITableViewController {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
                                         attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
-                                        attendingSchoolLabel.textColor = UIColor.darkGrayColor()
+                                        attendingSchoolLabel.textColor = UIColor.blackColor()
                                     }
                                 }
                             }
@@ -134,7 +134,7 @@ class StatisticsTableViewController: UITableViewController {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
                                         combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
-                                        combiningWorkAndSchoolLabel.textColor = UIColor.darkGrayColor()
+                                        combiningWorkAndSchoolLabel.textColor = UIColor.blackColor()
                                     }
                                 }
                             }
@@ -147,7 +147,7 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
                             primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue) + "%"
-                            primaryCompletionRateLabel.textColor = UIColor.darkGrayColor()
+                            primaryCompletionRateLabel.textColor = UIColor.blackColor()
                        }
                     }
                 }
