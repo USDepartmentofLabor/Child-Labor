@@ -215,24 +215,28 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
         case 1:
             cl?.hidden = true
             fl?.hidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
         case 2:
             cl?.hidden = false
             fl?.hidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
         default:
             cl?.hidden = false
             fl?.hidden = false
             clImage?.image = UIImage(named: "hand-black")
             clLabel?.textColor = UIColor.blackColor()
             clLabel?.text = "FCL"
+            clLabel?.accessibilityLabel = "Forced Child Labor"
         }
         
         return cell

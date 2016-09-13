@@ -133,7 +133,7 @@ class EnforceTableViewController: UITableViewController {
                 label.textColor = UIColor.blackColor()
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.stringByReplacingOccurrencesOfString("*", withString: "")
             
             if (text!.containsString("*")) {
                 if tempState == 0 {

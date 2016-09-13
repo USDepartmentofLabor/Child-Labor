@@ -187,6 +187,7 @@ class GoodController: UITableViewController {
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
             
             if state == 2 || state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
@@ -199,6 +200,7 @@ class GoodController: UITableViewController {
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
             
             if state == 1 || state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
@@ -211,6 +213,7 @@ class GoodController: UITableViewController {
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
+            clLabel?.accessibilityLabel = "Child Labor"
             
             if state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
@@ -223,6 +226,7 @@ class GoodController: UITableViewController {
             clImage?.image = UIImage(named: "hand-black")
             clLabel?.textColor = UIColor.blackColor()
             clLabel?.text = "FCL"
+            clLabel?.accessibilityLabel = "Forced Child Labor"
         }
 
         return cell

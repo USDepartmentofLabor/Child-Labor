@@ -239,7 +239,8 @@ class EnforcementMultiTableViewController: UITableViewController {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
-            nameLabel.text = territory["Territory_Name"].element?.text
+            nameLabel.text = territory["Territory_Display_Name"].element?.text
+            nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
             
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
             setEnforcement(valueLabel, text: territory["Enforcement"].element?.text)
@@ -269,8 +270,7 @@ class EnforcementMultiTableViewController: UITableViewController {
                 label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text
-            
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.stringByReplacingOccurrencesOfString("*", withString: "")
             if (text!.containsString("*")) {
                 if self.state == 0 {
                     self.hasLaborFooter = true

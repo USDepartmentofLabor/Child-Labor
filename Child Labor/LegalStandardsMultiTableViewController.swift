@@ -167,7 +167,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
-            nameLabel.text = territory["Territory_Name"].element?.text
+            nameLabel.text = territory["Territory_Display_Name"].element?.text
+            nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
             
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
             setLegalStandard(valueLabel, standardXML: territory)
