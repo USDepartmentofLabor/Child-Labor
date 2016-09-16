@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38A3B5541D6E584D007FB2E5 /* Business Toolkit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38A3B5531D6E584D007FB2E5 /* Business Toolkit.pdf */; };
+		380048791D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */; };
+		3800487A1D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */; };
+		3800487B1D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */; };
+		3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */; };
+		3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048761D8B991C00E64714 /* FAQs- Combo.pdf */; };
+		3800487E1D8B991C00E64714 /* FAQs-EO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048771D8B991C00E64714 /* FAQs-EO.pdf */; };
+		3800487F1D8B991C00E64714 /* FAQs-TDA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048781D8B991C00E64714 /* FAQs-TDA.pdf */; };
+		380048821D8B993D00E64714 /* FAQs-TVPRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */; };
+		380048831D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */; };
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
 		38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75371CEED79100C53216 /* EnforceTableViewController.swift */; };
@@ -539,7 +547,6 @@
 		835618261BD7DE79007BCF75 /* Azerbaijan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356179D1BD7DE78007BCF75 /* Azerbaijan.pdf */; };
 		835618271BD7DE79007BCF75 /* Bahrain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356179E1BD7DE78007BCF75 /* Bahrain.pdf */; };
 		835618281BD7DE79007BCF75 /* Bangladesh.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356179F1BD7DE78007BCF75 /* Bangladesh.pdf */; };
-		835618291BD7DE79007BCF75 /* Barbados.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617A01BD7DE78007BCF75 /* Barbados.pdf */; };
 		8356182A1BD7DE79007BCF75 /* Belize.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617A11BD7DE78007BCF75 /* Belize.pdf */; };
 		8356182B1BD7DE79007BCF75 /* Benin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617A21BD7DE78007BCF75 /* Benin.pdf */; };
 		8356182C1BD7DE79007BCF75 /* Bhutan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617A31BD7DE78007BCF75 /* Bhutan.pdf */; };
@@ -626,7 +633,6 @@
 		8356187D1BD7DE79007BCF75 /* Paraguay.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F41BD7DE78007BCF75 /* Paraguay.pdf */; };
 		8356187E1BD7DE79007BCF75 /* Peru.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F51BD7DE78007BCF75 /* Peru.pdf */; };
 		8356187F1BD7DE79007BCF75 /* Philippines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F61BD7DE78007BCF75 /* Philippines.pdf */; };
-		835618801BD7DE79007BCF75 /* Russia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F71BD7DE78007BCF75 /* Russia.pdf */; };
 		835618811BD7DE79007BCF75 /* Rwanda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F81BD7DE78007BCF75 /* Rwanda.pdf */; };
 		835618821BD7DE79007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F91BD7DE78007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf */; };
 		835618831BD7DE79007BCF75 /* Saint Lucia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */; };
@@ -650,7 +656,6 @@
 		835618951BD7DE79007BCF75 /* Togo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180C1BD7DE79007BCF75 /* Togo.pdf */; };
 		835618961BD7DE79007BCF75 /* Tokelau.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180D1BD7DE79007BCF75 /* Tokelau.pdf */; };
 		835618971BD7DE79007BCF75 /* Tonga.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180E1BD7DE79007BCF75 /* Tonga.pdf */; };
-		835618981BD7DE79007BCF75 /* Trinidad and Tobago.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180F1BD7DE79007BCF75 /* Trinidad and Tobago.pdf */; };
 		835618991BD7DE79007BCF75 /* Tunisia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618101BD7DE79007BCF75 /* Tunisia.pdf */; };
 		8356189A1BD7DE79007BCF75 /* Turkey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618111BD7DE79007BCF75 /* Turkey.pdf */; };
 		8356189B1BD7DE79007BCF75 /* Tuvalu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618121BD7DE79007BCF75 /* Tuvalu.pdf */; };
@@ -667,9 +672,6 @@
 		835618A61BD7DE79007BCF75 /* Zambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181D1BD7DE79007BCF75 /* Zambia.pdf */; };
 		835618A71BD7DE79007BCF75 /* Zimbabwe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181E1BD7DE79007BCF75 /* Zimbabwe.pdf */; };
 		835618AC1BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */; };
-		835618AD1BD7E145007BCF75 /* Fact Sheets-OCFT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618A91BD7E145007BCF75 /* Fact Sheets-OCFT.pdf */; };
-		835618AE1BD7E145007BCF75 /* Fact Sheets-Programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618AA1BD7E145007BCF75 /* Fact Sheets-Programming.pdf */; };
-		835618AF1BD7E145007BCF75 /* Fact Sheets-Reports.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618AB1BD7E145007BCF75 /* Fact Sheets-Reports.pdf */; };
 		835A6C971B604D1800F26D3F /* Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 835A6C961B604D1800F26D3F /* Launch@2x.png */; };
 		8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BBA81B3CC67C008C547A /* SWXMLHash.swift */; };
 		836633B41B2F0734007C127E /* ilab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B21B2F0734007C127E /* ilab@3x.png */; };
@@ -1011,7 +1013,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38A3B5531D6E584D007FB2E5 /* Business Toolkit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Business Toolkit.pdf"; sourceTree = "<group>"; };
+		380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-OFCT-2016-lo.pdf"; sourceTree = "<group>"; };
+		380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Programming-2016-lo.pdf"; sourceTree = "<group>"; };
+		380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Regional-2016-lo.pdf"; sourceTree = "<group>"; };
+		380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Reports-lo.pdf"; sourceTree = "<group>"; };
+		380048761D8B991C00E64714 /* FAQs- Combo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs- Combo.pdf"; sourceTree = "<group>"; };
+		380048771D8B991C00E64714 /* FAQs-EO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-EO.pdf"; sourceTree = "<group>"; };
+		380048781D8B991C00E64714 /* FAQs-TDA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-TDA.pdf"; sourceTree = "<group>"; };
+		380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-TVPRA.pdf"; sourceTree = "<group>"; };
+		380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ToolkitForResponsibleBusinesses-lo.pdf"; sourceTree = "<group>"; };
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
 		38BC75371CEED79100C53216 /* EnforceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforceTableViewController.swift; sourceTree = "<group>"; };
@@ -1543,7 +1553,6 @@
 		8356179D1BD7DE78007BCF75 /* Azerbaijan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Azerbaijan.pdf; sourceTree = "<group>"; };
 		8356179E1BD7DE78007BCF75 /* Bahrain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Bahrain.pdf; sourceTree = "<group>"; };
 		8356179F1BD7DE78007BCF75 /* Bangladesh.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Bangladesh.pdf; sourceTree = "<group>"; };
-		835617A01BD7DE78007BCF75 /* Barbados.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Barbados.pdf; sourceTree = "<group>"; };
 		835617A11BD7DE78007BCF75 /* Belize.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Belize.pdf; sourceTree = "<group>"; };
 		835617A21BD7DE78007BCF75 /* Benin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Benin.pdf; sourceTree = "<group>"; };
 		835617A31BD7DE78007BCF75 /* Bhutan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Bhutan.pdf; sourceTree = "<group>"; };
@@ -1630,7 +1639,6 @@
 		835617F41BD7DE78007BCF75 /* Paraguay.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Paraguay.pdf; sourceTree = "<group>"; };
 		835617F51BD7DE78007BCF75 /* Peru.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Peru.pdf; sourceTree = "<group>"; };
 		835617F61BD7DE78007BCF75 /* Philippines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Philippines.pdf; sourceTree = "<group>"; };
-		835617F71BD7DE78007BCF75 /* Russia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Russia.pdf; sourceTree = "<group>"; };
 		835617F81BD7DE78007BCF75 /* Rwanda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rwanda.pdf; sourceTree = "<group>"; };
 		835617F91BD7DE78007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Helena, Ascensión, and Tristán da Cunha.pdf"; sourceTree = "<group>"; };
 		835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Lucia.pdf"; sourceTree = "<group>"; };
@@ -1654,7 +1662,6 @@
 		8356180C1BD7DE79007BCF75 /* Togo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Togo.pdf; sourceTree = "<group>"; };
 		8356180D1BD7DE79007BCF75 /* Tokelau.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tokelau.pdf; sourceTree = "<group>"; };
 		8356180E1BD7DE79007BCF75 /* Tonga.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tonga.pdf; sourceTree = "<group>"; };
-		8356180F1BD7DE79007BCF75 /* Trinidad and Tobago.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Trinidad and Tobago.pdf"; sourceTree = "<group>"; };
 		835618101BD7DE79007BCF75 /* Tunisia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tunisia.pdf; sourceTree = "<group>"; };
 		835618111BD7DE79007BCF75 /* Turkey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Turkey.pdf; sourceTree = "<group>"; };
 		835618121BD7DE79007BCF75 /* Tuvalu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tuvalu.pdf; sourceTree = "<group>"; };
@@ -1671,9 +1678,6 @@
 		8356181D1BD7DE79007BCF75 /* Zambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zambia.pdf; sourceTree = "<group>"; };
 		8356181E1BD7DE79007BCF75 /* Zimbabwe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zimbabwe.pdf; sourceTree = "<group>"; };
 		835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2014 Findings on the Worst Forms of Child Labor_app.pdf"; sourceTree = "<group>"; };
-		835618A91BD7E145007BCF75 /* Fact Sheets-OCFT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheets-OCFT.pdf"; sourceTree = "<group>"; };
-		835618AA1BD7E145007BCF75 /* Fact Sheets-Programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheets-Programming.pdf"; sourceTree = "<group>"; };
-		835618AB1BD7E145007BCF75 /* Fact Sheets-Reports.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheets-Reports.pdf"; sourceTree = "<group>"; };
 		835A6C961B604D1800F26D3F /* Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x.png"; sourceTree = "<group>"; };
 		835E54961B51665D00EE7B26 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		835E54971B51665D00EE7B26 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
@@ -2861,7 +2865,6 @@
 				8356179D1BD7DE78007BCF75 /* Azerbaijan.pdf */,
 				8356179E1BD7DE78007BCF75 /* Bahrain.pdf */,
 				8356179F1BD7DE78007BCF75 /* Bangladesh.pdf */,
-				835617A01BD7DE78007BCF75 /* Barbados.pdf */,
 				835617A11BD7DE78007BCF75 /* Belize.pdf */,
 				835617A21BD7DE78007BCF75 /* Benin.pdf */,
 				835617A31BD7DE78007BCF75 /* Bhutan.pdf */,
@@ -2948,7 +2951,6 @@
 				835617F41BD7DE78007BCF75 /* Paraguay.pdf */,
 				835617F51BD7DE78007BCF75 /* Peru.pdf */,
 				835617F61BD7DE78007BCF75 /* Philippines.pdf */,
-				835617F71BD7DE78007BCF75 /* Russia.pdf */,
 				835617F81BD7DE78007BCF75 /* Rwanda.pdf */,
 				835617F91BD7DE78007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf */,
 				835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */,
@@ -2972,7 +2974,6 @@
 				8356180C1BD7DE79007BCF75 /* Togo.pdf */,
 				8356180D1BD7DE79007BCF75 /* Tokelau.pdf */,
 				8356180E1BD7DE79007BCF75 /* Tonga.pdf */,
-				8356180F1BD7DE79007BCF75 /* Trinidad and Tobago.pdf */,
 				835618101BD7DE79007BCF75 /* Tunisia.pdf */,
 				835618111BD7DE79007BCF75 /* Turkey.pdf */,
 				835618121BD7DE79007BCF75 /* Tuvalu.pdf */,
@@ -3077,13 +3078,18 @@
 				8303DEE31B41F20300E4FD42 /* Maps */,
 				83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */,
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
+				380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */,
+				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
 				38CA953D1D4BAF2400319316 /* goods_2015.xml */,
+				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
+				380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */,
+				380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */,
+				380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */,
+				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
+				380048771D8B991C00E64714 /* FAQs-EO.pdf */,
+				380048781D8B991C00E64714 /* FAQs-TDA.pdf */,
 				38CA953B1D4BAEF200319316 /* countries_2015.xml */,
 				835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */,
-				835618A91BD7E145007BCF75 /* Fact Sheets-OCFT.pdf */,
-				835618AA1BD7E145007BCF75 /* Fact Sheets-Programming.pdf */,
-				835618AB1BD7E145007BCF75 /* Fact Sheets-Reports.pdf */,
-				38A3B5531D6E584D007FB2E5 /* Business Toolkit.pdf */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
@@ -3254,6 +3260,7 @@
 				83AD12531B668E71004B92D3 /* icons_Blueberries-33@3x.png in Resources */,
 				8356185F1BD7DE79007BCF75 /* Kiribati.pdf in Resources */,
 				8303DFB51B41F21A00E4FD42 /* Papua New Guinea-map.png in Resources */,
+				3800487A1D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf in Resources */,
 				8310FF2A1ABB11310025F7AE /* Sri_Lanka.png in Resources */,
 				8335AE9B1B6678A5000748F0 /* Albania-map.png in Resources */,
 				8303DF771B41F21A00E4FD42 /* Chad-map.png in Resources */,
@@ -3293,7 +3300,6 @@
 				8356187B1BD7DE79007BCF75 /* Panama.pdf in Resources */,
 				835618541BD7DE79007BCF75 /* Guinea.pdf in Resources */,
 				8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */,
-				38A3B5541D6E584D007FB2E5 /* Business Toolkit.pdf in Resources */,
 				8335AF6D1B667963000748F0 /* icons_Silk_Fabric.png in Resources */,
 				8356184B1BD7DE79007BCF75 /* Falkland Islands (Islas Malvinas).pdf in Resources */,
 				83AD13A71B669137004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png in Resources */,
@@ -3439,11 +3445,13 @@
 				8310FF041ABB11310025F7AE /* Pakistan.png in Resources */,
 				8335AF391B667963000748F0 /* icons_Eggplants.png in Resources */,
 				835618521BD7DE79007BCF75 /* Guatemala.pdf in Resources */,
+				3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */,
 				8335AF2E1B667963000748F0 /* icons_Coca_(stimulant_plant).png in Resources */,
 				835618841BD7DE79007BCF75 /* Saint Vincent and the Grenadines.pdf in Resources */,
 				8303DFC81B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png in Resources */,
 				83AD138E1B669137004B92D3 /* icons_Embellished_Textiles-33@2x.png in Resources */,
 				8335AF2A1B667963000748F0 /* icons_Chile_Peppers.png in Resources */,
+				380048831D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf in Resources */,
 				835618A41BD7DE79007BCF75 /* Western Sahara.pdf in Resources */,
 				83AD12AC1B668E71004B92D3 /* icons_Rubber-33@3x.png in Resources */,
 				8310FF1E1ABB11310025F7AE /* Seychelles.png in Resources */,
@@ -3456,8 +3464,10 @@
 				83AD12BF1B668E71004B92D3 /* icons_Sugar_Beets-33@3x.png in Resources */,
 				8335AF5F1B667963000748F0 /* icons_Pineapples.png in Resources */,
 				8310FE751ABB11310025F7AE /* Anguilla.png in Resources */,
+				3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */,
 				8303DF811B41F21A00E4FD42 /* Dominica-map.png in Resources */,
 				8303DF821B41F21A00E4FD42 /* Timor-Leste-map.png in Resources */,
+				380048791D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf in Resources */,
 				83AD12701B668E71004B92D3 /* icons_Cucumbers-33@3x.png in Resources */,
 				835618621BD7DE79007BCF75 /* Lebanon.pdf in Resources */,
 				8303DF9B1B41F21A00E4FD42 /* Kiribati-map.png in Resources */,
@@ -3493,8 +3503,8 @@
 				8356182F1BD7DE79007BCF75 /* Botswana.pdf in Resources */,
 				8335AF1A1B667963000748F0 /* icons_Bananas.png in Resources */,
 				8310FE771ABB11310025F7AE /* Argentina.png in Resources */,
+				380048821D8B993D00E64714 /* FAQs-TVPRA.pdf in Resources */,
 				83AD12C91B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png in Resources */,
-				835618AD1BD7E145007BCF75 /* Fact Sheets-OCFT.pdf in Resources */,
 				8310FE6F1ABB11310025F7AE /* Afghanistan.png in Resources */,
 				83AD13CD1B669137004B92D3 /* icons_Silk_Thread-33@2x.png in Resources */,
 				8356188D1BD7DE79007BCF75 /* South Africa.pdf in Resources */,
@@ -3519,7 +3529,6 @@
 				8310FE7D1ABB11310025F7AE /* Bahamas.png in Resources */,
 				83AD124A1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png in Resources */,
 				8335AF4A1B667963000748F0 /* icons_Grapes.png in Resources */,
-				835618291BD7DE79007BCF75 /* Barbados.pdf in Resources */,
 				83AD12681B668E71004B92D3 /* icons_Cocoa-33@3x.png in Resources */,
 				8310FEA41ABB11310025F7AE /* Congo,_Democratic_Republic_of_the.png in Resources */,
 				835618A01BD7DE79007BCF75 /* Vanuatu.pdf in Resources */,
@@ -3530,7 +3539,6 @@
 				8356183F1BD7DE79007BCF75 /* Congo, Republic of the.pdf in Resources */,
 				8310FF031ABB11310025F7AE /* Oman.png in Resources */,
 				8356187A1BD7DE79007BCF75 /* Pakistan.pdf in Resources */,
-				835618801BD7DE79007BCF75 /* Russia.pdf in Resources */,
 				8310FEE11ABB11310025F7AE /* Macao.png in Resources */,
 				8303DF6E1B41F21A00E4FD42 /* Bosnia and Herzegovina-map.png in Resources */,
 				8335AF571B667963000748F0 /* icons_Melons.png in Resources */,
@@ -3550,6 +3558,7 @@
 				8310FF391ABB11310025F7AE /* Trinidad_and_Tobago.png in Resources */,
 				83AD12A91B668E71004B92D3 /* icons_Pulses_(legumes)-33@3x.png in Resources */,
 				83AD13B81B669137004B92D3 /* icons_Oil_(Palm)-33@2x.png in Resources */,
+				3800487B1D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf in Resources */,
 				8335AF511B667963000748F0 /* icons_Jade.png in Resources */,
 				8303DF6A1B41F21A00E4FD42 /* Belize-map.png in Resources */,
 				83AD12781B668E71004B92D3 /* icons_Fashion_Accessories-33@3x.png in Resources */,
@@ -3661,6 +3670,7 @@
 				8303DFB41B41F21A00E4FD42 /* Panama-map.png in Resources */,
 				8303DFA01B41F21A00E4FD42 /* Liberia-map.png in Resources */,
 				8303DF761B41F21A00E4FD42 /* Central African Republic-map.png in Resources */,
+				3800487E1D8B991C00E64714 /* FAQs-EO.pdf in Resources */,
 				83AD128E1B668E71004B92D3 /* icons_Hazelnuts-33@3x.png in Resources */,
 				8310FF401ABB11310025F7AE /* Uganda.png in Resources */,
 				8335AF6B1B667963000748F0 /* icons_Shellfish.png in Resources */,
@@ -3686,7 +3696,6 @@
 				8335AF641B667963000748F0 /* icons_Rice.png in Resources */,
 				83AD12BA1B668E71004B92D3 /* icons_Soy_Beans-33@3x.png in Resources */,
 				8310FE891ABB11310025F7AE /* Botswana.png in Resources */,
-				835618981BD7DE79007BCF75 /* Trinidad and Tobago.pdf in Resources */,
 				8310FE791ABB11310025F7AE /* Aruba.png in Resources */,
 				8303DF791B41F21A00E4FD42 /* Colombia-map.png in Resources */,
 				8310FF131ABB11310025F7AE /* Rwanda.png in Resources */,
@@ -3713,7 +3722,6 @@
 				8310FECC1ABB11310025F7AE /* Iraq.png in Resources */,
 				8335AFB21B668126000748F0 /* icons_Wolframite_(tungsten_ore).png in Resources */,
 				8303DF801B41F21A00E4FD42 /* Dominican Republic-map.png in Resources */,
-				835618AF1BD7E145007BCF75 /* Fact Sheets-Reports.pdf in Resources */,
 				83AD125B1B668E71004B92D3 /* icons_Cassava-33@3x.png in Resources */,
 				8335AF9C1B667FC6000748F0 /* icons_Meat.png in Resources */,
 				835618751BD7DE79007BCF75 /* Niger.pdf in Resources */,
@@ -3776,6 +3784,7 @@
 				8303DF751B41F21A00E4FD42 /* Cabo Verde-map.png in Resources */,
 				83AD13821B669137004B92D3 /* icons_Coffee-33@2x.png in Resources */,
 				8356185E1BD7DE79007BCF75 /* Kenya.pdf in Resources */,
+				3800487F1D8B991C00E64714 /* FAQs-TDA.pdf in Resources */,
 				83AD13C91B669137004B92D3 /* icons_Sesame-33@2x.png in Resources */,
 				835618401BD7DE79007BCF75 /* Cook Islands.pdf in Resources */,
 				8310FF481ABB11310025F7AE /* Vatican_City.png in Resources */,
@@ -4124,7 +4133,6 @@
 				83AD13B11B669137004B92D3 /* icons_Matches-33@2x.png in Resources */,
 				83AD13A31B669137004B92D3 /* icons_Grapes-33@2x.png in Resources */,
 				8335AF4F1B667963000748F0 /* icons_Incense_(agarbatti).png in Resources */,
-				835618AE1BD7E145007BCF75 /* Fact Sheets-Programming.pdf in Resources */,
 				83AD13C41B669137004B92D3 /* icons_Rubber-33@2x.png in Resources */,
 				8310FF0F1ABB11310025F7AE /* Qatar.png in Resources */,
 				83AD13711B669137004B92D3 /* icons_Carpets-33@2x.png in Resources */,

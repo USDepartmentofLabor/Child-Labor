@@ -118,17 +118,33 @@ class MoreInfoController: UITableViewController {
             destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
         } else if segue.identifier == "presentReportsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheets-Reports"
+            destinationViewController.factSheet = "Fact Sheet-Reports-lo"
         } else if segue.identifier == "presentOCFTFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheets-OCFT"
+            destinationViewController.factSheet = "Fact Sheet-OFCT-2016-lo"
         } else if segue.identifier == "presentProgramsFactSheet" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheets-Programming"
+            destinationViewController.factSheet = "Fact Sheet-Programming-2016-lo"
+        } else if segue.identifier == "presentRegionsFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "Fact Sheet-Regional-2016-lo"
+        } else if segue.identifier == "presentTDAFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "FAQs-TDA"
+        } else if segue.identifier == "presentTVPRAFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "FAQs-TVPRA"
+        } else if segue.identifier == "presentEOFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "FAQs-EO"
+        } else if segue.identifier == "presentComboFactSheet" {
+            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            destinationViewController.factSheet = "FAQs- Combo"
         } else if segue.identifier == "presentToolkit" {
             let destinationViewController = segue.destinationViewController as! FactSheetViewController
-            destinationViewController.factSheet = "Business Toolkit"
+            destinationViewController.factSheet = "ToolkitForResponsibleBusinesses-lo"
         }
+        
     }
 
 }
