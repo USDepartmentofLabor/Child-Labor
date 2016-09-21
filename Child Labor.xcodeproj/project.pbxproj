@@ -12,9 +12,6 @@
 		3800487B1D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */; };
 		3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */; };
 		3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048761D8B991C00E64714 /* FAQs- Combo.pdf */; };
-		3800487E1D8B991C00E64714 /* FAQs-EO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048771D8B991C00E64714 /* FAQs-EO.pdf */; };
-		3800487F1D8B991C00E64714 /* FAQs-TDA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048781D8B991C00E64714 /* FAQs-TDA.pdf */; };
-		380048821D8B993D00E64714 /* FAQs-TVPRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */; };
 		380048831D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */; };
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
@@ -671,7 +668,6 @@
 		835618A51BD7DE79007BCF75 /* Yemen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181C1BD7DE79007BCF75 /* Yemen.pdf */; };
 		835618A61BD7DE79007BCF75 /* Zambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181D1BD7DE79007BCF75 /* Zambia.pdf */; };
 		835618A71BD7DE79007BCF75 /* Zimbabwe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181E1BD7DE79007BCF75 /* Zimbabwe.pdf */; };
-		835618AC1BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */; };
 		835A6C971B604D1800F26D3F /* Launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 835A6C961B604D1800F26D3F /* Launch@2x.png */; };
 		8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BBA81B3CC67C008C547A /* SWXMLHash.swift */; };
 		836633B41B2F0734007C127E /* ilab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B21B2F0734007C127E /* ilab@3x.png */; };
@@ -1018,9 +1014,6 @@
 		380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Regional-2016-lo.pdf"; sourceTree = "<group>"; };
 		380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Reports-lo.pdf"; sourceTree = "<group>"; };
 		380048761D8B991C00E64714 /* FAQs- Combo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs- Combo.pdf"; sourceTree = "<group>"; };
-		380048771D8B991C00E64714 /* FAQs-EO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-EO.pdf"; sourceTree = "<group>"; };
-		380048781D8B991C00E64714 /* FAQs-TDA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-TDA.pdf"; sourceTree = "<group>"; };
-		380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs-TVPRA.pdf"; sourceTree = "<group>"; };
 		380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ToolkitForResponsibleBusinesses-lo.pdf"; sourceTree = "<group>"; };
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
@@ -1677,7 +1670,6 @@
 		8356181C1BD7DE79007BCF75 /* Yemen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Yemen.pdf; sourceTree = "<group>"; };
 		8356181D1BD7DE79007BCF75 /* Zambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zambia.pdf; sourceTree = "<group>"; };
 		8356181E1BD7DE79007BCF75 /* Zimbabwe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zimbabwe.pdf; sourceTree = "<group>"; };
-		835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2014 Findings on the Worst Forms of Child Labor_app.pdf"; sourceTree = "<group>"; };
 		835A6C961B604D1800F26D3F /* Launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x.png"; sourceTree = "<group>"; };
 		835E54961B51665D00EE7B26 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		835E54971B51665D00EE7B26 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
@@ -3078,7 +3070,6 @@
 				8303DEE31B41F20300E4FD42 /* Maps */,
 				83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */,
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
-				380048801D8B993D00E64714 /* FAQs-TVPRA.pdf */,
 				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
 				38CA953D1D4BAF2400319316 /* goods_2015.xml */,
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
@@ -3086,10 +3077,7 @@
 				380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */,
 				380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
-				380048771D8B991C00E64714 /* FAQs-EO.pdf */,
-				380048781D8B991C00E64714 /* FAQs-TDA.pdf */,
 				38CA953B1D4BAEF200319316 /* countries_2015.xml */,
-				835618A81BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
@@ -3503,7 +3491,6 @@
 				8356182F1BD7DE79007BCF75 /* Botswana.pdf in Resources */,
 				8335AF1A1B667963000748F0 /* icons_Bananas.png in Resources */,
 				8310FE771ABB11310025F7AE /* Argentina.png in Resources */,
-				380048821D8B993D00E64714 /* FAQs-TVPRA.pdf in Resources */,
 				83AD12C91B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png in Resources */,
 				8310FE6F1ABB11310025F7AE /* Afghanistan.png in Resources */,
 				83AD13CD1B669137004B92D3 /* icons_Silk_Thread-33@2x.png in Resources */,
@@ -3670,7 +3657,6 @@
 				8303DFB41B41F21A00E4FD42 /* Panama-map.png in Resources */,
 				8303DFA01B41F21A00E4FD42 /* Liberia-map.png in Resources */,
 				8303DF761B41F21A00E4FD42 /* Central African Republic-map.png in Resources */,
-				3800487E1D8B991C00E64714 /* FAQs-EO.pdf in Resources */,
 				83AD128E1B668E71004B92D3 /* icons_Hazelnuts-33@3x.png in Resources */,
 				8310FF401ABB11310025F7AE /* Uganda.png in Resources */,
 				8335AF6B1B667963000748F0 /* icons_Shellfish.png in Resources */,
@@ -3784,7 +3770,6 @@
 				8303DF751B41F21A00E4FD42 /* Cabo Verde-map.png in Resources */,
 				83AD13821B669137004B92D3 /* icons_Coffee-33@2x.png in Resources */,
 				8356185E1BD7DE79007BCF75 /* Kenya.pdf in Resources */,
-				3800487F1D8B991C00E64714 /* FAQs-TDA.pdf in Resources */,
 				83AD13C91B669137004B92D3 /* icons_Sesame-33@2x.png in Resources */,
 				835618401BD7DE79007BCF75 /* Cook Islands.pdf in Resources */,
 				8310FF481ABB11310025F7AE /* Vatican_City.png in Resources */,
@@ -3886,7 +3871,6 @@
 				8310FF4B1ABB11310025F7AE /* Wallis_and_Futuna.png in Resources */,
 				8335AF1F1B667963000748F0 /* icons_Brazil_Nuts_Chestnuts.png in Resources */,
 				835618A31BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf in Resources */,
-				835618AC1BD7E145007BCF75 /* 2014 Findings on the Worst Forms of Child Labor_app.pdf in Resources */,
 				8310FECA1ABB11310025F7AE /* Indonesia.png in Resources */,
 				835618891BD7DE79007BCF75 /* Seychelles.pdf in Resources */,
 				83AD12671B668E71004B92D3 /* icons_Coca_(stimulant_plant)-33@3x.png in Resources */,

@@ -93,9 +93,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentReportIntroduction" id="pMt-qz-cXq"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Gut-zs-cUE" style="IBUITableViewCellStyleDefault" id="VCF-ik-Ers">
                                         <rect key="frame" x="0.0" y="251" width="600" height="44"/>
@@ -235,9 +232,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentTDAFactSheet" id="QP8-2n-cyd"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="cmG-P8-mgc" style="IBUITableViewCellStyleDefault" id="dsr-rS-JKk">
                                         <rect key="frame" x="0.0" y="599" width="600" height="44"/>
@@ -255,9 +249,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentTVPRAFactSheet" id="kah-zz-ypK"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="vdX-uJ-gKP" style="IBUITableViewCellStyleDefault" id="6C6-hc-1ym">
                                         <rect key="frame" x="0.0" y="643" width="600" height="44"/>
@@ -275,9 +266,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentEOFactSheet" id="B5t-Za-0lP"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="pcf-fn-6ah" style="IBUITableViewCellStyleDefault" id="oGx-aN-svd">
                                         <rect key="frame" x="0.0" y="687" width="600" height="44"/>
@@ -4434,9 +4422,9 @@
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qkd-VV-gmI"/>
-        <segue reference="iR0-4H-bt0"/>
         <segue reference="UrS-Cc-ziQ"/>
-        <segue reference="XHW-m8-7YS"/>
+        <segue reference="yAD-Cl-esb"/>
+        <segue reference="iR0-4H-bt0"/>
+        <segue reference="Qkd-VV-gmI"/>
     </inferredMetricsTieBreakers>
 </document>

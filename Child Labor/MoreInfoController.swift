@@ -49,9 +49,42 @@ class MoreInfoController: UITableViewController {
         case 2:
             return 4
         case 3:
-            return 3
+            return 4
         default:
             return 1
+        }
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if (indexPath.section == 1) {
+            switch indexPath.row {
+            case 0:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
+                break
+            case 1:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
+                break
+            case 2:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
+            default:
+                break
+            }
+        }
+        else if (indexPath.section == 3) {
+            switch indexPath.row {
+            case 0:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDA2015_FAQs.pdf")!)
+                break
+            case 1:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_FAQs2016.pdf")!)
+                break
+            case 2:
+                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EOFAQS_2016.pdf")!)
+                break
+            default:
+                break
+                
+            }
         }
     }
 

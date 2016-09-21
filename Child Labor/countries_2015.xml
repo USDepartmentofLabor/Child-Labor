@@ -6470,7 +6470,7 @@
       </Good>
       <Good>
         <Good_Name>Electronics</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
@@ -9824,7 +9824,7 @@
         <Good_Name>Textiles (hand-woven)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -14394,7 +14394,7 @@ In 2015, Haiti made a moderate advancement in efforts to eliminate the worst for
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -22674,9 +22674,9 @@ The Government raised the minimum age for employment in domestic work to 18 and 
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age>16</Age>
+        <Age></Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Types_Hazardous_Work>
         <Standard>Yes</Standard>
@@ -25790,7 +25790,7 @@ The Government raised the minimum age for employment in domestic work to 18 and 
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>

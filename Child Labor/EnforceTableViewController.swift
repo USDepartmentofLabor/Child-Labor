@@ -111,7 +111,7 @@ class EnforceTableViewController: UITableViewController {
         }
         
         let text = self.laborDedicatedInspectorsLabel.text
-        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
+        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false && text! != "0") {
             self.laborDedicatedInspectorsCell.hidden = true
         }
         

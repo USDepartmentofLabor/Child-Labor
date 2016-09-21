@@ -1008,7 +1008,7 @@
         <Country_Name>Kazakhstan</Country_Name>
         <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
@@ -1044,7 +1044,7 @@
         <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -1196,7 +1196,7 @@
       <Country>
         <Country_Name>China</Country_Name>
         <Country_Region>Asia &amp; the Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
@@ -3145,7 +3145,7 @@
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
