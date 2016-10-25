@@ -222,6 +222,8 @@ class EnforcementMultiTableViewController: UITableViewController {
         standardLabel.text = sectionTitles[state][indexPath.section][indexPath.row]
         standardLabel.accessibilityLabel = sectionTitles[state][indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
         
+        var accessibilityElements = [standardLabel]
+        
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
             nameLabel.text = "All Territories"
@@ -230,6 +232,8 @@ class EnforcementMultiTableViewController: UITableViewController {
             valueLabel.text = "Unavailable"
             valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             
+            accessibilityElements += [nameLabel, valueLabel]
+            cell.contentView.accessibilityElements = accessibilityElements
             
             return cell
         }
@@ -245,9 +249,12 @@ class EnforcementMultiTableViewController: UITableViewController {
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
             setEnforcement(valueLabel, text: territory["Enforcement"].element?.text)
             
+            accessibilityElements += [nameLabel, valueLabel]
+            
             index += 1
         }
         
+        cell.contentView.accessibilityElements = accessibilityElements
         return cell
     }
     

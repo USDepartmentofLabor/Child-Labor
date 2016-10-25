@@ -20,8 +20,28 @@ class StatisticsTableViewController: UITableViewController {
     @IBOutlet weak var combiningWorkAndSchoolLabel: UILabel!
     @IBOutlet weak var primaryCompletionRateLabel: UILabel!
     
+    @IBOutlet weak var workingContentView: UIView!
+    @IBOutlet weak var workingHeader: UILabel!
+    @IBOutlet weak var agricultureHeader: UILabel!
+    @IBOutlet weak var industryHeader: UILabel!
+    @IBOutlet weak var servicesHeader: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.workingContentView.accessibilityElements = [
+            self.workingHeader,
+            self.workingLabel,
+            self.agricultureHeader,
+            self.agricultureLabel,
+            self.industryHeader,
+            self.industryLabel,
+            self.servicesHeader,
+            self.servicesLabel
+        ]
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

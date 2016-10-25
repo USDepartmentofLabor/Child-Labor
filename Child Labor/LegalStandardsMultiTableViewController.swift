@@ -151,6 +151,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         standardLabel.text = sectionTitles[indexPath.section][indexPath.row]
         standardLabel.accessibilityLabel = sectionTitles[indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
         
+        var accessibilityElements = [standardLabel]
+        
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
             nameLabel.text = "All Territories"
@@ -158,6 +160,9 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let valueLabel = cell.contentView.viewWithTag(11) as! UILabel
             valueLabel.text = "Unavailable"
             valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
+            
+            accessibilityElements += [nameLabel, valueLabel]
+            cell.contentView.accessibilityElements = accessibilityElements
             
             return cell
         }
@@ -173,9 +178,12 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
             setLegalStandard(valueLabel, standardXML: territory)
             
+            accessibilityElements += [nameLabel, valueLabel]
+            
             index += 1
         }
         
+        cell.contentView.accessibilityElements = accessibilityElements
         return cell
     }
     

@@ -13,6 +13,8 @@
 		3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */; };
 		3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048761D8B991C00E64714 /* FAQs- Combo.pdf */; };
 		380048831D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */; };
+		380B140D1DBFF7EC0015E54C /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380B140B1DBFF7EC0015E54C /* Background@2x.png */; };
+		380B140E1DBFF7EC0015E54C /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380B140C1DBFF7EC0015E54C /* Background@3x.png */; };
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
 		38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75371CEED79100C53216 /* EnforceTableViewController.swift */; };
@@ -373,7 +375,6 @@
 		8310FF4E1ABB11310025F7AE /* Zimbabwe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE6E1ABB11310025F7AE /* Zimbabwe.png */; };
 		831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */; };
 		831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */; };
-		83232C3A1B87552200A0D49F /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 83232C391B87552200A0D49F /* Background.png */; };
 		8323630D1AF6737000FA8B55 /* South_Sudan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8323630C1AF6737000FA8B55 /* South_Sudan.png */; };
 		83263FC61B14CD5000F7F71D /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83263FC51B14CD5000F7F71D /* IndexViewController.swift */; };
 		8335AE991B6678A0000748F0 /* Afghanistan-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AE981B66789F000748F0 /* Afghanistan-map.png */; };
@@ -1015,6 +1016,8 @@
 		380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Reports-lo.pdf"; sourceTree = "<group>"; };
 		380048761D8B991C00E64714 /* FAQs- Combo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs- Combo.pdf"; sourceTree = "<group>"; };
 		380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ToolkitForResponsibleBusinesses-lo.pdf"; sourceTree = "<group>"; };
+		380B140B1DBFF7EC0015E54C /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		380B140C1DBFF7EC0015E54C /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
 		38BC75371CEED79100C53216 /* EnforceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforceTableViewController.swift; sourceTree = "<group>"; };
@@ -1375,7 +1378,6 @@
 		8310FE6E1ABB11310025F7AE /* Zimbabwe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zimbabwe.png; sourceTree = "<group>"; };
 		831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactSheetViewController.swift; sourceTree = "<group>"; };
 		831E4AE61B0E53B000DCD332 /* FullReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullReportViewController.swift; sourceTree = "<group>"; };
-		83232C391B87552200A0D49F /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		8323630C1AF6737000FA8B55 /* South_Sudan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = South_Sudan.png; sourceTree = "<group>"; };
 		83263FC51B14CD5000F7F71D /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		8335AE981B66789F000748F0 /* Afghanistan-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Afghanistan-map.png"; sourceTree = "<group>"; };
@@ -3080,6 +3082,8 @@
 				38CA953B1D4BAEF200319316 /* countries_2015.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
+				380B140B1DBFF7EC0015E54C /* Background@2x.png */,
+				380B140C1DBFF7EC0015E54C /* Background@3x.png */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
 				83B3E9891B3B519300742BC7 /* forced-child-labor@3x.png */,
 				83B3E9861B3B519300742BC7 /* forced-child-labor@2x.png */,
@@ -3103,7 +3107,6 @@
 				836633B31B2F0734007C127E /* ilab@2x.png */,
 				83B3E9921B3B5DA400742BC7 /* dol@3x.png */,
 				83B3E9911B3B5DA400742BC7 /* dol@2x.png */,
-				83232C391B87552200A0D49F /* Background.png */,
 				837B5D841AAB68F600731F83 /* eo.png */,
 				83800C7B1AA4D40300DD47EB /* Info.plist */,
 			);
@@ -3514,6 +3517,7 @@
 				8310FECD1ABB11310025F7AE /* Ireland.png in Resources */,
 				8356189B1BD7DE79007BCF75 /* Tuvalu.pdf in Resources */,
 				83AD13CC1B669137004B92D3 /* icons_Silk_Fabric-33@2x.png in Resources */,
+				380B140E1DBFF7EC0015E54C /* Background@3x.png in Resources */,
 				83AD12991B668E71004B92D3 /* icons_Matches-33@3x.png in Resources */,
 				8310FE7D1ABB11310025F7AE /* Bahamas.png in Resources */,
 				83AD124A1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png in Resources */,
@@ -3910,7 +3914,6 @@
 				8303DFBF1B41F21A00E4FD42 /* Seychelles-map.png in Resources */,
 				8335AEA71B667919000748F0 /* Yemen-map.png in Resources */,
 				8303DF711B41F21A00E4FD42 /* Burkina Faso-map.png in Resources */,
-				83232C3A1B87552200A0D49F /* Background.png in Resources */,
 				83AD126B1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png in Resources */,
 				8310FF361ABB11310025F7AE /* Timor-Leste.png in Resources */,
 				8356188A1BD7DE79007BCF75 /* Sierra Leone.pdf in Resources */,
@@ -4137,6 +4140,7 @@
 				8310FF3E1ABB11310025F7AE /* Tuvalu.png in Resources */,
 				8310FEB81ABB11310025F7AE /* Georgia.png in Resources */,
 				8310FEEC1ABB11310025F7AE /* Mauritius.png in Resources */,
+				380B140D1DBFF7EC0015E54C /* Background@2x.png in Resources */,
 				836633B41B2F0734007C127E /* ilab@3x.png in Resources */,
 				83AD13A21B669137004B92D3 /* icons_Granite-33@2x.png in Resources */,
 				8335AF461B667963000748F0 /* icons_Glass_Bangles.png in Resources */,
