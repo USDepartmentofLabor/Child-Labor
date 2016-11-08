@@ -44,14 +44,14 @@ class LegalStandardsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Laws Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Laws Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as NSDictionary? as? [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2015", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -75,7 +75,7 @@ class LegalStandardsTableViewController: UITableViewController {
         }
     }
     
-    func setLegalStandard(label: UILabel, standardXML: XMLIndexer!) {
+    func setLegalStandard(_ label: UILabel, standardXML: XMLIndexer!) {
         let standard = standardXML["Standard"].element?.text
         let age = standardXML["Age"].element?.text
         let calculatedAge = standardXML["Calculated_Age"].element?.text == "Yes"
@@ -101,7 +101,7 @@ class LegalStandardsTableViewController: UITableViewController {
                     accessibleText += ", age calculated based on available information "
                 }
                 labelText += ")"
-                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel].contains(label) && age!.containsString("/")) {
+                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel].contains(label) && age!.contains("/")) {
                     self.hasCombatFooter = true
                     labelText += "Φ"
                     accessibleText += ", ages denoted are combat/non-combat "
@@ -111,12 +111,12 @@ class LegalStandardsTableViewController: UITableViewController {
         
         if (labelText != "") {
             label.text = labelText
-            if (labelText.containsString("Φ")) {
-                let idx = labelText.characters.indexOf("Φ")
-                let pos = labelText.startIndex.distanceTo(idx!);
+            if (labelText.contains("Φ")) {
+                let idx = labelText.characters.index(of: "Φ")
+                let pos = labelText.characters.distance(from: labelText.startIndex, to: idx!);
                 
                 let attrText : NSMutableAttributedString = NSMutableAttributedString(string: labelText)
-                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFontOfSize(UIFont.systemFontSize() * 0.75), range:NSMakeRange(pos, 1))
+                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFont(ofSize: UIFont.systemFontSize * 0.75), range:NSMakeRange(pos, 1))
                 attrText.addAttribute(kCTSuperscriptAttributeName as String, value:1, range:NSMakeRange(pos, 1))
                 label.attributedText = attrText;
                 
@@ -126,16 +126,16 @@ class LegalStandardsTableViewController: UITableViewController {
                 label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
             }
             else if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
-                label.textColor = UIColor.redColor()
+                label.textColor = UIColor.red
             }
             else if (labelText.hasPrefix("No") == true || labelText.hasPrefix("Unknown") == true) {
-                label.textColor = UIColor.redColor()
+                label.textColor = UIColor.red
             }
             else if (labelText.hasPrefix("N/A") == false && labelText.hasPrefix("Unavailable") == false) {
-                label.textColor = UIColor.blackColor()
+                label.textColor = UIColor.black
             }
             
-            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.stringByReplacingOccurrencesOfString("*", withString: "")
+            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
         }
     }
 
@@ -144,11 +144,11 @@ class LegalStandardsTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3 && (self.hasStandardsFooter || self.hasAgeFooter || self.hasCombatFooter)) {
             var footer = ""
             if (self.hasStandardsFooter) {

@@ -46,14 +46,14 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Goods List Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Goods List Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as NSDictionary? as? [AnyHashable: Any])
         
         // Populate the list
-        let urlPath = NSBundle.mainBundle().pathForResource("goods_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "goods_2015", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -62,17 +62,17 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         // Create lists of countries in each sector section
         for good in goodsXML["Goods"]["Good"] {
             if good["Countries"]["Country"].all.count > 0 {
-                allGoods.addObject((good["Good_Name"].element?.text)!)
+                allGoods.add((good["Good_Name"].element?.text)!)
                 numCountriesByGood.updateValue(good["Countries"]["Country"].all.count, forKey: (good["Good_Name"].element?.text)!)
                 
                 if good["Good_Sector"].element?.text == "Agriculture" {
-                    agGoods.addObject((good["Good_Name"].element?.text)!)
+                    agGoods.add((good["Good_Name"].element?.text)!)
                 } else if good["Good_Sector"].element?.text == "Manufacturing" {
-                    manGoods.addObject((good["Good_Name"].element?.text)!)
+                    manGoods.add((good["Good_Name"].element?.text)!)
                 } else if good["Good_Sector"].element?.text == "Mining" {
-                    minGoods.addObject((good["Good_Name"].element?.text)!)
+                    minGoods.add((good["Good_Name"].element?.text)!)
                 } else {
-                    othGoods.addObject((good["Good_Name"].element?.text)!)
+                    othGoods.add((good["Good_Name"].element?.text)!)
                 }
             }
         }
@@ -87,12 +87,12 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         self.searchBarFilter.delegate = self
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
     
@@ -103,7 +103,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         
@@ -115,7 +115,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch state {
         case 1:
             switch section {
@@ -137,7 +137,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         return "N/A"
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
 
@@ -159,8 +159,8 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
         
         var goodName = "Cotton"
         
@@ -189,18 +189,18 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         cell.textLabel?.text = goodName
         cell.detailTextLabel?.text = String(numCountriesByGood[goodName]!)
         
-        cell.imageView?.image = UIImage(named: "icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_") + "-33")
+        cell.imageView?.image = UIImage(named: "icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_") + "-33")
         
         return cell
     }
 
-    @IBAction func groupChanged(sender: UISegmentedControl) {
+    @IBAction func groupChanged(_ sender: UISegmentedControl) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
     
     
-    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filterResults()
     }
     
@@ -216,14 +216,14 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         tableView.reloadData();
     }
     
-    func filterSection(array: NSMutableArray, query: String) -> NSMutableArray {
+    func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
         if query.isEmpty {
             return array
         }
         
         let tempArray = array.filter() {
             let goodName = ($0 as! String)
-            return goodName.lowercaseString.rangeOfString(query.lowercaseString) != nil
+            return goodName.lowercased().range(of: query.lowercased()) != nil
         }
         return NSMutableArray(array: tempArray)
     }
@@ -247,11 +247,11 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
 //    }
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         self.searchBarFilter.text = nil
         filterResults()
         if segue.identifier == "goodSelectedFromGoodsTable" {
-            let svc = segue.destinationViewController as! GoodController
+            let svc = segue.destination as! GoodController
             svc.goodName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

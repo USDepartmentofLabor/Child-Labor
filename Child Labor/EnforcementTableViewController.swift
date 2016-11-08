@@ -45,13 +45,13 @@ class EnforcementTableViewController: UITableViewController {
         }
         let dataXML = SWXMLHash.parse(contents as! String)
         */
-        enforcement.addObject("FBiH Ministry of Labor and Social Policy’s Federal Inspection Agency and Cantonal-Level Labor Inspectorates")
-        enforcement.addObject("RS Ministry of Labor and Veterans’ Labor Inspectorate")
-        enforcement.addObject("BD Administrative Support Department")
-        enforcement.addObject("Entity and Cantonal-Level Police")
-        enforcement.addObject("Ministry of Security (MoS)")
-        enforcement.addObject("State Investigative and Protection Agency (SIPA) and State Border Police (SBP)")
-        enforcement.addObject("State, Entity, and FBiH Cantonal-Level Prosecutors’ Offices")
+        enforcement.add("FBiH Ministry of Labor and Social Policy’s Federal Inspection Agency and Cantonal-Level Labor Inspectorates")
+        enforcement.add("RS Ministry of Labor and Veterans’ Labor Inspectorate")
+        enforcement.add("BD Administrative Support Department")
+        enforcement.add("Entity and Cantonal-Level Police")
+        enforcement.add("Ministry of Security (MoS)")
+        enforcement.add("State Investigative and Protection Agency (SIPA) and State Border Police (SBP)")
+        enforcement.add("State, Entity, and FBiH Cantonal-Level Prosecutors’ Offices")
         
     }
 
@@ -62,19 +62,19 @@ class EnforcementTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         default:
             return "Enforcement"
         }
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         switch section {
         default:
             if enforcement.count == 0 {
@@ -84,7 +84,7 @@ class EnforcementTableViewController: UITableViewController {
         return ""
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
         switch section {
@@ -93,8 +93,8 @@ class EnforcementTableViewController: UITableViewController {
         }
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Action", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Action", for: indexPath)
 
         let title : UILabel? = cell.viewWithTag(110) as? UILabel
         

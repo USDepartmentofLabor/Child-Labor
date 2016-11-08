@@ -28,16 +28,16 @@ class InfoViewController: UIViewController, UIWebViewDelegate {
         }
         
         // Get the contents of the file to load
-        let localFilePath = NSBundle.mainBundle().pathForResource(infoContent, ofType: "html")
+        let localFilePath = Bundle.main.path(forResource: infoContent, ofType: "html")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: localFilePath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: localFilePath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
         
         // Get the base URL of the file so we can access its resources
-        let baseUrl = NSURL.fileURLWithPath(NSBundle.mainBundle().bundlePath)
+        let baseUrl = URL(fileURLWithPath: Bundle.main.bundlePath)
         
         // Load contents into the webview
         webView.loadHTMLString(contents as! String, baseURL: baseUrl)
@@ -48,10 +48,10 @@ class InfoViewController: UIViewController, UIWebViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
         // If it's a web link
-        if request.URL!.scheme == "http" || request.URL!.scheme == "https" || request.URL!.scheme == "mailto" {
-            UIApplication.sharedApplication().openURL(request.URL!)
+        if request.url!.scheme == "http" || request.url!.scheme == "https" || request.url!.scheme == "mailto" {
+            UIApplication.shared.openURL(request.url!)
             return false
         }
         
