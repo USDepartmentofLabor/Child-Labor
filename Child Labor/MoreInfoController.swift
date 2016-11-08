@@ -9,6 +9,9 @@
 import UIKit
 
 class MoreInfoController: UITableViewController {
+    
+    
+    let pdfUrl:String = "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,13 +62,13 @@ class MoreInfoController: UITableViewController {
         if (indexPath.section == 1) {
             switch indexPath.row {
             case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "2015TDAMagazine.pdf")!)
                 break
             case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "TVPRA_Report2016.pdf")!)
                 break
             case 2:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "EO_Report_2014.pdf")!)
             default:
                 break
             }
@@ -73,13 +76,13 @@ class MoreInfoController: UITableViewController {
         else if (indexPath.section == 3) {
             switch indexPath.row {
             case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDA2015_FAQs.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "TDA2015_FAQs.pdf")!)
                 break
             case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_FAQs2016.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "TVPRA_FAQs2016.pdf")!)
                 break
             case 2:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EOFAQS_2016.pdf")!)
+                UIApplication.shared.openURL(URL(string:pdfUrl + "EOFAQS_2016.pdf")!)
                 break
             default:
                 break

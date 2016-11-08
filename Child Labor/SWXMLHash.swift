@@ -158,7 +158,7 @@ class LazyXMLParser: NSObject, SimpleXmlParser, XMLParserDelegate {
         parser.parse()
     }
 
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
+    private func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
 
         elementStack.push(elementName)
 
@@ -169,7 +169,7 @@ class LazyXMLParser: NSObject, SimpleXmlParser, XMLParserDelegate {
         parentStack.push(currentNode)
     }
 
-    func parser(_ parser: XMLParser, foundCharacters string: String) {
+    private func parser(_ parser: XMLParser, foundCharacters string: String) {
         if !onMatch() {
             return
         }
@@ -182,7 +182,7 @@ class LazyXMLParser: NSObject, SimpleXmlParser, XMLParserDelegate {
         parentStack.top().text! += string
     }
 
-    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+    private func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         let match = onMatch()
 
         elementStack.pop()
@@ -229,13 +229,13 @@ class XMLParser: NSObject, SimpleXmlParser, XMLParserDelegate {
         return XMLIndexer(root)
     }
 
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
+    private func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String: String]) {
 
         let currentNode = parentStack.top().addElement(elementName, withAttributes: attributeDict as NSDictionary)
         parentStack.push(currentNode)
     }
 
-    func parser(_ parser: XMLParser, foundCharacters string: String) {
+    private func parser(_ parser: XMLParser, foundCharacters string: String) {
         let current = parentStack.top()
         if current.text == nil {
             current.text = ""
@@ -244,7 +244,7 @@ class XMLParser: NSObject, SimpleXmlParser, XMLParserDelegate {
         parentStack.top().text! += string
     }
 
-    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+    private func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         parentStack.pop()
     }
 }
