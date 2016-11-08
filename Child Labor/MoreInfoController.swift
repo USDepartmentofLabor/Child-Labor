@@ -25,22 +25,22 @@ class MoreInfoController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 5
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
             return 2
@@ -55,17 +55,17 @@ class MoreInfoController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (indexPath.section == 1) {
             switch indexPath.row {
             case 0:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
                 break
             case 1:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
                 break
             case 2:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
             default:
                 break
             }
@@ -73,13 +73,13 @@ class MoreInfoController: UITableViewController {
         else if (indexPath.section == 3) {
             switch indexPath.row {
             case 0:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDA2015_FAQs.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDA2015_FAQs.pdf")!)
                 break
             case 1:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_FAQs2016.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_FAQs2016.pdf")!)
                 break
             case 2:
-                UIApplication.sharedApplication().openURL(NSURL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EOFAQS_2016.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EOFAQS_2016.pdf")!)
                 break
             default:
                 break
@@ -134,47 +134,47 @@ class MoreInfoController: UITableViewController {
     */
 
     // Allow more info view to be closed
-    @IBAction func dismissMoreInfo(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func dismissMoreInfo(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     // Load content for the selected web view
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "presentAboutThisApp" {
-            let destinationViewController = segue.destinationViewController as! InfoViewController
+            let destinationViewController = segue.destination as! InfoViewController
             destinationViewController.infoContent = "aboutthisapp"
         } else if segue.identifier == "presentMethodology" {
-            let destinationViewController = segue.destinationViewController as! InfoViewController
+            let destinationViewController = segue.destination as! InfoViewController
             destinationViewController.infoContent = "methodology"
         } else if segue.identifier == "presentReportIntroduction" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
         } else if segue.identifier == "presentReportsFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheet-Reports-lo"
         } else if segue.identifier == "presentOCFTFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheet-OFCT-2016-lo"
         } else if segue.identifier == "presentProgramsFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheet-Programming-2016-lo"
         } else if segue.identifier == "presentRegionsFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "Fact Sheet-Regional-2016-lo"
         } else if segue.identifier == "presentTDAFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "FAQs-TDA"
         } else if segue.identifier == "presentTVPRAFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "FAQs-TVPRA"
         } else if segue.identifier == "presentEOFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "FAQs-EO"
         } else if segue.identifier == "presentComboFactSheet" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "FAQs- Combo"
         } else if segue.identifier == "presentToolkit" {
-            let destinationViewController = segue.destinationViewController as! FactSheetViewController
+            let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "ToolkitForResponsibleBusinesses-lo"
         }
         

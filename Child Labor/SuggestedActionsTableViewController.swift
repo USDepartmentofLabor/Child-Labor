@@ -32,14 +32,14 @@ class SuggestedActionsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Suggested Actions Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Suggested Actions Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as NSDictionary? as? [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2015", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -51,30 +51,30 @@ class SuggestedActionsTableViewController: UITableViewController {
                 
                 // Duping these to accomodate inconsistent element name in the XML
                 for action in country["Suggested_Actions"]["Legal_Framework"]["Action"] {
-                    laws.addObject((action["Name"].element?.text!)!)
+                    laws.add((action["Name"].element?.text!)!)
                 }
                 for action in country["Suggested_Actions"]["Laws"]["Action"] {
-                    laws.addObject((action["Name"].element?.text!)!)
+                    laws.add((action["Name"].element?.text!)!)
                 }
                 
                 for action in country["Suggested_Actions"]["Enforcement"]["Action"] {
-                    enforcement.addObject((action["Name"].element?.text!)!)
+                    enforcement.add((action["Name"].element?.text!)!)
                 }
                 
                 for action in country["Suggested_Actions"]["Coordination"]["Action"] {
-                    coordination.addObject((action["Name"].element?.text!)!)
+                    coordination.add((action["Name"].element?.text!)!)
                 }
                 
                 // Duping these to accomodate inconsistent element name in the XML
                 for action in country["Suggested_Actions"]["Government_Policies"]["Action"] {
-                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                    governmentPolicies.add((action["Name"].element?.text!)!)
                 }
                 for action in country["Suggested_Actions"]["Policies"]["Action"] {
-                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                    governmentPolicies.add((action["Name"].element?.text!)!)
                 }
                 
                 for action in country["Suggested_Actions"]["Social_Programs"]["Action"] {
-                    socialPrograms.addObject((action["Name"].element?.text!)!)
+                    socialPrograms.add((action["Name"].element?.text!)!)
                 }
                 
                 break
@@ -89,12 +89,12 @@ class SuggestedActionsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 5
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
             return "Legal Standards"
@@ -136,7 +136,7 @@ class SuggestedActionsTableViewController: UITableViewController {
 //        return ""
 //    }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
         switch section {
@@ -153,8 +153,8 @@ class SuggestedActionsTableViewController: UITableViewController {
         }
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Action", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Action", for: indexPath)
 
         let title : UILabel? = cell.viewWithTag(101) as? UILabel
         
