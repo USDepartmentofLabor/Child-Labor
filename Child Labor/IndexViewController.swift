@@ -21,22 +21,22 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate {
         self.screenName = "Index Screen"
         
         // Navigation bar color
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
         // Background image
         let bgImageView = UIImageView(image: UIImage(named: "Background"))
-        bgImageView.contentMode = UIViewContentMode.ScaleAspectFill
+        bgImageView.contentMode = UIViewContentMode.scaleAspectFill
         self.tableView.backgroundView = bgImageView
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Clears selection on viewWillAppear
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
 
@@ -45,22 +45,22 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(_ tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         
         return 1
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         
         return 3
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Screen")!
+    func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "Screen")!
         
         switch indexPath.row {
         case 0:
@@ -74,25 +74,25 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate {
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            self.performSegueWithIdentifier("countriesSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "countriesSelectedFromIndex", sender: self)
         case 1:
-            self.performSegueWithIdentifier("goodsSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "goodsSelectedFromIndex", sender: self)
         default:
-            self.performSegueWithIdentifier("exploitationSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
         }
     }
 
-    @IBAction func openIlabWebsite(sender: AnyObject) {
+    @IBAction func openIlabWebsite(_ sender: AnyObject) {
         // Open website
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov/ilab/")!)
+        UIApplication.shared.openURL(URL(string: "http://www.dol.gov/ilab/")!)
     }
     
-    @IBAction func openDolWebsite(sender: AnyObject) {
+    @IBAction func openDolWebsite(_ sender: AnyObject) {
         // Open website
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov")!)
+        UIApplication.shared.openURL(URL(string: "http://www.dol.gov")!)
     }
     
     
