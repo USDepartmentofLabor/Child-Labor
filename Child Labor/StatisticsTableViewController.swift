@@ -31,14 +31,14 @@ class StatisticsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Statistics Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Statistics Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as NSDictionary? as? [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2015", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -60,9 +60,9 @@ class StatisticsTableViewController: UITableViewController {
                                             var numberWithCommas = "0"
                                             if ((totalWorking.text != nil && totalWorking.text! != "")) {
                                                 let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
-                                                let numberFormatter = NSNumberFormatter()
-                                                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                                                numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
+                                                let numberFormatter = NumberFormatter()
+                                                numberFormatter.numberStyle = NumberFormatter.Style.decimal
+                                                numberWithCommas = numberFormatter.string(from: NSNumber(value: largeNumber!))!
                                             }
 
                                             if (numberWithCommas != "0") {
@@ -71,7 +71,7 @@ class StatisticsTableViewController: UITableViewController {
                                             else {
                                                 workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
                                             }
-                                            workingLabel.textColor = UIColor.blackColor()
+                                            workingLabel.textColor = UIColor.black
                                         }
                                     }
                                 }
@@ -85,7 +85,7 @@ class StatisticsTableViewController: UITableViewController {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
                             agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue) + "%"
-                            agricultureLabel.textColor = UIColor.blackColor()
+                            agricultureLabel.textColor = UIColor.black
                         }
                     }
                 }
@@ -95,7 +95,7 @@ class StatisticsTableViewController: UITableViewController {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
                             servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue) + "%"
-                            servicesLabel.textColor = UIColor.blackColor()
+                            servicesLabel.textColor = UIColor.black
                         }
                     }
                 }
@@ -105,7 +105,7 @@ class StatisticsTableViewController: UITableViewController {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
                             industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue) + "%"
-                            industryLabel.textColor = UIColor.blackColor()
+                            industryLabel.textColor = UIColor.black
                         }
                     }
                 }
@@ -118,7 +118,7 @@ class StatisticsTableViewController: UITableViewController {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
                                         attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
-                                        attendingSchoolLabel.textColor = UIColor.blackColor()
+                                        attendingSchoolLabel.textColor = UIColor.black
                                     }
                                 }
                             }
@@ -134,7 +134,7 @@ class StatisticsTableViewController: UITableViewController {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
                                         combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
-                                        combiningWorkAndSchoolLabel.textColor = UIColor.blackColor()
+                                        combiningWorkAndSchoolLabel.textColor = UIColor.black
                                     }
                                 }
                             }
@@ -147,7 +147,7 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
                             primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue) + "%"
-                            primaryCompletionRateLabel.textColor = UIColor.blackColor()
+                            primaryCompletionRateLabel.textColor = UIColor.black
                        }
                     }
                 }
@@ -164,12 +164,12 @@ class StatisticsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 4
     }

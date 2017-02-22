@@ -23,16 +23,16 @@ class FullReportViewController: GAITrackedViewController {
         self.screenName = "Report PDF Screen"
         
         // Get the contents of the file to load
-        let localFilePath = NSBundle.mainBundle().pathForResource(countryName, ofType: "pdf")
-        let targetURL = NSURL.fileURLWithPath(localFilePath!)
+        let localFilePath = Bundle.main.path(forResource: countryName, ofType: "pdf")
+        let targetURL = URL(fileURLWithPath: localFilePath!)
 
-        let pdfData = NSData(contentsOfURL: targetURL)
+        let pdfData = try? Data(contentsOf: targetURL)
         
-        webView.loadData(pdfData!, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL())
+        webView.load(pdfData!, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
     }
 
-    @IBAction func closeFullReport(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func closeFullReport(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

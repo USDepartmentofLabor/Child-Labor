@@ -54,8 +54,8 @@ class EnforceTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Enforcement Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Enforcement Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as NSDictionary? as? [AnyHashable: Any])
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -64,10 +64,10 @@ class EnforceTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2015", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -112,30 +112,30 @@ class EnforceTableViewController: UITableViewController {
         
         let text = self.laborDedicatedInspectorsLabel.text
         if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false && text! != "0") {
-            self.laborDedicatedInspectorsCell.hidden = true
+            self.laborDedicatedInspectorsCell.isHidden = true
         }
         
     }
     
-    func setEnforcement(label: UILabel, text: String?) {
+    func setEnforcement(_ label: UILabel, text: String?) {
         if (text != nil) {
             label.text = text
             if let number = Float(text!) {
-                let numberFormatter = NSNumberFormatter()
-                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                label.text = numberFormatter.stringFromNumber(number)!
+                let numberFormatter = NumberFormatter()
+                numberFormatter.numberStyle = NumberFormatter.Style.decimal
+                label.text = numberFormatter.string(from: NSNumber(value: number))!
                 if self.laborFundingLabel == label {
-                    label.text = "$" + numberFormatter.stringFromNumber(number)!
+                    label.text = "$" + numberFormatter.string(from: NSNumber(value: number))!
                 }
             }
             
             if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
-                label.textColor = UIColor.blackColor()
+                label.textColor = UIColor.black
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.stringByReplacingOccurrencesOfString("*", withString: "")
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.replacingOccurrences(of: "*", with: "")
             
-            if (text!.containsString("*")) {
+            if (text!.contains("*")) {
                 if tempState == 0 {
                     self.hasLaborFooter = true
                 }
@@ -154,12 +154,12 @@ class EnforceTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 9
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if state == 0 {
             switch section {
@@ -193,12 +193,12 @@ class EnforceTableViewController: UITableViewController {
         }
     }
     
-    @IBAction func changeSection(sender: AnyObject) {
+    @IBAction func changeSection(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if (state == 0 && section <= 6) {
             return UITableViewAutomaticDimension;
         }
@@ -207,10 +207,10 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        return CGFloat.min
+        return CGFloat.leastNormalMagnitude
     }
     
-    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if (state == 0 && section <= 6) {
             return UITableViewAutomaticDimension;
         }
@@ -219,10 +219,10 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        return CGFloat.min
+        return CGFloat.leastNormalMagnitude
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
             return super.tableView(tableView, titleForHeaderInSection: section)
         }
@@ -234,7 +234,7 @@ class EnforceTableViewController: UITableViewController {
         return nil
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
             if (section == 6 && self.hasLaborFooter) {
                 return "* The Government does not make this information publicly available";
@@ -252,10 +252,10 @@ class EnforceTableViewController: UITableViewController {
         return nil
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        let cell: UITableViewCell = super.tableView(tableView, cellForRowAtIndexPath:indexPath)
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let cell: UITableViewCell = super.tableView(tableView, cellForRowAt:indexPath)
         
-        return cell.hidden ? 0 : UITableViewAutomaticDimension
+        return cell.isHidden ? 0 : UITableViewAutomaticDimension
     }
 
 
