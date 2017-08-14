@@ -44,6 +44,7 @@ class EnforceTableViewController: UITableViewController {
     @IBOutlet weak var criminalNewLawsTrainingLabel: UILabel!
     @IBOutlet weak var criminalRefresherCoursesLabel: UILabel!
     
+    @IBOutlet weak var laborInspectorsMeetILORec: UILabel!
     @IBOutlet weak var laborDedicatedInspectorsCell: UITableViewCell!
     
     override func viewDidLoad() {
@@ -54,20 +55,20 @@ class EnforceTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Enforcement Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
-
+        tracker?.set(kGAIScreenName, value: "Enforcement Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -97,6 +98,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
                 setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
                 setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
+                setEnforcement(self.laborInspectorsMeetILORec, text: enforcements["Labor_Inspectors_Intl_Standards"].element?.text)
                 
                 tempState = 1
                 setEnforcement(self.criminalInvestigationsLabel, text: enforcements["Criminal_Investigations"].element?.text)
@@ -111,31 +113,31 @@ class EnforceTableViewController: UITableViewController {
         }
         
         let text = self.laborDedicatedInspectorsLabel.text
-        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false && text! != "0") {
-            self.laborDedicatedInspectorsCell.hidden = true
+        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
+            self.laborDedicatedInspectorsCell.isHidden = true
         }
         
     }
     
-    func setEnforcement(label: UILabel, text: String?) {
+    func setEnforcement(_ label: UILabel, text: String?) {
         if (text != nil) {
             label.text = text
             if let number = Float(text!) {
-                let numberFormatter = NSNumberFormatter()
-                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                label.text = numberFormatter.stringFromNumber(number)!
+                let numberFormatter = NumberFormatter()
+                numberFormatter.numberStyle = NumberFormatter.Style.decimal
+                label.text = numberFormatter.string(from: NSNumber(value: number))!
                 if self.laborFundingLabel == label {
-                    label.text = "$" + numberFormatter.stringFromNumber(number)!
+                    label.text = "$" + numberFormatter.string(from: NSNumber(value: number))!
                 }
             }
             
             if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
-                label.textColor = UIColor.blackColor()
+                label.textColor = UIColor.black
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.stringByReplacingOccurrencesOfString("*", withString: "")
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.replacingOccurrences(of: "*", with: "")
             
-            if (text!.containsString("*")) {
+            if (text!.contains("*")) {
                 if tempState == 0 {
                     self.hasLaborFooter = true
                 }
@@ -146,25 +148,25 @@ class EnforceTableViewController: UITableViewController {
             }
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 9
     }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if state == 0 {
             switch section {
             case 0:
-                return 4
+                return 5
             case 1:
                 return 3
             case 2:
@@ -193,12 +195,12 @@ class EnforceTableViewController: UITableViewController {
         }
     }
     
-    @IBAction func changeSection(sender: AnyObject) {
+    @IBAction func changeSection(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if (state == 0 && section <= 6) {
             return UITableViewAutomaticDimension;
         }
@@ -207,10 +209,10 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        return CGFloat.min
+        return CGFloat.leastNormalMagnitude
     }
     
-    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if (state == 0 && section <= 6) {
             return UITableViewAutomaticDimension;
         }
@@ -219,10 +221,10 @@ class EnforceTableViewController: UITableViewController {
             return UITableViewAutomaticDimension;
         }
         
-        return CGFloat.min
+        return CGFloat.leastNormalMagnitude
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
             return super.tableView(tableView, titleForHeaderInSection: section)
         }
@@ -234,7 +236,7 @@ class EnforceTableViewController: UITableViewController {
         return nil
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
             if (section == 6 && self.hasLaborFooter) {
                 return "* The Government does not make this information publicly available";
@@ -252,66 +254,66 @@ class EnforceTableViewController: UITableViewController {
         return nil
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        let cell: UITableViewCell = super.tableView(tableView, cellForRowAtIndexPath:indexPath)
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let cell: UITableViewCell = super.tableView(tableView, cellForRowAt:indexPath)
         
-        return cell.hidden ? 0 : UITableViewAutomaticDimension
+        return cell.isHidden ? 0 : UITableViewAutomaticDimension
     }
-
-
+    
+    
     /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
+     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+     let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+     
+     // Configure the cell...
+     
+     return cell
+     }
+     */
+    
     /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
+     // Override to support conditional editing of the table view.
+     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+     // Return false if you do not want the specified item to be editable.
+     return true
+     }
+     */
+    
     /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
+     // Override to support editing the table view.
+     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+     if editingStyle == .Delete {
+     // Delete the row from the data source
+     tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+     } else if editingStyle == .Insert {
+     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+     }
+     }
+     */
+    
     /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
+     // Override to support rearranging the table view.
+     override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
+     
+     }
+     */
+    
     /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
+     // Override to support conditional rearranging of the table view.
+     override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+     // Return false if you do not want the item to be re-orderable.
+     return true
+     }
+     */
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

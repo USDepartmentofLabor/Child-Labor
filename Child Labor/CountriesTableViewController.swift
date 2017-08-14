@@ -112,19 +112,19 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Countries List Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Countries List Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Give section index a clear background
-        self.tableView.sectionIndexBackgroundColor = UIColor.clearColor()
+        self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -136,85 +136,85 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             
             // Create lists of countries in each letter section
             if Array(countryName!.characters)[0] == "A" {
-                aCountries.addObject(countryName!)
+                aCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "B" {
-                bCountries.addObject(countryName!)
+                bCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "C" {
-                cCountries.addObject(countryName!)
+                cCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "D" {
-                dCountries.addObject(countryName!)
+                dCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "E" {
-                eCountries.addObject(countryName!)
+                eCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "F" {
-                fCountries.addObject(countryName!)
+                fCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "G" {
-                gCountries.addObject(countryName!)
+                gCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "H" {
-                hCountries.addObject(countryName!)
+                hCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "I" {
-                iCountries.addObject(countryName!)
+                iCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "J" {
-                jCountries.addObject(countryName!)
+                jCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "K" {
-                kCountries.addObject(countryName!)
+                kCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "L" {
-                lCountries.addObject(countryName!)
+                lCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "M" {
-                mCountries.addObject(countryName!)
+                mCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "N" {
-                nCountries.addObject(countryName!)
+                nCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "O" {
-                oCountries.addObject(countryName!)
+                oCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "P" {
-                pCountries.addObject(countryName!)
+                pCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "Q" {
-                qCountries.addObject(countryName!)
+                qCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "R" {
-                rCountries.addObject(countryName!)
+                rCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "S" {
-                sCountries.addObject(countryName!)
+                sCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "T" {
-                tCountries.addObject(countryName!)
+                tCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "U" {
-                uCountries.addObject(countryName!)
+                uCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "V" {
-                vCountries.addObject(countryName!)
+                vCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "W" {
-                wCountries.addObject(countryName!)
+                wCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "X" {
-                xCountries.addObject(countryName!)
+                xCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "Y" {
-                yCountries.addObject(countryName!)
+                yCountries.add(countryName!)
             } else if Array(countryName!.characters)[0] == "Z" {
-                zCountries.addObject(countryName!)
+                zCountries.add(countryName!)
             }
 
             // Create lists of countries in each advancement level section
             if ((country["Advancement_Level"].element?.text?.hasPrefix("Significant")) == true) {
-                sigCountries.addObject(countryName!)
+                sigCountries.add(countryName!)
             } else if country["Advancement_Level"].element?.text?.hasPrefix("Moderate") == true {
-                modCountries.addObject(countryName!)
+                modCountries.add(countryName!)
             } else if country["Advancement_Level"].element?.text?.hasPrefix("Minimal") == true{
-                minCountries.addObject(countryName!)
+                minCountries.add(countryName!)
             } else if country["Advancement_Level"].element?.text?.hasPrefix("No Advancement") == true {
-                noCountries.addObject(countryName!)
+                noCountries.add(countryName!)
             } else if country["Advancement_Level"].element?.text?.hasPrefix("No Assessment") == true {
-                noAssessmentCountries.addObject(countryName!)
+                noAssessmentCountries.add(countryName!)
             } else {
-                noDataCountries.addObject(countryName!)
+                noDataCountries.add(countryName!)
             }
 
             // Create lists of countries in each region section
             if country["Region"].element?.text == "Asia & the Pacific" {
-                asiaCountries.addObject(countryName!)
+                asiaCountries.add(countryName!)
             } else if country["Region"].element?.text == "Europe & Eurasia" {
-                europeCountries.addObject(countryName!)
+                europeCountries.add(countryName!)
             } else if country["Region"].element?.text == "Latin America & the Caribbean" {
-                latinCountries.addObject(countryName!)
+                latinCountries.add(countryName!)
             } else if country["Region"].element?.text == "Middle East & North Africa" {
-                middleCountries.addObject(countryName!)
+                middleCountries.add(countryName!)
             } else if country["Region"].element?.text == "Sub-Saharan Africa" {
-                saharanCountries.addObject(countryName!)
+                saharanCountries.add(countryName!)
             }
             
             // Record whether each country has a profile in an associative array
@@ -267,12 +267,12 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         saharanCountriesAll = saharanCountries
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
     
@@ -283,7 +283,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // Return the number of sections.
         
         // Determine which grouping the user has selected
@@ -307,7 +307,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         // If empty section don't return a header
         if getSectionData(section).count == 0 {
@@ -360,7 +360,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         
         // Determine the grouping the user has selected
@@ -462,8 +462,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         }
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell")!
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "Cell")!
         
         var countryName = ""
         
@@ -569,24 +569,24 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         
         // Set cell title and icon
         cell.textLabel?.text = countryName
-        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil))
+        let flagImage = UIImage(named: countryName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil))
         cell.imageView?.image = flagImage
         
         // Resize icon
         if (flagImage != nil) {
             let adjustedWidth = flagImage!.size.width * 44 / flagImage!.size.height
             
-            let size = CGSizeMake(42, 44)
+            let size = CGSize(width: 42, height: 44)
             if adjustedWidth >= 42 {
-                let rect = CGRectMake(0, ((44 - (flagImage!.size.height * 42 / flagImage!.size.width)) / 2), 42, flagImage!.size.height * 42 / flagImage!.size.width)
-                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale)
-                cell.imageView?.image?.drawInRect(rect)
+                let rect = CGRect(x: 0, y: ((44 - (flagImage!.size.height * 42 / flagImage!.size.width)) / 2), width: 42, height: flagImage!.size.height * 42 / flagImage!.size.width)
+                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+                cell.imageView?.image?.draw(in: rect)
                 cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext();
             } else {
-                let rect = CGRectMake(0, 0, adjustedWidth, size.height)
-                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale)
-                cell.imageView?.image?.drawInRect(rect)
+                let rect = CGRect(x: 0, y: 0, width: adjustedWidth, height: size.height)
+                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+                cell.imageView?.image?.draw(in: rect)
                 cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext();
             }
@@ -622,14 +622,14 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //        }
 //    }
     
-    @IBAction func groupChanged(sender: UISegmentedControl) {
+    @IBAction func groupChanged(_ sender: UISegmentedControl) {
         state = sender.selectedSegmentIndex
         
         // self.searchFilterview.hidden = state != 0
         self.tableView.reloadData()
     }
     
-    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filterResults()
     }
     
@@ -679,19 +679,19 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         tableView.reloadData();
     }
     
-    func filterSection(array: NSMutableArray, query: String) -> NSMutableArray {
+    func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
         if query.isEmpty {
             return array
         }
         
         let tempArray = array.filter() {
-            let countryName = ($0 as! String).stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil)
-            return countryName.lowercaseString.hasPrefix(query.lowercaseString)
+            let countryName = ($0 as! String).replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil)
+            return countryName.lowercased().hasPrefix(query.lowercased())
         }
         return NSMutableArray(array: tempArray)
     }
     
-    func getSectionData(section: Int) -> NSMutableArray {
+    func getSectionData(_ section: Int) -> NSMutableArray {
         
         // Determine the grouping the user has selected
         switch state {
@@ -791,9 +791,9 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if (getSectionData(section).count == 0) {
-            return CGFloat.min
+            return CGFloat.leastNormalMagnitude
         }
         return UITableViewAutomaticDimension;
     }
@@ -837,12 +837,12 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         self.searchBarFilter.text = nil
         filterResults()
         
         if segue.identifier == "countrySelectedFromCountriesTable" {
-            let svc = segue.destinationViewController as! CountryController
+            let svc = segue.destination as! CountryController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!
         }
     }

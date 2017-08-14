@@ -39,8 +39,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Country Profile Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Country Profile Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Set view title
         self.title = countryName
@@ -49,10 +49,10 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         countryTitle.text = countryName
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
@@ -60,7 +60,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
-                countryMap.image = UIImage(named: (country["Name"].element?.text)!.stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil) + "-map")
+                countryMap.image = UIImage(named: (country["Name"].element?.text)!.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil) + "-map")
+                
+                
+                
+                
                 if (country["Advancement_Level"].element?.text != nil) {
                     advancementLevel.text = (country["Advancement_Level"].element?.text)!
                 } else {
@@ -68,13 +72,18 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     countryMap.image = nil
                 }
                 
+                if(country["Automatic_Downgrade"].element?.text != nil){
+                    advancementLevel.text = (country["Automatic_Downgrade"].element?.text)!
+                }
+                
+                
                 // If there is no profile for this country
                 if country["Description"].element?.text == nil {
                     // Hide the "more" button
-                    moreButton.hidden = true
+                    moreButton.isHidden = true
                     
                     // Reduce the height of the country profile label to 0
-                    countryProfile.addConstraints([NSLayoutConstraint(item: countryProfile, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 0)])
+                    countryProfile.addConstraints([NSLayoutConstraint(item: countryProfile, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 0)])
                     
                     // Expand header frame relative to new profile height
                     let oldHeightOfHeaderView = headerView.frame.height
@@ -92,8 +101,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     let oldCollectionViewHeight = goodsCollection.frame.height
                     
                     // Hide the goods collection by adjusting its height constraint
-                    collectionHeader.addConstraints([NSLayoutConstraint(item: collectionHeader, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 0)])
-                    goodsCollection.addConstraints([NSLayoutConstraint(item: goodsCollection, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 0)])
+                    collectionHeader.addConstraints([NSLayoutConstraint(item: collectionHeader, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 0)])
+                    goodsCollection.addConstraints([NSLayoutConstraint(item: goodsCollection, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 0)])
 
                     // Reduce the height of the header view by the height of the collection
                     let oldHeightOfHeaderView = headerView.frame.height
@@ -109,17 +118,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                         let forcedLaborStatusForGood = good["Forced_Labor"].element?.text
                         let forcedChildLaborStatusForGood = good["Forced_Child_Labor"].element?.text
                         
-                        goods.addObject(goodName!)
+                        goods.add(goodName!)
                         
                         // Add the exploitation type to an array
                         if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "No" {
-                            exploitations.addObject(0)
+                            exploitations.add(0)
                         } else if childLaborStatusForGood == "No" && forcedLaborStatusForGood == "Yes" {
-                            exploitations.addObject(1)
+                            exploitations.add(1)
                         } else if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "Yes" && forcedChildLaborStatusForGood == "No" {
-                            exploitations.addObject(2)
+                            exploitations.add(2)
                         } else {
-                            exploitations.addObject(3)
+                            exploitations.add(3)
                         }
                     }
                 }
@@ -131,12 +140,12 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
     
@@ -153,9 +162,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         }
     }
     
-    func getLabelSizeIncrease(label: UILabel) -> CGFloat {
+    func getLabelSizeIncrease(_ label: UILabel) -> CGFloat {
         let old = label.frame.height;
-        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.lineBreakMode = NSLineBreakMode.byWordWrapping
         label.sizeToFit()
         label.layoutIfNeeded()
         return label.frame.height - old
@@ -167,17 +176,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         // Dispose of any resources that can be recreated.
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
-        tableView.backgroundColor = UIColor.whiteColor()
+        tableView.backgroundColor = UIColor.white
 
         collectionHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITIVE LABOR"
         
         return goods.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Good", forIndexPath: indexPath) as UICollectionViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Good", for: indexPath) as UICollectionViewCell
         
         //
         let goodButton : UIButton? = cell.viewWithTag(201) as? UIButton
@@ -203,38 +212,38 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         let goodName = goods[indexPath.row]
         
         goodLabel?.text = goodName as? String
-        goodButton!.setImage(UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))?.imageWithRenderingMode(.AlwaysTemplate), forState: .Normal)
+        goodButton!.setImage(UIImage(named:"icons_" + (goodName as AnyObject).replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_"))?.withRenderingMode(.alwaysTemplate), for: UIControlState())
         
         goodButton?.accessibilityLabel = goodName as? String
         
         //
         switch exploitations[indexPath.row] as! Int {
         case 0:
-            cl?.hidden = false
-            fl?.hidden = true
+            cl?.isHidden = false
+            fl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
         case 1:
-            cl?.hidden = true
-            fl?.hidden = false
+            cl?.isHidden = true
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
         case 2:
-            cl?.hidden = false
-            fl?.hidden = false
+            cl?.isHidden = false
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
         default:
-            cl?.hidden = false
-            fl?.hidden = false
+            cl?.isHidden = false
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand-black")
-            clLabel?.textColor = UIColor.blackColor()
+            clLabel?.textColor = UIColor.black
             clLabel?.text = "FCL"
             clLabel?.accessibilityLabel = "Forced Child Labor"
         }
@@ -244,14 +253,14 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 2
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If this is a TVPRA-only country, or one of British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no indicator or PDF buttons, so return 0 for both sections
-        if ["Burma", "China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
+        if ["Burma","China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
             return 0
             
         // Otherwise
@@ -314,40 +323,43 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
     */
     
-    override func tableView(tableView: UITableView,
-                            didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView,
+                            didSelectRowAt indexPath: IndexPath) {
         
         if (indexPath.row == 3) {
             if multipleTerritories {
-                performSegueWithIdentifier("presentLegalStandardsMulti", sender: self)
+                
+                                
+                performSegue(withIdentifier: "presentLegalStandardsMultiWrapper", sender: self)
+                
             }
             else {
-                performSegueWithIdentifier("presentLegalStandards", sender: self)
+                performSegue(withIdentifier: "presentLegalStandardsWrapper", sender: self)
             }
         }
         
         if (indexPath.row == 4) {
             if multipleTerritories {
-                performSegueWithIdentifier("presentEnforcementMulti", sender: self)
+                performSegue(withIdentifier: "presentEnforcementMulti", sender: self)
             }
             else {
-                performSegueWithIdentifier("presentEnforcement", sender: self)
+                performSegue(withIdentifier: "presentEnforcement", sender: self)
             }
         }
     
     }
     
-    @IBAction func showWholeProfile(sender: AnyObject) {
+    @IBAction func showWholeProfile(_ sender: AnyObject) {
         let oldHeightOfCountryProfile = countryProfile.frame.height
         let oldHeightOfHeaderView = headerView.frame.height
 
         // Expand the label with the profile in it
         countryProfile.numberOfLines = 0
-        countryProfile.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        countryProfile.lineBreakMode = NSLineBreakMode.byWordWrapping
         countryProfile.sizeToFit()
         
         // Hide the "more" button
-        (sender as! UIView).hidden = true
+        (sender as! UIView).isHidden = true
         
         // Expand header frame relative to new profile height
         var newRect = headerView.frame
@@ -357,38 +369,41 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goodSelectedFromCountryProfile" {
-            let svc = segue.destinationViewController as! GoodController
+            let svc = segue.destination as! GoodController
             svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
         } else if segue.identifier == "presentFullReportDocument" {
-            let svc = segue.destinationViewController as! FullReportViewController
-            svc.countryName = self.countryName.stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ã", withString: "a", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("é", withString: "e", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("í", withString: "i", options: NSStringCompareOptions.LiteralSearch, range: nil)
+            let svc = segue.destination as! FullReportViewController
+            svc.countryName = self.countryName.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil)
         } else if segue.identifier == "presentSuggestedActions" {
-            let svc = segue.destinationViewController as! SuggestedActionsTableViewController
+            let svc = segue.destination as! SuggestedActionsTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentStatistics" {
-            let svc = segue.destinationViewController as! StatisticsTableViewController
+            let svc = segue.destination as! StatisticsTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentConventions" {
-            let svc = segue.destinationViewController as! ConventionsTableViewController
+            let svc = segue.destination as! ConventionsTableViewController
             svc.countryName = self.countryName
-        } else if segue.identifier == "presentLegalStandardsMulti" {
-            let svc = segue.destinationViewController as! LegalStandardsMultiTableViewController
-            svc.countryName = self.countryName
-        } else if segue.identifier == "presentLegalStandards" {
-            let svc = segue.destinationViewController as! LegalStandardsTableViewController
-            svc.countryName = self.countryName
+        } else if segue.identifier == "presentLegalStandardsMultiWrapper" {
+            let svc = segue.destination as! LegalStandardsMultiWrapperViewController
+            svc.setCountryName(cn: self.countryName)
+            
+        } else if segue.identifier == "presentLegalStandardsWrapper" {
+            let svc = segue.destination as! LegalStandardsWrapperViewController
+            svc.setCountryName(cn: self.countryName)
         } else if segue.identifier == "presentEnforcement" {
-            let svc = segue.destinationViewController as! EnforceTableViewController
+            let svc = segue.destination as! EnforceTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentEnforcementMulti" {
-            let svc = segue.destinationViewController as! EnforcementMultiTableViewController
+            let svc = segue.destination as! EnforcementMultiTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentCoordination" {
-            let svc = segue.destinationViewController as! CoordTableViewController
+            let svc = segue.destination as! CoordTableViewController
             svc.countryName = self.countryName
         }
-    }
-
+        
+       
+       
+}
 }

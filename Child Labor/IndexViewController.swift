@@ -8,102 +8,90 @@
 
 import UIKit
 
-class IndexViewController: GAITrackedViewController, UITableViewDelegate {
+class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
+   var menuItems = ["Countries", "Goods", "Exploitation Types" ]
+    
     override func viewDidLoad() {
+
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
         
         // View name for Google Analytics
         self.screenName = "Index Screen"
         
         // Navigation bar color
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
-        // Background image
-        let bgImageView = UIImageView(image: UIImage(named: "Background"))
-        bgImageView.contentMode = UIViewContentMode.ScaleAspectFill
-        self.tableView.backgroundView = bgImageView
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+        
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Clears selection on viewWillAppear
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        
-        return 1
-    }
+
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
+   
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 3
+        
+        return menuItems.count
+        
     }
+
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("Screen")!
-        
-        switch indexPath.row {
-        case 0:
-            cell.textLabel?.text = "Countries"
-        case 1:
-            cell.textLabel?.text = "Goods"
-        default:
-            cell.textLabel?.text = "Exploitation Types"
-        }
-        
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+      let cell = UITableViewCell()
+      
+        cell.textLabel?.text = menuItems[indexPath.row]
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator;
+
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            self.performSegueWithIdentifier("countriesSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "countriesSelectedFromIndex", sender: self)
         case 1:
-            self.performSegueWithIdentifier("goodsSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "goodsSelectedFromIndex", sender: self)
         default:
-            self.performSegueWithIdentifier("exploitationSelectedFromIndex", sender: self)
+            self.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
         }
     }
 
-    @IBAction func openIlabWebsite(sender: AnyObject) {
+    @IBAction func openIlabWebsite(_ sender: AnyObject) {
         // Open website
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov/ilab/")!)
+        UIApplication.shared.openURL(URL(string: "http://www.dol.gov/ilab/")!)
     }
     
-    @IBAction func openDolWebsite(sender: AnyObject) {
+    @IBAction func openDolWebsite(_ sender: AnyObject) {
         // Open website
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.dol.gov")!)
+        UIApplication.shared.openURL(URL(string: "http://www.dol.gov")!)
     }
     
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

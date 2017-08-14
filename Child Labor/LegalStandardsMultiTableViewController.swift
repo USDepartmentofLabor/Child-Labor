@@ -35,33 +35,34 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Laws Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Laws Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
-        let countriesXML = SWXMLHash.parse(contents as! String)
+        let countriesXML = SWXMLHash.parse(contents! as String)
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
                 let legalStandards = country["Legal_Standards"]
                 
-                sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"], legalStandards["Minimum_Compulsory_Military"], legalStandards["Minumum_Voluntary_Military"]])
+                sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"], legalStandards["Minimum_Compulsory_Military"]])
                 sectionTerritories.append([legalStandards["Types_Hazardous_Work"]])
-                sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"]])
+                sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"], legalStandards["Minumum_Voluntary_Military"],
+                    legalStandards["Minumum_Non_State_Military"]])
                 sectionTerritories.append([legalStandards["Compulsory_Education"], legalStandards["Free_Public_Education"]])
             }
         }
         
-        sectionTitles.append(["Work", "Hazardous Work", "Compulsory Military Recruitment", "Voluntary Military Service"])
+        sectionTitles.append(["Work", "Hazardous Work", "State Compulsory Military Recruitment"])
         sectionTitles.append(["Types of Hazardous Work"])
-        sectionTitles.append(["Forced Labor", "Child Trafficking", "CSEC", "Using Children in Illicit Activities"])
+        sectionTitles.append(["Forced Labor", "Child Trafficking", "CSEC", "Using Children in Illicit Activities", "State Voluntary Military Recruitment", "Non-State Military Recruitment"])
         sectionTitles.append(["Compulsory Education Age", "Free Public Education"])
     }
     
@@ -70,16 +71,16 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // Return the number of sections.
         return 4
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         switch section {
             case 0:
@@ -95,40 +96,40 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        if (section == 3 && (self.hasStandardsFooter || self.hasAgeFooter || self.hasCombatFooter)) {
-            var footer = ""
-            if (self.hasStandardsFooter) {
-                footer += "* Note: There are gaps in the legal framework, as articulated in the chapter report";
-            }
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        if (section == 3) {
+            var footer = "*: Please note the changes from last year. Last year a yes referred to the existence of relevant laws. This year the yes refers to meeting international standards."
+            
+            footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions."
+            
+            
+           
             if (self.hasAgeFooter) {
-                footer += "\n‡ Age calculated based on available information"
+                footer += "\n\n‡ Age calculated based on available information"
             }
-            if (self.hasCombatFooter) {
-                footer += "\nΦ Ages denoted are combat/non-combat"
-            }
+            
             return footer
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
     }
     
-    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if section == 3 {
-            return 80
+            return 155
         }
         return UITableViewAutomaticDimension
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         switch section {
             case 0:
-                return 4
+                return 3
             case 1:
                 return 1
             case 2:
-                return 4
+                return 6
             case 3:
                 return 2
             default:
@@ -136,8 +137,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        self.combatRow = ["Compulsory Military Recruitment", "Voluntary Military Service"].contains(sectionTitles[indexPath.section][indexPath.row])
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+     self.combatRow = ["State Compulsory Military Recruitment", "State Voluntary Military Recruitment"].contains(sectionTitles[indexPath.section][indexPath.row])
         
         let territories = sectionTerritories[indexPath.section][indexPath.row]
         
@@ -145,11 +146,11 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         let cellName = (territoryCount != 0) ? "Cell-" + String(territoryCount) : "Cell-1"
         
-        let cell = self.tableView.dequeueReusableCellWithIdentifier(cellName)!
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: cellName)!
         
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[indexPath.section][indexPath.row]
-        standardLabel.accessibilityLabel = sectionTitles[indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
+        standardLabel.accessibilityLabel = sectionTitles[indexPath.section][indexPath.row].replacingOccurrences(of: "No.", with: "Number").replacingOccurrences(of: "btwn", with: "between")
         
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
@@ -179,7 +180,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         return cell
     }
     
-    func setLegalStandard(label: UILabel, standardXML: XMLIndexer!) {
+    func setLegalStandard(_ label: UILabel, standardXML: XMLIndexer!) {
         let standard = standardXML["Standard"].element?.text
         let age = standardXML["Age"].element?.text
         let calculatedAge = standardXML["Calculated_Age"].element?.text == "Yes"
@@ -193,7 +194,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
                 labelText += "*"
-                accessibleText += ", note there are gaps in the legal framework as articulated in the chapter report "
+                accessibleText += ",note See country chapter for detailed information about this country’s laws and regulations "
             }
             
             if (age != nil) {
@@ -205,22 +206,18 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                     accessibleText += ", age calculated based on available information "
                 }
                 labelText += ")"
-                if (self.combatRow && age!.containsString("/")) {
-                    self.hasCombatFooter = true
-                    labelText += "Φ"
-                    accessibleText += ", ages denoted are combat/non-combat "
-                }
+                
             }
         }
         
         if (labelText != "") {
             label.text = labelText
-            if (labelText.containsString("Φ")) {
-                let idx = labelText.characters.indexOf("Φ")
-                let pos = labelText.startIndex.distanceTo(idx!);
+            if (labelText.contains("Φ")) {
+                let idx = labelText.characters.index(of: "Φ")
+                let pos = labelText.characters.distance(from: labelText.startIndex, to: idx!);
                 
                 let attrText : NSMutableAttributedString = NSMutableAttributedString(string: labelText)
-                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFontOfSize(UIFont.systemFontSize() * 0.75), range:NSMakeRange(pos, 1))
+                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFont(ofSize: UIFont.systemFontSize * 0.75), range:NSMakeRange(pos, 1))
                 attrText.addAttribute(kCTSuperscriptAttributeName as String, value:1, range:NSMakeRange(pos, 1))
                 label.attributedText = attrText;
                 
@@ -230,19 +227,19 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
             }
             else if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
-                label.textColor = UIColor.redColor()
+                label.textColor = UIColor.red
             }
             else if (labelText.hasPrefix("No") == true || labelText.hasPrefix("Unknown") == true) {
-                label.textColor = UIColor.redColor()
+                label.textColor = UIColor.red
             }
             else if (labelText.hasPrefix("N/A") == false && labelText.hasPrefix("Unavailable") == false) {
-                label.textColor = UIColor.blackColor()
+                label.textColor = UIColor.black
             }
             else {
                 label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
             
-            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.stringByReplacingOccurrencesOfString("*", withString: "")
+            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
         }
     }
 

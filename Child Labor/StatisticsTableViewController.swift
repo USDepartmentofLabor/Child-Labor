@@ -12,6 +12,7 @@ class StatisticsTableViewController: UITableViewController {
     
     var countryName = "Brazil"
     
+    
     @IBOutlet weak var workingLabel: UILabel!
     @IBOutlet weak var agricultureLabel: UILabel!
     @IBOutlet weak var industryLabel: UILabel!
@@ -31,18 +32,18 @@ class StatisticsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Statistics Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Statistics Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
-        let countriesXML = SWXMLHash.parse(contents as! String)
+        let countriesXML = SWXMLHash.parse(contents! as String)
         
         for country in countriesXML["Countries"]["Country"] {
             if country["Name"].element?.text == self.countryName {
@@ -60,9 +61,9 @@ class StatisticsTableViewController: UITableViewController {
                                             var numberWithCommas = "0"
                                             if ((totalWorking.text != nil && totalWorking.text! != "")) {
                                                 let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
-                                                let numberFormatter = NSNumberFormatter()
-                                                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                                                numberWithCommas = numberFormatter.stringFromNumber(largeNumber!)!
+                                                let numberFormatter = NumberFormatter()
+                                                numberFormatter.numberStyle = NumberFormatter.Style.decimal
+                                                numberWithCommas = numberFormatter.string(from: NSNumber(value: largeNumber!))!
                                             }
 
                                             if (numberWithCommas != "0") {
@@ -71,9 +72,15 @@ class StatisticsTableViewController: UITableViewController {
                                             else {
                                                 workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
                                             }
-                                            workingLabel.textColor = UIColor.blackColor()
+                                            workingLabel.textColor = UIColor.black
                                         }
                                     }
+                                    
+                                    if percentageWorking.text == "Unavailable" {
+                                    workingLabel.text = "Unavailable"
+                                    workingLabel.textColor = UIColor.black
+                                    }
+                                    
                                 }
                             }
                         }
@@ -85,8 +92,13 @@ class StatisticsTableViewController: UITableViewController {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
                             agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue) + "%"
-                            agricultureLabel.textColor = UIColor.blackColor()
+                            agricultureLabel.textColor = UIColor.black
                         }
+                    }
+                    if agriculturePercentage.text == "Unavailable"
+                    {
+                        agricultureLabel.text = "Unavailable"
+                        agricultureLabel.textColor = UIColor.black
                     }
                 }
                 
@@ -95,9 +107,15 @@ class StatisticsTableViewController: UITableViewController {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
                             servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue) + "%"
-                            servicesLabel.textColor = UIColor.blackColor()
+                            servicesLabel.textColor = UIColor.black
                         }
                     }
+                    if servicesPercentage.text == "Unavailable"
+                    {
+                        servicesLabel.text = "Unavailable"
+                        servicesLabel.textColor = UIColor.black
+                    }
+
                 }
                 
                 // Industry
@@ -105,9 +123,15 @@ class StatisticsTableViewController: UITableViewController {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
                             industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue) + "%"
-                            industryLabel.textColor = UIColor.blackColor()
+                            industryLabel.textColor = UIColor.black
                         }
                     }
+                    if industryPercentage.text == "Unavailable"
+                    {
+                        industryLabel.text = "Unavailable"
+                        industryLabel.textColor = UIColor.black
+                    }
+                    
                 }
                 
                 // Attending School
@@ -118,8 +142,12 @@ class StatisticsTableViewController: UITableViewController {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
                                         attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
-                                        attendingSchoolLabel.textColor = UIColor.blackColor()
+                                        attendingSchoolLabel.textColor = UIColor.black
                                     }
+                                }
+                                if attendingPercentage.text == "Unavailable"
+                                {
+                                    attendingSchoolLabel.text = "Unavailable"
                                 }
                             }
                         }
@@ -134,10 +162,15 @@ class StatisticsTableViewController: UITableViewController {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
                                         combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
-                                        combiningWorkAndSchoolLabel.textColor = UIColor.blackColor()
+                                        combiningWorkAndSchoolLabel.textColor = UIColor.black
                                     }
                                 }
                             }
+                        }
+                        
+                        if combiningPercentage.text == "Unavailable"
+                        {
+                            combiningWorkAndSchoolLabel.text = "Unavailable"
                         }
                     }
                 }
@@ -147,8 +180,14 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
                             primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue) + "%"
-                            primaryCompletionRateLabel.textColor = UIColor.blackColor()
+                            primaryCompletionRateLabel.textColor = UIColor.black
                        }
+                    }
+                    
+                    if primaryRate.text == "Unavailable"
+                    {
+                        primaryCompletionRateLabel.text = "Unavailable"
+                        primaryCompletionRateLabel.textColor = UIColor.black
                     }
                 }
                 
@@ -164,12 +203,12 @@ class StatisticsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 4
     }

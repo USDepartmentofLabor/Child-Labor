@@ -32,18 +32,18 @@ class GoodController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Good Profile Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Good Profile Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Do any additional setup after loading the view.
         self.title = goodName
         goodTitle.text = goodName
-        goodImage.image = UIImage(named:"icons_" + goodName.stringByReplacingOccurrencesOfString("/", withString: "_").stringByReplacingOccurrencesOfString(" ", withString: "_"))!
+        goodImage.image = UIImage(named:"icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_"))!
         
-        let urlPathGoods = NSBundle.mainBundle().pathForResource("goods_2015", ofType: "xml")
+        let urlPathGoods = Bundle.main.path(forResource: "goods_2015", ofType: "xml")
         var contentsGoods: NSString?
         do {
-            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: NSUTF8StringEncoding)
+            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contentsGoods = nil
         }
@@ -54,17 +54,17 @@ class GoodController: UITableViewController {
                 sector.text = good["Good_Sector"].element?.text
                 
                 for country in good["Countries"]["Country"] {
-                    countries.addObject((country["Country_Name"].element?.text)!)
+                    countries.add((country["Country_Name"].element?.text)!)
                     
                     // Add the exploitation type to an array
                     if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" {
-                        exploitations.addObject(0)
+                        exploitations.add(0)
                     } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" {
-                        exploitations.addObject(1)
+                        exploitations.add(1)
                     } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" {
-                        exploitations.addObject(2)
+                        exploitations.add(2)
                     } else {
-                        exploitations.addObject(3)
+                        exploitations.add(3)
                     }
                 }
                 
@@ -73,12 +73,12 @@ class GoodController: UITableViewController {
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
-            self.tableView.deselectRowAtIndexPath(tableIndex, animated: false)
+            self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
 
@@ -89,11 +89,11 @@ class GoodController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         var typeOfLabor = ""
         var numCountriesWithThisType = 0
         switch state {
@@ -130,18 +130,18 @@ class GoodController: UITableViewController {
         return "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y" : "ies")
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
-        tableView.backgroundColor = UIColor.whiteColor()
+        tableView.backgroundColor = UIColor.white
         
         return countries.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Country", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Country", for: indexPath)
         
         //
-        let countryName = (countries.objectAtIndex(indexPath.row) as! NSString).stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        let countryName = (countries.object(at: indexPath.row) as! NSString).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
         //
         let cl : UIView? = cell.viewWithTag(101)
@@ -152,38 +152,38 @@ class GoodController: UITableViewController {
         let clLabel : UILabel? = cl!.viewWithTag(202) as? UILabel
         
         titleLabel?.text = countryName
-        let flagImage = UIImage(named: countryName.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil).stringByReplacingOccurrencesOfString("ô", withString: "o", options: NSStringCompareOptions.LiteralSearch, range: nil))
+        let flagImage = UIImage(named: countryName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil))
         cell.imageView?.image = flagImage
         
         // Resize flag icons to a constant width, centered vertically
         if (flagImage != nil) {
             let adjustedWidth = flagImage!.size.width * 44 / flagImage!.size.height
             
-            let size = CGSizeMake(42, 44)
+            let size = CGSize(width: 42, height: 44)
             if adjustedWidth >= 42 {
-                let rect = CGRectMake(0, ((44 - (flagImage!.size.height * 42 / flagImage!.size.width)) / 2), 42, flagImage!.size.height * 42 / flagImage!.size.width)
-                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale)
-                cell.imageView?.image?.drawInRect(rect)
+                let rect = CGRect(x: 0, y: ((44 - (flagImage!.size.height * 42 / flagImage!.size.width)) / 2), width: 42, height: flagImage!.size.height * 42 / flagImage!.size.width)
+                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+                cell.imageView?.image?.draw(in: rect)
                 cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext();
             } else {
-                let rect = CGRectMake(0, 0, adjustedWidth, size.height)
-                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale)
-                cell.imageView?.image?.drawInRect(rect)
+                let rect = CGRect(x: 0, y: 0, width: adjustedWidth, height: size.height)
+                UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+                cell.imageView?.image?.draw(in: rect)
                 cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext();
             }
         }
         
-        cell.backgroundColor = UIColor.whiteColor()
-        titleLabel?.textColor = UIColor.blackColor()
-        cell.userInteractionEnabled = true
+        cell.backgroundColor = UIColor.white
+        titleLabel?.textColor = UIColor.black
+        cell.isUserInteractionEnabled = true
         
         //
         switch exploitations[indexPath.row] as! Int {
         case 0:
-            cl?.hidden = false
-            fl?.hidden = true
+            cl?.isHidden = false
+            fl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -192,11 +192,11 @@ class GoodController: UITableViewController {
             if state == 2 || state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
-                cell.userInteractionEnabled = false
+                cell.isUserInteractionEnabled = false
             }
         case 1:
-            cl?.hidden = true
-            fl?.hidden = false
+            cl?.isHidden = true
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -205,11 +205,11 @@ class GoodController: UITableViewController {
             if state == 1 || state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
-                cell.userInteractionEnabled = false
+                cell.isUserInteractionEnabled = false
             }
         case 2:
-            cl?.hidden = false
-            fl?.hidden = false
+            cl?.isHidden = false
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -218,13 +218,13 @@ class GoodController: UITableViewController {
             if state == 3 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
-                cell.userInteractionEnabled = false
+                cell.isUserInteractionEnabled = false
             }
         default:
-            cl?.hidden = false
-            fl?.hidden = false
+            cl?.isHidden = false
+            fl?.isHidden = false
             clImage?.image = UIImage(named: "hand-black")
-            clLabel?.textColor = UIColor.blackColor()
+            clLabel?.textColor = UIColor.black
             clLabel?.text = "FCL"
             clLabel?.accessibilityLabel = "Forced Child Labor"
         }
@@ -267,15 +267,15 @@ class GoodController: UITableViewController {
     }
     */
 
-    @IBAction func filterChanged(sender: AnyObject) {
+    @IBAction func filterChanged(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "countrySelectedFromGoodView" {
-            let svc = segue.destinationViewController as! CountryController
+            let svc = segue.destination as! CountryController
             svc.countryName = ((sender as! UITableViewCell).viewWithTag(301) as! UILabel).text!
         }
     }

@@ -16,7 +16,7 @@
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
 		38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75371CEED79100C53216 /* EnforceTableViewController.swift */; };
-		38CA953C1D4BAEF200319316 /* countries_2015.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953B1D4BAEF200319316 /* countries_2015.xml */; };
+		38CA953C1D4BAEF200319316 /* countries_2016.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953B1D4BAEF200319316 /* countries_2016.xml */; };
 		38CA953E1D4BAF2400319316 /* goods_2015.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953D1D4BAF2400319316 /* goods_2015.xml */; };
 		38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */; };
 		38CA954A1D4FF4F200319316 /* icons_Pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95411D4FF4F200319316 /* icons_Pepper.png */; };
@@ -677,7 +677,6 @@
 		83800C821AA4D40300DD47EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83800C801AA4D40300DD47EB /* Main.storyboard */; };
 		83800C841AA4D40300DD47EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83800C831AA4D40300DD47EB /* Images.xcassets */; };
 		83800C871AA4D40300DD47EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83800C851AA4D40300DD47EB /* LaunchScreen.xib */; };
-		83800C931AA4D40300DD47EB /* Child_LaborTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C921AA4D40300DD47EB /* Child_LaborTests.swift */; };
 		8386CABF1B516F6C00B5DF1C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386CABE1B516F6C00B5DF1C /* libsqlite3.0.tbd */; };
 		8386CAC11B51702F00B5DF1C /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386CAC01B51702F00B5DF1C /* libGoogleAnalyticsServices.a */; };
 		838A755D1B516E3100CE8465 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838A755C1B516E3100CE8465 /* CoreData.framework */; };
@@ -996,6 +995,8 @@
 		D6C31BA91C6EAE1D00BA9DB0 /* flag-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */; };
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
+		EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */; };
+		EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1018,7 +1019,7 @@
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
 		38BC75371CEED79100C53216 /* EnforceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforceTableViewController.swift; sourceTree = "<group>"; };
-		38CA953B1D4BAEF200319316 /* countries_2015.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_2015.xml; sourceTree = "<group>"; };
+		38CA953B1D4BAEF200319316 /* countries_2016.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_2016.xml; sourceTree = "<group>"; };
 		38CA953D1D4BAF2400319316 /* goods_2015.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = goods_2015.xml; sourceTree = "<group>"; };
 		38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsTableViewController.swift; sourceTree = "<group>"; };
 		38CA95411D4FF4F200319316 /* icons_Pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Pepper.png; sourceTree = "<group>"; };
@@ -2012,6 +2013,8 @@
 		D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-outline@3x.png"; sourceTree = "<group>"; };
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
+		EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiWrapperViewController.swift; sourceTree = "<group>"; };
+		EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsWrapperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3033,6 +3036,8 @@
 				38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */,
 				834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */,
 				83EF03A11B4D9DE200C2AECE /* CountryController.swift */,
+				EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */,
+				EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */,
 				83B1DE3C1AAD3BB100E06742 /* CountriesTableViewController.swift */,
 				83C497D31AF2511A00817383 /* ExploitationTableViewController.swift */,
 				831B78CB1B9D073D0071B76B /* FactSheetViewController.swift */,
@@ -3077,7 +3082,7 @@
 				380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */,
 				380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
-				38CA953B1D4BAEF200319316 /* countries_2015.xml */,
+				38CA953B1D4BAEF200319316 /* countries_2016.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
@@ -3177,10 +3182,11 @@
 				TargetAttributes = {
 					83800C761AA4D40300DD47EB = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = FRPCGFXS7Q;
+						LastSwiftMigration = 0830;
 					};
 					83800C8B1AA4D40300DD47EB = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 83800C761AA4D40300DD47EB;
 					};
 				};
@@ -3715,7 +3721,7 @@
 				83AD12C21B668E71004B92D3 /* icons_Surgical_Instruments-33@3x.png in Resources */,
 				8335AF6F1B667963000748F0 /* icons_Sisal.png in Resources */,
 				8310FF3A1ABB11310025F7AE /* Tunisia.png in Resources */,
-				38CA953C1D4BAEF200319316 /* countries_2015.xml in Resources */,
+				38CA953C1D4BAEF200319316 /* countries_2016.xml in Resources */,
 				8310FED21ABB11310025F7AE /* Jordan.png in Resources */,
 				83AD12B71B668E71004B92D3 /* icons_Sisal-33@3x.png in Resources */,
 				8335AF341B667963000748F0 /* icons_Cotton.png in Resources */,
@@ -4190,6 +4196,8 @@
 				38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */,
 				38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */,
 				38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */,
+				EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */,
+				EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */,
 				38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */,
 				83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */,
 				834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */,
@@ -4215,7 +4223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83800C931AA4D40300DD47EB /* Child_LaborTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4335,6 +4342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -4347,6 +4355,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -4357,6 +4366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -4369,6 +4379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -4386,6 +4397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Labor.app/Child Labor";
 			};
 			name = Debug;
@@ -4399,6 +4411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gov.dol.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Labor.app/Child Labor";
 			};
 			name = Release;

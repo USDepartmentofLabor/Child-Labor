@@ -2,6 +2,16 @@
   "images" : [
     {
       "idiom" : "iphone",
+      "size" : "20x20",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "20x20",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
       "size" : "29x29",
       "scale" : "2x"
     },
@@ -23,14 +33,24 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "sweat-toil-boys-120.png",
+      "filename" : "Background-120.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "sweat-toil-boys-180.png",
+      "filename" : "Background-180.png",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "20x20",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "20x20",
+      "scale" : "2x"
     },
     {
       "idiom" : "ipad",
