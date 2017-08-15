@@ -516,6 +516,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="dol_button" destination="r6c-gQ-eiS" id="NgX-1f-bDm"/>
+                        <outlet property="ilab_button" destination="MlK-lW-GWh" id="x09-aT-lWh"/>
                         <outlet property="tableView" destination="pWh-8J-7Ww" id="nEy-Sc-TTb"/>
                         <segue destination="Zn1-9i-5DA" kind="show" identifier="countriesSelectedFromIndex" id="5VX-RF-rp6"/>
                         <segue destination="jLv-Y3-Yma" kind="show" identifier="exploitationSelectedFromIndex" id="n4J-eU-vun"/>

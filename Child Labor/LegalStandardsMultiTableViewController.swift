@@ -116,7 +116,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if section == 3 {
-            return 155
+            return 170
         }
         return UITableViewAutomaticDimension
     }
