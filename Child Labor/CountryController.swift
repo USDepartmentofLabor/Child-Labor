@@ -260,7 +260,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If this is a TVPRA-only country, or one of British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no indicator or PDF buttons, so return 0 for both sections
-        if ["Burma","China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
+        if ["China", "Iran", "Malaysia", "Mexico", "North Korea", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
             return 0
             
         // Otherwise
@@ -278,53 +278,23 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         }
     }
 
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
     
     override func tableView(_ tableView: UITableView,
                             didSelectRowAt indexPath: IndexPath) {
+        
+        
+        if (indexPath.row == 1) {
+            if (countryName=="Somalia") {
+                
+                
+                performSegue(withIdentifier: "presentSomalia", sender: self)
+                
+            }
+            else {
+                performSegue(withIdentifier: "presentStats", sender: self)
+            }
+        }
         
         if (indexPath.row == 3) {
             if multipleTerritories {
@@ -379,8 +349,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         } else if segue.identifier == "presentSuggestedActions" {
             let svc = segue.destination as! SuggestedActionsTableViewController
             svc.countryName = self.countryName
-        } else if segue.identifier == "presentStatistics" {
+        } else if segue.identifier == "presentStats" {
             let svc = segue.destination as! StatisticsTableViewController
+            svc.countryName = self.countryName
+        } else if segue.identifier == "presentSomalia" {
+            let svc = segue.destination as! SomaliaTableViewController
             svc.countryName = self.countryName
         } else if segue.identifier == "presentConventions" {
             let svc = segue.destination as! ConventionsTableViewController

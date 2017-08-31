@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		380048791D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */; };
-		3800487A1D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */; };
-		3800487B1D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */; };
-		3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */; };
+		3800487A1D8B991C00E64714 /* TDA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048731D8B991C00E64714 /* TDA.pdf */; };
+		3800487B1D8B991C00E64714 /* EO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048741D8B991C00E64714 /* EO.pdf */; };
+		3800487C1D8B991C00E64714 /* TVPRA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048751D8B991C00E64714 /* TVPRA.pdf */; };
 		3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048761D8B991C00E64714 /* FAQs- Combo.pdf */; };
 		380048831D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */; };
 		38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */; };
 		38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */; };
 		38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC75371CEED79100C53216 /* EnforceTableViewController.swift */; };
 		38CA953C1D4BAEF200319316 /* countries_2016.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953B1D4BAEF200319316 /* countries_2016.xml */; };
-		38CA953E1D4BAF2400319316 /* goods_2015.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953D1D4BAF2400319316 /* goods_2015.xml */; };
+		38CA953E1D4BAF2400319316 /* goods_2016.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38CA953D1D4BAF2400319316 /* goods_2016.xml */; };
 		38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */; };
 		38CA954A1D4FF4F200319316 /* icons_Pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95411D4FF4F200319316 /* icons_Pepper.png */; };
 		38CA954B1D4FF4F200319316 /* icons_Pepper-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA95421D4FF4F200319316 /* icons_Pepper-33@2x.png */; };
@@ -495,15 +495,15 @@
 		8335AF821B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF151B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png */; };
 		8335AF841B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF831B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png */; };
 		8335AF861B667E46000748F0 /* icons_Bricks_(clay).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF851B667E46000748F0 /* icons_Bricks_(clay).png */; };
-		8335AF881B667E66000748F0 /* icons_Cassiterite_(tin_ore).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF871B667E66000748F0 /* icons_Cassiterite_(tin_ore).png */; };
-		8335AF8A1B667ED4000748F0 /* icons_Coltan_(tantalum_ore).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF891B667ED4000748F0 /* icons_Coltan_(tantalum_ore).png */; };
+		8335AF881B667E66000748F0 /* icons_Tin_ore_(cassiterite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */; };
+		8335AF8A1B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF891B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png */; };
 		8335AF8C1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF8B1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png */; };
 		8335AF8E1B667F1D000748F0 /* icons_Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF8D1B667F1D000748F0 /* icons_Fish.png */; };
 		8335AF901B667F3C000748F0 /* icons_Fluorspar_(mineral).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF8F1B667F3C000748F0 /* icons_Fluorspar_(mineral).png */; };
 		8335AF921B667F52000748F0 /* icons_Gems.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF911B667F52000748F0 /* icons_Gems.png */; };
 		8335AF941B667F78000748F0 /* icons_Granite_(crushed).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF931B667F78000748F0 /* icons_Granite_(crushed).png */; };
 		8335AF961B667F85000748F0 /* icons_Granite.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF951B667F85000748F0 /* icons_Granite.png */; };
-		8335AF981B667F9C000748F0 /* icons_Heterogenite_(cobalt_ore).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF971B667F9C000748F0 /* icons_Heterogenite_(cobalt_ore).png */; };
+		8335AF981B667F9C000748F0 /* icons_Cobalt_ore_(heterogenite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF971B667F9C000748F0 /* icons_Cobalt_ore_(heterogenite).png */; };
 		8335AF9A1B667FB4000748F0 /* icons_Manioc_Cassava.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF991B667FB4000748F0 /* icons_Manioc_Cassava.png */; };
 		8335AF9C1B667FC6000748F0 /* icons_Meat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF9B1B667FC6000748F0 /* icons_Meat.png */; };
 		8335AF9E1B668002000748F0 /* icons_Physic_Nuts_Castor_Beans.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF9D1B668002000748F0 /* icons_Physic_Nuts_Castor_Beans.png */; };
@@ -516,7 +516,7 @@
 		8335AFAC1B6680E2000748F0 /* icons_Textiles_(jute).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAB1B6680E2000748F0 /* icons_Textiles_(jute).png */; };
 		8335AFAE1B6680FA000748F0 /* icons_Tilapia_(fish).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAD1B6680FA000748F0 /* icons_Tilapia_(fish).png */; };
 		8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAF1B668111000748F0 /* icons_Trona_(mineral).png */; };
-		8335AFB21B668126000748F0 /* icons_Wolframite_(tungsten_ore).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB11B668126000748F0 /* icons_Wolframite_(tungsten_ore).png */; };
+		8335AFB21B668126000748F0 /* icons_Tungsten_ore_(wolframite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB11B668126000748F0 /* icons_Tungsten_ore_(wolframite).png */; };
 		8335AFB41B66813A000748F0 /* icons_Zinc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB31B66813A000748F0 /* icons_Zinc.png */; };
 		8335AFB61B6681AA000748F0 /* icons_Gypsum_(mineral).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB51B6681AA000748F0 /* icons_Gypsum_(mineral).png */; };
 		8335AFB81B6681C8000748F0 /* icons_Miraa_(stimulant_plant).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB71B6681C8000748F0 /* icons_Miraa_(stimulant_plant).png */; };
@@ -705,7 +705,7 @@
 		83AD12591B668E71004B92D3 /* icons_Carpets-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */; };
 		83AD125A1B668E71004B92D3 /* icons_Cashews-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */; };
 		83AD125B1B668E71004B92D3 /* icons_Cassava-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */; };
-		83AD125C1B668E71004B92D3 /* icons_Cassiterite_(tin_ore)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D01B668E71004B92D3 /* icons_Cassiterite_(tin_ore)-33@3x.png */; };
+		83AD125C1B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */; };
 		83AD125D1B668E71004B92D3 /* icons_Cattle-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */; };
 		83AD125E1B668E71004B92D3 /* icons_Cement-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */; };
 		83AD125F1B668E71004B92D3 /* icons_Ceramics-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */; };
@@ -720,7 +720,7 @@
 		83AD12681B668E71004B92D3 /* icons_Cocoa-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11DC1B668E71004B92D3 /* icons_Cocoa-33@3x.png */; };
 		83AD12691B668E71004B92D3 /* icons_Coconuts-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11DD1B668E71004B92D3 /* icons_Coconuts-33@3x.png */; };
 		83AD126A1B668E71004B92D3 /* icons_Coffee-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11DE1B668E71004B92D3 /* icons_Coffee-33@3x.png */; };
-		83AD126B1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11DF1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png */; };
+		83AD126B1B668E71004B92D3 /* icons_Tantalum_ore_(coltan)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11DF1B668E71004B92D3 /* icons_Tantalum_ore_(coltan)-33@3x.png */; };
 		83AD126C1B668E71004B92D3 /* icons_Copper-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11E01B668E71004B92D3 /* icons_Copper-33@3x.png */; };
 		83AD126D1B668E71004B92D3 /* icons_Corn-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11E11B668E71004B92D3 /* icons_Corn-33@3x.png */; };
 		83AD126E1B668E71004B92D3 /* icons_Cotton-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11E21B668E71004B92D3 /* icons_Cotton-33@3x.png */; };
@@ -756,7 +756,7 @@
 		83AD128C1B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12001B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png */; };
 		83AD128D1B668E71004B92D3 /* icons_Gypsum_(mineral)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12011B668E71004B92D3 /* icons_Gypsum_(mineral)-33@3x.png */; };
 		83AD128E1B668E71004B92D3 /* icons_Hazelnuts-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12021B668E71004B92D3 /* icons_Hazelnuts-33@3x.png */; };
-		83AD128F1B668E71004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12031B668E71004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@3x.png */; };
+		83AD128F1B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12031B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png */; };
 		83AD12901B668E71004B92D3 /* icons_Hogs-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12041B668E71004B92D3 /* icons_Hogs-33@3x.png */; };
 		83AD12911B668E71004B92D3 /* icons_Incense_(agarbatti)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12051B668E71004B92D3 /* icons_Incense_(agarbatti)-33@3x.png */; };
 		83AD12921B668E71004B92D3 /* icons_Iron-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12061B668E71004B92D3 /* icons_Iron-33@3x.png */; };
@@ -824,7 +824,7 @@
 		83AD12D01B668E71004B92D3 /* icons_Trona_(mineral)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12441B668E71004B92D3 /* icons_Trona_(mineral)-33@3x.png */; };
 		83AD12D11B668E71004B92D3 /* icons_Vanilla-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12451B668E71004B92D3 /* icons_Vanilla-33@3x.png */; };
 		83AD12D21B668E71004B92D3 /* icons_Wheat-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12461B668E71004B92D3 /* icons_Wheat-33@3x.png */; };
-		83AD12D31B668E71004B92D3 /* icons_Wolframite_(tungsten_ore)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12471B668E71004B92D3 /* icons_Wolframite_(tungsten_ore)-33@3x.png */; };
+		83AD12D31B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12471B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png */; };
 		83AD12D41B668E71004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12481B668E71004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@3x.png */; };
 		83AD12D51B668E71004B92D3 /* icons_Zinc-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12491B668E71004B92D3 /* icons_Zinc-33@3x.png */; };
 		83AD13621B669137004B92D3 /* icons_Alcoholic_Beverages-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12D61B669136004B92D3 /* icons_Alcoholic_Beverages-33@2x.png */; };
@@ -845,7 +845,7 @@
 		83AD13711B669137004B92D3 /* icons_Carpets-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */; };
 		83AD13721B669137004B92D3 /* icons_Cashews-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */; };
 		83AD13731B669137004B92D3 /* icons_Cassava-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */; };
-		83AD13741B669137004B92D3 /* icons_Cassiterite_(tin_ore)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E81B669136004B92D3 /* icons_Cassiterite_(tin_ore)-33@2x.png */; };
+		83AD13741B669137004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */; };
 		83AD13751B669137004B92D3 /* icons_Cattle-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */; };
 		83AD13761B669137004B92D3 /* icons_Cement-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */; };
 		83AD13771B669137004B92D3 /* icons_Ceramics-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */; };
@@ -860,7 +860,7 @@
 		83AD13801B669137004B92D3 /* icons_Cocoa-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F41B669136004B92D3 /* icons_Cocoa-33@2x.png */; };
 		83AD13811B669137004B92D3 /* icons_Coconuts-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F51B669136004B92D3 /* icons_Coconuts-33@2x.png */; };
 		83AD13821B669137004B92D3 /* icons_Coffee-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F61B669136004B92D3 /* icons_Coffee-33@2x.png */; };
-		83AD13831B669137004B92D3 /* icons_Coltan_(tantalum_ore)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F71B669136004B92D3 /* icons_Coltan_(tantalum_ore)-33@2x.png */; };
+		83AD13831B669137004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F71B669136004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png */; };
 		83AD13841B669137004B92D3 /* icons_Copper-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F81B669136004B92D3 /* icons_Copper-33@2x.png */; };
 		83AD13851B669137004B92D3 /* icons_Corn-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12F91B669136004B92D3 /* icons_Corn-33@2x.png */; };
 		83AD13861B669137004B92D3 /* icons_Cotton-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12FA1B669136004B92D3 /* icons_Cotton-33@2x.png */; };
@@ -896,7 +896,7 @@
 		83AD13A41B669137004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13181B669136004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png */; };
 		83AD13A51B669137004B92D3 /* icons_Gypsum_(mineral)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13191B669136004B92D3 /* icons_Gypsum_(mineral)-33@2x.png */; };
 		83AD13A61B669137004B92D3 /* icons_Hazelnuts-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131A1B669136004B92D3 /* icons_Hazelnuts-33@2x.png */; };
-		83AD13A71B669137004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131B1B669136004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png */; };
+		83AD13A71B669137004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131B1B669136004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png */; };
 		83AD13A81B669137004B92D3 /* icons_Hogs-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131C1B669136004B92D3 /* icons_Hogs-33@2x.png */; };
 		83AD13A91B669137004B92D3 /* icons_Incense_(agarbatti)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131D1B669136004B92D3 /* icons_Incense_(agarbatti)-33@2x.png */; };
 		83AD13AA1B669137004B92D3 /* icons_Iron-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD131E1B669136004B92D3 /* icons_Iron-33@2x.png */; };
@@ -964,7 +964,7 @@
 		83AD13E81B669137004B92D3 /* icons_Trona_(mineral)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135C1B669137004B92D3 /* icons_Trona_(mineral)-33@2x.png */; };
 		83AD13E91B669137004B92D3 /* icons_Vanilla-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135D1B669137004B92D3 /* icons_Vanilla-33@2x.png */; };
 		83AD13EA1B669137004B92D3 /* icons_Wheat-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135E1B669137004B92D3 /* icons_Wheat-33@2x.png */; };
-		83AD13EB1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135F1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png */; };
+		83AD13EB1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD135F1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png */; };
 		83AD13EC1B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13601B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png */; };
 		83AD13ED1B669137004B92D3 /* icons_Zinc-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13611B669137004B92D3 /* icons_Zinc-33@2x.png */; };
 		83B05CD51B9F1DE400A0F53A /* countries_for_app.xml in Resources */ = {isa = PBXBuildFile; fileRef = 83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */; };
@@ -995,6 +995,10 @@
 		D6C31BA91C6EAE1D00BA9DB0 /* flag-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */; };
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
+		ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */; };
+		ED3D28061F58A3A4004DFC9B /* Burma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED3D28051F58A3A4004DFC9B /* Burma.pdf */; };
+		ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */; };
+		ED8FC8161F54630E0030B75A /* SomaliaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */; };
 		EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */; };
 		EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */; };
 /* End PBXBuildFile section */
@@ -1011,16 +1015,16 @@
 
 /* Begin PBXFileReference section */
 		380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-OFCT-2016-lo.pdf"; sourceTree = "<group>"; };
-		380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Programming-2016-lo.pdf"; sourceTree = "<group>"; };
-		380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Regional-2016-lo.pdf"; sourceTree = "<group>"; };
-		380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-Reports-lo.pdf"; sourceTree = "<group>"; };
+		380048731D8B991C00E64714 /* TDA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TDA.pdf; sourceTree = "<group>"; };
+		380048741D8B991C00E64714 /* EO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EO.pdf; sourceTree = "<group>"; };
+		380048751D8B991C00E64714 /* TVPRA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TVPRA.pdf; sourceTree = "<group>"; };
 		380048761D8B991C00E64714 /* FAQs- Combo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FAQs- Combo.pdf"; sourceTree = "<group>"; };
 		380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ToolkitForResponsibleBusinesses-lo.pdf"; sourceTree = "<group>"; };
 		38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementTableViewController.swift; sourceTree = "<group>"; };
 		38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordTableViewController.swift; sourceTree = "<group>"; };
 		38BC75371CEED79100C53216 /* EnforceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforceTableViewController.swift; sourceTree = "<group>"; };
 		38CA953B1D4BAEF200319316 /* countries_2016.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_2016.xml; sourceTree = "<group>"; };
-		38CA953D1D4BAF2400319316 /* goods_2015.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = goods_2015.xml; sourceTree = "<group>"; };
+		38CA953D1D4BAF2400319316 /* goods_2016.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = goods_2016.xml; sourceTree = "<group>"; };
 		38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsTableViewController.swift; sourceTree = "<group>"; };
 		38CA95411D4FF4F200319316 /* icons_Pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Pepper.png; sourceTree = "<group>"; };
 		38CA95421D4FF4F200319316 /* icons_Pepper-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Pepper-33@2x.png"; sourceTree = "<group>"; };
@@ -1498,15 +1502,15 @@
 		8335AF151B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Yerba_Mate_(stimulant_plant).png"; sourceTree = "<group>"; };
 		8335AF831B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Beans_(green,_soy,_yellow).png"; sourceTree = "<group>"; };
 		8335AF851B667E46000748F0 /* icons_Bricks_(clay).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bricks_(clay).png"; sourceTree = "<group>"; };
-		8335AF871B667E66000748F0 /* icons_Cassiterite_(tin_ore).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassiterite_(tin_ore).png"; sourceTree = "<group>"; };
-		8335AF891B667ED4000748F0 /* icons_Coltan_(tantalum_ore).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coltan_(tantalum_ore).png"; sourceTree = "<group>"; };
+		8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite).png"; sourceTree = "<group>"; };
+		8335AF891B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tantalum_ore_(coltan).png"; sourceTree = "<group>"; };
 		8335AF8B1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cottonseed_(hybrid).png"; sourceTree = "<group>"; };
 		8335AF8D1B667F1D000748F0 /* icons_Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Fish.png; sourceTree = "<group>"; };
 		8335AF8F1B667F3C000748F0 /* icons_Fluorspar_(mineral).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Fluorspar_(mineral).png"; sourceTree = "<group>"; };
 		8335AF911B667F52000748F0 /* icons_Gems.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Gems.png; sourceTree = "<group>"; };
 		8335AF931B667F78000748F0 /* icons_Granite_(crushed).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Granite_(crushed).png"; sourceTree = "<group>"; };
 		8335AF951B667F85000748F0 /* icons_Granite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Granite.png; sourceTree = "<group>"; };
-		8335AF971B667F9C000748F0 /* icons_Heterogenite_(cobalt_ore).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Heterogenite_(cobalt_ore).png"; sourceTree = "<group>"; };
+		8335AF971B667F9C000748F0 /* icons_Cobalt_ore_(heterogenite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cobalt_ore_(heterogenite).png"; sourceTree = "<group>"; };
 		8335AF991B667FB4000748F0 /* icons_Manioc_Cassava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Manioc_Cassava.png; sourceTree = "<group>"; };
 		8335AF9B1B667FC6000748F0 /* icons_Meat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Meat.png; sourceTree = "<group>"; };
 		8335AF9D1B668002000748F0 /* icons_Physic_Nuts_Castor_Beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Physic_Nuts_Castor_Beans.png; sourceTree = "<group>"; };
@@ -1519,7 +1523,7 @@
 		8335AFAB1B6680E2000748F0 /* icons_Textiles_(jute).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(jute).png"; sourceTree = "<group>"; };
 		8335AFAD1B6680FA000748F0 /* icons_Tilapia_(fish).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tilapia_(fish).png"; sourceTree = "<group>"; };
 		8335AFAF1B668111000748F0 /* icons_Trona_(mineral).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Trona_(mineral).png"; sourceTree = "<group>"; };
-		8335AFB11B668126000748F0 /* icons_Wolframite_(tungsten_ore).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wolframite_(tungsten_ore).png"; sourceTree = "<group>"; };
+		8335AFB11B668126000748F0 /* icons_Tungsten_ore_(wolframite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tungsten_ore_(wolframite).png"; sourceTree = "<group>"; };
 		8335AFB31B66813A000748F0 /* icons_Zinc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Zinc.png; sourceTree = "<group>"; };
 		8335AFB51B6681AA000748F0 /* icons_Gypsum_(mineral).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gypsum_(mineral).png"; sourceTree = "<group>"; };
 		8335AFB71B6681C8000748F0 /* icons_Miraa_(stimulant_plant).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Miraa_(stimulant_plant).png"; sourceTree = "<group>"; };
@@ -1723,7 +1727,7 @@
 		83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Carpets-33@3x.png"; sourceTree = "<group>"; };
 		83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cashews-33@3x.png"; sourceTree = "<group>"; };
 		83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassava-33@3x.png"; sourceTree = "<group>"; };
-		83AD11D01B668E71004B92D3 /* icons_Cassiterite_(tin_ore)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassiterite_(tin_ore)-33@3x.png"; sourceTree = "<group>"; };
+		83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cattle-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cement-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ceramics-33@3x.png"; sourceTree = "<group>"; };
@@ -1738,7 +1742,7 @@
 		83AD11DC1B668E71004B92D3 /* icons_Cocoa-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cocoa-33@3x.png"; sourceTree = "<group>"; };
 		83AD11DD1B668E71004B92D3 /* icons_Coconuts-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coconuts-33@3x.png"; sourceTree = "<group>"; };
 		83AD11DE1B668E71004B92D3 /* icons_Coffee-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coffee-33@3x.png"; sourceTree = "<group>"; };
-		83AD11DF1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coltan_(tantalum_ore)-33@3x.png"; sourceTree = "<group>"; };
+		83AD11DF1B668E71004B92D3 /* icons_Tantalum_ore_(coltan)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tantalum_ore_(coltan)-33@3x.png"; sourceTree = "<group>"; };
 		83AD11E01B668E71004B92D3 /* icons_Copper-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Copper-33@3x.png"; sourceTree = "<group>"; };
 		83AD11E11B668E71004B92D3 /* icons_Corn-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Corn-33@3x.png"; sourceTree = "<group>"; };
 		83AD11E21B668E71004B92D3 /* icons_Cotton-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cotton-33@3x.png"; sourceTree = "<group>"; };
@@ -1774,7 +1778,7 @@
 		83AD12001B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gravel_(crushed_stones)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12011B668E71004B92D3 /* icons_Gypsum_(mineral)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gypsum_(mineral)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12021B668E71004B92D3 /* icons_Hazelnuts-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Hazelnuts-33@3x.png"; sourceTree = "<group>"; };
-		83AD12031B668E71004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Heterogenite_(cobalt_ore)-33@3x.png"; sourceTree = "<group>"; };
+		83AD12031B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cobalt_ore_(heterogenite)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12041B668E71004B92D3 /* icons_Hogs-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Hogs-33@3x.png"; sourceTree = "<group>"; };
 		83AD12051B668E71004B92D3 /* icons_Incense_(agarbatti)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Incense_(agarbatti)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12061B668E71004B92D3 /* icons_Iron-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Iron-33@3x.png"; sourceTree = "<group>"; };
@@ -1842,7 +1846,7 @@
 		83AD12441B668E71004B92D3 /* icons_Trona_(mineral)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Trona_(mineral)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12451B668E71004B92D3 /* icons_Vanilla-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Vanilla-33@3x.png"; sourceTree = "<group>"; };
 		83AD12461B668E71004B92D3 /* icons_Wheat-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wheat-33@3x.png"; sourceTree = "<group>"; };
-		83AD12471B668E71004B92D3 /* icons_Wolframite_(tungsten_ore)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wolframite_(tungsten_ore)-33@3x.png"; sourceTree = "<group>"; };
+		83AD12471B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tungsten_ore_(wolframite)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12481B668E71004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Yerba_Mate_(stimulant_plant)-33@3x.png"; sourceTree = "<group>"; };
 		83AD12491B668E71004B92D3 /* icons_Zinc-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Zinc-33@3x.png"; sourceTree = "<group>"; };
 		83AD12D61B669136004B92D3 /* icons_Alcoholic_Beverages-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Alcoholic_Beverages-33@2x.png"; sourceTree = "<group>"; };
@@ -1863,7 +1867,7 @@
 		83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Carpets-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cashews-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassava-33@2x.png"; sourceTree = "<group>"; };
-		83AD12E81B669136004B92D3 /* icons_Cassiterite_(tin_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassiterite_(tin_ore)-33@2x.png"; sourceTree = "<group>"; };
+		83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cattle-33@2x.png"; sourceTree = "<group>"; };
 		83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cement-33@2x.png"; sourceTree = "<group>"; };
 		83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ceramics-33@2x.png"; sourceTree = "<group>"; };
@@ -1878,7 +1882,7 @@
 		83AD12F41B669136004B92D3 /* icons_Cocoa-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cocoa-33@2x.png"; sourceTree = "<group>"; };
 		83AD12F51B669136004B92D3 /* icons_Coconuts-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coconuts-33@2x.png"; sourceTree = "<group>"; };
 		83AD12F61B669136004B92D3 /* icons_Coffee-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coffee-33@2x.png"; sourceTree = "<group>"; };
-		83AD12F71B669136004B92D3 /* icons_Coltan_(tantalum_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Coltan_(tantalum_ore)-33@2x.png"; sourceTree = "<group>"; };
+		83AD12F71B669136004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tantalum_ore_(coltan)-33@2x.png"; sourceTree = "<group>"; };
 		83AD12F81B669136004B92D3 /* icons_Copper-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Copper-33@2x.png"; sourceTree = "<group>"; };
 		83AD12F91B669136004B92D3 /* icons_Corn-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Corn-33@2x.png"; sourceTree = "<group>"; };
 		83AD12FA1B669136004B92D3 /* icons_Cotton-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cotton-33@2x.png"; sourceTree = "<group>"; };
@@ -1914,7 +1918,7 @@
 		83AD13181B669136004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gravel_(crushed_stones)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13191B669136004B92D3 /* icons_Gypsum_(mineral)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gypsum_(mineral)-33@2x.png"; sourceTree = "<group>"; };
 		83AD131A1B669136004B92D3 /* icons_Hazelnuts-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Hazelnuts-33@2x.png"; sourceTree = "<group>"; };
-		83AD131B1B669136004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Heterogenite_(cobalt_ore)-33@2x.png"; sourceTree = "<group>"; };
+		83AD131B1B669136004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cobalt_ore_(heterogenite)-33@2x.png"; sourceTree = "<group>"; };
 		83AD131C1B669136004B92D3 /* icons_Hogs-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Hogs-33@2x.png"; sourceTree = "<group>"; };
 		83AD131D1B669136004B92D3 /* icons_Incense_(agarbatti)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Incense_(agarbatti)-33@2x.png"; sourceTree = "<group>"; };
 		83AD131E1B669136004B92D3 /* icons_Iron-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Iron-33@2x.png"; sourceTree = "<group>"; };
@@ -1982,7 +1986,7 @@
 		83AD135C1B669137004B92D3 /* icons_Trona_(mineral)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Trona_(mineral)-33@2x.png"; sourceTree = "<group>"; };
 		83AD135D1B669137004B92D3 /* icons_Vanilla-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Vanilla-33@2x.png"; sourceTree = "<group>"; };
 		83AD135E1B669137004B92D3 /* icons_Wheat-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wheat-33@2x.png"; sourceTree = "<group>"; };
-		83AD135F1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wolframite_(tungsten_ore)-33@2x.png"; sourceTree = "<group>"; };
+		83AD135F1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tungsten_ore_(wolframite)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13601B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Yerba_Mate_(stimulant_plant)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13611B669137004B92D3 /* icons_Zinc-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Zinc-33@2x.png"; sourceTree = "<group>"; };
 		83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = countries_for_app.xml; sourceTree = "<group>"; };
@@ -2013,6 +2017,10 @@
 		D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-outline@3x.png"; sourceTree = "<group>"; };
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
+		ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		ED3D28051F58A3A4004DFC9B /* Burma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Burma.pdf; sourceTree = "<group>"; };
+		ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarAppTableViewController.swift; sourceTree = "<group>"; };
+		ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaTableViewController.swift; sourceTree = "<group>"; };
 		EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiWrapperViewController.swift; sourceTree = "<group>"; };
 		EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsWrapperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2441,7 +2449,7 @@
 				83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */,
 				83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */,
 				83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */,
-				83AD12E81B669136004B92D3 /* icons_Cassiterite_(tin_ore)-33@2x.png */,
+				83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */,
 				83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */,
 				83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */,
 				83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */,
@@ -2456,7 +2464,7 @@
 				83AD12F41B669136004B92D3 /* icons_Cocoa-33@2x.png */,
 				83AD12F51B669136004B92D3 /* icons_Coconuts-33@2x.png */,
 				83AD12F61B669136004B92D3 /* icons_Coffee-33@2x.png */,
-				83AD12F71B669136004B92D3 /* icons_Coltan_(tantalum_ore)-33@2x.png */,
+				83AD12F71B669136004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png */,
 				83AD12F81B669136004B92D3 /* icons_Copper-33@2x.png */,
 				83AD12F91B669136004B92D3 /* icons_Corn-33@2x.png */,
 				83AD12FA1B669136004B92D3 /* icons_Cotton-33@2x.png */,
@@ -2492,7 +2500,7 @@
 				83AD13181B669136004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png */,
 				83AD13191B669136004B92D3 /* icons_Gypsum_(mineral)-33@2x.png */,
 				83AD131A1B669136004B92D3 /* icons_Hazelnuts-33@2x.png */,
-				83AD131B1B669136004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png */,
+				83AD131B1B669136004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png */,
 				83AD131C1B669136004B92D3 /* icons_Hogs-33@2x.png */,
 				83AD131D1B669136004B92D3 /* icons_Incense_(agarbatti)-33@2x.png */,
 				83AD131E1B669136004B92D3 /* icons_Iron-33@2x.png */,
@@ -2560,7 +2568,7 @@
 				83AD135C1B669137004B92D3 /* icons_Trona_(mineral)-33@2x.png */,
 				83AD135D1B669137004B92D3 /* icons_Vanilla-33@2x.png */,
 				83AD135E1B669137004B92D3 /* icons_Wheat-33@2x.png */,
-				83AD135F1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png */,
+				83AD135F1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png */,
 				83AD13601B669137004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@2x.png */,
 				83AD13611B669137004B92D3 /* icons_Zinc-33@2x.png */,
 				83AD11BE1B668E71004B92D3 /* icons_Alcoholic_Beverages-33@3x.png */,
@@ -2581,7 +2589,7 @@
 				83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */,
 				83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */,
 				83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */,
-				83AD11D01B668E71004B92D3 /* icons_Cassiterite_(tin_ore)-33@3x.png */,
+				83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */,
 				83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */,
 				83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */,
 				83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */,
@@ -2596,7 +2604,7 @@
 				83AD11DC1B668E71004B92D3 /* icons_Cocoa-33@3x.png */,
 				83AD11DD1B668E71004B92D3 /* icons_Coconuts-33@3x.png */,
 				83AD11DE1B668E71004B92D3 /* icons_Coffee-33@3x.png */,
-				83AD11DF1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png */,
+				83AD11DF1B668E71004B92D3 /* icons_Tantalum_ore_(coltan)-33@3x.png */,
 				83AD11E01B668E71004B92D3 /* icons_Copper-33@3x.png */,
 				83AD11E11B668E71004B92D3 /* icons_Corn-33@3x.png */,
 				83AD11E21B668E71004B92D3 /* icons_Cotton-33@3x.png */,
@@ -2632,7 +2640,7 @@
 				83AD12001B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png */,
 				83AD12011B668E71004B92D3 /* icons_Gypsum_(mineral)-33@3x.png */,
 				83AD12021B668E71004B92D3 /* icons_Hazelnuts-33@3x.png */,
-				83AD12031B668E71004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@3x.png */,
+				83AD12031B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png */,
 				83AD12041B668E71004B92D3 /* icons_Hogs-33@3x.png */,
 				83AD12051B668E71004B92D3 /* icons_Incense_(agarbatti)-33@3x.png */,
 				83AD12061B668E71004B92D3 /* icons_Iron-33@3x.png */,
@@ -2700,7 +2708,7 @@
 				83AD12441B668E71004B92D3 /* icons_Trona_(mineral)-33@3x.png */,
 				83AD12451B668E71004B92D3 /* icons_Vanilla-33@3x.png */,
 				83AD12461B668E71004B92D3 /* icons_Wheat-33@3x.png */,
-				83AD12471B668E71004B92D3 /* icons_Wolframite_(tungsten_ore)-33@3x.png */,
+				83AD12471B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png */,
 				83AD12481B668E71004B92D3 /* icons_Yerba_Mate_(stimulant_plant)-33@3x.png */,
 				83AD12491B668E71004B92D3 /* icons_Zinc-33@3x.png */,
 				8335AEA91B667963000748F0 /* icons_Alcoholic_Beverages.png */,
@@ -2721,7 +2729,7 @@
 				8335AEB51B667963000748F0 /* icons_Carpets.png */,
 				8335AEB61B667963000748F0 /* icons_Cashews.png */,
 				8335AEB71B667963000748F0 /* icons_Cassava.png */,
-				8335AF871B667E66000748F0 /* icons_Cassiterite_(tin_ore).png */,
+				8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */,
 				8335AEB81B667963000748F0 /* icons_Cattle.png */,
 				8335AEB91B667963000748F0 /* icons_Cement.png */,
 				8335AEBA1B667963000748F0 /* icons_Ceramics.png */,
@@ -2736,7 +2744,7 @@
 				8335AEC21B667963000748F0 /* icons_Cocoa.png */,
 				8335AEC31B667963000748F0 /* icons_Coconuts.png */,
 				8335AEC41B667963000748F0 /* icons_Coffee.png */,
-				8335AF891B667ED4000748F0 /* icons_Coltan_(tantalum_ore).png */,
+				8335AF891B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png */,
 				8335AEC51B667963000748F0 /* icons_Copper.png */,
 				8335AEC61B667963000748F0 /* icons_Corn.png */,
 				8335AEC71B667963000748F0 /* icons_Cotton.png */,
@@ -2772,7 +2780,7 @@
 				8335AEDE1B667963000748F0 /* icons_Gravel_(crushed_stones).png */,
 				8335AFB51B6681AA000748F0 /* icons_Gypsum_(mineral).png */,
 				8335AEE01B667963000748F0 /* icons_Hazelnuts.png */,
-				8335AF971B667F9C000748F0 /* icons_Heterogenite_(cobalt_ore).png */,
+				8335AF971B667F9C000748F0 /* icons_Cobalt_ore_(heterogenite).png */,
 				8335AEE11B667963000748F0 /* icons_Hogs.png */,
 				8335AEE21B667963000748F0 /* icons_Incense_(agarbatti).png */,
 				8335AEE31B667963000748F0 /* icons_Iron.png */,
@@ -2840,7 +2848,7 @@
 				8335AF121B667963000748F0 /* icons_Toys.png */,
 				8335AF131B667963000748F0 /* icons_Vanilla.png */,
 				8335AF141B667963000748F0 /* icons_Wheat.png */,
-				8335AFB11B668126000748F0 /* icons_Wolframite_(tungsten_ore).png */,
+				8335AFB11B668126000748F0 /* icons_Tungsten_ore_(wolframite).png */,
 				8335AF151B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png */,
 				8335AFB31B66813A000748F0 /* icons_Zinc.png */,
 			);
@@ -2861,6 +2869,7 @@
 				8356179E1BD7DE78007BCF75 /* Bahrain.pdf */,
 				8356179F1BD7DE78007BCF75 /* Bangladesh.pdf */,
 				835617A11BD7DE78007BCF75 /* Belize.pdf */,
+				ED3D28051F58A3A4004DFC9B /* Burma.pdf */,
 				835617A21BD7DE78007BCF75 /* Benin.pdf */,
 				835617A31BD7DE78007BCF75 /* Bhutan.pdf */,
 				835617A41BD7DE78007BCF75 /* Bolivia.pdf */,
@@ -3050,10 +3059,12 @@
 				38BC75351CEECBBD00C53216 /* CoordTableViewController.swift */,
 				83A3B11D1B6BCEF1002380E6 /* MoreInfoController.swift */,
 				834D8DA61B4C5EFA001CD795 /* StatisticsTableViewController.swift */,
+				ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */,
 				834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */,
 				38BC75311CE99C9200C53216 /* EnforcementTableViewController.swift */,
 				38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */,
 				38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */,
+				ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */,
 				38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */,
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
@@ -3076,11 +3087,12 @@
 				83B05CD31B9F1DE400A0F53A /* countries_for_app.xml */,
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
 				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
-				38CA953D1D4BAF2400319316 /* goods_2015.xml */,
+				38CA953D1D4BAF2400319316 /* goods_2016.xml */,
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
-				380048731D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf */,
-				380048741D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf */,
-				380048751D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf */,
+				ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */,
+				380048731D8B991C00E64714 /* TDA.pdf */,
+				380048741D8B991C00E64714 /* EO.pdf */,
+				380048751D8B991C00E64714 /* TVPRA.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
 				38CA953B1D4BAEF200319316 /* countries_2016.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
@@ -3182,6 +3194,7 @@
 				TargetAttributes = {
 					83800C761AA4D40300DD47EB = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 48V65NRFBL;
 						LastSwiftMigration = 0830;
 					};
 					83800C8B1AA4D40300DD47EB = {
@@ -3254,7 +3267,8 @@
 				83AD12531B668E71004B92D3 /* icons_Blueberries-33@3x.png in Resources */,
 				8356185F1BD7DE79007BCF75 /* Kiribati.pdf in Resources */,
 				8303DFB51B41F21A00E4FD42 /* Papua New Guinea-map.png in Resources */,
-				3800487A1D8B991C00E64714 /* Fact Sheet-Programming-2016-lo.pdf in Resources */,
+				3800487A1D8B991C00E64714 /* TDA.pdf in Resources */,
+				ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */,
 				8310FF2A1ABB11310025F7AE /* Sri_Lanka.png in Resources */,
 				8335AE9B1B6678A5000748F0 /* Albania-map.png in Resources */,
 				8303DF771B41F21A00E4FD42 /* Chad-map.png in Resources */,
@@ -3296,7 +3310,7 @@
 				8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */,
 				8335AF6D1B667963000748F0 /* icons_Silk_Fabric.png in Resources */,
 				8356184B1BD7DE79007BCF75 /* Falkland Islands (Islas Malvinas).pdf in Resources */,
-				83AD13A71B669137004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@2x.png in Resources */,
+				83AD13A71B669137004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png in Resources */,
 				8310FE7E1ABB11310025F7AE /* Bahrain.png in Resources */,
 				8310FECB1ABB11310025F7AE /* Iran.png in Resources */,
 				83AD12B31B668E71004B92D3 /* icons_Shrimp-33@3x.png in Resources */,
@@ -3424,7 +3438,7 @@
 				8335AF7B1B667963000748F0 /* icons_Timber.png in Resources */,
 				83AD13BF1B669137004B92D3 /* icons_Pornography-33@2x.png in Resources */,
 				83AD12CF1B668E71004B92D3 /* icons_Toys-33@3x.png in Resources */,
-				38CA953E1D4BAF2400319316 /* goods_2015.xml in Resources */,
+				38CA953E1D4BAF2400319316 /* goods_2016.xml in Resources */,
 				8356188F1BD7DE79007BCF75 /* Sri Lanka.pdf in Resources */,
 				8335AF6E1B667963000748F0 /* icons_Silver.png in Resources */,
 				8303DFA61B41F21A00E4FD42 /* Mauritania-map.png in Resources */,
@@ -3439,7 +3453,7 @@
 				8310FF041ABB11310025F7AE /* Pakistan.png in Resources */,
 				8335AF391B667963000748F0 /* icons_Eggplants.png in Resources */,
 				835618521BD7DE79007BCF75 /* Guatemala.pdf in Resources */,
-				3800487C1D8B991C00E64714 /* Fact Sheet-Reports-lo.pdf in Resources */,
+				3800487C1D8B991C00E64714 /* TVPRA.pdf in Resources */,
 				8335AF2E1B667963000748F0 /* icons_Coca_(stimulant_plant).png in Resources */,
 				835618841BD7DE79007BCF75 /* Saint Vincent and the Grenadines.pdf in Resources */,
 				8303DFC81B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png in Resources */,
@@ -3525,7 +3539,7 @@
 				83AD12681B668E71004B92D3 /* icons_Cocoa-33@3x.png in Resources */,
 				8310FEA41ABB11310025F7AE /* Congo,_Democratic_Republic_of_the.png in Resources */,
 				835618A01BD7DE79007BCF75 /* Vanuatu.pdf in Resources */,
-				83AD125C1B668E71004B92D3 /* icons_Cassiterite_(tin_ore)-33@3x.png in Resources */,
+				83AD125C1B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */,
 				38CA954F1D4FF4F200319316 /* icons_Potatoes-33@3x.png in Resources */,
 				8303DFD21B41F21A00E4FD42 /* Tuvalu-map.png in Resources */,
 				835618201BD7DE79007BCF75 /* Albania.pdf in Resources */,
@@ -3551,7 +3565,7 @@
 				8310FF391ABB11310025F7AE /* Trinidad_and_Tobago.png in Resources */,
 				83AD12A91B668E71004B92D3 /* icons_Pulses_(legumes)-33@3x.png in Resources */,
 				83AD13B81B669137004B92D3 /* icons_Oil_(Palm)-33@2x.png in Resources */,
-				3800487B1D8B991C00E64714 /* Fact Sheet-Regional-2016-lo.pdf in Resources */,
+				3800487B1D8B991C00E64714 /* EO.pdf in Resources */,
 				8335AF511B667963000748F0 /* icons_Jade.png in Resources */,
 				8303DF6A1B41F21A00E4FD42 /* Belize-map.png in Resources */,
 				83AD12781B668E71004B92D3 /* icons_Fashion_Accessories-33@3x.png in Resources */,
@@ -3580,13 +3594,13 @@
 				83AD129C1B668E71004B92D3 /* icons_Minerals-33@3x.png in Resources */,
 				83AD12CA1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png in Resources */,
 				83AD13D51B669137004B92D3 /* icons_Stones-33@2x.png in Resources */,
-				8335AF881B667E66000748F0 /* icons_Cassiterite_(tin_ore).png in Resources */,
+				8335AF881B667E66000748F0 /* icons_Tin_ore_(cassiterite).png in Resources */,
 				8347AA061B3F589000C439BA /* Cocos_(Keeling)_Islands.png in Resources */,
 				835618601BD7DE79007BCF75 /* Kosovo.pdf in Resources */,
 				8335AF941B667F78000748F0 /* icons_Granite_(crushed).png in Resources */,
 				83AD12811B668E71004B92D3 /* icons_Furniture-33@3x.png in Resources */,
 				8303DFD11B41F21A00E4FD42 /* Turkey-map.png in Resources */,
-				83AD12D31B668E71004B92D3 /* icons_Wolframite_(tungsten_ore)-33@3x.png in Resources */,
+				83AD12D31B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png in Resources */,
 				83AD13871B669137004B92D3 /* icons_Cottonseed_(hybrid)-33@2x.png in Resources */,
 				8335AFA01B66803E000748F0 /* icons_Silk_Thread.png in Resources */,
 				8303DFA71B41F21A00E4FD42 /* Mauritius-map.png in Resources */,
@@ -3676,6 +3690,7 @@
 				8310FF2E1ABB11310025F7AE /* Sweden.png in Resources */,
 				83AD13DE1B669137004B92D3 /* icons_Textiles_(hand-woven)-33@2x.png in Resources */,
 				8356186B1BD7DE79007BCF75 /* Mauritius.pdf in Resources */,
+				ED3D28061F58A3A4004DFC9B /* Burma.pdf in Resources */,
 				83AD13CE1B669137004B92D3 /* icons_Silver-33@2x.png in Resources */,
 				8310FF321ABB11310025F7AE /* Tajikistan.png in Resources */,
 				83AD13A51B669137004B92D3 /* icons_Gypsum_(mineral)-33@2x.png in Resources */,
@@ -3712,7 +3727,7 @@
 				8335AF3A1B667963000748F0 /* icons_Electronics.png in Resources */,
 				8335AF5A1B667963000748F0 /* icons_Olives.png in Resources */,
 				8310FECC1ABB11310025F7AE /* Iraq.png in Resources */,
-				8335AFB21B668126000748F0 /* icons_Wolframite_(tungsten_ore).png in Resources */,
+				8335AFB21B668126000748F0 /* icons_Tungsten_ore_(wolframite).png in Resources */,
 				8303DF801B41F21A00E4FD42 /* Dominican Republic-map.png in Resources */,
 				83AD125B1B668E71004B92D3 /* icons_Cassava-33@3x.png in Resources */,
 				8335AF9C1B667FC6000748F0 /* icons_Meat.png in Resources */,
@@ -3734,7 +3749,7 @@
 				8303DFA81B41F21A00E4FD42 /* Moldova, Republic of-map.png in Resources */,
 				8310FF051ABB11310025F7AE /* Palau.png in Resources */,
 				83AD125D1B668E71004B92D3 /* icons_Cattle-33@3x.png in Resources */,
-				8335AF8A1B667ED4000748F0 /* icons_Coltan_(tantalum_ore).png in Resources */,
+				8335AF8A1B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png in Resources */,
 				83AD13CF1B669137004B92D3 /* icons_Sisal-33@2x.png in Resources */,
 				83AD13B21B669137004B92D3 /* icons_Meat-33@2x.png in Resources */,
 				8335AF7A1B667963000748F0 /* icons_Textiles.png in Resources */,
@@ -3759,7 +3774,7 @@
 				8335AF471B667963000748F0 /* icons_Glass.png in Resources */,
 				8310FE981ABB11310025F7AE /* China.png in Resources */,
 				8335AF7C1B667963000748F0 /* icons_Tin.png in Resources */,
-				83AD128F1B668E71004B92D3 /* icons_Heterogenite_(cobalt_ore)-33@3x.png in Resources */,
+				83AD128F1B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png in Resources */,
 				8335AF5E1B667963000748F0 /* icons_Peanuts.png in Resources */,
 				8323630D1AF6737000FA8B55 /* South_Sudan.png in Resources */,
 				8335AF841B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png in Resources */,
@@ -3788,7 +3803,7 @@
 				8356185A1BD7DE79007BCF75 /* Iraq.pdf in Resources */,
 				8335AF8C1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png in Resources */,
 				8310FF2D1ABB11310025F7AE /* Swaziland.png in Resources */,
-				83AD13741B669137004B92D3 /* icons_Cassiterite_(tin_ore)-33@2x.png in Resources */,
+				83AD13741B669137004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */,
 				8303DF7A1B41F21A00E4FD42 /* Comoros-map.png in Resources */,
 				8303DFC61B41F21A00E4FD42 /* St. Kitts-map.png in Resources */,
 				8303DF6B1B41F21A00E4FD42 /* Benin-map.png in Resources */,
@@ -3915,7 +3930,7 @@
 				8335AEA71B667919000748F0 /* Yemen-map.png in Resources */,
 				8303DF711B41F21A00E4FD42 /* Burkina Faso-map.png in Resources */,
 				83232C3A1B87552200A0D49F /* Background.png in Resources */,
-				83AD126B1B668E71004B92D3 /* icons_Coltan_(tantalum_ore)-33@3x.png in Resources */,
+				83AD126B1B668E71004B92D3 /* icons_Tantalum_ore_(coltan)-33@3x.png in Resources */,
 				8310FF361ABB11310025F7AE /* Timor-Leste.png in Resources */,
 				8356188A1BD7DE79007BCF75 /* Sierra Leone.pdf in Resources */,
 				83AD139E1B669137004B92D3 /* icons_Glass-33@2x.png in Resources */,
@@ -3976,7 +3991,7 @@
 				8303DF891B41F21A00E4FD42 /* Gabon-map.png in Resources */,
 				8310FEF11ABB11310025F7AE /* Mongolia.png in Resources */,
 				8356185C1BD7DE79007BCF75 /* Jordan.pdf in Resources */,
-				83AD13EB1B669137004B92D3 /* icons_Wolframite_(tungsten_ore)-33@2x.png in Resources */,
+				83AD13EB1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png in Resources */,
 				8303DFA31B41F21A00E4FD42 /* Malawi-map.png in Resources */,
 				835618531BD7DE79007BCF75 /* Guinea-Bissau.pdf in Resources */,
 				8335AF7E1B667963000748F0 /* icons_Tomatoes.png in Resources */,
@@ -3988,7 +4003,7 @@
 				83AD13801B669137004B92D3 /* icons_Cocoa-33@2x.png in Resources */,
 				8310FF1D1ABB11310025F7AE /* Serbia.png in Resources */,
 				83AD12641B668E71004B92D3 /* icons_Citrus_Fruits-33@3x.png in Resources */,
-				8335AF981B667F9C000748F0 /* icons_Heterogenite_(cobalt_ore).png in Resources */,
+				8335AF981B667F9C000748F0 /* icons_Cobalt_ore_(heterogenite).png in Resources */,
 				8335AF351B667963000748F0 /* icons_Cucumbers.png in Resources */,
 				83AD13E31B669137004B92D3 /* icons_Timber-33@2x.png in Resources */,
 				8335AFA61B6680A8000748F0 /* icons_Tanzanite_(gems).png in Resources */,
@@ -4094,7 +4109,7 @@
 				8310FE701ABB11310025F7AE /* Albania.png in Resources */,
 				8310FEBE1ABB11310025F7AE /* Grenada.png in Resources */,
 				83AD13D61B669137004B92D3 /* icons_Strawberries-33@2x.png in Resources */,
-				83AD13831B669137004B92D3 /* icons_Coltan_(tantalum_ore)-33@2x.png in Resources */,
+				83AD13831B669137004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png in Resources */,
 				8310FF3C1ABB11310025F7AE /* Turkmenistan.png in Resources */,
 				83AD13621B669137004B92D3 /* icons_Alcoholic_Beverages-33@2x.png in Resources */,
 				83AD13BD1B669137004B92D3 /* icons_Physic_Nuts_Castor_Beans-33@2x.png in Resources */,
@@ -4196,6 +4211,7 @@
 				38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */,
 				38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */,
 				38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */,
+				ED8FC8161F54630E0030B75A /* SomaliaTableViewController.swift in Sources */,
 				EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */,
 				EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */,
 				38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */,
@@ -4214,6 +4230,7 @@
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
+				ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */,
 				831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */,
 				83A3B11E1B6BCEF1002380E6 /* MoreInfoController.swift in Sources */,
 			);
@@ -4342,7 +4359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 48V65NRFBL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -4351,7 +4368,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gov.dol.ChildLabor;
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.icf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";
@@ -4366,7 +4383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 48V65NRFBL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -4375,7 +4392,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gov.dol.ChildLabor;
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.icf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Child Labor-Bridging-Header.h";

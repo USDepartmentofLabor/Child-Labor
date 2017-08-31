@@ -40,7 +40,7 @@ class GoodController: UITableViewController {
         goodTitle.text = goodName
         goodImage.image = UIImage(named:"icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_"))!
         
-        let urlPathGoods = Bundle.main.path(forResource: "goods_2015", ofType: "xml")
+        let urlPathGoods = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
         var contentsGoods: NSString?
         do {
             contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: String.Encoding.utf8.rawValue)
@@ -193,6 +193,7 @@ class GoodController: UITableViewController {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
                 cell.isUserInteractionEnabled = false
+                cell.accessibilityElementsHidden = true;
             }
         case 1:
             cl?.isHidden = true
@@ -206,6 +207,7 @@ class GoodController: UITableViewController {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
                 cell.isUserInteractionEnabled = false
+                cell.accessibilityElementsHidden = true;
             }
         case 2:
             cl?.isHidden = false
@@ -232,40 +234,7 @@ class GoodController: UITableViewController {
         return cell
     }
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
 
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
 
     @IBAction func filterChanged(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex

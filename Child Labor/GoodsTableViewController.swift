@@ -50,7 +50,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Populate the list
-        let urlPath = Bundle.main.path(forResource: "goods_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
         var contents: NSString?
         do {
             contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
@@ -85,6 +85,8 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         othGoodsAll = othGoods
         
         self.searchBarFilter.delegate = self
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

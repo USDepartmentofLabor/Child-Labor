@@ -34,15 +34,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
         tableView.dataSource = self
         tableView.delegate = self
         
-        let origImage = UIImage(named: "dol")
-        let tintedImage = origImage?.withRenderingMode(.alwaysTemplate)
-        dol_button.setImage(tintedImage, for: .normal)
-        dol_button.tintColor = .white
-        
-        let origImage1 = UIImage(named: "ilab")
-        let tintedImage1 = origImage1?.withRenderingMode(.alwaysTemplate)
-        ilab_button.setImage(tintedImage1, for: .normal)
-        ilab_button.tintColor = .white
+
         
     }
     

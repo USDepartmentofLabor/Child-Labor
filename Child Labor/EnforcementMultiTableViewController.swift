@@ -132,7 +132,7 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 5:
                 return "Unannounced Inspections:"
             case 6:
-                return nil
+                return "Referral Mechanisms"
             default:
                 return nil
             }
@@ -142,7 +142,7 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 0:
                 return "Training For Investigators"
             case 1:
-                return nil
+                return "Other Data"
                 
             default:
                 return nil

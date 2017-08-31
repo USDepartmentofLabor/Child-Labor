@@ -13,7 +13,7 @@ class LegalStandardsWrapperViewController: UIViewController {
     
     var countryName = "Brazil"
     
-    @IBOutlet weak var textView: UITextView!
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +43,6 @@ class LegalStandardsWrapperViewController: UIViewController {
     }
     
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        textView.setContentOffset(CGPoint.zero, animated: false)
-    }
+ 
  
 }

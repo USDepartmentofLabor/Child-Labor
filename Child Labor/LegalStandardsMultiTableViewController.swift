@@ -16,6 +16,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     var hasCombatFooter = false
     var combatRow = false
     
+    
     var sectionTerritories = Array<Array<XMLIndexer>>()
     var sectionTitles = Array<Array<String>>()
     
@@ -55,7 +56,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"], legalStandards["Minimum_Compulsory_Military"]])
                 sectionTerritories.append([legalStandards["Types_Hazardous_Work"]])
                 sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"], legalStandards["Minumum_Voluntary_Military"],
-                    legalStandards["Minumum_Non_State_Military"]])
+                                           legalStandards["Minumum_Non_State_Military"]])
                 sectionTerritories.append([legalStandards["Compulsory_Education"], legalStandards["Free_Public_Education"]])
             }
         }
@@ -83,29 +84,30 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
         switch section {
-            case 0:
-                return "Minimum Age For:"
-            case 1:
-                return "Identified:"
-            case 2:
-                return "Prohibition Of:"
-            case 3:
-                return "Education:"
-            default:
-                return "No Data"
+        case 0:
+            return "Minimum Age For:"
+        case 1:
+            return "Identified:"
+        case 2:
+            return "Prohibition Of:"
+        case 3:
+            return "Education:"
+        default:
+            return "No Data"
         }
     }
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3) {
-            var footer = "*: Please note the changes from last year. Last year a yes referred to the existence of relevant laws. This year the yes refers to meeting international standards."
+            var footer = "*: Please note the changes from last year. Last year, a yes referred to the existence of relevant laws. This year, the yes refers to meeting international standards."
             
             footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions."
             
             
-           
+            
             if (self.hasAgeFooter) {
                 footer += "\n\n‡ Age calculated based on available information"
+                
             }
             
             return footer
@@ -114,31 +116,36 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         return super.tableView(tableView, titleForFooterInSection: section)
     }
     
+    
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        if section == 3 {
+        
+        if (section == 3) {
+            
             return 170
+            
         }
         return UITableViewAutomaticDimension
     }
     
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         switch section {
-            case 0:
-                return 3
-            case 1:
-                return 1
-            case 2:
-                return 6
-            case 3:
-                return 2
-            default:
-                return 0
+        case 0:
+            return 3
+        case 1:
+            return 1
+        case 2:
+            return 6
+        case 3:
+            return 2
+        default:
+            return 0
         }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-     self.combatRow = ["State Compulsory Military Recruitment", "State Voluntary Military Recruitment"].contains(sectionTitles[indexPath.section][indexPath.row])
+        self.combatRow = ["State Compulsory Military Recruitment", "State Voluntary Military Recruitment"].contains(sectionTitles[indexPath.section][indexPath.row])
         
         let territories = sectionTerritories[indexPath.section][indexPath.row]
         
@@ -197,7 +204,20 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 accessibleText += ",note See country chapter for detailed information about this country’s laws and regulations "
             }
             
-            if (age != nil) {
+            
+            if (age == "N/A") {
+                labelText += ""
+                accessibleText += "Not Available"
+                if (calculatedAge) {
+                    self.hasAgeFooter = true
+                    labelText += "‡"
+                    accessibleText += ", age calculated based on available information "
+                }
+                
+            }
+                
+                
+            else if (age != nil) {
                 labelText += " (" + age!
                 accessibleText += ", " + age!
                 if (calculatedAge) {
@@ -242,5 +262,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
         }
     }
-
+    
+    
+    
+    
 }

@@ -23,10 +23,10 @@ class StatisticsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
@@ -60,25 +60,25 @@ class StatisticsTableViewController: UITableViewController {
                                         if ageRange.text! != "" {
                                             var numberWithCommas = "0"
                                             if ((totalWorking.text != nil && totalWorking.text! != "")) {
-                                                let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
+                                                let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue * 100.0))
                                                 let numberFormatter = NumberFormatter()
                                                 numberFormatter.numberStyle = NumberFormatter.Style.decimal
                                                 numberWithCommas = numberFormatter.string(from: NSNumber(value: largeNumber!))!
                                             }
-
+                                            
                                             if (numberWithCommas != "0") {
-                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
+                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue * 100.0) + "% (" + numberWithCommas + "; ages " + ageRange.text! + ")"
                                             }
                                             else {
-                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue) + "% (ages " + ageRange.text! + ")"
+                                                workingLabel.text = String(format: "%.1f", (percentageWorking.text! as NSString).floatValue * 100.0) + "% (ages " + ageRange.text! + ")"
                                             }
                                             workingLabel.textColor = UIColor.black
                                         }
                                     }
                                     
                                     if percentageWorking.text == "Unavailable" {
-                                    workingLabel.text = "Unavailable"
-                                    workingLabel.textColor = UIColor.black
+                                        workingLabel.text = "Unavailable"
+                                        workingLabel.textColor = UIColor.black
                                     }
                                     
                                 }
@@ -91,7 +91,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let agriculturePercentage = statistics["Children_Work_Statistics"]["Agriculture"].element {
                     if agriculturePercentage.text != nil {
                         if agriculturePercentage.text! != "" {
-                            agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue) + "%"
+                            agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text! as NSString).floatValue * 100.0) + "%"
                             agricultureLabel.textColor = UIColor.black
                         }
                     }
@@ -106,7 +106,7 @@ class StatisticsTableViewController: UITableViewController {
                 if let servicesPercentage = statistics["Children_Work_Statistics"]["Services"].element {
                     if servicesPercentage.text != nil {
                         if servicesPercentage.text! != "" {
-                            servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue) + "%"
+                            servicesLabel.text = String(format: "%.1f", (servicesPercentage.text! as NSString).floatValue * 100.0) + "%"
                             servicesLabel.textColor = UIColor.black
                         }
                     }
@@ -115,14 +115,14 @@ class StatisticsTableViewController: UITableViewController {
                         servicesLabel.text = "Unavailable"
                         servicesLabel.textColor = UIColor.black
                     }
-
+                    
                 }
                 
                 // Industry
                 if let industryPercentage = statistics["Children_Work_Statistics"]["Industry"].element {
                     if industryPercentage.text != nil {
                         if industryPercentage.text! != "" {
-                            industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue) + "%"
+                            industryLabel.text = String(format: "%.1f", (industryPercentage.text! as NSString).floatValue * 100.0) + "%"
                             industryLabel.textColor = UIColor.black
                         }
                     }
@@ -141,7 +141,7 @@ class StatisticsTableViewController: UITableViewController {
                             if attendingAgeRange.text != nil {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
-                                        attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue) + "% (ages " + attendingAgeRange.text! + ")"
+                                        attendingSchoolLabel.text = String(format: "%.1f", (attendingPercentage.text! as NSString).floatValue * 100.0) + "% (ages " + attendingAgeRange.text! + ")"
                                         attendingSchoolLabel.textColor = UIColor.black
                                     }
                                 }
@@ -161,7 +161,7 @@ class StatisticsTableViewController: UITableViewController {
                             if combiningAgeRange.text != nil {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
-                                        combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue) + "% (ages " + combiningAgeRange.text! + ")"
+                                        combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue * 100.0) + "% (ages " + combiningAgeRange.text! + ")"
                                         combiningWorkAndSchoolLabel.textColor = UIColor.black
                                     }
                                 }
@@ -179,9 +179,9 @@ class StatisticsTableViewController: UITableViewController {
                 if let primaryRate = statistics["UNESCO_Primary_Completion_Rate"]["Rate"].element {
                     if primaryRate.text != nil {
                         if primaryRate.text! != "" {
-                            primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue) + "%"
+                            primaryCompletionRateLabel.text = String(format: "%.1f", (primaryRate.text! as NSString).floatValue * 100.0) + "%"
                             primaryCompletionRateLabel.textColor = UIColor.black
-                       }
+                        }
                     }
                     
                     if primaryRate.text == "Unavailable"
@@ -194,8 +194,19 @@ class StatisticsTableViewController: UITableViewController {
                 break;
             }
         }
+  
     }
 
+
+
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    if (indexPath.row == 0 || indexPath.row == 1 || indexPath.row == 2) {
+        
+        
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 100000, bottom: 0, right: 0)
+    }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -210,62 +221,9 @@ class StatisticsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 4
+        return 7
     }
     
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
