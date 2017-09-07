@@ -996,6 +996,7 @@
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
 		ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */; };
+		ED2D4CFB1F60775A00DF1C45 /* Intro to OCFT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */; };
 		ED3D28061F58A3A4004DFC9B /* Burma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED3D28051F58A3A4004DFC9B /* Burma.pdf */; };
 		ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */; };
 		ED8FC8161F54630E0030B75A /* SomaliaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */; };
@@ -2018,6 +2019,7 @@
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
 		ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intro to OCFT.pdf"; sourceTree = "<group>"; };
 		ED3D28051F58A3A4004DFC9B /* Burma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Burma.pdf; sourceTree = "<group>"; };
 		ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarAppTableViewController.swift; sourceTree = "<group>"; };
 		ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaTableViewController.swift; sourceTree = "<group>"; };
@@ -3091,6 +3093,7 @@
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
 				ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */,
 				380048731D8B991C00E64714 /* TDA.pdf */,
+				ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */,
 				380048741D8B991C00E64714 /* EO.pdf */,
 				380048751D8B991C00E64714 /* TVPRA.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
@@ -3988,6 +3991,7 @@
 				8310FF191ABB11310025F7AE /* San_Marino.png in Resources */,
 				8303DFAD1B41F21A00E4FD42 /* Namibia-map.png in Resources */,
 				83AD12841B668E71004B92D3 /* icons_Gems-33@3x.png in Resources */,
+				ED2D4CFB1F60775A00DF1C45 /* Intro to OCFT.pdf in Resources */,
 				8303DF891B41F21A00E4FD42 /* Gabon-map.png in Resources */,
 				8310FEF11ABB11310025F7AE /* Mongolia.png in Resources */,
 				8356185C1BD7DE79007BCF75 /* Jordan.pdf in Resources */,

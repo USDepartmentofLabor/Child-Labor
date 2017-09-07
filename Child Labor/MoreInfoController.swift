@@ -103,7 +103,7 @@ class MoreInfoController: UITableViewController {
             destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
         } else if segue.identifier == "presentOCFTFactSheet" {
             let destinationViewController = segue.destination as! FactSheetViewController
-            destinationViewController.factSheet = "Fact Sheet-OFCT-2016-lo"
+            destinationViewController.factSheet = "Intro to OCFT"
         } else if segue.identifier == "presentTDAFactSheet" {
             let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "TDA"

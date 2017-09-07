@@ -60,7 +60,7 @@ class StatisticsTableViewController: UITableViewController {
                                         if ageRange.text! != "" {
                                             var numberWithCommas = "0"
                                             if ((totalWorking.text != nil && totalWorking.text! != "")) {
-                                                let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue * 100.0))
+                                                let largeNumber = Int(String(format: "%.f", (totalWorking.text! as NSString).floatValue))
                                                 let numberFormatter = NumberFormatter()
                                                 numberFormatter.numberStyle = NumberFormatter.Style.decimal
                                                 numberWithCommas = numberFormatter.string(from: NSNumber(value: largeNumber!))!
@@ -78,6 +78,11 @@ class StatisticsTableViewController: UITableViewController {
                                     
                                     if percentageWorking.text == "Unavailable" {
                                         workingLabel.text = "Unavailable"
+                                        workingLabel.textColor = UIColor.black
+                                    }
+                                    
+                                    if percentageWorking.text == "N/A" {
+                                        workingLabel.text = "N/A"
                                         workingLabel.textColor = UIColor.black
                                     }
                                     
@@ -100,6 +105,12 @@ class StatisticsTableViewController: UITableViewController {
                         agricultureLabel.text = "Unavailable"
                         agricultureLabel.textColor = UIColor.black
                     }
+                    if agriculturePercentage.text == "N/A"
+                    {
+                        agricultureLabel.text = "N/A"
+                        agricultureLabel.textColor = UIColor.black
+                    }
+                   
                 }
                 
                 // Services
@@ -115,7 +126,12 @@ class StatisticsTableViewController: UITableViewController {
                         servicesLabel.text = "Unavailable"
                         servicesLabel.textColor = UIColor.black
                     }
-                    
+                    if servicesPercentage.text == "N/A"
+                    {
+                        servicesLabel.text = "N/A"
+                        servicesLabel.textColor = UIColor.black
+                    }
+                   
                 }
                 
                 // Industry
@@ -131,13 +147,28 @@ class StatisticsTableViewController: UITableViewController {
                         industryLabel.text = "Unavailable"
                         industryLabel.textColor = UIColor.black
                     }
-                    
+                    if industryPercentage.text == "N/A"
+                    {
+                        industryLabel.text = "N/A"
+                        industryLabel.textColor = UIColor.black
+                    }
                 }
                 
                 // Attending School
                 if let attendingPercentage = statistics["Education_Statistics_Attendance_Statistics"]["Percentage"].element {
                     if let attendingAgeRange = statistics["Education_Statistics_Attendance_Statistics"]["Age_Range"].element {
                         if attendingPercentage.text != nil {
+                            if attendingPercentage.text == "Unavailable"
+                            {
+                                attendingSchoolLabel.text = "Unavailable"
+                                attendingSchoolLabel.textColor = UIColor.black
+                            }
+                            else if attendingPercentage.text == "N/A"
+                            {
+                                attendingSchoolLabel.text = "N/A"
+                                attendingSchoolLabel.textColor = UIColor.black
+                            }
+                            else {
                             if attendingAgeRange.text != nil {
                                 if attendingPercentage.text! != "" {
                                     if attendingAgeRange.text! != "" {
@@ -145,10 +176,8 @@ class StatisticsTableViewController: UITableViewController {
                                         attendingSchoolLabel.textColor = UIColor.black
                                     }
                                 }
-                                if attendingPercentage.text == "Unavailable"
-                                {
-                                    attendingSchoolLabel.text = "Unavailable"
-                                }
+                                
+                            }
                             }
                         }
                     }
@@ -158,6 +187,19 @@ class StatisticsTableViewController: UITableViewController {
                 if let combiningPercentage = statistics["Children_Working_and_Studying_7-14_yrs_old"]["Total"].element {
                     if let combiningAgeRange = statistics["Children_Working_and_Studying_7-14_yrs_old"]["Age_Range"].element {
                         if combiningPercentage.text != nil {
+                            
+                            if combiningPercentage.text == "Unavailable"
+                            {
+                                combiningWorkAndSchoolLabel.text = "Unavailable"
+                                combiningWorkAndSchoolLabel.textColor = UIColor.black
+                            }
+                            
+                            if combiningPercentage.text == "N/A"
+                            {
+                                combiningWorkAndSchoolLabel.text = "N/A"
+                                combiningWorkAndSchoolLabel.textColor = UIColor.black
+                            }
+                            else{
                             if combiningAgeRange.text != nil {
                                 if combiningPercentage.text! != "" {
                                     if combiningAgeRange.text! != "" {
@@ -167,11 +209,9 @@ class StatisticsTableViewController: UITableViewController {
                                 }
                             }
                         }
-                        
-                        if combiningPercentage.text == "Unavailable"
-                        {
-                            combiningWorkAndSchoolLabel.text = "Unavailable"
                         }
+                        
+                        
                     }
                 }
                 
@@ -187,6 +227,12 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text == "Unavailable"
                     {
                         primaryCompletionRateLabel.text = "Unavailable"
+                        primaryCompletionRateLabel.textColor = UIColor.black
+                    }
+                    
+                    if primaryRate.text == "N/A"
+                    {
+                        primaryCompletionRateLabel.text = "N/A"
                         primaryCompletionRateLabel.textColor = UIColor.black
                     }
                 }

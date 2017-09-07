@@ -53,17 +53,19 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             if country["Name"].element?.text == self.countryName {
                 let legalStandards = country["Legal_Standards"]
                 
-                sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"], legalStandards["Minimum_Compulsory_Military"]])
+                sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"],legalStandards["Minumum_Voluntary_Military"]])
                 sectionTerritories.append([legalStandards["Types_Hazardous_Work"]])
-                sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"], legalStandards["Minumum_Voluntary_Military"],
+                sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"],
+                                           legalStandards["Minimum_Compulsory_Military"],
+                                           
                                            legalStandards["Minumum_Non_State_Military"]])
                 sectionTerritories.append([legalStandards["Compulsory_Education"], legalStandards["Free_Public_Education"]])
             }
         }
         
-        sectionTitles.append(["Work", "Hazardous Work", "State Compulsory Military Recruitment"])
+        sectionTitles.append(["Work", "Hazardous Work", "State Voluntary Military Recruitment"])
         sectionTitles.append(["Types of Hazardous Work"])
-        sectionTitles.append(["Forced Labor", "Child Trafficking", "CSEC", "Using Children in Illicit Activities", "State Voluntary Military Recruitment", "Non-State Military Recruitment"])
+        sectionTitles.append(["Forced Labor", "Child Trafficking", "CSEC", "Using Children in Illicit Activities", "State Compulsory Military Recruitment", "Non-State Military Recruitment"])
         sectionTitles.append(["Compulsory Education Age", "Free Public Education"])
     }
     
@@ -99,7 +101,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3) {
-            var footer = "*: Please note the changes from last year. Last year, a yes referred to the existence of relevant laws. This year, the yes refers to meeting international standards."
+            var footer = "*: Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard.”"
             
             footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions."
             
@@ -121,7 +123,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         if (section == 3) {
             
-            return 170
+            return 185
             
         }
         return UITableViewAutomaticDimension

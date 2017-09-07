@@ -88,7 +88,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Secretary's Forward" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qXf-Ra-KIJ">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Secretary's Foreward" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qXf-Ra-KIJ">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -160,7 +160,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="An Introduction to OCFT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z2e-3K-X3K">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="An Intro to OCFT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z2e-3K-X3K">
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -990,9 +990,9 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hA-UE-Ae9">
                                         <rect key="frame" x="0.0" y="0.0" width="305" height="75"/>
-                                        <string key="text">*Meets
+                                        <string key="text">Meets
 International
-Standards</string>
+Standards*</string>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -2595,9 +2595,9 @@ and School</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8Z-xg-6Qi">
                                         <rect key="frame" x="0.0" y="0.0" width="305" height="75"/>
-                                        <string key="text">*Meets
+                                        <string key="text">Meets
 International
-Standards                                           </string>
+Standards*                                           </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -4112,10 +4112,10 @@ Standards                                           </string>
             </objects>
             <point key="canvasLocation" x="1927" y="-1570"/>
         </scene>
-        <!--Other Mechanisms-->
+        <!--Coordinating Mechanisms-->
         <scene sceneID="SLr-Hb-XJD">
             <objects>
-                <tableViewController title="Other Mechanisms" id="rVB-D3-N3d" customClass="CoordTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Coordinating Mechanisms" id="rVB-D3-N3d" customClass="CoordTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="80" sectionHeaderHeight="10" sectionFooterHeight="10" id="cjK-2m-Tl8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4323,7 +4323,7 @@ Standards                                           </string>
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Compulsory Military Recruitment" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cql-cC-QAY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Voluntary Military Recruitment" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cql-cC-QAY">
                                                     <rect key="frame" x="18" y="16" width="194" height="47"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4517,7 +4517,7 @@ Standards                                           </string>
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Voluntary Military Recruitment" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCo-m9-sRT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Compulsory Military Recruitment" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCo-m9-sRT">
                                                     <rect key="frame" x="18" y="16" width="144" height="47"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4649,9 +4649,9 @@ Standards                                           </string>
                     <connections>
                         <outlet property="compulsoryEducationLabel" destination="D9i-aW-i14" id="WRB-kb-QC0"/>
                         <outlet property="freePublicEducationLabel" destination="bhi-32-9St" id="Auc-ax-n0v"/>
-                        <outlet property="minimumComplusoryMilitaryLabel" destination="IzO-iu-G4V" id="RfZ-CG-6vW"/>
+                        <outlet property="minimumComplusoryMilitaryLabel" destination="jR7-PG-9lZ" id="TvP-er-BON"/>
                         <outlet property="minimumHazardousWorkLabel" destination="JeZ-KS-LFd" id="d4d-3b-d5C"/>
-                        <outlet property="minimumVoluntaryMilitaryLabel" destination="jR7-PG-9lZ" id="W4N-cy-u3A"/>
+                        <outlet property="minimumVoluntaryMilitaryLabel" destination="IzO-iu-G4V" id="ToT-Es-bWL"/>
                         <outlet property="minimumWorkLabel" destination="UnY-VA-8BA" id="HMP-dI-GTf"/>
                         <outlet property="nsCompulsoryMilitary" destination="EIr-eu-pjT" id="zPj-fp-UKW"/>
                         <outlet property="prohibitionCSECLabel" destination="9Ut-cF-3me" id="FAK-Q8-bKh"/>
@@ -4665,10 +4665,10 @@ Standards                                           </string>
             </objects>
             <point key="canvasLocation" x="2638" y="-822"/>
         </scene>
-        <!--Similar Apps-->
+        <!--New: Toolkit for Businesses-->
         <scene sceneID="YBZ-KV-A9j">
             <objects>
-                <tableViewController title="Similar Apps" id="XcD-GG-1SX" customClass="SimilarAppTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="New: Toolkit for Businesses" id="XcD-GG-1SX" customClass="SimilarAppTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="80" sectionHeaderHeight="10" sectionFooterHeight="10" id="bx5-QV-HSU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

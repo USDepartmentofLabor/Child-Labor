@@ -190,7 +190,7 @@ class LegalStandardsTableViewController: UITableViewController {
         if (section == 3 )
         {
             
-            var footer = "*: Please note the changes from last year. Last year, a yes referred to the existence of relevant laws. This year, the yes refers to meeting international standards."
+            var footer = "*: Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard.”"
             
            footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions.\n"
             

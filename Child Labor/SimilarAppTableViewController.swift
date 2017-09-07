@@ -50,14 +50,10 @@ class SimilarAppTableViewController: UITableViewController {
     
     
     @IBAction func openApp1(_ sender: AnyObject) {
-        
-        UIApplication.shared.openURL(URL(string: "itms-apps://itunes.apple.com/app/id" + "469229784")!)
+        UIApplication.shared.openURL(URL(string: "https://www.dol.gov/ComplyChain")!)
+ //       UIApplication.shared.openURL(URL(string: "itms-apps://itunes.apple.com/app/id" + "469229784")!)
     }
     
-    @IBAction func openApp2(_ sender: AnyObject) {
-        
-       UIApplication.shared.openURL(URL(string: "itms-apps://itunes.apple.com/app/id" + "469229784")!)
-    }
-    
+
     
 }
