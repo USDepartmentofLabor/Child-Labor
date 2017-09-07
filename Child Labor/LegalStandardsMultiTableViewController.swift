@@ -123,7 +123,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         if (section == 3) {
             
-            return 185
+            return 200
             
         }
         return UITableViewAutomaticDimension
