@@ -112,6 +112,10 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 
             }
             
+            else{
+                footer += "\n\n"
+            }
+            
             return footer
         }
         
