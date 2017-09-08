@@ -7739,25 +7739,7 @@
     <Description>In 2016, the Democratic Republic of the Congo made a significant advancement in efforts to eliminate the worst forms of child labor. The Government adopted a revision to the Labor Code that raised the minimum age of work to 18 and launched a Human Development Systems Strengthening Project that aims to increase access to birth registration and improve school infrastructure. As part of its Child Soldiers Action Plan, the Joint Technical Working Group established new committees in Tanganyika and North Kivu and validated standard operating procedures for age verification in military recruitment. The Government also worked with the UN to investigate individuals accused of forcibly recruiting children and initiated plans for making reparations to former child soldiers. However, children in the Democratic Republic of the Congo continue to engage in the worst forms of child labor, including in the forced mining of gold, tin ore (cassiterite), tantalum ore (coltan), and tungsten ore (wolframite), and are used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups. A lack of trained personnel, resources, and poor coordination hampered the Government’s efforts to combat child labor, and laws mandating free primary education are not enforced.</Description>
     <Goods>
       <Good>
-        <Good_Name>Tin ore (cassiterite)</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Tantalum ore (coltan)</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
         <Good_Name>Copper</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -7769,11 +7751,29 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Diamonds</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>	  
+      <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
+      <Good>
+        <Good_Name>Tantalum ore (coltan)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>	
+      <Good>
+        <Good_Name>Tin ore (cassiterite)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>	  
       <Good>
         <Good_Name>Tungsten ore (wolframite)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
