@@ -97,6 +97,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentSecretaryForward" id="GQC-PM-1fW"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="QKR-yU-3UX" style="IBUITableViewCellStyleDefault" id="gN1-0C-dau">
                                         <rect key="frame" x="0.0" y="187" width="320" height="44"/>
@@ -169,9 +172,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentOCFTFactSheet" id="yAD-Cl-esb"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -5369,8 +5369,8 @@ Standards*                                           </string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3NZ-qU-LZw"/>
-        <segue reference="yAD-Cl-esb"/>
-        <segue reference="UrS-Cc-ziQ"/>
         <segue reference="xQ3-Ct-UlW"/>
+        <segue reference="UrS-Cc-ziQ"/>
+        <segue reference="GQC-PM-1fW"/>
     </inferredMetricsTieBreakers>
 </document>

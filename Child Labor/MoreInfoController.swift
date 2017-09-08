@@ -60,19 +60,24 @@ class MoreInfoController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (indexPath.section == 1) {
             switch indexPath.row {
-             // to be replaced
-            case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
-                break
-            // to be replaced
+             
             case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/2015TDAMagazine.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDAMagazine.pdf")!)
                 break
             case 2:
                 UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
                 break
             case 3:
                 UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
+            default:
+                break
+            }
+        }
+        
+        if (indexPath.section == 2) {
+            switch indexPath.row {
+                case 0:
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/OCFTBooklet.pdf")!)
             default:
                 break
             }
@@ -101,9 +106,9 @@ class MoreInfoController: UITableViewController {
         } else if segue.identifier == "presentReportIntroduction" {
             let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
-        } else if segue.identifier == "presentOCFTFactSheet" {
+        } else if segue.identifier == "presentSecretaryForward" {
             let destinationViewController = segue.destination as! FactSheetViewController
-            destinationViewController.factSheet = "Intro to OCFT"
+            destinationViewController.factSheet = "TDA-foreword-2017"
         } else if segue.identifier == "presentTDAFactSheet" {
             let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "TDA"

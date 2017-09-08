@@ -663,7 +663,6 @@
 		835618A01BD7DE79007BCF75 /* Vanuatu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618171BD7DE79007BCF75 /* Vanuatu.pdf */; };
 		835618A11BD7DE79007BCF75 /* Venezuela.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618181BD7DE79007BCF75 /* Venezuela.pdf */; };
 		835618A21BD7DE79007BCF75 /* Wallis and Futuna.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618191BD7DE79007BCF75 /* Wallis and Futuna.pdf */; };
-		835618A31BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181A1BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf */; };
 		835618A41BD7DE79007BCF75 /* Western Sahara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181B1BD7DE79007BCF75 /* Western Sahara.pdf */; };
 		835618A51BD7DE79007BCF75 /* Yemen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181C1BD7DE79007BCF75 /* Yemen.pdf */; };
 		835618A61BD7DE79007BCF75 /* Zambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356181D1BD7DE79007BCF75 /* Zambia.pdf */; };
@@ -995,9 +994,11 @@
 		D6C31BA91C6EAE1D00BA9DB0 /* flag-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */; };
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
+		ED00BD8B1F61E1E300541AA4 /* TDA-foreword-2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */; };
 		ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */; };
 		ED2D4CFB1F60775A00DF1C45 /* Intro to OCFT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */; };
 		ED3D28061F58A3A4004DFC9B /* Burma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED3D28051F58A3A4004DFC9B /* Burma.pdf */; };
+		ED7B331F1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED7B331E1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf */; };
 		ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */; };
 		ED8FC8161F54630E0030B75A /* SomaliaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */; };
 		EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */; };
@@ -1671,7 +1672,6 @@
 		835618171BD7DE79007BCF75 /* Vanuatu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Vanuatu.pdf; sourceTree = "<group>"; };
 		835618181BD7DE79007BCF75 /* Venezuela.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Venezuela.pdf; sourceTree = "<group>"; };
 		835618191BD7DE79007BCF75 /* Wallis and Futuna.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Wallis and Futuna.pdf"; sourceTree = "<group>"; };
-		8356181A1BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "West Bank & Gaza Strip.pdf"; sourceTree = "<group>"; };
 		8356181B1BD7DE79007BCF75 /* Western Sahara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Western Sahara.pdf"; sourceTree = "<group>"; };
 		8356181C1BD7DE79007BCF75 /* Yemen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Yemen.pdf; sourceTree = "<group>"; };
 		8356181D1BD7DE79007BCF75 /* Zambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zambia.pdf; sourceTree = "<group>"; };
@@ -2018,9 +2018,11 @@
 		D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-outline@3x.png"; sourceTree = "<group>"; };
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
+		ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2017.pdf"; sourceTree = "<group>"; };
 		ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intro to OCFT.pdf"; sourceTree = "<group>"; };
 		ED3D28051F58A3A4004DFC9B /* Burma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Burma.pdf; sourceTree = "<group>"; };
+		ED7B331E1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "West Bank and the Gaza Strip.pdf"; sourceTree = "<group>"; };
 		ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarAppTableViewController.swift; sourceTree = "<group>"; };
 		ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaTableViewController.swift; sourceTree = "<group>"; };
 		EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiWrapperViewController.swift; sourceTree = "<group>"; };
@@ -2990,9 +2992,9 @@
 				835618171BD7DE79007BCF75 /* Vanuatu.pdf */,
 				835618181BD7DE79007BCF75 /* Venezuela.pdf */,
 				835618191BD7DE79007BCF75 /* Wallis and Futuna.pdf */,
-				8356181A1BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf */,
 				8356181B1BD7DE79007BCF75 /* Western Sahara.pdf */,
 				8356181C1BD7DE79007BCF75 /* Yemen.pdf */,
+				ED7B331E1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf */,
 				8356181D1BD7DE79007BCF75 /* Zambia.pdf */,
 				8356181E1BD7DE79007BCF75 /* Zimbabwe.pdf */,
 			);
@@ -3106,6 +3108,7 @@
 				83B3E9851B3B519300742BC7 /* forced-labor@3x.png */,
 				83B3E9871B3B519300742BC7 /* forced-labor@2x.png */,
 				83B3E9881B3B519300742BC7 /* child-labor@3x.png */,
+				ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */,
 				83B3E98A1B3B519300742BC7 /* child-labor@2x.png */,
 				83B3E9821B3B518200742BC7 /* hand-black@3x.png */,
 				83B3E9811B3B518200742BC7 /* hand-black@2x.png */,
@@ -3503,6 +3506,7 @@
 				83B3E97C1B3B4FAA00742BC7 /* hand@3x.png in Resources */,
 				8335AF321B667963000748F0 /* icons_Copper.png in Resources */,
 				8303DFBB1B41F21A00E4FD42 /* Samoa-map.png in Resources */,
+				ED7B331F1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf in Resources */,
 				83AD13791B669137004B92D3 /* icons_Chestnut-33@2x.png in Resources */,
 				83AD139F1B669137004B92D3 /* icons_Goats-33@2x.png in Resources */,
 				835618871BD7DE79007BCF75 /* Senegal.pdf in Resources */,
@@ -3894,7 +3898,6 @@
 				8335AF261B667963000748F0 /* icons_Cement.png in Resources */,
 				8310FF4B1ABB11310025F7AE /* Wallis_and_Futuna.png in Resources */,
 				8335AF1F1B667963000748F0 /* icons_Brazil_Nuts_Chestnuts.png in Resources */,
-				835618A31BD7DE79007BCF75 /* West Bank & Gaza Strip.pdf in Resources */,
 				8310FECA1ABB11310025F7AE /* Indonesia.png in Resources */,
 				835618891BD7DE79007BCF75 /* Seychelles.pdf in Resources */,
 				83AD12671B668E71004B92D3 /* icons_Coca_(stimulant_plant)-33@3x.png in Resources */,
@@ -3976,6 +3979,7 @@
 				835618251BD7DE79007BCF75 /* Armenia.pdf in Resources */,
 				8303DFCE1B41F21A00E4FD42 /* Tonga-map.png in Resources */,
 				835618711BD7DE79007BCF75 /* Mozambique.pdf in Resources */,
+				ED00BD8B1F61E1E300541AA4 /* TDA-foreword-2017.pdf in Resources */,
 				835618761BD7DE79007BCF75 /* Nigeria.pdf in Resources */,
 				8310FF021ABB11310025F7AE /* Norway.png in Resources */,
 				8310FE931ABB11310025F7AE /* Cabo_Verde.png in Resources */,

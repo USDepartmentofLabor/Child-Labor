@@ -183,32 +183,35 @@ class StatisticsTableViewController: UITableViewController {
                     }
                 }
                 
+                
+                
+                
                 // Combining Work and School
                 if let combiningPercentage = statistics["Children_Working_and_Studying_7-14_yrs_old"]["Total"].element {
                     if let combiningAgeRange = statistics["Children_Working_and_Studying_7-14_yrs_old"]["Age_Range"].element {
                         if combiningPercentage.text != nil {
                             
+                                if combiningAgeRange.text != nil {
+                                    if combiningPercentage.text! != "" {
+                                        if combiningAgeRange.text! != "" {
+                                            combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue * 100.0) + "% (ages " + combiningAgeRange.text! + ")"
+                                            combiningWorkAndSchoolLabel.textColor = UIColor.black
+                                        }
+                                    }
+                                }
                             if combiningPercentage.text == "Unavailable"
                             {
                                 combiningWorkAndSchoolLabel.text = "Unavailable"
                                 combiningWorkAndSchoolLabel.textColor = UIColor.black
                             }
                             
+                            
                             if combiningPercentage.text == "N/A"
                             {
                                 combiningWorkAndSchoolLabel.text = "N/A"
                                 combiningWorkAndSchoolLabel.textColor = UIColor.black
                             }
-                            else{
-                            if combiningAgeRange.text != nil {
-                                if combiningPercentage.text! != "" {
-                                    if combiningAgeRange.text! != "" {
-                                        combiningWorkAndSchoolLabel.text = String(format: "%.1f", (combiningPercentage.text! as NSString).floatValue * 100.0) + "% (ages " + combiningAgeRange.text! + ")"
-                                        combiningWorkAndSchoolLabel.textColor = UIColor.black
-                                    }
-                                }
-                            }
-                        }
+                        
                         }
                         
                         
