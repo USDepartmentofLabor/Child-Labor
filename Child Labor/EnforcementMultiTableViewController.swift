@@ -51,11 +51,11 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let enforcements = country["Enforcements"]
                 
-                for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"] {
+                for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"].all {
                     let text = territory["Enforcement"].element?.text
                     if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
                         showDedicatedInspectors = true
@@ -152,11 +152,11 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section == 6 && self.hasLaborFooter) {
-            return "* The Government does not make this information publicly available";
+            return "* The Government does not publish this information";
         }
         
         if (state == 1 && section == 1 && self.hasCriminalFooter) {
-            return "* The Government does not make this information publicly available";
+            return "* The Government does not publish this information";
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
@@ -235,7 +235,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         
         var index = 1
-        for territory in territories["Territory"] {
+        for territory in territories["Territory"].all {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel

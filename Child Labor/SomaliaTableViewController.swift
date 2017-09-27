@@ -64,7 +64,7 @@ class SomaliaTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents! as String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == "Somalia"{
 
         

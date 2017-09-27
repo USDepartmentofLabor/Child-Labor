@@ -43,20 +43,20 @@ class ConventionsTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let conventions = country["Conventions"]
                 
                 // Minimum Age
                 if let minimumAge = conventions["C_138_Ratified"].element {
                     if minimumAge.text != nil {
-                        if minimumAge.text! == "Yes" {
+                        if minimumAge.text == "Yes" {
                             ilo138Label.text = "Yes"
                             ilo138Label.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if minimumAge.text! == "No" {
+                        } else if minimumAge.text == "No" {
                             ilo138Label.text = "No"
                             ilo138Label.textColor = UIColor.red
-                        } else if minimumAge.text! == "N/A" {
+                        } else if minimumAge.text == "N/A" {
                             ilo138Label.text = "N/A"
                         }
                     }
@@ -65,13 +65,13 @@ class ConventionsTableViewController: UITableViewController {
                 // Worst Forms of Child Labor
                 if let worstForms = conventions["C_182_Ratified"].element {
                     if worstForms.text != nil {
-                        if worstForms.text! == "Yes" {
+                        if worstForms.text == "Yes" {
                             ilo182Label.text = "Yes"
                             ilo182Label.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if worstForms.text! == "No" {
+                        } else if worstForms.text == "No" {
                             ilo182Label.text = "No"
                             ilo182Label.textColor = UIColor.red
-                        } else if worstForms.text! == "N/A" {
+                        } else if worstForms.text == "N/A" {
                             ilo182Label.text = "N/A"
                         }
                     }
@@ -80,13 +80,13 @@ class ConventionsTableViewController: UITableViewController {
                 // UN CRC
                 if let unCRC = conventions["Convention_on_the_Rights_of_the_Child_Ratified"].element {
                     if unCRC.text != nil {
-                        if unCRC.text! == "Yes" {
+                        if unCRC.text == "Yes" {
                             unCRCLabel.text = "Yes"
                             unCRCLabel.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if unCRC.text! == "No" {
+                        } else if unCRC.text == "No" {
                             unCRCLabel.text = "No"
                             unCRCLabel.textColor = UIColor.red
-                        } else if unCRC.text! == "N/A" {
+                        } else if unCRC.text == "N/A" {
                             unCRCLabel.text = "N/A"
                         }
                     }
@@ -95,13 +95,13 @@ class ConventionsTableViewController: UITableViewController {
                 // Armed Conflict
                 if let armedConflict = conventions["CRC_Armed_Conflict_Ratified"].element {
                     if armedConflict.text != nil {
-                        if armedConflict.text! == "Yes" {
+                        if armedConflict.text == "Yes" {
                             unCRCArmedLabel.text = "Yes"
                             unCRCArmedLabel.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if armedConflict.text! == "No" {
+                        } else if armedConflict.text == "No" {
                             unCRCArmedLabel.text = "No"
                             unCRCArmedLabel.textColor = UIColor.red
-                        } else if armedConflict.text! == "N/A" {
+                        } else if armedConflict.text == "N/A" {
                             unCRCArmedLabel.text = "N/A"
                         }
                     }
@@ -110,13 +110,13 @@ class ConventionsTableViewController: UITableViewController {
                 // Sexual Exploitation
                 if let sexualExploitation = conventions["CRC_Commercial_Sexual_Exploitation_of_Children_Ratified"].element {
                     if sexualExploitation.text != nil {
-                        if sexualExploitation.text! == "Yes" {
+                        if sexualExploitation.text == "Yes" {
                             unCRCSaleLabel.text = "Yes"
                             unCRCSaleLabel.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if sexualExploitation.text! == "No" {
+                        } else if sexualExploitation.text == "No" {
                             unCRCSaleLabel.text = "No"
                             unCRCSaleLabel.textColor = UIColor.red
-                        } else if sexualExploitation.text! == "N/A" {
+                        } else if sexualExploitation.text == "N/A" {
                             unCRCSaleLabel.text = "N/A"
                         }
                     }
@@ -125,13 +125,13 @@ class ConventionsTableViewController: UITableViewController {
                 // Trafficking
                 if let trafficking = conventions["Palermo_Ratified"].element {
                     if trafficking.text != nil {
-                        if trafficking.text! == "Yes" {
+                        if trafficking.text == "Yes" {
                             unCRCTraffickingLabel.text = "Yes"
                             unCRCTraffickingLabel.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
-                        } else if trafficking.text! == "No" {
+                        } else if trafficking.text == "No" {
                             unCRCTraffickingLabel.text = "No"
                             unCRCTraffickingLabel.textColor = UIColor.red
-                        } else if trafficking.text! == "N/A" {
+                        } else if trafficking.text == "N/A" {
                             unCRCTraffickingLabel.text = "N/A"
                         }
                     }

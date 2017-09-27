@@ -495,7 +495,7 @@
 		8335AF821B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF151B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png */; };
 		8335AF841B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF831B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png */; };
 		8335AF861B667E46000748F0 /* icons_Bricks_(clay).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF851B667E46000748F0 /* icons_Bricks_(clay).png */; };
-		8335AF881B667E66000748F0 /* icons_Tin_ore_(cassiterite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */; };
+		8335AF881B667E66000748F0 /* icons_Tin_ore_(casserite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF871B667E66000748F0 /* icons_Tin_ore_(casserite).png */; };
 		8335AF8A1B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF891B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png */; };
 		8335AF8C1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF8B1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png */; };
 		8335AF8E1B667F1D000748F0 /* icons_Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AF8D1B667F1D000748F0 /* icons_Fish.png */; };
@@ -704,7 +704,7 @@
 		83AD12591B668E71004B92D3 /* icons_Carpets-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */; };
 		83AD125A1B668E71004B92D3 /* icons_Cashews-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */; };
 		83AD125B1B668E71004B92D3 /* icons_Cassava-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */; };
-		83AD125C1B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */; };
+		83AD125C1B668E71004B92D3 /* icons_Tin_ore_(casserite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D01B668E71004B92D3 /* icons_Tin_ore_(casserite)-33@3x.png */; };
 		83AD125D1B668E71004B92D3 /* icons_Cattle-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */; };
 		83AD125E1B668E71004B92D3 /* icons_Cement-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */; };
 		83AD125F1B668E71004B92D3 /* icons_Ceramics-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */; };
@@ -844,7 +844,7 @@
 		83AD13711B669137004B92D3 /* icons_Carpets-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */; };
 		83AD13721B669137004B92D3 /* icons_Cashews-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */; };
 		83AD13731B669137004B92D3 /* icons_Cassava-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */; };
-		83AD13741B669137004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */; };
+		83AD13741B669137004B92D3 /* icons_Tin_ore_(casserite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E81B669136004B92D3 /* icons_Tin_ore_(casserite)-33@2x.png */; };
 		83AD13751B669137004B92D3 /* icons_Cattle-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */; };
 		83AD13761B669137004B92D3 /* icons_Cement-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */; };
 		83AD13771B669137004B92D3 /* icons_Ceramics-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */; };
@@ -1504,7 +1504,7 @@
 		8335AF151B667963000748F0 /* icons_Yerba_Mate_(stimulant_plant).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Yerba_Mate_(stimulant_plant).png"; sourceTree = "<group>"; };
 		8335AF831B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Beans_(green,_soy,_yellow).png"; sourceTree = "<group>"; };
 		8335AF851B667E46000748F0 /* icons_Bricks_(clay).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bricks_(clay).png"; sourceTree = "<group>"; };
-		8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite).png"; sourceTree = "<group>"; };
+		8335AF871B667E66000748F0 /* icons_Tin_ore_(casserite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(casserite).png"; sourceTree = "<group>"; };
 		8335AF891B667ED4000748F0 /* icons_Tantalum_ore_(coltan).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tantalum_ore_(coltan).png"; sourceTree = "<group>"; };
 		8335AF8B1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cottonseed_(hybrid).png"; sourceTree = "<group>"; };
 		8335AF8D1B667F1D000748F0 /* icons_Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Fish.png; sourceTree = "<group>"; };
@@ -1728,7 +1728,7 @@
 		83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Carpets-33@3x.png"; sourceTree = "<group>"; };
 		83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cashews-33@3x.png"; sourceTree = "<group>"; };
 		83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassava-33@3x.png"; sourceTree = "<group>"; };
-		83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@3x.png"; sourceTree = "<group>"; };
+		83AD11D01B668E71004B92D3 /* icons_Tin_ore_(casserite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(casserite)-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cattle-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cement-33@3x.png"; sourceTree = "<group>"; };
 		83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ceramics-33@3x.png"; sourceTree = "<group>"; };
@@ -1868,7 +1868,7 @@
 		83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Carpets-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cashews-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cassava-33@2x.png"; sourceTree = "<group>"; };
-		83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@2x.png"; sourceTree = "<group>"; };
+		83AD12E81B669136004B92D3 /* icons_Tin_ore_(casserite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(casserite)-33@2x.png"; sourceTree = "<group>"; };
 		83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cattle-33@2x.png"; sourceTree = "<group>"; };
 		83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cement-33@2x.png"; sourceTree = "<group>"; };
 		83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ceramics-33@2x.png"; sourceTree = "<group>"; };
@@ -2453,7 +2453,7 @@
 				83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */,
 				83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */,
 				83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */,
-				83AD12E81B669136004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png */,
+				83AD12E81B669136004B92D3 /* icons_Tin_ore_(casserite)-33@2x.png */,
 				83AD12E91B669136004B92D3 /* icons_Cattle-33@2x.png */,
 				83AD12EA1B669136004B92D3 /* icons_Cement-33@2x.png */,
 				83AD12EB1B669136004B92D3 /* icons_Ceramics-33@2x.png */,
@@ -2593,7 +2593,7 @@
 				83AD11CD1B668E71004B92D3 /* icons_Carpets-33@3x.png */,
 				83AD11CE1B668E71004B92D3 /* icons_Cashews-33@3x.png */,
 				83AD11CF1B668E71004B92D3 /* icons_Cassava-33@3x.png */,
-				83AD11D01B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png */,
+				83AD11D01B668E71004B92D3 /* icons_Tin_ore_(casserite)-33@3x.png */,
 				83AD11D11B668E71004B92D3 /* icons_Cattle-33@3x.png */,
 				83AD11D21B668E71004B92D3 /* icons_Cement-33@3x.png */,
 				83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */,
@@ -2733,7 +2733,7 @@
 				8335AEB51B667963000748F0 /* icons_Carpets.png */,
 				8335AEB61B667963000748F0 /* icons_Cashews.png */,
 				8335AEB71B667963000748F0 /* icons_Cassava.png */,
-				8335AF871B667E66000748F0 /* icons_Tin_ore_(cassiterite).png */,
+				8335AF871B667E66000748F0 /* icons_Tin_ore_(casserite).png */,
 				8335AEB81B667963000748F0 /* icons_Cattle.png */,
 				8335AEB91B667963000748F0 /* icons_Cement.png */,
 				8335AEBA1B667963000748F0 /* icons_Ceramics.png */,
@@ -3546,7 +3546,7 @@
 				83AD12681B668E71004B92D3 /* icons_Cocoa-33@3x.png in Resources */,
 				8310FEA41ABB11310025F7AE /* Congo,_Democratic_Republic_of_the.png in Resources */,
 				835618A01BD7DE79007BCF75 /* Vanuatu.pdf in Resources */,
-				83AD125C1B668E71004B92D3 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */,
+				83AD125C1B668E71004B92D3 /* icons_Tin_ore_(casserite)-33@3x.png in Resources */,
 				38CA954F1D4FF4F200319316 /* icons_Potatoes-33@3x.png in Resources */,
 				8303DFD21B41F21A00E4FD42 /* Tuvalu-map.png in Resources */,
 				835618201BD7DE79007BCF75 /* Albania.pdf in Resources */,
@@ -3601,7 +3601,7 @@
 				83AD129C1B668E71004B92D3 /* icons_Minerals-33@3x.png in Resources */,
 				83AD12CA1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png in Resources */,
 				83AD13D51B669137004B92D3 /* icons_Stones-33@2x.png in Resources */,
-				8335AF881B667E66000748F0 /* icons_Tin_ore_(cassiterite).png in Resources */,
+				8335AF881B667E66000748F0 /* icons_Tin_ore_(casserite).png in Resources */,
 				8347AA061B3F589000C439BA /* Cocos_(Keeling)_Islands.png in Resources */,
 				835618601BD7DE79007BCF75 /* Kosovo.pdf in Resources */,
 				8335AF941B667F78000748F0 /* icons_Granite_(crushed).png in Resources */,
@@ -3810,7 +3810,7 @@
 				8356185A1BD7DE79007BCF75 /* Iraq.pdf in Resources */,
 				8335AF8C1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png in Resources */,
 				8310FF2D1ABB11310025F7AE /* Swaziland.png in Resources */,
-				83AD13741B669137004B92D3 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */,
+				83AD13741B669137004B92D3 /* icons_Tin_ore_(casserite)-33@2x.png in Resources */,
 				8303DF7A1B41F21A00E4FD42 /* Comoros-map.png in Resources */,
 				8303DFC61B41F21A00E4FD42 /* St. Kitts-map.png in Resources */,
 				8303DF6B1B41F21A00E4FD42 /* Benin-map.png in Resources */,

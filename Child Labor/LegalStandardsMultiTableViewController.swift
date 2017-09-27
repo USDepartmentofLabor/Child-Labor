@@ -49,7 +49,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents! as String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let legalStandards = country["Legal_Standards"]
                 
@@ -65,7 +65,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         sectionTitles.append(["Work", "Hazardous Work", "State Voluntary Military Recruitment"])
         sectionTitles.append(["Types of Hazardous Work"])
-        sectionTitles.append(["Forced Labor", "Child Trafficking", "CSEC", "Using Children in Illicit Activities", "State Compulsory Military Recruitment", "Non-State Military Recruitment"])
+        sectionTitles.append(["Forced Labor", "Child Trafficking", "Commercial Sexual Exploitation of Children", "Using Children in Illicit Activities", "State Compulsory Military Recruitment", "Non-State Military Recruitment"])
         sectionTitles.append(["Compulsory Education Age", "Free Public Education"])
     }
     
@@ -101,7 +101,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3) {
-            var footer = "*: Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard.”"
+            var footer = "* Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard."
             
             footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions."
             
@@ -177,7 +177,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         }
         
         var index = 1
-        for territory in territories["Territory"] {
+        for territory in territories["Territory"].all {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
@@ -222,8 +222,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 
             }
                 
-                
-            else if (age != nil) {
+               
+            else if (age != "") {
                 labelText += " (" + age!
                 accessibleText += ", " + age!
                 if (calculatedAge) {

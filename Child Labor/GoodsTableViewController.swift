@@ -60,7 +60,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         goodsXML = SWXMLHash.parse(contents! as String)
         
         // Create lists of countries in each sector section
-        for good in goodsXML["Goods"]["Good"] {
+        for good in goodsXML["Goods"]["Good"].all {
             if good["Countries"]["Country"].all.count > 0 {
                 allGoods.add((good["Good_Name"].element?.text)!)
                 numCountriesByGood.updateValue(good["Countries"]["Country"].all.count, forKey: (good["Good_Name"].element?.text)!)

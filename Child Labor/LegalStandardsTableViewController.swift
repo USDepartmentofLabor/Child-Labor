@@ -35,10 +35,10 @@ class LegalStandardsTableViewController: UITableViewController {
         
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
@@ -57,7 +57,7 @@ class LegalStandardsTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let legalStandards = country["Legal_Standards"]
                 setLegalStandard(self.minimumWorkLabel, standardXML: legalStandards["Minimum_Work"])
@@ -95,8 +95,8 @@ class LegalStandardsTableViewController: UITableViewController {
             accessibleText = standard!
             if (labelText.hasPrefix("Yes") == true && !conformsStandard) {
                 self.hasStandardsFooter = true
-               // labelText += "*"
-               // accessibleText += ", note See country chapter for detailed information about this country’s laws and regulations "
+                // labelText += "*"
+                // accessibleText += ", note See country chapter for detailed information about this country’s laws and regulations "
             }
             
             
@@ -119,9 +119,9 @@ class LegalStandardsTableViewController: UITableViewController {
                     // accessibleText += ", ages denoted are combat/non-combat "
                 }
             }
-            
-            
-            else if (age != nil) {
+                
+                
+            else if ([self.minimumWorkLabel, self.minimumHazardousWorkLabel, self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.nsCompulsoryMilitary].contains(label) && age != nil) {
                 labelText += " (" + age!
                 accessibleText += ", " + age!
                 if (calculatedAge) {
@@ -136,14 +136,11 @@ class LegalStandardsTableViewController: UITableViewController {
                 
                 if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.nsCompulsoryMilitary].contains(label) && age!.contains("/") && age!.contains("n/a") == false && age?.contains("N/A") == false) {
                     self.hasCombatFooter = true
-                 //   labelText += "Φ"
-                   // accessibleText += ", ages denoted are combat/non-combat "
+                    //   labelText += "Φ"
+                    // accessibleText += ", ages denoted are combat/non-combat "
                 }
             }
-            
-            
-            
-            
+          
             
         }
         
@@ -176,7 +173,7 @@ class LegalStandardsTableViewController: UITableViewController {
             label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -190,11 +187,11 @@ class LegalStandardsTableViewController: UITableViewController {
         if (section == 3 )
         {
             
-            var footer = "*: Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard.”"
+            var footer = "* Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard."
             
-           footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions.\n"
+            footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions.\n"
             
-    
+            
             
             if (self.hasAgeFooter) {
                 footer += "\n‡ Age calculated based on available information"
@@ -206,7 +203,8 @@ class LegalStandardsTableViewController: UITableViewController {
         
         return super.tableView(tableView, titleForFooterInSection: section)
     }
-
-
-
+    
+    
+    
 }
+

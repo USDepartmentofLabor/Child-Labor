@@ -49,11 +49,11 @@ class GoodController: UITableViewController {
         }
         let goodsXML = SWXMLHash.parse(contentsGoods as! String)
         
-        for good in goodsXML["Goods"]["Good"] {
+        for good in goodsXML["Goods"]["Good"].all {
             if good["Good_Name"].element?.text == self.goodName {
                 sector.text = good["Good_Sector"].element?.text
                 
-                for country in good["Countries"]["Country"] {
+                for country in good["Countries"]["Country"].all {
                     countries.add((country["Country_Name"].element?.text)!)
                     
                     // Add the exploitation type to an array
@@ -221,6 +221,7 @@ class GoodController: UITableViewController {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
                 cell.isUserInteractionEnabled = false
+                cell.accessibilityElementsHidden = true;
             }
         default:
             cl?.isHidden = false

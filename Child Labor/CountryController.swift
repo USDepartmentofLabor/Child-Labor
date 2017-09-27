@@ -15,7 +15,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     
     var goods = NSMutableArray()
     var exploitations = NSMutableArray()
-    
+    var url = ""
     var adjustedLabels = false
 
     @IBOutlet weak var headerView: UIView!
@@ -58,12 +58,12 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 countryMap.image = UIImage(named: (country["Name"].element?.text)!.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil) + "-map")
                 
                 
-                
+                url = (country["Webpage"].element?.text)!
                 
                 if (country["Advancement_Level"].element?.text != nil) {
                     advancementLevel.text = (country["Advancement_Level"].element?.text)!
@@ -111,7 +111,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     headerView.frame = newRect
                     self.tableView.tableHeaderView = headerView
                 } else {
-                    for good in country["Goods"]["Good"] {
+                    for good in country["Goods"]["Good"].all {
                         let goodName = good["Good_Name"].element?.text
                         
                         let childLaborStatusForGood = good["Child_Labor"].element?.text
@@ -272,8 +272,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 return 6
             
             // Full Report PDF button
+            case 1:
+                return 2
+                
             default:
-                return 1
+                return 0
             }
         }
     }
@@ -283,6 +286,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     override func tableView(_ tableView: UITableView,
                             didSelectRowAt indexPath: IndexPath) {
         
+        if (indexPath.section == 0){
+            
         
         if (indexPath.row == 1) {
             if (countryName=="Somalia") {
@@ -316,7 +321,23 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 performSegue(withIdentifier: "presentEnforcement", sender: self)
             }
         }
-    
+        }
+        
+        if (indexPath.section == 1)
+        {
+            if (indexPath.row == 1) {
+                
+                
+                UIApplication.shared.openURL(URL(string: url)!)
+                
+            }
+        }
+        
+        if let tableIndex = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRow(at: tableIndex, animated: false)
+        }
+        
+        
     }
     
     @IBAction func showWholeProfile(_ sender: AnyObject) {

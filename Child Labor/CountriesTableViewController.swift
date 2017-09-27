@@ -131,7 +131,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         let countriesXML = SWXMLHash.parse(contents as! String)
         
         // For each country
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             let countryName = country["Name"].element?.text
             
             // Create lists of countries in each letter section
@@ -190,15 +190,15 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             }
 
             // Create lists of countries in each advancement level section
-            if ((country["Advancement_Level"].element?.text?.hasPrefix("Significant")) == true) {
+            if ((country["Advancement_Level"].element?.text.hasPrefix("Significant")) == true) {
                 sigCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text?.hasPrefix("Moderate") == true {
+            } else if country["Advancement_Level"].element?.text.hasPrefix("Moderate") == true {
                 modCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text?.hasPrefix("Minimal") == true{
+            } else if country["Advancement_Level"].element?.text.hasPrefix("Minimal") == true{
                 minCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text?.hasPrefix("No Advancement") == true {
+            } else if country["Advancement_Level"].element?.text.hasPrefix("No Advancement") == true {
                 noCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text?.hasPrefix("No Assessment") == true {
+            } else if country["Advancement_Level"].element?.text.hasPrefix("No Assessment") == true {
                 noAssessmentCountries.add(countryName!)
             } else {
                 noDataCountries.add(countryName!)

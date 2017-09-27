@@ -48,17 +48,17 @@ class SuggestedActionsTableViewController: UITableViewController {
         let dataXML = SWXMLHash.parse(contents as! String)
         
         // For each country
-        for country in dataXML["Countries"]["Country"] {
+        for country in dataXML["Countries"]["Country"].all {
             if country["Name"].element?.text == countryName {
                 
                 // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"] {
-                    laws.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"].all {
+                    laws.add((action["Name"].element?.text)!)
                 }
                 
                 
-                for action in country["Suggested_Actions"]["Laws"]["Action"] {
-                    laws.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Laws"]["Action"].all {
+                    laws.add((action["Name"].element?.text)!)
                 }
                 
                 
@@ -68,8 +68,8 @@ class SuggestedActionsTableViewController: UITableViewController {
                 }
                 
                 
-                for action in country["Suggested_Actions"]["Enforcement"]["Action"] {
-                    enforcement.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Enforcement"]["Action"].all {
+                    enforcement.add((action["Name"].element?.text)!)
                 }
                 
                 if (enforcement.count != 0)
@@ -77,8 +77,8 @@ class SuggestedActionsTableViewController: UITableViewController {
                     sectionItems.add("Enforcement")
                 }
                 
-                for action in country["Suggested_Actions"]["Coordination"]["Action"] {
-                    coordination.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Coordination"]["Action"].all {
+                    coordination.add((action["Name"].element?.text)!)
                 }
                 
                 if (coordination.count != 0)
@@ -88,11 +88,11 @@ class SuggestedActionsTableViewController: UITableViewController {
                 
                 
                 // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Government_Policies"]["Action"] {
-                    governmentPolicies.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Government_Policies"]["Action"].all {
+                    governmentPolicies.add((action["Name"].element?.text)!)
                 }
-                for action in country["Suggested_Actions"]["Policies"]["Action"] {
-                    governmentPolicies.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Policies"]["Action"].all {
+                    governmentPolicies.add((action["Name"].element?.text)!)
                 }
                 
                 if (governmentPolicies.count != 0)
@@ -100,8 +100,8 @@ class SuggestedActionsTableViewController: UITableViewController {
                     sectionItems.add("Government Policies")
                 }
                 
-                for action in country["Suggested_Actions"]["Social_Programs"]["Action"] {
-                    socialPrograms.add((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Social_Programs"]["Action"].all {
+                    socialPrograms.add((action["Name"].element?.text)!)
                 }
                 
                 if (socialPrograms.count != 0)
