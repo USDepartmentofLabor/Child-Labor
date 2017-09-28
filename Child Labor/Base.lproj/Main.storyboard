@@ -546,27 +546,18 @@
                     <navigationItem key="navigationItem" id="ZJK-ra-pH7">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Countries" id="bsP-lW-rNn"/>
-                        <view key="titleView" contentMode="scaleToFill" id="vkH-YW-UJ9">
-                            <rect key="frame" x="40" y="5.5" width="240" height="33"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="9d8-lJ-Jve">
+                            <rect key="frame" x="46.5" y="7.5" width="227" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-lJ-Jve">
-                                    <rect key="frame" x="6.5" y="2.5" width="227" height="29"/>
-                                    <segments>
-                                        <segment title="A–Z"/>
-                                        <segment title="By Level"/>
-                                        <segment title="By Region"/>
-                                    </segments>
-                                    <connections>
-                                        <action selector="groupChanged:" destination="Zn1-9i-5DA" eventType="valueChanged" id="keV-J2-14p"/>
-                                    </connections>
-                                </segmentedControl>
-                            </subviews>
-                            <constraints>
-                                <constraint firstAttribute="centerX" secondItem="9d8-lJ-Jve" secondAttribute="centerX" id="18c-2E-rC2"/>
-                                <constraint firstAttribute="centerY" secondItem="9d8-lJ-Jve" secondAttribute="centerY" id="341-O9-2NU"/>
-                            </constraints>
-                        </view>
+                            <segments>
+                                <segment title="A–Z"/>
+                                <segment title="By Level"/>
+                                <segment title="By Region"/>
+                            </segments>
+                            <connections>
+                                <action selector="groupChanged:" destination="Zn1-9i-5DA" eventType="valueChanged" id="keV-J2-14p"/>
+                            </connections>
+                        </segmentedControl>
                     </navigationItem>
                     <connections>
                         <outlet property="searchBarFilter" destination="7Zh-AJ-Owm" id="RqZ-To-yDP"/>
@@ -1749,26 +1740,17 @@ and School</string>
                     <navigationItem key="navigationItem" id="y5t-2b-odu">
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Goods" id="Yto-wh-IYj"/>
-                        <view key="titleView" contentMode="scaleToFill" id="hDU-5B-Cv3">
-                            <rect key="frame" x="40" y="5.5" width="240" height="33"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="d0V-2m-jRq">
+                            <rect key="frame" x="86.5" y="7.5" width="147" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d0V-2m-jRq">
-                                    <rect key="frame" x="47" y="3" width="147" height="29"/>
-                                    <segments>
-                                        <segment title="A–Z"/>
-                                        <segment title="By Sector"/>
-                                    </segments>
-                                    <connections>
-                                        <action selector="groupChanged:" destination="Ov4-p0-IDg" eventType="valueChanged" id="eLs-y2-iIN"/>
-                                    </connections>
-                                </segmentedControl>
-                            </subviews>
-                            <constraints>
-                                <constraint firstAttribute="centerX" secondItem="d0V-2m-jRq" secondAttribute="centerX" constant="-0.5" id="HNh-F4-OEs"/>
-                                <constraint firstAttribute="centerY" secondItem="d0V-2m-jRq" secondAttribute="centerY" constant="-0.5" id="QpQ-jo-7V1"/>
-                            </constraints>
-                        </view>
+                            <segments>
+                                <segment title="A–Z"/>
+                                <segment title="By Sector"/>
+                            </segments>
+                            <connections>
+                                <action selector="groupChanged:" destination="Ov4-p0-IDg" eventType="valueChanged" id="eLs-y2-iIN"/>
+                            </connections>
+                        </segmentedControl>
                     </navigationItem>
                     <connections>
                         <outlet property="searchBarFilter" destination="lNv-nf-lom" id="H7y-sz-isN"/>
@@ -5384,8 +5366,8 @@ Standards*                                           </string>
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="o2e-dV-zlY"/>
-        <segue reference="Qkd-VV-gmI"/>
+        <segue reference="xQ3-Ct-UlW"/>
+        <segue reference="3NZ-qU-LZw"/>
         <segue reference="UrS-Cc-ziQ"/>
         <segue reference="GQC-PM-1fW"/>
     </inferredMetricsTieBreakers>

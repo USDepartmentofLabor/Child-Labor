@@ -151,8 +151,8 @@ class LegalStandardsTableViewController: UITableViewController {
                 let pos = labelText.characters.distance(from: labelText.startIndex, to: idx!);
                 
                 let attrText : NSMutableAttributedString = NSMutableAttributedString(string: labelText)
-                attrText.addAttribute(NSFontAttributeName as String, value:UIFont.systemFont(ofSize: UIFont.systemFontSize * 0.75), range:NSMakeRange(pos, 1))
-                attrText.addAttribute(kCTSuperscriptAttributeName as String, value:1, range:NSMakeRange(pos, 1))
+            //    attrText.addAttribute(NSAttributedStringKey.font as String, value:UIFont.systemFont(ofSize: UIFont.systemFontSize * 0.75), range:NSMakeRange(pos, 1))
+                attrText.addAttribute(NSAttributedStringKey(rawValue: kCTSuperscriptAttributeName as String as String), value:1, range:NSMakeRange(pos, 1))
                 label.attributedText = attrText;
                 
             }
