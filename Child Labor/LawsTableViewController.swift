@@ -28,45 +28,45 @@ class LawsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Laws Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Laws Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let masterData = country["Master_Data"]
                 
                 // Minimum Age for Work
                 if let minAgeEstablished = masterData["Minimum_Age_for_Work_Estabslished"].element {
                     if minAgeEstablished.text != nil {
-                        if minAgeEstablished.text! == "Yes" {
+                        if minAgeEstablished.text == "Yes" {
                             if let minAge = masterData["Minimum_Age_for_Work"].element {
                                 if minAge.text != nil {
-                                    if minAge.text! != "" {
+                                    if minAge.text != "" {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
-                                        if minAge.text!.containsString("/") {
-                                            minimumAgeForWorkLabel.text = "Yes* (" + minAge.text! + ")"
+                                        if minAge.text.contains("/") {
+                                            minimumAgeForWorkLabel.text = "Yes* (" + minAge.text + ")"
                                         } else {
-                                            minimumAgeForWorkLabel.text = "Yes* (" + String(format: "%.f", (minAge.text! as NSString).floatValue) + ")"
+                                            minimumAgeForWorkLabel.text = "Yes* (" + String(format: "%.f", (minAge.text as NSString).floatValue) + ")"
                                         }
 
                                         minimumAgeForWorkLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
-                        } else if minAgeEstablished.text! == "No" {
+                        } else if minAgeEstablished.text == "No" {
                             minimumAgeForWorkLabel.text = "No"
-                            minimumAgeForWorkLabel.textColor = UIColor.redColor()
+                            minimumAgeForWorkLabel.textColor = UIColor.red
                         }
                     }
                 }
@@ -74,25 +74,25 @@ class LawsTableViewController: UITableViewController {
                 // Minimum Age for Hazardous Work
                 if let minHazAgeEstablished = masterData["Minimum_Age_for_Hazardous_Work_Estabslished"].element {
                     if minHazAgeEstablished.text != nil {
-                        if minHazAgeEstablished.text! == "Yes" {
+                        if minHazAgeEstablished.text == "Yes" {
                             if let minHazAge = masterData["Minimum_Age_for_Hazardous_Work"].element {
                                 if minHazAge.text != nil {
-                                    if minHazAge.text! != "" {
+                                    if minHazAge.text != "" {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
-                                        if minHazAge.text!.containsString("/") {
-                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text! + "‡)"
+                                        if minHazAge.text.contains("/") {
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + minHazAge.text + "‡)"
                                         } else {
-                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text! as NSString).floatValue) + "‡)"
+                                            minimumAgeForHazardousWorkLabel.text = "Yes (" + String(format: "%.f", (minHazAge.text as NSString).floatValue) + "‡)"
                                         }
                                         
                                         minimumAgeForHazardousWorkLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
-                        } else if minHazAgeEstablished.text! == "No" {
+                        } else if minHazAgeEstablished.text == "No" {
                             minimumAgeForHazardousWorkLabel.text = "No"
-                            minimumAgeForHazardousWorkLabel.textColor = UIColor.redColor()
+                            minimumAgeForHazardousWorkLabel.textColor = UIColor.red
                         }
                     }
                 }
@@ -100,25 +100,25 @@ class LawsTableViewController: UITableViewController {
                 // Compulsory Education Age
                 if let minComAgeEstablished = masterData["Compulsory_Education_Age_Established"].element {
                     if minComAgeEstablished.text != nil {
-                        if minComAgeEstablished.text! == "Yes" {
+                        if minComAgeEstablished.text == "Yes" {
                             if let minComAge = masterData["Minimum_Age_for_Compulsory_Education"].element {
                                 if minComAge.text != nil {
-                                    if minComAge.text! != "" {
+                                    if minComAge.text != "" {
                                         
                                         // If the age field contains a slash, use it as a string and not a float
-                                        if minComAge.text!.containsString("/") {
-                                            compulsoryEducationLabel.text = "Yes* (" + minComAge.text! + "‡)"
+                                        if minComAge.text.contains("/") {
+                                            compulsoryEducationLabel.text = "Yes* (" + minComAge.text + "‡)"
                                         } else {
-                                            compulsoryEducationLabel.text = "Yes* (" + String(format: "%.f", (minComAge.text! as NSString).floatValue) + "‡)"
+                                            compulsoryEducationLabel.text = "Yes* (" + String(format: "%.f", (minComAge.text as NSString).floatValue) + "‡)"
                                         }
 
                                         compulsoryEducationLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
                                     }
                                 }
                             }
-                        } else if minComAgeEstablished.text! == "No" {
+                        } else if minComAgeEstablished.text == "No" {
                             compulsoryEducationLabel.text = "No"
-                            compulsoryEducationLabel.textColor = UIColor.redColor()
+                            compulsoryEducationLabel.textColor = UIColor.red
                         }
                     }
                 }
@@ -126,12 +126,12 @@ class LawsTableViewController: UITableViewController {
                 // Free Public Education
                 if let freeEdEstablished = masterData["Free_Public_Education_Estabslished"].element {
                     if freeEdEstablished.text != nil {
-                        if freeEdEstablished.text! == "Yes" {
+                        if freeEdEstablished.text == "Yes" {
                             freeEducationLabel.text = "Yes"
                             freeEducationLabel.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
-                        } else if freeEdEstablished.text! == "No" {
+                        } else if freeEdEstablished.text == "No" {
                             freeEducationLabel.text = "No"
-                            freeEducationLabel.textColor = UIColor.redColor()
+                            freeEducationLabel.textColor = UIColor.red
                         }
                     }
                 }
@@ -153,12 +153,12 @@ class LawsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 4
     }

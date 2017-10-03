@@ -24,8 +24,8 @@ class CoordTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Coordination Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Coordination Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         self.tableView.estimatedRowHeight = 80.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
@@ -38,16 +38,16 @@ class CoordTableViewController: UITableViewController {
         
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 setMechanism(self.coordLabel, text: country["Mechanisms"]["Coordination"].element?.text)
                 setMechanism(self.policyLabel, text: country["Mechanisms"]["Policy"].element?.text)
@@ -56,14 +56,14 @@ class CoordTableViewController: UITableViewController {
         }
     }
     
-    func setMechanism(label: UILabel, text: String?) {
+    func setMechanism(_ label: UILabel, text: String?) {
         if (text != nil) {
             label.text = text
             if (text!.hasPrefix("Yes") == true) {
                 label.textColor = UIColor(red: 0.0, green: 0.75, blue: 0.0, alpha: 1.0)
             }
             else if (text!.hasPrefix("No") == true) {
-                label.textColor = UIColor.redColor()
+                label.textColor = UIColor.red
             }
         }
     }
@@ -75,12 +75,12 @@ class CoordTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 3
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if state == section {
             return 1
@@ -89,12 +89,12 @@ class CoordTableViewController: UITableViewController {
         return 1
     }
     
-    @IBAction func changeSection(sender: AnyObject) {
+    @IBAction func changeSection(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     

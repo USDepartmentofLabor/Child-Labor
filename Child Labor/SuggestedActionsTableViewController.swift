@@ -12,6 +12,8 @@ class SuggestedActionsTableViewController: UITableViewController {
     
     var countryName = "Brazil"
     
+    var sectionItems = NSMutableArray()
+    
     var laws = NSMutableArray()
     var enforcement = NSMutableArray()
     var coordination = NSMutableArray()
@@ -32,54 +34,86 @@ class SuggestedActionsTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Suggested Actions Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Suggested Actions Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
         let dataXML = SWXMLHash.parse(contents as! String)
         
         // For each country
-        for country in dataXML["Countries"]["Country"] {
+        for country in dataXML["Countries"]["Country"].all {
             if country["Name"].element?.text == countryName {
                 
                 // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"] {
-                    laws.addObject((action["Name"].element?.text!)!)
-                }
-                for action in country["Suggested_Actions"]["Laws"]["Action"] {
-                    laws.addObject((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"].all {
+                    laws.add((action["Name"].element?.text)!)
                 }
                 
-                for action in country["Suggested_Actions"]["Enforcement"]["Action"] {
-                    enforcement.addObject((action["Name"].element?.text!)!)
+                
+                for action in country["Suggested_Actions"]["Laws"]["Action"].all {
+                    laws.add((action["Name"].element?.text)!)
                 }
                 
-                for action in country["Suggested_Actions"]["Coordination"]["Action"] {
-                    coordination.addObject((action["Name"].element?.text!)!)
+                
+                if (laws.count != 0)
+                {
+                sectionItems.add("Legal Frameworks")
                 }
+                
+                
+                for action in country["Suggested_Actions"]["Enforcement"]["Action"].all {
+                    enforcement.add((action["Name"].element?.text)!)
+                }
+                
+                if (enforcement.count != 0)
+                {
+                    sectionItems.add("Enforcement")
+                }
+                
+                for action in country["Suggested_Actions"]["Coordination"]["Action"].all {
+                    coordination.add((action["Name"].element?.text)!)
+                }
+                
+                if (coordination.count != 0)
+                {
+                    sectionItems.add("Coordination")
+                }
+                
                 
                 // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Government_Policies"]["Action"] {
-                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Government_Policies"]["Action"].all {
+                    governmentPolicies.add((action["Name"].element?.text)!)
                 }
-                for action in country["Suggested_Actions"]["Policies"]["Action"] {
-                    governmentPolicies.addObject((action["Name"].element?.text!)!)
+                for action in country["Suggested_Actions"]["Policies"]["Action"].all {
+                    governmentPolicies.add((action["Name"].element?.text)!)
                 }
                 
-                for action in country["Suggested_Actions"]["Social_Programs"]["Action"] {
-                    socialPrograms.addObject((action["Name"].element?.text!)!)
+                if (governmentPolicies.count != 0)
+                {
+                    sectionItems.add("Government Policies")
+                }
+                
+                for action in country["Suggested_Actions"]["Social_Programs"]["Action"].all {
+                    socialPrograms.add((action["Name"].element?.text)!)
+                }
+                
+                if (socialPrograms.count != 0)
+                {
+                    sectionItems.add("Social Programs")
                 }
                 
                 break
             }
         }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -89,54 +123,65 @@ class SuggestedActionsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 5
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    
+    
+    
+  
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return "Legal Standards"
+            if sectionItems.contains("Legal Frameworks") {
+                return "Legal Framework"
+            }
+            else{
+            return nil
+            }
+            
+            
         case 1:
-            return "Enforcement"
+            if sectionItems.contains("Enforcement") {
+                return "Enforcement"
+            }
+            else{
+                return nil
+            }
+            
+            
         case 2:
-            return "Coordination"
+            
+            if sectionItems.contains("Coordination") {
+                return "Coordination"
+            }
+            else{
+                return nil
+            }
+           
         case 3:
-            return "Government Policies"
+            if sectionItems.contains("Government Policies") {
+                return "Government Policies"
+            }
+            else{
+                return nil
+            }
         default:
-            return "Social Programs"
+            if sectionItems.contains("Social Programs") {
+                return "Social Programs"
+            }
+            else{
+                return nil
+            }
+        
         }
     }
     
-//    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-//        switch section {
-//        case 0:
-//            if laws.count == 0 {
-//                return "No Actions"
-//            }
-//        case 1:
-//            if enforcement.count == 0 {
-//                return "No Actions"
-//            }
-//        case 2:
-//            if coordination.count == 0 {
-//                return "No Actions"
-//            }
-//        case 3:
-//            if governmentPolicies.count == 0 {
-//                return "No Actions"
-//            }
-//        default:
-//            if socialPrograms.count == 0 {
-//                return "No Actions"
-//            }
-//        }
-//        
-//        return ""
-//    }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
         switch section {
@@ -153,18 +198,19 @@ class SuggestedActionsTableViewController: UITableViewController {
         }
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Action", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Action", for: indexPath)
 
         let title : UILabel? = cell.viewWithTag(101) as? UILabel
         
         switch indexPath.section {
         case 0:
-            title?.text = laws[indexPath.row] as? String
+           title?.text = laws[indexPath.row] as? String
         case 1:
             title?.text = enforcement[indexPath.row] as? String
         case 2:
-            title?.text = coordination[indexPath.row] as? String
+           title?.text = coordination[indexPath.row] as? String
+            
         case 3:
             title?.text = governmentPolicies[indexPath.row] as? String
         default:
@@ -174,50 +220,111 @@ class SuggestedActionsTableViewController: UITableViewController {
 
         return cell
     }
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat
+    
+    {
+        switch section {
+        case 0:
+            if sectionItems.contains("Legal Frameworks") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+            
+        case 1:
+            if sectionItems.contains("Enforcement") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+        case 2:
+            
+            if sectionItems.contains("Coordination") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+        
+        case 3:
+            if sectionItems.contains("Government Policies") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+        
+        
+        default:
+            if sectionItems.contains("Social Programs") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+        }
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    
+    
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat
+    
+    {
+        switch section {
+        case 0:
+            if sectionItems.contains("Legal Frameworks") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+            
+        case 1:
+            if sectionItems.contains("Enforcement") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+        case 2:
+            
+            if sectionItems.contains("Coordination") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+        case 3:
+            if sectionItems.contains("Government Policies") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+            
+            
+        default:
+            if sectionItems.contains("Social Programs") {
+                return UITableViewAutomaticDimension
+            }
+            else{
+                return CGFloat(0.000001)
+            }
+        }
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
+    
+    
+    
     }
-    */
 
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
-}

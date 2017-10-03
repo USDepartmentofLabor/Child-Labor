@@ -38,32 +38,32 @@ class EnforcementMultiTableViewController: UITableViewController {
         
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Laws Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
+        tracker?.set(kGAIScreenName, value: "Laws Screen")
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
         
         // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_2015", ofType: "xml")
+        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
         } catch _ {
             contents = nil
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"] {
+        for country in countriesXML["Countries"]["Country"].all {
             if country["Name"].element?.text == self.countryName {
                 let enforcements = country["Enforcements"]
                 
-                for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"] {
+                for territory in enforcements["Dedicated_Labor_Inspectors"]["Territory"].all {
                     let text = territory["Enforcement"].element?.text
-                    if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false && text! != "0") {
+                    if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
                         showDedicatedInspectors = true
                     }
                 }
                 
                 
-                let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Dedicated_Labor_Inspectors"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Authorized_Access_Penalties"]]
+                let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Dedicated_Labor_Inspectors"], enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"],enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]]
                 let sectionA2 = [enforcements["Labor_New_Employee_Training"], enforcements["Labor_New_Law_Training"], enforcements["Labor_Refresher_Courses"]]
                 let sectionA3 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"], enforcements["Labor_Desk_Review_Inspections"]]
                 let sectionA4 = [enforcements["Labor_Violations"], enforcements["Labor_Penalties_Imposed"], enforcements["Labor_Penalties_Collected"]]
@@ -80,7 +80,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         
         
-        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Dedicated Labor Inspectors", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "Inspectorate Authorized to Assess Penalties"]
+        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Dedicated Labor Inspectors","No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"]
         let sectionA2 = ["Initial Training for New Employees", "Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
         let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite", "No. Conducted by Desk Reviews"]
         let sectionA4 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]
@@ -100,11 +100,11 @@ class EnforcementMultiTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // Return the number of sections.
         switch state {
         case 0:
@@ -116,7 +116,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if state == 0 {
             switch section {
             case 0:
@@ -132,7 +132,7 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 5:
                 return "Unannounced Inspections:"
             case 6:
-                return nil
+                return "Referral Mechanisms"
             default:
                 return nil
             }
@@ -142,27 +142,27 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 0:
                 return "Training For Investigators"
             case 1:
-                return nil
-            
+                return "Other Data"
+                
             default:
                 return nil
             }
         }
     }
     
-    override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section == 6 && self.hasLaborFooter) {
-            return "* The Government does not make this information publicly available";
+            return "* The Government does not publish this information";
         }
         
         if (state == 1 && section == 1 && self.hasCriminalFooter) {
-            return "* The Government does not make this information publicly available";
+            return "* The Government does not publish this information";
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
     }
     
-    override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if (state == 0 && section == 6) {
             return 50
         }
@@ -173,12 +173,12 @@ class EnforcementMultiTableViewController: UITableViewController {
         return UITableViewAutomaticDimension
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         if state == 0 {
             switch section {
             case 0:
-                return  (showDedicatedInspectors) ? 4 : 3
+                return  (showDedicatedInspectors) ? 5 : 4
             case 1:
                 return 3
             case 2:
@@ -207,7 +207,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         self.laborFundingRow = ["Labor Inspectorate Funding"].contains(sectionTitles[state][indexPath.section][indexPath.row])
         
         let territories = sectionTerritories[state][indexPath.section][indexPath.row]
@@ -216,11 +216,11 @@ class EnforcementMultiTableViewController: UITableViewController {
         
         let cellName = (territoryCount != 0) ? "Cell-" + String(territoryCount) : "Cell-1"
         
-        let cell = self.tableView.dequeueReusableCellWithIdentifier(cellName)!
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: cellName)!
         
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[state][indexPath.section][indexPath.row]
-        standardLabel.accessibilityLabel = sectionTitles[state][indexPath.section][indexPath.row].stringByReplacingOccurrencesOfString("No.", withString: "Number").stringByReplacingOccurrencesOfString("btwn", withString: "between")
+        standardLabel.accessibilityLabel = sectionTitles[state][indexPath.section][indexPath.row].replacingOccurrences(of: "No.", with: "Number").replacingOccurrences(of: "btwn", with: "between")
         
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
@@ -235,7 +235,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         
         var index = 1
-        for territory in territories["Territory"] {
+        for territory in territories["Territory"].all {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
@@ -251,27 +251,27 @@ class EnforcementMultiTableViewController: UITableViewController {
         return cell
     }
     
-    func setEnforcement(label: UILabel, text: String?) {
+    func setEnforcement(_ label: UILabel, text: String?) {
         if (text != nil) {
             label.text = text
             if let number = Int(text!) {
-                let numberFormatter = NSNumberFormatter()
-                numberFormatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
-                label.text = numberFormatter.stringFromNumber(number)!
+                let numberFormatter = NumberFormatter()
+                numberFormatter.numberStyle = NumberFormatter.Style.decimal
+                label.text = numberFormatter.string(from: NSNumber(value: number))!
                 if laborFundingRow {
-                    label.text = "$" + numberFormatter.stringFromNumber(number)!
+                    label.text = "$" + numberFormatter.string(from: NSNumber(value: number))!
                 }
             }
             
             if (text!.hasPrefix("N/A") == false && text!.hasPrefix("Unknown") == false && text!.hasPrefix("Unavailable") == false) {
-                label.textColor = UIColor.blackColor()
+                label.textColor = UIColor.black
             }
             else {
                 label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.stringByReplacingOccurrencesOfString("*", withString: "")
-            if (text!.containsString("*")) {
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.replacingOccurrences(of: "*", with: "")
+            if (text!.contains("*")) {
                 if self.state == 0 {
                     self.hasLaborFooter = true
                 }
@@ -284,7 +284,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
     }
     
-    @IBAction func changeState(sender: AnyObject) {
+    @IBAction func changeState(_ sender: AnyObject) {
         self.state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }

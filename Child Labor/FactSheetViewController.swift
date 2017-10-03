@@ -23,12 +23,12 @@ class FactSheetViewController: GAITrackedViewController {
         self.screenName = "Fact Sheet Screen"
         
         // Get the contents of the file to load
-        let localFilePath = NSBundle.mainBundle().pathForResource(factSheet, ofType: "pdf")
-        let targetURL = NSURL.fileURLWithPath(localFilePath!)
+        let localFilePath = Bundle.main.path(forResource: factSheet, ofType: "pdf")
+        let targetURL = URL(fileURLWithPath: localFilePath!)
         
-        let pdfData = NSData(contentsOfURL: targetURL)
+        let pdfData = try? Data(contentsOf: targetURL)
         
-        webView.loadData(pdfData!, MIMEType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL())
+        webView.load(pdfData!, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL )
     }
     
     override func didReceiveMemoryWarning() {
