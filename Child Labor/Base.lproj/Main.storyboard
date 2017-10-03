@@ -493,25 +493,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="lE6-py-coy">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <searchBar contentMode="redraw" placeholder="Filter Countries" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-AJ-Owm">
-                                    <rect key="frame" x="0.0" y="-6" width="320" height="56"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="vvr-fP-ZsQ"/>
+                                    </constraints>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5D5-MF-IJG">
+                                    <rect key="frame" x="0.0" y="56" width="320" height="28"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRe-U1-3bm">
+                                            <rect key="frame" x="10" y="0.0" width="310" height="28"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="LRe-U1-3bm" secondAttribute="bottom" id="1fX-Gl-G5U"/>
+                                        <constraint firstItem="LRe-U1-3bm" firstAttribute="top" secondItem="5D5-MF-IJG" secondAttribute="top" id="3iv-9o-dRX"/>
+                                        <constraint firstItem="LRe-U1-3bm" firstAttribute="leading" secondItem="5D5-MF-IJG" secondAttribute="leading" constant="10" id="7Kd-UD-qbO"/>
+                                        <constraint firstAttribute="trailing" secondItem="LRe-U1-3bm" secondAttribute="trailing" id="ztp-h2-NTF"/>
+                                    </constraints>
+                                </view>
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="7Zh-AJ-Owm" secondAttribute="trailing" id="AzL-cJ-hAc"/>
-                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="centerY" secondItem="lE6-py-coy" secondAttribute="centerY" id="L4o-YO-NHk"/>
-                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="centerX" secondItem="lE6-py-coy" secondAttribute="centerX" id="XGy-fH-KxE"/>
-                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="leading" secondItem="lE6-py-coy" secondAttribute="leading" id="tSn-kR-Xk0"/>
+                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="top" secondItem="lE6-py-coy" secondAttribute="top" id="2vb-a5-jDV"/>
+                                <constraint firstItem="7Zh-AJ-Owm" firstAttribute="leading" secondItem="lE6-py-coy" secondAttribute="leading" id="OqG-87-Qs8"/>
+                                <constraint firstAttribute="trailing" secondItem="5D5-MF-IJG" secondAttribute="trailing" id="R4P-m9-NBu"/>
+                                <constraint firstItem="5D5-MF-IJG" firstAttribute="top" secondItem="lE6-py-coy" secondAttribute="top" constant="56" id="Vlh-xO-bEw"/>
+                                <constraint firstItem="5D5-MF-IJG" firstAttribute="leading" secondItem="lE6-py-coy" secondAttribute="leading" id="Wcl-bf-GAD"/>
+                                <constraint firstAttribute="trailing" secondItem="7Zh-AJ-Owm" secondAttribute="trailing" id="cJy-mv-0nZ"/>
+                                <constraint firstAttribute="bottom" secondItem="5D5-MF-IJG" secondAttribute="bottom" id="vtD-ek-6Ym"/>
                             </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="BK7-v5-qcD" detailTextLabel="dUy-UO-bHV" style="IBUITableViewCellStyleValue1" id="sBk-b7-Clu">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="106" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sBk-b7-Clu" id="E4p-I9-ta9">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
@@ -560,6 +583,7 @@
                         </segmentedControl>
                     </navigationItem>
                     <connections>
+                        <outlet property="countryCount" destination="LRe-U1-3bm" id="7Ek-FY-Oe3"/>
                         <outlet property="searchBarFilter" destination="7Zh-AJ-Owm" id="RqZ-To-yDP"/>
                         <outlet property="searchFilterview" destination="lE6-py-coy" id="oPe-Il-F6g"/>
                     </connections>
@@ -1682,13 +1706,36 @@ and School</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="cUD-FN-T6L">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <searchBar contentMode="redraw" placeholder="Filter Goods" translatesAutoresizingMaskIntoConstraints="NO" id="lNv-nf-lom">
-                                    <rect key="frame" x="0.0" y="-6" width="320" height="56"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="UnI-2I-lBp"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="f2R-3H-VFQ"/>
+                                    </constraints>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ks5-9N-tqY">
+                                    <rect key="frame" x="0.0" y="56" width="320" height="28"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kK9-06-HBC">
+                                            <rect key="frame" x="10" y="0.0" width="310" height="28"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="kK9-06-HBC" firstAttribute="top" secondItem="ks5-9N-tqY" secondAttribute="top" id="2Z4-JZ-GlX"/>
+                                        <constraint firstAttribute="trailing" secondItem="kK9-06-HBC" secondAttribute="trailing" id="3ZJ-xR-uUW"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="71O-Xu-eXM"/>
+                                        <constraint firstAttribute="bottom" secondItem="kK9-06-HBC" secondAttribute="bottom" id="RdS-2F-lzx"/>
+                                        <constraint firstItem="kK9-06-HBC" firstAttribute="leading" secondItem="ks5-9N-tqY" secondAttribute="leading" constant="10" id="eex-nW-qO6"/>
+                                    </constraints>
+                                </view>
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <accessibility key="accessibilityConfiguration" hint="Filters Goods" label="Search Goods">
@@ -1696,15 +1743,23 @@ and School</string>
                                 <bool key="isElement" value="YES"/>
                             </accessibility>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="A1f-hn-Beo"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="F81-R2-t4A"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="centerX" secondItem="cUD-FN-T6L" secondAttribute="centerX" id="cdY-M9-lWx"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="centerY" secondItem="cUD-FN-T6L" secondAttribute="centerY" id="o9E-jp-Z6S"/>
+                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="26y-WQ-b5E"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="top" secondItem="cUD-FN-T6L" secondAttribute="top" id="2os-Tj-jOB"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="Awh-yZ-MMh"/>
+                                <constraint firstItem="ks5-9N-tqY" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="G98-ZQ-3cJ"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="H1b-Rb-jwB"/>
+                                <constraint firstItem="ks5-9N-tqY" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="Lt9-I3-TUa"/>
+                                <constraint firstAttribute="trailing" secondItem="ks5-9N-tqY" secondAttribute="trailing" id="QBv-dK-A8f"/>
+                                <constraint firstAttribute="trailing" secondItem="ks5-9N-tqY" secondAttribute="trailing" id="gPv-Pd-07B"/>
+                                <constraint firstItem="lNv-nf-lom" firstAttribute="top" secondItem="cUD-FN-T6L" secondAttribute="top" id="i8W-VY-Yx5"/>
+                                <constraint firstAttribute="bottom" secondItem="ks5-9N-tqY" secondAttribute="bottom" id="qSm-p8-W23"/>
+                                <constraint firstAttribute="bottom" secondItem="ks5-9N-tqY" secondAttribute="bottom" id="wQl-iR-REi"/>
+                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="xtt-Oj-eyn"/>
                             </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="QKh-Ph-TFj" detailTextLabel="4BP-6l-era" style="IBUITableViewCellStyleValue1" id="JvV-TF-JpV">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="106" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JvV-TF-JpV" id="2qP-Re-bo0">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
@@ -1753,6 +1808,7 @@ and School</string>
                         </segmentedControl>
                     </navigationItem>
                     <connections>
+                        <outlet property="goodsCount" destination="kK9-06-HBC" id="9c3-55-0zM"/>
                         <outlet property="searchBarFilter" destination="lNv-nf-lom" id="H7y-sz-isN"/>
                     </connections>
                 </tableViewController>
@@ -5367,7 +5423,7 @@ Standards*                                           </string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xQ3-Ct-UlW"/>
-        <segue reference="3NZ-qU-LZw"/>
+        <segue reference="9ge-aL-a3Z"/>
         <segue reference="UrS-Cc-ziQ"/>
         <segue reference="GQC-PM-1fW"/>
     </inferredMetricsTieBreakers>

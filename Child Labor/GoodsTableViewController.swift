@@ -12,6 +12,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
     
     var state = 0
     
+    @IBOutlet weak var goodsCount: UILabel!
     var goodsXML = SWXMLHash.parse("<xml></xml>")
     
     
@@ -97,6 +98,8 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
             self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -202,6 +205,15 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
     }
     
     
+    func getGoodsCount()->Int{
+        var goodsCount = 0
+        for index in 0...self.tableView.numberOfSections-1{
+            goodsCount += self.tableView.numberOfRows(inSection: index)
+        }
+        return goodsCount
+    }
+    
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filterResults()
     }
@@ -216,6 +228,18 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         othGoods = filterSection(othGoodsAll, query: query!)
         
         tableView.reloadData();
+        
+        if(getGoodsCount() == 1)
+        {
+            goodsCount.text = "1 result found for search " + searchBarFilter.text!
+        }
+        if(getGoodsCount() == 139)
+        {
+            goodsCount.text = ""
+        }
+        else{
+            goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+        }
     }
     
     func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {

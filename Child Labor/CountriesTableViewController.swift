@@ -14,6 +14,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
     var hasDataByCounty: [String: Bool] = [:]
     
+    @IBOutlet weak var countryCount: UILabel!
     @IBOutlet weak var searchFilterview: UIView!
     @IBOutlet weak var searchBarFilter: UISearchBar!
     
@@ -281,6 +282,14 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         // Dispose of any resources that can be recreated.
     }
 
+    func getCountryCount()->Int{
+        var countryCount = 0
+        for index in 0...self.tableView.numberOfSections-1{
+            countryCount += self.tableView.numberOfRows(inSection: index)
+        }
+        return countryCount
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -677,6 +686,18 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         saharanCountries = filterSection(saharanCountriesAll, query: query!)
         
         tableView.reloadData();
+        
+        if(getCountryCount() == 1)
+        {
+           countryCount.text = "1 result found for search " + searchBarFilter.text!
+        }
+        if(getCountryCount() == 148)
+        {
+            countryCount.text = ""
+        }
+        else{
+            countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+        }
     }
     
     func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
