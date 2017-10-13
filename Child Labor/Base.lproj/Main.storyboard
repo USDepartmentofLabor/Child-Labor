@@ -1705,56 +1705,44 @@ and School</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="cUD-FN-T6L">
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="fk2-GI-x19" userLabel="Search View">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <searchBar contentMode="redraw" placeholder="Filter Goods" translatesAutoresizingMaskIntoConstraints="NO" id="lNv-nf-lom">
+                                <searchBar contentMode="redraw" placeholder="Filter Goods" translatesAutoresizingMaskIntoConstraints="NO" id="gkk-Dd-047">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="56" id="UnI-2I-lBp"/>
-                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="f2R-3H-VFQ"/>
+                                        <constraint firstAttribute="height" constant="56" id="ThA-Nq-923"/>
                                     </constraints>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ks5-9N-tqY">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEj-7i-0S2">
                                     <rect key="frame" x="0.0" y="56" width="320" height="28"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kK9-06-HBC">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdg-uw-6Ti">
                                             <rect key="frame" x="10" y="0.0" width="310" height="28"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstItem="kK9-06-HBC" firstAttribute="top" secondItem="ks5-9N-tqY" secondAttribute="top" id="2Z4-JZ-GlX"/>
-                                        <constraint firstAttribute="trailing" secondItem="kK9-06-HBC" secondAttribute="trailing" id="3ZJ-xR-uUW"/>
-                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="71O-Xu-eXM"/>
-                                        <constraint firstAttribute="bottom" secondItem="kK9-06-HBC" secondAttribute="bottom" id="RdS-2F-lzx"/>
-                                        <constraint firstItem="kK9-06-HBC" firstAttribute="leading" secondItem="ks5-9N-tqY" secondAttribute="leading" constant="10" id="eex-nW-qO6"/>
+                                        <constraint firstAttribute="trailing" secondItem="bdg-uw-6Ti" secondAttribute="trailing" id="Lp2-17-tNd"/>
+                                        <constraint firstItem="bdg-uw-6Ti" firstAttribute="top" secondItem="oEj-7i-0S2" secondAttribute="top" id="e9l-VF-qQb"/>
+                                        <constraint firstItem="bdg-uw-6Ti" firstAttribute="leading" secondItem="oEj-7i-0S2" secondAttribute="leading" constant="10" id="l9j-cP-hsz"/>
+                                        <constraint firstAttribute="bottom" secondItem="bdg-uw-6Ti" secondAttribute="bottom" id="o9z-hh-wLr"/>
                                     </constraints>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <accessibility key="accessibilityConfiguration" hint="Filters Goods" label="Search Goods">
-                                <accessibilityTraits key="traits" searchField="YES"/>
-                                <bool key="isElement" value="YES"/>
-                            </accessibility>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="26y-WQ-b5E"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="top" secondItem="cUD-FN-T6L" secondAttribute="top" id="2os-Tj-jOB"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="Awh-yZ-MMh"/>
-                                <constraint firstItem="ks5-9N-tqY" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="G98-ZQ-3cJ"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="H1b-Rb-jwB"/>
-                                <constraint firstItem="ks5-9N-tqY" firstAttribute="leading" secondItem="cUD-FN-T6L" secondAttribute="leading" id="Lt9-I3-TUa"/>
-                                <constraint firstAttribute="trailing" secondItem="ks5-9N-tqY" secondAttribute="trailing" id="QBv-dK-A8f"/>
-                                <constraint firstAttribute="trailing" secondItem="ks5-9N-tqY" secondAttribute="trailing" id="gPv-Pd-07B"/>
-                                <constraint firstItem="lNv-nf-lom" firstAttribute="top" secondItem="cUD-FN-T6L" secondAttribute="top" id="i8W-VY-Yx5"/>
-                                <constraint firstAttribute="bottom" secondItem="ks5-9N-tqY" secondAttribute="bottom" id="qSm-p8-W23"/>
-                                <constraint firstAttribute="bottom" secondItem="ks5-9N-tqY" secondAttribute="bottom" id="wQl-iR-REi"/>
-                                <constraint firstAttribute="trailing" secondItem="lNv-nf-lom" secondAttribute="trailing" id="xtt-Oj-eyn"/>
+                                <constraint firstItem="oEj-7i-0S2" firstAttribute="leading" secondItem="fk2-GI-x19" secondAttribute="leading" id="09h-NA-AVH"/>
+                                <constraint firstAttribute="trailing" secondItem="oEj-7i-0S2" secondAttribute="trailing" id="DGf-qG-QOY"/>
+                                <constraint firstItem="gkk-Dd-047" firstAttribute="top" secondItem="fk2-GI-x19" secondAttribute="top" id="Fbq-UG-UeM"/>
+                                <constraint firstAttribute="bottom" secondItem="oEj-7i-0S2" secondAttribute="bottom" id="Me9-YC-ZFp"/>
+                                <constraint firstAttribute="trailing" secondItem="gkk-Dd-047" secondAttribute="trailing" id="Wu3-de-vh1"/>
+                                <constraint firstItem="gkk-Dd-047" firstAttribute="leading" secondItem="fk2-GI-x19" secondAttribute="leading" id="XVj-cd-Cac"/>
+                                <constraint firstItem="oEj-7i-0S2" firstAttribute="top" secondItem="fk2-GI-x19" secondAttribute="top" constant="56" id="tWE-gq-ExI"/>
                             </constraints>
                         </view>
                         <prototypes>
@@ -1808,8 +1796,8 @@ and School</string>
                         </segmentedControl>
                     </navigationItem>
                     <connections>
-                        <outlet property="goodsCount" destination="kK9-06-HBC" id="9c3-55-0zM"/>
-                        <outlet property="searchBarFilter" destination="lNv-nf-lom" id="H7y-sz-isN"/>
+                        <outlet property="goodsCount" destination="bdg-uw-6Ti" id="dqT-mA-6aW"/>
+                        <outlet property="searchBarFilter" destination="gkk-Dd-047" id="Mld-Tf-Z5S"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSy-z5-l32" userLabel="First Responder" sceneMemberID="firstResponder"/>

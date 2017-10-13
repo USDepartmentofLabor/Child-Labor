@@ -213,7 +213,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             
             if (age == "N/A") {
                 labelText += ""
-                accessibleText += "Not Available"
+                accessibleText += ""
                 if (calculatedAge) {
                     self.hasAgeFooter = true
                     labelText += "‡"
