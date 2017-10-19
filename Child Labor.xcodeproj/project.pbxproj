@@ -2023,6 +2023,12 @@
 		ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intro to OCFT.pdf"; sourceTree = "<group>"; };
 		ED3D28051F58A3A4004DFC9B /* Burma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Burma.pdf; sourceTree = "<group>"; };
 		ED7B331E1F62CCA800CA036A /* West Bank and the Gaza Strip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "West Bank and the Gaza Strip.pdf"; sourceTree = "<group>"; };
+		ED8145DD1F99304300225580 /* icons_Casserite_(tin_ore)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Casserite_(tin_ore)-33@2x.png"; sourceTree = "<group>"; };
+		ED8145DE1F99304300225580 /* icons_Casserite_(tin_ore).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Casserite_(tin_ore).png"; sourceTree = "<group>"; };
+		ED8145DF1F99304300225580 /* icons_Casserite_(tin_ore)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Casserite_(tin_ore)-33@3x.png"; sourceTree = "<group>"; };
+		ED8145E01F9930E100225580 /* icons_Tin_ore_(casserite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Tin_ore_(casserite)-33@3x.png"; path = "../../icons_Tin_ore_(casserite)-33@3x.png"; sourceTree = "<group>"; };
+		ED8145E11F9930F100225580 /* icons_Tin_ore_(casserite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Tin_ore_(casserite).png"; path = "../../icons_Tin_ore_(casserite).png"; sourceTree = "<group>"; };
+		ED8145E21F9930FB00225580 /* icons_Tin_ore_(casserite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Tin_ore_(casserite)-33@2x.png"; path = "../../icons_Tin_ore_(casserite)-33@2x.png"; sourceTree = "<group>"; };
 		ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarAppTableViewController.swift; sourceTree = "<group>"; };
 		ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaTableViewController.swift; sourceTree = "<group>"; };
 		EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiWrapperViewController.swift; sourceTree = "<group>"; };
@@ -2444,12 +2450,15 @@
 				83AD12DC1B669136004B92D3 /* icons_Beans_(green,_soy,_yellow)-33@2x.png */,
 				83AD12DD1B669136004B92D3 /* icons_Beef-33@2x.png */,
 				83AD12DE1B669136004B92D3 /* icons_Bidis_(hand-rolled_cigarettes)-33@2x.png */,
+				ED8145E01F9930E100225580 /* icons_Tin_ore_(casserite)-33@3x.png */,
 				83AD12DF1B669136004B92D3 /* icons_Blueberries-33@2x.png */,
 				83AD12E01B669136004B92D3 /* icons_Brassware-33@2x.png */,
 				83AD12E11B669136004B92D3 /* icons_Brazil_Nuts_Chestnuts-33@2x.png */,
 				83AD12E21B669136004B92D3 /* icons_Bricks_(clay)-33@2x.png */,
+				ED8145E11F9930F100225580 /* icons_Tin_ore_(casserite).png */,
 				83AD12E31B669136004B92D3 /* icons_Bricks-33@2x.png */,
 				83AD12E41B669136004B92D3 /* icons_Broccoli-33@2x.png */,
+				ED8145E21F9930FB00225580 /* icons_Tin_ore_(casserite)-33@2x.png */,
 				83AD12E51B669136004B92D3 /* icons_Carpets-33@2x.png */,
 				83AD12E61B669136004B92D3 /* icons_Cashews-33@2x.png */,
 				83AD12E71B669136004B92D3 /* icons_Cassava-33@2x.png */,
@@ -2898,6 +2907,9 @@
 				835617B71BD7DE78007BCF75 /* Cook Islands.pdf */,
 				835617B81BD7DE78007BCF75 /* Costa Rica.pdf */,
 				835617B91BD7DE78007BCF75 /* Cote d'Ivoire.pdf */,
+				ED8145DD1F99304300225580 /* icons_Casserite_(tin_ore)-33@2x.png */,
+				ED8145DF1F99304300225580 /* icons_Casserite_(tin_ore)-33@3x.png */,
+				ED8145DE1F99304300225580 /* icons_Casserite_(tin_ore).png */,
 				835617BA1BD7DE78007BCF75 /* Djibouti.pdf */,
 				835617BB1BD7DE78007BCF75 /* Dominica.pdf */,
 				835617BC1BD7DE78007BCF75 /* Dominican Republic.pdf */,

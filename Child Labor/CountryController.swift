@@ -327,8 +327,14 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         {
             if (indexPath.row == 1) {
                 
+                if(self.countryName == "Côte d\'Ivoire")
+                {
+                    url = "https://www.dol.gov/agencies/ilab/resources/reports/child-labor/c%C3%B4te-dIvoire"
+                }
                 
-                UIApplication.shared.openURL(URL(string: url)!)
+                
+                 UIApplication.shared.openURL(URL(string: url)!)
+                
                 
             }
         }
