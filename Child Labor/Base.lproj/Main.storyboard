@@ -888,7 +888,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Legal Standards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r1A-VK-rcz">
-                                                    <rect key="frame" x="16" y="0.0" width="269" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -905,7 +905,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Enforcement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q0L-Sq-YMU">
-                                                    <rect key="frame" x="16" y="0.0" width="269" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1860,8 +1860,17 @@ and School</string>
                                             <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="110" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POr-iy-0Th">
+                                            <rect key="frame" x="59" y="11" width="5" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="5" id="kwg-O4-XuB"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="2"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h9l-I4-XMI">
-                                            <rect key="frame" x="65" y="0.0" width="255" height="43"/>
+                                            <rect key="frame" x="71" y="0.0" width="249" height="43"/>
                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="4" id="5L1-SF-Enj">
                                                 <size key="itemSize" width="33" height="43"/>
@@ -1940,12 +1949,17 @@ and School</string>
                                         </collectionView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="h9l-I4-XMI" firstAttribute="leading" secondItem="GLA-Fi-DOK" secondAttribute="trailing" constant="7" id="7Oq-nP-2kf"/>
+                                        <constraint firstItem="POr-iy-0Th" firstAttribute="leading" secondItem="GLA-Fi-DOK" secondAttribute="trailing" constant="1" id="0qx-SV-vTv"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="POr-iy-0Th" secondAttribute="bottom" constant="3.5" id="6pt-WC-Y62"/>
+                                        <constraint firstItem="h9l-I4-XMI" firstAttribute="leading" secondItem="POr-iy-0Th" secondAttribute="trailing" constant="7" id="7Oq-nP-2kf"/>
                                         <constraint firstItem="h9l-I4-XMI" firstAttribute="top" secondItem="tQb-Ox-N9h" secondAttribute="topMargin" constant="-8" id="9hc-mZ-qZg"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="h9l-I4-XMI" secondAttribute="bottom" constant="-8" id="Wzb-wT-O56"/>
+                                        <constraint firstItem="POr-iy-0Th" firstAttribute="top" secondItem="tQb-Ox-N9h" secondAttribute="topMargin" constant="3" id="aL6-bb-h7I"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="h9l-I4-XMI" secondAttribute="trailing" constant="-8" id="hJT-3f-ld6"/>
+                                        <constraint firstItem="POr-iy-0Th" firstAttribute="top" secondItem="tQb-Ox-N9h" secondAttribute="topMargin" constant="3" id="j7X-b8-Ea9"/>
                                         <constraint firstItem="GLA-Fi-DOK" firstAttribute="centerY" secondItem="tQb-Ox-N9h" secondAttribute="centerY" id="ovA-5t-McI"/>
                                         <constraint firstItem="GLA-Fi-DOK" firstAttribute="leading" secondItem="tQb-Ox-N9h" secondAttribute="leadingMargin" constant="7" id="unW-fx-cAF"/>
+                                        <constraint firstItem="POr-iy-0Th" firstAttribute="leading" secondItem="GLA-Fi-DOK" secondAttribute="trailing" constant="1" id="usW-T1-VFM"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -1962,7 +1976,7 @@ and School</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wf-oI-Hdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="1847"/>
+            <point key="canvasLocation" x="1231.875" y="1846.4788732394366"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hgV-Hg-lon">
@@ -5410,8 +5424,8 @@ Standards*                                           </string>
         <image name="man.png" width="12" height="12"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xQ3-Ct-UlW"/>
-        <segue reference="9ge-aL-a3Z"/>
+        <segue reference="iR0-4H-bt0"/>
+        <segue reference="Qkd-VV-gmI"/>
         <segue reference="UrS-Cc-ziQ"/>
         <segue reference="GQC-PM-1fW"/>
     </inferredMetricsTieBreakers>
