@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Countries>
   <Country>
     <Name>Afghanistan</Name>
@@ -29,6 +29,12 @@
       </Good>
       <Good>
         <Good_Name>Flowers (poppies)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Salt</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -637,7 +643,7 @@
         <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -2795,7 +2801,7 @@
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
@@ -4399,6 +4405,12 @@
     <Description>In 2016, Brazil made a significant advancement in efforts to eliminate the worst forms of child labor. The Government approved a new anti-trafficking in persons law that criminalizes child trafficking for labor and sexual exploitation, adopted a Federal Pact for the Eradication of Forced Labor to strengthen the implementation of forced labor policies at the state level and increase information sharing and interagency coordination, and established a national coordination body to collect data on forced labor and human trafficking cases. Criminal law enforcement officials initiated 950 cyber investigations on the commercial sexual exploitation of children. In addition, the Government developed a monitoring system for the National Program to Eradicate Child Labor, allowing state and municipal governments to track program targets. However, children are engaged in the worst forms of child labor, including in the production of coffee and in commercial sexual exploitation. There are not enough labor inspectors to provide sufficient coverage of the workforce, and there is a lack of specialized shelters for child victims of commercial sexual exploitation.</Description>
     <Goods>
       <Good>
+        <Good_Name>Bananas</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Beef</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -4420,7 +4432,7 @@
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Ceramics</Good_Name>
@@ -4432,10 +4444,34 @@
         <Good_Name>Charcoal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cocoa</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Coffee</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Corn</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -4453,6 +4489,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Hogs</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -4465,7 +4507,19 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Poultry</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Rice</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sheep</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -4478,9 +4532,9 @@
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
@@ -5115,19 +5169,19 @@
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Garments</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Jade</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Palm Thatch</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Physic Nuts/Castor Beans</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -5148,7 +5202,7 @@
         <Good_Name>Rubies</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sesame</Good_Name>
@@ -6943,7 +6997,7 @@
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
@@ -7770,20 +7824,20 @@
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
     <Automatic_Downgrade></Automatic_Downgrade>
-    <Description>In 2016, the Democratic Republic of the Congo made a significant advancement in efforts to eliminate the worst forms of child labor. The Government adopted a revision to the Labor Code that raised the minimum age of work to 18 and launched a Human Development Systems Strengthening Project that aims to increase access to birth registration and improve school infrastructure. As part of its Child Soldiers Action Plan, the Joint Technical Working Group established new committees in Tanganyika and North Kivu and validated standard operating procedures for age verification in military recruitment. The Government also worked with the UN to investigate individuals accused of forcibly recruiting children and initiated plans for making reparations to former child soldiers. However, children in the Democratic Republic of the Congo continue to engage in the worst forms of child labor, including in the forced mining of gold, tin ore (casserite), tantalum ore (coltan), and tungsten ore (wolframite), and are used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups. A lack of trained personnel, resources, and poor coordination hampered the Government’s efforts to combat child labor, and laws mandating free primary education are not enforced.</Description>
+    <Description>In 2016, the Democratic Republic of the Congo made a significant advancement in efforts to eliminate the worst forms of child labor. The Government adopted a revision to the Labor Code that raised the minimum age of work to 18 and launched a Human Development Systems Strengthening Project that aims to increase access to birth registration and improve school infrastructure. As part of its Child Soldiers Action Plan, the Joint Technical Working Group established new committees in Tanganyika and North Kivu and validated standard operating procedures for age verification in military recruitment. The Government also worked with the UN to investigate individuals accused of forcibly recruiting children and initiated plans for making reparations to former child soldiers. However, children in the Democratic Republic of the Congo continue to engage in the worst forms of child labor, including in the forced mining of gold, tin ore (cassiterite), tantalum ore (coltan), and tungsten ore (wolframite), and are used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups. A lack of trained personnel, resources, and poor coordination hampered the Government’s efforts to combat child labor, and laws mandating free primary education are not enforced.</Description>
     <Goods>
+      <Good>
+        <Good_Name>Cobalt ore (heterogenite)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
       <Good>
         <Good_Name>Copper</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
-      <Good>
-        <Good_Name>Cobalt ore (heterogenite)</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>	  
       <Good>
         <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
@@ -7801,14 +7855,14 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>	
+      </Good>
       <Good>
-        <Good_Name>Tin ore (casserite)</Good_Name>
+        <Good_Name>Tin ore (cassiterite)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>	  
-      <Good>												
+      </Good>
+      <Good>
         <Good_Name>Tungsten ore (wolframite)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -9259,7 +9313,7 @@
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
@@ -9706,6 +9760,12 @@
     <Description>In 2016, Egypt made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government participated in a school feeding program that reached 13.3 million students and participated in a new program intended to expand access to education to 36,000 children. Almost all Syrian refugee children were enrolled in formal or non-formal education in 2016. The Government held trainings and awareness-raising events on issues of child trafficking. However, children in Egypt are engaged in the worst forms of child labor, including in quarrying limestone and in commercial sexual exploitation as a result of human trafficking. The Government did not publish data on the enforcement of child labor laws. In addition, programs to combat child labor are insufficient to adequately address the extent of the problem.</Description>
     <Goods>
       <Good>
+        <Good_Name>Bricks</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -9894,6 +9954,24 @@
     <Automatic_Downgrade></Automatic_Downgrade>
     <Description>In 2016, El Salvador made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government approved regulations to facilitate the enforcement of the Special Law Against Trafficking in Persons, including on the referral of criminal child labor cases between law enforcement and social service agencies. The National Council for Children and Adolescents designed a mechanism to monitor the implementation of the National Policy for the Protection of Children and Adolescents. In addition, the Government passed the Educated El Salvador Plan, which aims in part to increase security in schools and improve access to education for vulnerable groups, including children engaged in child labor. However, children in El Salvador engage in the worst forms of child labor, including in the harvesting of sugarcane and in illicit activities, sometimes as a result of human trafficking. Law enforcement agencies continue to lack sufficient resources to fully enforce child labor laws, and no penalties for child labor violations were issued in 2016.</Description>
     <Goods>
+      <Good>
+        <Good_Name>Baked Goods</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cattle</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cereal grains</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
@@ -13333,13 +13411,7 @@
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Cotton</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cottonseed (hybrid)</Good_Name>
@@ -13408,6 +13480,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Mica</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -13445,6 +13523,12 @@
       </Good>
       <Good>
         <Good_Name>Thread/Yarn</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -13636,7 +13720,7 @@
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear (sandals)</Good_Name>
@@ -14933,7 +15017,7 @@
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -17195,7 +17279,7 @@
         <Good_Name>Oil (Palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics />
@@ -18089,8 +18173,8 @@
       <Good>
         <Good_Name>Chile Peppers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
@@ -18123,6 +18207,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Flowers (poppies)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -18143,8 +18233,8 @@
       <Good>
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics />
@@ -22561,12 +22651,6 @@
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
-      <Good>
-        <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
     </Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -22973,25 +23057,115 @@
     <Description>In 2016, Paraguay made a significant advancement in efforts to eliminate the worst forms of child labor. The Government approved the National Strategy to Prevent Forced Labor and renewed the National Strategy for the Prevention and Eradication of Child Labor and Protection of Working Adolescents. The Government also published results from a 2015 survey on rural child labor and formalized an agreement to accelerate authorization of workplace inspection search warrants. In addition, the Government launched a project to promote decent work in the production of cotton by combatting poverty and discrimination, preventing and eradicating child labor and forced labor, formalizing employment, and promoting youth employment. However, children in Paraguay are engaged in the worst forms of child labor, including cattle raising and domestic work. The funding and reach of existing social programs and law enforcement agencies hamper the governments ability to fully address the worst forms of child labor, particularly in rural areas.</Description>
     <Goods>
       <Good>
+        <Good_Name>Beans (green beans)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
+        <Good_Name>Cabbages</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Cotton</Good_Name>
+        <Good_Name>Carrots</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cattle</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Corn</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Fish</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Goats</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Hogs</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Lettuce</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Manioc/Cassava</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Melons</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Onions</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Peanuts</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Peppers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Poultry</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sesame</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sheep</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -23004,6 +23178,24 @@
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sweet potatoes</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Tomatoes</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -23240,7 +23432,7 @@
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
@@ -23720,8 +23912,20 @@
     <Description></Description>
     <Goods>
       <Good>
+        <Good_Name>Bricks</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Timber</Good_Name>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -27208,7 +27412,14 @@
     <Advancement_Level>No Advancement</Advancement_Level>
     <Automatic_Downgrade>No Advancement – Efforts Made but Complicit in Forced Child Labor</Automatic_Downgrade>
     <Description>In 2016, Swaziland made efforts to eliminate the worst forms of child labor, but was also complicit in the use of forced child labor. While the Government continued its Free Public Education Program by paying school fees for children up to grade seven, Swaziland is receiving an assessment of no advancement because local chiefs continued to force children to engage in agricultural and domestic work. Penalties for refusing to perform this work included evicting families from their village and confiscating livestock. Children in Swaziland are also engaged in the worst forms of child labor, including in forced domestic work and livestock herding. Significant gaps in laws remain, including the lack of a compulsory education age, and social programs do not adequately address child labor in domestic work and livestock herding.</Description>
-    <Goods />
+    <Goods>
+      <Good>
+        <Good_Name>Bovines</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+    </Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -29316,7 +29527,19 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Footwear</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Furniture</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -29541,7 +29764,7 @@
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics />
@@ -29808,6 +30031,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Sand</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -30032,6 +30261,12 @@
     <Automatic_Downgrade>Minimal Advancement – Efforts Made but Continued Law that Delayed Advancement</Automatic_Downgrade>
     <Description>In 2016, Ukraine made a minimal advancement in efforts to eliminate the worst forms of child labor. Despite new initiatives to address child labor, Ukraine is receiving this assessment because it continued to implement a law that delayed advancement in eliminating the worst forms of child labor. Ukraine enacted legislation in 2014 that effectively imposed a moratorium on labor inspections. While inspections resumed during the reporting period, legislation requiring Cabinet of Ministers approval to conduct an inspection of businesses with an annual income less than $750,000 continued to restrict enforcement of labor laws. Otherwise, the Government made efforts by enacting legislation criminally prohibiting the use of children in armed conflict and approving a new concept for a National Action Plan on child protection that includes a component on the worst forms of child labor. Children in Ukraine perform dangerous tasks in street work and engage in the worst forms of child labor, including in the production of pornography. The age of consent for sexual relationships is not clearly defined, and law enforcement officials lack training on the treatment of victims of commercial sexual exploitation, which puts child victims at risk of prosecution. In addition, national policies related to child labor lack sufficient funding for effective implementation. Ukraine's armed conflict with Russian-backed separatists in the east of the country continued, which negatively impacted the Government's ability to address the worst forms of child labor.</Description>
     <Goods>
+      <Good>
+        <Good_Name>Amber</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
@@ -30444,9 +30679,9 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silk Cocoons</Good_Name>
