@@ -1010,16 +1010,12 @@
 		EDF0414420EFA75D00506499 /* icons_lettuce-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */; };
 		EDF0414620EFA7F000506499 /* icons_Amber-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414520EFA7EF00506499 /* icons_Amber-33@3x.png */; };
 		EDF0414820EFA7F700506499 /* icons_Amber-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414720EFA7F700506499 /* icons_Amber-33@2x.png */; };
-		EDF0414A20EFA80000506499 /* icons_Amber.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414920EFA80000506499 /* icons_Amber.png */; };
-		EDF0414C20EFA86D00506499 /* icons_Bovines.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414B20EFA86D00506499 /* icons_Bovines.png */; };
 		EDF0414E20EFA87300506499 /* icons_Bovines-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414D20EFA87300506499 /* icons_Bovines-33@2x.png */; };
 		EDF0415020EFA87800506499 /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414F20EFA87800506499 /* icons_Bovines-33@3x.png */; };
 		EDF0415220EFA8DF00506499 /* icons_Sheep-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415120EFA8DE00506499 /* icons_Sheep-33@2x.png */; };
 		EDF0415420EFA8E300506499 /* icons_Sheep-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415320EFA8E300506499 /* icons_Sheep-33@3x.png */; };
 		EDF0415620EFA8E900506499 /* icons_Sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415520EFA8E800506499 /* icons_Sheep.png */; };
 		EDF0415820EFA90900506499 /* icons_Lettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415720EFA90900506499 /* icons_Lettuce.png */; };
-		EDF0415A20EFA90F00506499 /* icons_Lettuce-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415920EFA90F00506499 /* icons_Lettuce-33@2x.png */; };
-		EDF0415C20EFA91500506499 /* icons_Lettuce-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415B20EFA91500506499 /* icons_Lettuce-33@3x.png */; };
 		EDF0415E20EFA95D00506499 /* icons_Peppers-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415D20EFA95D00506499 /* icons_Peppers-33@2x.png */; };
 		EDF0416020EFA96300506499 /* icons_Peppers-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0415F20EFA96300506499 /* icons_Peppers-33@3x.png */; };
 		EDF0416220EFA96800506499 /* icons_Peppers.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0416120EFA96800506499 /* icons_Peppers.png */; };
@@ -1035,7 +1031,6 @@
 		EDF0417620EFAABA00506499 /* icons_Cereal_grains-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0417520EFAABA00506499 /* icons_Cereal_grains-33@2x.png */; };
 		EDF0417820EFAABF00506499 /* icons_Cereal_grains-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0417720EFAABF00506499 /* icons_Cereal_grains-33@3x.png */; };
 		EDF0417A20EFAAC500506499 /* icons_Cereal_grains.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0417920EFAAC500506499 /* icons_Cereal_grains.png */; };
-		EDF0417C20EFAB0400506499 /* icons_Sweet_Potatoes-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0417B20EFAB0300506499 /* icons_Sweet_Potatoes-33@3x.png */; };
 		EDF0417E20EFAB0700506499 /* icons_Sweet_potatoes-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0417D20EFAB0700506499 /* icons_Sweet_potatoes-33@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -2074,16 +2069,12 @@
 		EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_lettuce-33@2x.png"; sourceTree = "<group>"; };
 		EDF0414520EFA7EF00506499 /* icons_Amber-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Amber-33@3x.png"; sourceTree = "<group>"; };
 		EDF0414720EFA7F700506499 /* icons_Amber-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Amber-33@2x.png"; sourceTree = "<group>"; };
-		EDF0414920EFA80000506499 /* icons_Amber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons_Amber.png; path = "../../new goods icons that need to be added/icons_Amber.png"; sourceTree = "<group>"; };
-		EDF0414B20EFA86D00506499 /* icons_Bovines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons_Bovines.png; path = "../../new goods icons that need to be added/icons_Bovines.png"; sourceTree = "<group>"; };
 		EDF0414D20EFA87300506499 /* icons_Bovines-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@2x.png"; sourceTree = "<group>"; };
 		EDF0414F20EFA87800506499 /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		EDF0415120EFA8DE00506499 /* icons_Sheep-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Sheep-33@2x.png"; sourceTree = "<group>"; };
 		EDF0415320EFA8E300506499 /* icons_Sheep-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Sheep-33@3x.png"; sourceTree = "<group>"; };
 		EDF0415520EFA8E800506499 /* icons_Sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Sheep.png; sourceTree = "<group>"; };
 		EDF0415720EFA90900506499 /* icons_Lettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Lettuce.png; sourceTree = "<group>"; };
-		EDF0415920EFA90F00506499 /* icons_Lettuce-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Lettuce-33@2x.png"; path = "../../new goods icons that need to be added/icons_Lettuce-33@2x.png"; sourceTree = "<group>"; };
-		EDF0415B20EFA91500506499 /* icons_Lettuce-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Lettuce-33@3x.png"; path = "../../new goods icons that need to be added/icons_Lettuce-33@3x.png"; sourceTree = "<group>"; };
 		EDF0415D20EFA95D00506499 /* icons_Peppers-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Peppers-33@2x.png"; sourceTree = "<group>"; };
 		EDF0415F20EFA96300506499 /* icons_Peppers-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Peppers-33@3x.png"; sourceTree = "<group>"; };
 		EDF0416120EFA96800506499 /* icons_Peppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Peppers.png; sourceTree = "<group>"; };
@@ -2099,7 +2090,6 @@
 		EDF0417520EFAABA00506499 /* icons_Cereal_grains-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cereal_grains-33@2x.png"; sourceTree = "<group>"; };
 		EDF0417720EFAABF00506499 /* icons_Cereal_grains-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Cereal_grains-33@3x.png"; sourceTree = "<group>"; };
 		EDF0417920EFAAC500506499 /* icons_Cereal_grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_grains.png; sourceTree = "<group>"; };
-		EDF0417B20EFAB0300506499 /* icons_Sweet_Potatoes-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Sweet_Potatoes-33@3x.png"; path = "../../new goods icons that need to be added/icons_Sweet_Potatoes-33@3x.png"; sourceTree = "<group>"; };
 		EDF0417D20EFAB0700506499 /* icons_Sweet_potatoes-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Sweet_potatoes-33@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2584,7 +2574,6 @@
 				EDF0416D20EFAA1B00506499 /* icons_Cabbages.png */,
 				EDF0417D20EFAB0700506499 /* icons_Sweet_potatoes-33@2x.png */,
 				EDF0415720EFA90900506499 /* icons_Lettuce.png */,
-				EDF0417B20EFAB0300506499 /* icons_Sweet_Potatoes-33@3x.png */,
 				EDF0417520EFAABA00506499 /* icons_Cereal_grains-33@2x.png */,
 				EDF0417120EFAA5C00506499 /* icons_Carrots-33@2x.png */,
 				EDF0416F20EFAA5700506499 /* icons_Carrots-33@3x.png */,
@@ -2597,19 +2586,15 @@
 				EDF0416520EFA9C300506499 /* icons_Mica-33@3x.png */,
 				EDF0416320EFA9BE00506499 /* icons_Mica-33@2x.png */,
 				EDF0415F20EFA96300506499 /* icons_Peppers-33@3x.png */,
-				EDF0415920EFA90F00506499 /* icons_Lettuce-33@2x.png */,
 				EDF0415D20EFA95D00506499 /* icons_Peppers-33@2x.png */,
-				EDF0415B20EFA91500506499 /* icons_Lettuce-33@3x.png */,
 				83AD13171B669136004B92D3 /* icons_Grapes-33@2x.png */,
 				EDF0414D20EFA87300506499 /* icons_Bovines-33@2x.png */,
 				EDF0415520EFA8E800506499 /* icons_Sheep.png */,
 				EDF0415320EFA8E300506499 /* icons_Sheep-33@3x.png */,
 				EDF0415120EFA8DE00506499 /* icons_Sheep-33@2x.png */,
-				EDF0414920EFA80000506499 /* icons_Amber.png */,
 				EDF0414F20EFA87800506499 /* icons_Bovines-33@3x.png */,
 				83AD13181B669136004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png */,
 				83AD13191B669136004B92D3 /* icons_Gypsum_(mineral)-33@2x.png */,
-				EDF0414B20EFA86D00506499 /* icons_Bovines.png */,
 				EDF0414720EFA7F700506499 /* icons_Amber-33@2x.png */,
 				83AD131A1B669136004B92D3 /* icons_Hazelnuts-33@2x.png */,
 				83AD131B1B669136004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png */,
@@ -3543,10 +3528,8 @@
 				8303DF681B41F21A00E4FD42 /* Bangladesh-map.png in Resources */,
 				83AD12621B668E71004B92D3 /* icons_Chile_Peppers-33@3x.png in Resources */,
 				83AD13661B669137004B92D3 /* icons_Bananas-33@2x.png in Resources */,
-				EDF0415A20EFA90F00506499 /* icons_Lettuce-33@2x.png in Resources */,
 				8310FF251ABB11310025F7AE /* South_Africa.png in Resources */,
 				8303DF901B41F21A00E4FD42 /* Guinea-map.png in Resources */,
-				EDF0415C20EFA91500506499 /* icons_Lettuce-33@3x.png in Resources */,
 				8335AF1D1B667963000748F0 /* icons_Blueberries.png in Resources */,
 				8310FEB41ABB11310025F7AE /* France.png in Resources */,
 				8335AF5B1B667963000748F0 /* icons_Onions.png in Resources */,
@@ -3798,7 +3781,6 @@
 				835618821BD7DE79007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf in Resources */,
 				EDF0415420EFA8E300506499 /* icons_Sheep-33@3x.png in Resources */,
 				8310FE861ABB11310025F7AE /* Bhutan.png in Resources */,
-				EDF0417C20EFAB0400506499 /* icons_Sweet_Potatoes-33@3x.png in Resources */,
 				8310FE821ABB11310025F7AE /* Belgium.png in Resources */,
 				8303DF8B1B41F21A00E4FD42 /* Georgia-map.png in Resources */,
 				8310FEFC1ABB11310025F7AE /* Nicaragua.png in Resources */,
@@ -3910,7 +3892,6 @@
 				83AD13CA1B669137004B92D3 /* icons_Shellfish-33@2x.png in Resources */,
 				8356187C1BD7DE79007BCF75 /* Papua New Guinea.pdf in Resources */,
 				8310FF1C1ABB11310025F7AE /* Senegal.png in Resources */,
-				EDF0414C20EFA86D00506499 /* icons_Bovines.png in Resources */,
 				83AD13B51B669137004B92D3 /* icons_Miraa_(stimulant_plant)-33@2x.png in Resources */,
 				8335AF471B667963000748F0 /* icons_Glass.png in Resources */,
 				8310FE981ABB11310025F7AE /* China.png in Resources */,
@@ -3989,7 +3970,6 @@
 				8347AA0C1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png in Resources */,
 				8310FF371ABB11310025F7AE /* Togo.png in Resources */,
 				8310FF181ABB11310025F7AE /* Samoa.png in Resources */,
-				EDF0414A20EFA80000506499 /* icons_Amber.png in Resources */,
 				835618351BD7DE79007BCF75 /* Cambodia.pdf in Resources */,
 				8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascensión,_and_Tristán_da_Cunha.png in Resources */,
 				8335AFC01B66827E000748F0 /* icons_Coal.png in Resources */,
