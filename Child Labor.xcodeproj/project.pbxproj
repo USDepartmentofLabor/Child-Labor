@@ -996,7 +996,6 @@
 		ED12FF5B20F3ADED00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */; };
 		ED12FF5F20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5E20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png */; };
 		ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */; };
-		ED1DB7D420F39C3100884C5D /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7D320F39C3100884C5D /* icons_Bovines-33@3x.png */; };
 		ED1DB7DE20F3A00100884C5D /* icons_Bovines-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7DD20F3A00100884C5D /* icons_Bovines-33@2x.png */; };
 		ED1DB7E020F3A00800884C5D /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7DF20F3A00700884C5D /* icons_Bovines-33@3x.png */; };
 		ED1DB7E220F3A00D00884C5D /* icons_Bovines.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7E120F3A00D00884C5D /* icons_Bovines.png */; };
@@ -1006,6 +1005,7 @@
 		ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */; };
 		ED8FC8161F54630E0030B75A /* SomaliaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */; };
 		EDA1F92C1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */; };
+		EDB9AE7820F3AF1B0039D6C0 /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB9AE7720F3AF1A0039D6C0 /* icons_Bovines-33@3x.png */; };
 		EDC2A03320EEAEC200789647 /* icons_Sweet_potatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2A03220EEAEC200789647 /* icons_Sweet_potatoes.png */; };
 		EDC2A03520EEAF2D00789647 /* icons_Amber.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2A03420EEAF2C00789647 /* icons_Amber.png */; };
 		EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */; };
@@ -2050,7 +2050,6 @@
 		ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@3x.png"; sourceTree = "<group>"; };
 		ED12FF5E20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@2x.png"; sourceTree = "<group>"; };
 		ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
-		ED1DB7D320F39C3100884C5D /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons_Bovines-33@3x.png"; path = "../../icons/icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		ED1DB7DD20F3A00100884C5D /* icons_Bovines-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@2x.png"; sourceTree = "<group>"; };
 		ED1DB7DF20F3A00700884C5D /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		ED1DB7E120F3A00D00884C5D /* icons_Bovines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Bovines.png; sourceTree = "<group>"; };
@@ -2063,6 +2062,7 @@
 		ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimilarAppTableViewController.swift; sourceTree = "<group>"; };
 		ED8FC8151F54630E0030B75A /* SomaliaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaTableViewController.swift; sourceTree = "<group>"; };
 		EDA1F92B1F3B7D96009B1704 /* LegalStandardsMultiWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiWrapperViewController.swift; sourceTree = "<group>"; };
+		EDB9AE7720F3AF1A0039D6C0 /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		EDC2A03220EEAEC200789647 /* icons_Sweet_potatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Sweet_potatoes.png; sourceTree = "<group>"; };
 		EDC2A03420EEAF2C00789647 /* icons_Amber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Amber.png; sourceTree = "<group>"; };
 		EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsWrapperViewController.swift; sourceTree = "<group>"; };
@@ -2886,8 +2886,8 @@
 				8335AF991B667FB4000748F0 /* icons_Manioc_Cassava.png */,
 				8335AEE91B667963000748F0 /* icons_Matches.png */,
 				8335AF9B1B667FC6000748F0 /* icons_Meat.png */,
+				EDB9AE7720F3AF1A0039D6C0 /* icons_Bovines-33@3x.png */,
 				8335AEEA1B667963000748F0 /* icons_Melons.png */,
-				ED1DB7D320F39C3100884C5D /* icons_Bovines-33@3x.png */,
 				8335AEEB1B667963000748F0 /* icons_Minerals.png */,
 				8335AFB71B6681C8000748F0 /* icons_Miraa_(stimulant_plant).png */,
 				8335AEEC1B667963000748F0 /* icons_Nails.png */,
@@ -4123,7 +4123,6 @@
 				835618531BD7DE79007BCF75 /* Guinea-Bissau.pdf in Resources */,
 				8335AF7E1B667963000748F0 /* icons_Tomatoes.png in Resources */,
 				83AD12911B668E71004B92D3 /* icons_Incense_(agarbatti)-33@3x.png in Resources */,
-				ED1DB7D420F39C3100884C5D /* icons_Bovines-33@3x.png in Resources */,
 				8335AFA21B66805C000748F0 /* icons_Stones_(limestone).png in Resources */,
 				83AD12AE1B668E71004B92D3 /* icons_Salt-33@3x.png in Resources */,
 				83AD138A1B669137004B92D3 /* icons_Diamonds-33@2x.png in Resources */,
@@ -4304,6 +4303,7 @@
 				83B3E98E1B3B519300742BC7 /* child-labor@3x.png in Resources */,
 				8310FEC91ABB11310025F7AE /* India.png in Resources */,
 				8335AF691B667963000748F0 /* icons_Sapphires.png in Resources */,
+				EDB9AE7820F3AF1B0039D6C0 /* icons_Bovines-33@3x.png in Resources */,
 				8356186C1BD7DE79007BCF75 /* Moldova, Republic of.pdf in Resources */,
 				83AD12BC1B668E71004B92D3 /* icons_Stones_(pumice)-33@3x.png in Resources */,
 				83AD12581B668E71004B92D3 /* icons_Broccoli-33@3x.png in Resources */,
