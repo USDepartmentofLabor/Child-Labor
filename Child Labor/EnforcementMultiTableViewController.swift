@@ -63,9 +63,9 @@ class EnforcementMultiTableViewController: UITableViewController {
                 }
                 
                 
-                let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Dedicated_Labor_Inspectors"], enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"],enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]]
+                let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"],enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]]
                 let sectionA2 = [enforcements["Labor_New_Employee_Training"], enforcements["Labor_New_Law_Training"], enforcements["Labor_Refresher_Courses"]]
-                let sectionA3 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"], enforcements["Labor_Desk_Review_Inspections"]]
+                let sectionA3 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"]]
                 let sectionA4 = [enforcements["Labor_Violations"], enforcements["Labor_Penalties_Imposed"], enforcements["Labor_Penalties_Collected"]]
                 let sectionA5 = [enforcements["Labor_Routine_Inspections_Conducted"], enforcements["Labor_Routine_Inspections_Targeted"]]
                 let sectionA6 = [enforcements["Labor_Unannounced_Inspections_Premitted"], enforcements["Labor_Unannounced_Inspections_Conducted"]]
@@ -80,9 +80,9 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         
         
-        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Dedicated Labor Inspectors","No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"]
+        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"]
         let sectionA2 = ["Initial Training for New Employees", "Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
-        let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite", "No. Conducted by Desk Reviews"]
+        let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite"]
         let sectionA4 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]
         let sectionA5 = ["Conducted", "Targeted"]
         let sectionA6 = ["Permitted", "Conducted"]
@@ -152,11 +152,11 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section == 6 && self.hasLaborFooter) {
-            return "* The Government does not publish this information";
+            return "The Government does not publish this information";
         }
         
         if (state == 1 && section == 1 && self.hasCriminalFooter) {
-            return "* The Government does not publish this information";
+            return "The Government does not publish this information";
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
@@ -178,11 +178,11 @@ class EnforcementMultiTableViewController: UITableViewController {
         if state == 0 {
             switch section {
             case 0:
-                return  (showDedicatedInspectors) ? 5 : 4
+                return 4
             case 1:
                 return 3
             case 2:
-                return 3
+                return 2
             case 3:
                 return 3
             case 4:

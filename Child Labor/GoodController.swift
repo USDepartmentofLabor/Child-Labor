@@ -98,7 +98,7 @@ class GoodController: UITableViewController {
         var numCountriesWithThisType = 0
         switch state {
         case 0:
-            typeOfLabor = "Exploitive"
+            typeOfLabor = "Exploitative"
             
             numCountriesWithThisType = countries.count
         case 1:

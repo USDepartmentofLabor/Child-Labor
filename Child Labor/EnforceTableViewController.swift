@@ -81,11 +81,11 @@ class EnforceTableViewController: UITableViewController {
                 tempState = 0
                 setEnforcement(self.laborFundingLabel, text: enforcements["Labor_Funding"].element?.text)
                 setEnforcement(self.laborInspectorsLabel, text: enforcements["Labor_Inspectors"].element?.text)
-                setEnforcement(self.laborDedicatedInspectorsLabel, text: enforcements["Dedicated_Labor_Inspectors"].element?.text)
+                
                 setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
                 setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
                 setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Worksite_Inspections"].element?.text)
-                setEnforcement(self.laborDeskReviewInspectionsLabel, text: enforcements["Labor_Desk_Review_Inspections"].element?.text)
+                
                 setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
                 setEnforcement(self.laborPenaltiesImposedLabel, text: enforcements["Labor_Penalties_Imposed"].element?.text)
                 setEnforcement(self.laborPenaltiesCollectedLabel, text: enforcements["Labor_Penalties_Collected"].element?.text)
@@ -112,10 +112,7 @@ class EnforceTableViewController: UITableViewController {
             }
         }
         
-        let text = self.laborDedicatedInspectorsLabel.text
-        if !(text!.hasPrefix("N/A") == false && text!.hasPrefix("Unavailable") == false) {
-            self.laborDedicatedInspectorsCell.isHidden = true
-        }
+        
         
     }
     
@@ -166,11 +163,11 @@ class EnforceTableViewController: UITableViewController {
         if state == 0 {
             switch section {
             case 0:
-                return 5
+                return 4
             case 1:
                 return 3
             case 2:
-                return 3
+                return 2
             case 3:
                 return 3
             case 4:

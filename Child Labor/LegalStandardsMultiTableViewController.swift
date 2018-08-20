@@ -101,10 +101,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3) {
-            var footer = "* Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard."
-            
-            footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions."
-            
+            var footer = "* No conscription"
+                       
             
             
             if (self.hasAgeFooter) {

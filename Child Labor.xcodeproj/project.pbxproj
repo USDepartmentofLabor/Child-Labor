@@ -131,7 +131,7 @@
 		8303DFC71B41F21A00E4FD42 /* Saint Lucia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4B1B41F21A00E4FD42 /* Saint Lucia-map.png */; };
 		8303DFC81B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4C1B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png */; };
 		8303DFC91B41F21A00E4FD42 /* Suriname-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4D1B41F21A00E4FD42 /* Suriname-map.png */; };
-		8303DFCA1B41F21A00E4FD42 /* Swaziland-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4E1B41F21A00E4FD42 /* Swaziland-map.png */; };
+		8303DFCA1B41F21A00E4FD42 /* Eswatini-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4E1B41F21A00E4FD42 /* Eswatini-map.png */; };
 		8303DFCB1B41F21A00E4FD42 /* Tanzania-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF4F1B41F21A00E4FD42 /* Tanzania-map.png */; };
 		8303DFCC1B41F21A00E4FD42 /* Thailand-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF501B41F21A00E4FD42 /* Thailand-map.png */; };
 		8303DFCD1B41F21A00E4FD42 /* Togo-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF511B41F21A00E4FD42 /* Togo-map.png */; };
@@ -337,7 +337,7 @@
 		8310FF2A1ABB11310025F7AE /* Sri_Lanka.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4A1ABB11310025F7AE /* Sri_Lanka.png */; };
 		8310FF2B1ABB11310025F7AE /* Sudan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4B1ABB11310025F7AE /* Sudan.png */; };
 		8310FF2C1ABB11310025F7AE /* Suriname.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4C1ABB11310025F7AE /* Suriname.png */; };
-		8310FF2D1ABB11310025F7AE /* Swaziland.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4D1ABB11310025F7AE /* Swaziland.png */; };
+		8310FF2D1ABB11310025F7AE /* Eswatini.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4D1ABB11310025F7AE /* Eswatini.png */; };
 		8310FF2E1ABB11310025F7AE /* Sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4E1ABB11310025F7AE /* Sweden.png */; };
 		8310FF2F1ABB11310025F7AE /* Switzerland.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE4F1ABB11310025F7AE /* Switzerland.png */; };
 		8310FF301ABB11310025F7AE /* Syria.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE501ABB11310025F7AE /* Syria.png */; };
@@ -1170,7 +1170,7 @@
 		8303DF4B1B41F21A00E4FD42 /* Saint Lucia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Lucia-map.png"; sourceTree = "<group>"; };
 		8303DF4C1B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Vincent and the Grenadines-map.png"; sourceTree = "<group>"; };
 		8303DF4D1B41F21A00E4FD42 /* Suriname-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Suriname-map.png"; sourceTree = "<group>"; };
-		8303DF4E1B41F21A00E4FD42 /* Swaziland-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swaziland-map.png"; sourceTree = "<group>"; };
+		8303DF4E1B41F21A00E4FD42 /* Eswatini-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eswatini-map.png"; sourceTree = "<group>"; };
 		8303DF4F1B41F21A00E4FD42 /* Tanzania-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tanzania-map.png"; sourceTree = "<group>"; };
 		8303DF501B41F21A00E4FD42 /* Thailand-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thailand-map.png"; sourceTree = "<group>"; };
 		8303DF511B41F21A00E4FD42 /* Togo-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Togo-map.png"; sourceTree = "<group>"; };
@@ -1376,7 +1376,7 @@
 		8310FE4A1ABB11310025F7AE /* Sri_Lanka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sri_Lanka.png; sourceTree = "<group>"; };
 		8310FE4B1ABB11310025F7AE /* Sudan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sudan.png; sourceTree = "<group>"; };
 		8310FE4C1ABB11310025F7AE /* Suriname.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suriname.png; sourceTree = "<group>"; };
-		8310FE4D1ABB11310025F7AE /* Swaziland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swaziland.png; sourceTree = "<group>"; };
+		8310FE4D1ABB11310025F7AE /* Eswatini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eswatini.png; sourceTree = "<group>"; };
 		8310FE4E1ABB11310025F7AE /* Sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sweden.png; sourceTree = "<group>"; };
 		8310FE4F1ABB11310025F7AE /* Switzerland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switzerland.png; sourceTree = "<group>"; };
 		8310FE501ABB11310025F7AE /* Syria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syria.png; sourceTree = "<group>"; };
@@ -2225,7 +2225,7 @@
 				8303DF4B1B41F21A00E4FD42 /* Saint Lucia-map.png */,
 				8303DF4C1B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png */,
 				8303DF4D1B41F21A00E4FD42 /* Suriname-map.png */,
-				8303DF4E1B41F21A00E4FD42 /* Swaziland-map.png */,
+				8303DF4E1B41F21A00E4FD42 /* Eswatini-map.png */,
 				8303DF4F1B41F21A00E4FD42 /* Tanzania-map.png */,
 				8303DF501B41F21A00E4FD42 /* Thailand-map.png */,
 				8303DF511B41F21A00E4FD42 /* Togo-map.png */,
@@ -2447,7 +2447,7 @@
 				8310FE4A1ABB11310025F7AE /* Sri_Lanka.png */,
 				8310FE4B1ABB11310025F7AE /* Sudan.png */,
 				8310FE4C1ABB11310025F7AE /* Suriname.png */,
-				8310FE4D1ABB11310025F7AE /* Swaziland.png */,
+				8310FE4D1ABB11310025F7AE /* Eswatini.png */,
 				8310FE4E1ABB11310025F7AE /* Sweden.png */,
 				8310FE4F1ABB11310025F7AE /* Switzerland.png */,
 				8310FE501ABB11310025F7AE /* Syria.png */,
@@ -3458,7 +3458,7 @@
 				83AD13E21B669137004B92D3 /* icons_Tilapia_(fish)-33@2x.png in Resources */,
 				83AD124D1B668E71004B92D3 /* icons_Bamboo-33@3x.png in Resources */,
 				83AD12C41B668E71004B92D3 /* icons_Tea-33@3x.png in Resources */,
-				8303DFCA1B41F21A00E4FD42 /* Swaziland-map.png in Resources */,
+				8303DFCA1B41F21A00E4FD42 /* Eswatini-map.png in Resources */,
 				38CA954A1D4FF4F200319316 /* icons_Pepper.png in Resources */,
 				8310FE871ABB11310025F7AE /* Bolivia.png in Resources */,
 				8310FF3D1ABB11310025F7AE /* Turks_and_Caicos_Islands.png in Resources */,
@@ -3921,7 +3921,7 @@
 				83AD13751B669137004B92D3 /* icons_Cattle-33@2x.png in Resources */,
 				8356185A1BD7DE79007BCF75 /* Iraq.pdf in Resources */,
 				8335AF8C1B667EEC000748F0 /* icons_Cottonseed_(hybrid).png in Resources */,
-				8310FF2D1ABB11310025F7AE /* Swaziland.png in Resources */,
+				8310FF2D1ABB11310025F7AE /* Eswatini.png in Resources */,
 				8303DF7A1B41F21A00E4FD42 /* Comoros-map.png in Resources */,
 				8303DFC61B41F21A00E4FD42 /* St. Kitts-map.png in Resources */,
 				8303DF6B1B41F21A00E4FD42 /* Benin-map.png in Resources */,

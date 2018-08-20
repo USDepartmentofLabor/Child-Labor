@@ -180,7 +180,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
         tableView.backgroundColor = UIColor.white
 
-        collectionHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITIVE LABOR"
+        collectionHeader.text = String(goods.count) + " GOOD" + (goods.count == 1 ? "" : "S") + " PRODUCED WITH EXPLOITATIVE LABOR"
         
         return goods.count
     }

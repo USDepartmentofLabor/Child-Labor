@@ -113,7 +113,7 @@ class LegalStandardsTableViewController: UITableViewController {
                 // akshay made changes here
                 
                 
-                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.nsCompulsoryMilitary].contains(label) && age!.contains("/") && age!.contains("n/a") == false && age?.contains("N/A") == false) {
+                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.compulsoryEducationLabel].contains(label) && age!.contains("/") && age!.contains("n/a") == false && age?.contains("N/A") == false) {
                     self.hasCombatFooter = true
                     //   labelText += "Φ"
                     // accessibleText += ", ages denoted are combat/non-combat "
@@ -121,7 +121,7 @@ class LegalStandardsTableViewController: UITableViewController {
             }
                 
                 
-            else if ([self.minimumWorkLabel, self.minimumHazardousWorkLabel, self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.nsCompulsoryMilitary].contains(label) && age != nil) {
+            else if ([self.minimumWorkLabel, self.minimumHazardousWorkLabel, self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.compulsoryEducationLabel].contains(label) && age != nil) {
                 labelText += " (" + age!
                 accessibleText += ", " + age!
                 if (calculatedAge) {
@@ -134,7 +134,7 @@ class LegalStandardsTableViewController: UITableViewController {
                 // akshay made changes here
                 
                 
-                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.nsCompulsoryMilitary].contains(label) && age!.contains("/") && age!.contains("n/a") == false && age?.contains("N/A") == false) {
+                if ([self.minimumComplusoryMilitaryLabel, self.minimumVoluntaryMilitaryLabel, self.compulsoryEducationLabel].contains(label) && age!.contains("/") && age!.contains("n/a") == false && age?.contains("N/A") == false) {
                     self.hasCombatFooter = true
                     //   labelText += "Φ"
                     // accessibleText += ", ages denoted are combat/non-combat "
@@ -187,9 +187,8 @@ class LegalStandardsTableViewController: UITableViewController {
         if (section == 3 )
         {
             
-            var footer = "* Please note that this year, a “yes” indicates that the legal framework meets the international standard.  Last year, a “yes” indicated that the country had laws relevant to the international standard, even if they did not fully meet the standard."
+            var footer = "* No conscription"
             
-            footer += "\n\nPlease see the chapter text for more information regarding gaps in the legal framework and suggested actions.\n"
             
             
             
