@@ -72,13 +72,13 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     countryMap.image = nil
                 }
                 
-                if(country["Automatic_Downgrade"].element?.text != nil){
+                if(country["Automatic_Downgrade"].element?.text != ""){
                     advancementLevel.text = (country["Automatic_Downgrade"].element?.text)!
                 }
                 
                 
                 // If there is no profile for this country
-                if country["Description"].element?.text == nil {
+                if country["Description"].element?.text == "" {
                     // Hide the "more" button
                     moreButton.isHidden = true
                     
