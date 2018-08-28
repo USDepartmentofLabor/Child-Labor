@@ -80,7 +80,7 @@ class StatisticsTableViewController: UITableViewController {
                                         }
                                     }
                                     
-                                    if percentageWorking.text == "Unavailable" {
+                                    if (percentageWorking.text == "Unavailable" || percentageWorking.text == "unavailable") {
                                         workingLabel.text = "Unavailable"
                                         workingLabel.textColor = UIColor.black
                                     }
@@ -104,7 +104,7 @@ class StatisticsTableViewController: UITableViewController {
                             agricultureLabel.textColor = UIColor.black
                         }
                     }
-                    if agriculturePercentage.text == "Unavailable"
+                    if (agriculturePercentage.text == "Unavailable" || agriculturePercentage.text == "unavailable")
                     {
                         agricultureLabel.text = "Unavailable"
                         agricultureLabel.textColor = UIColor.black
@@ -125,7 +125,7 @@ class StatisticsTableViewController: UITableViewController {
                             servicesLabel.textColor = UIColor.black
                         }
                     }
-                    if servicesPercentage.text == "Unavailable"
+                    if (servicesPercentage.text == "Unavailable" || servicesPercentage.text == "unavailable")
                     {
                         servicesLabel.text = "Unavailable"
                         servicesLabel.textColor = UIColor.black
@@ -146,7 +146,7 @@ class StatisticsTableViewController: UITableViewController {
                             industryLabel.textColor = UIColor.black
                         }
                     }
-                    if industryPercentage.text == "Unavailable"
+                    if (industryPercentage.text == "Unavailable" || industryPercentage.text == "unavailable")
                     {
                         industryLabel.text = "Unavailable"
                         industryLabel.textColor = UIColor.black

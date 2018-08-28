@@ -239,14 +239,14 @@ class EnforceTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section <= 6) {
             if (section == 6 && self.hasLaborFooter) {
-                return "* The Government does not make this information publicly available";
+                return "* The Government does not publish this information";
             }
             return super.tableView(tableView, titleForFooterInSection: section)
         }
         
         if (state == 1 && section > 6) {
             if (section == 8 && self.hasCriminalFooter) {
-                return "* The Government does not make this information publicly available";
+                return "* The Government does not publish this information";
             }
             return super.tableView(tableView, titleForFooterInSection: section)
         }
