@@ -6085,6 +6085,43 @@ Standards                                          </string>
                             <outlet property="delegate" destination="XFU-uo-r1D" id="q5b-ir-tUA"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="agrib" destination="di1-cz-6Ee" id="PSf-rG-1qn"/>
+                        <outlet property="agrif" destination="Qfd-d6-GPt" id="QdP-Xr-smh"/>
+                        <outlet property="agrik" destination="c9g-LJ-Aa5" id="8K2-i5-oNp"/>
+                        <outlet property="agrip" destination="U43-IQ-TYx" id="zcY-9x-Hwh"/>
+                        <outlet property="agris" destination="23c-OA-gIl" id="OGc-CS-dtJ"/>
+                        <outlet property="attb" destination="sIY-gx-84V" id="dJq-A4-wU3"/>
+                        <outlet property="attf" destination="Gpe-sX-gJi" id="O0B-Xs-svm"/>
+                        <outlet property="attk" destination="824-AA-VCg" id="rHS-I6-YbD"/>
+                        <outlet property="attp" destination="L4h-qQ-0Qz" id="3h5-vT-eZ6"/>
+                        <outlet property="atts" destination="PCa-Fx-8T2" id="SpC-kG-9Fb"/>
+                        <outlet property="comb" destination="Oca-Zu-Ws1" id="yUi-yE-dDS"/>
+                        <outlet property="comf" destination="ouA-xY-zce" id="jlv-3e-TUy"/>
+                        <outlet property="comk" destination="T6x-FG-WRn" id="iWS-a4-XaV"/>
+                        <outlet property="comp" destination="ccx-vz-pIB" id="oIB-vu-xNN"/>
+                        <outlet property="coms" destination="hki-FK-IZP" id="zIm-30-0vl"/>
+                        <outlet property="indb" destination="aVW-4S-bG6" id="5xj-Vd-bqe"/>
+                        <outlet property="indf" destination="Tdk-xb-GvK" id="esS-oH-sm2"/>
+                        <outlet property="indk" destination="UZU-vJ-PoF" id="uQW-Yb-HNg"/>
+                        <outlet property="indp" destination="tLI-Z7-bM4" id="Sye-uP-Rbz"/>
+                        <outlet property="inds" destination="X02-qn-uC8" id="nPy-1t-CAk"/>
+                        <outlet property="primb" destination="TYI-An-kGG" id="0J2-B0-fUK"/>
+                        <outlet property="primf" destination="Heo-38-LJc" id="3ri-2q-aWa"/>
+                        <outlet property="primk" destination="Bei-XW-boc" id="43M-go-n6e"/>
+                        <outlet property="primp" destination="EhM-Js-FrP" id="43X-7k-pa2"/>
+                        <outlet property="prims" destination="NJn-DF-BLS" id="97s-4d-6Pi"/>
+                        <outlet property="serb" destination="0AR-AK-8h9" id="oUz-ck-NZP"/>
+                        <outlet property="serf" destination="6tW-q5-KCh" id="4rx-og-g5F"/>
+                        <outlet property="serk" destination="fvH-k8-2ob" id="pZn-7p-n4L"/>
+                        <outlet property="serp" destination="l7y-7C-asd" id="Kyw-2J-6AZ"/>
+                        <outlet property="sers" destination="sPQ-mx-hCS" id="a6I-sZ-9Yr"/>
+                        <outlet property="workingb" destination="cvA-Ls-MYk" id="PRD-LY-Vfq"/>
+                        <outlet property="workingf" destination="0ES-UE-NJs" id="m0t-45-SRm"/>
+                        <outlet property="workingk" destination="ehF-sP-OtC" id="YCz-AS-8aF"/>
+                        <outlet property="workingp" destination="JDE-a3-frf" id="9dE-ga-QjL"/>
+                        <outlet property="workings" destination="yiL-tf-miU" id="cGG-CY-bX0"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6U-xv-Mf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
