@@ -1007,6 +1007,7 @@
 		EDB9AE7820F3AF1B0039D6C0 /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB9AE7720F3AF1A0039D6C0 /* icons_Bovines-33@3x.png */; };
 		EDC2A03320EEAEC200789647 /* icons_Sweet_potatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2A03220EEAEC200789647 /* icons_Sweet_potatoes.png */; };
 		EDC2A03520EEAF2D00789647 /* icons_Amber.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2A03420EEAF2C00789647 /* icons_Amber.png */; };
+		EDE89E8A213836BD00A70A00 /* TanzaniaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE89E89213836BC00A70A00 /* TanzaniaTableViewController.swift */; };
 		EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */; };
 		EDF0414220EFA71F00506499 /* icons_lettuce-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414120EFA71F00506499 /* icons_lettuce-33@3x.png */; };
 		EDF0414420EFA75D00506499 /* icons_lettuce-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */; };
@@ -2064,6 +2065,7 @@
 		EDB9AE7720F3AF1A0039D6C0 /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		EDC2A03220EEAEC200789647 /* icons_Sweet_potatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Sweet_potatoes.png; sourceTree = "<group>"; };
 		EDC2A03420EEAF2C00789647 /* icons_Amber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Amber.png; sourceTree = "<group>"; };
+		EDE89E89213836BC00A70A00 /* TanzaniaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanzaniaTableViewController.swift; sourceTree = "<group>"; };
 		EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsWrapperViewController.swift; sourceTree = "<group>"; };
 		EDF0414120EFA71F00506499 /* icons_lettuce-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_lettuce-33@3x.png"; sourceTree = "<group>"; };
 		EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_lettuce-33@2x.png"; sourceTree = "<group>"; };
@@ -3165,6 +3167,7 @@
 				38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */,
 				38CA953F1D4FC4F000319316 /* LegalStandardsTableViewController.swift */,
 				ED8FC8111F50AA350030B75A /* SimilarAppTableViewController.swift */,
+				EDE89E89213836BC00A70A00 /* TanzaniaTableViewController.swift */,
 				38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */,
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
@@ -4363,6 +4366,7 @@
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
+				EDE89E8A213836BD00A70A00 /* TanzaniaTableViewController.swift in Sources */,
 				ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */,
 				831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */,
 				EDFB0DCF2136ED6E00A76D52 /* PakistanTableViewController.swift in Sources */,
