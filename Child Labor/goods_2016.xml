@@ -114,6 +114,19 @@
     </Countries>
   </Good>
   <Good>
+    <Good_Name>Beans</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Paraguay</Country_Name>
+        <Country_Region>Latin America &amp; the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Beans (green beans)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -136,13 +149,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>Paraguay</Country_Name>
-        <Country_Region>Latin America &amp; the Caribbean</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -439,7 +445,7 @@
         <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Nepal</Country_Name>
@@ -668,7 +674,7 @@
         <Country_Region>Latin America &amp; the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -1124,7 +1130,7 @@
         <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Azerbaijan</Country_Name>
@@ -1462,7 +1468,7 @@
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -1515,9 +1521,24 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Flowers (poppies)</Good_Name>
+    <Good_Name>Poppies</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
-    <Countries />
+    <Countries>
+      <Country>
+        <Country_Name>Afghanistan</Country_Name>
+        <Country_Region>Asia &amp; the Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Mexico</Country_Name>
+        <Country_Region>Latin America &amp; the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
   </Good>
   <Good>
     <Good_Name>Fluorspar (mineral)</Good_Name>
