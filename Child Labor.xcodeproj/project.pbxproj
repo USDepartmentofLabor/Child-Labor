@@ -1017,6 +1017,7 @@
 		EDE89EA621383E5F00A70A00 /* icons_Beans-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE89EA321383E5E00A70A00 /* icons_Beans-33@3x.png */; };
 		EDE89EA721383E5F00A70A00 /* icons_Beans.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE89EA421383E5F00A70A00 /* icons_Beans.png */; };
 		EDE89EA821383E5F00A70A00 /* icons_Beans-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE89EA521383E5F00A70A00 /* icons_Beans-33@2x.png */; };
+		EDE89EAA213EC36800A70A00 /* Eswatini.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDE89EA9213EC36800A70A00 /* Eswatini.pdf */; };
 		EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */; };
 		EDF0414220EFA71F00506499 /* icons_lettuce-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414120EFA71F00506499 /* icons_lettuce-33@3x.png */; };
 		EDF0414420EFA75D00506499 /* icons_lettuce-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */; };
@@ -2084,6 +2085,7 @@
 		EDE89EA321383E5E00A70A00 /* icons_Beans-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Beans-33@3x.png"; sourceTree = "<group>"; };
 		EDE89EA421383E5F00A70A00 /* icons_Beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Beans.png; sourceTree = "<group>"; };
 		EDE89EA521383E5F00A70A00 /* icons_Beans-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Beans-33@2x.png"; sourceTree = "<group>"; };
+		EDE89EA9213EC36800A70A00 /* Eswatini.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Eswatini.pdf; path = ../../Eswatini.pdf; sourceTree = "<group>"; };
 		EDED05311F3A592800C611C2 /* LegalStandardsWrapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsWrapperViewController.swift; sourceTree = "<group>"; };
 		EDF0414120EFA71F00506499 /* icons_lettuce-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_lettuce-33@3x.png"; sourceTree = "<group>"; };
 		EDF0414320EFA75C00506499 /* icons_lettuce-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_lettuce-33@2x.png"; sourceTree = "<group>"; };
@@ -2988,6 +2990,7 @@
 				835617981BD7DE78007BCF75 /* Algeria.pdf */,
 				835617991BD7DE78007BCF75 /* Angola.pdf */,
 				8356179A1BD7DE78007BCF75 /* Anguilla.pdf */,
+				EDE89EA9213EC36800A70A00 /* Eswatini.pdf */,
 				8356179B1BD7DE78007BCF75 /* Argentina.pdf */,
 				8356179C1BD7DE78007BCF75 /* Armenia.pdf */,
 				8356179D1BD7DE78007BCF75 /* Azerbaijan.pdf */,
@@ -4280,6 +4283,7 @@
 				8310FE701ABB11310025F7AE /* Albania.png in Resources */,
 				8310FEBE1ABB11310025F7AE /* Grenada.png in Resources */,
 				83AD13D61B669137004B92D3 /* icons_Strawberries-33@2x.png in Resources */,
+				EDE89EAA213EC36800A70A00 /* Eswatini.pdf in Resources */,
 				83AD13831B669137004B92D3 /* icons_Tantalum_ore_(coltan)-33@2x.png in Resources */,
 				8310FF3C1ABB11310025F7AE /* Turkmenistan.png in Resources */,
 				83AD13621B669137004B92D3 /* icons_Alcoholic_Beverages-33@2x.png in Resources */,
