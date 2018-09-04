@@ -27137,6 +27137,14 @@
     <Legal_Standards>
       <Minimum_Work>
         <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>14</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Territory_Display_Name>Zanzibar</Territory_Display_Name>
           <Standard>No</Standard>
@@ -27144,27 +27152,19 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Mainland</Territory_Name>
-          <Territory_Display_Name>Mainland</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>14</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Mainland</Territory_Name>
-          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -27173,16 +27173,16 @@
       </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>N/A*</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Mainland</Territory_Name>
-          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
           <Standard>N/A*</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -27191,14 +27191,6 @@
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -27206,17 +27198,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>No</Standard>
@@ -27224,17 +27216,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>		
       </Minumum_Non_State_Military>
       <Types_Hazardous_Work>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -27242,17 +27234,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -27260,17 +27252,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -27278,17 +27270,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -27296,17 +27288,17 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Territory>
-          <Territory_Name>Zanzibar</Territory_Name>
-          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
           <Standard>No</Standard>
@@ -27314,16 +27306,16 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
-      </Prohibition_Illicit_Activities>
-      <Compulsory_Education>
         <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Territory_Display_Name>Zanzibar</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>13</Age>
+          <Standard>Yes</Standard>
+          <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+      </Prohibition_Illicit_Activities>
+      <Compulsory_Education>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
@@ -27332,19 +27324,27 @@
           <Calculated_Age>Yes</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
-      </Compulsory_Education>
-      <Free_Public_Education>
         <Territory>
           <Territory_Name>Zanzibar</Territory_Name>
           <Territory_Display_Name>Zanzibar</Territory_Display_Name>
           <Standard>No</Standard>
-          <Age></Age>
+          <Age>13</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>		
+      </Compulsory_Education>
+      <Free_Public_Education>
         <Territory>
           <Territory_Name>Mainland</Territory_Name>
           <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
