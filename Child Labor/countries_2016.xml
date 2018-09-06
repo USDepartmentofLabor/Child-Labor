@@ -22111,14 +22111,62 @@
           <Enforcement>No</Enforcement>
         </Territory>
       </Labor_Referral_Mechanism>
-      <Criminal_New_Employee_Training />
-      <Criminal_New_Law_Training />
-      <Criminal_Refresher_Courses />
-      <Criminal_Investigations />
-      <Criminal_Violations />
-      <Criminal_Prosecutions />
-      <Criminal_Convictions />
-      <Criminal_Referral_Mechanism />
+      <Criminal_New_Employee_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>	  
+	  </Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+	  </Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+	  </Criminal_Refresher_Courses>
+      <Criminal_Investigations>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+	  </Criminal_Investigations>
+      <Criminal_Violations>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+	  </Criminal_Violations>
+      <Criminal_Prosecutions>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+	  </Criminal_Prosecutions>
+      <Criminal_Convictions>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+	  </Criminal_Convictions>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>	  
+	  </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
