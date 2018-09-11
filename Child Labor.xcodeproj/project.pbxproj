@@ -991,12 +991,12 @@
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
 		ED00BD8B1F61E1E300541AA4 /* TDA-foreword-2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */; };
+		ED05191321484E72006735A3 /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED05191221484E72006735A3 /* icons_Bovines-33@3x.png */; };
 		ED12FF5920F3ADE800D1ED97 /* icons_Tin_ore_(cassiterite).png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5820F3ADE700D1ED97 /* icons_Tin_ore_(cassiterite).png */; };
 		ED12FF5B20F3ADED00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */; };
 		ED12FF5F20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5E20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png */; };
 		ED16FC2F1F5886F100B9F937 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */; };
 		ED1DB7DE20F3A00100884C5D /* icons_Bovines-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7DD20F3A00100884C5D /* icons_Bovines-33@2x.png */; };
-		ED1DB7E020F3A00800884C5D /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7DF20F3A00700884C5D /* icons_Bovines-33@3x.png */; };
 		ED1DB7E220F3A00D00884C5D /* icons_Bovines.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1DB7E120F3A00D00884C5D /* icons_Bovines.png */; };
 		ED2D4CFB1F60775A00DF1C45 /* Intro to OCFT.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */; };
 		ED3D28061F58A3A4004DFC9B /* Burma.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED3D28051F58A3A4004DFC9B /* Burma.pdf */; };
@@ -2056,12 +2056,12 @@
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
 		ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2017.pdf"; sourceTree = "<group>"; };
+		ED05191221484E72006735A3 /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		ED12FF5820F3ADE700D1ED97 /* icons_Tin_ore_(cassiterite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite).png"; sourceTree = "<group>"; };
 		ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@3x.png"; sourceTree = "<group>"; };
 		ED12FF5E20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@2x.png"; sourceTree = "<group>"; };
 		ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		ED1DB7DD20F3A00100884C5D /* icons_Bovines-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@2x.png"; sourceTree = "<group>"; };
-		ED1DB7DF20F3A00700884C5D /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		ED1DB7E120F3A00D00884C5D /* icons_Bovines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Bovines.png; sourceTree = "<group>"; };
 		ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intro to OCFT.pdf"; sourceTree = "<group>"; };
 		ED3D28051F58A3A4004DFC9B /* Burma.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Burma.pdf; sourceTree = "<group>"; };
@@ -2717,10 +2717,10 @@
 				83AD11D31B668E71004B92D3 /* icons_Ceramics-33@3x.png */,
 				83AD11D41B668E71004B92D3 /* icons_Charcoal-33@3x.png */,
 				83AD11D51B668E71004B92D3 /* icons_Chestnut-33@3x.png */,
+				ED05191221484E72006735A3 /* icons_Bovines-33@3x.png */,
 				83AD11D61B668E71004B92D3 /* icons_Chile_Peppers-33@3x.png */,
 				ED1DB7E120F3A00D00884C5D /* icons_Bovines.png */,
 				83AD11D71B668E71004B92D3 /* icons_Christmas_Decorations-33@3x.png */,
-				ED1DB7DF20F3A00700884C5D /* icons_Bovines-33@3x.png */,
 				83AD11D81B668E71004B92D3 /* icons_Citrus_Fruits-33@3x.png */,
 				83AD11D91B668E71004B92D3 /* icons_Cloves-33@3x.png */,
 				ED1DB7DD20F3A00100884C5D /* icons_Bovines-33@2x.png */,
@@ -3430,6 +3430,7 @@
 				8335AF3F1B667963000748F0 /* icons_Flowers.png in Resources */,
 				8310FEFE1ABB11310025F7AE /* Nigeria.png in Resources */,
 				8310FEF31ABB11310025F7AE /* Morocco.png in Resources */,
+				ED05191321484E72006735A3 /* icons_Bovines-33@3x.png in Resources */,
 				8335AF2B1B667963000748F0 /* icons_Christmas_Decorations.png in Resources */,
 				83AD13D11B669137004B92D3 /* icons_Soccer_Balls-33@2x.png in Resources */,
 				83AD13851B669137004B92D3 /* icons_Corn-33@2x.png in Resources */,
@@ -3634,7 +3635,6 @@
 				83AD12891B668E71004B92D3 /* icons_Granite_(crushed)-33@3x.png in Resources */,
 				83AD12801B668E71004B92D3 /* icons_Furniture_(steel)-33@3x.png in Resources */,
 				83AD13D21B669137004B92D3 /* icons_Soy_Beans-33@2x.png in Resources */,
-				ED1DB7E020F3A00800884C5D /* icons_Bovines-33@3x.png in Resources */,
 				8356182A1BD7DE79007BCF75 /* Belize.pdf in Resources */,
 				8335AF421B667963000748F0 /* icons_Furniture_(steel).png in Resources */,
 				8310FF431ABB11310025F7AE /* United_States_of_America.png in Resources */,
