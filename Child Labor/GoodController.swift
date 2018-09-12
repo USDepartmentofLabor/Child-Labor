@@ -59,7 +59,11 @@ class GoodController: UITableViewController {
                     // Add the exploitation type to an array
                     if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" {
                         exploitations.add(0)
-                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" {
+                    }
+                    else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "Yes" {
+                        exploitations.add(3)
+                    }
+                    else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" {
                         exploitations.add(1)
                     } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" {
                         exploitations.add(2)

@@ -123,11 +123,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                         // Add the exploitation type to an array
                         if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "No" {
                             exploitations.add(0)
-                        } else if childLaborStatusForGood == "No" && forcedLaborStatusForGood == "Yes" {
+                        }
+                        else if childLaborStatusForGood == "No" && forcedLaborStatusForGood == "Yes" && forcedChildLaborStatusForGood == "Yes" {
+                            exploitations.add(3)
+                        }
+                        else if childLaborStatusForGood == "No" && forcedLaborStatusForGood == "Yes" {
                             exploitations.add(1)
                         } else if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "Yes" && forcedChildLaborStatusForGood == "No" {
                             exploitations.add(2)
-                        } else {
+                        }
+                        
+                        else {
                             exploitations.add(3)
                         }
                     }
