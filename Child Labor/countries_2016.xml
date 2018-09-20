@@ -3090,13 +3090,21 @@
     <Legal_Standards>
       <Minimum_Work>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age>N/A</Age>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Brčko District</Territory_Name>
           <Territory_Display_Name>Brčko District</Territory_Display_Name>
@@ -3106,24 +3114,40 @@
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>15</Age>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>N/A</Standard>
@@ -3131,43 +3155,11 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
       </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>N/A*</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>N/A*</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3180,20 +3172,36 @@
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
           <Standard>N/A*</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>N/A*</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        </Territory>		
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3208,16 +3216,8 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3226,8 +3226,16 @@
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>No</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>No</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3242,16 +3250,8 @@
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>No</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>No</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3260,6 +3260,30 @@
       </Minumum_Non_State_Military>
       <Types_Hazardous_Work>
         <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>N/A</Standard>
@@ -3267,56 +3291,8 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
-        <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3324,12 +3300,10 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-      </Prohibition_Forced_Labor>
-      <Prohibition_Child_Trafficking>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3344,6 +3318,24 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+      </Prohibition_Forced_Labor>
+      <Prohibition_Child_Trafficking>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -3352,8 +3344,16 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3362,8 +3362,16 @@
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3378,16 +3386,8 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3396,12 +3396,20 @@
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>No</Standard>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Brčko District</Territory_Name>
@@ -3412,23 +3420,39 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
+      </Prohibition_Illicit_Activities>
+      <Compulsory_Education>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
-          <Age></Age>
+          <Age>15</Age>
+          <Calculated_Age>Yes</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
-      </Prohibition_Illicit_Activities>
-      <Compulsory_Education>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
@@ -3437,60 +3461,36 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+      </Compulsory_Education>
+      <Free_Public_Education>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
-          <Age>15</Age>
-          <Calculated_Age>Yes</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
-      </Compulsory_Education>
-      <Free_Public_Education>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>N/A</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
@@ -3500,16 +3500,6 @@
     <Enforcements>
       <Labor_Funding>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
@@ -3519,18 +3509,18 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-      </Labor_Funding>
-      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>7</Enforcement>
-        </Territory>
+        </Territory>		
+      </Labor_Funding>
+      <Labor_Inspectors>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3540,21 +3530,21 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>36</Enforcement>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>7</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Inspectors>
       <Dedicated_Labor_Inspectors />
       <Authorized_Access_Penalties>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3563,20 +3553,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Authorized_Access_Penalties>
       <Labor_New_Employee_Training>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>No</Enforcement>
@@ -3585,20 +3575,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>No</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_New_Employee_Training>
       <Labor_New_Law_Training>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>No</Enforcement>
@@ -3608,63 +3598,63 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
       </Labor_New_Law_Training>
       <Labor_Inspectors_Intl_Standards>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
+      </Labor_Inspectors_Intl_Standards>
+      <Labor_Refresher_Courses>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
+          <Enforcement>No</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
+          <Enforcement>No</Enforcement>
         </Territory>
-      </Labor_Inspectors_Intl_Standards>
-      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
         </Territory>
       </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
@@ -3673,20 +3663,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Inspections>
       <Labor_Worksite_Inspections>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
@@ -3695,21 +3685,21 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections />
       <Labor_Violations>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>0</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>0</Enforcement>
@@ -3718,20 +3708,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>0</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>0</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Violations>
       <Labor_Penalties_Imposed>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>0</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>0</Enforcement>
@@ -3740,20 +3730,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>0</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>0</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>0</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>0</Enforcement>
@@ -3762,20 +3752,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>0</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>0</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3784,20 +3774,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3806,20 +3796,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3828,20 +3818,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3850,20 +3840,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3872,20 +3862,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3894,20 +3884,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3916,20 +3906,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3938,20 +3928,20 @@
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -3961,18 +3951,18 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
-      </Criminal_Refresher_Courses>
-      <Criminal_Investigations>
-        <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>4</Enforcement>
-        </Territory>
         <Territory>
           <Territory_Name>Brčko District</Territory_Name>
           <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>6</Enforcement>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
         </Territory>
+      </Criminal_Refresher_Courses>
+      <Criminal_Investigations>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3983,18 +3973,40 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>198</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>6</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>4</Enforcement>
+        </Territory>
       </Criminal_Investigations>
       <Criminal_Violations>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>72</Enforcement>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
+      </Criminal_Violations>
+      <Criminal_Prosecutions>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -4005,41 +4017,19 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-      </Criminal_Violations>
-      <Criminal_Prosecutions>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>6</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Prosecutions>
       <Criminal_Convictions>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>6</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
@@ -4047,21 +4037,21 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>6</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Convictions>
       <Criminal_Referral_Mechanism>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Brčko District</Territory_Name>
-          <Territory_Display_Name>Brčko District</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
@@ -4069,6 +4059,16 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>	  
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
@@ -13980,16 +13980,16 @@
     <Legal_Standards>
       <Minimum_Work>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -13998,16 +13998,16 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14016,6 +14016,14 @@
       </Minimum_Hazardous_Work>
       <Minimum_Compulsory_Military>
         <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>N/A*</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
           <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>N/A</Standard>
@@ -14023,27 +14031,19 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
-          <Standard>N/A*</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
-        </Territory>
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14052,16 +14052,16 @@
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14070,16 +14070,16 @@
       </Minumum_Non_State_Military>
       <Types_Hazardous_Work>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14088,16 +14088,16 @@
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14106,16 +14106,16 @@
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14124,16 +14124,16 @@
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -14142,6 +14142,14 @@
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>	  
+        <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
           <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -14149,16 +14157,16 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+      </Prohibition_Illicit_Activities>
+      <Compulsory_Education>
         <Territory>
           <Territory_Name>Iraq</Territory_Name>
           <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>No</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
+          <Age>12</Age>
+          <Calculated_Age>Yes</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-      </Prohibition_Illicit_Activities>
-      <Compulsory_Education>
+        </Territory>	  
         <Territory>
           <Territory_Name>Kurdistan Region</Territory_Name>
           <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
@@ -14167,27 +14175,19 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>12</Age>
-          <Calculated_Age>Yes</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
       </Compulsory_Education>
       <Free_Public_Education>
         <Territory>
-          <Territory_Name>Kurdistan Region</Territory_Name>
-          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
-          <Territory_Name>Iraq</Territory_Name>
-          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21119,20 +21119,12 @@
     <Legal_Standards>
       <Minimum_Work>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Standard>No</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
@@ -21143,6 +21135,22 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Standard>N/A</Standard>
@@ -21150,6 +21158,8 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
+      </Minimum_Work>
+      <Minimum_Hazardous_Work>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
@@ -21157,25 +21167,7 @@
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-      </Minimum_Work>
-      <Minimum_Hazardous_Work>
-        <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>19</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>19</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
@@ -21183,49 +21175,23 @@
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-      </Minimum_Hazardous_Work>
-      <Minimum_Compulsory_Military>
-        <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>	  
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age>N/A</Age>
+          <Standard>Yes</Standard>
+          <Age>19</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age>N/A</Age>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>19</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21234,6 +21200,8 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
+      </Minimum_Hazardous_Work>
+      <Minimum_Compulsory_Military>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
@@ -21242,19 +21210,43 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
         </Territory>
-      </Minimum_Compulsory_Military>
-      <Minumum_Voluntary_Military>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21267,18 +21259,26 @@
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21287,16 +21287,8 @@
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>N/A</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21309,18 +21301,26 @@
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>N/A</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21329,16 +21329,8 @@
       </Minumum_Non_State_Military>
       <Types_Hazardous_Work>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21351,7 +21343,23 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21359,28 +21367,12 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21393,7 +21385,23 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21401,28 +21409,12 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21435,7 +21427,23 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21443,28 +21451,12 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21477,7 +21469,23 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21485,28 +21493,12 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>N/A</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>No</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21519,7 +21511,23 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
+        <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>N/A</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
@@ -21527,28 +21535,12 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
       </Prohibition_Illicit_Activities>
       <Compulsory_Education>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>16</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>16</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21561,18 +21553,26 @@
           <Age>16</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>16</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>16</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>16</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21581,16 +21581,8 @@
       </Compulsory_Education>
       <Free_Public_Education>
         <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age></Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21603,18 +21595,26 @@
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-        </Territory>
+        </Territory>		
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age></Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age></Age>
           <Calculated_Age>No</Calculated_Age>
@@ -21625,18 +21625,8 @@
     <Enforcements>
       <Labor_Funding>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
@@ -21645,58 +21635,63 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
+        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-      </Labor_Funding>
-      <Labor_Inspectors>
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
-        </Territory>
+        </Territory>		
+      </Labor_Funding>
+      <Labor_Inspectors>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>356</Enforcement>
         </Territory>
         <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
+        <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>39</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Inspectors>
       <Dedicated_Labor_Inspectors />
       <Authorized_Access_Penalties>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
         <Territory>
@@ -21704,80 +21699,80 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Authorized_Access_Penalties>
       <Labor_New_Employee_Training>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>No</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_New_Employee_Training>
       <Labor_New_Law_Training>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>No</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_New_Law_Training>
       <Labor_Inspectors_Intl_Standards>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>N/A</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>N/A</Enforcement>
         </Territory>
         <Territory>
@@ -21785,189 +21780,189 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>N/A</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>		
       </Labor_Inspectors_Intl_Standards>
       <Labor_Refresher_Courses>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>No</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>26078</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>2780</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Enforcement>26078</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Inspections>
       <Labor_Worksite_Inspections>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>26078</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>2780</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Enforcement>26078</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Worksite_Inspections>
       <Labor_Desk_Review_Inspections />
       <Labor_Violations>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>18</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>4491</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>18</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-      </Labor_Violations>
-      <Labor_Penalties_Imposed>
         <Territory>
           <Territory_Name>Balochistan</Territory_Name>
           <Territory_Display_Name>Balochistan</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
-        </Territory>
+        </Territory>		
+      </Labor_Violations>
+      <Labor_Penalties_Imposed>
         <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>18</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>2221</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Sindh</Territory_Name>
-          <Territory_Display_Name>Sindh</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-      </Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>
-        <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
-          <Territory_Name>Federal</Territory_Name>
-          <Territory_Display_Name>Federal</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>18</Enforcement>
         </Territory>
         <Territory>
+          <Territory_Name>Sindh</Territory_Name>
+          <Territory_Display_Name>Sindh</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
+      </Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>
+        <Territory>
+          <Territory_Name>Federal</Territory_Name>
+          <Territory_Display_Name>Federal</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Enforcement>1134</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
+          <Enforcement>18</Enforcement>
         </Territory>
         <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
@@ -21975,53 +21970,53 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>No</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Enforcement>No</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
@@ -22029,26 +22024,26 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
+       <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
@@ -22056,26 +22051,26 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
-          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
-          <Enforcement>Yes</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>		
+        <Territory>
+          <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
+          <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
         <Territory>
@@ -22083,33 +22078,38 @@
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>
         <Territory>
-          <Territory_Name>Balochistan</Territory_Name>
-          <Territory_Display_Name>Balochistan</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Punjab</Territory_Name>
+          <Territory_Display_Name>Punjab</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
         <Territory>
           <Territory_Name>Khyber Pakhtunkhwa</Territory_Name>
           <Territory_Display_Name>Khyber Pakhtunkhwa</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>Punjab</Territory_Name>
-          <Territory_Display_Name>Punjab</Territory_Display_Name>
-          <Enforcement>Unknown</Enforcement>
-        </Territory>
-        <Territory>
           <Territory_Name>Sindh</Territory_Name>
           <Territory_Display_Name>Sindh</Territory_Display_Name>
           <Enforcement>No</Enforcement>
         </Territory>
+        <Territory>
+          <Territory_Name>Balochistan</Territory_Name>
+          <Territory_Display_Name>Balochistan</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>		
       </Labor_Referral_Mechanism>
       <Criminal_New_Employee_Training>
         <Territory>

@@ -39,8 +39,8 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
-        
+        //return 4
+            return 3
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,8 +49,8 @@ class MoreInfoController: UITableViewController {
             return 2
         case 1:
             return 4
-        case 2:
-            return 1
+//        case 2:
+//            return 1
         
         default:
             return 1
@@ -65,7 +65,7 @@ class MoreInfoController: UITableViewController {
                 UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDAMagazine.pdf")!)
                 break
             case 2:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TVPRA_Report2016.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/listofgoods.pdf")!)
                 break
             case 3:
                 UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
