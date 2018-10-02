@@ -104,9 +104,9 @@ class LegalStandardsTableViewController: UITableViewController {
                 labelText += ""
                 accessibleText += ""
                 if (calculatedAge) {
-                    self.hasAgeFooter = true
-                    labelText += "‡"
-                    accessibleText += ", age calculated based on available information "
+//                    self.hasAgeFooter = true
+//                    labelText += "‡"
+//                    accessibleText += ", age calculated based on available information "
                 }
                 
                 
@@ -125,9 +125,9 @@ class LegalStandardsTableViewController: UITableViewController {
                 labelText += " (" + age!
                 accessibleText += ", " + age!
                 if (calculatedAge) {
-                    self.hasAgeFooter = true
-                    labelText += "‡"
-                    accessibleText += ", age calculated based on available information "
+//                    self.hasAgeFooter = true
+//                    labelText += "‡"
+//                    accessibleText += ", age calculated based on available information "
                 }
                 labelText += ")"
                 
@@ -191,10 +191,10 @@ class LegalStandardsTableViewController: UITableViewController {
             
             
             
-            
-            if (self.hasAgeFooter) {
-                footer += "\n‡ Age calculated based on available information"
-            }
+//            
+//            if (self.hasAgeFooter) {
+//                footer += "\n‡ Age calculated based on available information"
+//            }
             
             
             return footer
