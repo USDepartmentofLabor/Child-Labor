@@ -14303,7 +14303,7 @@ inform social policies and programs.</Name>
     <Name>Iraq</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/iraq</Webpage>
     <Region>Middle East &amp; North Africa</Region>
-    <Multiple_Territories>No</Multiple_Territories>
+    <Multiple_Territories>Yes</Multiple_Territories>
     <Advancement_Level>Minimal Advancement &#8211; Efforts Made but Continued Practice that Delayed Advancement</Advancement_Level>
     <Description>In 2018,Iraq made a minimal advancement in efforts to eliminate the worst forms
 of child labor. The Iraqi Kurdistan Parliament endorsed the Iraqi Law to Combat
@@ -14357,140 +14357,374 @@ assisting children involved in the worst forms of child labor.</Description>
     </Conventions>
     <Legal_Standards>
       <Free_Public_Education>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Free_Public_Education>
       <Minimum_Work>
-        <Standard>Yes</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Hazardous_Work>
       <Types_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Illicit_Activities>
       <Minimum_Compulsory_Military>
-        <Standard>N/A*</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq and Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Iraq and Kurdistan Region</Territory_Display_Name>
+          <Standard>N/A*</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq and Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Iraq and Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq and Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Iraq and Kurdistan Region</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Minumum_Non_State_Military>
       <Compulsory_Education>
-        <Standard>No</Standard>
-        <Age>12&#8225;</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Iraq</Territory_Name>
+          <Territory_Display_Name>Iraq</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>12&#8225;</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Kurdistan Region</Territory_Name>
+          <Territory_Display_Name>Kurdistan Region</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>Unknown* (8)</Labor_Funding>
-      <Labor_Inspectors>Unknown* (8)</Labor_Inspectors>
-      <Authorized_Access_Penalties>No (43)</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>Unknown* (8)</Labor_New_Employee_Training>
-      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
-      <Labor_Refresher_Courses>Unknown* (8)</Labor_Refresher_Courses>
-      <Labor_Inspections>Unknown* (8)</Labor_Inspections>
-      <Labor_Worksite_Inspections>Unknown* (8)</Labor_Worksite_Inspections>
-      <Labor_Violations>Unknown* (8)</Labor_Violations>
-      <Labor_Penalties_Imposed>Unknown* (8)</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>Unknown* (8)</Labor_Penalties_Collected>
-      <Labor_Routine_Inspections_Conducted>Yes (8)</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>Yes (8)</Labor_Routine_Inspections_Targeted>
-      <Labor_Unannounced_Inspections_Premitted>Yes (8)</Labor_Unannounced_Inspections_Premitted>
-      <Labor_Unannounced_Inspections_Conducted>Unknown* (8)</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Yes (8)</Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism>Yes (8)</Labor_Referral_Mechanism>
-      <Criminal_New_Employee_Training>Unknown* (8)</Criminal_New_Employee_Training>
-      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses>Unknown (4)</Criminal_Refresher_Courses>
-      <Criminal_Investigations>Unknown (4)</Criminal_Investigations>
-      <Criminal_Violations>Unknown (4)</Criminal_Violations>
-      <Criminal_Prosecutions>Unknown (4)</Criminal_Prosecutions>
-      <Criminal_Convictions>Unknown (4)</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Labor_Funding>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Funding>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
+      <Authorized_Access_Penalties>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>No (43)</Enforcement>
+        </Territory>
+      </Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_New_Employee_Training>
+      <Labor_New_Law_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+      </Labor_New_Law_Training>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
+      <Labor_Inspections>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Inspections>
+      <Labor_Worksite_Inspections>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Worksite_Inspections>
+      <Labor_Violations>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Violations>
+      <Labor_Penalties_Imposed>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
+      <Criminal_New_Employee_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown* (8)</Enforcement>
+        </Territory>
+      </Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+      </Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown (4)</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
+      <Criminal_Investigations>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown (4)</Enforcement>
+        </Territory>
+      </Criminal_Investigations>
+      <Criminal_Violations>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown (4)</Enforcement>
+        </Territory>
+      </Criminal_Violations>
+      <Criminal_Prosecutions>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown (4)</Enforcement>
+        </Territory>
+      </Criminal_Prosecutions>
+      <Criminal_Convictions>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown (4)</Enforcement>
+        </Territory>
+      </Criminal_Convictions>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Yes (8)</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27690,7 +27924,7 @@ children engaged in agriculture.</Name>
     <Name>Tanzania</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/tanzania</Webpage>
     <Region>Sub-Saharan Africa</Region>
-    <Multiple_Territories>No</Multiple_Territories>
+    <Multiple_Territories>Yes</Multiple_Territories>
     <Advancement_Level>Minimal Advancement &#8211; Efforts Made but Continued Policy and Practice that Delayed Advancement</Advancement_Level>
     <Description>In
 2018, the United Republic of Tanzania made a minimal advancement to eliminate
@@ -27738,136 +27972,471 @@ initiate efforts or make preparations to do so. The government also explicitly s
     </Conventions>
     <Legal_Standards>
       <Free_Public_Education>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Free_Public_Education>
       <Minimum_Work>
-        <Standard>No</Standard>
-        <Age>14</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>No</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>14</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>15</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Hazardous_Work>
       <Types_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Child_Trafficking>
       <Prohibition_CSEC>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Prohibition_Illicit_Activities>
       <Minimum_Compulsory_Military>
-        <Standard>N/A*</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Standard>N/A*</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        </Territory>
       </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Minumum_Non_State_Military>
       <Compulsory_Education>
-        <Standard>No</Standard>
-        <Age>14&#8225;</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        <Standard>No</Standard>
-        <Age>13</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>14&#8225;</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age>13</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>Unknown(3)</Labor_Funding>
-      <Labor_Inspectors>20(3)</Labor_Inspectors>
-      <Authorized_Access_Penalties>No(3)</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>No(3)</Labor_New_Employee_Training>
-      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
-      <Labor_Refresher_Courses>Yes(3)</Labor_Refresher_Courses>
-      <Labor_Inspections>360(3)</Labor_Inspections>
-      <Labor_Worksite_Inspections>Unknown*(3)</Labor_Worksite_Inspections>
-      <Labor_Violations>0(3)</Labor_Violations>
-      <Labor_Penalties_Imposed>Unknown*(3)</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>Unknown*(3)</Labor_Penalties_Collected>
-      <Labor_Routine_Inspections_Conducted>Yes(3)</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>Yes(3)</Labor_Routine_Inspections_Targeted>
-      <Labor_Unannounced_Inspections_Premitted>Yes(3)</Labor_Unannounced_Inspections_Premitted>
-      <Labor_Unannounced_Inspections_Conducted>Yes(3)</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Yes(3)</Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism>Yes(3)</Labor_Referral_Mechanism>
-      <Criminal_New_Employee_Training>No(3)</Criminal_New_Employee_Training>
-      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
-      <Criminal_Refresher_Courses>Yes(3)</Criminal_Refresher_Courses>
-      <Criminal_Investigations>0(3)</Criminal_Investigations>
-      <Criminal_Violations>0(3)</Criminal_Violations>
-      <Criminal_Prosecutions>0(3)</Criminal_Prosecutions>
-      <Criminal_Convictions>0(3)</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>Yes(3)</Criminal_Referral_Mechanism>
+      <Labor_Funding>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>$28,193(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown(3)</Enforcement>
+        </Territory>
+      </Labor_Funding>
+      <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>79(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>20(3)</Enforcement>
+        </Territory>
+      </Labor_Inspectors>
+      <Authorized_Access_Penalties>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>No(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>No(3)</Enforcement>
+        </Territory>
+      </Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>No(3)</Enforcement>
+        </Territory>
+      </Labor_New_Employee_Training>
+      <Labor_New_Law_Training>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+      </Labor_New_Law_Training>
+      <Labor_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Refresher_Courses>
+      <Labor_Inspections>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>360(3)</Enforcement>
+        </Territory>
+      </Labor_Inspections>
+      <Labor_Worksite_Inspections>
+        <Territory>
+          <Territory_Name>Mainland and Zanzibar</Territory_Name>
+          <Territory_Display_Name>Mainland and Zanzibar</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+      </Labor_Worksite_Inspections>
+      <Labor_Violations>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>0(3)</Enforcement>
+        </Territory>
+      </Labor_Violations>
+      <Labor_Penalties_Imposed>
+        <Territory>
+          <Territory_Name>Mainland and Zanzibar</Territory_Name>
+          <Territory_Display_Name>Mainland and Zanzibar</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+      </Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>
+        <Territory>
+          <Territory_Name>Mainland and Zanzibar</Territory_Name>
+          <Territory_Display_Name>Mainland and Zanzibar</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+      </Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>
+        <Territory>
+          <Territory_Name>Mainland and Zanzibar</Territory_Name>
+          <Territory_Display_Name>Mainland and Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Labor_Referral_Mechanism>
+      <Criminal_New_Employee_Training>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>No(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>No(3)</Enforcement>
+        </Territory>
+      </Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>N/A</Enforcement>
+        </Territory>
+      </Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Criminal_Refresher_Courses>
+      <Criminal_Investigations>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>0(3)</Enforcement>
+        </Territory>
+      </Criminal_Investigations>
+      <Criminal_Violations>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>0(3)</Enforcement>
+        </Territory>
+      </Criminal_Violations>
+      <Criminal_Prosecutions>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>0(3)</Enforcement>
+        </Territory>
+      </Criminal_Prosecutions>
+      <Criminal_Convictions>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Unknown*(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>0(3)</Enforcement>
+        </Territory>
+      </Criminal_Convictions>
+      <Criminal_Referral_Mechanism>
+        <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Yes(3)</Enforcement>
+        </Territory>
+      </Criminal_Referral_Mechanism>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
