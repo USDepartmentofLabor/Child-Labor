@@ -1,4 +1,4 @@
-﻿<Goods>
+<Goods>
   <Good>
     <Good_Name>Alcoholic Beverages</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
@@ -201,13 +201,7 @@
     <Good_Name>Bovines</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
-      <Country>
-        <Country_Name>Swaziland</Country_Name>
-        <Country_Region />
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
+      
     </Countries>
   </Good>
   <Good>
@@ -1115,13 +1109,6 @@
       <Country>
         <Country_Name>Egypt</Country_Name>
         <Country_Region>Middle East &amp; North Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>India </Country_Name>
-        <Country_Region />
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
