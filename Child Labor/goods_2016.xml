@@ -113,7 +113,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Beans </Good_Name>
+    <Good_Name>Beans</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -201,7 +201,13 @@
     <Good_Name>Bovines</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
-      
+      <Country>
+        <Country_Name>Swaziland</Country_Name>
+        <Country_Region />
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
     </Countries>
   </Good>
   <Good>
@@ -832,8 +838,8 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Cote d'Ivoire</Country_Name>
-        <Country_Region />
+        <Country_Name>Côte d'Ivoire</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -907,8 +913,8 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Cote d'Ivoire</Country_Name>
-        <Country_Region />
+        <Country_Name>Côte d'Ivoire</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -1109,6 +1115,13 @@
       <Country>
         <Country_Name>Egypt</Country_Name>
         <Country_Region>Middle East &amp; North Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>India</Country_Name>
+        <Country_Region>Asia &amp; the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1688,12 +1701,6 @@
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Garments </Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
       <Country>
         <Country_Name>Bangladesh</Country_Name>
         <Country_Region>Asia &amp; the Pacific</Country_Region>
@@ -1703,7 +1710,7 @@
       </Country>
     </Countries>
   </Good>
-  <Good>
+    <Good>
     <Good_Name>Gems</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
@@ -2341,19 +2348,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Oil (Palm)</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Sierra Leone</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Oil (palm)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -2369,6 +2363,13 @@
         <Country_Region />
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Sierra Leone</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
@@ -3288,7 +3289,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Sweet Potatoes</Good_Name>
+    <Good_Name>Sweet potatoes</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>

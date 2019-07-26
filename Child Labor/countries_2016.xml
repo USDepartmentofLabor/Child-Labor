@@ -1940,7 +1940,7 @@ government has not sufficiently prohibited the use of children in illicit activi
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Garments </Good_Name>
+        <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -7414,7 +7414,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement &#8211; Efforts Made but Continued Practice that Delayed Advancement</Advancement_Level>
-    <Description>In 2018, the Democratic Republic of the Congo made a minimal advancement in efforts to eliminate the worst forms of child labor. The government convicted two former militia leaders of war crimes, including for the recruitment and use of children in armed conflict. The Ministry of Mines also launched a traceability and monitoring system for artisanal mines to detect cases of child labor. However, despite new initiatives to address child labor, the Democratic Republic of the Congo is receiving an assessment of minimal advancement because it continued a practice that delayed advancement in eliminating the worst forms of child labor. Research indicates that labor inspectors failed to conduct any worksite inspections for the third year in a row. Labor inspections are a key tool for identifying child labor violations, and their absence makes children more vulnerable to the worst forms of child labor. In addition, members of the Armed Forces of the Democratic Republic of the Congo (FARDC) detained and sometimes committed extra-judicial killing of boys due to their perceived support or affiliation with non-state armed groups. Children in the Democratic Republic of the Congo engage in the worst forms of child labor, including in the forced mining of gold, tin ore (cassiterite), tantalum ore (coltan), and tungsten ore (wolframite), and are used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups. Other gaps remain, including a lack of trained enforcement personnel, limited financial resources, poor coordination of government efforts to combat child labor, and laws mandating free primary education are not enforced.</Description>
+    <Description>In 2018, the Democratic Republic of the Congo made a minimal advancement in efforts to eliminate the worst forms of child labor. The government convicted two former militia leaders of war crimes, including for the recruitment and use of children in armed conflict. The Ministry of Mines also launched a traceability and monitoring system for artisanal mines to detect cases of child labor. However, despite new initiatives to address child labor, the Democratic Republic of the Congo is receiving an assessment of minimal advancement because it continued a practice that delayed advancement in eliminating the worst forms of child labor. Research indicates that labor inspectors failed to conduct any worksite inspections for the third year in a row. Labor inspections are a key tool for identifying child labor violations, and their absence makes children more vulnerable to the worst forms of child labor. In addition, members of the Armed Forces of the Democratic Republic of the Congo (FARDC) detained and sometimes committed extra-judicial killing of boys due to their perceived support or affiliation with non-state armed groups. Children in the Democratic Republic of the Congo engage in the worst forms of child labor, including in the forced mining of gold, tin ore (cassiterite), tantalum ore (colt an), and tungsten ore (wolframite), and are used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups. Other gaps remain, including a lack of trained enforcement personnel, limited financial resources, poor coordination of government efforts to combat child labor, and laws mandating free primary education are not enforced.</Description>
     <Goods />
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -8244,13 +8244,26 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
     </Mechanisms>
   </Country>
   <Country>
-    <Name>Cote d'Ivoire</Name>
+    <Name>Côte d'Ivoire</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-d'ivoire</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
     <Description>In 2018, C&#244;te d&#8217;Ivoire made a significant advancement in efforts to eliminate the worst forms of child labor. The government developed a new 2018-2020 National Action Plan of the Fight Against Trafficking, Exploitation, and Child Labor, as well as a National Labor Inspection Strategy. The First Lady of C&#244;te d&#8217;Ivoire signed an MOU for carrying out applied research on child labor in cocoa-growing areas, and opened a child protection center which houses and provides education, medical care, counseling, and vocational training to victims of child labor. The government also took enforcement actions on violations of the worst forms of child labor, including sentencing a child trafficker to three years in prison. However, children in C&#244;te d&#8217;Ivoire engage in the worst forms of child labor in the harvesting of cocoa and coffee, sometimes as result of human trafficking. Gaps remain in resources, personnel, and training for law enforcement, which resulted in victims being arrested for crimes they were forced to commit. Furthermore, the Labor Inspectorate is not authorized to assess penalties.</Description>
-    <Goods />
+        <Goods>
+      <Good>
+        <Good_Name>Cocoa</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Coffee</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+    </Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -8436,7 +8449,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
       <Coordination>Yes</Coordination>
     </Mechanisms>
   </Country>
-    <Country>
+  <Country>
     <Name>Djibouti</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/djibouti</Webpage>
     <Region>Sub-Saharan Africa</Region>
@@ -22550,7 +22563,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Sweet Potatoes</Good_Name>
+        <Good_Name>Sweet potatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -23513,7 +23526,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
   </Country>
   <Country>
     <Name>Saint Helena, Ascensión, and Tristán da Cunha</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascension-and-tristan-da-cunha</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascensi&#243;n-and-trist&#225;n-da-cunha</Webpage>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -24324,7 +24337,6 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
       <Coordination>No</Coordination>
     </Mechanisms>
   </Country>
-  
   <Country>
     <Name>Senegal</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/senegal</Webpage>
@@ -24548,7 +24560,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
-    <Description>In 2018, Serbia made a significant advancement in efforts to eliminate the worst forms of child labor. The government drafted the Law on the Rights of the Child and Protection of Child Rights and launched a RoadMap for Eliminating Abuse of Child Labor in Serbia. The Council for Children's Rights drafted a Strategy for Protection of Children from Violence and the Ministry of Interior developed Standard Operating Procedures for Human Trafficking Victims Protections. In addition, the government provided cash transfers to 380,000 vulnerable families with children and government applied penalties in 25 criminal cases related to child labor. However, children in Serbia engage in the worst forms of child labor, including in forced begging and commercial sexual exploitation, each sometimes as a result of human trafficking. Children also perform dangerous tasks in street work. Serbia's laws do not treat child beggars as victims and Serbia's social welfare centers are overburdened, which limits efforts to combat child labor, including its worst forms.</Description>
+    <Description>In 2018, Serbia made a significant advancement in efforts to eliminate the worst forms of child labor. The government drafted the Law on the Rights of the Child and Protection of Child Rights and launched a Road Map for Eliminating Abuse of Child Labor in Serbia. The Council for Children's Rights drafted a Strategy for Protection of Children from Violence and the Ministry of Interior developed Standard Operating Procedures for Human Trafficking Victims Protections. In addition, the government provided cash transfers to 380,000 vulnerable families with children and government applied penalties in 25 criminal cases related to child labor. However, children in Serbia engage in the worst forms of child labor, including in forced begging and commercial sexual exploitation, each sometimes as a result of human trafficking. Children also perform dangerous tasks in street work. Serbia's laws do not treat child beggars as victims and Serbia's social welfare centers are overburdened, which limits efforts to combat child labor, including its worst forms.</Description>
     <Goods />
     <Country_Statistics>
       <Children_Work_Statistics>
@@ -24773,7 +24785,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Oil (Palm)</Good_Name>
+        <Good_Name>Oil (palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -26551,7 +26563,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
       <Coordination>Yes</Coordination>
     </Mechanisms>
   </Country>
-    <Country>
+  <Country>
     <Name>S&#227;o Tom&#233; and Pr&#237;ncipe</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/s&#227;o-tom&#233;-and-pr&#237;ncipe</Webpage>
     <Region>Sub-Saharan Africa</Region>
@@ -30112,7 +30124,7 @@ child labor in commercial sexual exploitation. Children also perform dangerous t
           <Name>Establish and sufficiently fund a reciprocal referral mechanism between criminal authorities and social services.</Name>
         </Action>
         <Action>
-          <Name>Establish inter-agency protocols and a referral and coordination mechanism between Kastom and government child protection services.</Name>
+          <Name>Establish inter-agency protocols and a referral and coordination mechanism between Kastomand government child protection services.</Name>
         </Action>
       </Coordination>
       <Government_Policies>
