@@ -202,8 +202,8 @@
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Swaziland</Country_Name>
-        <Country_Region />
+        <Country_Name>Eswatini</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -791,8 +791,8 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -838,7 +838,7 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Côte d'Ivoire</Country_Name>
+        <Country_Name>C&#244;te d&#8217;Ivoire</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -913,7 +913,7 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Côte d'Ivoire</Country_Name>
+        <Country_Name>C&#244;te d&#8217;Ivoire</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -1017,8 +1017,8 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1249,8 +1249,8 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1646,6 +1646,13 @@
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Bangladesh</Country_Name>
+        <Country_Region>Asia &amp; the Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Brazil</Country_Name>
         <Country_Region>Latin America &amp; the Caribbean</Country_Region>
         <Child_Labor>No</Child_Labor>
@@ -1701,16 +1708,9 @@
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
-      <Country>
-        <Country_Name>Bangladesh</Country_Name>
-        <Country_Region>Asia &amp; the Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
     </Countries>
   </Good>
-    <Good>
+  <Good>
     <Good_Name>Gems</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
@@ -1809,8 +1809,8 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -3289,7 +3289,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Sweet potatoes</Good_Name>
+    <Good_Name>Sweet Potatoes</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3306,8 +3306,8 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -3554,8 +3554,8 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -3745,8 +3745,8 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Democratic Republic of the Congo</Country_Name>
-        <Country_Region />
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
