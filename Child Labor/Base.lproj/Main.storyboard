@@ -355,7 +355,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Sweat &amp; Toil" id="ovW-Hg-zbW">
                         <barButtonItem key="backBarButtonItem" title=" " id="ezy-RW-vID"/>
-                        <barButtonItem key="leftBarButtonItem" image="ilab.png" id="QwY-FU-vwo">
+                        <barButtonItem key="leftBarButtonItem" title="ILAB Logo" image="ilab.png" id="QwY-FU-vwo">
                             <connections>
                                 <action selector="openIlabWebsite:" destination="hfT-IT-hDl" id="Zbx-ff-aMb"/>
                             </connections>
