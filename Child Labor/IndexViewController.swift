@@ -88,7 +88,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
 
     @IBAction func openIlabWebsite(_ sender: AnyObject) {
         // Open website
-        UIApplication.shared.openURL(URL(string: "http://www.dol.gov/ilab/")!)
+        UIApplication.shared.openURL(URL(string: "https://www.dol.gov/agencies/ilab/")!)
     }
     
     @IBAction func openDolWebsite(_ sender: AnyObject) {
