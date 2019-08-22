@@ -73,7 +73,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 }
                 
                 // If there is no profile for this country
-                if country["Description"].element?.text == "" {
+                if ((country["Description"].element?.text == nil) || (country["Description"].element?.text == nil))  {
                     // Hide the "more" button
                     moreButton.isHidden = true
                     
