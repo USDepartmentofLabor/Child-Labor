@@ -167,6 +167,7 @@
       <Criminal_Prosecutions>0(10)</Criminal_Prosecutions>
       <Criminal_Convictions>0(10)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (58)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>N/A</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -380,6 +381,7 @@
       <Criminal_Prosecutions>43 (3)</Criminal_Prosecutions>
       <Criminal_Convictions>5 (32)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (3)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>15 (32)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -605,6 +607,7 @@
       <Criminal_Prosecutions>108 (10)</Criminal_Prosecutions>
       <Criminal_Convictions>98 (10)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (10)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -802,6 +805,7 @@
       <Criminal_Prosecutions>Unknown(11)</Criminal_Prosecutions>
       <Criminal_Convictions>9(24)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(23)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(24)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -1003,6 +1007,7 @@
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -1238,6 +1243,7 @@
       <Criminal_Prosecutions>8 (6)</Criminal_Prosecutions>
       <Criminal_Convictions>10 (6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (6)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(7)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -1425,6 +1431,7 @@
       <Criminal_Prosecutions>1(7)</Criminal_Prosecutions>
       <Criminal_Convictions>0(7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -1639,6 +1646,7 @@
       <Criminal_Prosecutions>0 (5)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (5)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -1949,6 +1957,7 @@
       <Criminal_Prosecutions>Unknown (77)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (77)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown (77)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -2197,6 +2206,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>0(3)</Criminal_Prosecutions>
       <Criminal_Convictions>0(3)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(3)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No(2)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -2420,6 +2430,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>44 (45)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(8)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -2618,6 +2629,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>Unknown* (6)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (6)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -2880,6 +2892,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>52(7)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(2)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -3494,6 +3507,13 @@ sugar industry.</Description>
           <Enforcement>Yes (4)</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>1 (35)</Enforcement>
+        </Territory>
+      </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -3737,6 +3757,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>0(3)</Criminal_Prosecutions>
       <Criminal_Convictions>0(3)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(3)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(3)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -4089,6 +4110,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions>10(55)</Criminal_Prosecutions>
       <Criminal_Convictions>3 (66)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(56)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -4282,6 +4304,7 @@ sugar industry.</Description>
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -4467,6 +4490,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown*(46)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown*(46)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(46)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown*</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -4753,6 +4777,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (10)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (10)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown (10)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -4987,6 +5012,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(2)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(2)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -5188,6 +5214,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(22)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -5434,6 +5461,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown* (9)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (9)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(10)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -5663,6 +5691,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (9)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (9)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (9)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(9)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -5892,6 +5921,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(7)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(7)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -6124,6 +6154,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (4)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(3)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown (4)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -6322,6 +6353,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(23)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(9)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -6587,6 +6619,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -6747,6 +6780,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -6956,6 +6990,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>607(4)</Criminal_Prosecutions>
       <Criminal_Convictions>673(4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -7152,6 +7187,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (33)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (33)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8,36)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -7405,6 +7441,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>13&#8225; (27)</Criminal_Prosecutions>
       <Criminal_Convictions>2 &#8225;(27,61)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (67)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (7,59,60)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -7615,6 +7652,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (8)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No (9)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown (4)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -7834,6 +7872,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8033,6 +8072,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>2(1)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8104,8 +8144,8 @@ labor. During the course of the reporting period, the government has removed mor
     </Mechanisms>
   </Country>
   <Country>
-    <Name>Côte d'Ivoire</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-divoire</Webpage>
+    <Name>C&#244;te d&#8217;Ivoire</Name>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/c&#244;te-d&#8217;ivoire</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
@@ -8253,6 +8293,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>87 (7)</Criminal_Prosecutions>
       <Criminal_Convictions>79 (7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (7)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -8446,6 +8487,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown*(2)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown*(2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(2)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown*</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8662,6 +8704,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(1)</Criminal_Prosecutions>
       <Criminal_Convictions>0(1)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8903,6 +8946,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (20,93)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (55)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (68)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (80)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -9147,6 +9191,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>5(10)</Criminal_Prosecutions>
       <Criminal_Convictions>2(10)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(10)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(2)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -9365,6 +9410,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(4)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -9595,6 +9641,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>9(1)</Criminal_Prosecutions>
       <Criminal_Convictions>0(1)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -9797,6 +9844,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (7)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -10002,6 +10050,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1 (19)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (19)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (19)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -10231,6 +10280,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown* (4)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown* (4)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -10429,6 +10479,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -10597,6 +10648,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1 (7)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -10792,6 +10844,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>3(38)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (5)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (5)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No (1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -11005,6 +11058,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1(15)</Criminal_Prosecutions>
       <Criminal_Convictions>0(15)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(15)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -11212,6 +11266,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>2 (4)</Criminal_Prosecutions>
       <Criminal_Convictions>2 (4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -11444,6 +11499,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>14 (8)</Criminal_Prosecutions>
       <Criminal_Convictions>14 (72)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(8)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -11654,6 +11710,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown*(1)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown*(1)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown*(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -11893,6 +11950,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>55(1)</Criminal_Prosecutions>
       <Criminal_Convictions>12(1)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(30)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -12161,6 +12219,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(8)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -12374,6 +12433,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -12575,6 +12635,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>11(33)</Criminal_Prosecutions>
       <Criminal_Convictions>1(34)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(32)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>0(5)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -12788,6 +12849,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>17 (51)</Criminal_Prosecutions>
       <Criminal_Convictions>17 (51)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (51)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(17)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -13020,6 +13082,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(3)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -13363,6 +13426,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>73 (113)</Criminal_Prosecutions>
       <Criminal_Convictions>174 (113)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (100)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -13601,6 +13665,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(65)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(65)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(65)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -14091,6 +14156,13 @@ labor. During the course of the reporting period, the government has removed mor
           <Enforcement>Yes (8)</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement />
+        </Territory>
+      </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -14310,6 +14382,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (2)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -14514,6 +14587,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (20)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -14716,6 +14790,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>11 (27)</Criminal_Prosecutions>
       <Criminal_Convictions>2 (27)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (27)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>2 (28)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -14957,6 +15032,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown* (41)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (41)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(44)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -15161,6 +15237,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown*(5)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown*(5)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (5)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -15374,6 +15451,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown* (2)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -15594,6 +15672,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>7 (48)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(17)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(17)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -15802,6 +15881,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(2)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (2)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -16008,6 +16088,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (1)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (1)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (1)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -16231,6 +16312,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown* (33)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown* (33)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(33)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown* </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -16469,6 +16551,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (31)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (31)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (31)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown (18)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -16674,6 +16757,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (42)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (42)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (38)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unkown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -16911,6 +16995,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (6)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (13)CITATION MDVconv60 \l 1033 </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -17146,6 +17231,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1 (31)</Criminal_Prosecutions>
       <Criminal_Convictions>1 (31)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (31)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (3)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -17369,6 +17455,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (29)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (29)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (45)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No (34)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -17597,6 +17684,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(11)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(11)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(30)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown (11)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -17882,6 +17970,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>32&#8225; (6)</Criminal_Prosecutions>
       <Criminal_Convictions>24 (6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (6)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -18120,6 +18209,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (9)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (9)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (9)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -18326,6 +18416,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1 (10)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (10)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (10)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>0 (36)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -18520,6 +18611,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -18680,6 +18772,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>5(48)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(48)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(48)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -18881,6 +18974,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>7(45)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(15)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -19089,6 +19183,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(30)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (24)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (24)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(24)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -19313,6 +19408,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (18)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (18)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (18)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -19581,6 +19677,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(8)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -19837,6 +19934,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (19,39)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (19,39)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (54)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes (19,39)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20084,6 +20182,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>12&#8225;(63)</Criminal_Prosecutions>
       <Criminal_Convictions>24 &#8225;(63)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20286,6 +20385,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20470,6 +20570,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20690,6 +20791,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (8)</Criminal_Prosecutions>
       <Criminal_Convictions>2 (3)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20903,6 +21005,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (18)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (18)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (18)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -21722,6 +21825,18 @@ labor. During the course of the reporting period, the government has removed mor
           <Enforcement>No (9)</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement />
+        </Territory>
+      </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -21984,6 +22099,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -22188,6 +22304,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(25)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(25)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown(25)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(4)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -22588,6 +22705,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(3)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(3)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(3)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(3)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -22839,6 +22957,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(2)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(33)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(2)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -23122,6 +23241,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (8)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -23355,6 +23475,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>2 (4)</Criminal_Prosecutions>
       <Criminal_Convictions>1 (8)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (8)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -23403,8 +23524,8 @@ labor. During the course of the reporting period, the government has removed mor
     </Mechanisms>
   </Country>
   <Country>
-    <Name>Saint Helena, Ascensión, and Tristán da Cunha</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascension-and-tristan-da-cunha</Webpage>
+    <Name>Saint Helena, Ascensi&#243;n, and Trist&#225;n da Cunha</Name>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascensi&#243;n-and-trist&#225;n-da-cunha</Webpage>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -23539,6 +23660,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -23722,6 +23844,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (7)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -23938,6 +24061,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (2)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (2)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (2)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -24133,6 +24257,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -24359,6 +24484,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(77)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(77)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(77)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -24569,6 +24695,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>21(6)</Criminal_Prosecutions>
       <Criminal_Convictions>19(6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>25 (6)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -24798,6 +24925,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown*(5)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown*(5)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(5)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25008,6 +25136,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(11)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(11)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown(11)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(11)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25489,6 +25618,13 @@ labor. During the course of the reporting period, the government has removed mor
           <Enforcement>No (6)</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>No (6)</Enforcement>
+        </Territory>
+      </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25714,6 +25850,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>1 (7)</Criminal_Prosecutions>
       <Criminal_Convictions>1 (7)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (7)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25922,6 +26059,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(13)</Criminal_Prosecutions>
       <Criminal_Convictions>0(13)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(6, 39)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No (9)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -26162,6 +26300,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(24)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -26374,6 +26513,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(24)</Criminal_Prosecutions>
       <Criminal_Convictions>7(30)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(6)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -26442,8 +26582,8 @@ labor. During the course of the reporting period, the government has removed mor
     </Mechanisms>
   </Country>
   <Country>
-    <Name>São Tomé and Príncipe</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/sao-tome-and-principe</Webpage>
+    <Name>S&#227;o Tom&#233; and Pr&#237;ncipe</Name>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/s&#227;o-tom&#233;-and-pr&#237;ncipe</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -26578,6 +26718,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(11)</Criminal_Prosecutions>
       <Criminal_Convictions>0(11)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(11)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>No(1)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27201,6 +27342,13 @@ labor. During the course of the reporting period, the government has removed mor
           <Enforcement>Yes(3)</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>
+        <Territory>
+          <Territory_Name>All Territories</Territory_Name>
+          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27457,6 +27605,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>172&#8225;(62)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(21)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(62)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Yes(4)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27676,6 +27825,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0(30)</Criminal_Prosecutions>
       <Criminal_Convictions>0(30)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(30)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(8)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27913,6 +28063,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (14)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Enforcement>
@@ -28100,6 +28251,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -28295,6 +28447,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>N/A(16)</Criminal_Prosecutions>
       <Criminal_Convictions>N/A(16)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(16)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>N/A(16)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -28517,6 +28670,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -28757,6 +28911,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (6)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (6)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (6)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -28979,6 +29134,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>0 (5)</Criminal_Prosecutions>
       <Criminal_Convictions>0 (5)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (5)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -29283,6 +29439,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (17)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (17)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (50)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -29515,6 +29672,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown (4)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown (4)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (4)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -29729,6 +29887,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes(9)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown.</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -29939,6 +30098,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown(17)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(17)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No(17)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown(8)</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -30281,6 +30441,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions />
     <Mechanisms>
@@ -30426,6 +30587,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (15)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -30627,6 +30789,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -30802,6 +30965,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions />
       <Criminal_Convictions />
       <Criminal_Referral_Mechanism />
+      <Imposed_penalties_for_violations_related_to_the_WFCL />
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -31034,6 +31198,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>3 (43)</Criminal_Prosecutions>
       <Criminal_Convictions>5 (43)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (43)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -31241,6 +31406,7 @@ labor. During the course of the reporting period, the government has removed mor
       <Criminal_Prosecutions>2(45)</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown(28)</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes (46)</Criminal_Referral_Mechanism>
+      <Imposed_penalties_for_violations_related_to_the_WFCL>Unknown</Imposed_penalties_for_violations_related_to_the_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>

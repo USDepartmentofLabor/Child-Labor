@@ -40,6 +40,7 @@ class EnforceTableViewController: UITableViewController {
     @IBOutlet weak var criminalProsecutionsLabel: UILabel!
     @IBOutlet weak var criminalConvictionsLabel: UILabel!
     @IBOutlet weak var criminalReferralMechanismLabel: UILabel!
+    @IBOutlet weak var imposedPenaltiesForViolationsRelatedToTheWFCLLabel: UILabel!
     @IBOutlet weak var criminalEmployeeTrainingLabel: UILabel!
     @IBOutlet weak var criminalNewLawsTrainingLabel: UILabel!
     @IBOutlet weak var criminalRefresherCoursesLabel: UILabel!
@@ -106,6 +107,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
                 setEnforcement(self.criminalConvictionsLabel, text: enforcements["Criminal_Convictions"].element?.text)
                 setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
+                setEnforcement(self.imposedPenaltiesForViolationsRelatedToTheWFCLLabel, text: enforcements["Imposed_penalties_for_violations_related_to_the_WFCL"].element?.text)
                 setEnforcement(self.criminalEmployeeTrainingLabel, text: enforcements["Criminal_New_Employee_Training"].element?.text)
                 setEnforcement(self.criminalNewLawsTrainingLabel, text: enforcements["Criminal_New_Law_Training"].element?.text)
                 setEnforcement(self.criminalRefresherCoursesLabel, text: enforcements["Criminal_Refresher_Courses"].element?.text)
@@ -185,7 +187,7 @@ class EnforceTableViewController: UITableViewController {
             case 7:
                 return 3
             case 8:
-                return 5
+                return 6
             default:
                 return 0
             }

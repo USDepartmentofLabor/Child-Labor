@@ -3492,6 +3492,38 @@ Standards                                          </string>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="N4X-Dg-Nr1">
+                                        <rect key="frame" x="0.0" y="2524" width="320" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="N4X-Dg-Nr1" id="1lc-ka-dsC">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imposed penalties for violations related to the worst forms of child labor" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-I1-Bz9">
+                                                    <rect key="frame" x="18" y="16" width="194" height="47.5"/>
+                                                    <accessibility key="accessibilityConfiguration" label="Referral Mechanism Exists between Authorities and Social Services"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unavailable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-lk-5qO">
+                                                    <rect key="frame" x="217" y="29.5" width="88" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="UQB-I1-Bz9" secondAttribute="trailing" constant="100" id="65y-Du-is0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Dka-lk-5qO" secondAttribute="trailing" constant="7" id="F8J-uQ-xN7"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="Dka-lk-5qO" secondAttribute="centerY" id="Ko4-7L-5M8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="UQB-I1-Bz9" secondAttribute="bottom" constant="8" id="bke-hb-Mon"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="1lc-ka-dsC" secondAttribute="centerY" id="lCv-pO-2I7"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="top" secondItem="1lc-ka-dsC" secondAttribute="topMargin" constant="8" id="wnV-We-99l"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="leading" secondItem="1lc-ka-dsC" secondAttribute="leadingMargin" constant="10" id="xtA-8G-vrn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -3509,6 +3541,7 @@ Standards                                          </string>
                         <outlet property="criminalReferralMechanismLabel" destination="gbi-hd-7Uu" id="xAh-qh-T7S"/>
                         <outlet property="criminalRefresherCoursesLabel" destination="A6W-9v-dFc" id="jY1-Sj-us8"/>
                         <outlet property="criminalViolationsLabel" destination="mmE-ZN-964" id="nMA-gJ-gFp"/>
+                        <outlet property="imposedPenaltiesForViolationsRelatedToTheWFCLLabel" destination="Dka-lk-5qO" id="cG8-Tz-XSU"/>
                         <outlet property="laborAccessPenaltiesLabel" destination="VZl-ph-Gq2" id="BwP-1g-jBS"/>
                         <outlet property="laborComplaintMechanismLabel" destination="APj-A9-3JK" id="4T8-iN-WME"/>
                         <outlet property="laborEmployeeTrainingLabel" destination="WM3-4Q-7fq" id="hVT-4e-nkW"/>

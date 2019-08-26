@@ -72,7 +72,7 @@ class EnforcementMultiTableViewController: UITableViewController {
                 let sectionA7 = [enforcements["Labor_Complaint_Mechanism"], enforcements["Labor_Referral_Mechanism"]]
                 
                 let sectionB1 = [enforcements["Criminal_New_Employee_Training"], enforcements["Criminal_New_Law_Training"], enforcements["Criminal_Refresher_Courses"]]
-                let sectionB2 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"]]
+                let sectionB2 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"],enforcements["Imposed_penalties_for_violations_related_to_the_WFCL"]]
                 
                 sectionTerritories.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
                 sectionTerritories.append([sectionB1, sectionB2])
