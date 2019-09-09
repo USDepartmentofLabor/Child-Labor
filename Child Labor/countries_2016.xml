@@ -9,31 +9,31 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Poppies</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -324,7 +324,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -638,8 +638,8 @@
     <Goods>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -917,7 +917,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -1001,67 +1001,67 @@
     <Goods>
       <Good>
         <Good_Name>Blueberries</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garlic</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Grapes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Olives</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Strawberries</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -1467,7 +1467,7 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -1683,91 +1683,91 @@
     <Goods>
       <Good>
         <Good_Name>Bidis (hand-rolled cigarettes)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Dried Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Furniture (steel)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Glass</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Matches</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Soap</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles (jute)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -1852,7 +1852,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -1992,19 +1992,19 @@
     <Goods>
       <Good>
         <Good_Name>Bananas</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Citrus Fruits</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -2089,7 +2089,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -2217,13 +2217,13 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Granite (crushed)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -2612,61 +2612,61 @@
     <Goods>
       <Good>
         <Good_Name>Brazil Nuts/Chestnuts</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silver</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tin</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Zinc</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -4077,145 +4077,145 @@
     <Goods>
       <Good>
         <Good_Name>Bananas</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Beef</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cashews</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Ceramics</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Charcoal</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pineapples</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sheep</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -4491,7 +4491,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -4577,19 +4577,19 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -4786,87 +4786,87 @@
     <Goods>
       <Good>
         <Good_Name>Bamboo</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Beans (green, soy, yellow)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Jade</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Palm Thatch</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubies</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sesame</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sunflowers</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Teak</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -5457,73 +5457,73 @@
     <Goods>
       <Good>
         <Good_Name>Alcoholic Beverages</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Meat</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -5739,7 +5739,7 @@
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -5964,7 +5964,7 @@
     <Goods>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -6192,7 +6192,7 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -6564,74 +6564,74 @@
       <Good>
         <Good_Name>Artificial Flowers</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Christmas Decorations</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Electronics</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Nails</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Toys</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
   </Country>
@@ -6951,49 +6951,49 @@
     <Goods>
       <Good>
         <Good_Name>Bricks (clay)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coca (stimulant plant)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Emeralds</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -7394,45 +7394,45 @@
     <Goods>
       <Good>
         <Good_Name>Cobalt ore (heterogenite)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Copper</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tantalum ore (coltan)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tin ore (cassiterite)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tungsten ore (wolframite)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -7721,7 +7721,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -8011,13 +8011,13 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -8102,7 +8102,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -8223,15 +8223,15 @@
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -8670,7 +8670,7 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -8706,7 +8706,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -8834,31 +8834,31 @@
     <Goods>
       <Good>
         <Good_Name>Baked Goods</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -9079,25 +9079,25 @@
     <Goods>
       <Good>
         <Good_Name>Bananas</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Flowers</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -9288,19 +9288,19 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones (limestone)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -9484,43 +9484,43 @@
     <Goods>
       <Good>
         <Good_Name>Baked Goods</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cereal Grains</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shellfish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -9754,7 +9754,7 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -9790,7 +9790,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -9909,7 +9909,7 @@
     <Goods>
       <Good>
         <Good_Name>Bovines</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -10119,21 +10119,21 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles (hand-woven)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -11278,27 +11278,27 @@
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tilapia (fish)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -11543,7 +11543,7 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -11579,7 +11579,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -11699,37 +11699,37 @@
     <Goods>
       <Good>
         <Good_Name>Broccoli</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -11942,31 +11942,31 @@
     <Goods>
       <Good>
         <Good_Name>Cashews</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -12646,7 +12646,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -12774,19 +12774,19 @@
     <Goods>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Lobsters</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -12976,145 +12976,145 @@
     <Goods>
       <Good>
         <Good_Name>Bidis (hand-rolled cigarettes)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Brassware</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cottonseed (hybrid)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Embellished Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gems</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Glass Bangles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Incense (agarbatti)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Leather Goods/Accessories</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Locks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Matches</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Mica</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silk Fabric</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silk Thread</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Soccer Balls</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Thread/Yarn</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -13319,43 +13319,43 @@
     <Goods>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear (sandals)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tin</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -13440,7 +13440,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -13541,13 +13541,13 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -14322,7 +14322,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A*</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -14432,8 +14432,8 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -14618,55 +14618,55 @@
     <Goods>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Miraa (stimulant plant)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -14953,7 +14953,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -15268,13 +15268,13 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -15472,13 +15472,13 @@
     <Goods>
       <Good>
         <Good_Name>Potatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -15680,7 +15680,7 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -15876,13 +15876,13 @@
     <Goods>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -16097,19 +16097,19 @@
     <Goods>
       <Good>
         <Good_Name>Sapphires</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Vanilla</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -16298,15 +16298,15 @@
     <Goods>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -16508,19 +16508,19 @@
       <Good>
         <Good_Name>Electronics</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -16738,21 +16738,21 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -16960,13 +16960,13 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Goats</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -17272,7 +17272,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -17393,81 +17393,81 @@
     <Goods>
       <Good>
         <Good_Name>Beans (green beans)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Chile Peppers</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cucumbers</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Eggplants</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Onions</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Poppies</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
   </Country>
   <Country>
     <Name>Moldova, Republic of</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/moldova</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/moldova,-republic-of</Webpage>
     <Region>Europe &amp; Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement – Efforts Made but Regression in Law that Delayed Advancement</Advancement_Level>
@@ -17675,19 +17675,19 @@
     <Goods>
       <Good>
         <Good_Name>Coal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fluorspar (mineral)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -18137,7 +18137,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -18402,7 +18402,7 @@
     <Goods>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -18597,7 +18597,7 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -18786,27 +18786,27 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Embellished Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -19030,43 +19030,43 @@
     <Goods>
       <Good>
         <Good_Name>Bananas</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shellfish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones (pumice)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -19266,35 +19266,35 @@
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2018, Niger made a moderate advancement in efforts to eliminate the worst forms of child labor. The Supreme Court set a legal precedent banning the practice of wahaya, a form of slavery in Niger in which men buy girls born into slavery, typically between ages 9 and 11, as “fifth wives.”The government also adopted a law to provide protection and assistance to internally displaced persons, including children, to prevent their exploitation in the worst forms of child labor. Over 300 judges, magistrates, and law enforcement officials received training on investigating and prosecuting trafficking in persons cases, and government officials participated in a regional workshop to reinforce counter-trafficking coordination among member countries of the Economic Community of West Africa. In addition, the government continued to educate religious leaders on how to combat the worst forms of child labor and implemented several other programs to address the worst forms of child labor, including a program that aims to combat human trafficking and migrant smuggling. However, children in Niger engage in the worst forms of child labor, including in hereditary slavery and mining. Children also perform dangerous tasks in agriculture. Although the government made meaningful efforts in all relevant areas during the reporting period, existing child labor laws and regulations do not apply to children in unpaid or non-contractual work. Gaps in labor law enforcement, such as funding to conduct labor inspections have also left children unprotected from the worst forms of child labor. In addition, social programs to combat child labor are insufficient to adequately address the extent of the problem.</Description>
+    <Description>In 2018, Niger made a moderate advancement in efforts to eliminate the worst forms of child labor. The Supreme Court set a legal precedent banning the practice of wahaya, a form of slavery in Niger in which men buy girls born into slavery, typically between ages 9 and 11, as “fifth wives. "The government also adopted a law to provide protection and assistance to internally displaced persons, including children, to prevent their exploitation in the worst forms of child labor. Over 300 judges, magistrates, and law enforcement officials received training on investigating and prosecuting trafficking in persons cases, and government officials participated in a regional workshop to reinforce counter-trafficking coordination among member countries of the Economic Community of West Africa. In addition, the government continued to educate religious leaders on how to combat the worst forms of child labor and implemented several other programs to address the worst forms of child labor, including a program that aims to combat human trafficking and migrant smuggling. However, children in Niger engage in the worst forms of child labor, including in hereditary slavery and mining. Children also perform dangerous tasks in agriculture. Although the government made meaningful efforts in all relevant areas during the reporting period, existing child labor laws and regulations do not apply to children in unpaid or non-contractual work. Gaps in labor law enforcement, such as funding to conduct labor inspections have also left children unprotected from the worst forms of child labor. In addition, social programs to combat child labor are insufficient to adequately address the extent of the problem.</Description>
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gypsum (mineral)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Trona (mineral)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -19501,37 +19501,37 @@
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -19771,13 +19771,13 @@
       </Free_Public_Education>
       <Minimum_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -19936,13 +19936,13 @@
       </Free_Public_Education>
       <Minimum_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -20056,43 +20056,43 @@
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cement</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Iron</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -20469,56 +20469,56 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Glass Bangles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Surgical Instruments</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Wheat</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -21348,13 +21348,13 @@
     <Goods>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -21439,7 +21439,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -21788,145 +21788,145 @@
     <Goods>
       <Good>
         <Good_Name>Beans</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cabbages</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Carrots</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Goats</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Lettuce</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Onions</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Peppers</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sesame</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sheep</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones (limestone)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sweet Potatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -22135,48 +22135,48 @@
     <Region>Latin America &amp; the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2018, Peru made amoderate advancement in efforts to eliminate the worst forms of child labor. The National Labor Inspection Superintendency (SUNAFIL) opened two new inspection offices and added approximately $14 million to its 2018 budget. Congress also passed legislation to strengthen the labor inspectorate system by temporarily transferring competencies, functions and staff from the Regional Governments to SUNAFIL. In addition, the government renewed the National Pan to Combat Forced Labor and the National Policy Against Trafficking in Persons. However, children in Peru engage in the worst forms of child labor, including in mining and in commercial sexual exploitation, sometimes as a result of human trafficking. Peruvian law allows children ages 12 to 14 to do light work without specifying the activities in which children may work. In addition, labor law enforcement agencies in Peru lack sufficient inspectors and training to adequately combat child labor.</Description>
+    <Description>In 2018, Peru made a moderate advancement in efforts to eliminate the worst forms of child labor. The National Labor Inspection Superintendency (SUNAFIL) opened two new inspection offices and added approximately $14 million to its 2018 budget. Congress also passed legislation to strengthen the labor inspectorate system by temporarily transferring competencies, functions and staff from the Regional Governments to SUNAFIL. In addition, the government renewed the National Pan to Combat Forced Labor and the National Policy Against Trafficking in Persons. However, children in Peru engage in the worst forms of child labor, including in mining and in commercial sexual exploitation, sometimes as a result of human trafficking. Peruvian law allows children ages 12 to 14 to do light work without specifying the activities in which children may work. In addition, labor law enforcement agencies in Peru lack sufficient inspectors and training to adequately combat child labor.</Description>
     <Goods>
       <Good>
         <Good_Name>Brazil Nuts/Chestnuts</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coca (stimulant plant)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -22304,7 +22304,8 @@
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>Yes</Criminal_Penalties_for_WFCL>
+      <Criminal_Penalties_for_WFCL>Yes
+</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -22379,79 +22380,79 @@
     <Goods>
       <Good>
         <Good_Name>Bananas</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coconuts</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fashion Accessories</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pyrotechnics</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -22647,19 +22648,19 @@
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -22674,7 +22675,7 @@
     <Goods>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -22936,7 +22937,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -23095,7 +23096,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A*†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -23270,7 +23271,7 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -23306,7 +23307,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A*</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -23494,7 +23495,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -23622,7 +23623,7 @@
     <Goods>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -24014,31 +24015,31 @@
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -24284,7 +24285,7 @@
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -24320,7 +24321,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -25077,9 +25078,9 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -25470,7 +25471,7 @@
     <Goods>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -25486,7 +25487,7 @@
     <Goods>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -25854,9 +25855,9 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
   </Country>
@@ -25870,49 +25871,49 @@
     <Goods>
       <Good>
         <Good_Name>Cloves</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Nile Perch (fish)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tanzanite (gems)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -26510,30 +26511,30 @@
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -27164,13 +27165,13 @@
       </Free_Public_Education>
       <Minimum_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -27334,13 +27335,13 @@
       </Free_Public_Education>
       <Minimum_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>No</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -27688,61 +27689,61 @@
     <Goods>
       <Good>
         <Good_Name>Citrus Fruits</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cumin</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Furniture</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Hazelnuts</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pulses (legumes)</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugar Beets</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -27827,7 +27828,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A*</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -27945,8 +27946,8 @@
     <Goods>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -28039,7 +28040,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -28145,79 +28146,79 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Charcoal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Vanilla</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -28436,19 +28437,19 @@
     <Goods>
       <Good>
         <Good_Name>Amber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -28638,13 +28639,13 @@
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silk Cocoons</Good_Name>
         <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -28924,7 +28925,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A†</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -29069,97 +29070,97 @@
     <Goods>
       <Good>
         <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cashews</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Furniture</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Pepper</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -29253,7 +29254,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>N/A</Standard>
-        <Age />
+        <Age>N/A</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -29673,7 +29674,7 @@
     <Goods>
       <Good>
         <Good_Name>Fish</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -29874,31 +29875,31 @@
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Gems</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>

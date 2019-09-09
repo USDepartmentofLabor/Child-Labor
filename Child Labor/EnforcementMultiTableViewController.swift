@@ -152,11 +152,13 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section == 6 && self.hasLaborFooter) {
-            return "*The government does not publish this information";
+            // return "*The government does not publish this information";
+            return " ";
         }
         
         if (state == 1 && section == 1 && self.hasCriminalFooter) {
-            return "*The government does not publish this information";
+            // return "*The government does not publish this information";
+            return " ";
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
