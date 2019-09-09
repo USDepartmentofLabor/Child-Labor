@@ -1712,7 +1712,7 @@ and School</string>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Io-wa-VmP">
-                                    <rect key="frame" x="98.5" y="11" width="123" height="51"/>
+                                    <rect key="frame" x="10.5" y="11" width="299" height="51"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="za0-Bk-brB"/>
                                     </constraints>
@@ -1925,7 +1925,7 @@ and School</string>
                                     </constraints>
                                 </imageView>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Wdw-tB-KeC">
-                                    <rect key="frame" x="98.5" y="211" width="123" height="51"/>
+                                    <rect key="frame" x="10.5" y="211" width="299" height="51"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="XbU-54-Q50"/>
                                     </constraints>
@@ -3499,7 +3499,7 @@ Standards                                          </string>
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imposed penalties for violations related to the worst forms of child labor" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-I1-Bz9">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imposed penalties for violations related to the WFCL" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-I1-Bz9">
                                                     <rect key="frame" x="18" y="16" width="194" height="47.5"/>
                                                     <accessibility key="accessibilityConfiguration" label="Referral Mechanism Exists between Authorities and Social Services"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
