@@ -77,7 +77,7 @@ class MoreInfoController: UITableViewController {
         if (indexPath.section == 2) {
             switch indexPath.row {
                 case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/OCFTBooklet.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/general/apps/ilab-comply-chain")!)
             default:
                 break
             }
