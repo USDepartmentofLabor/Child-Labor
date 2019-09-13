@@ -89,7 +89,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         let sectionA7 = ["Complaint Mechanism Exists", "Referral Mechanism Exists btwn Authorities and Social Services"]
         
         let sectionB1 = ["Initial Training for New Employees", "Training on New Laws Related to WFCL", "Refresher Courses Provided"]
-        let sectionB2 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Services"]
+        let sectionB2 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Servicesfinder","Imposed penalties for violations related to the WFCL"]
         
         sectionTitles.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
         sectionTitles.append([sectionB1, sectionB2])
@@ -202,7 +202,7 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 0:
                 return 3
             case 1:
-                return 5
+                return 6
             default:
                 return 0
             }
