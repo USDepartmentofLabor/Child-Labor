@@ -291,14 +291,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             
         
         if (indexPath.row == 1) {
-            if (countryName=="Somalia") {
-                
-                
-                performSegue(withIdentifier: "presentSomalia", sender: self)
-                
-            }
-            
-            else if (countryName=="Pakistan") {
+//            if (countryName=="Somalia") {
+//
+//
+//                performSegue(withIdentifier: "presentSomalia", sender: self)
+//
+//            }
+//
+//            else
+            if (countryName=="Pakistan") {
                 
                 
                 performSegue(withIdentifier: "presentPakistan", sender: self)
