@@ -698,8 +698,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         else{
             countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
         }
-//        UIAccessibility.(UIAccessibilityNotifications,
-//                                                        countryCount.text)
+        UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, countryCount.text)
+
     }
     
     func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
