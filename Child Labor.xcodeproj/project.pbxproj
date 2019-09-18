@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
+		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
+		139AC81F2332509A002420FF /* Moldova-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8142332509A002420FF /* Moldova-map.png */; };
+		139AC8202332509A002420FF /* Moldova.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8152332509A002420FF /* Moldova.png */; };
+		139AC8212332509A002420FF /* North Macedonia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8162332509A002420FF /* North Macedonia.pdf */; };
+		139AC8222332509A002420FF /* North Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8172332509A002420FF /* North Macedonia-map.png */; };
+		139AC8232332509A002420FF /* West_Bank_and_the_Gaza_Strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8182332509A002420FF /* West_Bank_and_the_Gaza_Strip.png */; };
+		139AC8242332509A002420FF /* Morocco-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8192332509A002420FF /* Morocco-map.png */; };
+		139AC8252332509A002420FF /* North_Macedonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC81A2332509A002420FF /* North_Macedonia.png */; };
+		139AC8262332509A002420FF /* BackgroundNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC81B2332509A002420FF /* BackgroundNew.png */; };
+		139AC8272332509A002420FF /* Western_Sahara.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC81C2332509A002420FF /* Western_Sahara.png */; };
 		380048791D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */; };
 		3800487A1D8B991C00E64714 /* TDA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048731D8B991C00E64714 /* TDA.pdf */; };
 		3800487B1D8B991C00E64714 /* EO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 380048741D8B991C00E64714 /* EO.pdf */; };
@@ -1057,6 +1068,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
+		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
+		139AC8142332509A002420FF /* Moldova-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Moldova-map.png"; sourceTree = "<group>"; };
+		139AC8152332509A002420FF /* Moldova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moldova.png; sourceTree = "<group>"; };
+		139AC8162332509A002420FF /* North Macedonia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "North Macedonia.pdf"; sourceTree = "<group>"; };
+		139AC8172332509A002420FF /* North Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North Macedonia-map.png"; sourceTree = "<group>"; };
+		139AC8182332509A002420FF /* West_Bank_and_the_Gaza_Strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = West_Bank_and_the_Gaza_Strip.png; sourceTree = "<group>"; };
+		139AC8192332509A002420FF /* Morocco-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morocco-map.png"; sourceTree = "<group>"; };
+		139AC81A2332509A002420FF /* North_Macedonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = North_Macedonia.png; sourceTree = "<group>"; };
+		139AC81B2332509A002420FF /* BackgroundNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundNew.png; sourceTree = "<group>"; };
+		139AC81C2332509A002420FF /* Western_Sahara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Western_Sahara.png; sourceTree = "<group>"; };
 		380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fact Sheet-OFCT-2016-lo.pdf"; sourceTree = "<group>"; };
 		380048731D8B991C00E64714 /* TDA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TDA.pdf; sourceTree = "<group>"; };
 		380048741D8B991C00E64714 /* EO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EO.pdf; sourceTree = "<group>"; };
@@ -3256,6 +3278,17 @@
 				83B3E9921B3B5DA400742BC7 /* dol@3x.png */,
 				83B3E9911B3B5DA400742BC7 /* dol@2x.png */,
 				83232C391B87552200A0D49F /* Background.png */,
+				139AC81B2332509A002420FF /* BackgroundNew.png */,
+				139AC8142332509A002420FF /* Moldova-map.png */,
+				139AC8132332509A002420FF /* Moldova.pdf */,
+				139AC8152332509A002420FF /* Moldova.png */,
+				139AC8192332509A002420FF /* Morocco-map.png */,
+				139AC8172332509A002420FF /* North Macedonia-map.png */,
+				139AC8162332509A002420FF /* North Macedonia.pdf */,
+				139AC8122332509A002420FF /* North_Macedonia-map.png */,
+				139AC81A2332509A002420FF /* North_Macedonia.png */,
+				139AC8182332509A002420FF /* West_Bank_and_the_Gaza_Strip.png */,
+				139AC81C2332509A002420FF /* Western_Sahara.png */,
 				837B5D841AAB68F600731F83 /* eo.png */,
 				83800C7B1AA4D40300DD47EB /* Info.plist */,
 			);
@@ -3378,6 +3411,7 @@
 				83B3E97F1B3B4FFD00742BC7 /* man@2x.png in Resources */,
 				835618811BD7DE79007BCF75 /* Rwanda.pdf in Resources */,
 				8303DF841B41F21A00E4FD42 /* Egypt-map.png in Resources */,
+				139AC8262332509A002420FF /* BackgroundNew.png in Resources */,
 				83B05CD51B9F1DE400A0F53A /* countries_for_app.xml in Resources */,
 				EDF0417820EFAABF00506499 /* icons_Cereal_grains-33@3x.png in Resources */,
 				8303DF9F1B41F21A00E4FD42 /* Lesotho-map.png in Resources */,
@@ -3386,6 +3420,7 @@
 				83AD13C51B669137004B92D3 /* icons_Rubies-33@2x.png in Resources */,
 				8335AF171B667963000748F0 /* icons_Artificial_Flowers.png in Resources */,
 				8303DFCD1B41F21A00E4FD42 /* Togo-map.png in Resources */,
+				139AC8232332509A002420FF /* West_Bank_and_the_Gaza_Strip.png in Resources */,
 				8310FF291ABB11310025F7AE /* Spain.png in Resources */,
 				EDF0417420EFAA6300506499 /* icons_Carrots.png in Resources */,
 				8303DF6D1B41F21A00E4FD42 /* Bolivia-map.png in Resources */,
@@ -3509,6 +3544,7 @@
 				83AD12BD1B668E71004B92D3 /* icons_Stones-33@3x.png in Resources */,
 				83AD12861B668E71004B92D3 /* icons_Glass-33@3x.png in Resources */,
 				EDF0416820EFA9CB00506499 /* icons_Mica.png in Resources */,
+				139AC8222332509A002420FF /* North Macedonia-map.png in Resources */,
 				8310FED01ABB11310025F7AE /* Jamaica.png in Resources */,
 				83AD128C1B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png in Resources */,
 				8303DF931B41F21A00E4FD42 /* Honduras-map.png in Resources */,
@@ -3576,6 +3612,7 @@
 				835618581BD7DE79007BCF75 /* India.pdf in Resources */,
 				8310FEE61ABB11310025F7AE /* Maldives.png in Resources */,
 				8335AEA31B6678EF000748F0 /* Montenegro-map.png in Resources */,
+				139AC8202332509A002420FF /* Moldova.png in Resources */,
 				8303DFD81B41F21A00E4FD42 /* Venezuela-map.png in Resources */,
 				8335AF781B667963000748F0 /* icons_Surgical_Instruments.png in Resources */,
 				8303DF941B41F21A00E4FD42 /* India-map.png in Resources */,
@@ -3621,6 +3658,7 @@
 				3800487D1D8B991C00E64714 /* FAQs- Combo.pdf in Resources */,
 				8303DF811B41F21A00E4FD42 /* Dominica-map.png in Resources */,
 				8303DF821B41F21A00E4FD42 /* Timor-Leste-map.png in Resources */,
+				139AC8212332509A002420FF /* North Macedonia.pdf in Resources */,
 				380048791D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf in Resources */,
 				83AD12701B668E71004B92D3 /* icons_Cucumbers-33@3x.png in Resources */,
 				835618621BD7DE79007BCF75 /* Lebanon.pdf in Resources */,
@@ -3974,6 +4012,7 @@
 				83AD13AD1B669137004B92D3 /* icons_Leather-33@2x.png in Resources */,
 				83AD13AE1B669137004B92D3 /* icons_Lobsters-33@2x.png in Resources */,
 				83AD13A91B669137004B92D3 /* icons_Incense_(agarbatti)-33@2x.png in Resources */,
+				139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */,
 				8303DF8A1B41F21A00E4FD42 /* Gambia-map.png in Resources */,
 				8335AF681B667963000748F0 /* icons_Sand.png in Resources */,
 				8310FEC21ABB11310025F7AE /* Guinea.png in Resources */,
@@ -4012,6 +4051,7 @@
 				8303DF701B41F21A00E4FD42 /* Brazil-map.png in Resources */,
 				8356184D1BD7DE79007BCF75 /* Gabon.pdf in Resources */,
 				D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */,
+				139AC8242332509A002420FF /* Morocco-map.png in Resources */,
 				8335AF201B667963000748F0 /* icons_Bricks.png in Resources */,
 				8356187E1BD7DE79007BCF75 /* Peru.pdf in Resources */,
 				8335AF361B667963000748F0 /* icons_Cumin.png in Resources */,
@@ -4089,6 +4129,7 @@
 				8356184F1BD7DE79007BCF75 /* Georgia.pdf in Resources */,
 				8303DFBA1B41F21A00E4FD42 /* Rwanda-map.png in Resources */,
 				8303DFBF1B41F21A00E4FD42 /* Seychelles-map.png in Resources */,
+				139AC8272332509A002420FF /* Western_Sahara.png in Resources */,
 				8335AEA71B667919000748F0 /* Yemen-map.png in Resources */,
 				8303DF711B41F21A00E4FD42 /* Burkina Faso-map.png in Resources */,
 				83232C3A1B87552200A0D49F /* Background.png in Resources */,
@@ -4261,6 +4302,7 @@
 				8310FEF91ABB11310025F7AE /* Netherlands_Antilles.png in Resources */,
 				8356184E1BD7DE79007BCF75 /* Gambia.pdf in Resources */,
 				8310FF4A1ABB11310025F7AE /* Vietnam.png in Resources */,
+				139AC81F2332509A002420FF /* Moldova-map.png in Resources */,
 				EDE89EA121383D9000A70A00 /* icons_Lettuce-33@3x.png in Resources */,
 				8310FEBC1ABB11310025F7AE /* Greece.png in Resources */,
 				83AD12541B668E71004B92D3 /* icons_Brassware-33@3x.png in Resources */,
@@ -4315,6 +4357,7 @@
 				83AD13A31B669137004B92D3 /* icons_Grapes-33@2x.png in Resources */,
 				8335AF4F1B667963000748F0 /* icons_Incense_(agarbatti).png in Resources */,
 				83AD13C41B669137004B92D3 /* icons_Rubber-33@2x.png in Resources */,
+				139AC8252332509A002420FF /* North_Macedonia.png in Resources */,
 				8310FF0F1ABB11310025F7AE /* Qatar.png in Resources */,
 				83AD13711B669137004B92D3 /* icons_Carpets-33@2x.png in Resources */,
 				8335AF631B667963000748F0 /* icons_Pyrotechnics.png in Resources */,
@@ -4352,6 +4395,7 @@
 				83AD12581B668E71004B92D3 /* icons_Broccoli-33@3x.png in Resources */,
 				83AD126C1B668E71004B92D3 /* icons_Copper-33@3x.png in Resources */,
 				8356185B1BD7DE79007BCF75 /* Jamaica.pdf in Resources */,
+				139AC81E2332509A002420FF /* Moldova.pdf in Resources */,
 				8310FF2B1ABB11310025F7AE /* Sudan.png in Resources */,
 				8310FE901ABB11310025F7AE /* Cambodia.png in Resources */,
 				8310FEF41ABB11310025F7AE /* Mozambique.png in Resources */,

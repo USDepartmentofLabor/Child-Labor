@@ -276,7 +276,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zar-Fb-UJ0" userLabel="imageview">
                                 <rect key="frame" x="0.0" y="194" width="320" height="330"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ejl-hO-RVy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundNew.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ejl-hO-RVy">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="330"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Q-78-HdS">
@@ -6286,7 +6286,7 @@ Standards                                          </string>
         </scene>
     </scenes>
     <resources>
-        <image name="Background.png" width="987.84002685546875" height="692.8800048828125"/>
+        <image name="BackgroundNew.png" width="1413" height="1494"/>
         <image name="Brazil-map.png" width="453.60000610351562" height="452.16000366210938"/>
         <image name="child-labor.png" width="60" height="50"/>
         <image name="dol.png" width="45" height="45"/>
