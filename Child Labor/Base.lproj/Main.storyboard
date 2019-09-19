@@ -360,7 +360,7 @@
                                 <action selector="openIlabWebsite:" destination="hfT-IT-hDl" id="Zbx-ff-aMb"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="dol.png" id="Xmj-ll-v7h">
+                        <barButtonItem key="rightBarButtonItem" title="United States Department of Labor" image="dol.png" id="Xmj-ll-v7h">
                             <connections>
                                 <action selector="openDolWebsite:" destination="hfT-IT-hDl" id="M4V-Ou-PKI"/>
                             </connections>
@@ -1712,7 +1712,7 @@ and School</string>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Io-wa-VmP">
-                                    <rect key="frame" x="98.5" y="11" width="123" height="51"/>
+                                    <rect key="frame" x="10.5" y="11" width="299" height="51"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="za0-Bk-brB"/>
                                     </constraints>
@@ -1925,7 +1925,7 @@ and School</string>
                                     </constraints>
                                 </imageView>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Wdw-tB-KeC">
-                                    <rect key="frame" x="98.5" y="211" width="123" height="51"/>
+                                    <rect key="frame" x="10.5" y="211" width="299" height="51"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="XbU-54-Q50"/>
                                     </constraints>
@@ -6286,7 +6286,7 @@ Standards                                          </string>
         </scene>
     </scenes>
     <resources>
-        <image name="BackgroundNew.png" width="1413" height="1494"/>
+        <image name="BackgroundNew.png" width="2058" height="3104"/>
         <image name="Brazil-map.png" width="453.60000610351562" height="452.16000366210938"/>
         <image name="child-labor.png" width="60" height="50"/>
         <image name="dol.png" width="45" height="45"/>
