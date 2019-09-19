@@ -239,6 +239,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         }
         else{
             goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+            UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, goodsCount.text)
         }
     }
     
