@@ -101,7 +101,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (section == 3) {
-            var footer = "* No conscription"
+            var footer = "* Please note that a “Yes” indicates that the legal framework meets the international standard. \n\nPlease see the chapter text for more information regarding gaps in legal framework and suggested actions."
                        
             
             
