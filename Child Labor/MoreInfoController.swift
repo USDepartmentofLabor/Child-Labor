@@ -62,13 +62,13 @@ class MoreInfoController: UITableViewController {
             switch indexPath.row {
              
             case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/TDAMagazine.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings")!)
                 break
             case 2:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/listofgoods.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf")!)
                 break
             case 3:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/EO_Report_2014.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/EO_Report_2014.pdf")!)
             default:
                 break
             }
@@ -77,7 +77,7 @@ class MoreInfoController: UITableViewController {
         if (indexPath.section == 2) {
             switch indexPath.row {
                 case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/default/files/documents/ilab/reports/child-labor/findings/OCFTBooklet.pdf")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/general/apps/ilab-comply-chain")!)
             default:
                 break
             }

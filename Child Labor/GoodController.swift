@@ -130,8 +130,9 @@ class GoodController: UITableViewController {
                 }
             }
 }
-        
-        return "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y" : "ies")
+        let announcement:String = "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y" : "ies")
+        UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, announcement);
+        return announcement
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

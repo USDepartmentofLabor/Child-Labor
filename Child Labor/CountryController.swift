@@ -73,7 +73,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 }
                 
                 // If there is no profile for this country
-                if country["Description"].element?.text == "" {
+                if ((country["Description"].element?.text == nil) || (country["Description"].element?.text == nil))  {
                     // Hide the "more" button
                     moreButton.isHidden = true
                     
@@ -291,14 +291,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             
         
         if (indexPath.row == 1) {
-            if (countryName=="Somalia") {
-                
-                
-                performSegue(withIdentifier: "presentSomalia", sender: self)
-                
-            }
-            
-            else if (countryName=="Pakistan") {
+//            if (countryName=="Somalia") {
+//
+//
+//                performSegue(withIdentifier: "presentSomalia", sender: self)
+//
+//            }
+//
+//            else
+            if (countryName=="Pakistan") {
                 
                 
                 performSegue(withIdentifier: "presentPakistan", sender: self)

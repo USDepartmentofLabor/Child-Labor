@@ -72,7 +72,7 @@ class EnforcementMultiTableViewController: UITableViewController {
                 let sectionA7 = [enforcements["Labor_Complaint_Mechanism"], enforcements["Labor_Referral_Mechanism"]]
                 
                 let sectionB1 = [enforcements["Criminal_New_Employee_Training"], enforcements["Criminal_New_Law_Training"], enforcements["Criminal_Refresher_Courses"]]
-                let sectionB2 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"]]
+                let sectionB2 = [enforcements["Criminal_Investigations"], enforcements["Criminal_Violations"], enforcements["Criminal_Prosecutions"], enforcements["Criminal_Convictions"],enforcements["Criminal_Referral_Mechanism"],enforcements["Criminal_Penalties_for_WFCL"]]
                 
                 sectionTerritories.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
                 sectionTerritories.append([sectionB1, sectionB2])
@@ -89,7 +89,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         let sectionA7 = ["Complaint Mechanism Exists", "Referral Mechanism Exists btwn Authorities and Social Services"]
         
         let sectionB1 = ["Initial Training for New Employees", "Training on New Laws Related to WFCL", "Refresher Courses Provided"]
-        let sectionB2 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Services"]
+        let sectionB2 = ["No. of Investigations", "No. of Violations Found", "No. of Prosecutions Initiated", "No. of Convictions", "Referral Mechanism Exists btwn Authorities and Social Servicesfinder","Imposed penalties for violations related to the WFCL"]
         
         sectionTitles.append([sectionA1, sectionA2, sectionA3, sectionA4, sectionA5, sectionA6, sectionA7])
         sectionTitles.append([sectionB1, sectionB2])
@@ -152,11 +152,13 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         if (state == 0 && section == 6 && self.hasLaborFooter) {
-            return "*The government does not publish this information";
+            // return "*The government does not publish this information";
+            return " ";
         }
         
         if (state == 1 && section == 1 && self.hasCriminalFooter) {
-            return "*The government does not publish this information";
+            // return "*The government does not publish this information";
+            return " ";
         }
         
         return super.tableView(tableView, titleForFooterInSection: section)
@@ -200,7 +202,7 @@ class EnforcementMultiTableViewController: UITableViewController {
             case 0:
                 return 3
             case 1:
-                return 5
+                return 6
             default:
                 return 0
             }

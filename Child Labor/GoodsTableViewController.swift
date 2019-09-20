@@ -239,6 +239,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         }
         else{
             goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+            UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, goodsCount.text)
         }
     }
     
@@ -249,7 +250,9 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         
         let tempArray = array.filter() {
             let goodName = ($0 as! String)
-            return goodName.lowercased().range(of: query.lowercased()) != nil
+//            return goodName.lowercased().range(of: query.lowercased()) != nil
+            return goodName.starts(with: query)
+
         }
         return NSMutableArray(array: tempArray)
     }
