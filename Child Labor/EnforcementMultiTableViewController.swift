@@ -223,6 +223,11 @@ class EnforcementMultiTableViewController: UITableViewController {
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[state][indexPath.section][indexPath.row]
         standardLabel.accessibilityLabel = sectionTitles[state][indexPath.section][indexPath.row].replacingOccurrences(of: "No.", with: "Number").replacingOccurrences(of: "btwn", with: "between")
+        if #available(iOS 13.0, *) {
+            standardLabel.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
@@ -232,7 +237,16 @@ class EnforcementMultiTableViewController: UITableViewController {
             valueLabel.text = "Unavailable"
             valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             
-            
+            if #available(iOS 13.0, *) {
+                nameLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 13.0, *) {
+                valueLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             return cell
         }
         
@@ -248,6 +262,17 @@ class EnforcementMultiTableViewController: UITableViewController {
             setEnforcement(valueLabel, text: territory["Enforcement"].element?.text)
             
             index += 1
+            
+            if #available(iOS 13.0, *) {
+                nameLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 13.0, *) {
+                valueLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
         }
         
         return cell

@@ -3353,7 +3353,7 @@
 				TargetAttributes = {
 					83800C761AA4D40300DD47EB = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = R6D6GHBLNG;
+						DevelopmentTeam = DW9E7KBT4K;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -4572,7 +4572,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6D6GHBLNG;
+				DEVELOPMENT_TEAM = DW9E7KBT4K;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -4581,7 +4581,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swt01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latt.swt01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4599,7 +4599,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6D6GHBLNG;
+				DEVELOPMENT_TEAM = DW9E7KBT4K;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;

@@ -236,7 +236,11 @@ class GoodController: UITableViewController {
             clLabel?.text = "FCL"
             clLabel?.accessibilityLabel = "Forced Child Labor"
         }
-
+        if #available(iOS 13.0, *) {
+            clLabel?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         return cell
     }
 

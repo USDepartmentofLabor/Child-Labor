@@ -606,7 +606,11 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //            cell.detailTextLabel?.hidden = false
 //            cell.userInteractionEnabled = false
 //        }
-        
+        if #available(iOS 13.0, *) {
+            cell.textLabel?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         return cell
     }
     
