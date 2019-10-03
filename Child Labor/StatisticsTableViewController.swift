@@ -95,6 +95,12 @@ class StatisticsTableViewController: UITableViewController {
                         }
                     }
                 }
+                if #available(iOS 13.0, *) {
+                    workingLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 // Agriculture
                 if let agriculturePercentage = statistics["Children_Work_Statistics"]["Agriculture"].element {
@@ -116,6 +122,12 @@ class StatisticsTableViewController: UITableViewController {
                     }
                    
                 }
+                if #available(iOS 13.0, *) {
+                    agricultureLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+                
                 
                 // Services
                 if let servicesPercentage = statistics["Children_Work_Statistics"]["Services"].element {
@@ -137,6 +149,12 @@ class StatisticsTableViewController: UITableViewController {
                     }
                    
                 }
+                if #available(iOS 13.0, *) {
+                    servicesLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 // Industry
                 if let industryPercentage = statistics["Children_Work_Statistics"]["Industry"].element {
@@ -157,6 +175,12 @@ class StatisticsTableViewController: UITableViewController {
                         industryLabel.textColor = UIColor.black
                     }
                 }
+                if #available(iOS 13.0, *) {
+                    industryLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 // Attending School
                 if let attendingPercentage = statistics["Education_Statistics_Attendance_Statistics"]["Percentage"].element {
@@ -186,7 +210,12 @@ class StatisticsTableViewController: UITableViewController {
                         }
                     }
                 }
-                
+                if #available(iOS 13.0, *) {
+                    attendingSchoolLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 
                 
@@ -221,6 +250,12 @@ class StatisticsTableViewController: UITableViewController {
                         
                     }
                 }
+                if #available(iOS 13.0, *) {
+                    combiningWorkAndSchoolLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 // Primary Completion Rate
                 if let primaryRate = statistics["UNESCO_Primary_Completion_Rate"]["Rate"].element {
@@ -243,6 +278,12 @@ class StatisticsTableViewController: UITableViewController {
                         primaryCompletionRateLabel.textColor = UIColor.black
                     }
                 }
+                if #available(iOS 13.0, *) {
+                    primaryCompletionRateLabel.textColor = .label
+                } else {
+                    // Fallback on earlier versions
+                }
+
                 
                 break;
             }

@@ -273,6 +273,16 @@ class EnforcementMultiTableViewController: UITableViewController {
             } else {
                 // Fallback on earlier versions
             }
+            if #available(iOS 13.0, *) {
+                nameLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
+            if #available(iOS 13.0, *) {
+                valueLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
         }
         
         return cell
@@ -295,6 +305,11 @@ class EnforcementMultiTableViewController: UITableViewController {
             }
             else {
                 label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
+            }
+            if #available(iOS 13.0, *) {
+                label.textColor = .label
+            } else {
+                // Fallback on earlier versions
             }
             
             label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.replacingOccurrences(of: "*", with: "")
