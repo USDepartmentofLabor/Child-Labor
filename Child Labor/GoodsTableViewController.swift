@@ -197,7 +197,15 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         cell.imageView?.image = UIImage(named: "icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_") + "-33")
         
         if #available(iOS 13.0, *) {
+            cell.imageView?.image = UIImage(named: "icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_") + "-33")?.withRenderingMode(.alwaysTemplate).withTintColor(UIColor.systemBackground)
+        } else {
+            // Fallback on earlier versions
+        }
+        
+
+        if #available(iOS 13.0, *) {
             cell.textLabel?.textColor = .label
+//            cell.imageView?.tintColor = .systemYellow
         } else {
             // Fallback on earlier versions
         }

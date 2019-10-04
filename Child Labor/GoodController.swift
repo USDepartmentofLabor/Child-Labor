@@ -138,6 +138,12 @@ class GoodController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If you want the grouped table view in iOS 9 to have a white background, you need to override it here
         tableView.backgroundColor = UIColor.white
+        if #available(iOS 13.0, *) {
+            tableView.backgroundColor = .systemBackground
+        } else {
+            // Fallback on earlier versions
+        }
+
         
         return countries.count
     }
@@ -182,6 +188,18 @@ class GoodController: UITableViewController {
         
         cell.backgroundColor = UIColor.white
         titleLabel?.textColor = UIColor.black
+        
+        if #available(iOS 13.0, *) {
+            cell.backgroundColor = .systemBackground
+        } else {
+            // Fallback on earlier versions
+        }
+        if #available(iOS 13.0, *) {
+            titleLabel?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
+        
         cell.isUserInteractionEnabled = true
         
         //
