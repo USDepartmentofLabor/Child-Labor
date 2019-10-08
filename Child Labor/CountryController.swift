@@ -217,7 +217,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         goodButton?.accessibilityLabel = goodName as? String
         if #available(iOS 13.0, *) {
-            goodLabel?.textColor = .label
+            goodLabel?.textColor = UIColor.black
         } else {
             // Fallback on earlier versions
         }
