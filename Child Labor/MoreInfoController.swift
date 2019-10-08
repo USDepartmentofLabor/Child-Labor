@@ -62,7 +62,7 @@ class MoreInfoController: UITableViewController {
             switch indexPath.row {
              
             case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2018/ChildLaborReport.pdf")!)
                 break
             case 2:
                 UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf")!)
