@@ -71,7 +71,11 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
       
         cell.textLabel?.text = menuItems[indexPath.row]
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator;
-
+        if #available(iOS 13.0, *) {
+            cell.textLabel?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         return cell
     }
     

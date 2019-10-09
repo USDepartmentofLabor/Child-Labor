@@ -59,6 +59,11 @@ class ConventionsTableViewController: UITableViewController {
                         } else if minimumAge.text == "N/A" {
                             ilo138Label.text = "N/A"
                         }
+                        if #available(iOS 13.0, *) {
+                            ilo138Label.textColor = .label
+                        } else {
+                            // Fallback on earlier versions
+                        }
                     }
                 }
                 
@@ -73,6 +78,11 @@ class ConventionsTableViewController: UITableViewController {
                             ilo182Label.textColor = UIColor.red
                         } else if worstForms.text == "N/A" {
                             ilo182Label.text = "N/A"
+                        }
+                        if #available(iOS 13.0, *) {
+                            ilo182Label.textColor = .label
+                        } else {
+                            // Fallback on earlier versions
                         }
                     }
                 }
@@ -89,6 +99,11 @@ class ConventionsTableViewController: UITableViewController {
                         } else if unCRC.text == "N/A" {
                             unCRCLabel.text = "N/A"
                         }
+                        if #available(iOS 13.0, *) {
+                            unCRCLabel.textColor = .label
+                        } else {
+                            // Fallback on earlier versions
+                        }
                     }
                 }
                 
@@ -103,6 +118,12 @@ class ConventionsTableViewController: UITableViewController {
                             unCRCArmedLabel.textColor = UIColor.red
                         } else if armedConflict.text == "N/A" {
                             unCRCArmedLabel.text = "N/A"
+                        }
+                        if #available(iOS 13.0, *) {
+                            unCRCArmedLabel.textColor = .label
+                            
+                        } else {
+                            // Fallback on earlier versions
                         }
                     }
                 }
@@ -119,6 +140,11 @@ class ConventionsTableViewController: UITableViewController {
                         } else if sexualExploitation.text == "N/A" {
                             unCRCSaleLabel.text = "N/A"
                         }
+                        if #available(iOS 13.0, *) {
+                            unCRCSaleLabel.textColor = .label
+                        } else {
+                            // Fallback on earlier versions
+                        }
                     }
                 }
                 
@@ -133,6 +159,11 @@ class ConventionsTableViewController: UITableViewController {
                             unCRCTraffickingLabel.textColor = UIColor.red
                         } else if trafficking.text == "N/A" {
                             unCRCTraffickingLabel.text = "N/A"
+                        }
+                        if #available(iOS 13.0, *) {
+                            unCRCTraffickingLabel.textColor = .label
+                        } else {
+                            // Fallback on earlier versions
                         }
                     }
                 }

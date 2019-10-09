@@ -109,7 +109,11 @@ class EnforcementTableViewController: UITableViewController {
             title?.text = enforcement[indexPath.row] as? String
         }
 
-
+        if #available(iOS 13.0, *) {
+            title?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         return cell
     }
 

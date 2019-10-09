@@ -162,15 +162,28 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         let standardLabel = cell.contentView.viewWithTag(1) as! UILabel
         standardLabel.text = sectionTitles[indexPath.section][indexPath.row]
         standardLabel.accessibilityLabel = sectionTitles[indexPath.section][indexPath.row].replacingOccurrences(of: "No.", with: "Number").replacingOccurrences(of: "btwn", with: "between")
-        
+        if #available(iOS 13.0, *) {
+            standardLabel.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         if territoryCount == 0 {
             let nameLabel = cell.contentView.viewWithTag(10) as! UILabel
             nameLabel.text = "All Territories"
+            if #available(iOS 13.0, *) {
+                nameLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             
             let valueLabel = cell.contentView.viewWithTag(11) as! UILabel
             valueLabel.text = "Unavailable"
             valueLabel.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
-            
+            if #available(iOS 13.0, *) {
+                valueLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             return cell
         }
         
@@ -181,10 +194,18 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
             nameLabel.text = territory["Territory_Display_Name"].element?.text
             nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
-            
+            if #available(iOS 13.0, *) {
+                nameLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
             setLegalStandard(valueLabel, standardXML: territory)
-            
+            if #available(iOS 13.0, *) {
+                valueLabel.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             index += 1
         }
         

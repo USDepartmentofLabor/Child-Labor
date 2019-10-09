@@ -217,7 +217,11 @@ class SuggestedActionsTableViewController: UITableViewController {
             title?.text = socialPrograms[indexPath.row] as? String
         }
 
-
+        if #available(iOS 13.0, *) {
+            title?.textColor = .label
+        } else {
+            // Fallback on earlier versions
+        }
         return cell
     }
     

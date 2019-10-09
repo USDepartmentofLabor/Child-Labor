@@ -216,7 +216,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         goodButton!.setImage(UIImage(named:"icons_" + (goodName as AnyObject).replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_"))?.withRenderingMode(.alwaysTemplate), for: UIControlState())
         
         goodButton?.accessibilityLabel = goodName as? String
-        
+        if #available(iOS 13.0, *) {
+            goodLabel?.textColor = UIColor.black
+        } else {
+            // Fallback on earlier versions
+        }
         //
         switch exploitations[indexPath.row] as! Int {
         case 0:
@@ -248,7 +252,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             clLabel?.text = "FCL"
             clLabel?.accessibilityLabel = "Forced Child Labor"
         }
-        
+//        if #available(iOS 13.0, *) {
+//            clLabel?.textColor = .label
+//        } else {
+//            // Fallback on earlier versions
+//        }
         return cell
     }
 

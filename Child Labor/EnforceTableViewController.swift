@@ -145,6 +145,11 @@ class EnforceTableViewController: UITableViewController {
                 }
                 label.accessibilityLabel = label.accessibilityLabel! + ", the Government does not make this information publicly available"
             }
+            if #available(iOS 13.0, *) {
+                label.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
     
