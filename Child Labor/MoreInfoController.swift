@@ -40,7 +40,7 @@ class MoreInfoController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         //return 4
-            return 3
+            return 4
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -48,9 +48,9 @@ class MoreInfoController: UITableViewController {
         case 0:
             return 2
         case 1:
-            return 4
-//        case 2:
-//            return 1
+            return 1
+        case 2:
+            return 1
         
         default:
             return 1
@@ -58,26 +58,26 @@ class MoreInfoController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if (indexPath.section == 1) {
-            switch indexPath.row {
-             
-            case 1:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2018/ChildLaborReport.pdf")!)
-                break
-            case 2:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf")!)
-                break
-            case 3:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/EO_Report_2014.pdf")!)
-            default:
-                break
-            }
-        }
+//        if (indexPath.section == 1) {
+//            switch indexPath.row {
+//
+//            case 1:
+//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2018/ChildLaborReport.pdf")!)
+//                break
+//            case 2:
+//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf")!)
+//                break
+//            case 3:
+//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/EO_Report_2014.pdf")!)
+//            default:
+//                break
+//            }
+//        }
         
         if (indexPath.section == 2) {
             switch indexPath.row {
                 case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/general/apps/ilab-comply-chain")!)
+                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2018/ChildLaborReport.pdf")!)
             default:
                 break
             }
