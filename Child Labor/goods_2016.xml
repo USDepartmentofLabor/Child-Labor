@@ -300,15 +300,8 @@
         <Country_Name>Cambodia</Country_Name>
         <Country_Region>Asia and the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>Cambodia</Country_Name>
-        <Country_Region>Asia and the Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -909,13 +902,6 @@
         <Country_Name>Brazil</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>Brazil</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
-        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -1624,7 +1610,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Fruits (Pome and Stone)</Good_Name>
+    <Good_Name>Fruit (Pome and Stone)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2218,7 +2204,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat/Miraa</Good_Name>
+    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2228,12 +2214,6 @@
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
       <Country>
         <Country_Name>Kenya</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
@@ -2490,13 +2470,6 @@
         <Country_Name>Indonesia</Country_Name>
         <Country_Region>Asia and the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>Indonesia</Country_Name>
-        <Country_Region>Asia and the Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2888,7 +2861,7 @@
   </Good>
   <Good>
     <Good_Name>Rubber Gloves</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
+    <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
         <Country_Name>Malaysia</Country_Name>
@@ -2982,7 +2955,7 @@
         <Country_Region>Asia and the Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -3585,13 +3558,6 @@
         <Country_Name>China</Country_Name>
         <Country_Region />
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region />
-        <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -3856,6 +3822,13 @@
       <Country>
         <Country_Name>Vietnam</Country_Name>
         <Country_Region />
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Zambia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>

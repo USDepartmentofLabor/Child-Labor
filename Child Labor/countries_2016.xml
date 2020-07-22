@@ -3837,7 +3837,7 @@ labor. The government publishedtwo updated versions of the national &#8220;Dirty
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
@@ -3928,12 +3928,6 @@ labor. The government publishedtwo updated versions of the national &#8220;Dirty
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Coffee</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -5229,9 +5223,15 @@ problem.</Description>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Bricks</Good_Name>
+        <Good_Name>Bovines</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Bricks</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
@@ -5293,18 +5293,6 @@ problem.</Description>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Bovines</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Bricks</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -6434,6 +6422,12 @@ publicly available enforcement data, including the number of child labor violati
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Fish</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -6441,30 +6435,6 @@ publicly available enforcement data, including the number of child labor violati
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Nails</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Textiles</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Toys</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Fish</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -6482,8 +6452,14 @@ publicly available enforcement data, including the number of child labor violati
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Textiles</Good_Name>
+        <Good_Name>Nails</Good_Name>
         <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Textiles</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
@@ -6498,6 +6474,12 @@ publicly available enforcement data, including the number of child labor violati
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Toys</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
   </Country>
@@ -6758,13 +6740,7 @@ publicly available enforcement data, including the number of child labor violati
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Pornography</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Sugarcane</Good_Name>
+        <Good_Name>Fruit (Pome and Stone)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -6782,7 +6758,13 @@ publicly available enforcement data, including the number of child labor violati
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Fruits (Pome and Stone)</Good_Name>
+        <Good_Name>Pornography</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -7198,7 +7180,7 @@ perform dangerous tasks in domestic work. Furthermore, labor and criminal invest
   </Country>
   <Country>
     <Name>Congo, Democratic Republic of the</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/congo-democratic-republic-of-</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/congo-democratic-republic-drc</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>No Advancement &#8211; Efforts Made but Complicit in Forced Child Labor</Advancement_Level>
@@ -7451,7 +7433,7 @@ perform dangerous tasks in domestic work. Furthermore, labor and criminal invest
   </Country>
   <Country>
     <Name>Congo, Republic of the</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/congo-republic-of-</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/congo-republic</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -8012,7 +7994,7 @@ lacks the authority to assess penalties for labor violations.</Description>
   </Country>
   <Country>
     <Name>Cote d'Ivoire</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-d'ivoire</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-divoire</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -9981,16 +9963,16 @@ programs do not adequately address the full scope of the problem.</Description>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Textiles (hand-woven)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Khat/Miraa</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -12858,12 +12840,6 @@ appear sufficient to address the scope of the problem nationwide,and the governm
     <Description>In 2019, India made a moderate advancement in efforts to eliminate the worst forms of child labor. The governmentconvicteda Bihar shelter owner and18 other individuals of sexually assaulting 44 girls,andhanded down life sentences to 12 of the 18 accused. In addition, the National Child Labor Project Scheme rescued from child labor and rehabilitated 66,169 children in 2018&#8211;2019, up from 47,635during2017&#8211;2018. The governmentenactedthe Protection of Children from Sexual Offense Amendment Bill, which includes new penalties for perpetrators of the worst forms of child labor, and approved a Memorandum of Understanding with the Government of Burma on enhancing bilateral cooperation for the prevention of trafficking in persons.Furthermore, the Tamil Nadu State Government issued standard operating procedures to support efforts to eradicate the bonded labor system in the state by 2021. However, children in India engage in the worst forms of child labor, including in forced labor producing garments and quarrying stones. Children also perform dangerous tasks in the production of thread and yarn. Although the government made meaningful efforts in all relevant areas during the reporting period, 1,300 of India's approximately 9,000 government-run, government-funded sheltersthat house children continued to lack official registrationfrom the government, allowing them to operate with little or no oversight and putting children at risk for exploitation, including commercial sexual exploitation. In addition, despite the identification of abuses, including human trafficking, found in over 100 government-funded and/orgovernment-run sheltersin Bihar and Deoria States in 2018, the government only investigated and prosecuted individuals in one of these cases in 2019.Further, hazardous work prohibitions do not include all occupations in which children work for long periods of timein unsafe and unhealthy environments, and penalties for employing children are insufficient to deter violations.</Description>
     <Goods>
       <Good>
-        <Good_Name>Gems</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
         <Good_Name>Bidis (hand-rolled cigarettes)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -12885,6 +12861,12 @@ appear sufficient to address the scope of the problem nationwide,and the governm
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Cotton</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
@@ -12918,6 +12900,12 @@ appear sufficient to address the scope of the problem nationwide,and the governm
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Gems</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Glass Bangles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -12948,10 +12936,22 @@ appear sufficient to address the scope of the problem nationwide,and the governm
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Mica</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Sandstone</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
         <Good_Name>Silk Fabric</Good_Name>
@@ -12972,6 +12972,12 @@ appear sufficient to address the scope of the problem nationwide,and the governm
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Stones</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -12979,30 +12985,6 @@ appear sufficient to address the scope of the problem nationwide,and the governm
       </Good>
       <Good>
         <Good_Name>Thread/Yarn</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Mica</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Stones</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Sandstone</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -13249,7 +13231,7 @@ appear sufficient to address the scope of the problem nationwide,and the governm
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
@@ -13268,12 +13250,6 @@ appear sufficient to address the scope of the problem nationwide,and the governm
         <Good_Name>Tin</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Oil (Palm)</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -14625,6 +14601,12 @@ sufficient resources to child labor law enforcement.</Description>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Gold</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -14662,12 +14644,6 @@ sufficient resources to child labor law enforcement.</Description>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -16159,6 +16135,12 @@ of child labor, and social programs to combat child labor are insufficient to
 adequately address the extent of the problem.</Description>
     <Goods>
       <Good>
+        <Good_Name>Mica</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Vanilla</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -16172,12 +16154,6 @@ adequately address the extent of the problem.</Description>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Mica</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -17514,6 +17490,12 @@ also engage in child labor in construction and street work.The government did no
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Cattle</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Chile Peppers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -17533,6 +17515,18 @@ also engage in child labor in construction and street work.The government did no
       </Good>
       <Good>
         <Good_Name>Eggplants</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Garments</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Leather Goods</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -17577,24 +17571,6 @@ also engage in child labor in construction and street work.The government did no
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Cattle</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Garments</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Leather Goods</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
     </Goods>
@@ -20468,7 +20444,7 @@ in the worst forms of child labor, including in quarrying granite, artisanal min
   </Country>
   <Country>
     <Name>North Macedonia</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/north-macedonia</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/macedonia</Webpage>
     <Region>Europe and Eurasia</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -23424,7 +23400,7 @@ resources for inspections, and inspectors&#8217; inability to assess penalties.<
   </Country>
   <Country>
     <Name>Saint Helena, Ascensi&#243;n, and Trist&#225;n da Cunha</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascensi&#243;n-and-trist&#225;n-da-cunha</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-helena-ascension-and-tristan-da-cunha</Webpage>
     <Region>Europe and Eurasia</Region>
     <Multiple_Territories />
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -23546,7 +23522,7 @@ exploitation.</Description>
   </Country>
   <Country>
     <Name>Saint Lucia</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-lucia</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/st-lucia</Webpage>
     <Region>Latin America and the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -23748,7 +23724,7 @@ exploitation.</Description>
   </Country>
   <Country>
     <Name>Saint Vincent and the Grenadines</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-vincent-and-grenadines</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/st-vincent-and-grenadines</Webpage>
     <Region>Latin America and the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -26160,7 +26136,7 @@ exploitation.</Description>
   </Country>
   <Country>
     <Name>S&#227;o Tom&#233; and Pr&#237;ncipe</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/s&#227;o-tom&#233;-and-pr&#237;ncipe</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/sao-tome-and-principe</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
@@ -30208,6 +30184,12 @@ coercion to establish the crime of child trafficking. In addition, labor inspect
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
+        <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
