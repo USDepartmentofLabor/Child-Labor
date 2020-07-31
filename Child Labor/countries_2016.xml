@@ -1420,6 +1420,7 @@
       <Criminal_Prosecutions>1</Criminal_Prosecutions>
       <Criminal_Convictions>0</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes </Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>No </Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -3403,7 +3404,9 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-        <Territory>
+      </Labor_Inspections>
+      <Labor_Worksite_Inspections>
+       <Territory>
           <Territory_Name>Brčko District</Territory_Name>
           <Territory_Display_Name>Brčko District</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
@@ -3418,7 +3421,7 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
-      </Labor_Inspections>
+      </Labor_Worksite_Inspections>
       <Labor_Violations>
         <Territory>
           <Territory_Name>Brčko District</Territory_Name>
@@ -4765,6 +4768,7 @@
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Unknown</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>Unknown</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -5515,6 +5519,7 @@
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes </Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>Unknown</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8194,6 +8199,15 @@
       <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Coordination>
@@ -8206,6 +8220,12 @@
           <Name>N/A</Name>
         </Action>
       </Enforcement>
+      <Social_Programs>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Social_Programs>
+    </Suggested_Actions>
       <Government_Policies>
         <Action>
           <Name>Publish activities undertaken to implement the Cook Islands National Youth Policy.</Name>
@@ -8231,7 +8251,7 @@
           <Name>Ensure that the law criminally prohibits the recruitment of children under age 18 by non-state armed groups.</Name>
         </Action>
       </Legal_Framework>
-    </Suggested_Actions>
+
     <Mechanisms>
       <Program>NA</Program>
       <Policy>NA</Policy>
@@ -10762,6 +10782,15 @@
       <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Coordination>
@@ -11134,6 +11163,7 @@
       <Criminal_Prosecutions>3</Criminal_Prosecutions>
       <Criminal_Convictions>2</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes </Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>Yes</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -18248,6 +18278,7 @@
       <Criminal_Prosecutions>31</Criminal_Prosecutions>
       <Criminal_Convictions>4</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes </Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>Yes</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Coordination>
@@ -19064,7 +19095,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
+      <Labor_Inspectors>N/A</Labor_Inspectors>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -20778,8 +20835,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
       <Labor_Inspectors>N/A</Labor_Inspectors>
-      <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Coordination>
@@ -20923,8 +21005,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
       <Labor_Inspectors>N/A</Labor_Inspectors>
-      <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -24042,8 +24149,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
       <Labor_Inspectors>0</Labor_Inspectors>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25705,7 +25837,23 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
       <Labor_Inspectors>N/A</Labor_Inspectors>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>No</Labor_Inspectors_Intl_Standards>
       <Criminal_New_Employee_Training>No </Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>0</Criminal_New_Law_Training>
@@ -25715,6 +25863,7 @@
       <Criminal_Prosecutions>0</Criminal_Prosecutions>
       <Criminal_Convictions>0</Criminal_Convictions>
       <Criminal_Referral_Mechanism>No</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>      
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -27431,6 +27580,18 @@
           <Enforcement>Yes </Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>
+      <Territory>
+          <Territory_Name>Mainland</Territory_Name>
+          <Territory_Display_Name>Mainland</Territory_Display_Name>
+          <Enforcement>Yes </Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Zanzibar</Territory_Name>
+          <Territory_Display_Name>Zanzibar</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+      </Criminal_Penalties_for_WFCL> 
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -28260,7 +28421,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
+      <Labor_Funding>N/A</Labor_Funding>
+      <Labor_Inspectors>N/A</Labor_Inspectors>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Social_Programs>
@@ -30161,9 +30348,61 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Inspectors>1</Labor_Inspectors>
+      <Labor_Funding>N/A</Labor_Funding>
+      <Labor_Inspectors>N/A</Labor_Inspectors>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
+    <Suggested_Actions>
+      <Legal_Framework>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Legal_Framework>
+      <Coordination>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Coordination>
+      <Enforcement>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Enforcement>
+      <Government_Policies>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Government_Policies>
+      <Social_Programs>
+        <Action>
+          <Name>N/A</Name>
+        </Action>
+      </Social_Programs>
+    </Suggested_Actions>
     <Mechanisms>
       <Program>NA</Program>
       <Policy>NA</Policy>
@@ -30458,8 +30697,33 @@
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
+      <Labor_Funding>N/A</Labor_Funding>
       <Labor_Inspectors>N/A</Labor_Inspectors>
-      <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
+      <Authorized_Access_Penalties>N/A</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>N/A</Labor_New_Employee_Training>
+      <Labor_New_Law_Training>N/A</Labor_New_Law_Training>
+      <Labor_Refresher_Courses>N/A</Labor_Refresher_Courses>
+      <Labor_Inspections>N/A</Labor_Inspections>
+      <Labor_Worksite_Inspections>N/A</Labor_Worksite_Inspections>
+      <Labor_Violations>N/A</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>N/A</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>N/A</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>N/A</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
+      <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
+      <Criminal_Refresher_Courses>N/A</Criminal_Refresher_Courses>
+      <Criminal_Investigations>N/A</Criminal_Investigations>
+      <Criminal_Violations>N/A</Criminal_Violations>
+      <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
+      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>N/A</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -30651,6 +30915,7 @@
       <Criminal_Prosecutions>Unknown</Criminal_Prosecutions>
       <Criminal_Convictions>Unknown</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>No</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
