@@ -199,6 +199,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         
         if #available(iOS 13.0, *) {
             cell.imageView?.backgroundColor = .systemOrange
+            cell.imageView?.alpha = 1
         } else {
             // Fallback on earlier versions
         }
