@@ -46,6 +46,7 @@
 		664C9DD924B8FA210072C977 /* icons_Khat_Miraa.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD624B8FA200072C977 /* icons_Khat_Miraa.png */; };
 		664C9DDA24B8FA210072C977 /* icons_Khat_Miraa-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD724B8FA210072C977 /* icons_Khat_Miraa-33@2x.png */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
+		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
 		8303DF641B41F21A00E4FD42 /* Argentina-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE81B41F21A00E4FD42 /* Argentina-map.png */; };
@@ -1110,6 +1111,7 @@
 		664C9DD624B8FA200072C977 /* icons_Khat_Miraa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Khat_Miraa.png; sourceTree = "<group>"; };
 		664C9DD724B8FA210072C977 /* icons_Khat_Miraa-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_Miraa-33@2x.png"; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
+		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
 		8303DEE81B41F21A00E4FD42 /* Argentina-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Argentina-map.png"; sourceTree = "<group>"; };
@@ -2187,6 +2189,7 @@
 				8303DEF31B41F21A00E4FD42 /* Botswana-map.png */,
 				8303DEF41B41F21A00E4FD42 /* Brazil-map.png */,
 				8303DEF51B41F21A00E4FD42 /* Burkina Faso-map.png */,
+				66BB45E224DDA90A001FD519 /* Burma-map.png */,
 				8303DEF61B41F21A00E4FD42 /* Burundi-map.png */,
 				8303DEF71B41F21A00E4FD42 /* Cambodia-map.png */,
 				8303DEF81B41F21A00E4FD42 /* Cameroon-map.png */,
@@ -3832,6 +3835,7 @@
 				83AD12B11B668E71004B92D3 /* icons_Sesame-33@3x.png in Resources */,
 				8303DF7B1B41F21A00E4FD42 /* Congo, Republic of the-map.png in Resources */,
 				8335AF921B667F52000748F0 /* icons_Gems.png in Resources */,
+				66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */,
 				8303DF741B41F21A00E4FD42 /* Cameroon-map.png in Resources */,
 				8335AF481B667963000748F0 /* icons_Goats.png in Resources */,
 				8310FEA51ABB11310025F7AE /* Denmark.png in Resources */,

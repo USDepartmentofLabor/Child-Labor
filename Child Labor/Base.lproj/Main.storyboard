@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FQM-HS-dU1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FQM-HS-dU1">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -3309,7 +3309,7 @@ Standards                                          </string>
                             <tableViewSection headerTitle="Other Data" id="Mfd-C9-VUq">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="ORU-Do-uVC">
-                                        <rect key="frame" x="0.0" y="2134" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1660" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="ORU-Do-uVC" id="REQ-uh-HpU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3340,7 +3340,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="tZl-wp-CBP">
-                                        <rect key="frame" x="0.0" y="2214" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1740" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="tZl-wp-CBP" id="LT9-Ae-g2n">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3371,7 +3371,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="V5Y-kY-2Qd">
-                                        <rect key="frame" x="0.0" y="2294" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1820" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="V5Y-kY-2Qd" id="3tF-Xa-RA4">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3403,7 +3403,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="h25-uw-CJZ">
-                                        <rect key="frame" x="0.0" y="2374" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1900" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="h25-uw-CJZ" id="pep-vx-w1a">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3433,8 +3433,40 @@ Standards                                          </string>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="N4X-Dg-Nr1">
+                                        <rect key="frame" x="0.0" y="1980" width="320" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="N4X-Dg-Nr1" id="1lc-ka-dsC">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imposed Penalties for Violations Related to the WFCL" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-I1-Bz9">
+                                                    <rect key="frame" x="18" y="16" width="194" height="48"/>
+                                                    <accessibility key="accessibilityConfiguration" label="Referral Mechanism Exists between Authorities and Social Services"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unavailable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-lk-5qO">
+                                                    <rect key="frame" x="217" y="29.5" width="88" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="UQB-I1-Bz9" secondAttribute="trailing" constant="100" id="65y-Du-is0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Dka-lk-5qO" secondAttribute="trailing" constant="7" id="F8J-uQ-xN7"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="Dka-lk-5qO" secondAttribute="centerY" id="Ko4-7L-5M8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="UQB-I1-Bz9" secondAttribute="bottom" constant="8" id="bke-hb-Mon"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="1lc-ka-dsC" secondAttribute="centerY" id="lCv-pO-2I7"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="top" secondItem="1lc-ka-dsC" secondAttribute="topMargin" constant="8" id="wnV-We-99l"/>
+                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="leading" secondItem="1lc-ka-dsC" secondAttribute="leadingMargin" constant="10" id="xtA-8G-vrn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="Epa-Zh-Q4q">
-                                        <rect key="frame" x="0.0" y="2454" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2060" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="Epa-Zh-Q4q" id="WHZ-gc-kNj">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3462,38 +3494,6 @@ Standards                                          </string>
                                                 <constraint firstItem="6U6-am-XGc" firstAttribute="leading" secondItem="WHZ-gc-kNj" secondAttribute="leadingMargin" constant="10" id="T0q-IB-RQ3"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="gbi-hd-7Uu" secondAttribute="trailing" constant="7" id="hPP-DO-BOp"/>
                                                 <constraint firstItem="6U6-am-XGc" firstAttribute="top" secondItem="WHZ-gc-kNj" secondAttribute="topMargin" constant="8" id="m7u-8N-TMG"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="N4X-Dg-Nr1">
-                                        <rect key="frame" x="0.0" y="2534" width="320" height="80"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="N4X-Dg-Nr1" id="1lc-ka-dsC">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imposed penalties for violations related to the WFCL" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQB-I1-Bz9">
-                                                    <rect key="frame" x="18" y="16" width="194" height="48"/>
-                                                    <accessibility key="accessibilityConfiguration" label="Referral Mechanism Exists between Authorities and Social Services"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unavailable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-lk-5qO">
-                                                    <rect key="frame" x="217" y="29.5" width="88" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="UQB-I1-Bz9" secondAttribute="trailing" constant="100" id="65y-Du-is0"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Dka-lk-5qO" secondAttribute="trailing" constant="7" id="F8J-uQ-xN7"/>
-                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="Dka-lk-5qO" secondAttribute="centerY" id="Ko4-7L-5M8"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="UQB-I1-Bz9" secondAttribute="bottom" constant="8" id="bke-hb-Mon"/>
-                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="centerY" secondItem="1lc-ka-dsC" secondAttribute="centerY" id="lCv-pO-2I7"/>
-                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="top" secondItem="1lc-ka-dsC" secondAttribute="topMargin" constant="8" id="wnV-We-99l"/>
-                                                <constraint firstItem="UQB-I1-Bz9" firstAttribute="leading" secondItem="1lc-ka-dsC" secondAttribute="leadingMargin" constant="10" id="xtA-8G-vrn"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
