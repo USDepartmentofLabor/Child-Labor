@@ -45,6 +45,8 @@
 		664C9DD824B8FA210072C977 /* icons_Khat_Miraa33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD524B8FA200072C977 /* icons_Khat_Miraa33@3x.png */; };
 		664C9DD924B8FA210072C977 /* icons_Khat_Miraa.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD624B8FA200072C977 /* icons_Khat_Miraa.png */; };
 		664C9DDA24B8FA210072C977 /* icons_Khat_Miraa-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD724B8FA210072C977 /* icons_Khat_Miraa-33@2x.png */; };
+		6682420624E4277E009B203E /* Mexico-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682420524E4277E009B203E /* Mexico-map.png */; };
+		6682420824E4280D009B203E /* Mexico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6682420724E4280D009B203E /* Mexico.pdf */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
@@ -1110,6 +1112,8 @@
 		664C9DD524B8FA200072C977 /* icons_Khat_Miraa33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_Miraa33@3x.png"; sourceTree = "<group>"; };
 		664C9DD624B8FA200072C977 /* icons_Khat_Miraa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Khat_Miraa.png; sourceTree = "<group>"; };
 		664C9DD724B8FA210072C977 /* icons_Khat_Miraa-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_Miraa-33@2x.png"; sourceTree = "<group>"; };
+		6682420524E4277E009B203E /* Mexico-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mexico-map.png"; sourceTree = "<group>"; };
+		6682420724E4280D009B203E /* Mexico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Mexico.pdf; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
@@ -2244,6 +2248,7 @@
 				8303DF291B41F21A00E4FD42 /* Mali-map.png */,
 				8303DF2A1B41F21A00E4FD42 /* Mauritania-map.png */,
 				8303DF2B1B41F21A00E4FD42 /* Mauritius-map.png */,
+				6682420524E4277E009B203E /* Mexico-map.png */,
 				8303DF2C1B41F21A00E4FD42 /* Moldova, Republic of-map.png */,
 				8303DF2D1B41F21A00E4FD42 /* Mongolia-map.png */,
 				8335AEA21B6678EF000748F0 /* Montenegro-map.png */,
@@ -3103,6 +3108,7 @@
 				835617E01BD7DE78007BCF75 /* Mali.pdf */,
 				835617E11BD7DE78007BCF75 /* Mauritania.pdf */,
 				835617E21BD7DE78007BCF75 /* Mauritius.pdf */,
+				6682420724E4280D009B203E /* Mexico.pdf */,
 				835617E31BD7DE78007BCF75 /* Moldova, Republic of.pdf */,
 				835617E41BD7DE78007BCF75 /* Mongolia.pdf */,
 				835617E51BD7DE78007BCF75 /* Montenegro.pdf */,
@@ -3867,6 +3873,7 @@
 				835618821BD7DE79007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf in Resources */,
 				EDF0415420EFA8E300506499 /* icons_Sheep-33@3x.png in Resources */,
 				8310FE861ABB11310025F7AE /* Bhutan.png in Resources */,
+				6682420824E4280D009B203E /* Mexico.pdf in Resources */,
 				8310FE821ABB11310025F7AE /* Belgium.png in Resources */,
 				8303DF8B1B41F21A00E4FD42 /* Georgia-map.png in Resources */,
 				8310FEFC1ABB11310025F7AE /* Nicaragua.png in Resources */,
@@ -4333,6 +4340,7 @@
 				D69672851C6E66610058C280 /* hand-outline@3x.png in Resources */,
 				8303DFA51B41F21A00E4FD42 /* Mali-map.png in Resources */,
 				83AD139C1B669137004B92D3 /* icons_Gems-33@2x.png in Resources */,
+				6682420624E4277E009B203E /* Mexico-map.png in Resources */,
 				8335AF611B667963000748F0 /* icons_Pornography.png in Resources */,
 				8335AE9F1B6678C8000748F0 /* Eritrea-map.png in Resources */,
 				8303DFD61B41F21A00E4FD42 /* Uzbekistan-map.png in Resources */,
