@@ -63,8 +63,8 @@
 		6682425124E70BCD009B203E /* icons_Fruit_(Pome_and_Stone).png in Resources */ = {isa = PBXBuildFile; fileRef = 6682424E24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone).png */; };
 		6682425224E70BCD009B203E /* icons_Fruit_(Pome_and_Stone)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682424F24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone)-33@2x.png */; };
 		6682425624E70BED009B203E /* icons_Gloves-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425324E70BEC009B203E /* icons_Gloves-33@3x.png */; };
-		6682425724E70BED009B203E /* icons_Gloves-33@3x1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425424E70BEC009B203E /* icons_Gloves-33@3x1.png */; };
 		6682425824E70BED009B203E /* icons_Gloves-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425524E70BED009B203E /* icons_Gloves-33@2x.png */; };
+		6682425C24E7205B009B203E /* icons_Gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425B24E7205A009B203E /* icons_Gloves.png */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
@@ -1148,8 +1148,8 @@
 		6682424E24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Fruit_(Pome_and_Stone).png"; sourceTree = "<group>"; };
 		6682424F24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Fruit_(Pome_and_Stone)-33@2x.png"; sourceTree = "<group>"; };
 		6682425324E70BEC009B203E /* icons_Gloves-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gloves-33@3x.png"; sourceTree = "<group>"; };
-		6682425424E70BEC009B203E /* icons_Gloves-33@3x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gloves-33@3x1.png"; sourceTree = "<group>"; };
 		6682425524E70BED009B203E /* icons_Gloves-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gloves-33@2x.png"; sourceTree = "<group>"; };
+		6682425B24E7205A009B203E /* icons_Gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Gloves.png; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
@@ -2587,7 +2587,7 @@
 				38CA95431D4FF4F200319316 /* icons_Pepper-33@3x.png */,
 				6682425524E70BED009B203E /* icons_Gloves-33@2x.png */,
 				6682425324E70BEC009B203E /* icons_Gloves-33@3x.png */,
-				6682425424E70BEC009B203E /* icons_Gloves-33@3x1.png */,
+				6682425B24E7205A009B203E /* icons_Gloves.png */,
 				6682424F24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone)-33@2x.png */,
 				6682424D24E70BCC009B203E /* icons_Fruit_(Pome_and_Stone)-33@3x.png */,
 				6682424E24E70BCD009B203E /* icons_Fruit_(Pome_and_Stone).png */,
@@ -3622,7 +3622,6 @@
 				EDF0416820EFA9CB00506499 /* icons_Mica.png in Resources */,
 				139AC8222332509A002420FF /* North Macedonia-map.png in Resources */,
 				8310FED01ABB11310025F7AE /* Jamaica.png in Resources */,
-				6682425724E70BED009B203E /* icons_Gloves-33@3x1.png in Resources */,
 				83AD128C1B668E71004B92D3 /* icons_Gravel_(crushed_stones)-33@3x.png in Resources */,
 				8303DF931B41F21A00E4FD42 /* Honduras-map.png in Resources */,
 				835618431BD7DE79007BCF75 /* Djibouti.pdf in Resources */,
@@ -4289,6 +4288,7 @@
 				8303DFAD1B41F21A00E4FD42 /* Namibia-map.png in Resources */,
 				83AD12841B668E71004B92D3 /* icons_Gems-33@3x.png in Resources */,
 				ED2D4CFB1F60775A00DF1C45 /* Intro to OCFT.pdf in Resources */,
+				6682425C24E7205B009B203E /* icons_Gloves.png in Resources */,
 				8303DF891B41F21A00E4FD42 /* Gabon-map.png in Resources */,
 				8310FEF11ABB11310025F7AE /* Mongolia.png in Resources */,
 				8356185C1BD7DE79007BCF75 /* Jordan.pdf in Resources */,
@@ -4680,7 +4680,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
@@ -4708,7 +4708,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
