@@ -206,13 +206,13 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             }
 
             // Create lists of countries in each region section
-            if country["Region"].element?.text == "Asia & the Pacific" {
+            if country["Region"].element?.text == "Indo-Pacific" {
                 asiaCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Europe & Eurasia" {
+            } else if country["Region"].element?.text == "Europe and Eurasia" {
                 europeCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Latin America & the Caribbean" {
+            } else if country["Region"].element?.text == "Latin America and the Caribbean" {
                 latinCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Middle East & North Africa" {
+            } else if country["Region"].element?.text == "Middle East and North Africa" {
                 middleCountries.add(countryName!)
             } else if country["Region"].element?.text == "Sub-Saharan Africa" {
                 saharanCountries.add(countryName!)
@@ -352,7 +352,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         case 2:
             switch section {
             case 0:
-                return "Asia & the Pacific"
+                return "Indo-Pacific"
             case 1:
                 return "Europe & Eurasia"
             case 2:
