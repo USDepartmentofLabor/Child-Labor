@@ -249,7 +249,7 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Q-78-HdS">
                                         <rect key="frame" x="285" y="311" width="25" height="24"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="3s6-C9-493" kind="presentation" id="omh-cQ-qP8"/>
                                         </connections>
@@ -1755,6 +1755,7 @@ and School</string>
                                                         <subviews>
                                                             <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yA7-FA-mQp">
                                                                 <rect key="frame" x="0.0" y="5.5" width="33" height="33"/>
+                                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="33" id="Bd3-u5-cX0"/>
                                                                     <constraint firstAttribute="width" constant="44" id="VNU-5s-wAb"/>
@@ -3309,7 +3310,7 @@ Standards                                          </string>
                             <tableViewSection headerTitle="Other Data" id="Mfd-C9-VUq">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="ORU-Do-uVC">
-                                        <rect key="frame" x="0.0" y="1660" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2134" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="ORU-Do-uVC" id="REQ-uh-HpU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3340,7 +3341,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="tZl-wp-CBP">
-                                        <rect key="frame" x="0.0" y="1740" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2214" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="tZl-wp-CBP" id="LT9-Ae-g2n">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3371,7 +3372,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="V5Y-kY-2Qd">
-                                        <rect key="frame" x="0.0" y="1820" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2294" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="V5Y-kY-2Qd" id="3tF-Xa-RA4">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3403,7 +3404,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="h25-uw-CJZ">
-                                        <rect key="frame" x="0.0" y="1900" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2374" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="h25-uw-CJZ" id="pep-vx-w1a">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3434,7 +3435,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="N4X-Dg-Nr1">
-                                        <rect key="frame" x="0.0" y="1980" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2454" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="N4X-Dg-Nr1" id="1lc-ka-dsC">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3466,7 +3467,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="Epa-Zh-Q4q">
-                                        <rect key="frame" x="0.0" y="2060" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="2534" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="Epa-Zh-Q4q" id="WHZ-gc-kNj">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -6264,7 +6265,7 @@ Standards                                          </string>
         <segue reference="UrS-Cc-ziQ"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="BackgroundNew.png" width="2058" height="3104"/>
+        <image name="BackgroundNew.png" width="960" height="1344"/>
         <image name="Brazil-map.png" width="453.60000610351562" height="452.16000366210938"/>
         <image name="child-labor.png" width="60" height="50"/>
         <image name="dol.png" width="45" height="45"/>
