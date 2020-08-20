@@ -1755,7 +1755,7 @@ and School</string>
                                                         <subviews>
                                                             <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yA7-FA-mQp">
                                                                 <rect key="frame" x="0.0" y="5.5" width="33" height="33"/>
-                                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="33" id="Bd3-u5-cX0"/>
                                                                     <constraint firstAttribute="width" constant="44" id="VNU-5s-wAb"/>

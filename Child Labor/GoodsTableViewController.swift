@@ -198,7 +198,8 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         cell.imageView?.image = UIImage(named: "icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_") + "-33")
         
         if #available(iOS 13.0, *) {
-            cell.imageView?.backgroundColor = .systemOrange
+//            cell.imageView?.backgroundColor = .systemOrange
+            cell.imageView?.backgroundColor = .white
             cell.imageView?.alpha = 1
         } else {
             // Fallback on earlier versions
