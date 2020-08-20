@@ -695,16 +695,38 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         {
            countryCount.text = "1 result found for search " + searchBarFilter.text!
         }
-        if(getCountryCount() == 148)
+        if(getCountryCount() == 143)
         {
             countryCount.text = ""
         }
         else{
-            countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+            if #available(iOS 12.0, *) {
+                if (self.traitCollection.userInterfaceStyle == .dark) {
+                   
+                    if(getCountryCount() == 143 && searchBarFilter.text! == "")
+                    {
+                        countryCount.text = ""
+                    } else {
+                        countryCount.textColor = UIColor.black
+                        countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+                    }
+                } else {
+                    countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+                }
+            } else {
+                    if(getCountryCount() == 1)
+                    {
+                       countryCount.text = "1 result found for search " + searchBarFilter.text!
+                    }
+                    if(getCountryCount() == 143)
+                    {
+                        countryCount.text = ""
+                }
+            }
+            
         }
         UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, countryCount.text)
-
-    }
+     }
     
     func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
         if query.isEmpty {
