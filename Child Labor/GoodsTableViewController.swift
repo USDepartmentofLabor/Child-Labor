@@ -250,12 +250,34 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         {
             goodsCount.text = "1 result found for search " + searchBarFilter.text!
         }
-        if(getGoodsCount() == 139)
+        if(getGoodsCount() == 156)
         {
             goodsCount.text = ""
         }
         else{
-            goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+            if #available(iOS 12.0, *) {
+                if (self.traitCollection.userInterfaceStyle == .dark) {
+                   
+                    if(getGoodsCount() == 156 && searchBarFilter.text! == "")
+                    {
+                        goodsCount.text = ""
+                    } else {
+                        goodsCount.textColor = UIColor.black
+                        goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+                    }
+                } else {
+                     goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+                }
+            } else {
+                    if(getGoodsCount() == 1)
+                    {
+                        goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
+                    }
+                    if(getGoodsCount() == 156)
+                    {
+                        goodsCount.text = ""
+                }
+            }
             UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, goodsCount.text)
         }
     }
