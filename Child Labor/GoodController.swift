@@ -188,20 +188,10 @@ class GoodController: UITableViewController {
         
         cell.backgroundColor = UIColor.white
         titleLabel?.textColor = UIColor.black
-        if #available(iOS 12.0, *) {
-             if (self.traitCollection.userInterfaceStyle == .dark) {
-                 let chevron = UIImage(named: "arrow-white.png")
-                 cell.accessoryType = .disclosureIndicator
-                 cell.accessoryView = UIImageView(image: chevron)
-                
-                }
-              else {
-             let chevron = UIImage(named: "arrow.png")
-             cell.accessoryType = .disclosureIndicator
-             cell.accessoryView = UIImageView(image: chevron)
-             
-           }
-        }
+        let chevron = UIImage(named: "arrow.png")
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = UIImageView(image: chevron)
+        
         if #available(iOS 13.0, *) {
             cell.backgroundColor = .systemBackground
         } else {

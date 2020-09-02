@@ -332,21 +332,10 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                                
             }
         }
-        if #available(iOS 12.0, *) {
-            if (self.traitCollection.userInterfaceStyle == .dark) {
-                let chevron = UIImage(named: "arrow-white.png")
-                cell?.accessoryType = .disclosureIndicator
-                cell?.accessoryView = UIImageView(image: chevron)
-               
-               }
-             else {
-            let chevron = UIImage(named: "arrow.png")
-            cell?.accessoryType = .disclosureIndicator
-            cell?.accessoryView = UIImageView(image: chevron)
-            
-          }
-       }
-         return cell!
+        let chevron = UIImage(named: "arrow.png")
+        cell?.accessoryType = .disclosureIndicator
+        cell?.accessoryView = UIImageView(image: chevron)
+        return cell!
     }
     
     override func tableView(_ tableView: UITableView,

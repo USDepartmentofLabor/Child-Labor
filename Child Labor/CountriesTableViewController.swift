@@ -606,20 +606,9 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //            cell.detailTextLabel?.hidden = false
 //            cell.userInteractionEnabled = false
 //        }
-        if #available(iOS 12.0, *) {
-             if (self.traitCollection.userInterfaceStyle == .dark) {
-                 let chevron = UIImage(named: "arrow-white.png")
-                cell.accessoryType = .disclosureIndicator
-                cell.accessoryView = UIImageView(image: chevron)
-                
-                }
-              else {
-             let chevron = UIImage(named: "arrow.png")
-                cell.accessoryType = .disclosureIndicator
-                cell.accessoryView = UIImageView(image: chevron)
-             
-           }
-        }
+        let chevron = UIImage(named: "arrow.png")
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = UIImageView(image: chevron)
         if #available(iOS 13.0, *) {
             cell.textLabel?.textColor = .label
         } else {
