@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CF34B224FFFAB8003BE65F /* arrow-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 10CF34B124FFFAB8003BE65F /* arrow-white.png */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
 		139AC81F2332509A002420FF /* Moldova-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8142332509A002420FF /* Moldova-map.png */; };
@@ -1093,6 +1094,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10CF34B124FFFAB8003BE65F /* arrow-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-white.png"; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
 		139AC8142332509A002420FF /* Moldova-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Moldova-map.png"; sourceTree = "<group>"; };
@@ -3327,6 +3329,7 @@
 				380048741D8B991C00E64714 /* EO.pdf */,
 				380048751D8B991C00E64714 /* TVPRA.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
+				10CF34B124FFFAB8003BE65F /* arrow-white.png */,
 				38CA953B1D4BAEF200319316 /* countries_2016.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
@@ -3807,6 +3810,7 @@
 				83AD12681B668E71004B92D3 /* icons_Cocoa-33@3x.png in Resources */,
 				8310FEA41ABB11310025F7AE /* Congo,_Democratic_Republic_of_the.png in Resources */,
 				835618A01BD7DE79007BCF75 /* Vanuatu.pdf in Resources */,
+				10CF34B224FFFAB8003BE65F /* arrow-white.png in Resources */,
 				EDF0416620EFA9C300506499 /* icons_Mica-33@3x.png in Resources */,
 				6682424424E70B93009B203E /* icons_Rubber_Gloves.png in Resources */,
 				38CA954F1D4FF4F200319316 /* icons_Potatoes-33@3x.png in Resources */,
