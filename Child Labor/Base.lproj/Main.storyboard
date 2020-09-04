@@ -358,7 +358,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <searchBar contentMode="redraw" placeholder="Filter Countries" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-AJ-Owm">
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-AJ-Owm">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="56" id="vvr-fP-ZsQ"/>
@@ -1577,7 +1577,7 @@ and School</string>
                             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <searchBar contentMode="redraw" placeholder="Filter Goods" translatesAutoresizingMaskIntoConstraints="NO" id="gkk-Dd-047">
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="gkk-Dd-047">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="56" id="ThA-Nq-923"/>

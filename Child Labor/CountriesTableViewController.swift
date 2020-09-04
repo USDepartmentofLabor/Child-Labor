@@ -687,6 +687,10 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         filterResults()
     }
     
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        self.searchBarFilter.text = ""
+    }
+    
     func filterResults() {
         let query = self.searchBarFilter.text
         

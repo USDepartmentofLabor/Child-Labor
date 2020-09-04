@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
+class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITextFieldDelegate {
     
     var state = 0
     
@@ -99,6 +99,10 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         }
         
         self.changeSegmentControlColorWithMode()
+    }
+    
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        self.searchBarFilter.text = ""
     }
     
     override func viewWillAppear(_ animated: Bool) {
