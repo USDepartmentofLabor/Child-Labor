@@ -125,7 +125,8 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
-           textFieldInsideSearchBar?.textColor = UIColor.white
+           textFieldInsideSearchBar?.backgroundColor = UIColor.white
+           textFieldInsideSearchBar?.textColor = UIColor.black
             } else {
             textFieldInsideSearchBar?.textColor = UIColor.black
             }
