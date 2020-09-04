@@ -68,60 +68,61 @@ class SomaliaTableViewController: UITableViewController {
             if country["Name"].element?.text == "Somalia"{
 
         
-        workingf.text = "Unknown"
+        workingf.text = "9.5% (N/A; ages 5-14)"
         workingf.textColor = UIColor.black;
+                
         
-        workingp.text = "9.5 % (Unknown; ages 5-14)"
+        workingp.text = "13.2% (N/A; ages 10-14)"
         workingp.textColor = UIColor.black;
         
         workings.text = "13.2 % (Unknown; ages 5-14)"
         workings.textColor = UIColor.black;
         
         
-        agrif.text = "Unavailable"
+        agrif.text = "N/A"
         agrif.textColor = UIColor.black;
         
-        agrip.text = "Unavailable"
+        agrip.text = "N/A"
         agrip.textColor = UIColor.black;
         
-        agris.text = "Unavailable"
+        agris.text = "N/A"
         agris.textColor = UIColor.black;
         
-        indf.text = "Unavailable"
+        indf.text = "N/A"
         indf.textColor = UIColor.black;
         
-        indp.text = "Unavailable"
+        indp.text = "N/A"
         indp.textColor = UIColor.black;
         
-        inds.text = "Unavailable"
+        inds.text = "N/A"
         inds.textColor = UIColor.black;
         
-        serf.text = "Unavailable"
+        serf.text = "N/A"
         serf.textColor = UIColor.black;
         
-        serp.text = "Unavailable"
+        serp.text = "N/A"
         serp.textColor = UIColor.black;
         
-        sers.text = "Unavailable"
+        sers.text = "N/A"
         sers.textColor = UIColor.black;
         
         
-        attf.text = "Unavailable"
+        attf.text = "38.8% (Ages 5-14)"
         attf.textColor = UIColor.black;
         
-        attp.text = "38.3% (Ages 5-14)"
+        attp.text = "44.2% (Ages 5-14)"
         attp.textColor = UIColor.black;
         
         atts.text = "44.2% (Ages 5-14)"
         atts.textColor = UIColor.black;
         
-        comf.text = "Unavailable"
+        comf.text = "4.7% (Ages 7-14)"
         comf.textColor = UIColor.black;
         
-        comp.text = "4.7% (Ages 7-14)"
+        comp.text = "6.6% (Ages 7-14"
         comp.textColor = UIColor.black;
         
-        coms.text = "6.6% (Ages 7-14)"
+        coms.text = "N/A"
         coms.textColor = UIColor.black;
         
         primf.text = "Unavailable"
@@ -132,6 +133,32 @@ class SomaliaTableViewController: UITableViewController {
         
         prims.text = "Unavailable"
         prims.textColor = UIColor.black;
+        if #available(iOS 13.0, *) {
+            workingf.textColor = .label
+            workingp.textColor = .label
+            workings.textColor = .label
+            agrif.textColor = .label
+            agrip.textColor = .label
+            agris.textColor = .label
+            indf.textColor = .label
+            indp.textColor = .label
+            inds.textColor = .label
+            serf.textColor = .label
+            serp.textColor = .label
+            sers.textColor = .label
+            attf.textColor = .label
+            attp.textColor = .label
+            atts.textColor = .label
+            comf.textColor = .label
+            comp.textColor = .label
+            coms.textColor = .label
+            primf.textColor = .label
+            primp.textColor = .label
+            prims.textColor = .label
+            
+        } else {
+            // Fallback on earlier versions
+        }
             }
         
         }

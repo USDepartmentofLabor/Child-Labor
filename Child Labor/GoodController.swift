@@ -188,6 +188,9 @@ class GoodController: UITableViewController {
         
         cell.backgroundColor = UIColor.white
         titleLabel?.textColor = UIColor.black
+        let chevron = UIImage(named: "arrow.png")
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = UIImageView(image: chevron)
         
         if #available(iOS 13.0, *) {
             cell.backgroundColor = .systemBackground

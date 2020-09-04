@@ -70,7 +70,10 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
       let cell = UITableViewCell()
       
         cell.textLabel?.text = menuItems[indexPath.row]
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator;
+//        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator;
+        let chevron = UIImage(named: "arrow.png")
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = UIImageView(image: chevron)
         if #available(iOS 13.0, *) {
             cell.textLabel?.textColor = .label
         } else {

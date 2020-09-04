@@ -10,6 +10,7 @@ import UIKit
 
 class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     var state = 0
     
     var hasDataByCounty: [String: Bool] = [:]
@@ -120,7 +121,16 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
-        
+        self.searchBarFilter.text = "Filter Countries"
+        let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
+        if #available(iOS 12.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           textFieldInsideSearchBar?.backgroundColor = UIColor.white
+           textFieldInsideSearchBar?.textColor = UIColor.black
+            } else {
+            textFieldInsideSearchBar?.textColor = UIColor.black
+            }
+        }
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
@@ -224,6 +234,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             } else {
                 hasDataByCounty[countryName!] = true
             }
+            self.changeSegmentControlColorWithMode()
         }
         
         // Save all values for each section so that we can filter later
@@ -270,7 +281,6 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
@@ -606,6 +616,9 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //            cell.detailTextLabel?.hidden = false
 //            cell.userInteractionEnabled = false
 //        }
+        let chevron = UIImage(named: "arrow.png")
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = UIImageView(image: chevron)
         if #available(iOS 13.0, *) {
             cell.textLabel?.textColor = .label
         } else {
@@ -636,14 +649,46 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //    }
     
     @IBAction func groupChanged(_ sender: UISegmentedControl) {
+        //segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.redColor()], forState: .Selected)
+
+//        let titleTextAttribute1 = [NSAttributedStringKey.foregroundColor: UIColor.white]
+//        let titleTextAttribute2 = [NSAttributedStringKey.foregroundColor: UIColor.black]
+//        segmentedControl.setTitleTextAttributes([NSAttributedStringKey.foregroundColor:titleTextAttribute2], for: .normal)
+//        segmentedControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
+//        segmentedControl.setTitleTextAttributes(titleTextAttribute1, for: .selected)
         state = sender.selectedSegmentIndex
         
         // self.searchFilterview.hidden = state != 0
         self.tableView.reloadData()
     }
     
+    func changeSegmentControlColorWithMode() {
+        if #available(iOS 13.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           segmentedControl.backgroundColor = UIColor.white
+            segmentedControl.selectedSegmentTintColor = UIColor.black
+           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+           segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+           segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            } else {
+            segmentedControl.backgroundColor = UIColor.black
+            segmentedControl.selectedSegmentTintColor = UIColor.white
+            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            }
+        }
+         
+    }
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filterResults()
+    }
+    
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        self.searchBarFilter.text = ""
     }
     
     func filterResults() {
@@ -695,16 +740,38 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         {
            countryCount.text = "1 result found for search " + searchBarFilter.text!
         }
-        if(getCountryCount() == 148)
+        if(getCountryCount() == 143)
         {
             countryCount.text = ""
         }
         else{
-            countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+            if #available(iOS 12.0, *) {
+                if (self.traitCollection.userInterfaceStyle == .dark) {
+                   
+                    if(getCountryCount() == 143 && searchBarFilter.text! == "")
+                    {
+                        countryCount.text = ""
+                    } else {
+                        countryCount.textColor = UIColor.black
+                        countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+                    }
+                } else {
+                    countryCount.text = String(getCountryCount()) + " results found for " + searchBarFilter.text!
+                }
+            } else {
+                    if(getCountryCount() == 1)
+                    {
+                       countryCount.text = "1 result found for search " + searchBarFilter.text!
+                    }
+                    if(getCountryCount() == 143)
+                    {
+                        countryCount.text = ""
+                }
+            }
+            
         }
         UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, countryCount.text)
-
-    }
+     }
     
     func filterSection(_ array: NSMutableArray, query: String) -> NSMutableArray {
         if query.isEmpty {

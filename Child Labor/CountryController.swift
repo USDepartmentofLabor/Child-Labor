@@ -291,22 +291,70 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     }
 
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
+        var cell = tableView.dequeueReusableCell(withIdentifier: "CELL")
+
+        if cell == nil {
+            cell = UITableViewCell(style: UITableViewCellStyle.value1, reuseIdentifier: "CELL")
+        }
+        if (indexPath.section == 0) {
+            switch indexPath.row {
+            case 0:
+                cell?.textLabel?.text = "Suggested Actions"
+            case 1:
+                cell?.textLabel?.text = "Statistics"
+            case 2:
+                cell?.textLabel?.text = "International Conventions"
+            case 3:
+                cell?.textLabel?.text = "Legal Standards"
+            case 4:
+                cell?.textLabel?.text = "Enforcement"
+            case 5:
+                cell?.textLabel?.text = "Coordinating Mechanisms"
+                
+            default:
+                cell?.textLabel?.text = ""
+                
+            
+            }
+        }
+        if (indexPath.section == 1) {
+        switch indexPath.row {
+               case 0:
+                   cell?.textLabel?.text = "Report PDF"
+               case 1:
+                   cell?.textLabel?.text = "Country Webpage"
+                   
+               default:
+                   cell?.textLabel?.text = ""
+                               
+            }
+        }
+        let chevron = UIImage(named: "arrow.png")
+        cell?.accessoryType = .disclosureIndicator
+        cell?.accessoryView = UIImageView(image: chevron)
+        return cell!
+    }
     
     override func tableView(_ tableView: UITableView,
                             didSelectRowAt indexPath: IndexPath) {
         
         if (indexPath.section == 0){
-            
+            if (indexPath.row == 0) {
+             performSegue(withIdentifier: "presentSuggestedActions", sender: self)
+            }
         
         if (indexPath.row == 1) {
-//            if (countryName=="Somalia") {
-//
-//
-//                performSegue(withIdentifier: "presentSomalia", sender: self)
-//
-//            }
-//
-//            else
+            if (countryName=="Somalia") {
+
+
+                performSegue(withIdentifier: "presentSomalia", sender: self)
+
+            }
+
+            else
             if (countryName=="Pakistan") {
                 
                 
@@ -325,7 +373,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 performSegue(withIdentifier: "presentStats", sender: self)
             }
         }
-        
+        if (indexPath.row == 2) {
+         performSegue(withIdentifier: "presentConventions", sender: self)
+        }
         if (indexPath.row == 3) {
             if multipleTerritories {
                 
@@ -346,10 +396,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 performSegue(withIdentifier: "presentEnforcement", sender: self)
             }
         }
+        if (indexPath.row == 5) {
+         performSegue(withIdentifier: "presentCoordination", sender: self)
+        }
+            
         }
         
         if (indexPath.section == 1)
         {
+            if (indexPath.row == 0) {
+                    performSegue(withIdentifier: "presentFullReportDocument", sender: self)
+                   }
             if (indexPath.row == 1) {
                 
                 if(self.countryName == "Côte d\'Ivoire")

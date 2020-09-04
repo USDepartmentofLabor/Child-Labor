@@ -57,22 +57,63 @@ class MoreInfoController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
+        var cell = tableView.dequeueReusableCell(withIdentifier: "CELL")
+
+        if cell == nil {
+            cell = UITableViewCell(style: UITableViewCellStyle.value1, reuseIdentifier: "CELL")
+        }
+        if (indexPath.section == 0) {
+            switch indexPath.row {
+            case 0:
+                cell?.textLabel?.text = "About this App"
+            case 1:
+                cell?.textLabel?.text = "Methodology"
+                
+            default:
+                cell?.textLabel?.text = ""
+                
+            
+            }
+        }
+        if (indexPath.section == 1) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "Forword"
+            }
+        }
+        if (indexPath.section == 2) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "Sweat & Toil Magazine"
+            }
+        }
+        if (indexPath.section == 3) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "New: Comply Chain App"
+            }
+        }
+        let chevron = UIImage(named: "arrow.png")
+        cell?.accessoryType = .disclosureIndicator
+        cell?.accessoryView = UIImageView(image: chevron)
+        return cell!
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if (indexPath.section == 1) {
-//            switch indexPath.row {
-//
-//            case 1:
-//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2018/ChildLaborReport.pdf")!)
-//                break
-//            case 2:
-//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf")!)
-//                break
-//            case 3:
-//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/EO_Report_2014.pdf")!)
-//            default:
-//                break
-//            }
-//        }
+        
+        if (indexPath.section == 0){
+        if (indexPath.row == 0) {
+         performSegue(withIdentifier: "presentAboutThisApp", sender: self)
+         }
+        if (indexPath.row == 1) {
+        performSegue(withIdentifier: "presentMethodology", sender: self)
+           }
+        }
+        if (indexPath.section == 1){
+        if (indexPath.row == 0) {
+         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
+            }
+         }
         
         if (indexPath.section == 2) {
             switch indexPath.row {
@@ -82,6 +123,11 @@ class MoreInfoController: UITableViewController {
                 break
             }
         }
+        if (indexPath.section == 3){
+        if (indexPath.row == 0) {
+         performSegue(withIdentifier: "presentSimilarApps", sender: self)
+            }
+         }
         
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)

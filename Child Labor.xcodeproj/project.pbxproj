@@ -66,6 +66,9 @@
 		6682425824E70BED009B203E /* icons_Gloves-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425524E70BED009B203E /* icons_Gloves-33@2x.png */; };
 		6682425C24E7205B009B203E /* icons_Gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425B24E7205A009B203E /* icons_Gloves.png */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
+		66A928E324FE85F100F0C226 /* Gambia, The-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E224FE85F000F0C226 /* Gambia, The-map.png */; };
+		66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* Gambia,_The.png */; };
+		66A928E924FEABD300F0C226 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E824FEABD300F0C226 /* arrow.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
@@ -105,7 +108,6 @@
 		8303DF871B41F21A00E4FD42 /* Ethiopia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF0B1B41F21A00E4FD42 /* Ethiopia-map.png */; };
 		8303DF881B41F21A00E4FD42 /* Fiji-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF0C1B41F21A00E4FD42 /* Fiji-map.png */; };
 		8303DF891B41F21A00E4FD42 /* Gabon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF0D1B41F21A00E4FD42 /* Gabon-map.png */; };
-		8303DF8A1B41F21A00E4FD42 /* Gambia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF0E1B41F21A00E4FD42 /* Gambia-map.png */; };
 		8303DF8B1B41F21A00E4FD42 /* Georgia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF0F1B41F21A00E4FD42 /* Georgia-map.png */; };
 		8303DF8C1B41F21A00E4FD42 /* Ghana-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF101B41F21A00E4FD42 /* Ghana-map.png */; };
 		8303DF8D1B41F21A00E4FD42 /* Grenada-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF111B41F21A00E4FD42 /* Grenada-map.png */; };
@@ -254,7 +256,6 @@
 		8310FEB41ABB11310025F7AE /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD41ABB11300025F7AE /* France.png */; };
 		8310FEB51ABB11310025F7AE /* French_Polynesia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD51ABB11300025F7AE /* French_Polynesia.png */; };
 		8310FEB61ABB11310025F7AE /* Gabon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD61ABB11300025F7AE /* Gabon.png */; };
-		8310FEB71ABB11310025F7AE /* Gambia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD71ABB11300025F7AE /* Gambia.png */; };
 		8310FEB81ABB11310025F7AE /* Georgia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD81ABB11300025F7AE /* Georgia.png */; };
 		8310FEB91ABB11310025F7AE /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDD91ABB11300025F7AE /* Germany.png */; };
 		8310FEBA1ABB11310025F7AE /* Ghana.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FDDA1ABB11300025F7AE /* Ghana.png */; };
@@ -1151,6 +1152,9 @@
 		6682425524E70BED009B203E /* icons_Gloves-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Gloves-33@2x.png"; sourceTree = "<group>"; };
 		6682425B24E7205A009B203E /* icons_Gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Gloves.png; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
+		66A928E224FE85F000F0C226 /* Gambia, The-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia, The-map.png"; sourceTree = "<group>"; };
+		66A928E424FE860500F0C226 /* Gambia,_The.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia,_The.png"; sourceTree = "<group>"; };
+		66A928E824FEABD300F0C226 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
@@ -1190,7 +1194,6 @@
 		8303DF0B1B41F21A00E4FD42 /* Ethiopia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ethiopia-map.png"; sourceTree = "<group>"; };
 		8303DF0C1B41F21A00E4FD42 /* Fiji-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fiji-map.png"; sourceTree = "<group>"; };
 		8303DF0D1B41F21A00E4FD42 /* Gabon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gabon-map.png"; sourceTree = "<group>"; };
-		8303DF0E1B41F21A00E4FD42 /* Gambia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia-map.png"; sourceTree = "<group>"; };
 		8303DF0F1B41F21A00E4FD42 /* Georgia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Georgia-map.png"; sourceTree = "<group>"; };
 		8303DF101B41F21A00E4FD42 /* Ghana-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ghana-map.png"; sourceTree = "<group>"; };
 		8303DF111B41F21A00E4FD42 /* Grenada-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grenada-map.png"; sourceTree = "<group>"; };
@@ -1339,7 +1342,6 @@
 		8310FDD41ABB11300025F7AE /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
 		8310FDD51ABB11300025F7AE /* French_Polynesia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = French_Polynesia.png; sourceTree = "<group>"; };
 		8310FDD61ABB11300025F7AE /* Gabon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gabon.png; sourceTree = "<group>"; };
-		8310FDD71ABB11300025F7AE /* Gambia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gambia.png; sourceTree = "<group>"; };
 		8310FDD81ABB11300025F7AE /* Georgia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Georgia.png; sourceTree = "<group>"; };
 		8310FDD91ABB11300025F7AE /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
 		8310FDDA1ABB11300025F7AE /* Ghana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghana.png; sourceTree = "<group>"; };
@@ -2254,7 +2256,7 @@
 				8303DF0B1B41F21A00E4FD42 /* Ethiopia-map.png */,
 				8303DF0C1B41F21A00E4FD42 /* Fiji-map.png */,
 				8303DF0D1B41F21A00E4FD42 /* Gabon-map.png */,
-				8303DF0E1B41F21A00E4FD42 /* Gambia-map.png */,
+				66A928E224FE85F000F0C226 /* Gambia, The-map.png */,
 				8303DF0F1B41F21A00E4FD42 /* Georgia-map.png */,
 				8303DF101B41F21A00E4FD42 /* Ghana-map.png */,
 				8303DF111B41F21A00E4FD42 /* Grenada-map.png */,
@@ -2418,7 +2420,7 @@
 				8310FDD41ABB11300025F7AE /* France.png */,
 				8310FDD51ABB11300025F7AE /* French_Polynesia.png */,
 				8310FDD61ABB11300025F7AE /* Gabon.png */,
-				8310FDD71ABB11300025F7AE /* Gambia.png */,
+				66A928E424FE860500F0C226 /* Gambia,_The.png */,
 				8310FDD81ABB11300025F7AE /* Georgia.png */,
 				8310FDD91ABB11300025F7AE /* Germany.png */,
 				8310FDDA1ABB11300025F7AE /* Ghana.png */,
@@ -3328,6 +3330,7 @@
 				38CA953B1D4BAEF200319316 /* countries_2016.xml */,
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
+				66A928E824FEABD300F0C226 /* arrow.png */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
 				83B3E9891B3B519300742BC7 /* forced-child-labor@3x.png */,
 				83B3E9861B3B519300742BC7 /* forced-child-labor@2x.png */,
@@ -3777,6 +3780,7 @@
 				83AD12C91B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png in Resources */,
 				8310FE6F1ABB11310025F7AE /* Afghanistan.png in Resources */,
 				83AD13CD1B669137004B92D3 /* icons_Silk_Thread-33@2x.png in Resources */,
+				66A928E924FEABD300F0C226 /* arrow.png in Resources */,
 				8356188D1BD7DE79007BCF75 /* South Africa.pdf in Resources */,
 				83B3E9841B3B518200742BC7 /* hand-black@3x.png in Resources */,
 				8303DF9A1B41F21A00E4FD42 /* Kenya-map.png in Resources */,
@@ -4100,7 +4104,6 @@
 				83AD13AE1B669137004B92D3 /* icons_Lobsters-33@2x.png in Resources */,
 				83AD13A91B669137004B92D3 /* icons_Incense_(agarbatti)-33@2x.png in Resources */,
 				139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */,
-				8303DF8A1B41F21A00E4FD42 /* Gambia-map.png in Resources */,
 				8335AF681B667963000748F0 /* icons_Sand.png in Resources */,
 				8310FEC21ABB11310025F7AE /* Guinea.png in Resources */,
 				8303DFCF1B41F21A00E4FD42 /* Trinidad and Tobago-map.png in Resources */,
@@ -4325,7 +4328,6 @@
 				ED12FF5F20F3AE2000D1ED97 /* icons_Tin_ore_(cassiterite)-33@2x.png in Resources */,
 				83AD13901B669137004B92D3 /* icons_Fashion_Accessories-33@2x.png in Resources */,
 				8303DFA41B41F21A00E4FD42 /* Maldives-map.png in Resources */,
-				8310FEB71ABB11310025F7AE /* Gambia.png in Resources */,
 				83AD12AF1B668E71004B92D3 /* icons_Sand-33@3x.png in Resources */,
 				83AD137C1B669137004B92D3 /* icons_Citrus_Fruits-33@2x.png in Resources */,
 				8303DFBC1B41F21A00E4FD42 /* Sao Tome and Principe-map.png in Resources */,
@@ -4368,6 +4370,7 @@
 				83AD12AB1B668E71004B92D3 /* icons_Rice-33@3x.png in Resources */,
 				8310FEF81ABB11310025F7AE /* Nepal.png in Resources */,
 				835618651BD7DE79007BCF75 /* Macedonia.pdf in Resources */,
+				66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */,
 				83AD12A41B668E71004B92D3 /* icons_Peanuts-33@3x.png in Resources */,
 				83AD139B1B669137004B92D3 /* icons_Garments-33@2x.png in Resources */,
 				8335AF541B667963000748F0 /* icons_Lobsters.png in Resources */,
@@ -4454,6 +4457,7 @@
 				8335AF4F1B667963000748F0 /* icons_Incense_(agarbatti).png in Resources */,
 				83AD13C41B669137004B92D3 /* icons_Rubber-33@2x.png in Resources */,
 				139AC8252332509A002420FF /* North_Macedonia.png in Resources */,
+				66A928E324FE85F100F0C226 /* Gambia, The-map.png in Resources */,
 				8310FF0F1ABB11310025F7AE /* Qatar.png in Resources */,
 				83AD13711B669137004B92D3 /* icons_Carpets-33@2x.png in Resources */,
 				8335AF631B667963000748F0 /* icons_Pyrotechnics.png in Resources */,
@@ -4680,7 +4684,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 69;
+				CURRENT_PROJECT_VERSION = 75;
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
@@ -4708,7 +4712,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 69;
+				CURRENT_PROJECT_VERSION = 75;
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
