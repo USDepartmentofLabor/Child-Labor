@@ -10,6 +10,7 @@ import UIKit
 
 class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     var state = 0
     
     var hasDataByCounty: [String: Bool] = [:]
@@ -120,7 +121,15 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
-        
+        self.searchBarFilter.text = "Filter Countries"
+        let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
+        if #available(iOS 12.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           textFieldInsideSearchBar?.textColor = UIColor.white
+            } else {
+            textFieldInsideSearchBar?.textColor = UIColor.black
+            }
+        }
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
@@ -224,6 +233,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
             } else {
                 hasDataByCounty[countryName!] = true
             }
+            self.changeSegmentControlColorWithMode()
         }
         
         // Save all values for each section so that we can filter later
@@ -639,10 +649,37 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //    }
     
     @IBAction func groupChanged(_ sender: UISegmentedControl) {
+        //segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.redColor()], forState: .Selected)
+
+//        let titleTextAttribute1 = [NSAttributedStringKey.foregroundColor: UIColor.white]
+//        let titleTextAttribute2 = [NSAttributedStringKey.foregroundColor: UIColor.black]
+//        segmentedControl.setTitleTextAttributes([NSAttributedStringKey.foregroundColor:titleTextAttribute2], for: .normal)
+//        segmentedControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
+//        segmentedControl.setTitleTextAttributes(titleTextAttribute1, for: .selected)
         state = sender.selectedSegmentIndex
         
         // self.searchFilterview.hidden = state != 0
         self.tableView.reloadData()
+    }
+    
+    func changeSegmentControlColorWithMode() {
+        if #available(iOS 13.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           segmentedControl.backgroundColor = UIColor.white
+            segmentedControl.selectedSegmentTintColor = UIColor.black
+           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+           segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+           segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            } else {
+            segmentedControl.backgroundColor = UIColor.black
+            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            }
+        }
+         
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

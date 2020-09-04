@@ -15,6 +15,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
     @IBOutlet weak var goodsCount: UILabel!
     var goodsXML = SWXMLHash.parse("<xml></xml>")
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     
     
@@ -86,8 +87,17 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         othGoodsAll = othGoods
         
         self.searchBarFilter.delegate = self
+        self.searchBarFilter.text = "Filter Goods"
+        let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
+        if #available(iOS 12.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           textFieldInsideSearchBar?.textColor = UIColor.white
+            } else {
+            textFieldInsideSearchBar?.textColor = UIColor.black
+            }
+        }
         
-        
+        self.changeSegmentControlColorWithMode()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -223,6 +233,25 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.reloadData()
     }
     
+    func changeSegmentControlColorWithMode() {
+        if #available(iOS 13.0, *) {
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+           segmentedControl.backgroundColor = UIColor.white
+            segmentedControl.selectedSegmentTintColor = UIColor.black
+           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+           segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+           segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            } else {
+            segmentedControl.backgroundColor = UIColor.black
+            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+            }
+        }
+         
+    }
     
     func getGoodsCount()->Int{
         var goodsCount = 0
