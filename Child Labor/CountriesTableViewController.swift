@@ -281,7 +281,6 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
@@ -674,6 +673,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
             } else {
             segmentedControl.backgroundColor = UIColor.black
+            segmentedControl.selectedSegmentTintColor = UIColor.white
             let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
             let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
             segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
