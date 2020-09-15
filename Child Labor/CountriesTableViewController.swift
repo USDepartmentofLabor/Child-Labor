@@ -666,7 +666,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         if #available(iOS 13.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
            segmentedControl.backgroundColor = UIColor.white
-            segmentedControl.selectedSegmentTintColor = UIColor.black
+           segmentedControl.selectedSegmentTintColor = UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.82)
            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
