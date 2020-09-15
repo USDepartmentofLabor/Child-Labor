@@ -248,7 +248,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
             } else {
-            segmentedControl.backgroundColor = UIColor.black
+            segmentedControl.backgroundColor = UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
             segmentedControl.selectedSegmentTintColor = UIColor.white
             let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
             let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
