@@ -241,19 +241,19 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
     func changeSegmentControlColorWithMode() {
         if #available(iOS 13.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
-           segmentedControl.backgroundColor = UIColor.white
-           segmentedControl.selectedSegmentTintColor = UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.85)
-           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
-           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
-           segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
-           segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
-            } else {
-            segmentedControl.backgroundColor = UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5)
-            segmentedControl.selectedSegmentTintColor = UIColor.white
-            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
-            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
-            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
-            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+                        segmentedControl.backgroundColor = UIColor(red: 0.102, green: 0.282, blue: 0.412, alpha: 1.0)
+                        segmentedControl.selectedSegmentTintColor = UIColor.white
+                       let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+                       let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+                       segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+                       segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
+                        } else {
+                        segmentedControl.backgroundColor = UIColor(red: 0.102, green: 0.282, blue: 0.412, alpha: 1.0)
+                        segmentedControl.selectedSegmentTintColor = UIColor.white
+                        let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
+                        let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+                        segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
+                        segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
             }
         }
          
