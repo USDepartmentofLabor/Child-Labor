@@ -269,7 +269,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // If this is a TVPRA-only country, or one of British Indian Ocean Territories, Heard and McDonald Islands, or Pitcairn Island, it has no indicator or PDF buttons, so return 0 for both sections
-        if ["China", "Iran", "Malaysia", "Turkey", "North Korea", "Taiwan", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan"].contains(self.countryName) {
+        if ["China", "Iran", "Malaysia", "Turkey", "North Korea", "Taiwan", "Tajikistan", "Turkmenistan", "Vietnam", "British Indian Ocean Territories", "Heard and McDonald Islands", "Pitcairn Islands", "Russia", "Sudan", "Venezuela"].contains(self.countryName) {
             return 0
             
         // Otherwise
