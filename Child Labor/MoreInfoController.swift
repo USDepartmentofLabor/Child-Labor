@@ -105,10 +105,9 @@ class MoreInfoController: UITableViewController {
         if (indexPath.row == 0) {
          performSegue(withIdentifier: "presentAboutThisApp", sender: self)
          }
-//        if (indexPath.row == 1) {
-//        performSegue(withIdentifier: "presentMethodology", sender: self)
-//           }
-//        }
+        if (indexPath.row == 1) {
+        performSegue(withIdentifier: "presentMethodology", sender: self)
+        }
 //        if (indexPath.section == 1){
 //        if (indexPath.row == 0) {
 //         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
