@@ -40,7 +40,7 @@ class MoreInfoController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         //return 4
-            return 4
+            return 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,8 +49,8 @@ class MoreInfoController: UITableViewController {
             return 2
         case 1:
             return 1
-        case 2:
-            return 1
+//        case 2:
+//            return 1
         
         default:
             return 1
@@ -78,17 +78,17 @@ class MoreInfoController: UITableViewController {
             
             }
         }
+//        if (indexPath.section == 1) {
+//            if (indexPath.row == 0) {
+//                cell?.textLabel?.text = "Forword"
+//            }
+//        }
+//        if (indexPath.section == 2) {
+//            if (indexPath.row == 0) {
+//                cell?.textLabel?.text = "Sweat & Toil Magazine"
+//            }
+//        }
         if (indexPath.section == 1) {
-            if (indexPath.row == 0) {
-                cell?.textLabel?.text = "Forword"
-            }
-        }
-        if (indexPath.section == 2) {
-            if (indexPath.row == 0) {
-                cell?.textLabel?.text = "Sweat & Toil Magazine"
-            }
-        }
-        if (indexPath.section == 3) {
             if (indexPath.row == 0) {
                 cell?.textLabel?.text = "New: Comply Chain App"
             }
@@ -107,23 +107,22 @@ class MoreInfoController: UITableViewController {
          }
         if (indexPath.row == 1) {
         performSegue(withIdentifier: "presentMethodology", sender: self)
-           }
+        }
+//        if (indexPath.section == 1){
+//        if (indexPath.row == 0) {
+//         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
+//            }
+//         }
+//
+//        if (indexPath.section == 2) {
+//            switch indexPath.row {
+//                case 0:
+//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2019/SweatToil.pdf")!)
+//            default:
+//                break
+//            }
         }
         if (indexPath.section == 1){
-        if (indexPath.row == 0) {
-         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
-            }
-         }
-        
-        if (indexPath.section == 2) {
-            switch indexPath.row {
-                case 0:
-                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2019/SweatToil.pdf")!)
-            default:
-                break
-            }
-        }
-        if (indexPath.section == 3){
         if (indexPath.row == 0) {
          performSegue(withIdentifier: "presentSimilarApps", sender: self)
             }
