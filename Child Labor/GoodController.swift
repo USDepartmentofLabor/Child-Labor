@@ -130,7 +130,7 @@ class GoodController: UITableViewController {
                 }
             }
 }
-        let announcement:String = "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y" : "ies")
+        let announcement:String = "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y/Area" : "ies/Areas")
         UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, announcement);
         return announcement
     }

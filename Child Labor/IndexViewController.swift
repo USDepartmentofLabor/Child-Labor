@@ -12,7 +12,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
 
     @IBOutlet weak var tableView: UITableView!
     
-   var menuItems = ["Countries", "Goods", "Exploitation Types" ]
+   var menuItems = ["Countries/Areas", "Goods", "Exploitation Types" ]
     
     @IBOutlet weak var dol_button: UIButton!
     @IBOutlet weak var ilab_button: UIButton!
