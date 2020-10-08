@@ -121,7 +121,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
-        self.searchBarFilter.text = "Filter Countries"
+        self.searchBarFilter.text = "Filter Countries/Areas"
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {

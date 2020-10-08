@@ -118,6 +118,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BPw-8l-f6p" kind="show" identifier="presentMagazine" id="lgx-uC-KzH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -188,6 +191,7 @@
                             <constraint firstItem="bBg-YU-rgP" firstAttribute="leading" secondItem="1eO-gP-BYK" secondAttribute="leadingMargin" constant="-16" id="gcL-vZ-rLN"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ryl-LL-d3v"/>
                     <connections>
                         <outlet property="webView" destination="bBg-YU-rgP" id="TzZ-pK-dwR"/>
                     </connections>
@@ -430,7 +434,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="ZJK-ra-pH7">
                         <nil key="title"/>
-                        <barButtonItem key="backBarButtonItem" title="Countries" id="bsP-lW-rNn"/>
+                        <barButtonItem key="backBarButtonItem" title="Countries/Areas" id="bsP-lW-rNn"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="9d8-lJ-Jve">
                             <rect key="frame" x="50" y="5.5" width="245" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -6267,9 +6271,10 @@ Standards                                          </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xQ3-Ct-UlW"/>
+        <segue reference="o2e-dV-zlY"/>
         <segue reference="3NZ-qU-LZw"/>
-        <segue reference="UrS-Cc-ziQ"/>
+        <segue reference="q6X-np-kmw"/>
+        <segue reference="lgx-uC-KzH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundNew.png" width="960" height="1344"/>
