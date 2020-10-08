@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
+		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
 		139AC81F2332509A002420FF /* Moldova-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8142332509A002420FF /* Moldova-map.png */; };
@@ -1027,7 +1029,6 @@
 		D6C31BA91C6EAE1D00BA9DB0 /* flag-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */; };
 		D6EF127F1C6E58AA00209941 /* box-outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127D1C6E58A900209941 /* box-outline@2x.png */; };
 		D6EF12801C6E58AA00209941 /* box-outline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF127E1C6E58A900209941 /* box-outline@3x.png */; };
-		ED00BD8B1F61E1E300541AA4 /* TDA-foreword-2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */; };
 		ED05191321484E72006735A3 /* icons_Bovines-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED05191221484E72006735A3 /* icons_Bovines-33@3x.png */; };
 		ED12FF5920F3ADE800D1ED97 /* icons_Tin_ore_(cassiterite).png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5820F3ADE700D1ED97 /* icons_Tin_ore_(cassiterite).png */; };
 		ED12FF5B20F3ADED00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */; };
@@ -1093,6 +1094,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
+		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
 		139AC8142332509A002420FF /* Moldova-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Moldova-map.png"; sourceTree = "<group>"; };
@@ -2128,7 +2131,6 @@
 		D6C31BA71C6EAE1D00BA9DB0 /* flag-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-outline@3x.png"; sourceTree = "<group>"; };
 		D6EF127D1C6E58A900209941 /* box-outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@2x.png"; sourceTree = "<group>"; };
 		D6EF127E1C6E58A900209941 /* box-outline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-outline@3x.png"; sourceTree = "<group>"; };
-		ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2017.pdf"; sourceTree = "<group>"; };
 		ED05191221484E72006735A3 /* icons_Bovines-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Bovines-33@3x.png"; sourceTree = "<group>"; };
 		ED12FF5820F3ADE700D1ED97 /* icons_Tin_ore_(cassiterite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite).png"; sourceTree = "<group>"; };
 		ED12FF5A20F3ADEC00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tin_ore_(cassiterite)-33@3x.png"; sourceTree = "<group>"; };
@@ -3325,6 +3327,7 @@
 				380048731D8B991C00E64714 /* TDA.pdf */,
 				ED2D4CFA1F60775A00DF1C45 /* Intro to OCFT.pdf */,
 				380048741D8B991C00E64714 /* EO.pdf */,
+				1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */,
 				380048751D8B991C00E64714 /* TVPRA.pdf */,
 				380048761D8B991C00E64714 /* FAQs- Combo.pdf */,
 				38CA953B1D4BAEF200319316 /* countries_2016.xml */,
@@ -3332,12 +3335,12 @@
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				66A928E824FEABD300F0C226 /* arrow.png */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
+				1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */,
 				83B3E9891B3B519300742BC7 /* forced-child-labor@3x.png */,
 				83B3E9861B3B519300742BC7 /* forced-child-labor@2x.png */,
 				83B3E9851B3B519300742BC7 /* forced-labor@3x.png */,
 				83B3E9871B3B519300742BC7 /* forced-labor@2x.png */,
 				83B3E9881B3B519300742BC7 /* child-labor@3x.png */,
-				ED00BD8A1F61E1E300541AA4 /* TDA-foreword-2017.pdf */,
 				83B3E98A1B3B519300742BC7 /* child-labor@2x.png */,
 				83B3E9821B3B518200742BC7 /* hand-black@3x.png */,
 				83B3E9811B3B518200742BC7 /* hand-black@2x.png */,
@@ -4229,6 +4232,7 @@
 				8310FF361ABB11310025F7AE /* Timor-Leste.png in Resources */,
 				8356188A1BD7DE79007BCF75 /* Sierra Leone.pdf in Resources */,
 				83AD139E1B669137004B92D3 /* icons_Glass-33@2x.png in Resources */,
+				1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */,
 				8335AF221B667963000748F0 /* icons_Carpets.png in Resources */,
 				EDF0415220EFA8DF00506499 /* icons_Sheep-33@2x.png in Resources */,
 				835618961BD7DE79007BCF75 /* Tokelau.pdf in Resources */,
@@ -4273,7 +4277,6 @@
 				835618251BD7DE79007BCF75 /* Armenia.pdf in Resources */,
 				8303DFCE1B41F21A00E4FD42 /* Tonga-map.png in Resources */,
 				835618711BD7DE79007BCF75 /* Mozambique.pdf in Resources */,
-				ED00BD8B1F61E1E300541AA4 /* TDA-foreword-2017.pdf in Resources */,
 				835618761BD7DE79007BCF75 /* Nigeria.pdf in Resources */,
 				8310FF021ABB11310025F7AE /* Norway.png in Resources */,
 				8310FE931ABB11310025F7AE /* Cabo_Verde.png in Resources */,
@@ -4344,6 +4347,7 @@
 				EDC2A03320EEAEC200789647 /* icons_Sweet_Potatoes.png in Resources */,
 				83AD12B01B668E71004B92D3 /* icons_Sapphires-33@3x.png in Resources */,
 				8310FEE81ABB11310025F7AE /* Malta.png in Resources */,
+				1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */,
 				38CA954E1D4FF4F200319316 /* icons_Potatoes-33@2x.png in Resources */,
 				83AD12741B668E71004B92D3 /* icons_Eggplants-33@3x.png in Resources */,
 				8310FE761ABB11310025F7AE /* Antigua_and_Barbuda.png in Resources */,

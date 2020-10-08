@@ -39,8 +39,8 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        //return 4
-            return 2
+        return 4
+           // return 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -78,17 +78,17 @@ class MoreInfoController: UITableViewController {
             
             }
         }
-//        if (indexPath.section == 1) {
-//            if (indexPath.row == 0) {
-//                cell?.textLabel?.text = "Forword"
-//            }
-//        }
-//        if (indexPath.section == 2) {
-//            if (indexPath.row == 0) {
-//                cell?.textLabel?.text = "Sweat & Toil Magazine"
-//            }
-//        }
         if (indexPath.section == 1) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "Foreword"
+            }
+        }
+        if (indexPath.section == 2) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "Sweat & Toil Magazine"
+            }
+        }
+        if (indexPath.section == 3) {
             if (indexPath.row == 0) {
                 cell?.textLabel?.text = "New: Comply Chain App"
             }
@@ -108,21 +108,18 @@ class MoreInfoController: UITableViewController {
         if (indexPath.row == 1) {
         performSegue(withIdentifier: "presentMethodology", sender: self)
         }
-//        if (indexPath.section == 1){
-//        if (indexPath.row == 0) {
-//         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
-//            }
-//         }
-//
-//        if (indexPath.section == 2) {
-//            switch indexPath.row {
-//                case 0:
-//                UIApplication.shared.openURL(URL(string: "https://www.dol.gov/sites/dolgov/files/ILAB/child_labor_reports/tda2019/SweatToil.pdf")!)
-//            default:
-//                break
-//            }
         }
         if (indexPath.section == 1){
+        if (indexPath.row == 0) {
+         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
+            }
+         }
+        if (indexPath.section == 2){
+        if (indexPath.row == 0) {
+         performSegue(withIdentifier: "presentMagazine", sender: self)
+            }
+         }        
+        if (indexPath.section == 3){
         if (indexPath.row == 0) {
          performSegue(withIdentifier: "presentSimilarApps", sender: self)
             }
@@ -153,7 +150,10 @@ class MoreInfoController: UITableViewController {
             destinationViewController.factSheet = "2014 Findings on the Worst Forms of Child Labor_app"
         } else if segue.identifier == "presentSecretaryForward" {
             let destinationViewController = segue.destination as! FactSheetViewController
-            destinationViewController.factSheet = "TDA-foreword-2017"
+            destinationViewController.factSheet = "TDA-foreword-2019"
+        } else if segue.identifier == "presentMagazine" {
+            let destinationViewController = segue.destination as! FactSheetViewController
+            destinationViewController.factSheet = "2019_Sweat_And_Toil_Magazine"
         } else if segue.identifier == "presentTDAFactSheet" {
             let destinationViewController = segue.destination as! FactSheetViewController
             destinationViewController.factSheet = "TDA"
