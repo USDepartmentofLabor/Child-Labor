@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */; };
+		067DBC9A268A417100D6EE20 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */; };
+		06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
@@ -1094,6 +1097,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILABProjectsController.swift; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
@@ -3302,10 +3308,13 @@
 				38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */,
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
+				06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */,
 				83800C801AA4D40300DD47EB /* Main.storyboard */,
 				83800C831AA4D40300DD47EB /* Images.xcassets */,
 				83800C851AA4D40300DD47EB /* LaunchScreen.xib */,
 				83800C7A1AA4D40300DD47EB /* Supporting Files */,
+				067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */,
+				067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */,
 			);
 			path = "Child Labor";
 			sourceTree = "<group>";
@@ -4343,6 +4352,7 @@
 				835618791BD7DE79007BCF75 /* Oman.pdf in Resources */,
 				8303DFC31B41F21A00E4FD42 /* South Africa-map.png in Resources */,
 				ED12FF5B20F3ADED00D1ED97 /* icons_Tin_ore_(cassiterite)-33@3x.png in Resources */,
+				067DBC9A268A417100D6EE20 /* ProjectTableViewCell.xib in Resources */,
 				83AD12D51B668E71004B92D3 /* icons_Zinc-33@3x.png in Resources */,
 				EDC2A03320EEAEC200789647 /* icons_Sweet_Potatoes.png in Resources */,
 				83AD12B01B668E71004B92D3 /* icons_Sapphires-33@3x.png in Resources */,
@@ -4551,6 +4561,8 @@
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
 				83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */,
+				067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */,
+				06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */,
 				83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */,
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
