@@ -134,7 +134,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="293" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="NEW: Comply Chain App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gc1-x9-jLs">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Comply Chain App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gc1-x9-jLs">
                                                     <rect key="frame" x="16" y="0.0" width="269" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -4585,10 +4585,10 @@ Standards                                          </string>
             </objects>
             <point key="canvasLocation" x="2638" y="-822"/>
         </scene>
-        <!--New: Comply Chain App-->
+        <!--Comply Chain App-->
         <scene sceneID="YBZ-KV-A9j">
             <objects>
-                <tableViewController title="New: Comply Chain App" id="XcD-GG-1SX" customClass="SimilarAppTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Comply Chain App" id="XcD-GG-1SX" customClass="SimilarAppTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="80" sectionHeaderHeight="10" sectionFooterHeight="10" id="bx5-QV-HSU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
