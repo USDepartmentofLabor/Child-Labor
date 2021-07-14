@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */; };
 		067DBC9A268A417100D6EE20 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */; };
+		067E52EF269F31AD006924B0 /* icons_Polysilicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EC269F31AD006924B0 /* icons_Polysilicon.png */; };
+		067E52F0269F31AD006924B0 /* icons_Polysilicon-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */; };
+		067E52F1269F31AD006924B0 /* icons_Polysilicon-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */; };
 		06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
@@ -1099,6 +1102,9 @@
 /* Begin PBXFileReference section */
 		067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		067E52EC269F31AD006924B0 /* icons_Polysilicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Polysilicon.png; sourceTree = "<group>"; };
+		067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@3x.png"; sourceTree = "<group>"; };
+		067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@2x.png"; sourceTree = "<group>"; };
 		06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILABProjectsController.swift; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
@@ -2592,6 +2598,9 @@
 		8335AEA81B66794C000748F0 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */,
+				067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */,
+				067E52EC269F31AD006924B0 /* icons_Polysilicon.png */,
 				38CA95411D4FF4F200319316 /* icons_Pepper.png */,
 				38CA95421D4FF4F200319316 /* icons_Pepper-33@2x.png */,
 				38CA95431D4FF4F200319316 /* icons_Pepper-33@3x.png */,
@@ -3488,6 +3497,7 @@
 				835618451BD7DE79007BCF75 /* Dominican Republic.pdf in Resources */,
 				8310FF201ABB11310025F7AE /* Singapore.png in Resources */,
 				8303DF671B41F21A00E4FD42 /* Bahrain-map.png in Resources */,
+				067E52EF269F31AD006924B0 /* icons_Polysilicon.png in Resources */,
 				83AD13DF1B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png in Resources */,
 				8310FF121ABB11310025F7AE /* Russia.png in Resources */,
 				83AD13B61B669137004B92D3 /* icons_Nails-33@2x.png in Resources */,
@@ -4346,6 +4356,7 @@
 				83AD12B21B668E71004B92D3 /* icons_Shellfish-33@3x.png in Resources */,
 				8310FE7C1ABB11310025F7AE /* Azerbaijan.png in Resources */,
 				8310FEC11ABB11310025F7AE /* Guinea-Bissau.png in Resources */,
+				067E52F0269F31AD006924B0 /* icons_Polysilicon-33@3x.png in Resources */,
 				8310FEA61ABB11310025F7AE /* Djibouti.png in Resources */,
 				835618971BD7DE79007BCF75 /* Tonga.pdf in Resources */,
 				83AD125E1B668E71004B92D3 /* icons_Cement-33@3x.png in Resources */,
@@ -4450,6 +4461,7 @@
 				83AD12661B668E71004B92D3 /* icons_Coal-33@3x.png in Resources */,
 				8335AFA41B66807D000748F0 /* icons_Stones_(pumice).png in Resources */,
 				835618A51BD7DE79007BCF75 /* Yemen.pdf in Resources */,
+				067E52F1269F31AD006924B0 /* icons_Polysilicon-33@2x.png in Resources */,
 				8310FEE31ABB11310025F7AE /* Madagascar.png in Resources */,
 				83AD127F1B668E71004B92D3 /* icons_Footwear-33@3x.png in Resources */,
 				8303DF721B41F21A00E4FD42 /* Burundi-map.png in Resources */,
