@@ -7227,6 +7227,12 @@
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
+        <Good>
+            <Good_Name>Polysilicon</Good_Name>
+            <Child_Labor>Yes</Child_Labor>
+            <Forced_Labor>Yes</Forced_Labor>
+            <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
@@ -12849,236 +12855,6 @@
     </ILAB_Projects>
   </Country>
   <Country>
-    <Name>Global</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/global</Webpage>
-    <ILAB_Projects>
-      <Project>
-        <Title>Attaining Lasting Change (ATLAS)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/attaining-lasting-change-atlas</Link>
-      </Project>
-      <Project>
-        <Title>Building a Generation of Safe and Healthy Workers: SafeYouth@Work</Title>
-        <Link>https://www.dol.gov/agencies/ilab/building-generation-safe-and-healthy-workers-safeyouthwork</Link>
-      </Project>
-      <Project>
-        <Title>Promoting Apprenticeship as a Path for Youth Employment in Argentina, Costa Rica, and Kenya through Global Apprenticeships Network (GAN) National Networks</Title>
-        <Link>https://www.dol.gov/agencies/ilab/promoting-apprenticeship-path-youth-employment-argentina-costa-rica-and-kenya-0</Link>
-      </Project>
-      <Project>
-        <Title>Evidence to Action: Increasing the Impact of Research to Mobilize Efforts against Forced Labor</Title>
-        <Link>https://www.dol.gov/agencies/ilab/evidence-action-increasing-impact-research-mobilize-efforts-against-forced-labor</Link>
-      </Project>
-      <Project>
-        <Title>Global Research on Child Labor Measurement and Policy Development (MAP)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/global-research-child-labor-measurement-and-policy-development-map</Link>
-      </Project>
-      <Project>
-        <Title>Global Action Program (GAP) on Child Labor Issues</Title>
-        <Link>https://www.dol.gov/agencies/ilab/global-action-program-gap-child-labor-issues</Link>
-      </Project>
-      <Project>
-        <Title>Country Level Engagement and Assistance to Reduce Child Labor II (CLEAR II)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/country-level-engagement-and-assistance-reduce-child-labor-ii-clear-ii</Link>
-      </Project>
-      <Project>
-        <Title>Cooperation On Fair, Free, Equitable Employment (COFFEE) Project</Title>
-        <Link>https://www.dol.gov/agencies/ilab/cooperation-fair-free-equitable-employment-coffee-project</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>https://www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-0</Link>
-      </Project>
-      <Project>
-        <Title>RICHES </Title>
-        <Link>https://www.dol.gov/agencies/ilab/riches</Link>
-      </Project>
-      <Project>
-        <Title>CARING Gold Mining Project</Title>
-        <Link>https://www.dol.gov/agencies/ilab/caring-gold-mining-project-convening-stakeholders-develop-and-implement-strategies</Link>
-      </Project>
-      <Project>
-        <Title>Supply Chains Tracing Project</Title>
-        <Link>https://www.dol.gov/agencies/ilab/supply-chains-tracing-project</Link>
-      </Project>
-      <Project>
-        <Title>From Research to Action (R2A)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/research-action-r2a</Link>
-      </Project>
-      <Project>
-        <Title>M&amp;E Toolkit: OCFT Sectors &amp; Themes</Title>
-        <Link>https://www.dol.gov/agencies/ilab/me-toolkit-ocft-sectors-themes</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>https://www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-6</Link>
-      </Project>
-      <Project>
-        <Title>Child Labor Participant Monitoring Toolkit</Title>
-        <Link>https://www.dol.gov/agencies/ilab/child-labor-beneficiary-monitoring-toolkit</Link>
-      </Project>
-      <Project>
-        <Title>Impact Evaluations: Randomized Control Trial Impact Evaluations of National Social Protection Programs (Cash Transfer Programs) in Malawi and Zambia</Title>
-        <Link>https://www.dol.gov/agencies/ilab/impact-evaluations-randomized-control-trial-impact-evaluations-national-social</Link>
-      </Project>
-      <Project>
-        <Title>Audits of Selected USDOL-Funded IPEC Projects-Round VI (2011 - 2013)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/audits-selected-usdol-funded-ipec-projects-round-vi-2011-2013</Link>
-      </Project>
-      <Project>
-        <Title>Global Evaluation and Monitoring (GEM) Project</Title>
-        <Link>https://www.dol.gov/agencies/ilab/global-evaluation-and-monitoring-gem-project</Link>
-      </Project>
-      <Project>
-        <Title>Expanding the Evidence Base and Reinforcing Policy Research for Scaling-Up and Accelerating Action Against Child Labour</Title>
-        <Link>https://www.dol.gov/agencies/ilab/expanding-evidence-base-and-reinforcing-policy-research-scaling-and-accelerating</Link>
-      </Project>
-      <Project>
-        <Title>Support to the Global Action Plan and FY2009 Project Prep</Title>
-        <Link>https://www.dol.gov/agencies/ilab/support-global-action-plan-and-fy2009-project-prep</Link>
-      </Project>
-      <Project>
-        <Title>Follow-up to the Resolution on Child Labor Statistics Adopted at the 18th ICLS Through Methodological Development and Expansion of Child Labor Data Collection (PDF)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/follow-resolution-child-labor-statistics-adopted-18th-icls-through-methodological</Link>
-      </Project>
-      <Project>
-        <Title>Cooperation to Address the Worst Forms of Child Labor in Agriculture: Support to the International Agricultural Partnership</Title>
-        <Link>https://www.dol.gov/agencies/ilab/cooperation-address-worst-forms-child-labor-agriculture-support-international</Link>
-      </Project>
-      <Project>
-        <Title>Building the Knowledge Base on the Design and Implementation of Impact Evaluation of Child Labor Interventions</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/ImpactEvaluation_UCWandILO_FY08_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Audit of Selected USDOL-Funded IPEC Projects - Round III</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/Audits_RoundIII_IPEC_FY06_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Preparation and Design of IPEC Projects for USDOL-Funding Under Fiscal Year 2006, and Awareness Raising</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/ProjectPrep_FY06_CLOSED.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Impact Assessment Framework: Further Development and Follow-up to Tracer and Tracking Methodologies</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/ImpactAssessmentFramework_FY06_0.pdfhttps://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/ImpactAssessmentFramework_FY06_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Preparation and Design of IPEC Projects for USDOL-Funding under Fiscal Year 2005</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/ProjectPrep_FY05_CLOSED.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Survey Methodology for National Level Estimates of Children in the Unconditional Worst Forms of Child Labor</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_Methodology_UWFCL_FY05_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Financial Audit of Select USDOL-Funded IPEC Projects</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/Audits_IPEC_FY05_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Learning from Experience: Distilling and Disseminating Lessons on Worst Forms of Child Labor</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/reports/LearningfromExperience_FY05_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Development of Statistical Child Labor Standards for Consideration by the 18th International Conference of Labor Statisticians (ICLS)</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_18thICLS_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Implementation of SIMPOC External Advisory Committee Recommendations: Refinement of SIMPOC Instruments</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_Implementation%20of%20Instruments_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Other: Tracer/Tracker Study</Title>
-        <Link>https://www.dol.gov/agencies/ilab/other-tracertracker-study</Link>
-      </Project>
-      <Project>
-        <Title>Other: Database and Web</Title>
-        <Link>https://www.dol.gov/agencies/ilab/other-database-and-web</Link>
-      </Project>
-      <Project>
-        <Title>Trafficking, CSEC</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_Research182_FY02_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Towards Child Labor Monitoring as a Tool for Prevention, Protection, and Withdrawal of Children from Work</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/CLMS_FY02_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Promotion of Core Labor Standards</Title>
-        <Link>https://www.dol.gov/agencies/ilab/promotion-core-labor-standards</Link>
-      </Project>
-      <Project>
-        <Title>SIMPOC: Data and Information</Title>
-        <Link>https://www.dol.gov/agencies/ilab/simpoc-data-and-information</Link>
-      </Project>
-      <Project>
-        <Title>Promotion of Core Labor Standards</Title>
-        <Link>https://www.dol.gov/agencies/ilab/promotion-core-labor-standards</Link>
-      </Project>
-      <Project>
-        <Title>Improving Data Collection, Analysis and Dissemination of Information and Research on Child Labor, Especially its Worst Forms</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_DataCollection_FY01_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Awareness Raising: Asia and Pacific Economic Forum (APEC) Awareness Raising Campaign</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/APEC_Awareness_FY01_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Rapid Assessment Surveys on the Worst Forms of Child Labor</Title>
-        <Link>https://www.dol.gov/agencies/ilab/rapid-assessment-surveys-worst-forms-child-labor</Link>
-      </Project>
-      <Project>
-        <Title>Other: (Phases 1-3): Project Implementation Technical Support</Title>
-        <Link>https://www.dol.gov/agencies/ilab/other-phases-1-3-project-implementation-technical-support</Link>
-      </Project>
-      <Project>
-        <Title>Publication and Presentation Material for National Conference on Best Practices for the Elimination of Child Labor</Title>
-        <Link>https://www.dol.gov/agencies/ilab/publication-and-presentation-material-national-conference-best-practices-elimination</Link>
-      </Project>
-      <Project>
-        <Title>Worldwide Awareness Against Child Labor/Global March Against Child Labor</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/GlobalMarch_FY96_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Global Campaign to Raise Public Awareness and Understanding about Problems and Solution for the Worst Forms of Child Labor</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/AwarenessRaising_FY99_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>ILO/Japan/U.S. Seminar on the Application of the ILO Declaration on Fundamental Principles and Rights at Work</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/EastandSouthEastAsia_DeclarSeminar_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Awareness Raising: Indicator Training Workshop</Title>
-        <Link>https://www.dol.gov/agencies/ilab/awareness-raising-indicator-training-workshop</Link>
-      </Project>
-      <Project>
-        <Title>Education Innovations</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/CIRCLEI_TraffickingComponent_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Supply Chain Tracing and Engagement Methodologies (STREAMS)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/streams-supply-chain-tracing-and-engagement-methodologies</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>https://www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-4</Link>
-      </Project>
-      <Project>
-        <Title>From Protocol to Practice: A Bridge to Global Action on Forced Labor (The Bridge Project)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/protocol-practice-bridge-global-action-forced-labor-bridge-project-0</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-3</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>https://www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-5</Link>
-      </Project>
-      <Project>
-        <Title>Closing the Child Labor and Forced Labor Evidence Gap: Impact Evaluations</Title>
-        <Link>https://www.dol.gov/agencies/ilab/closing-child-labor-and-forced-labor-evidence-gap-impact-evaluations-6</Link>
-      </Project>
-    </ILAB_Projects>
-  </Country>
-  <Country>
     <Name>Grenada</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/grenada</Webpage>
     <Region>Latin America and the Caribbean</Region>
@@ -17551,10 +17327,6 @@
       <Policy>Yes</Policy>
       <Coordination>Yes</Coordination>
     </Mechanisms>
-  </Country>
-  <Country>
-    <Name>Kyrgyzstan</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/kyrgyzstan</Webpage>
     <ILAB_Projects>
       <Project>
         <Title>Central Asia Regional (CAR) Capacity Building Project: Regional Program on the Worst Forms of Child Labor</Title>
