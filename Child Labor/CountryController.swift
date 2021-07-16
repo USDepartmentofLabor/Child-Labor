@@ -282,7 +282,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             
             // Full Report PDF button
             case 1:
-                return 2
+                return 3
                 
             default:
                 return 0
@@ -326,6 +326,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                    cell?.textLabel?.text = "Report PDF"
                case 1:
                    cell?.textLabel?.text = "Country Webpage"
+                //added new cell ILAB Projects
+               case 2:
+                   cell?.textLabel?.text = "ILAB Projects"
                    
                default:
                    cell?.textLabel?.text = ""
@@ -419,6 +422,10 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                 
                 
             }
+            if (indexPath.row == 2) {
+                    performSegue(withIdentifier: "presentILABProjects", sender: self)
+                   }
+            
         }
         
         if let tableIndex = self.tableView.indexPathForSelectedRow {
@@ -482,6 +489,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             svc.countryName = self.countryName
         } else if segue.identifier == "presentCoordination" {
             let svc = segue.destination as! CoordTableViewController
+            svc.countryName = self.countryName
+        }else if segue.identifier == "presentILABProjects" {
+            let svc = segue.destination as! ILABProjectsController
             svc.countryName = self.countryName
         }
         

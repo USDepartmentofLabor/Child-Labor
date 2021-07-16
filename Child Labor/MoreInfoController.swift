@@ -90,7 +90,7 @@ class MoreInfoController: UITableViewController {
         }
         if (indexPath.section == 3) {
             if (indexPath.row == 0) {
-                cell?.textLabel?.text = "New: Comply Chain App"
+                cell?.textLabel?.text = "Comply Chain App"
             }
         }
         let chevron = UIImage(named: "arrow.png")
