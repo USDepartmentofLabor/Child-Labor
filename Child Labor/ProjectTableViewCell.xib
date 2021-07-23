@@ -17,34 +17,30 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbt-FB-7bP" userLabel="link1">
-                        <rect key="frame" x="150" y="10" width="150" height="100"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbt-FB-7bP" userLabel="link1">
+                        <rect key="frame" x="16" y="10" width="284" height="100"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" systemColor="linkColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-4U-jHX" userLabel="title1">
-                        <rect key="frame" x="10" y="10" width="140" height="100"/>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-4U-jHX" userLabel="title1">
+                        <rect key="frame" x="10" y="10" width="300" height="100"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="U7y-nq-cba"/>
-                    <constraint firstAttribute="trailing" secondItem="bbt-FB-7bP" secondAttribute="trailing" constant="10" id="Ueh-sf-fWj"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.40625" id="WUC-TC-1B2"/>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="iwm-M4-V5q"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="kJP-dy-1nm"/>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="leading" secondItem="fZx-4U-jHX" secondAttribute="trailing" constant="10" id="psP-i3-rqn"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rdq-Au-nkG"/>
+                    <constraint firstItem="fZx-4U-jHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BWE-Ve-IKR"/>
+                    <constraint firstAttribute="trailing" secondItem="fZx-4U-jHX" secondAttribute="trailing" constant="10" id="crR-ZY-Cs1"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="link" destination="bbt-FB-7bP" id="Czv-SW-Dzz"/>
                 <outlet property="title" destination="fZx-4U-jHX" id="NlI-3B-xDt"/>
             </connections>
-            <point key="canvasLocation" x="-23" y="49"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="48.883928571428569"/>
         </tableViewCell>
     </objects>
     <resources>
