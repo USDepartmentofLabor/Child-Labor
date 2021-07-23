@@ -34,6 +34,8 @@
                 <constraints>
                     <constraint firstItem="fZx-4U-jHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BWE-Ve-IKR"/>
                     <constraint firstAttribute="trailing" secondItem="fZx-4U-jHX" secondAttribute="trailing" constant="10" id="crR-ZY-Cs1"/>
+                    <constraint firstAttribute="trailing" secondItem="fZx-4U-jHX" secondAttribute="trailing" constant="10" id="jcW-Cb-x2r"/>
+                    <constraint firstItem="fZx-4U-jHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="xLc-Dw-Srn"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
