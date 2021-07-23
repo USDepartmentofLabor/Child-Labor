@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06384D2C26AB102C004232E2 /* String+Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06384D2B26AB102C004232E2 /* String+Link.swift */; };
 		067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */; };
 		067DBC9A268A417100D6EE20 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */; };
 		067E52EF269F31AD006924B0 /* icons_Polysilicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EC269F31AD006924B0 /* icons_Polysilicon.png */; };
@@ -1100,6 +1101,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06384D2B26AB102C004232E2 /* String+Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Link.swift"; sourceTree = "<group>"; };
 		067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		067E52EC269F31AD006924B0 /* icons_Polysilicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Polysilicon.png; sourceTree = "<group>"; };
@@ -3324,6 +3326,7 @@
 				83800C7A1AA4D40300DD47EB /* Supporting Files */,
 				067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */,
 				067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */,
+				06384D2B26AB102C004232E2 /* String+Link.swift */,
 			);
 			path = "Child Labor";
 			sourceTree = "<group>";
@@ -4582,6 +4585,7 @@
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
 				EDE89E8A213836BD00A70A00 /* TanzaniaTableViewController.swift in Sources */,
 				ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */,
+				06384D2C26AB102C004232E2 /* String+Link.swift in Sources */,
 				831B78CC1B9D073D0071B76B /* FactSheetViewController.swift in Sources */,
 				EDFB0DCF2136ED6E00A76D52 /* PakistanTableViewController.swift in Sources */,
 				83A3B11E1B6BCEF1002380E6 /* MoreInfoController.swift in Sources */,

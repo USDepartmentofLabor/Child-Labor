@@ -17,8 +17,10 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
         let cell = projectsTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ProjectTableViewCell
         cell.title.text = ""
         cell.link.text = ""
+        let attributedString = NSMutableAttributedString(string:(titles[indexPath.item] as! String))
+                attributedString.SetAsLink(textToFind: (titles[indexPath.item] as! String), linkURL: (links[indexPath.item] as! String))
         cell.title.text = (titles[indexPath.item] as! String)
-        cell.link.text = (links[indexPath.item] as! String)
+        cell.link.attributedText = attributedString
         return cell
     }
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -85,4 +87,5 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     override func viewDidAppear(_ animated: Bool) {
         projectsTableView.reloadData()
     }
+    
 }
