@@ -8,19 +8,26 @@
 
 import Foundation
 import UIKit
-class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewDataSource {
+class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewDataSource, UIWebViewDelegate{
+    let screenSize = UIScreen.main.bounds
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = projectsTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ProjectTableViewCell
-        cell.title.text = ""
-        cell.link.text = ""
-        let attributedString = NSMutableAttributedString(string:(titles[indexPath.item] as! String))
-                attributedString.SetAsLink(textToFind: (titles[indexPath.item] as! String), linkURL: (links[indexPath.item] as! String))
-        cell.title.text = (titles[indexPath.item] as! String)
-        cell.link.attributedText = attributedString
+        
+
+
+
+        cell.link.tag = indexPath.row
+                
+                
+            
+        cell.link.loadHTMLString("<html><a href=\""+(links[indexPath.item] as! String)+"\">"+(titles[indexPath.item] as! String)+"</a></html>", baseURL: nil)
+        cell.link.delegate = self
+        cell.link.frame = CGRect(x: 0, y: 0, width: cell.frame.size.width, height:CGFloat(0.0))
         return cell
     }
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -28,7 +35,9 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        let screenWidth = screenSize.width
+        let value:String = (titles[indexPath.item] as! String)
+        return value.height(constraintedWidth:screenWidth-200)
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -87,5 +96,22 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     override func viewDidAppear(_ animated: Bool) {
         projectsTableView.reloadData()
     }
+    
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
+            switch navigationType {
+            case .linkClicked:
+                guard let url = request.url else { return true }
+                if #available(iOS 10.0, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                } else {
+                    UIApplication.shared.openURL(url)
+                }
+                return false
+            default:
+                // TODO: handle other navigation types such reload, back or forward...
+                return true
+            }
+        }
+    
     
 }

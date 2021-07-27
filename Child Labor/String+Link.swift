@@ -16,4 +16,5 @@ extension NSMutableAttributedString {
             self.addAttribute(.link, value: linkURL, range: foundRange)
         }
     }
+    
 }

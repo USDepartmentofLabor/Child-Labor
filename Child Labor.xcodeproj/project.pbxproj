@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06384D2C26AB102C004232E2 /* String+Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06384D2B26AB102C004232E2 /* String+Link.swift */; };
+		06607B2826B04EB500A9152F /* String+height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06607B2726B04EB500A9152F /* String+height.swift */; };
 		067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */; };
 		067DBC9A268A417100D6EE20 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */; };
 		067E52EF269F31AD006924B0 /* icons_Polysilicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EC269F31AD006924B0 /* icons_Polysilicon.png */; };
@@ -1102,6 +1103,7 @@
 
 /* Begin PBXFileReference section */
 		06384D2B26AB102C004232E2 /* String+Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Link.swift"; sourceTree = "<group>"; };
+		06607B2726B04EB500A9152F /* String+height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+height.swift"; sourceTree = "<group>"; };
 		067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
 		067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		067E52EC269F31AD006924B0 /* icons_Polysilicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Polysilicon.png; sourceTree = "<group>"; };
@@ -3327,6 +3329,7 @@
 				067DBC97268A417100D6EE20 /* ProjectTableViewCell.swift */,
 				067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */,
 				06384D2B26AB102C004232E2 /* String+Link.swift */,
+				06607B2726B04EB500A9152F /* String+height.swift */,
 			);
 			path = "Child Labor";
 			sourceTree = "<group>";
@@ -4583,6 +4586,7 @@
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
+				06607B2826B04EB500A9152F /* String+height.swift in Sources */,
 				EDE89E8A213836BD00A70A00 /* TanzaniaTableViewController.swift in Sources */,
 				ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */,
 				06384D2C26AB102C004232E2 /* String+Link.swift in Sources */,

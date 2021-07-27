@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
 class ProjectTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var link: UILabel!
+//    @IBOutlet weak var title: UILabel!
+//    @IBOutlet weak var link: UILabel!
+    @IBOutlet weak var link: UIWebView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
