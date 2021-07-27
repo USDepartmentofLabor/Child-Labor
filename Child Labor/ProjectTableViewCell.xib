@@ -17,16 +17,16 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebQ-St-yzb">
-                        <rect key="frame" x="10" y="10" width="300" height="100"/>
+                        <rect key="frame" x="10" y="0.0" width="300" height="120"/>
                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                     </webView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="ebQ-St-yzb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="PLm-cx-YkB"/>
-                    <constraint firstItem="ebQ-St-yzb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QAw-up-ZlZ"/>
-                    <constraint firstAttribute="bottom" secondItem="ebQ-St-yzb" secondAttribute="bottom" constant="10" id="sHN-LI-sOn"/>
-                    <constraint firstAttribute="trailing" secondItem="ebQ-St-yzb" secondAttribute="trailing" constant="10" id="yPy-1f-Kd5"/>
+                    <constraint firstItem="ebQ-St-yzb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HgR-ed-p93"/>
+                    <constraint firstItem="ebQ-St-yzb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fRA-rC-bMh"/>
+                    <constraint firstAttribute="trailing" secondItem="ebQ-St-yzb" secondAttribute="trailing" constant="10" id="frG-BP-bhZ"/>
+                    <constraint firstAttribute="bottom" secondItem="ebQ-St-yzb" secondAttribute="bottom" id="lwa-Xz-GIh"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

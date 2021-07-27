@@ -37,7 +37,15 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let screenWidth = screenSize.width
         let value:String = (titles[indexPath.item] as! String)
-        return value.height(constraintedWidth:screenWidth-200)
+        switch UIDevice.current.userInterfaceIdiom {
+            case .phone:
+                return value.height(constraintedWidth:screenWidth-200)
+            case .pad:
+                return value.height(constraintedWidth:screenWidth-600)
+        @unknown default:
+                return value.height(constraintedWidth:screenWidth-200)
+            }
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
