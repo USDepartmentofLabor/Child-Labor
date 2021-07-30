@@ -2603,13 +2603,13 @@
   </Good>
   <Good>
     <Good_Name>Polysilicon</Good_Name>
-    <Good_Sector>Polysilicon</Good_Sector>
+    <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
         <Country_Name>China</Country_Name>
         <Country_Region />
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
@@ -4007,5 +4007,4 @@
       </Country>
     </Countries>
   </Good>
-
 </Goods>

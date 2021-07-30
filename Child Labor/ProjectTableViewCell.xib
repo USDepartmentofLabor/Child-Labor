@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,39 +16,23 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbt-FB-7bP" userLabel="link1">
-                        <rect key="frame" x="150" y="10" width="150" height="100"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" systemColor="linkColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-4U-jHX" userLabel="title1">
-                        <rect key="frame" x="10" y="10" width="140" height="100"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebQ-St-yzb">
+                        <rect key="frame" x="10" y="0.0" width="300" height="120"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                    </webView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="U7y-nq-cba"/>
-                    <constraint firstAttribute="trailing" secondItem="bbt-FB-7bP" secondAttribute="trailing" constant="10" id="Ueh-sf-fWj"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.40625" id="WUC-TC-1B2"/>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.4" id="iwm-M4-V5q"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="kJP-dy-1nm"/>
-                    <constraint firstItem="bbt-FB-7bP" firstAttribute="leading" secondItem="fZx-4U-jHX" secondAttribute="trailing" constant="10" id="psP-i3-rqn"/>
-                    <constraint firstItem="fZx-4U-jHX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rdq-Au-nkG"/>
+                    <constraint firstItem="ebQ-St-yzb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HgR-ed-p93"/>
+                    <constraint firstItem="ebQ-St-yzb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fRA-rC-bMh"/>
+                    <constraint firstAttribute="trailing" secondItem="ebQ-St-yzb" secondAttribute="trailing" constant="10" id="frG-BP-bhZ"/>
+                    <constraint firstAttribute="bottom" secondItem="ebQ-St-yzb" secondAttribute="bottom" id="lwa-Xz-GIh"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="link" destination="bbt-FB-7bP" id="Czv-SW-Dzz"/>
-                <outlet property="title" destination="fZx-4U-jHX" id="NlI-3B-xDt"/>
+                <outlet property="link" destination="ebQ-St-yzb" id="RVH-gQ-Drn"/>
             </connections>
-            <point key="canvasLocation" x="-23" y="49"/>
+            <point key="canvasLocation" x="-23.188405797101453" y="48.883928571428569"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>
