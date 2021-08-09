@@ -284,7 +284,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 label.textColor = UIColor(red: 0.43, green: 0.43, blue: 0.43, alpha: 1.0)
             }
             
-            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
+            label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Apllicable" : accessibleText.replacingOccurrences(of: "*", with: "")
         }
     }
     

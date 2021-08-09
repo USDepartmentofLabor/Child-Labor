@@ -33,7 +33,7 @@ class StatisticsTableViewController: UITableViewController {
         // Record GA view
         let tracker = GAI.sharedInstance().defaultTracker
         tracker?.set(kGAIScreenName, value: "Statistics Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
+        tracker?.send(GAIDictionaryBuilder.createAppView().build() as? [AnyHashable: Any])
         
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
@@ -87,6 +87,7 @@ class StatisticsTableViewController: UITableViewController {
                                     
                                     if percentageWorking.text == "N/A" {
                                         workingLabel.text = "N/A"
+                                        workingLabel.accessibilityLabel = "Not Available"
                                         workingLabel.textColor = UIColor.black
                                     }
                                     
@@ -118,6 +119,7 @@ class StatisticsTableViewController: UITableViewController {
                     if agriculturePercentage.text == "N/A"
                     {
                         agricultureLabel.text = "N/A"
+                        agricultureLabel.accessibilityLabel = "Not Available"
                         agricultureLabel.textColor = UIColor.black
                     }
                    
@@ -145,6 +147,7 @@ class StatisticsTableViewController: UITableViewController {
                     if servicesPercentage.text == "N/A"
                     {
                         servicesLabel.text = "N/A"
+                        servicesLabel.accessibilityLabel = "Not Available"
                         servicesLabel.textColor = UIColor.black
                     }
                    
@@ -172,6 +175,7 @@ class StatisticsTableViewController: UITableViewController {
                     if industryPercentage.text == "N/A"
                     {
                         industryLabel.text = "N/A"
+                        industryLabel.accessibilityLabel = "Not Available"
                         industryLabel.textColor = UIColor.black
                     }
                 }
@@ -194,6 +198,7 @@ class StatisticsTableViewController: UITableViewController {
                             else if attendingPercentage.text == "N/A"
                             {
                                 attendingSchoolLabel.text = "N/A"
+                                attendingSchoolLabel.accessibilityLabel = "Not Available"
                                 attendingSchoolLabel.textColor = UIColor.black
                             }
                             else {
@@ -242,6 +247,7 @@ class StatisticsTableViewController: UITableViewController {
                             if combiningPercentage.text == "N/A"
                             {
                                 combiningWorkAndSchoolLabel.text = "N/A"
+                                combiningWorkAndSchoolLabel.accessibilityLabel = "Not Available"
                                 combiningWorkAndSchoolLabel.textColor = UIColor.black
                             }
                         
@@ -275,6 +281,7 @@ class StatisticsTableViewController: UITableViewController {
                     if primaryRate.text == "N/A"
                     {
                         primaryCompletionRateLabel.text = "N/A"
+                        primaryCompletionRateLabel.accessibilityLabel = "Not Available"
                         primaryCompletionRateLabel.textColor = UIColor.black
                     }
                 }

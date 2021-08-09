@@ -312,7 +312,7 @@ class EnforcementMultiTableViewController: UITableViewController {
                 // Fallback on earlier versions
             }
             
-            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Available" : label.text!.replacingOccurrences(of: "*", with: "")
+            label.accessibilityLabel = (text!.hasPrefix("N/A")) ? "Not Applicable" : label.text!.replacingOccurrences(of: "*", with: "")
             if (text!.contains("*")) {
                 if self.state == 0 {
                     self.hasLaborFooter = true

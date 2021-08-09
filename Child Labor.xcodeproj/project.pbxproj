@@ -15,6 +15,7 @@
 		067E52F0269F31AD006924B0 /* icons_Polysilicon-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */; };
 		067E52F1269F31AD006924B0 /* icons_Polysilicon-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */; };
 		06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */; };
+		06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
@@ -625,7 +626,6 @@
 		8356184B1BD7DE79007BCF75 /* Falkland Islands (Islas Malvinas).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C21BD7DE78007BCF75 /* Falkland Islands (Islas Malvinas).pdf */; };
 		8356184C1BD7DE79007BCF75 /* Fiji.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C31BD7DE78007BCF75 /* Fiji.pdf */; };
 		8356184D1BD7DE79007BCF75 /* Gabon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C41BD7DE78007BCF75 /* Gabon.pdf */; };
-		8356184E1BD7DE79007BCF75 /* Gambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C51BD7DE78007BCF75 /* Gambia.pdf */; };
 		8356184F1BD7DE79007BCF75 /* Georgia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C61BD7DE78007BCF75 /* Georgia.pdf */; };
 		835618501BD7DE79007BCF75 /* Ghana.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C71BD7DE78007BCF75 /* Ghana.pdf */; };
 		835618511BD7DE79007BCF75 /* Grenada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617C81BD7DE78007BCF75 /* Grenada.pdf */; };
@@ -1110,6 +1110,7 @@
 		067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@3x.png"; sourceTree = "<group>"; };
 		067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@2x.png"; sourceTree = "<group>"; };
 		06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILABProjectsController.swift; sourceTree = "<group>"; };
+		06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gambia, The.pdf"; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
@@ -1720,7 +1721,6 @@
 		835617C21BD7DE78007BCF75 /* Falkland Islands (Islas Malvinas).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Falkland Islands (Islas Malvinas).pdf"; sourceTree = "<group>"; };
 		835617C31BD7DE78007BCF75 /* Fiji.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Fiji.pdf; sourceTree = "<group>"; };
 		835617C41BD7DE78007BCF75 /* Gabon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gabon.pdf; sourceTree = "<group>"; };
-		835617C51BD7DE78007BCF75 /* Gambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gambia.pdf; sourceTree = "<group>"; };
 		835617C61BD7DE78007BCF75 /* Georgia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Georgia.pdf; sourceTree = "<group>"; };
 		835617C71BD7DE78007BCF75 /* Ghana.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ghana.pdf; sourceTree = "<group>"; };
 		835617C81BD7DE78007BCF75 /* Grenada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Grenada.pdf; sourceTree = "<group>"; };
@@ -3104,6 +3104,7 @@
 		835D026E1BBAF1A10048657F /* Full Reports */ = {
 			isa = PBXGroup;
 			children = (
+				06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */,
 				835617961BD7DE78007BCF75 /* Afghanistan.pdf */,
 				835617971BD7DE78007BCF75 /* Albania.pdf */,
 				835617981BD7DE78007BCF75 /* Algeria.pdf */,
@@ -3154,7 +3155,6 @@
 				835617C21BD7DE78007BCF75 /* Falkland Islands (Islas Malvinas).pdf */,
 				835617C31BD7DE78007BCF75 /* Fiji.pdf */,
 				835617C41BD7DE78007BCF75 /* Gabon.pdf */,
-				835617C51BD7DE78007BCF75 /* Gambia.pdf */,
 				835617C61BD7DE78007BCF75 /* Georgia.pdf */,
 				835617C71BD7DE78007BCF75 /* Ghana.pdf */,
 				835617C81BD7DE78007BCF75 /* Grenada.pdf */,
@@ -4011,6 +4011,7 @@
 				8310FE891ABB11310025F7AE /* Botswana.png in Resources */,
 				8310FE791ABB11310025F7AE /* Aruba.png in Resources */,
 				8303DF791B41F21A00E4FD42 /* Colombia-map.png in Resources */,
+				06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */,
 				6682424A24E70BB1009B203E /* icons_Hair_Products-33@3x.png in Resources */,
 				8310FF131ABB11310025F7AE /* Rwanda.png in Resources */,
 				8356182B1BD7DE79007BCF75 /* Benin.pdf in Resources */,
@@ -4429,7 +4430,6 @@
 				8356181F1BD7DE79007BCF75 /* Afghanistan.pdf in Resources */,
 				8335AF401B667963000748F0 /* icons_Footwear_(sandals).png in Resources */,
 				8310FEF91ABB11310025F7AE /* Netherlands_Antilles.png in Resources */,
-				8356184E1BD7DE79007BCF75 /* Gambia.pdf in Resources */,
 				8310FF4A1ABB11310025F7AE /* Vietnam.png in Resources */,
 				139AC81F2332509A002420FF /* Moldova-map.png in Resources */,
 				EDE89EA121383D9000A70A00 /* icons_Lettuce-33@3x.png in Resources */,
