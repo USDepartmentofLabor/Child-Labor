@@ -106,8 +106,9 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.criminalViolationsLabel, text: enforcements["Criminal_Violations"].element?.text)
                 setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
                 setEnforcement(self.criminalConvictionsLabel, text: enforcements["Criminal_Convictions"].element?.text)
-                setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
                 setEnforcement(self.imposedPenaltiesForViolationsRelatedToTheWFCLLabel, text: enforcements["Criminal_Penalties_for_WFCL"].element?.text)
+                setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
+                
                 setEnforcement(self.criminalEmployeeTrainingLabel, text: enforcements["Criminal_New_Employee_Training"].element?.text)
                 setEnforcement(self.criminalNewLawsTrainingLabel, text: enforcements["Criminal_New_Law_Training"].element?.text)
                 setEnforcement(self.criminalRefresherCoursesLabel, text: enforcements["Criminal_Refresher_Courses"].element?.text)
