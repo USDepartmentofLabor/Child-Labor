@@ -130,7 +130,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -1437,7 +1437,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -1677,7 +1677,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -2965,7 +2965,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age>16*</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -2977,7 +2977,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>17‡</Age>
+        <Age>17</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -3194,9 +3194,17 @@
         </Territory>
       </Free_Public_Education>
       <Minimum_Work>
+          <Territory>
+            <Territory_Name>Brčko District</Territory_Name>
+            <Territory_Display_Name>Brčko District</Territory_Display_Name>
+            <Standard>No</Standard>
+            <Age>15</Age>
+            <Calculated_Age>No</Calculated_Age>
+            <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+          </Territory>
         <Territory>
-          <Territory_Name>Federation of Bosnia and Herzegovina </Territory_Name>
-          <Territory_Display_Name>Federation of Bosnia and Herzegovina </Territory_Display_Name>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>No</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3210,16 +3218,16 @@
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
-        <Territory>
-          <Territory_Name>Brčko District </Territory_Name>
-          <Territory_Display_Name>Brčko District </Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age>15</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
+          <Territory>
+            <Territory_Name>Brčko District</Territory_Name>
+            <Territory_Display_Name>Brčko District</Territory_Display_Name>
+            <Standard>Yes</Standard>
+            <Age>18</Age>
+            <Calculated_Age>No</Calculated_Age>
+            <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          </Territory>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3231,14 +3239,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>18</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3246,6 +3246,14 @@
         </Territory>
       </Minimum_Hazardous_Work>
       <Types_Hazardous_Work>
+          <Territory>
+            <Territory_Name>Brčko District</Territory_Name>
+            <Territory_Display_Name>Brčko District</Territory_Display_Name>
+            <Standard>Yes</Standard>
+            <Age />
+            <Calculated_Age>No</Calculated_Age>
+            <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          </Territory>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3257,14 +3265,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age />
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3273,8 +3273,16 @@
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
         <Territory>
-          <Territory_Name>Bosnia and Herzegovina </Territory_Name>
-          <Territory_Display_Name>Bosnia and Herzegovina </Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3291,14 +3299,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age />
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3315,6 +3315,14 @@
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>N/A</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -3325,14 +3333,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age />
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3349,6 +3349,14 @@
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>No</Standard>
@@ -3359,14 +3367,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>No</Standard>
-          <Age />
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>No</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3383,6 +3383,14 @@
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
           <Standard>Yes</Standard>
@@ -3393,14 +3401,6 @@
         <Territory>
           <Territory_Name>Republika Srpska</Territory_Name>
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age />
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3409,8 +3409,32 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Territory>
-          <Territory_Name>BiH, FBiH, RS, BD</Territory_Name>
-          <Territory_Display_Name>BiH, FBiH, RS, BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>Yes</Standard>
+          <Age>18</Age>
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>18</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3419,8 +3443,32 @@
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Territory>
-          <Territory_Name>BiH, FBiH, RS, BD</Territory_Name>
-          <Territory_Display_Name>BiH, FBiH, RS, BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Standard>No</Standard>
+          <Age />
+          <Calculated_Age>No</Calculated_Age>
+          <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>No</Standard>
           <Age />
           <Calculated_Age>No</Calculated_Age>
@@ -3428,25 +3476,25 @@
         </Territory>
       </Minumum_Non_State_Military>
       <Compulsory_Education>
+          <Territory>
+            <Territory_Name>Brčko District</Territory_Name>
+            <Territory_Display_Name>Brčko District</Territory_Display_Name>
+            <Standard>Yes</Standard>
+            <Age>15</Age>
+            <Calculated_Age>No</Calculated_Age>
+            <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+          </Territory>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
-          <Standard>Yes</Standard>
-          <Age>15‡</Age>
-          <Calculated_Age>No</Calculated_Age>
-          <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-        </Territory>
-        <Territory>
-          <Territory_Name>Republika Srpska</Territory_Name>
-          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
         <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Standard>Yes</Standard>
           <Age>15</Age>
           <Calculated_Age>No</Calculated_Age>
@@ -3457,12 +3505,27 @@
     <Enforcements>
       <Labor_Funding>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Funding>
       <Labor_Inspectors>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>12</Enforcement>
+        </Territory>
         <Territory>
           <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
           <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
@@ -3473,142 +3536,342 @@
           <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>31</Enforcement>
         </Territory>
-        <Territory>
-          <Territory_Name>Br\u+010Dko District</Territory_Name>
-          <Territory_Display_Name>Br\u+010Dko District</Territory_Display_Name>
-          <Enforcement>12</Enforcement>
-        </Territory>
       </Labor_Inspectors>
       <Authorized_Access_Penalties>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Authorized_Access_Penalties>
       <Labor_New_Employee_Training>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_New_Employee_Training>
       <Labor_New_Law_Training>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Not Applicable</Enforcement>
         </Territory>
       </Labor_New_Law_Training>
       <Labor_Refresher_Courses>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Refresher_Courses>
       <Labor_Inspections>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Inspections>
       <Labor_Worksite_Inspections>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Worksite_Inspections>
       <Labor_Violations>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>0</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>0</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>0</Enforcement>
         </Territory>
       </Labor_Violations>
       <Labor_Penalties_Imposed>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Not Applicable</Enforcement>
         </Territory>
       </Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Not Applicable</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Not Applicable</Enforcement>
         </Territory>
       </Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>
         <Territory>
-          <Territory_Name>All Territories</Territory_Name>
-          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Labor_Inspectors_Intl_Standards>
       <Criminal_New_Employee_Training>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Refresher_Courses>
@@ -3619,15 +3882,40 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Investigations>
       <Criminal_Violations>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Violations>
@@ -3638,8 +3926,18 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Prosecutions>
@@ -3650,22 +3948,62 @@
           <Enforcement>Unknown</Enforcement>
         </Territory>
         <Territory>
-          <Territory_Name>FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>10</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>10</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>10</Enforcement>
         </Territory>
       </Criminal_Convictions>
       <Criminal_Referral_Mechanism>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Unknown</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Criminal_Referral_Mechanism>
       <Criminal_Penalties_for_WFCL>
         <Territory>
-          <Territory_Name>BiH/FBiH/RS/BD</Territory_Name>
-          <Territory_Display_Name>BiH/FBiH/RS/BD</Territory_Display_Name>
+          <Territory_Name>Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Brčko District</Territory_Name>
+          <Territory_Display_Name>Brčko District</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Federation of Bosnia and Herzegovina</Territory_Name>
+          <Territory_Display_Name>Federation of Bosnia and Herzegovina</Territory_Display_Name>
+          <Enforcement>Yes</Enforcement>
+        </Territory>
+        <Territory>
+          <Territory_Name>Republika Srpska</Territory_Name>
+          <Territory_Display_Name>Republika Srpska</Territory_Display_Name>
           <Enforcement>Yes</Enforcement>
         </Territory>
       </Criminal_Penalties_for_WFCL>
@@ -5004,7 +5342,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>10‡</Age>
+        <Age>10</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -5275,7 +5613,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -5497,7 +5835,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -6051,7 +6389,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>12‡</Age>
+        <Age>12</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -6519,7 +6857,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -6722,7 +7060,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>18‡</Age>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -6751,7 +7089,7 @@
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
       <Criminal_Investigations>Unknown</Criminal_Investigations>
       <Criminal_Violations>Unknown</Criminal_Violations>
-      <Criminal_Prosecutions>18†</Criminal_Prosecutions>
+      <Criminal_Prosecutions>18</Criminal_Prosecutions>
       <Criminal_Convictions>10</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
       <Criminal_Penalties_for_WFCL>Yes</Criminal_Penalties_for_WFCL>
@@ -7940,7 +8278,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>12‡</Age>
+        <Age>12</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -8596,7 +8934,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>17‡</Age>
+        <Age>17</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -9514,7 +9852,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>14‡</Age>
+        <Age>14</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -10113,7 +10451,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -10366,7 +10704,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>18‡</Age>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -10627,7 +10965,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>14‡</Age>
+        <Age>14</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -10831,7 +11169,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>12/13‡</Age>
+        <Age>12/13</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -11073,7 +11411,7 @@
       </Prohibition_Illicit_Activities>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
-        <Age>18‡</Age>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
@@ -11898,7 +12236,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -12098,7 +12436,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -12323,7 +12661,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -12842,7 +13180,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -13352,7 +13690,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -15090,7 +15428,7 @@
           <Territory_Name>Iraq</Territory_Name>
           <Territory_Display_Name>Iraq</Territory_Display_Name>
           <Standard>No</Standard>
-          <Age>12‡</Age>
+          <Age>12</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
@@ -15915,7 +16253,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>17‡</Age>
+        <Age>17</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -16173,7 +16511,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>14‡</Age>
+        <Age>14</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -16608,7 +16946,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -16827,7 +17165,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -16854,8 +17192,8 @@
       <Criminal_New_Employee_Training>Yes</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>Yes</Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
-      <Criminal_Investigations>9‡</Criminal_Investigations>
-      <Criminal_Violations>9‡</Criminal_Violations>
+      <Criminal_Investigations>9</Criminal_Investigations>
+      <Criminal_Violations>9</Criminal_Violations>
       <Criminal_Prosecutions>2</Criminal_Prosecutions>
       <Criminal_Convictions>0</Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
@@ -17052,7 +17390,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -17286,7 +17624,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>13‡</Age>
+        <Age>13</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -17781,7 +18119,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -18543,7 +18881,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -20703,7 +21041,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -20914,7 +21252,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>14 ‡</Age>
+        <Age>14 </Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -21478,7 +21816,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>12‡</Age>
+        <Age>12</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -22852,7 +23190,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -23079,7 +23417,7 @@
           <Territory_Name>Federal</Territory_Name>
           <Territory_Display_Name>Federal</Territory_Display_Name>
           <Standard>No</Standard>
-          <Age>14†</Age>
+          <Age>14</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
@@ -23087,7 +23425,7 @@
           <Territory_Name>Punjab</Territory_Name>
           <Territory_Display_Name>Punjab</Territory_Display_Name>
           <Standard>Yes</Standard>
-          <Age>14‡ </Age>
+          <Age>14 </Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
         </Territory>
@@ -23466,8 +23804,8 @@
     <Enforcements>
       <Labor_Funding>
         <Territory>
-          <Territory_Name>All Territories</Territory_Name>
-          <Territory_Display_Name>All Territories</Territory_Display_Name>
+          <Territory_Name>All</Territory_Name>
+          <Territory_Display_Name>All</Territory_Display_Name>
           <Enforcement>Unknown</Enforcement>
         </Territory>
       </Labor_Funding>
@@ -24927,7 +25265,7 @@
       <Criminal_New_Employee_Training>N/A</Criminal_New_Employee_Training>
       <Criminal_New_Law_Training>N/A</Criminal_New_Law_Training>
       <Criminal_Refresher_Courses>Yes</Criminal_Refresher_Courses>
-      <Criminal_Investigations>160‡</Criminal_Investigations>
+      <Criminal_Investigations>160</Criminal_Investigations>
       <Criminal_Violations>Unknown</Criminal_Violations>
       <Criminal_Prosecutions>25</Criminal_Prosecutions>
       <Criminal_Convictions>6</Criminal_Convictions>
@@ -25202,7 +25540,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>17‡</Age>
+        <Age>17</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -25543,7 +25881,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>18‡</Age>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -25632,6 +25970,11 @@
           <Name>Ensure the Inter-Agency Council Against Child Pornography is able to carry out its intended mandate.</Name>
         </Action>
       </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Not Applicable</Name>
+        </Action>
+      </Government_Policies>
       <Social_Programs>
         <Action>
           <Name>Publish the results of the child labor modules from the 2017, 2018, and 2019 rounds of the Labor Force Survey.</Name>
@@ -26418,7 +26761,7 @@
   </Country>
   <Country>
     <Name>Saint Vincent and the Grenadines</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/st-vincent-and-grenadines</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/saint-vincent-and-the-grenadines</Webpage>
     <Region>Latin America and the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -27160,7 +27503,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -27906,7 +28249,7 @@
           <Territory_Name>All Territories</Territory_Name>
           <Territory_Display_Name>All Territories</Territory_Display_Name>
           <Standard>No</Standard>
-          <Age>14‡</Age>
+          <Age>14</Age>
           <Calculated_Age>No</Calculated_Age>
           <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
         </Territory>
@@ -28811,6 +29154,11 @@
           <Name>Ensure that victims of child trafficking or commercial sexual exploitation are not punished for their involvement in child labor.</Name>
         </Action>
       </Enforcement>
+      <Coordination>
+        <Action>
+          <Name>Not Applicable</Name>
+        </Action>
+      </Coordination>
       <Government_Policies>
         <Action>
           <Name>Publish activities undertaken to implement key policies related to child labor during the reporting period. </Name>
@@ -28999,7 +29347,7 @@
       <Labor_New_Law_Training>Not Applicable</Labor_New_Law_Training>
       <Labor_Refresher_Courses>Yes</Labor_Refresher_Courses>
       <Labor_Inspections>400</Labor_Inspections>
-      <Labor_Worksite_Inspections>400*</Labor_Worksite_Inspections>
+      <Labor_Worksite_Inspections>400</Labor_Worksite_Inspections>
       <Labor_Violations>0</Labor_Violations>
       <Labor_Penalties_Imposed>0</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>2</Labor_Penalties_Collected>
@@ -29186,7 +29534,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15†</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -31816,7 +32164,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>No</Standard>
-        <Age>13‡</Age>
+        <Age>13</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -32110,7 +32458,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>17‡</Age>
+        <Age>17</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -32355,7 +32703,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>18‡</Age>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -33475,7 +33823,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>15‡</Age>
+        <Age>15</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -33982,7 +34330,7 @@
       </Minumum_Non_State_Military>
       <Compulsory_Education>
         <Standard>Yes</Standard>
-        <Age>16‡</Age>
+        <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Compulsory_Education>
@@ -34074,4 +34422,3 @@
     </Mechanisms>
   </Country>
 </Countries>
-
