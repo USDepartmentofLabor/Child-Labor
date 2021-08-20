@@ -2204,7 +2204,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
+    <Good_Name>Khat (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2214,6 +2214,12 @@
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
       <Country>
         <Country_Name>Kenya</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
@@ -2251,25 +2257,19 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Leather Goods</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Mexico</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Leather Goods/Accessories</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Mexico</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -2874,7 +2874,7 @@
   </Good>
   <Good>
     <Good_Name>Rubber Gloves</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
+    <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
         <Country_Name>Malaysia</Country_Name>
@@ -4008,5 +4008,3 @@
     </Countries>
   </Good>
 </Goods>
-
-
