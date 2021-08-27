@@ -68,42 +68,42 @@ class SomaliaTableViewController: UITableViewController {
             if country["Name"].element?.text == "Somalia"{
 
         
-        workingf.text = "9.5% (N/A; ages 5-14)"
+        workingf.text = "9.5% (Unavailable; ages 5-14)"
         workingf.textColor = UIColor.black;
                 
         
-        workingp.text = "13.2% (N/A; ages 10-14)"
+        workingp.text = "13.2% (Unavailable; ages 10-14)"
         workingp.textColor = UIColor.black;
         
         workings.text = "13.2 % (Unknown; ages 5-14)"
         workings.textColor = UIColor.black;
         
         
-        agrif.text = "N/A"
+        agrif.text = "Unavailable"
         agrif.textColor = UIColor.black;
         
-        agrip.text = "N/A"
+        agrip.text = "Unavailable"
         agrip.textColor = UIColor.black;
         
-        agris.text = "N/A"
+        agris.text = "Unavailable"
         agris.textColor = UIColor.black;
         
-        indf.text = "N/A"
+        indf.text = "Unavailable"
         indf.textColor = UIColor.black;
         
-        indp.text = "N/A"
+        indp.text = "Unavailable"
         indp.textColor = UIColor.black;
         
-        inds.text = "N/A"
+        inds.text = "Unavailable"
         inds.textColor = UIColor.black;
         
-        serf.text = "N/A"
+        serf.text = "Unavailable"
         serf.textColor = UIColor.black;
         
-        serp.text = "N/A"
+        serp.text = "Unavailable"
         serp.textColor = UIColor.black;
         
-        sers.text = "N/A"
+        sers.text = "Unavailable"
         sers.textColor = UIColor.black;
         
         
@@ -122,7 +122,7 @@ class SomaliaTableViewController: UITableViewController {
         comp.text = "6.6% (Ages 7-14"
         comp.textColor = UIColor.black;
         
-        coms.text = "N/A"
+        coms.text = "Unavailable"
         coms.textColor = UIColor.black;
         
         primf.text = "Unavailable"
