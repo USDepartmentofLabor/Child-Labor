@@ -50,6 +50,9 @@
 		38E3E7D91D5A896400E0724A /* EnforcementMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */; };
 		38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */; };
 		38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */; };
+		6617C68026CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6617C67D26CFFFEA00412111 /* icons_Khat_(stimulant_plant)-33@2x.png */; };
+		6617C68126CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6617C67E26CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png */; };
+		6617C68226CFFFEB00412111 /* icons_Khat_(stimulant_plant).png in Resources */ = {isa = PBXBuildFile; fileRef = 6617C67F26CFFFEB00412111 /* icons_Khat_(stimulant_plant).png */; };
 		664C9DD224B8F8390072C977 /* icons_Leather_Goods-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DCF24B8F8390072C977 /* icons_Leather_Goods-33@2x.png */; };
 		664C9DD324B8F8390072C977 /* icons_Leather_Goods-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD024B8F8390072C977 /* icons_Leather_Goods-33@3x.png */; };
 		664C9DD424B8F8390072C977 /* icons_Leather_Goods.png in Resources */ = {isa = PBXBuildFile; fileRef = 664C9DD124B8F8390072C977 /* icons_Leather_Goods.png */; };
@@ -1145,6 +1148,9 @@
 		38E3E7D81D5A896400E0724A /* EnforcementMultiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnforcementMultiTableViewController.swift; sourceTree = "<group>"; };
 		38E3E7DA1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalStandardsMultiTableViewController.swift; sourceTree = "<group>"; };
 		38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
+		6617C67D26CFFFEA00412111 /* icons_Khat_(stimulant_plant)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_(stimulant_plant)-33@2x.png"; sourceTree = "<group>"; };
+		6617C67E26CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_(stimulant_plant)-33@3x.png"; sourceTree = "<group>"; };
+		6617C67F26CFFFEB00412111 /* icons_Khat_(stimulant_plant).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Khat_(stimulant_plant).png"; sourceTree = "<group>"; };
 		664C9DCF24B8F8390072C977 /* icons_Leather_Goods-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Leather_Goods-33@2x.png"; sourceTree = "<group>"; };
 		664C9DD024B8F8390072C977 /* icons_Leather_Goods-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Leather_Goods-33@3x.png"; sourceTree = "<group>"; };
 		664C9DD124B8F8390072C977 /* icons_Leather_Goods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Leather_Goods.png; sourceTree = "<group>"; };
@@ -2606,6 +2612,9 @@
 				067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */,
 				067E52EC269F31AD006924B0 /* icons_Polysilicon.png */,
 				38CA95411D4FF4F200319316 /* icons_Pepper.png */,
+				6617C67D26CFFFEA00412111 /* icons_Khat_(stimulant_plant)-33@2x.png */,
+				6617C67E26CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png */,
+				6617C67F26CFFFEB00412111 /* icons_Khat_(stimulant_plant).png */,
 				38CA95421D4FF4F200319316 /* icons_Pepper-33@2x.png */,
 				38CA95431D4FF4F200319316 /* icons_Pepper-33@3x.png */,
 				6682425524E70BED009B203E /* icons_Gloves-33@2x.png */,
@@ -3746,6 +3755,7 @@
 				835618521BD7DE79007BCF75 /* Guatemala.pdf in Resources */,
 				3800487C1D8B991C00E64714 /* TVPRA.pdf in Resources */,
 				8335AF2E1B667963000748F0 /* icons_Coca_(stimulant_plant).png in Resources */,
+				6617C68226CFFFEB00412111 /* icons_Khat_(stimulant_plant).png in Resources */,
 				835618841BD7DE79007BCF75 /* Saint Vincent and the Grenadines.pdf in Resources */,
 				8303DFC81B41F21A00E4FD42 /* Saint Vincent and the Grenadines-map.png in Resources */,
 				83AD138E1B669137004B92D3 /* icons_Embellished_Textiles-33@2x.png in Resources */,
@@ -4084,6 +4094,7 @@
 				8310FF1C1ABB11310025F7AE /* Senegal.png in Resources */,
 				83AD13B51B669137004B92D3 /* icons_Khat_Miraa_(stimulant_plant)-33@2x.png in Resources */,
 				8335AF471B667963000748F0 /* icons_Glass.png in Resources */,
+				6617C68126CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png in Resources */,
 				8310FE981ABB11310025F7AE /* China.png in Resources */,
 				8335AF7C1B667963000748F0 /* icons_Tin.png in Resources */,
 				83AD128F1B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png in Resources */,
@@ -4208,6 +4219,7 @@
 				83AD12D01B668E71004B92D3 /* icons_Trona_(mineral)-33@3x.png in Resources */,
 				83AD12A31B668E71004B92D3 /* icons_Palm_Thatch-33@3x.png in Resources */,
 				8335AF261B667963000748F0 /* icons_Cement.png in Resources */,
+				6617C68026CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@2x.png in Resources */,
 				8310FF4B1ABB11310025F7AE /* Wallis_and_Futuna.png in Resources */,
 				8335AF1F1B667963000748F0 /* icons_Brazil_Nuts_Chestnuts.png in Resources */,
 				8310FECA1ABB11310025F7AE /* Indonesia.png in Resources */,
