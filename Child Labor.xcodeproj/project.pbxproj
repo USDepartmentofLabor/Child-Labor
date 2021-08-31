@@ -84,6 +84,7 @@
 		66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* Gambia,_The.png */; };
 		66A928E924FEABD300F0C226 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E824FEABD300F0C226 /* arrow.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
+		66E3889E26DEB61C00998F5A /* upaA3.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E3889D26DEB61C00998F5A /* upaA3.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
 		8303DF641B41F21A00E4FD42 /* Argentina-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE81B41F21A00E4FD42 /* Argentina-map.png */; };
@@ -1182,6 +1183,7 @@
 		66A928E424FE860500F0C226 /* Gambia,_The.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia,_The.png"; sourceTree = "<group>"; };
 		66A928E824FEABD300F0C226 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
+		66E3889D26DEB61C00998F5A /* upaA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upaA3.png; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
 		8303DEE81B41F21A00E4FD42 /* Argentina-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Argentina-map.png"; sourceTree = "<group>"; };
@@ -3367,6 +3369,7 @@
 				83A3B11A1B6BCB8E002380E6 /* aboutthisapp.html */,
 				83A3B1191B6BCB8E002380E6 /* methodology.html */,
 				66A928E824FEABD300F0C226 /* arrow.png */,
+				66E3889D26DEB61C00998F5A /* upaA3.png */,
 				835A6C961B604D1800F26D3F /* Launch@2x.png */,
 				1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */,
 				83B3E9891B3B519300742BC7 /* forced-child-labor@3x.png */,
@@ -3545,6 +3548,7 @@
 				83AD12CC1B668E71004B92D3 /* icons_Tin-33@3x.png in Resources */,
 				835618921BD7DE79007BCF75 /* Tanzania.pdf in Resources */,
 				83AD12591B668E71004B92D3 /* icons_Carpets-33@3x.png in Resources */,
+				66E3889E26DEB61C00998F5A /* upaA3.png in Resources */,
 				8310FF491ABB11310025F7AE /* Venezuela.png in Resources */,
 				8310FEA91ABB11310025F7AE /* Ecuador.png in Resources */,
 				8303DF981B41F21A00E4FD42 /* Jordan-map.png in Resources */,
