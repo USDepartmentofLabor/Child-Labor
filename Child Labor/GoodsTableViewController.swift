@@ -89,14 +89,26 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         self.searchBarFilter.delegate = self
         self.searchBarFilter.text = "Filter Goods"
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
+        let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
+        clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
+        clearButton.tintColor =  UIColor.black
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
 //           textFieldInsideSearchBar?.backgroundColor = UIColor.white
 //           textFieldInsideSearchBar?.textColor = UIColor.black
+            
             textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
+            
             textFieldInsideSearchBar?.borderStyle = .line
             textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
             textFieldInsideSearchBar?.textColor = UIColor.black
+//            textFieldInsideSearchBar?.clearButtonMode = .always
+////            textFieldInsideSearchBar?.clearButtonMode = .whileEditing
+//            self.clearButtonTintColor = UIColor.blue
+//            let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
+//            clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
+//            clearButton.setImage(UIImage(named: "cancel.png"), for: .normal)
+//            clearButton.setImage(UIImage(named: "cancel.png"), for: .normal)
             
             } else {
 //            textFieldInsideSearchBar?.backgroundColor = UIColor.black
