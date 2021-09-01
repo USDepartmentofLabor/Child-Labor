@@ -85,6 +85,9 @@
 		66A928E924FEABD300F0C226 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E824FEABD300F0C226 /* arrow.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		66E3889E26DEB61C00998F5A /* upaA3.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E3889D26DEB61C00998F5A /* upaA3.png */; };
+		66E388AA26DFCC9000998F5A /* icons_Jute_(textiles)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */; };
+		66E388AB26DFCC9000998F5A /* icons_Jute_(textiles).png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */; };
+		66E388AC26DFCC9000998F5A /* icons_Jute_(textiles)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
 		8303DF641B41F21A00E4FD42 /* Argentina-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE81B41F21A00E4FD42 /* Argentina-map.png */; };
@@ -563,7 +566,6 @@
 		8335AFA61B6680A8000748F0 /* icons_Tanzanite_(gems).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFA51B6680A8000748F0 /* icons_Tanzanite_(gems).png */; };
 		8335AFA81B6680B9000748F0 /* icons_Teak.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFA71B6680B9000748F0 /* icons_Teak.png */; };
 		8335AFAA1B6680D0000748F0 /* icons_Thread_Yarn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFA91B6680D0000748F0 /* icons_Thread_Yarn.png */; };
-		8335AFAC1B6680E2000748F0 /* icons_Textiles_(jute).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAB1B6680E2000748F0 /* icons_Textiles_(jute).png */; };
 		8335AFAE1B6680FA000748F0 /* icons_Tilapia_(fish).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAD1B6680FA000748F0 /* icons_Tilapia_(fish).png */; };
 		8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFAF1B668111000748F0 /* icons_Trona_(mineral).png */; };
 		8335AFB21B668126000748F0 /* icons_Tungsten_ore_(wolframite).png in Resources */ = {isa = PBXBuildFile; fileRef = 8335AFB11B668126000748F0 /* icons_Tungsten_ore_(wolframite).png */; };
@@ -859,7 +861,6 @@
 		83AD12C41B668E71004B92D3 /* icons_Tea-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12381B668E71004B92D3 /* icons_Tea-33@3x.png */; };
 		83AD12C51B668E71004B92D3 /* icons_Teak-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD12391B668E71004B92D3 /* icons_Teak-33@3x.png */; };
 		83AD12C61B668E71004B92D3 /* icons_Textiles_(hand-woven)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD123A1B668E71004B92D3 /* icons_Textiles_(hand-woven)-33@3x.png */; };
-		83AD12C71B668E71004B92D3 /* icons_Textiles_(jute)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD123B1B668E71004B92D3 /* icons_Textiles_(jute)-33@3x.png */; };
 		83AD12C81B668E71004B92D3 /* icons_Textiles-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD123C1B668E71004B92D3 /* icons_Textiles-33@3x.png */; };
 		83AD12C91B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD123D1B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png */; };
 		83AD12CA1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD123E1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png */; };
@@ -998,7 +999,6 @@
 		83AD13DC1B669137004B92D3 /* icons_Tea-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13501B669137004B92D3 /* icons_Tea-33@2x.png */; };
 		83AD13DD1B669137004B92D3 /* icons_Teak-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13511B669137004B92D3 /* icons_Teak-33@2x.png */; };
 		83AD13DE1B669137004B92D3 /* icons_Textiles_(hand-woven)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13521B669137004B92D3 /* icons_Textiles_(hand-woven)-33@2x.png */; };
-		83AD13DF1B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13531B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png */; };
 		83AD13E01B669137004B92D3 /* icons_Textiles-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13541B669137004B92D3 /* icons_Textiles-33@2x.png */; };
 		83AD13E11B669137004B92D3 /* icons_Thread_Yarn-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13551B669137004B92D3 /* icons_Thread_Yarn-33@2x.png */; };
 		83AD13E21B669137004B92D3 /* icons_Tilapia_(fish)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13561B669137004B92D3 /* icons_Tilapia_(fish)-33@2x.png */; };
@@ -1184,6 +1184,9 @@
 		66A928E824FEABD300F0C226 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		66E3889D26DEB61C00998F5A /* upaA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upaA3.png; sourceTree = "<group>"; };
+		66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles)-33@3x.png"; sourceTree = "<group>"; };
+		66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles).png"; sourceTree = "<group>"; };
+		66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles)-33@2x.png"; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
 		8303DEE81B41F21A00E4FD42 /* Argentina-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Argentina-map.png"; sourceTree = "<group>"; };
@@ -1662,7 +1665,6 @@
 		8335AFA51B6680A8000748F0 /* icons_Tanzanite_(gems).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tanzanite_(gems).png"; sourceTree = "<group>"; };
 		8335AFA71B6680B9000748F0 /* icons_Teak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Teak.png; sourceTree = "<group>"; };
 		8335AFA91B6680D0000748F0 /* icons_Thread_Yarn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Thread_Yarn.png; sourceTree = "<group>"; };
-		8335AFAB1B6680E2000748F0 /* icons_Textiles_(jute).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(jute).png"; sourceTree = "<group>"; };
 		8335AFAD1B6680FA000748F0 /* icons_Tilapia_(fish).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tilapia_(fish).png"; sourceTree = "<group>"; };
 		8335AFAF1B668111000748F0 /* icons_Trona_(mineral).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Trona_(mineral).png"; sourceTree = "<group>"; };
 		8335AFB11B668126000748F0 /* icons_Tungsten_ore_(wolframite).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tungsten_ore_(wolframite).png"; sourceTree = "<group>"; };
@@ -1973,7 +1975,6 @@
 		83AD12381B668E71004B92D3 /* icons_Tea-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tea-33@3x.png"; sourceTree = "<group>"; };
 		83AD12391B668E71004B92D3 /* icons_Teak-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Teak-33@3x.png"; sourceTree = "<group>"; };
 		83AD123A1B668E71004B92D3 /* icons_Textiles_(hand-woven)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(hand-woven)-33@3x.png"; sourceTree = "<group>"; };
-		83AD123B1B668E71004B92D3 /* icons_Textiles_(jute)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(jute)-33@3x.png"; sourceTree = "<group>"; };
 		83AD123C1B668E71004B92D3 /* icons_Textiles-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles-33@3x.png"; sourceTree = "<group>"; };
 		83AD123D1B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Thread_Yarn-33@3x.png"; sourceTree = "<group>"; };
 		83AD123E1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tilapia_(fish)-33@3x.png"; sourceTree = "<group>"; };
@@ -2112,7 +2113,6 @@
 		83AD13501B669137004B92D3 /* icons_Tea-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tea-33@2x.png"; sourceTree = "<group>"; };
 		83AD13511B669137004B92D3 /* icons_Teak-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Teak-33@2x.png"; sourceTree = "<group>"; };
 		83AD13521B669137004B92D3 /* icons_Textiles_(hand-woven)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(hand-woven)-33@2x.png"; sourceTree = "<group>"; };
-		83AD13531B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles_(jute)-33@2x.png"; sourceTree = "<group>"; };
 		83AD13541B669137004B92D3 /* icons_Textiles-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Textiles-33@2x.png"; sourceTree = "<group>"; };
 		83AD13551B669137004B92D3 /* icons_Thread_Yarn-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Thread_Yarn-33@2x.png"; sourceTree = "<group>"; };
 		83AD13561B669137004B92D3 /* icons_Tilapia_(fish)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Tilapia_(fish)-33@2x.png"; sourceTree = "<group>"; };
@@ -2613,6 +2613,9 @@
 				067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */,
 				067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */,
 				067E52EC269F31AD006924B0 /* icons_Polysilicon.png */,
+				66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */,
+				66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */,
+				66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */,
 				38CA95411D4FF4F200319316 /* icons_Pepper.png */,
 				6617C67D26CFFFEA00412111 /* icons_Khat_(stimulant_plant)-33@2x.png */,
 				6617C67E26CFFFEB00412111 /* icons_Khat_(stimulant_plant)-33@3x.png */,
@@ -2806,7 +2809,6 @@
 				83AD13501B669137004B92D3 /* icons_Tea-33@2x.png */,
 				83AD13511B669137004B92D3 /* icons_Teak-33@2x.png */,
 				83AD13521B669137004B92D3 /* icons_Textiles_(hand-woven)-33@2x.png */,
-				83AD13531B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png */,
 				83AD13541B669137004B92D3 /* icons_Textiles-33@2x.png */,
 				83AD13551B669137004B92D3 /* icons_Thread_Yarn-33@2x.png */,
 				83AD13561B669137004B92D3 /* icons_Tilapia_(fish)-33@2x.png */,
@@ -2951,7 +2953,6 @@
 				83AD12381B668E71004B92D3 /* icons_Tea-33@3x.png */,
 				83AD12391B668E71004B92D3 /* icons_Teak-33@3x.png */,
 				83AD123A1B668E71004B92D3 /* icons_Textiles_(hand-woven)-33@3x.png */,
-				83AD123B1B668E71004B92D3 /* icons_Textiles_(jute)-33@3x.png */,
 				83AD123C1B668E71004B92D3 /* icons_Textiles-33@3x.png */,
 				83AD123D1B668E71004B92D3 /* icons_Thread_Yarn-33@3x.png */,
 				83AD123E1B668E71004B92D3 /* icons_Tilapia_(fish)-33@3x.png */,
@@ -3091,7 +3092,6 @@
 				8335AFA51B6680A8000748F0 /* icons_Tanzanite_(gems).png */,
 				8335AF0C1B667963000748F0 /* icons_Tea.png */,
 				8335AFA71B6680B9000748F0 /* icons_Teak.png */,
-				8335AFAB1B6680E2000748F0 /* icons_Textiles_(jute).png */,
 				8335AFBB1B6681FB000748F0 /* icons_Textiles_(hand-woven).png */,
 				EDC2A03220EEAEC200789647 /* icons_Sweet_Potatoes.png */,
 				8335AF0D1B667963000748F0 /* icons_Textiles.png */,
@@ -3516,7 +3516,6 @@
 				8310FF201ABB11310025F7AE /* Singapore.png in Resources */,
 				8303DF671B41F21A00E4FD42 /* Bahrain-map.png in Resources */,
 				067E52EF269F31AD006924B0 /* icons_Polysilicon.png in Resources */,
-				83AD13DF1B669137004B92D3 /* icons_Textiles_(jute)-33@2x.png in Resources */,
 				8310FF121ABB11310025F7AE /* Russia.png in Resources */,
 				83AD13B61B669137004B92D3 /* icons_Nails-33@2x.png in Resources */,
 				8310FEB11ABB11310025F7AE /* Faroe_Islands.png in Resources */,
@@ -3540,12 +3539,12 @@
 				EDF0417420EFAA6300506499 /* icons_Carrots.png in Resources */,
 				8303DF6D1B41F21A00E4FD42 /* Bolivia-map.png in Resources */,
 				83800C821AA4D40300DD47EB /* Main.storyboard in Resources */,
-				83AD12C71B668E71004B92D3 /* icons_Textiles_(jute)-33@3x.png in Resources */,
 				835618411BD7DE79007BCF75 /* Costa Rica.pdf in Resources */,
 				8335AFB41B66813A000748F0 /* icons_Zinc.png in Resources */,
 				8335AF271B667963000748F0 /* icons_Ceramics.png in Resources */,
 				835618731BD7DE79007BCF75 /* Nepal.pdf in Resources */,
 				83AD12CC1B668E71004B92D3 /* icons_Tin-33@3x.png in Resources */,
+				66E388AC26DFCC9000998F5A /* icons_Jute_(textiles)-33@2x.png in Resources */,
 				835618921BD7DE79007BCF75 /* Tanzania.pdf in Resources */,
 				83AD12591B668E71004B92D3 /* icons_Carpets-33@3x.png in Resources */,
 				66E3889E26DEB61C00998F5A /* upaA3.png in Resources */,
@@ -3953,6 +3952,7 @@
 				8310FEA51ABB11310025F7AE /* Denmark.png in Resources */,
 				83AD12C51B668E71004B92D3 /* icons_Teak-33@3x.png in Resources */,
 				8310FF001ABB11310025F7AE /* Norfolk_Island.png in Resources */,
+				66E388AB26DFCC9000998F5A /* icons_Jute_(textiles).png in Resources */,
 				83AD13A41B669137004B92D3 /* icons_Gravel_(crushed_stones)-33@2x.png in Resources */,
 				8335AF6A1B667963000748F0 /* icons_Sesame.png in Resources */,
 				8303DF8D1B41F21A00E4FD42 /* Grenada-map.png in Resources */,
@@ -3973,7 +3973,6 @@
 				8310FF4D1ABB11310025F7AE /* Zambia.png in Resources */,
 				835618A21BD7DE79007BCF75 /* Wallis and Futuna.pdf in Resources */,
 				83AD13981B669137004B92D3 /* icons_Furniture_(steel)-33@2x.png in Resources */,
-				8335AFAC1B6680E2000748F0 /* icons_Textiles_(jute).png in Resources */,
 				8310FEDF1ABB11310025F7AE /* Lithuania.png in Resources */,
 				83AD13A01B669137004B92D3 /* icons_Gold-33@2x.png in Resources */,
 				835618821BD7DE79007BCF75 /* Saint Helena, Ascensión, and Tristán da Cunha.pdf in Resources */,
@@ -4202,6 +4201,7 @@
 				8310FEEE1ABB11310025F7AE /* Micronesia.png in Resources */,
 				83AD12851B668E71004B92D3 /* icons_Glass_Bangles-33@3x.png in Resources */,
 				8335AF811B667963000748F0 /* icons_Wheat.png in Resources */,
+				66E388AA26DFCC9000998F5A /* icons_Jute_(textiles)-33@3x.png in Resources */,
 				8310FEAE1ABB11310025F7AE /* Estonia.png in Resources */,
 				83AD13691B669137004B92D3 /* icons_Beef-33@2x.png in Resources */,
 				8335AF2C1B667963000748F0 /* icons_Citrus_Fruits.png in Resources */,
@@ -4740,7 +4740,7 @@
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4768,7 +4768,7 @@
 				DEVELOPMENT_TEAM = R6D6GHBLNG;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Child Labor/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
