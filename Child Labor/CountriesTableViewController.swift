@@ -121,11 +121,12 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
-        self.searchBarFilter.text = "Filter Countries/Areas"
+        // self.searchBarFilter.text = "Filter Countries/Areas"
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
         let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
         clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
         clearButton.tintColor =  UIColor.black
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).attributedPlaceholder = NSAttributedString(string: "Filter Countries/Areas", attributes: [NSAttributedStringKey.foregroundColor: UIColor.darkGray])
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
 //           textFieldInsideSearchBar?.backgroundColor = UIColor.white

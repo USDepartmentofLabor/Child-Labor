@@ -87,11 +87,12 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         othGoodsAll = othGoods
         
         self.searchBarFilter.delegate = self
-        self.searchBarFilter.text = "Filter Goods"
+        // self.searchBarFilter.text = "Filter Goods"
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
         let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
         clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
         clearButton.tintColor =  UIColor.black
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).attributedPlaceholder = NSAttributedString(string: "Filter Goods", attributes: [NSAttributedStringKey.foregroundColor: UIColor.gray])
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
 //           textFieldInsideSearchBar?.backgroundColor = UIColor.white
