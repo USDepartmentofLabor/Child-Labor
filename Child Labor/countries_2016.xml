@@ -250,20 +250,7 @@
       <Policy>Yes</Policy>
       <Coordination>Yes</Coordination>
     </Mechanisms>
-    <ILAB_Projects>
-      <Project>
-        <Title>Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan</Title>
-        <Link>https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan</Link>
-      </Project>
-      <Project>
-        <Title>Demobilization of Child Soldiers and Socio-Economic Reintegration of War-Affected Young People in Afghanistan</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/Afghanistan_ChildSoldiers_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Country Level Engagement and Assistance to Reduce Child Labor (CLEAR)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/country-level-engagement-and-assistance-reduce-child-labor-clear</Link>
-      </Project>
-    </ILAB_Projects>
+    <ILAB_Projects />
   </Country>
   <Country>
     <Name>Albania</Name>
@@ -30423,6 +30410,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Tanzanite (gems)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -30430,12 +30423,6 @@
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Tanzanite (gems)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
