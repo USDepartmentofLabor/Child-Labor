@@ -121,14 +121,26 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         self.tableView.sectionIndexBackgroundColor = UIColor.clear
         
         self.searchBarFilter.delegate = self
-        self.searchBarFilter.text = "Filter Countries/Areas"
+        // self.searchBarFilter.text = "Filter Countries/Areas"
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
+        let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
+        clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
+        clearButton.tintColor =  UIColor.black
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).attributedPlaceholder = NSAttributedString(string: "Filter Countries/Areas", attributes: [NSAttributedStringKey.foregroundColor: UIColor.gray])
         if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
-           textFieldInsideSearchBar?.backgroundColor = UIColor.white
-           textFieldInsideSearchBar?.textColor = UIColor.black
-            } else {
+//           textFieldInsideSearchBar?.backgroundColor = UIColor.white
+//           textFieldInsideSearchBar?.textColor = UIColor.black
+            textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
+            textFieldInsideSearchBar?.borderStyle = .line
+            textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
             textFieldInsideSearchBar?.textColor = UIColor.black
+            } else {
+//            textFieldInsideSearchBar?.textColor = UIColor.black
+                textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
+                textFieldInsideSearchBar?.borderStyle = .line
+                textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
+                textFieldInsideSearchBar?.textColor = UIColor.black
             }
         }
         // Get the country data
@@ -665,17 +677,17 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     func changeSegmentControlColorWithMode() {
         if #available(iOS 13.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
-            segmentedControl.backgroundColor = UIColor(red: 0.102, green: 0.282, blue: 0.412, alpha: 1.0)
-            segmentedControl.selectedSegmentTintColor = UIColor.white
-           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
-           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            segmentedControl.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0)
+            segmentedControl.selectedSegmentTintColor = UIColor.black
+           let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+           let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
            segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
            segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
             } else {
-            segmentedControl.backgroundColor = UIColor(red: 0.102, green: 0.282, blue: 0.412, alpha: 1.0)
-            segmentedControl.selectedSegmentTintColor = UIColor.white
-            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.white]
-            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            segmentedControl.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0)
+            segmentedControl.selectedSegmentTintColor = UIColor.black
+            let titleTextAttribute1 = [NSAttributedString.Key.foregroundColor: UIColor.black]
+            let titleTextAttribute2 = [NSAttributedString.Key.foregroundColor: UIColor.white]
             segmentedControl.setTitleTextAttributes(titleTextAttribute1, for:.normal)
             segmentedControl.setTitleTextAttributes(titleTextAttribute2, for:.selected)
             }

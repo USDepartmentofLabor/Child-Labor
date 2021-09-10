@@ -250,20 +250,7 @@
       <Policy>Yes</Policy>
       <Coordination>Yes</Coordination>
     </Mechanisms>
-    <ILAB_Projects>
-      <Project>
-        <Title>Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan</Title>
-        <Link>https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan</Link>
-      </Project>
-      <Project>
-        <Title>Demobilization of Child Soldiers and Socio-Economic Reintegration of War-Affected Young People in Afghanistan</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/Afghanistan_ChildSoldiers_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Country Level Engagement and Assistance to Reduce Child Labor (CLEAR)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/country-level-engagement-and-assistance-reduce-child-labor-clear</Link>
-      </Project>
-    </ILAB_Projects>
+    <ILAB_Projects />
   </Country>
   <Country>
     <Name>Albania</Name>
@@ -870,7 +857,7 @@
           <Name>Establish coordinating mechanisms to combat all worst forms of child labor, including those that occur outside the context of human trafficking.</Name>
         </Action>
         <Action>
-          <Name>Ensure that activities postponed due to the COVID-19 are re-established when it is safe to do so.</Name>
+          <Name>Ensure that activities postponed due to the COVID-19 pandemic are re-established when it is safe to do so.</Name>
         </Action>
         <Action>
           <Name>Increase the capacity to aggregate and synthesize data on human trafficking cases.</Name>
@@ -883,7 +870,7 @@
       </Government_Policies>
       <Social_Programs>
         <Action>
-          <Name>Institute programs that target children engaged in commercial sexual exploitation and forced labor, and expand existing programs to address the scope of the child labor problem.</Name>
+          <Name>Institute programs that target children subjected to commercial sexual exploitation and forced labor, and expand existing programs to address the scope of the child labor problem.</Name>
         </Action>
         <Action>
           <Name>Develop and expand existing social programs to ensure that all children have access to education and are not restricted by informal fees, lack of birth certificates, lack of teachers, or poor school infrastructure.</Name>
@@ -1887,6 +1874,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Jute (textiles)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Leather</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -1924,12 +1917,6 @@
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Textiles (jute)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -7636,7 +7623,7 @@
   </Country>
   <Country>
     <Name>Cocos (Keeling) Islands</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cocos-(keeling)-islands</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cocos-keeling-islands</Webpage>
     <Region>Indo-Pacific</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>No Assessment</Advancement_Level>
@@ -9048,7 +9035,7 @@
     <Region>Latin America and the Caribbean</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Significant Advancement</Advancement_Level>
-    <Description>In 2020, Costa Rica made significant advancement in efforts to eliminate the worst forms of child labor. In November, the government ratified the Protocol of 2014 to the Forced Labour Convention of 1930. The government also provided updated statistics on child labor prevalence and published the first findings of its Child Labor Risk Identification Model. In addition, the Attorney General published disaggregated data on efforts to combat the worst forms of child labor, and the Office for the Eradication of Child Labor and Protection of the Adolescent Worker began drafting a new National Action Plan to combat the worst forms of child labor. However, children in Costa Rica are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. Children also engage in child labor in agriculture, including in the production of coffee. Furthermore, existing social programs are not accessible to workers in all sectors, and the labor inspectorate lacks the authority to assess penalties for labor violations.</Description>
+    <Description>In 2020, Costa Rica made significant advancement in efforts to eliminate the worst forms of child labor. In November, the government ratified the Protocol of 2014 to the Forced Labour Convention of 1930. The government also provided updated statistics on child labor prevalence and published the first findings of its Child Labor Risk Identification Model. In addition, the Attorney General published disaggregated data on efforts to combat the worst forms of child labor, and the Office for the Eradication of Child Labor and Protection of the Adolescent Worker began drafting a new National Action Plan to combat the worst forms of child labor. However, children in Costa Rica are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. Children also engage in child labor in agriculture, including in the production of coffee. Furthermore, existing social programs are not accessible to workers in all sectors, and the labor inspectorate lacks a sufficient number of labor inspectors.</Description>
     <Goods>
       <Good>
         <Good_Name>Cattle</Good_Name>
@@ -9289,7 +9276,7 @@
   </Country>
   <Country>
     <Name>Côte d'Ivoire</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-d'ivoire</Webpage>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-divoire</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Moderate Advancement</Advancement_Level>
@@ -13677,7 +13664,7 @@
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
     <Advancement_Level>Minimal Advancement</Advancement_Level>
-    <Description>In 2020, Guinea made minimal advancement in efforts to eliminate the worst forms of child labor. The government enacted a revised Child Code, which provides higher penalties for violations for child labor violations and enumerates a more comprehensive hazardous work list. The government also approved a new National Action Plan to Fight Against Trafficking in Persons. However, children in Guinea are subjected to the worst forms of child labor, including in artisanal mining, sometimes as a result of human trafficking, and in forced begging. The government lacks a coordinating mechanism and national policy to address all relevant worst forms of child labor. Laws related to the minimum age for work also do not meet international standards because they do not include children working outside of a formal employment relationship and children who are self-employed. In addition, the government does not implement sufficient social programs to address the extent of the child labor problem.</Description>
+    <Description>In 2020, Guinea made minimal advancement in efforts to eliminate the worst forms of child labor. The government enacted a revised Child Code, which provides higher penalties for child labor violations and enumerates a more comprehensive hazardous work list. The government also approved a new National Action Plan to Fight Against Trafficking in Persons. However, children in Guinea are subjected to the worst forms of child labor, including in artisanal mining, sometimes as a result of human trafficking, and in forced begging. The government lacks a coordinating mechanism and national policy to address all relevant worst forms of child labor. Laws related to the minimum age for work also do not meet international standards because they do not include children working outside of a formal employment relationship and children who are self-employed. In addition, the government does not implement sufficient social programs to address the extent of the child labor problem.</Description>
     <Goods>
       <Good>
         <Good_Name>Cashews</Good_Name>
@@ -30390,7 +30377,7 @@
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>Yes</Multiple_Territories>
     <Advancement_Level>Minimal Advancement – Efforts Made but Continued Practice that Delayed Advancement</Advancement_Level>
-    <Description>In 2020, The United Republic of Tanzania made minimal advancement in efforts to eliminate the worst forms of child labor. The Zanzibar Government increased funding of its labor inspectorate and hired an additional 16 labor inspectors. However, despite new initiatives to address child labor, Tanzania is assessed as having made only minimal advancement because it continued a practice that delays advancement to eliminate child labor. The Mainland Government explicitly supports the routine expulsion of pregnant students from public schools, making them more vulnerable to the worst forms of child labor. Children in Tanzania are subjected to the worst forms of child Iabor, including in mining, quarrying, and domestic work, each sometimes as a result of human trafficking. Children also perform dangerous tasks in agriculture. The Mainland Government did not publicly release information on its labor and criminal law enforcement efforts. Other gaps remain in the legal framework and enforcement of laws related to child labor, including protections for child engagement in illicit activities and domestic work; the lack of authorization for the labor inspectorate to assess penalties; and the likely insufficient number of labor inspectors for the size of Tanzania’s labor force.</Description>
+    <Description>In 2020, The United Republic of Tanzania made minimal advancement in efforts to eliminate the worst forms of child labor. The Zanzibar Government increased funding of its labor inspectorate and hired an additional 16 labor inspectors. However, despite new initiatives to address child labor, Tanzania is assessed as having made only minimal advancement because it continued a practice that delays advancement to eliminate child labor. The Mainland Government explicitly supports the routine expulsion of pregnant students from public schools, making them more vulnerable to the worst forms of child labor. Children in Tanzania are subjected to the worst forms of child Iabor, including in mining, quarrying, and domestic work, each sometimes as a result of human trafficking. Children also perform dangerous tasks in agriculture. The Mainland Government did not publicly release information on its labor and criminal law enforcement efforts. Other gaps remain in the legal framework and enforcement of laws related to child labor, including protections for child engagement in illicit activities and domestic work, the lack of authorization for the labor inspectorate to assess penalties, and the likely insufficient number of labor inspectors for the size of Tanzania’s labor force.</Description>
     <Goods>
       <Good>
         <Good_Name>Cloves</Good_Name>
@@ -30423,6 +30410,12 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
+        <Good_Name>Tanzanite (gems)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Good>
+      <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -30430,12 +30423,6 @@
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Good>
-      <Good>
-        <Good_Name>Tanzanite (gems)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -35308,3 +35295,4 @@
     </Mechanisms>
   </Country>
 </Countries>
+
