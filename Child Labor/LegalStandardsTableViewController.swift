@@ -156,6 +156,11 @@ class LegalStandardsTableViewController: UITableViewController {
                 label.attributedText = attrText;
                 
             }
+            if #available(iOS 13.0, *) {
+                label.textColor = .label
+            } else {
+                // Fallback on earlier versions
+            }
             
             if (labelText.hasPrefix("Yes") == true && conformsStandard) {
                 label.textColor = UIColor(red: 0.0, green: 0.49, blue: 0.1, alpha: 1.0)
@@ -171,11 +176,8 @@ class LegalStandardsTableViewController: UITableViewController {
             }
             
             label.accessibilityLabel = (accessibleText.hasPrefix("N/A")) ? "Not Available" : accessibleText.replacingOccurrences(of: "*", with: "")
-            if #available(iOS 13.0, *) {
-                label.textColor = .label
-            } else {
-                // Fallback on earlier versions
-            }
+            
+            
         }
     }
     
