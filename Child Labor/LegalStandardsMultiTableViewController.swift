@@ -200,12 +200,13 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 // Fallback on earlier versions
             }
             let valueLabel = cell.contentView.viewWithTag(tag + 1) as! UILabel
-            setLegalStandard(valueLabel, standardXML: territory)
             if #available(iOS 13.0, *) {
                 valueLabel.textColor = .label
             } else {
                 // Fallback on earlier versions
             }
+            setLegalStandard(valueLabel, standardXML: territory)
+            
             index += 1
         }
         
