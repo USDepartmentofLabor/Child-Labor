@@ -39,7 +39,7 @@ class MoreInfoController: UITableViewController {
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 3
            // return 2
     }
     
@@ -80,6 +80,17 @@ class MoreInfoController: UITableViewController {
         }
         if (indexPath.section == 1) {
             if (indexPath.row == 0) {
+                cell?.textLabel?.text = "Comply Chain App"
+            }
+        }
+        if (indexPath.section == 2) {
+            if (indexPath.row == 0) {
+                cell?.textLabel?.text = "New: Better Trade Tool"
+            }
+        }
+        /*Old code below not using now after adding the new better trade tool link
+        if (indexPath.section == 1) {
+            if (indexPath.row == 0) {
                 cell?.textLabel?.text = "Foreword"
             }
         }
@@ -92,7 +103,7 @@ class MoreInfoController: UITableViewController {
             if (indexPath.row == 0) {
                 cell?.textLabel?.text = "Comply Chain App"
             }
-        }
+        }*/
         let chevron = UIImage(named: "arrow.png")
         cell?.accessoryType = .disclosureIndicator
         cell?.accessoryView = UIImageView(image: chevron)
@@ -110,20 +121,33 @@ class MoreInfoController: UITableViewController {
         }
         }
         if (indexPath.section == 1){
-        if (indexPath.row == 0) {
-         performSegue(withIdentifier: "presentSecretaryForward", sender: self)
+            if (indexPath.row == 0) {
+                performSegue(withIdentifier: "presentSimilarApps", sender: self)
             }
-         }
+        }
         if (indexPath.section == 2){
-        if (indexPath.row == 0) {
-         performSegue(withIdentifier: "presentMagazine", sender: self)
+            if (indexPath.row == 0) {
+                guard let url = URL(string: "https://www.dol.gov/BetterTradeTool") else { return }
+                UIApplication.shared.openURL(url)
+                
             }
-         }        
+        }
+        /*Old code below not using now after adding the new better trade tool link
+        if (indexPath.section == 1){
+            if (indexPath.row == 0) {
+                performSegue(withIdentifier: "presentSecretaryForward", sender: self)
+            }
+        }
+        if (indexPath.section == 2){
+            if (indexPath.row == 0) {
+                performSegue(withIdentifier: "presentMagazine", sender: self)
+            }
+        }
         if (indexPath.section == 3){
-        if (indexPath.row == 0) {
-         performSegue(withIdentifier: "presentSimilarApps", sender: self)
+            if (indexPath.row == 0) {
+                performSegue(withIdentifier: "presentSimilarApps", sender: self)
             }
-         }
+        }*/
         
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
