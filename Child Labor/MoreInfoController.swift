@@ -85,7 +85,7 @@ class MoreInfoController: UITableViewController {
         }
         if (indexPath.section == 2) {
             if (indexPath.row == 0) {
-                cell?.textLabel?.text = "New: Better Trade Tool"
+                cell?.textLabel?.text = "NEW: Better Trade Tool"
             }
         }
         /*Old code below not using now after adding the new better trade tool link
