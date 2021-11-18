@@ -49,8 +49,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     @available(iOS 9.0, *)
+    //@available(iOS 13.0, *)
     func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
         let navigationController = self.window?.rootViewController as! UINavigationController
+        if #available(iOS 13.0, *) {
+            decorateActionBar(navigationController: navigationController)
+        }
+        
         let mainViewController = navigationController.viewControllers[0] as! IndexViewController
         
         navigationController.popToRootViewController(animated: false)
@@ -61,6 +66,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else if shortcutItem.type == "OpenExploitationTypes" {
             mainViewController.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
         }
+    }
+    
+    @available(iOS 13.0, *)
+    func decorateActionBar(navigationController:UINavigationController){
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
+        navigationController.navigationBar.standardAppearance = appearance;
+        navigationController.navigationBar.scrollEdgeAppearance = navigationController.navigationBar.standardAppearance
+        
     }
 
 
