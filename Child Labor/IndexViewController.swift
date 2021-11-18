@@ -33,17 +33,25 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
             let appearance = UINavigationBarAppearance()
             appearance.configureWithOpaqueBackground()
             appearance.backgroundColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
+            appearance.titleTextAttributes = [
+                    NSAttributedString.Key.foregroundColor: UIColor.white]
+            
             self.navigationController?.navigationBar.standardAppearance = appearance;
             self.navigationController?.navigationBar.scrollEdgeAppearance = self.navigationController?.navigationBar.standardAppearance
+            navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
         }
         
         tableView.dataSource = self
         tableView.delegate = self
         
-
-        
     }
-    
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        if #available(iOS 13.0, *) {
+//            return .default
+//        }else{
+//            return .lightContent
+//        }
+//    }
 
     
     override func viewWillAppear(_ animated: Bool) {
