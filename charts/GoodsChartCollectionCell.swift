@@ -2,7 +2,7 @@
 //  GoodsChartCollectionCell.swift
 //  Child Labor
 //
-//  Created by Gostu Bhargavi on 13/05/22.
+//  
 //  Copyright © 2022 U.S. Department of Labor. All rights reserved.
 //
 

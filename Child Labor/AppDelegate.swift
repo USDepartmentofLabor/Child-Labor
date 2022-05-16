@@ -65,6 +65,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             mainViewController.performSegue(withIdentifier: "goodsSelectedFromIndex", sender: self)
         } else if shortcutItem.type == "OpenExploitationTypes" {
             mainViewController.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
+        }else if shortcutItem.type == "OpenDataVisualizations" {
+            mainViewController.performSegue(withIdentifier: "dataVisualizationsFromIndex", sender: self)
         }
     }
     

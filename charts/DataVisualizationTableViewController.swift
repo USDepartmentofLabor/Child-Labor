@@ -2,7 +2,7 @@
 //  DataVisualizationTableViewController.swift
 //  Child Labor
 //
-//  Created by Gostu Bhargavi on 12/05/22.
+//  Created by Gnanendra Kumar on 12/05/22.
 //  Copyright © 2022 U.S. Department of Labor. All rights reserved.
 //
 
