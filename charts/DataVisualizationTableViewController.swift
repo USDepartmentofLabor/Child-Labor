@@ -10,7 +10,7 @@ import UIKit
 
 enum ChartTypes: String, CaseIterable {
     
-    case proportionalChart = "ProportionalArea Chart"
+    case proportionalChart = "Proportional Area Chart"
    // case pieChart = "Pie Charts"
 }
 class DataVisualizationTableViewController: UITableViewController {

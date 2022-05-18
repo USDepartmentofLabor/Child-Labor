@@ -24,7 +24,7 @@ class ProportionalChartViewController: UIViewController {
         DataItem(title: "BRICKS", size: 2.0, color: UIColor(red: 255.0/255.0, green: 0, blue: 255.0/255.0, alpha: 1)),
         DataItem(title: "SUGARCANE", size: 1.9, color: UIColor(red: 192.0/255.0, green: 192.0/255.0, blue: 192.0/255.0, alpha: 1)),
         DataItem(title: "COTTON", size: 1.7, color: .purple),
-        DataItem(title: "COFFEE", size: 1.7, color: UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 247.0/255.0, alpha: 1)),
+        DataItem(title: "COFFEE", size: 1.7, color: UIColor(red: 240.0/255.0, green: 240.0/255.0, blue: 247.0/255.0, alpha: 1)),
         DataItem(title: "TOBACCO", size: 1.7, color: UIColor(red: 0, green: 128.0/255.0, blue: 128.0/255.0, alpha: 1)),
         DataItem(title: "CATTLE", size: 1.4, color: .green),
         DataItem(title: "FISH", size: 1.4, color: UIColor(red: 0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1)),
@@ -54,7 +54,7 @@ class ProportionalChartViewController: UIViewController {
     }
     
     func setupNavigationBar() {
-        self.title = "Proportional Chart"
+        self.title = "Proportional Area Chart"
         self.navigationController?.navigationBar.topItem?.title = " "
 
         // Navigation bar color
@@ -102,9 +102,25 @@ extension ProportionalChartViewController: UICollectionViewDelegate, UICollectio
 extension ProportionalChartViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = self.data[indexPath.row].size * minItemWidth
-        return CGSize(width: width, height: width)
-    }
+            var minWidth : CGFloat!
+            
+            switch UIDevice.current.userInterfaceIdiom {
+            case .phone:
+                minWidth = collectionView.frame.width/5
+                if UIScreen.main.bounds.height > 750 {
+                                minWidth += 10
+                            }
+                break
+            case .pad:
+                minWidth = collectionView.frame.width/6
+                break
+            @unknown default:
+                minWidth = collectionView.frame.width/5
+                break
+            }
+            let width = self.data[indexPath.row].size * minWidth
+            return CGSize(width: width, height: width)
+        }
 }
 
 public extension UIViewController {
@@ -121,3 +137,5 @@ public extension UIViewController {
         return instantiateFromNib(bundle: bundle)
     }
 }
+
+

@@ -1,9 +1,10 @@
 
 #import "CirclesLayout.h"
 
-#define kMinSpaceBetweenCircles 10
+#define kMinSpaceBetweenCircles 2
 #define kMaxPredecessorNum 10 // USED FOR OPTIMIZATION. TO AVOID ITERATING OVER ALL PREDECESSORS EVERY TIME. ADAPT THIS NUMBER BASED ON THE CIRCLE SIZE AND SCREEN DIMENSIONS
-#define kPositionIncrement 5
+#define kPositionIncrement 2
+
 
 @implementation CirclesLayout
 
