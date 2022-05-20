@@ -18,6 +18,12 @@
 		06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
+		1334AC7B2832B76B000F647E /* ProportionalChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1334AC752832B76B000F647E /* ProportionalChartViewController.xib */; };
+		1334AC7C2832B76B000F647E /* CirclesLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC762832B76B000F647E /* CirclesLayout.m */; };
+		1334AC7D2832B76B000F647E /* GoodsChartCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */; };
+		1334AC7E2832B76B000F647E /* DataVisualizationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */; };
+		1334AC7F2832B76B000F647E /* ProportionalChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */; };
+		13840007282965170072C737 /* ProportionalChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13840006282965160072C737 /* ProportionalChartController.swift */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
 		139AC81F2332509A002420FF /* Moldova-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8142332509A002420FF /* Moldova-map.png */; };
@@ -1117,6 +1123,13 @@
 		06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gambia, The.pdf"; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
+		1334AC752832B76B000F647E /* ProportionalChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProportionalChartViewController.xib; sourceTree = "<group>"; };
+		1334AC762832B76B000F647E /* CirclesLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclesLayout.m; sourceTree = "<group>"; };
+		1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsChartCollectionCell.swift; sourceTree = "<group>"; };
+		1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVisualizationTableViewController.swift; sourceTree = "<group>"; };
+		1334AC792832B76B000F647E /* CirclesLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesLayout.h; sourceTree = "<group>"; };
+		1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProportionalChartViewController.swift; sourceTree = "<group>"; };
+		13840006282965160072C737 /* ProportionalChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalChartController.swift; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
 		139AC8142332509A002420FF /* Moldova-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Moldova-map.png"; sourceTree = "<group>"; };
@@ -2236,6 +2249,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1334AC742832B76B000F647E /* charts */ = {
+			isa = PBXGroup;
+			children = (
+				1334AC752832B76B000F647E /* ProportionalChartViewController.xib */,
+				1334AC762832B76B000F647E /* CirclesLayout.m */,
+				1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */,
+				1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */,
+				1334AC792832B76B000F647E /* CirclesLayout.h */,
+				1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */,
+			);
+			path = charts;
+			sourceTree = SOURCE_ROOT;
+		};
 		8303DEE31B41F20300E4FD42 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
@@ -3303,6 +3329,7 @@
 		83800C791AA4D40300DD47EB /* Child Labor */ = {
 			isa = PBXGroup;
 			children = (
+				1334AC742832B76B000F647E /* charts */,
 				83800C7C1AA4D40300DD47EB /* AppDelegate.swift */,
 				EDFB0DCE2136ED6E00A76D52 /* PakistanTableViewController.swift */,
 				38FD161D1D18BEC400AE65F6 /* AutoTableViewController.swift */,
@@ -3341,6 +3368,7 @@
 				067DBC98268A417100D6EE20 /* ProjectTableViewCell.xib */,
 				06384D2B26AB102C004232E2 /* String+Link.swift */,
 				06607B2726B04EB500A9152F /* String+height.swift */,
+				13840006282965160072C737 /* ProportionalChartController.swift */,
 			);
 			path = "Child Labor";
 			sourceTree = "<group>";
@@ -3790,6 +3818,7 @@
 				835618481BD7DE79007BCF75 /* El Salvador.pdf in Resources */,
 				83B3E98C1B3B519300742BC7 /* forced-child-labor@2x.png in Resources */,
 				83AD13ED1B669137004B92D3 /* icons_Zinc-33@2x.png in Resources */,
+				1334AC7B2832B76B000F647E /* ProportionalChartViewController.xib in Resources */,
 				38CA954D1D4FF4F200319316 /* icons_Potatoes.png in Resources */,
 				83AD128B1B668E71004B92D3 /* icons_Grapes-33@3x.png in Resources */,
 				8310FF061ABB11310025F7AE /* Panama.png in Resources */,
@@ -4578,6 +4607,7 @@
 			files = (
 				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
+				1334AC7F2832B76B000F647E /* ProportionalChartViewController.swift in Sources */,
 				38E3E7DB1D5A899500E0724A /* LegalStandardsMultiTableViewController.swift in Sources */,
 				38BC75361CEECBBD00C53216 /* CoordTableViewController.swift in Sources */,
 				38FD161E1D18BEC400AE65F6 /* AutoTableViewController.swift in Sources */,
@@ -4598,11 +4628,15 @@
 				067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */,
 				06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */,
 				83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */,
+				1334AC7D2832B76B000F647E /* GoodsChartCollectionCell.swift in Sources */,
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
+				13840007282965170072C737 /* ProportionalChartController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
+				1334AC7E2832B76B000F647E /* DataVisualizationTableViewController.swift in Sources */,
 				38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,
 				06607B2826B04EB500A9152F /* String+height.swift in Sources */,
+				1334AC7C2832B76B000F647E /* CirclesLayout.m in Sources */,
 				EDE89E8A213836BD00A70A00 /* TanzaniaTableViewController.swift in Sources */,
 				ED8FC8121F50AA350030B75A /* SimilarAppTableViewController.swift in Sources */,
 				06384D2C26AB102C004232E2 /* String+Link.swift in Sources */,
