@@ -12,7 +12,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
 
     @IBOutlet weak var tableView: UITableView!
     
-   var menuItems = ["Countries/Areas", "Goods", "Exploitation Types" ]
+   var menuItems = ["Countries/Areas", "Goods", "Exploitation Types","Data Visualizations" ]
     
     @IBOutlet weak var dol_button: UIButton!
     @IBOutlet weak var ilab_button: UIButton!
@@ -104,8 +104,10 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
             self.performSegue(withIdentifier: "countriesSelectedFromIndex", sender: self)
         case 1:
             self.performSegue(withIdentifier: "goodsSelectedFromIndex", sender: self)
-        default:
+        case 2:
             self.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
+        default:
+            self.performSegue(withIdentifier: "DataVisualizationsSelectedFromIndex", sender: self)
         }
     }
 
