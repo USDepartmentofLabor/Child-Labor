@@ -23,6 +23,12 @@
 		1334AC7D2832B76B000F647E /* GoodsChartCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */; };
 		1334AC7E2832B76B000F647E /* DataVisualizationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */; };
 		1334AC7F2832B76B000F647E /* ProportionalChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */; };
+		1334AC91283BC367000F647E /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC8C283BC367000F647E /* PieChartViewController.swift */; };
+		1334AC92283BC367000F647E /* CustomColorCodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1334AC8D283BC367000F647E /* CustomColorCodeCollectionViewCell.xib */; };
+		1334AC93283BC367000F647E /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1334AC8E283BC367000F647E /* PieChartViewController.xib */; };
+		1334AC94283BC367000F647E /* CircularSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC8F283BC367000F647E /* CircularSliceView.swift */; };
+		1334AC95283BC367000F647E /* CustomColorCodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC90283BC367000F647E /* CustomColorCodeCollectionViewCell.swift */; };
+		1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC96283BC372000F647E /* CustomExtensions.swift */; };
 		13840007282965170072C737 /* ProportionalChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13840006282965160072C737 /* ProportionalChartController.swift */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
@@ -1129,6 +1135,12 @@
 		1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVisualizationTableViewController.swift; sourceTree = "<group>"; };
 		1334AC792832B76B000F647E /* CirclesLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesLayout.h; sourceTree = "<group>"; };
 		1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProportionalChartViewController.swift; sourceTree = "<group>"; };
+		1334AC8C283BC367000F647E /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		1334AC8D283BC367000F647E /* CustomColorCodeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomColorCodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		1334AC8E283BC367000F647E /* PieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartViewController.xib; sourceTree = "<group>"; };
+		1334AC8F283BC367000F647E /* CircularSliceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSliceView.swift; sourceTree = "<group>"; };
+		1334AC90283BC367000F647E /* CustomColorCodeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorCodeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1334AC96283BC372000F647E /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
 		13840006282965160072C737 /* ProportionalChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalChartController.swift; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
@@ -2252,12 +2264,17 @@
 		1334AC742832B76B000F647E /* charts */ = {
 			isa = PBXGroup;
 			children = (
+				1334AC8F283BC367000F647E /* CircularSliceView.swift */,
+				1334AC90283BC367000F647E /* CustomColorCodeCollectionViewCell.swift */,
+				1334AC8D283BC367000F647E /* CustomColorCodeCollectionViewCell.xib */,
+				1334AC8C283BC367000F647E /* PieChartViewController.swift */,
+				1334AC8E283BC367000F647E /* PieChartViewController.xib */,
+				1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */,
 				1334AC752832B76B000F647E /* ProportionalChartViewController.xib */,
 				1334AC762832B76B000F647E /* CirclesLayout.m */,
 				1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */,
 				1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */,
 				1334AC792832B76B000F647E /* CirclesLayout.h */,
-				1334AC7A2832B76B000F647E /* ProportionalChartViewController.swift */,
 			);
 			path = charts;
 			sourceTree = SOURCE_ROOT;
@@ -3329,6 +3346,7 @@
 		83800C791AA4D40300DD47EB /* Child Labor */ = {
 			isa = PBXGroup;
 			children = (
+				1334AC96283BC372000F647E /* CustomExtensions.swift */,
 				1334AC742832B76B000F647E /* charts */,
 				83800C7C1AA4D40300DD47EB /* AppDelegate.swift */,
 				EDFB0DCE2136ED6E00A76D52 /* PakistanTableViewController.swift */,
@@ -4130,6 +4148,7 @@
 				8310FE981ABB11310025F7AE /* China.png in Resources */,
 				8335AF7C1B667963000748F0 /* icons_Tin.png in Resources */,
 				83AD128F1B668E71004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@3x.png in Resources */,
+				1334AC93283BC367000F647E /* PieChartViewController.xib in Resources */,
 				8335AF5E1B667963000748F0 /* icons_Peanuts.png in Resources */,
 				8323630D1AF6737000FA8B55 /* South_Sudan.png in Resources */,
 				8335AF841B667E30000748F0 /* icons_Beans_(green,_soy,_yellow).png in Resources */,
@@ -4340,6 +4359,7 @@
 				83AD138B1B669137004B92D3 /* icons_Dried_Fish-33@2x.png in Resources */,
 				83AD12791B668E71004B92D3 /* icons_Fireworks-33@3x.png in Resources */,
 				8356183C1BD7DE79007BCF75 /* Colombia.pdf in Resources */,
+				1334AC92283BC367000F647E /* CustomColorCodeCollectionViewCell.xib in Resources */,
 				8356182D1BD7DE79007BCF75 /* Bolivia.pdf in Resources */,
 				835618391BD7DE79007BCF75 /* Chile.pdf in Resources */,
 				8310FEE01ABB11310025F7AE /* Luxembourg.png in Resources */,
@@ -4605,6 +4625,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */,
 				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
 				1334AC7F2832B76B000F647E /* ProportionalChartViewController.swift in Sources */,
@@ -4623,13 +4644,16 @@
 				83263FC61B14CD5000F7F71D /* IndexViewController.swift in Sources */,
 				38BC75321CE99C9200C53216 /* EnforcementTableViewController.swift in Sources */,
 				8364BBA91B3CC67C008C547A /* SWXMLHash.swift in Sources */,
+				1334AC95283BC367000F647E /* CustomColorCodeCollectionViewCell.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
 				83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */,
 				067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */,
 				06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */,
 				83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */,
 				1334AC7D2832B76B000F647E /* GoodsChartCollectionCell.swift in Sources */,
+				1334AC91283BC367000F647E /* PieChartViewController.swift in Sources */,
 				834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */,
+				1334AC94283BC367000F647E /* CircularSliceView.swift in Sources */,
 				13840007282965170072C737 /* ProportionalChartController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
 				1334AC7E2832B76B000F647E /* DataVisualizationTableViewController.swift in Sources */,
