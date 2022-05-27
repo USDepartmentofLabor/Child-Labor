@@ -11,7 +11,8 @@ import UIKit
 enum ChartTypes: String, CaseIterable {
     
     case proportionalChart = "Proportional Area Chart"
-    case pieChart = "Goods By Sector And Region"
+    case pieChart = "Pie Charts"
+    case pieCountryChart = "Country wise Data"
 }
 class DataVisualizationTableViewController: UITableViewController {
    
@@ -99,9 +100,12 @@ extension DataVisualizationTableViewController {
             vc = ProportionalChartViewController.loadFromNib()
             break
         case .pieChart:
-            vc = PieChartViewController.loadFromNib()
+            vc = PieChartViewController(chartType: .goodsSectorType)
             break
-        default:
+        case .pieCountryChart:
+            vc = PieChartViewController(chartType: .countryRegionType)
+            break
+        @unknown default:
             vc = ProportionalChartViewController.loadFromNib()
             break
         }
@@ -113,13 +117,3 @@ extension DataVisualizationTableViewController {
 }
 
 
-
-@IBDesignable extension UIView {
-    @IBInspectable var cornerRadius: CGFloat {
-        get { return layer.cornerRadius }
-        set {
-              layer.cornerRadius = newValue
-              layer.masksToBounds = (newValue > 0)
-        }
-    }
-}

@@ -29,6 +29,8 @@
 		1334AC94283BC367000F647E /* CircularSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC8F283BC367000F647E /* CircularSliceView.swift */; };
 		1334AC95283BC367000F647E /* CustomColorCodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC90283BC367000F647E /* CustomColorCodeCollectionViewCell.swift */; };
 		1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC96283BC372000F647E /* CustomExtensions.swift */; };
+		1334AC992841028D000F647E /* GoodsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC982841028C000F647E /* GoodsParser.swift */; };
+		1334AC9B28410338000F647E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC9A28410338000F647E /* Constants.swift */; };
 		13840007282965170072C737 /* ProportionalChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13840006282965160072C737 /* ProportionalChartController.swift */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
@@ -1141,6 +1143,8 @@
 		1334AC8F283BC367000F647E /* CircularSliceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSliceView.swift; sourceTree = "<group>"; };
 		1334AC90283BC367000F647E /* CustomColorCodeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColorCodeCollectionViewCell.swift; sourceTree = "<group>"; };
 		1334AC96283BC372000F647E /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
+		1334AC982841028C000F647E /* GoodsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsParser.swift; sourceTree = "<group>"; };
+		1334AC9A28410338000F647E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		13840006282965160072C737 /* ProportionalChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalChartController.swift; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
@@ -3347,6 +3351,8 @@
 			isa = PBXGroup;
 			children = (
 				1334AC96283BC372000F647E /* CustomExtensions.swift */,
+				1334AC982841028C000F647E /* GoodsParser.swift */,
+				1334AC9A28410338000F647E /* Constants.swift */,
 				1334AC742832B76B000F647E /* charts */,
 				83800C7C1AA4D40300DD47EB /* AppDelegate.swift */,
 				EDFB0DCE2136ED6E00A76D52 /* PakistanTableViewController.swift */,
@@ -4637,6 +4643,7 @@
 				EDED05321F3A592800C611C2 /* LegalStandardsWrapperViewController.swift in Sources */,
 				38CA95401D4FC4F000319316 /* LegalStandardsTableViewController.swift in Sources */,
 				83EF039E1B4D943200C2AECE /* GoodController.swift in Sources */,
+				1334AC992841028D000F647E /* GoodsParser.swift in Sources */,
 				834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */,
 				834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */,
 				83B1DE3D1AAD3BB100E06742 /* CountriesTableViewController.swift in Sources */,
@@ -4647,6 +4654,7 @@
 				1334AC95283BC367000F647E /* CustomColorCodeCollectionViewCell.swift in Sources */,
 				83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */,
 				83EF03A21B4D9DE200C2AECE /* CountryController.swift in Sources */,
+				1334AC9B28410338000F647E /* Constants.swift in Sources */,
 				067DBC99268A417100D6EE20 /* ProjectTableViewCell.swift in Sources */,
 				06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */,
 				83A3B1181B6BCACB002380E6 /* InfoViewController.swift in Sources */,

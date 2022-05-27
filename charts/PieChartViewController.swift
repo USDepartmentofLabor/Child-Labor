@@ -8,12 +8,16 @@ struct CountryRegionItem: Identifiable {
     var color: UIColor
 }
 
-enum GoodsSectors: String, CaseIterable {
-
+enum GoodsSector : String, CaseIterable {
     case agriculture = "Agriculture"
     case manufacturing = "Manufacturing"
     case mining = "Mining"
     case other = "Other"
+}
+
+enum ChartDataType: String {
+    case goodsSectorType
+    case countryRegionType
 }
 
 class PieChartViewController: UIViewController {
@@ -22,8 +26,13 @@ class PieChartViewController: UIViewController {
     @IBOutlet weak var goodsSegments : UISegmentedControl!
     
     @IBOutlet weak var colorCodesCollectionView : UICollectionView!
+    @IBOutlet weak var segmentHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
+
+    private(set) var chartDataType: ChartDataType?
     private(set) var leadingSpace = UIDevice.isIPad() ? 16.0 : 10.0
         
+    
     private let countryRegionArray: [CountryRegionItem] = [
         CountryRegionItem(title: "Europe and Eurasia", color: UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1)),
         CountryRegionItem(title: "Indo-Pacific", color: UIColor(red: 147.0/255.0, green: 78.0/255.0, blue: 80.0/255.0, alpha: 1)),
@@ -35,6 +44,19 @@ class PieChartViewController: UIViewController {
     
     var goodsSectors = Dictionary<String, Any>()
     
+    //MARK: - Initialisation methods.
+    /// Convenience init declaration
+    required convenience init?(coder: NSCoder) {
+        self.init(coder: coder)
+    }
+    
+    /// Convenience delcaration for charttype view initialization.
+    convenience init(chartType: ChartDataType? = nil) {
+        self.init(nibName: "PieChartViewController",
+                  bundle: Bundle(for: PieChartViewController.self))
+        self.chartDataType = chartType
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,20 +64,23 @@ class PieChartViewController: UIViewController {
         self.setupCollectionView()
         self.setupNavigationBar()
         self.parseGoodsData()
+        if !(self.chartDataType == .goodsSectorType) {
+            self.goodsSegments.isHidden = true
+            self.segmentHeightConstraint.constant = 0
+        }
     }
     
-    func setupCollectionView() {
+    private func setupCollectionView() {
         self.colorCodesCollectionView.layer.borderColor = UIColor.black.cgColor
         self.colorCodesCollectionView.layer.borderWidth = 2
         
         self.colorCodesCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "DefaultCollectionCell")
         self.colorCodesCollectionView.register(UINib(nibName:"CustomColorCodeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CustomColorCodeCollectionViewCell")
-        
     }
     
-    func setupNavigationBar() {
+    private func setupNavigationBar() {
         
-        self.title = "Goods By Sector And Region"
+        self.title = (self.chartDataType == .goodsSectorType) ? "Goods Data" : "Country Data"
         // Navigation bar color
         self.navigationController?.navigationBar.topItem?.title = " "
         
@@ -78,58 +103,77 @@ class PieChartViewController: UIViewController {
     func setupPieChartView(segmentInfo: Dictionary<String, Any>) {
         circularPieView.segments.removeAll()
         
-        var segments = [Segment]()
-        
-        for (_, goodsSector) in segmentInfo.keys.enumerated() {
-            if let value = segmentInfo[goodsSector] as? Int {
-                let filterdRegion = countryRegionArray.filter { $0.title.contains(goodsSector) }
-                let regionColor = (filterdRegion.count > 0) ? filterdRegion[0].color : .randomColor()
-                let segement = Segment.init(color: regionColor, value: CGFloat(value), title : goodsSector)
-                segments.append(segement)
-            }
+        switch self.chartDataType {
+        case .countryRegionType:
+            filterSegmentDataWithCountryRegion()
+            break
+        case .goodsSectorType:
+            filterSegementDataWithGoodsSector(segmentInfo: segmentInfo)
+            break
+        case .none:
+            break
         }
-        circularPieView.segments = segments
-    }
-    
-    func parseGoodsData() {
-        let urlPath = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        goodsXML = SWXMLHash.parse(contents! as String)
         
-        for good in goodsXML["Goods"]["Good"].all {
-            if let goodsSector = good["Good_Sector"].element?.text {
-                
-                for country in good["Countries"]["Country"].all {
-                    if  let countryRegion  = country["Country_Region"].element?.text, !countryRegion.isEmpty {
-                        
-                        if var currentSector = self.goodsSectors[goodsSector] as? Dictionary<String, Any> {
-                            if var regionInfo = currentSector[countryRegion] as? Int {
-                                regionInfo += 1
-                                currentSector[countryRegion] = regionInfo
-                            } else {
-                                currentSector[countryRegion] = 1
-                            }
-                            self.goodsSectors[goodsSector] = currentSector
-                        } else {
-                            self.goodsSectors[goodsSector] = [countryRegion : 1]
-                        }
-                    }
+        func filterSegmentDataWithCountryRegion() {
+            
+            var segments = [Segment]()
+            
+            let filteredGoodsData = self.goodsSectors.reduce(into: [String: [String: Int]]()) { partialResult, current in
+                let date = current.key
+                let dayRates = current.value
+                (dayRates as! Dictionary<String, Any>).forEach { aDayRate in
+                    var currencyRates = partialResult[aDayRate.key, default: [:]]
+                    currencyRates[date] = aDayRate.value as? Int
+                    partialResult[aDayRate.key] = currencyRates
                 }
             }
+            
+            for countryRegion in self.countryRegionArray {
+                if let regionGoods = filteredGoodsData[countryRegion.title] {
+                    var sum = 0
+                    for goodsSectorKey in regionGoods.keys {
+                        sum += regionGoods[goodsSectorKey] ?? 0
+                    }
+                    
+                    let filterdRegion = countryRegionArray.filter { $0.title.contains(countryRegion.title) }
+                    let regionColor = (filterdRegion.count > 0) ? filterdRegion[0].color : .randomColor()
+                    let segement = Segment.init(color: regionColor, value: CGFloat(sum), title : countryRegion.title)
+                    segments.append(segement)
+                }
+            }
+            circularPieView.segments = segments
         }
-        self.setupSegmentControl()
+        
+        func filterSegementDataWithGoodsSector(segmentInfo: Dictionary<String, Any>) {
+            var segments = [Segment]()
+            
+            for (_, goodsSector) in segmentInfo.keys.enumerated() {
+                if let value = segmentInfo[goodsSector] as? Int {
+                    let filterdRegion = countryRegionArray.filter { $0.title.contains(goodsSector) }
+                    let regionColor = (filterdRegion.count > 0) ? filterdRegion[0].color : .randomColor()
+                    let segement = Segment.init(color: regionColor, value: CGFloat(value), title : goodsSector)
+                    segments.append(segement)
+                }
+            }
+            circularPieView.segments = segments
+        }
         
     }
+
+    private func parseGoodsData() {
+        let parserModel = GoodsParser()
+        parserModel.onCompletionGoodsParsing = { [weak self] goodsData in
+            guard let self = self else { return }
+            self.goodsSectors = goodsData as [String : Any]
+            self.setupSegmentControl()
+        }
+        parserModel.parseGoodsData()
+    }
     
-    func setupSegmentControl() {
+    private func setupSegmentControl() {
         self.goodsSegments.removeAllSegments()
         
-        for segmentName in GoodsSectors.allCases.reversed() {
+        for segmentName in GoodsSector.allCases.reversed() {
             self.goodsSegments.insertSegment(withTitle: segmentName.rawValue, at: 0, animated: true)
         }
         self.goodsSegments.selectedSegmentIndex = 0
@@ -142,20 +186,16 @@ class PieChartViewController: UIViewController {
                 }
             }
         }
-        
-        var segmentFrame = self.goodsSegments.frame
-        segmentFrame.size.height = 60
-        self.goodsSegments.frame = segmentFrame
-        
+        self.goodsSegments.apportionsSegmentWidthsByContent = true
         self.refreshChartInfo()
     }
     
-    func refreshChartInfo() {
+    private func refreshChartInfo() {
         if let selectedSegment = self.goodsSegments.titleForSegment(at: self.goodsSegments.selectedSegmentIndex), let chartInfo = self.goodsSectors[selectedSegment] as? Dictionary<String, Any> {
             self.setupPieChartView(segmentInfo: chartInfo)
         }
     }
-    
+
     @IBAction func refreshGoodsSection(_ sender: UISegmentedControl) {
         self.refreshChartInfo()
     }
@@ -189,8 +229,8 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
             size = self.getIpadSize(with: leadingSpace)
         } else {
             let screenWidth = UIScreen.main.bounds.size.width
-            let cellDimension = (screenWidth) - leadingSpace
-            size = CGSize(width: cellDimension, height: 30)
+            let cellDimension = screenWidth - leadingSpace
+            size = CGSize(width: cellDimension, height: 40)
         }
         
         return size
@@ -200,10 +240,10 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
         let deviceWidth = UIScreen.main.bounds.size.width
         var size = CGSize.zero
         let currentOrientation = UIDevice.current.currentOrientation
-        let portraitDimension = (deviceWidth / 2.0) - lineSpacing
-        let landScapeDimension = (deviceWidth / 3.0) - lineSpacing
-        let portraitSize = CGSize(width: portraitDimension, height: 30)
-        let landscapeSize = CGSize(width: landScapeDimension, height: 30)
+        let portraitDimension = deviceWidth - lineSpacing
+        let landScapeDimension = deviceWidth - lineSpacing
+        let portraitSize = CGSize(width: portraitDimension, height: 60)
+        let landscapeSize = CGSize(width: landScapeDimension, height: 60)
         switch currentOrientation {
         case .portrait, .portraitUpsideDown:
             size = portraitSize
@@ -212,4 +252,22 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
         }
         return size
     }
+    
+    static func getDictValue(dict:[String: Any], path:String)->Any?{
+           let arr = path.components(separatedBy: ".")
+           if(arr.count == 1){
+               return dict[String(arr[0])]
+           }
+           else if (arr.count > 1){
+               let p = arr[1...arr.count-1].joined(separator: ".")
+               let d = dict[String(arr[0])] as? [String: Any]
+               if (d != nil){
+                   return getDictValue(dict:d!, path:p)
+               }
+           }
+           return nil
+       }
+
 }
+
+
