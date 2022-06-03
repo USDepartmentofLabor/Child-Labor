@@ -11,7 +11,8 @@ import UIKit
 enum ChartTypes: String, CaseIterable {
     
     case proportionalChart = "Proportional Area Chart"
-   // case pieChart = "Pie Charts"
+    case pieChart = "Pie Charts"
+    case pieCountryChart = "Country wise Data"
 }
 class DataVisualizationTableViewController: UITableViewController {
    
@@ -91,25 +92,24 @@ extension DataVisualizationTableViewController {
      
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-//        let OrdersVC = self.storyboard?.instantiateViewController(withIdentifier: "ProportionalChartViewController") as! ProportionalChartViewController
-//        _ = OrdersVC.view
-//      self.navigationController?.pushViewController(OrdersVC, animated: true)
-
         let vc: UIViewController?
-/*
-        switch ChartTypes(rawValue: indexPath.row) {
+        let chartType = ChartTypes.allCases[indexPath.row]
+
+        switch chartType {
         case .proportionalChart:
-            vc = ProportionalChartViewController()
+            vc = ProportionalChartViewController.loadFromNib()
             break
         case .pieChart:
-            vc = PieChartViewController()
+            vc = PieChartViewController(chartType: .goodsSectorType)
             break
-        default:
-            vc = ProportionalChartViewController()
+        case .pieCountryChart:
+            vc = PieChartViewController(chartType: .countryRegionType)
+            break
+        @unknown default:
+            vc = ProportionalChartViewController.loadFromNib()
             break
         }
- */
-        vc = ProportionalChartViewController.loadFromNib()
+ 
         guard let viewController = vc else { return }
         navigationController?.pushViewController(viewController, animated: true)
 
@@ -117,13 +117,3 @@ extension DataVisualizationTableViewController {
 }
 
 
-
-@IBDesignable extension UIView {
-    @IBInspectable var cornerRadius: CGFloat {
-        get { return layer.cornerRadius }
-        set {
-              layer.cornerRadius = newValue
-              layer.masksToBounds = (newValue > 0)
-        }
-    }
-}

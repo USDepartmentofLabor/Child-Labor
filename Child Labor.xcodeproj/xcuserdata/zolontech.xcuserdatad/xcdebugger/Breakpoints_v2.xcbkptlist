@@ -7,32 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B1351C3D-4325-44D0-911A-A13330D82533"
-            shouldBeEnabled = "Yes"
+            uuid = "557DAF08-00E1-42BB-BD22-F46D6C2637A5"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ExploitationTableViewController.swift"
+            filePath = "Child Labor/GoodsParser.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "404"
-            endingLineNumber = "404"
-            landmarkName = "prepare(for:sender:)"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "parseGoodsData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B813AF7C-9FC7-4430-A09E-8008F7230C6A"
+            uuid = "09BC4BD0-9DE2-4AE3-AA45-0CE23557412F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Child Labor/IndexViewController.swift"
+            filePath = "charts/PieChartViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "setupPieChartView(segmentInfo:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomColorCodeCollectionViewCell" id="47L-pL-WcC" customClass="CustomColorCodeCollectionViewCell" customModule="Child_Labor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="171" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Q1x-8E-DBE">
+                <rect key="frame" x="0.0" y="0.0" width="171" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHN-sx-om6">
+                        <rect key="frame" x="10" y="10" width="50" height="20"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="aP7-TD-UUG"/>
+                            <constraint firstAttribute="width" constant="50" id="aX2-PY-rll"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qM8-PD-aLM">
+                        <rect key="frame" x="65" y="7.5" width="96" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="KTr-Sa-3zk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qM8-PD-aLM" secondAttribute="trailing" constant="10" id="5xJ-mP-cNl"/>
+                    <constraint firstItem="qM8-PD-aLM" firstAttribute="centerY" secondItem="Q1x-8E-DBE" secondAttribute="centerY" id="6LQ-hG-WBU"/>
+                    <constraint firstItem="jHN-sx-om6" firstAttribute="centerY" secondItem="Q1x-8E-DBE" secondAttribute="centerY" id="Pml-w2-xH4"/>
+                    <constraint firstItem="qM8-PD-aLM" firstAttribute="leading" secondItem="jHN-sx-om6" secondAttribute="trailing" constant="5" id="fcH-c3-vtg"/>
+                    <constraint firstItem="jHN-sx-om6" firstAttribute="leading" secondItem="Q1x-8E-DBE" secondAttribute="leading" constant="10" id="ysN-5X-pn7"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="171" height="50"/>
+            <connections>
+                <outlet property="colorCodeLbl" destination="jHN-sx-om6" id="Mt9-Ev-Gbk"/>
+                <outlet property="lblTitle" destination="qM8-PD-aLM" id="uBg-C8-YxU"/>
+            </connections>
+            <point key="canvasLocation" x="225.36231884057972" y="87.723214285714278"/>
+        </collectionViewCell>
+    </objects>
+</document>
