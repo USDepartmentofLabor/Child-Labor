@@ -24,7 +24,7 @@ class DataVisualizationTableViewController: UITableViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.title = "DataVisualization Types"
+        self.title = "Data Visualizations"
     }
     
     func sendGAIEvent() {

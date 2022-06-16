@@ -91,12 +91,11 @@ class PieChartViewController: UIViewController {
             self.countryTitleLabel.text = "No Data Available"
             self.countryTitleLabel.frame = CGRect(x: 0, y: self.view.frame.height/2 , width: self.view.frame.width, height: 40)
             self.countryTitleLabel.center = self.view.center
-
             if self.workingStatistics?.count ?? 0 > 0 {
                 self.countryTitleLabel.text = "\(countryName) Statistics"
 
                 circularPieView.segments = self.workingStatistics ?? [Segment]()
-                self.countryTitleLabel.frame = CGRect(x: 0, y: circularPieView.frame.minY , width: self.view.frame.width, height: 40)
+                self.countryTitleLabel.frame = CGRect(x: 0, y: circularPieView.frame.minY - 30 , width: self.view.frame.width, height: 40) 
             }
             self.view.addSubview(self.countryTitleLabel)
 
