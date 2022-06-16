@@ -18,9 +18,19 @@ enum GoodsSector : String, CaseIterable {
 enum ChartDataType: String {
     case goodsSectorType
     case countryRegionType
+    case workingStatistics
 }
 
 class PieChartViewController: UIViewController {
+    
+    private lazy var countryTitleLabel: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        label.textColor = .black
+        label.font = UIFont.systemFont(ofSize:16)
+        return label
+    }()
     
     @IBOutlet weak var circularPieView : CircularSliceView!
     @IBOutlet weak var goodsSegments : UISegmentedControl!
@@ -29,6 +39,9 @@ class PieChartViewController: UIViewController {
     @IBOutlet weak var segmentHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
 
+    var isFromWorkingStatistics: Bool = false
+    var countryName: String = ""
+    var workingStatistics: [Segment]?
     private(set) var chartDataType: ChartDataType?
     private(set) var leadingSpace = UIDevice.isIPad() ? 16.0 : 10.0
         
@@ -63,16 +76,41 @@ class PieChartViewController: UIViewController {
         self.view.backgroundColor = .white
         self.setupCollectionView()
         self.setupNavigationBar()
-        self.parseGoodsData()
+        if !isFromWorkingStatistics {
+            self.parseGoodsData()
+        }
         if !(self.chartDataType == .goodsSectorType) {
             self.goodsSegments.isHidden = true
             self.segmentHeightConstraint.constant = 0
         }
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if isFromWorkingStatistics {
+            self.title = "Working Statistics"
+            self.countryTitleLabel.text = "No Data Available"
+            self.countryTitleLabel.frame = CGRect(x: 0, y: self.view.frame.height/2 , width: self.view.frame.width, height: 40)
+            self.countryTitleLabel.center = self.view.center
+
+            if self.workingStatistics?.count ?? 0 > 0 {
+                self.countryTitleLabel.text = "\(countryName) Statistics"
+
+                circularPieView.segments = self.workingStatistics ?? [Segment]()
+                self.countryTitleLabel.frame = CGRect(x: 0, y: circularPieView.frame.minY , width: self.view.frame.width, height: 40)
+            }
+            self.view.addSubview(self.countryTitleLabel)
+
+        }
+    }
     
     private func setupCollectionView() {
+        
         self.colorCodesCollectionView.layer.borderColor = UIColor.black.cgColor
         self.colorCodesCollectionView.layer.borderWidth = 2
+        if isFromWorkingStatistics {
+            self.colorCodesCollectionView.layer.borderColor = UIColor.clear.cgColor
+            self.colorCodesCollectionView.layer.borderWidth = 0
+        }
         
         self.colorCodesCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "DefaultCollectionCell")
         self.colorCodesCollectionView.register(UINib(nibName:"CustomColorCodeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CustomColorCodeCollectionViewCell")
@@ -80,7 +118,8 @@ class PieChartViewController: UIViewController {
     
     private func setupNavigationBar() {
         
-        self.title = (self.chartDataType == .goodsSectorType) ? "Goods Data" : "Country Data"
+        self.title = (self.chartDataType == .goodsSectorType) ? ChartTypes.goodsBySector.rawValue : ChartTypes.goodsByRegion.rawValue
+        
         // Navigation bar color
         self.navigationController?.navigationBar.topItem?.title = " "
         
@@ -110,8 +149,11 @@ class PieChartViewController: UIViewController {
         case .goodsSectorType:
             filterSegementDataWithGoodsSector(segmentInfo: segmentInfo)
             break
-        case .none:
+        case .workingStatistics:
             break
+        case .none:
+                break
+        
         }
         
         func filterSegmentDataWithCountryRegion() {
@@ -206,7 +248,7 @@ class PieChartViewController: UIViewController {
 extension PieChartViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return countryRegionArray.count
+        return isFromWorkingStatistics ? (self.workingStatistics?.count ?? 0) :  countryRegionArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -216,8 +258,10 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
         guard let colorCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomColorCodeCollectionViewCell", for: indexPath) as? CustomColorCodeCollectionViewCell else {
             return cell
         }
-        colorCell.lblTitle.text = countryRegionArray[indexPath.item].title
-        colorCell.colorCodeLbl.backgroundColor = countryRegionArray[indexPath.item].color
+        let title = isFromWorkingStatistics ? self.workingStatistics?[indexPath.item].title : countryRegionArray[indexPath.item].title
+        let color = isFromWorkingStatistics ? self.workingStatistics?[indexPath.item].color : countryRegionArray[indexPath.item].color
+        colorCell.lblTitle.text = title
+        colorCell.colorCodeLbl.backgroundColor = color
         
         return colorCell
     }
@@ -242,8 +286,8 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
         let currentOrientation = UIDevice.current.currentOrientation
         let portraitDimension = deviceWidth - lineSpacing
         let landScapeDimension = deviceWidth - lineSpacing
-        let portraitSize = CGSize(width: portraitDimension, height: 60)
-        let landscapeSize = CGSize(width: landScapeDimension, height: 60)
+        let portraitSize = CGSize(width: portraitDimension, height: 50)
+        let landscapeSize = CGSize(width: landScapeDimension, height: 50)
         switch currentOrientation {
         case .portrait, .portraitUpsideDown:
             size = portraitSize

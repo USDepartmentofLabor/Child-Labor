@@ -21,6 +21,8 @@ class StatisticsTableViewController: UITableViewController {
     @IBOutlet weak var combiningWorkAndSchoolLabel: UILabel!
     @IBOutlet weak var primaryCompletionRateLabel: UILabel!
     
+    var analyticsData: [Segment] = [Segment]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +37,8 @@ class StatisticsTableViewController: UITableViewController {
         tracker?.set(kGAIScreenName, value: "Statistics Screen")
         tracker?.send(GAIDictionaryBuilder.createAppView().build() as? [AnyHashable: Any])
         
+        self.addTableViewFooter()
+
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
@@ -59,9 +63,6 @@ class StatisticsTableViewController: UITableViewController {
                                     if percentageWorking.text != "" {
                                         if ageRange.text != "" {
                                             var numberWithCommas = "0"
-                                            
-                                            
-                                            
                                             
                                             if ((totalWorking.text != nil && totalWorking.text != "")) {
                                                 let largeNumber = Int(String(format: "%.f", (totalWorking.text as NSString).floatValue))
@@ -109,6 +110,12 @@ class StatisticsTableViewController: UITableViewController {
                         if agriculturePercentage.text != "" {
                             agricultureLabel.text = String(format: "%.1f", (agriculturePercentage.text as NSString).floatValue * 100.0) + "%"
                             agricultureLabel.textColor = UIColor.black
+
+                            if (agriculturePercentage.text as NSString).floatValue > 0 {
+                                let agricultureSector = Segment.init(color: UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1), value: CGFloat((agriculturePercentage.text as NSString).floatValue * 100.0), title : "Agriculture", isFloatType: true)
+                                analyticsData.append(agricultureSector)
+
+                            }
                         }
                     }
                     if (agriculturePercentage.text == "Unavailable" || agriculturePercentage.text == "unavailable")
@@ -137,6 +144,10 @@ class StatisticsTableViewController: UITableViewController {
                         if servicesPercentage.text != "" {
                             servicesLabel.text = String(format: "%.1f", (servicesPercentage.text as NSString).floatValue * 100.0) + "%"
                             servicesLabel.textColor = UIColor.black
+                            if (servicesPercentage.text as NSString).floatValue > 0 {
+                                let servicesSector = Segment.init(color: UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1), value: CGFloat((servicesPercentage.text as NSString).floatValue * 100.0), title : "Services", isFloatType: true)
+                                analyticsData.append(servicesSector)
+                            }
                         }
                     }
                     if (servicesPercentage.text == "Unavailable" || servicesPercentage.text == "unavailable")
@@ -165,6 +176,10 @@ class StatisticsTableViewController: UITableViewController {
                         if industryPercentage.text != "" {
                             industryLabel.text = String(format: "%.1f", (industryPercentage.text as NSString).floatValue * 100.0) + "%"
                             industryLabel.textColor = UIColor.black
+                            if (industryPercentage.text as NSString).floatValue > 0 {
+                                let industrySector = Segment.init(color: UIColor(red: 218.0/255.0, green: 142.0/255.0, blue: 57.0/255.0, alpha: 1), value: CGFloat((industryPercentage.text as NSString).floatValue * 100.0), title : "Industry", isFloatType: true)
+                                analyticsData.append(industrySector)
+                            }
                         }
                     }
                     if (industryPercentage.text == "Unavailable" || industryPercentage.text == "unavailable")
@@ -298,7 +313,28 @@ class StatisticsTableViewController: UITableViewController {
   
     }
 
+    func addTableViewFooter() {
+        let customView = UIView(frame: CGRect(x: 0, y: 0, width: self.tableView.frame.width, height: 50))
+        customView.backgroundColor = UIColor.clear
+        let button = UIButton(frame: CGRect(x: 20, y: 0, width: self.tableView.frame.width - 40, height: 50))
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize:20)
+        button.backgroundColor = .lightGray.withAlphaComponent(0.8)
+        button.layer.cornerRadius = 20
+        button.setTitle("Open Analysis", for: .normal)
+        button.addTarget(self, action: #selector(openWorkingStatics), for: .touchUpInside)
+        customView.addSubview(button)
+        self.tableView.tableFooterView = customView
 
+    }
+
+    @objc func openWorkingStatics(_ sender: UIButton!) {
+        let viewController = PieChartViewController()
+        viewController.isFromWorkingStatistics = true
+        viewController.workingStatistics = self.analyticsData
+        viewController.countryName = self.countryName
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
     if (indexPath.row == 0 || indexPath.row == 1 || indexPath.row == 2) {

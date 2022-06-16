@@ -11,6 +11,8 @@ struct Segment {
     var value: CGFloat
     
     var title : String
+    
+    var isFloatType: Bool = false
 }
 
 class CircularSliceView: UIView {
@@ -123,7 +125,8 @@ class CircularSliceView: UIView {
         for i in 0 ..< segments.count {
             let lbl = labels[i]
             lbl.textColor = UIColor.white
-            lbl.text = String.init(format: "%d", Int(segments[i].value))
+            lbl.textAlignment = .right
+            lbl.text = segments[i].isFloatType ? String(format: "%.1f", segments[i].value) : String.init(format: "%d", Int(segments[i].value))
             lbl.font = UIFont.init(name: "ArialRoundedMT-Bold", size: 12)
         }
     }
