@@ -1,18 +1,11 @@
-//
-//  DataVisualizationTableViewController.swift
-//  Child Labor
-//
-//  Created by Gnanendra Kumar on 12/05/22.
-//  Copyright © 2022 U.S. Department of Labor. All rights reserved.
-//
 
 import UIKit
 
 enum ChartTypes: String, CaseIterable {
     
-    case proportionalChart = "Proportional Area Chart"
-    case pieChart = "Pie Charts"
-    case pieCountryChart = "Country wise Data"
+    case proportionalChart = "Most common goods produced with exploited labor"
+    case goodsBySector = "Goods By Sector"
+    case goodsByRegion = "Goods By Region"
 }
 class DataVisualizationTableViewController: UITableViewController {
    
@@ -31,7 +24,7 @@ class DataVisualizationTableViewController: UITableViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.title = "DataVisualization Types"
+        self.title = "Data Visualizations"
     }
     
     func sendGAIEvent() {
@@ -80,6 +73,7 @@ extension DataVisualizationTableViewController {
         cell.textLabel?.text = chartType.rawValue
        
          let chevron = UIImage(named: "arrow.png")
+         cell.textLabel?.numberOfLines = 0
          cell.accessoryType = .disclosureIndicator
          cell.accessoryView = UIImageView(image: chevron)
          if #available(iOS 13.0, *) {
@@ -99,10 +93,10 @@ extension DataVisualizationTableViewController {
         case .proportionalChart:
             vc = ProportionalChartViewController.loadFromNib()
             break
-        case .pieChart:
+        case .goodsBySector:
             vc = PieChartViewController(chartType: .goodsSectorType)
             break
-        case .pieCountryChart:
+        case .goodsByRegion:
             vc = PieChartViewController(chartType: .countryRegionType)
             break
         @unknown default:
@@ -115,5 +109,4 @@ extension DataVisualizationTableViewController {
 
     }
 }
-
 
