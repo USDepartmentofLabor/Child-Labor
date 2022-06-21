@@ -95,7 +95,7 @@ class PieChartViewController: UIViewController {
                 self.countryTitleLabel.text = "\(countryName) Statistics"
 
                 circularPieView.segments = self.workingStatistics ?? [Segment]()
-                self.countryTitleLabel.frame = CGRect(x: 0, y: circularPieView.frame.minY - 30 , width: self.view.frame.width, height: 40) 
+                self.countryTitleLabel.frame = CGRect(x: 0, y: circularPieView.frame.minY - 30 , width: self.view.frame.width, height: 40)
             }
             self.view.addSubview(self.countryTitleLabel)
 
@@ -109,8 +109,14 @@ class PieChartViewController: UIViewController {
         if isFromWorkingStatistics {
             self.colorCodesCollectionView.layer.borderColor = UIColor.clear.cgColor
             self.colorCodesCollectionView.layer.borderWidth = 0
+        } else {
+            if #available(iOS 12.0, *) {
+                if (self.traitCollection.userInterfaceStyle == .dark) {
+                    self.colorCodesCollectionView.backgroundColor = .black
+                    self.colorCodesCollectionView.layer.borderColor = UIColor.white.cgColor
+                }
+            }
         }
-        
         self.colorCodesCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "DefaultCollectionCell")
         self.colorCodesCollectionView.register(UINib(nibName:"CustomColorCodeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CustomColorCodeCollectionViewCell")
     }
@@ -261,6 +267,17 @@ extension PieChartViewController: UICollectionViewDelegate, UICollectionViewData
         let color = isFromWorkingStatistics ? self.workingStatistics?[indexPath.item].color : countryRegionArray[indexPath.item].color
         colorCell.lblTitle.text = title
         colorCell.colorCodeLbl.backgroundColor = color
+        if isFromWorkingStatistics {
+            colorCell.lblTitle.textColor = .black
+        } else {
+            if #available(iOS 12.0, *) {
+                if (self.traitCollection.userInterfaceStyle == .dark) {
+                    colorCell.lblTitle.textColor = .white
+                }
+            } else {
+                colorCell.lblTitle.textColor = .black
+            }
+        }
         
         return colorCell
     }
