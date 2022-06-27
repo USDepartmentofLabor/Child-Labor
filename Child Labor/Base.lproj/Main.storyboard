@@ -4946,7 +4946,7 @@ Standards                                          </string>
         <!--Pakistan -->
         <scene sceneID="BiR-BR-knK">
             <objects>
-                <tableViewController title="Pakistan " id="XFU-uo-r1D" customClass="PakistanTableViewController" sceneMemberID="viewController">
+                <tableViewController title="Pakistan " id="XFU-uo-r1D" customClass="PakistanTableViewController" customModule="Child_Labor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="IfL-2n-4Ge">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5217,14 +5217,14 @@ Standards                                          </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Punjab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gHK-D6-Iqf">
-                                                    <rect key="frame" x="8" y="10" width="52.5" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="52.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Unavailable" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K15-wq-z9p">
-                                                    <rect key="frame" x="224.5" y="10" width="87.5" height="20.5"/>
+                                                    <rect key="frame" x="216.5" y="10" width="87.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -5241,14 +5241,14 @@ Standards                                          </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Sindh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j9u-vU-4r0">
-                                                    <rect key="frame" x="8" y="10" width="43.5" height="20.5"/>
+                                                    <rect key="frame" x="16" y="10" width="43.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Unavailable" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uo8-jC-9jP">
-                                                    <rect key="frame" x="224.5" y="10" width="87.5" height="20.5"/>
+                                                    <rect key="frame" x="216.5" y="10" width="87.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -5493,6 +5493,11 @@ Standards                                          </string>
                             <outlet property="delegate" destination="XFU-uo-r1D" id="q5b-ir-tUA"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="agricultureLabel" destination="pnJ-oR-gbb" id="DpX-Y3-qeu"/>
+                        <outlet property="industryLabel" destination="5c2-Z4-gyj" id="K2f-dC-Ew0"/>
+                        <outlet property="servicesLabel" destination="OLW-ao-zyB" id="VaS-HM-gbR"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6U-xv-Mf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5880,6 +5885,11 @@ Standards                                          </string>
                             <outlet property="delegate" destination="uJa-TJ-kxr" id="hiU-oH-KMo"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="agricultureLabel" destination="kLx-jx-9Go" id="4d5-wM-a8R"/>
+                        <outlet property="industryLabel" destination="tw4-Xy-Gix" id="1B1-L1-DnU"/>
+                        <outlet property="servicesLabel" destination="OgV-vB-SOs" id="B2A-zy-TEh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTw-oN-Qgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

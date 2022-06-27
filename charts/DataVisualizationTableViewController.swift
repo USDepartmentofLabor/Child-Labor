@@ -3,7 +3,7 @@ import UIKit
 
 enum ChartTypes: String, CaseIterable {
     
-    case proportionalChart = "Most common goods produced with exploited labor"
+    //case proportionalChart = "Most common goods produced with exploited labor"
     case goodsBySector = "Goods By Sector"
     case goodsByRegion = "Goods By Region"
 }
@@ -90,9 +90,9 @@ extension DataVisualizationTableViewController {
         let chartType = ChartTypes.allCases[indexPath.row]
 
         switch chartType {
-        case .proportionalChart:
-            vc = ProportionalChartViewController.loadFromNib()
-            break
+//        case .proportionalChart:
+//            vc = ProportionalChartViewController.loadFromNib()
+//            break
         case .goodsBySector:
             vc = PieChartViewController(chartType: .goodsSectorType)
             break
