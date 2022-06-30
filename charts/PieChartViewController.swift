@@ -93,7 +93,7 @@ class PieChartViewController: UIViewController {
             self.countryTitleLabel.text = "No Data Available"
             if #available(iOS 12.0, *) {
                 if (self.traitCollection.userInterfaceStyle == .dark) {
-                    self.countryTitleLabel.textColor = .black
+                    self.countryTitleLabel.textColor = .white
                 }
             }
             self.countryTitleLabel.frame = CGRect(x: 0, y: self.view.frame.height/2 , width: self.view.frame.width, height: 40)

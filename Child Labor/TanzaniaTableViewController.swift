@@ -53,7 +53,7 @@ class TanzaniaTableViewController: UITableViewController {
                             agricultureLabel.textColor = UIColor.black
                             
                             if (agriculturePercentage.text as NSString).floatValue > 0 {
-                                let agricultureSector = Segment.init(color: UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1), value: CGFloat((agriculturePercentage.text as NSString).floatValue * 100.0), title : "Agriculture", isFloatType: true)
+                                let agricultureSector = Segment.init(color: UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1), value: CGFloat((agriculturePercentage.text as NSString).floatValue * 100.0), title : "Agriculture", isFloatType: true)
                                 analyticsData.append(agricultureSector)
                             }
                         }
@@ -79,7 +79,7 @@ class TanzaniaTableViewController: UITableViewController {
                             servicesLabel.text = String(format: "%.1f", (servicesPercentage.text as NSString).floatValue * 100.0) + "%"
                             servicesLabel.textColor = UIColor.black
                             if (servicesPercentage.text as NSString).floatValue > 0 {
-                                let servicesSector = Segment.init(color: UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1), value: CGFloat((servicesPercentage.text as NSString).floatValue * 100.0), title : "Services", isFloatType: true)
+                                let servicesSector = Segment.init(color: UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1), value: CGFloat((servicesPercentage.text as NSString).floatValue * 100.0), title : "Services", isFloatType: true)
                                 analyticsData.append(servicesSector)
                             }
                         }
