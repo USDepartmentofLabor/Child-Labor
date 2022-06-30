@@ -38,6 +38,7 @@ class PieChartViewController: UIViewController {
     @IBOutlet weak var colorCodesCollectionView : UICollectionView!
     @IBOutlet weak var segmentHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var centerCircularView : UIView!
 
     var isFromWorkingStatistics: Bool = false
     var countryName: String = ""
@@ -83,6 +84,7 @@ class PieChartViewController: UIViewController {
             self.goodsSegments.isHidden = true
             self.segmentHeightConstraint.constant = 0
         }
+        self.centerCircularView.layer.cornerRadius = 55
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

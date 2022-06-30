@@ -31,6 +31,7 @@
 		1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC96283BC372000F647E /* CustomExtensions.swift */; };
 		1334AC992841028D000F647E /* GoodsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC982841028C000F647E /* GoodsParser.swift */; };
 		1334AC9B28410338000F647E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC9A28410338000F647E /* Constants.swift */; };
+		136829B0286CA84C0083D8E4 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829AF286CA84C0083D8E4 /* CustomLabel.swift */; };
 		13840007282965170072C737 /* ProportionalChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13840006282965160072C737 /* ProportionalChartController.swift */; };
 		139AC81D2332509A002420FF /* North_Macedonia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8122332509A002420FF /* North_Macedonia-map.png */; };
 		139AC81E2332509A002420FF /* Moldova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 139AC8132332509A002420FF /* Moldova.pdf */; };
@@ -1145,6 +1146,7 @@
 		1334AC96283BC372000F647E /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
 		1334AC982841028C000F647E /* GoodsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsParser.swift; sourceTree = "<group>"; };
 		1334AC9A28410338000F647E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		136829AF286CA84C0083D8E4 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		13840006282965160072C737 /* ProportionalChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalChartController.swift; sourceTree = "<group>"; };
 		139AC8122332509A002420FF /* North_Macedonia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "North_Macedonia-map.png"; sourceTree = "<group>"; };
 		139AC8132332509A002420FF /* Moldova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Moldova.pdf; sourceTree = "<group>"; };
@@ -2279,6 +2281,7 @@
 				1334AC772832B76B000F647E /* GoodsChartCollectionCell.swift */,
 				1334AC782832B76B000F647E /* DataVisualizationTableViewController.swift */,
 				1334AC792832B76B000F647E /* CirclesLayout.h */,
+				136829AF286CA84C0083D8E4 /* CustomLabel.swift */,
 			);
 			path = charts;
 			sourceTree = SOURCE_ROOT;
@@ -4632,6 +4635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */,
+				136829B0286CA84C0083D8E4 /* CustomLabel.swift in Sources */,
 				83EF03A01B4D944E00C2AECE /* GoodsTableViewController.swift in Sources */,
 				834D8DA71B4C5EFA001CD795 /* StatisticsTableViewController.swift in Sources */,
 				1334AC7F2832B76B000F647E /* ProportionalChartViewController.swift in Sources */,
