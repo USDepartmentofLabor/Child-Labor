@@ -35,6 +35,11 @@ class GoodsChartCollectionCell: UICollectionViewCell {
         self.titleLabel.text = cellData.title
         self.backgroundColor = cellData.color
         self.layer.cornerRadius = self.frame.size.width / 2;
+        if #available(iOS 13.0, *) {
+            if (self.traitCollection.userInterfaceStyle == .dark) {
+                self.titleLabel.textColor = .black
+            }
+        }
 
     }
 }

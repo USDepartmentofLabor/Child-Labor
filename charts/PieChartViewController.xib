@@ -11,10 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PieChartViewController" customModule="Child_Labor" customModuleProvider="target">
             <connections>
+                <outlet property="centerCircularView" destination="udu-xu-823" id="vAv-0Q-n7D"/>
                 <outlet property="circularPieView" destination="f4O-jC-bmh" id="X0d-y2-fHE"/>
+                <outlet property="collectionViewHeightConstraint" destination="NMy-ct-J0E" id="R6M-v6-3k1"/>
                 <outlet property="colorCodesCollectionView" destination="qZa-dz-yfV" id="cru-Ya-pIH"/>
                 <outlet property="goodsSegments" destination="gvm-QK-qIM" id="7uf-Q3-rIl"/>
-                <outlet property="segmentHeightConstraint" destination="2Hs-7i-2EI" id="rEH-EN-8vb"/>
+                <outlet property="segmentHeightConstraint" destination="2Hs-7i-2EI" id="Fid-LZ-Z8l"/>
                 <outlet property="view" destination="Sci-7N-wIe" id="cia-VD-sum"/>
             </connections>
         </placeholder>
@@ -25,7 +27,21 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-jC-bmh" customClass="CircularSliceView" customModule="Child_Labor" customModuleProvider="target">
                     <rect key="frame" x="46.5" y="94" width="227" height="227"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udu-xu-823">
+                            <rect key="frame" x="58.5" y="58.5" width="110" height="110"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="110" id="3lj-rL-GsA"/>
+                                <constraint firstAttribute="width" constant="110" id="roM-ns-Phw"/>
+                            </constraints>
+                        </view>
+                    </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="udu-xu-823" firstAttribute="centerX" secondItem="f4O-jC-bmh" secondAttribute="centerX" id="19a-43-OmE"/>
+                        <constraint firstItem="udu-xu-823" firstAttribute="centerY" secondItem="f4O-jC-bmh" secondAttribute="centerY" id="Uil-Bt-U9E"/>
+                    </constraints>
                 </view>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gvm-QK-qIM">
                     <rect key="frame" x="10" y="20" width="300" height="45"/>
@@ -42,7 +58,7 @@
                     </connections>
                 </segmentedControl>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="qZa-dz-yfV">
-                    <rect key="frame" x="10" y="404.5" width="300" height="153.5"/>
+                    <rect key="frame" x="10" y="399" width="300" height="159"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="8sQ-Mn-AOU">
                         <size key="itemSize" width="150" height="40"/>
@@ -64,7 +80,7 @@
                 <constraint firstItem="f4O-jC-bmh" firstAttribute="height" secondItem="Sci-7N-wIe" secondAttribute="height" multiplier="0.4:1" id="84t-DE-J3X"/>
                 <constraint firstItem="qZa-dz-yfV" firstAttribute="bottom" secondItem="4WQ-DF-gAR" secondAttribute="bottom" constant="-10" id="AnT-pG-5Kg"/>
                 <constraint firstItem="gvm-QK-qIM" firstAttribute="top" secondItem="4WQ-DF-gAR" secondAttribute="top" constant="20" id="JSj-J6-6s7"/>
-                <constraint firstItem="qZa-dz-yfV" firstAttribute="height" secondItem="Sci-7N-wIe" secondAttribute="height" multiplier="0.27:1" id="NMy-ct-J0E"/>
+                <constraint firstItem="qZa-dz-yfV" firstAttribute="height" secondItem="Sci-7N-wIe" secondAttribute="height" multiplier="0.28:1" id="NMy-ct-J0E"/>
                 <constraint firstItem="f4O-jC-bmh" firstAttribute="top" secondItem="gvm-QK-qIM" secondAttribute="bottom" constant="30" id="Q3X-3u-yae"/>
                 <constraint firstItem="f4O-jC-bmh" firstAttribute="centerX" secondItem="Sci-7N-wIe" secondAttribute="centerX" id="Qd8-kW-zHG"/>
                 <constraint firstItem="4WQ-DF-gAR" firstAttribute="trailing" secondItem="qZa-dz-yfV" secondAttribute="trailing" constant="10" id="fcp-1e-Gsy"/>

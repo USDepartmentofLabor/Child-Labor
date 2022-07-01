@@ -27,7 +27,7 @@ class CircularSliceView: UIView {
     }
 
     private var totalValue: CGFloat = 1;
-    private var labels: [UILabel] = []
+    private var labels: [CustomLabel] = []
 
 
 
@@ -96,7 +96,7 @@ class CircularSliceView: UIView {
         var diff = segments.count - labels.count;
         if diff >= 0 {
             for _ in 0 ..< diff {
-                let lbl = UILabel()
+                let lbl = CustomLabel()
                 lbl.numberOfLines = 0
                 lbl.adjustsFontSizeToFitWidth = true
                 self.addSubview(lbl)
@@ -106,7 +106,7 @@ class CircularSliceView: UIView {
             // loop until diff is 0
             //
             while diff != 0 {
-                var lbl: UILabel!
+                var lbl: CustomLabel!
                 // if there is no more labels to remove
                 // break the loop
                 if labels.count <= 0 {
@@ -133,7 +133,7 @@ class CircularSliceView: UIView {
     func layoutLabels() {
         let anglePI2 = CGFloat.pi * 2
         let center = CGPoint.init(x: bounds.size.width / 2, y: bounds.size.height / 2)
-        let radius = min(bounds.size.width / 2, bounds.size.height / 2) / 2
+        let radius = min(bounds.size.width / 1.3, bounds.size.height / 2) / 1.3
 
         var currentAngle: CGFloat = 0;
         let iRange = 0 ..< labels.count
