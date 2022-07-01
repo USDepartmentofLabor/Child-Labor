@@ -89,7 +89,7 @@ class PieChartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if isFromWorkingStatistics {
-            self.title = "Working Statistics"
+            self.title = "Working Children Statistics"
             self.countryTitleLabel.text = "No Data Available"
             if #available(iOS 12.0, *) {
                 if (self.traitCollection.userInterfaceStyle == .dark) {
