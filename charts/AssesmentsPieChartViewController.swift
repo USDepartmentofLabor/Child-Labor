@@ -57,7 +57,7 @@ class AssesmentsPieChartViewController: UIViewController {
     }
     
     private func setupPieChart() {
-        self.centerCircularView.layer.cornerRadius = 45
+        self.centerCircularView.layer.cornerRadius = 55
         circularPieView.segments = (chartDetails.chartData.count > 0) ? chartDetails.chartData : [Segment]()
     }
 }

@@ -6,6 +6,7 @@
 //  Copyright © 2022 U.S. Department of Labor. All rights reserved.
 //
 
+
 import Foundation
 import UIKit
 
@@ -22,15 +23,20 @@ class AssesmentsPageViewController: UIPageViewController {
     private var pageController: UIPageViewController?
     private var currentIndex: Int = 0
     private var advancementsArr: [AssesmentPageDetails] = [AssesmentPageDetails]()
-
+    
+    var colorCodes = ["Moderate Advancement" : UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1),
+                          "Minimal Advancement" : UIColor(red: 147.0/255.0, green: 78.0/255.0, blue: 80.0/255.0, alpha: 1),
+                          "No Assessment" : UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1),
+                          "No Advancement" : UIColor(red: 218.0/255.0, green: 142.0/255.0, blue: 57.0/255.0, alpha: 1),
+                          "Significant Advancement" : UIColor(red: 130.0/255.0, green: 152.0/255.0, blue: 143.0/255.0, alpha: 1)]
     var goodsSectors = Dictionary<String, Any>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .lightGray
-        self.parseAssesmentLevelData()
         self.setupNavigationBar()
+        self.parseAssesmentLevelData()
     }
     
     private func setupPageController() {
@@ -52,6 +58,29 @@ class AssesmentsPageViewController: UIPageViewController {
         self.pageController?.didMove(toParentViewController: self)
     }
     
+    private func setupNavigationBar() {
+        
+        self.title = "Assesment Level By Region"
+
+        // Navigation bar color
+        self.navigationController?.navigationBar.topItem?.title = " "
+        
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
+            appearance.titleTextAttributes = [
+                NSAttributedString.Key.foregroundColor: UIColor.white]
+            
+            self.navigationController?.navigationBar.standardAppearance = appearance;
+            self.navigationController?.navigationBar.scrollEdgeAppearance = self.navigationController?.navigationBar.standardAppearance
+            navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
+        }
+    }
+    
     private func parseAssesmentLevelData() {
         let parserModel = AssesmentLevelParser()
         parserModel.onCompletionGoodsParsing = { [weak self] goodsData in
@@ -69,7 +98,7 @@ class AssesmentsPageViewController: UIPageViewController {
             if let regionAssesmentsDict = assesmentData[key] as? [String : Any] {
                 var chartSegments = [Segment]()
                 for assesmentKey in regionAssesmentsDict.keys {
-                   let assesmentSegment = Segment.init(color: .randomColor(), value: CGFloat(regionAssesmentsDict[assesmentKey] as! Int), title : assesmentKey, isFloatType: false)
+                    let assesmentSegment = Segment.init(color: colorCodes[assesmentKey] ?? .gray, value: CGFloat(regionAssesmentsDict[assesmentKey] as! Int), title : assesmentKey, isFloatType: false)
                     chartSegments.append(assesmentSegment)
                 }
                let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Advancement Level for \(key)", index: index, chartData: chartSegments)
@@ -126,28 +155,6 @@ extension AssesmentsPageViewController: UIPageViewControllerDataSource, UIPageVi
     
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return self.currentIndex
-    }
-    private func setupNavigationBar() {
-        
-        self.title = "Assesment Level By Region"
-
-        // Navigation bar color
-        self.navigationController?.navigationBar.topItem?.title = " "
-        
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.black
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
-        self.navigationController?.navigationBar.tintColor = UIColor.white
-        if #available(iOS 13.0, *) {
-            let appearance = UINavigationBarAppearance()
-            appearance.configureWithOpaqueBackground()
-            appearance.backgroundColor = UIColor(red: 0.0, green: 0.2, blue: 0.33, alpha: 1.0)
-            appearance.titleTextAttributes = [
-                NSAttributedString.Key.foregroundColor: UIColor.white]
-            
-            self.navigationController?.navigationBar.standardAppearance = appearance;
-            self.navigationController?.navigationBar.scrollEdgeAppearance = self.navigationController?.navigationBar.standardAppearance
-            navigationController?.navigationBar.overrideUserInterfaceStyle = .dark
-        }
     }
 }
 

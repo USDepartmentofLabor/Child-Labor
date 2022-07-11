@@ -21,10 +21,15 @@ class AssesmentLevelParser {
                 
         for country in goodsXML[kCountries][kCountry].all {
             
-            if  let countryRegion  = country["Region"].element?.text, !countryRegion.isEmpty {
+            if let countryRegion = country["Region"].element?.text, !countryRegion.isEmpty {
                 
-                if  let advancementLevel  = country["Advancement_Level"].element?.text, !countryRegion.isEmpty {
-                
+                if var advancementLevel  = country["Advancement_Level"].element?.text, !countryRegion.isEmpty {
+                    if advancementLevel.contains("Minimal Advancement") {
+                        advancementLevel = "Minimal Advancement"
+                    }
+                    if advancementLevel.contains("No Advancement") {
+                        advancementLevel = "No Advancement"
+                    }
                     if var currentSector = self.goodsSectors[countryRegion] as? Dictionary<String, Any> {
                         if var advancementInfo = currentSector[advancementLevel] as? Int {
                             advancementInfo += 1
