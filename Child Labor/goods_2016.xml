@@ -1,5 +1,18 @@
 <Goods>
   <Good>
+    <Good_Name>Acai</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Brazil</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Alcoholic Beverages</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
@@ -52,6 +65,13 @@
       <Country>
         <Country_Name>El Salvador</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -209,8 +229,29 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ecuador</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Eswatini</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Ghana</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -557,6 +598,13 @@
       </Country>
       <Country>
         <Country_Name>Ethiopia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Kenya</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -920,7 +968,7 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Côte d'Ivoire</Country_Name>
+        <Country_Name>Cote d'Ivoire</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -1212,6 +1260,32 @@
     </Countries>
   </Good>
   <Good>
+    <Good_Name>Crude Palm Kernel Oil</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Crude Palm Oil</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Cucumbers</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -1231,6 +1305,19 @@
       <Country>
         <Country_Name>Turkey</Country_Name>
         <Country_Region>Middle East and North Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Dairy Products</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1327,6 +1414,13 @@
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
@@ -1627,6 +1721,13 @@
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Turkey</Country_Name>
         <Country_Region>Middle East and North Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -1683,7 +1784,7 @@
         <Country_Name>Bangladesh</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
@@ -1724,6 +1825,13 @@
       <Country>
         <Country_Name>Mexico</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1854,6 +1962,13 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Cameroon</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -2009,6 +2124,13 @@
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
+      <Country>
+        <Country_Name>Zimbabwe</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
     </Countries>
   </Good>
   <Good>
@@ -2149,6 +2271,13 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ecuador</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -2172,6 +2301,19 @@
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Ingots</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2297,6 +2439,19 @@
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Lithium</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2497,6 +2652,19 @@
         <Country_Name>Sierra Leone</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Oleochemicals</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2734,6 +2902,13 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ecuador</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -2769,6 +2944,32 @@
     </Countries>
   </Good>
   <Good>
+    <Good_Name>Refined Palm Kernel Oil</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Refined Palm Oil</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Rice</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -2794,6 +2995,20 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ecuador</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Ghana</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -2813,6 +3028,13 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -3198,6 +3420,32 @@
     </Countries>
   </Good>
   <Good>
+    <Good_Name>Solar Cells</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Solar Modules</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
     <Good_Name>Stones</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
@@ -3506,6 +3754,13 @@
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>India</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Kenya</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -3588,10 +3843,24 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ghana</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>North Korea</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Pakistan</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
@@ -3631,7 +3900,7 @@
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
@@ -3956,6 +4225,19 @@
         <Country_Name>Uganda</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Wafers</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
