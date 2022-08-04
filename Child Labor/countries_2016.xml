@@ -12,30 +12,40 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poppies</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -675,6 +685,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -1055,66 +1067,88 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garlic</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Grapes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Olives</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Strawberries</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -1565,6 +1599,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -1785,90 +1821,120 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Dried Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Furniture (steel)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Glass</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Matches</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Soap</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Jute (textiles)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -2137,18 +2203,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Citrus Fruits</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -2380,12 +2452,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Granite (crushed)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -2820,60 +2896,80 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Silver</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tin</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Zinc</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -4323,150 +4419,200 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bananas</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Beef</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cashews</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Ceramics</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Charcoal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cocoa</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pineapples</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sheep</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -4912,18 +5058,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -5159,84 +5311,112 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Beans (green, soy, yellow)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Jade</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Palm Thatch</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubies</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sesame</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sunflowers</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Teak</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -5932,78 +6112,104 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bovines</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Meat</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -6283,12 +6489,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -6538,6 +6748,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -6766,6 +6978,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -7178,138 +7392,184 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Christmas Decorations</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Electronics</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gloves</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hair Products</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Nails</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Polysilicon</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Thread/Yarn</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tomato Products</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Toys</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Ingots</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Lithium</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Congo, Democratic Republic of the</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Solar Cells</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Solar Modules</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Wafers</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -7660,60 +7920,80 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coca (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Emeralds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fruit (Pome and Stone)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Grapes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -8182,42 +8462,56 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Copper</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tantalum ore (coltan)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tin ore (cassiterite)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tungsten ore (wolframite)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -8874,12 +9168,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -9113,12 +9411,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -9759,30 +10061,40 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -10075,48 +10387,64 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bovines</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Flowers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -10373,18 +10701,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones (limestone)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -10599,42 +10933,56 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cereal Grains</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shellfish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -11115,6 +11463,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -11345,24 +11695,32 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Khat (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles (hand-woven)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -12574,42 +12932,56 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cocoa</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tilapia (fish)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -13099,36 +13471,48 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -13410,7 +13794,7 @@
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/guinea</Webpage>
     <Region>Sub-Saharan Africa</Region>
     <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Moderate Advancement </Advancement_Level>
+    <Advancement_Level>Moderate Advancement</Advancement_Level>
     <Description>In 2021, Guinea made moderate advancement in efforts to eliminate the worst forms of child labor. For the first time, it provided a dedicated budget for the National Committee to Combat Trafficking in Persons and Similar Practices and set up a national hotline to report violations, including those related to labor and trafficking in persons. The government also issued an Emergency Action Plan, as a supplement to the 2020–2022 National Action Plan for Trafficking in Persons, to address the 11 priority recommendations highlighted in the 2021 U.S. Department of State Trafficking in Persons Report. However, children in Guinea are subjected to the worst forms of child labor, including in artisanal mining, sometimes as a result of human trafficking, and in forced begging. The government lacks a coordinating mechanism and national policy to address all relevant worst forms of child labor. Laws related to the minimum age for work also do not meet international standards because they do not include children working outside of a formal employment relationship and children who are self-employed. In addition, the government does not implement sufficient social programs to address the extent of the child labor problem. On September 5th, the military launched a coup, seized control of the state, and dissolved the Constitution. The coup and the resulting changes in government likely impacted the ability of the Government of Guinea to fully engage in addressing the worst forms of child labor.</Description>
     <Goods>
       <Good>
@@ -13418,30 +13802,40 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cocoa</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -14313,18 +14707,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Lobsters</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -14563,156 +14963,208 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Brassware</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cottonseed (hybrid)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Embellished Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gems</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Glass Bangles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Incense (agarbatti)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Leather Goods/Accessories</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Locks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Matches</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Mica</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sandstone</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Silk Fabric</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Silk Thread</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Soccer Balls</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Thread/Yarn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -15019,72 +15471,96 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear (sandals)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tin</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Crude Palm Oil</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Indonesia</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Crude Palm Kernel Oil</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Indonesia</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Refined Palm Oil</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Indonesia</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Refined Palm Kernel Oil</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Indonesia</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Oleochemicals</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Indonesia</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -15352,12 +15828,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -16321,6 +16801,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -16534,66 +17016,88 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -17224,12 +17728,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -17455,12 +17963,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -17689,6 +18201,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -17908,12 +18422,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -18160,24 +18678,32 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sapphires</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Vanilla</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -18421,12 +18947,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -18677,44 +19207,34 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber Gloves</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
-    <ILAB_Projects>
-      <Project>
-        <Title>Global Action Program (GAP) on Child Labor Issues</Title>
-        <Link>https://www.dol.gov/agencies/ilab/global-action-program-gap-child-labor-issues</Link>
-      </Project>
-      <Project>
-        <Title>Protecting the Rights of Migrant Workers through Empowerment and Advocacy in Malaysia</Title>
-        <Link>https://www.dol.gov/agencies/ilab/protecting-rights-migrant-workers-through-empowerment-and-advocacy-malaysia</Link>
-      </Project>
-      <Project>
-        <Title>Research on Labor Conditions in the Production of Electronic Goods in Malaysia</Title>
-        <Link>https://www.dol.gov/agencies/ilab/research-labor-conditions-production-electronic-goods-malaysia</Link>
-      </Project>
-      <Project>
-        <Title>From Protocol to Practice: A Bridge to Global Action on Forced Labor (The Bridge Project)</Title>
-        <Link>https://www.dol.gov/agencies/ilab/protocol-practice-bridge-global-action-forced-labor-bridge-project-0</Link>
-      </Project>
-    </ILAB_Projects>
   </Country>
   <Country>
     <Name>Maldives</Name>
@@ -18929,18 +19449,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -19225,12 +19751,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Goats</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -19672,90 +20202,120 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Chile Peppers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cucumbers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Eggplants</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Leather Goods/Accessories</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Onions</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poppies</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -20232,18 +20792,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fluorspar (mineral)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -21074,6 +21640,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -21525,24 +22093,32 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Embellished Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -21831,42 +22407,56 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shellfish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones (pumice)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -22126,30 +22716,40 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gypsum (mineral)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Salt</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Trona (mineral)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -22382,36 +22982,48 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gravel (crushed stones)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -23034,42 +23646,56 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cement</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Iron</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -23441,102 +24067,136 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bovines</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carpets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Dairy Products</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Electronics</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Furniture</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Glass Bangles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Surgical Instruments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Wheat</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -24737,12 +25397,16 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -25261,144 +25925,192 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cabbages</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Carrots</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Goats</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Lettuce</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Manioc/Cassava</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Melons</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Onions</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Peppers</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Poultry</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sesame</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sheep</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones (limestone)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sweet Potatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tomatoes</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -25665,42 +26377,56 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Bricks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coca (stimulant plant)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fireworks</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -25967,78 +26693,104 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coconuts</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Corn</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fashion Accessories</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hogs</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pyrotechnics</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -26356,18 +27108,24 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -26384,6 +27142,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -27665,6 +28425,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -28107,30 +28869,40 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Diamonds</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Granite</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Oil (Palm)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -29261,6 +30033,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -29726,6 +30500,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -29742,6 +30518,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -30164,13 +30942,14 @@
     <Name>Taiwan</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/taiwan</Webpage>
     <Region>Indo-Pacific</Region>
-
     <Goods>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -30184,6 +30963,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <ILAB_Projects>
@@ -30206,48 +30987,64 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Nile Perch (fish)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sisal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tanzanite (gems)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -30931,30 +31728,40 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Shrimp</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -32243,67 +33050,86 @@
     <Name>Turkey</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/turkey</Webpage>
     <Region>Middle East and North Africa</Region>
-
     <Goods>
       <Good>
         <Good_Name>Citrus Fruits</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cumin</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Furniture</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Hazelnuts</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Peanuts</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pulses (legumes)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugar Beets</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <ILAB_Projects>
@@ -32335,6 +33161,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -32548,78 +33376,104 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cattle</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Charcoal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gold</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sand</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Vanilla</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -32911,18 +33765,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coal</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pornography</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -33165,12 +34025,16 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Silk Cocoons</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -33603,6 +34467,8 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
   </Country>
@@ -33616,96 +34482,128 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cashews</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Coffee</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Furniture</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Garments</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Leather</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Pepper</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rice</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Rubber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Timber</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <ILAB_Projects>
@@ -34287,6 +35185,8 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -34495,30 +35395,40 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Cotton</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Gems</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -34780,18 +35690,24 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Sugarcane</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
