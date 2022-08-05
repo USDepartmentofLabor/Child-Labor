@@ -7484,6 +7484,22 @@
         <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
+        <Good_Name>Ingots</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
+      </Good>
+      <Good>
+        <Good_Name>Lithium</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>Congo, Democratic Republic of the</Derived_Country>
+      </Good>
+      <Good>
         <Good_Name>Nails</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -7498,6 +7514,22 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
         <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
         <Derived_Country>No</Derived_Country>
+      </Good>
+      <Good>
+        <Good_Name>Solar Cells</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
+      </Good>
+      <Good>
+        <Good_Name>Solar Modules</Good_Name>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Textiles</Good_Name>
@@ -7530,38 +7562,6 @@
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
         <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
         <Derived_Country>No</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Ingots</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Lithium</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Congo, Democratic Republic of the</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Solar Cells</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Solar Modules</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
       </Good>
       <Good>
         <Good_Name>Wafers</Good_Name>
@@ -15466,6 +15466,22 @@
     <Advancement_Level>Moderate Advancement</Advancement_Level>
     <Description>In 2021, Indonesia made moderate advancement in efforts to eliminate the worst forms of child labor. The Ministry of Women Empowerment and Child Protection launched a hotline to connect with child labor or child trafficking survivors requiring outreach, case management, shelter, mediation, and victim services. The government also issued Regulation No. 78/2021 on the Special Protection on Children, which requires the central and regional governments to provide comprehensive protection to children who are survivors of the worst forms of child labor, as well as children from minority groups and with disabilities. In addition, the Ministry of Manpower employed 1,503 labor inspectors in 2021, up from 1,352 labor inspectors in 2020. However, children in Indonesia are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. Children also perform dangerous tasks in plantation agriculture, including in palm oil and tobacco production. The Ministry of Manpower continued to lack the financial resources and personnel necessary to fully enforce child labor laws throughout the country.</Description>
     <Goods>
+        <Good>
+          <Good_Name>Crude Palm Oil</Good_Name>
+          <Child_Labor>No</Child_Labor>
+          <Forced_Labor>No</Forced_Labor>
+          <Forced_Child_Labor>No</Forced_Child_Labor>
+          <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+          <Derived_Country>Indonesia</Derived_Country>
+        </Good>
+        <Good>
+          <Good_Name>Crude Palm Kernel Oil</Good_Name>
+          <Child_Labor>No</Child_Labor>
+          <Forced_Labor>No</Forced_Labor>
+          <Forced_Child_Labor>No</Forced_Child_Labor>
+          <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+          <Derived_Country>Indonesia</Derived_Country>
+        </Good>
       <Good>
         <Good_Name>Fish</Good_Name>
         <Child_Labor>Yes</Child_Labor>
@@ -15499,39 +15515,7 @@
         <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
-        <Good_Name>Rubber</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Tin</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Crude Palm Oil</Good_Name>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Crude Palm Kernel Oil</Good_Name>
+        <Good_Name>Oleochemicals</Good_Name>
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -15555,12 +15539,28 @@
         <Derived_Country>Indonesia</Derived_Country>
       </Good>
       <Good>
-        <Good_Name>Oleochemicals</Good_Name>
-        <Child_Labor>No</Child_Labor>
+        <Good_Name>Rubber</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Good>
+      <Good>
+        <Good_Name>Tobacco</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Good>
+      <Good>
+        <Good_Name>Tin</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
       </Good>
     </Goods>
     <Country_Statistics>
@@ -31023,6 +31023,14 @@
         <Derived_Country>No</Derived_Country>
       </Good>
       <Good>
+        <Good_Name>Tanzanite (gems)</Good_Name>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Good>
+      <Good>
         <Good_Name>Tea</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -31032,14 +31040,6 @@
       </Good>
       <Good>
         <Good_Name>Tobacco</Good_Name>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Good>
-      <Good>
-        <Good_Name>Tanzanite (gems)</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
