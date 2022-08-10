@@ -42,3 +42,27 @@ extension UIDevice {
         return .portrait
     }
 }
+
+extension UIImage {
+    
+    class func textEmbededImage(image: UIImage, string: String, color:UIColor, imageAlignment: Int = 0, segFont: UIFont? = nil) -> UIImage {
+        let font = segFont ?? UIFont.systemFont(ofSize: 10.0)
+        let expectedTextSize: CGSize = (string as NSString).size(withAttributes: [NSAttributedString.Key.font: font])
+        let width: CGFloat = expectedTextSize.width + 5.0
+        let height: CGFloat = max(expectedTextSize.height, 20)
+        let size: CGSize = CGSize(width: width, height: height)
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        let context: CGContext = UIGraphicsGetCurrentContext()!
+        context.setFillColor(color.cgColor)
+        let fontTopPosition: CGFloat = 20
+        let textOrigin: CGFloat = 5
+        let flipVertical: CGAffineTransform = CGAffineTransform(a: 1, b: 0, c: 0, d: -1, tx: 0, ty: size.height)
+        context.concatenate(flipVertical)
+        context.draw(image.cgImage!, in: CGRect.init(x: ((width - 20) / 2.0), y: 0, width: 10, height: 20))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage!
+    }
+    
+}

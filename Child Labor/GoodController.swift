@@ -18,7 +18,8 @@ class GoodController: UITableViewController {
     @IBOutlet weak var goodTitle: UILabel!
     @IBOutlet weak var goodImage: UIImageView!
     @IBOutlet weak var sector: UILabel!
-    
+    @IBOutlet weak var segmentControl : UISegmentedControl!
+
     var state = 0
     
     override func viewDidLoad() {
@@ -57,17 +58,19 @@ class GoodController: UITableViewController {
                     countries.add((country["Country_Name"].element?.text)!)
                     
                     // Add the exploitation type to an array
-                    if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" {
+                    if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
                         exploitations.add(0)
-                    }
-                    else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "Yes" {
-                        exploitations.add(3)
-                    }
-                    else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" {
+                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
                         exploitations.add(1)
-                    } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" {
+                        
+                    } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
                         exploitations.add(2)
-                    } else {
+                        
+                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
+                        exploitations.add(3)
+                    } else if country["Derived_Labor_Exploitation"].element?.text == "Yes" {
+                        exploitations.add(4)
+                    }else {
                         exploitations.add(3)
                     }
                 }
@@ -80,12 +83,28 @@ class GoodController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.customizeSegmentControl()
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
 
+    private func customizeSegmentControl() {
+        if #available(iOS 13.0, *) {
+            self.segmentControl.setImage(
+                UIImage.textEmbededImage(
+                    image:  UIImage(systemName: "flag.fill")!,
+                    string: "Derived Labor",
+                    color: .black
+                ),
+                forSegmentAt: 4
+            )
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -121,6 +140,14 @@ class GoodController: UITableViewController {
                     numCountriesWithThisType += 1
                 }
             }
+        case 4:
+            typeOfLabor = "Derived Labor"
+            
+            for i in 0...countries.count - 1 {
+                if exploitations[i] as! Int == 4 {
+                    numCountriesWithThisType += 1
+                }
+            }
         default:
             typeOfLabor = "Forced Child"
 
@@ -129,7 +156,8 @@ class GoodController: UITableViewController {
                     numCountriesWithThisType += 1
                 }
             }
-}
+        }
+
         let announcement:String = "Produced With \(typeOfLabor) Labor in \(numCountriesWithThisType) Countr" + (numCountriesWithThisType == 1 ? "y/Area" : "ies/Areas")
         UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, announcement);
         return announcement
@@ -215,7 +243,7 @@ class GoodController: UITableViewController {
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
             
-            if state == 2 || state == 3 {
+            if state == 2 || state == 3 || state == 4 {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
                 cell.isUserInteractionEnabled = false
@@ -229,7 +257,7 @@ class GoodController: UITableViewController {
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
             
-            if state == 1 || state == 3 {
+            if state == 1 || state == 3 || state == 4  {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
                 cell.isUserInteractionEnabled = false
@@ -243,7 +271,23 @@ class GoodController: UITableViewController {
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
             
-            if state == 3 {
+            if state == 3 || state == 4 {
+                cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
+                titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
+                cell.isUserInteractionEnabled = false
+                cell.accessibilityElementsHidden = true;
+            }
+        case 4:
+            cl?.isHidden = true
+            fl?.isHidden = true
+            if #available(iOS 13.0, *) {
+                clImage?.image = UIImage(systemName: "flag.fill")
+            }
+            clImage?.tintColor = .orange
+            clLabel?.text = ""
+            clLabel?.accessibilityLabel = "Derived Labor"
+            
+            if state == 1 ||  state == 2 || state == 3  {
                 cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
                 titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
                 cell.isUserInteractionEnabled = false
@@ -256,6 +300,14 @@ class GoodController: UITableViewController {
             clLabel?.textColor = UIColor.black
             clLabel?.text = "FCL"
             clLabel?.accessibilityLabel = "Forced Child Labor"
+            
+            if state == 4  {
+                cell.backgroundColor = UIColor(red: 0.97, green: 0.97, blue: 0.97, alpha: 1)
+                titleLabel?.textColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1)
+                cell.isUserInteractionEnabled = false
+                cell.accessibilityElementsHidden = true;
+            }
+            
         }
         if #available(iOS 13.0, *) {
             clLabel?.textColor = .label

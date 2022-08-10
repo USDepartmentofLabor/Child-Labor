@@ -1712,7 +1712,7 @@ and School</string>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Io-wa-VmP">
-                                    <rect key="frame" x="2.5" y="11" width="315" height="51"/>
+                                    <rect key="frame" x="5" y="11" width="310" height="51"/>
                                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="za0-Bk-brB"/>
@@ -1722,6 +1722,7 @@ and School</string>
                                         <segment title="" image="child-labor.png"/>
                                         <segment title="" image="forced-labor.png"/>
                                         <segment title="" image="forced-child-labor.png"/>
+                                        <segment title="Derived labor"/>
                                     </segments>
                                     <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
@@ -1731,6 +1732,8 @@ and School</string>
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="7Io-wa-VmP" secondAttribute="trailing" constant="5" id="0eU-a0-SJ4"/>
+                                <constraint firstItem="7Io-wa-VmP" firstAttribute="leading" secondItem="tHm-HB-cPT" secondAttribute="leading" constant="5" id="8ad-LK-MOz"/>
                                 <constraint firstAttribute="centerY" secondItem="7Io-wa-VmP" secondAttribute="centerY" id="E7U-xC-CaV"/>
                                 <constraint firstAttribute="centerX" secondItem="7Io-wa-VmP" secondAttribute="centerX" id="Zg2-25-uQv"/>
                             </constraints>
@@ -1871,6 +1874,9 @@ and School</string>
                         </connections>
                     </tableView>
                     <toolbarItems/>
+                    <connections>
+                        <outlet property="segmentControl" destination="7Io-wa-VmP" id="K2P-1E-U7y"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wf-oI-Hdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1932,7 +1938,7 @@ and School</string>
                                     </constraints>
                                 </imageView>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Wdw-tB-KeC">
-                                    <rect key="frame" x="2.5" y="211" width="315" height="51"/>
+                                    <rect key="frame" x="5" y="211" width="310" height="51"/>
                                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="XbU-54-Q50"/>
@@ -1942,6 +1948,7 @@ and School</string>
                                         <segment title="" image="child-labor.png"/>
                                         <segment title="" image="forced-labor.png"/>
                                         <segment title="" image="forced-child-labor.png"/>
+                                        <segment title="Derived Labor"/>
                                     </segments>
                                     <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
@@ -1955,6 +1962,7 @@ and School</string>
                                 <constraint firstItem="6H6-z4-rbS" firstAttribute="leading" secondItem="uyM-z8-Kzj" secondAttribute="leading" constant="20" symbolic="YES" id="0Qd-pc-PIC"/>
                                 <constraint firstAttribute="trailing" secondItem="6H6-z4-rbS" secondAttribute="trailing" constant="20" symbolic="YES" id="0UP-8k-GW7"/>
                                 <constraint firstAttribute="bottom" secondItem="Wdw-tB-KeC" secondAttribute="bottom" constant="14" id="BKE-3Y-QUE"/>
+                                <constraint firstItem="Wdw-tB-KeC" firstAttribute="leading" secondItem="uyM-z8-Kzj" secondAttribute="leading" constant="5" id="H7n-nH-bmf"/>
                                 <constraint firstAttribute="trailing" secondItem="4Kd-M3-n5y" secondAttribute="trailing" constant="10" id="HZQ-Mj-2e2"/>
                                 <constraint firstItem="6H6-z4-rbS" firstAttribute="top" secondItem="p32-kC-k9K" secondAttribute="bottom" id="KOw-Cf-bmz"/>
                                 <constraint firstItem="Wdw-tB-KeC" firstAttribute="centerY" secondItem="uyM-z8-Kzj" secondAttribute="centerY" id="Kbb-KI-ZBE"/>
@@ -1962,6 +1970,7 @@ and School</string>
                                 <constraint firstItem="Wdw-tB-KeC" firstAttribute="centerX" secondItem="uyM-z8-Kzj" secondAttribute="centerX" id="b3a-o9-BjT"/>
                                 <constraint firstItem="p32-kC-k9K" firstAttribute="leading" secondItem="uyM-z8-Kzj" secondAttribute="leading" constant="20" symbolic="YES" id="dLc-y8-SfM"/>
                                 <constraint firstItem="6H6-z4-rbS" firstAttribute="top" secondItem="uyM-z8-Kzj" secondAttribute="top" constant="36" id="pd6-cm-ooF"/>
+                                <constraint firstAttribute="trailing" secondItem="Wdw-tB-KeC" secondAttribute="trailing" constant="5" id="qMg-6s-3ig"/>
                                 <constraint firstItem="p32-kC-k9K" firstAttribute="top" secondItem="6H6-z4-rbS" secondAttribute="bottom" id="wGD-5y-qSu"/>
                             </constraints>
                             <variation key="default">
@@ -2064,6 +2073,7 @@ and School</string>
                         <outlet property="goodImage" destination="4Kd-M3-n5y" id="25l-UG-Ofj"/>
                         <outlet property="goodTitle" destination="6H6-z4-rbS" id="36T-Tc-9ny"/>
                         <outlet property="sector" destination="p32-kC-k9K" id="dDy-gn-br4"/>
+                        <outlet property="segmentControl" destination="Wdw-tB-KeC" id="mrX-h8-jPG"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ui2-gT-zpO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -5217,14 +5227,14 @@ Standards                                          </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Punjab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gHK-D6-Iqf">
-                                                    <rect key="frame" x="16" y="10" width="52.5" height="20.5"/>
+                                                    <rect key="frame" x="8" y="10" width="52.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Unavailable" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K15-wq-z9p">
-                                                    <rect key="frame" x="216.5" y="10" width="87.5" height="20.5"/>
+                                                    <rect key="frame" x="224.5" y="10" width="87.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -5241,14 +5251,14 @@ Standards                                          </string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Sindh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j9u-vU-4r0">
-                                                    <rect key="frame" x="16" y="10" width="43.5" height="20.5"/>
+                                                    <rect key="frame" x="8" y="10" width="43.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" text="Unavailable" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uo8-jC-9jP">
-                                                    <rect key="frame" x="216.5" y="10" width="87.5" height="20.5"/>
+                                                    <rect key="frame" x="224.5" y="10" width="87.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -5983,7 +5993,7 @@ Standards                                          </string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="iR0-4H-bt0"/>
-        <segue reference="3NZ-qU-LZw"/>
+        <segue reference="Qkd-VV-gmI"/>
         <segue reference="q6X-np-kmw"/>
         <segue reference="lgx-uC-KzH"/>
     </inferredMetricsTieBreakers>
