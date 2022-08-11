@@ -31,6 +31,7 @@
 		1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC96283BC372000F647E /* CustomExtensions.swift */; };
 		1334AC992841028D000F647E /* GoodsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC982841028C000F647E /* GoodsParser.swift */; };
 		1334AC9B28410338000F647E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC9A28410338000F647E /* Constants.swift */; };
+		1358B28328A54D7000A8072C /* derived_labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28228A54D7000A8072C /* derived_labor.png */; };
 		136829B0286CA84C0083D8E4 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829AF286CA84C0083D8E4 /* CustomLabel.swift */; };
 		136829B2287C58610083D8E4 /* AssesmentLevelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */; };
 		136829B4287C58720083D8E4 /* AssesmentsPieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */; };
@@ -1186,6 +1187,7 @@
 		1334AC96283BC372000F647E /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
 		1334AC982841028C000F647E /* GoodsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsParser.swift; sourceTree = "<group>"; };
 		1334AC9A28410338000F647E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1358B28228A54D7000A8072C /* derived_labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derived_labor.png; sourceTree = "<group>"; };
 		136829AF286CA84C0083D8E4 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssesmentLevelParser.swift; sourceTree = "<group>"; };
 		136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssesmentsPieChartViewController.xib; sourceTree = "<group>"; };
@@ -3532,6 +3534,7 @@
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
 				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
 				38CA953D1D4BAF2400319316 /* goods_2016.xml */,
+				1358B28228A54D7000A8072C /* derived_labor.png */,
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
 				ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */,
 				380048731D8B991C00E64714 /* TDA.pdf */,
@@ -3773,6 +3776,7 @@
 				8356187B1BD7DE79007BCF75 /* Panama.pdf in Resources */,
 				835618541BD7DE79007BCF75 /* Guinea.pdf in Resources */,
 				8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */,
+				1358B28328A54D7000A8072C /* derived_labor.png in Resources */,
 				8335AF6D1B667963000748F0 /* icons_Silk_Fabric.png in Resources */,
 				66C225E8289D936D004EADF8 /* icons_Wafers-33@3x.png in Resources */,
 				6682423824E70B5F009B203E /* icons_Tomato_Products-33@2x.png in Resources */,

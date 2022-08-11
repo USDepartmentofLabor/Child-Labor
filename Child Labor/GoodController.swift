@@ -83,7 +83,7 @@ class GoodController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.customizeSegmentControl()
+        //self.customizeSegmentControl()
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)

@@ -1722,7 +1722,7 @@ and School</string>
                                         <segment title="" image="child-labor.png"/>
                                         <segment title="" image="forced-labor.png"/>
                                         <segment title="" image="forced-child-labor.png"/>
-                                        <segment title="Derived labor"/>
+                                        <segment title="" image="derived_labor.png"/>
                                     </segments>
                                     <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
@@ -1948,7 +1948,7 @@ and School</string>
                                         <segment title="" image="child-labor.png"/>
                                         <segment title="" image="forced-labor.png"/>
                                         <segment title="" image="forced-child-labor.png"/>
-                                        <segment title="Derived Labor"/>
+                                        <segment title="" image="derived_labor.png"/>
                                     </segments>
                                     <color key="tintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
@@ -5993,7 +5993,7 @@ Standards                                          </string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="iR0-4H-bt0"/>
-        <segue reference="Qkd-VV-gmI"/>
+        <segue reference="9ge-aL-a3Z"/>
         <segue reference="q6X-np-kmw"/>
         <segue reference="lgx-uC-KzH"/>
     </inferredMetricsTieBreakers>
@@ -6001,6 +6001,7 @@ Standards                                          </string>
         <image name="BackgroundNew.png" width="1914" height="2666"/>
         <image name="Brazil-map.png" width="453.60000610351562" height="452.16000366210938"/>
         <image name="child-labor.png" width="60" height="50"/>
+        <image name="derived_labor.png" width="144" height="77"/>
         <image name="dol.png" width="45" height="45"/>
         <image name="forced-child-labor.png" width="60" height="50"/>
         <image name="forced-labor.png" width="60" height="50"/>
