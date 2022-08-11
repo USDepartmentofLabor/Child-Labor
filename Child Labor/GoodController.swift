@@ -70,7 +70,7 @@ class GoodController: UITableViewController {
                         exploitations.add(3)
                     } else if country["Derived_Labor_Exploitation"].element?.text == "Yes" {
                         exploitations.add(4)
-                    }else {
+                    } else {
                         exploitations.add(3)
                     }
                 }
@@ -83,27 +83,13 @@ class GoodController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        //self.customizeSegmentControl()
         // Make sure the ugly table cell selection is cleared when returning to this view
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
         }
     }
 
-    private func customizeSegmentControl() {
-        if #available(iOS 13.0, *) {
-            self.segmentControl.setImage(
-                UIImage.textEmbededImage(
-                    image:  UIImage(systemName: "flag.fill")!,
-                    string: "Derived Labor",
-                    color: .black
-                ),
-                forSegmentAt: 4
-            )
-        } else {
-            // Fallback on earlier versions
-        }
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -185,6 +171,7 @@ class GoodController: UITableViewController {
         //
         let cl : UIView? = cell.viewWithTag(101)
         let fl : UIView? = cell.viewWithTag(102)
+        let dl : UIView? = cell.viewWithTag(103)
         let titleLabel : UILabel? = cell.viewWithTag(301) as? UILabel
         
         let clImage : UIImageView? = cl!.viewWithTag(201) as? UIImageView
@@ -238,6 +225,7 @@ class GoodController: UITableViewController {
         case 0:
             cl?.isHidden = false
             fl?.isHidden = true
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -252,6 +240,7 @@ class GoodController: UITableViewController {
         case 1:
             cl?.isHidden = true
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -266,6 +255,7 @@ class GoodController: UITableViewController {
         case 2:
             cl?.isHidden = false
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -278,12 +268,9 @@ class GoodController: UITableViewController {
                 cell.accessibilityElementsHidden = true;
             }
         case 4:
-            cl?.isHidden = false
+            cl?.isHidden = true
             fl?.isHidden = true
-            if #available(iOS 13.0, *) {
-                clImage?.image = UIImage(systemName: "flag.fill")
-            }
-            clImage?.tintColor = .red
+            dl?.isHidden = false
             clLabel?.text = ""
             clLabel?.accessibilityLabel = "Derived Labor"
             
@@ -296,6 +283,7 @@ class GoodController: UITableViewController {
         default:
             cl?.isHidden = false
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand-black")
             clLabel?.textColor = UIColor.black
             clLabel?.text = "FCL"

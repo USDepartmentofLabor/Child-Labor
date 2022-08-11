@@ -31,7 +31,9 @@
 		1334AC97283BC372000F647E /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC96283BC372000F647E /* CustomExtensions.swift */; };
 		1334AC992841028D000F647E /* GoodsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC982841028C000F647E /* GoodsParser.swift */; };
 		1334AC9B28410338000F647E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334AC9A28410338000F647E /* Constants.swift */; };
-		1358B28328A54D7000A8072C /* derived_labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28228A54D7000A8072C /* derived_labor.png */; };
+		1358B28528A571A700A8072C /* derived_labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28428A571A700A8072C /* derived_labor.png */; };
+		1358B28728A5750000A8072C /* dl_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28628A5750000A8072C /* dl_image.png */; };
+		1358B28928A5781700A8072C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28828A5781600A8072C /* Main.storyboard */; };
 		136829B0286CA84C0083D8E4 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829AF286CA84C0083D8E4 /* CustomLabel.swift */; };
 		136829B2287C58610083D8E4 /* AssesmentLevelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */; };
 		136829B4287C58720083D8E4 /* AssesmentsPieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */; };
@@ -780,7 +782,6 @@
 		836633B51B2F0734007C127E /* ilab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836633B31B2F0734007C127E /* ilab@2x.png */; };
 		837B5D851AAB68F600731F83 /* eo.png in Resources */ = {isa = PBXBuildFile; fileRef = 837B5D841AAB68F600731F83 /* eo.png */; };
 		83800C7D1AA4D40300DD47EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83800C7C1AA4D40300DD47EB /* AppDelegate.swift */; };
-		83800C821AA4D40300DD47EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83800C801AA4D40300DD47EB /* Main.storyboard */; };
 		83800C841AA4D40300DD47EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83800C831AA4D40300DD47EB /* Images.xcassets */; };
 		83800C871AA4D40300DD47EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83800C851AA4D40300DD47EB /* LaunchScreen.xib */; };
 		8386CABF1B516F6C00B5DF1C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386CABE1B516F6C00B5DF1C /* libsqlite3.0.tbd */; };
@@ -1187,7 +1188,9 @@
 		1334AC96283BC372000F647E /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
 		1334AC982841028C000F647E /* GoodsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsParser.swift; sourceTree = "<group>"; };
 		1334AC9A28410338000F647E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		1358B28228A54D7000A8072C /* derived_labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derived_labor.png; sourceTree = "<group>"; };
+		1358B28428A571A700A8072C /* derived_labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derived_labor.png; sourceTree = "<group>"; };
+		1358B28628A5750000A8072C /* dl_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_image.png; sourceTree = "<group>"; };
+		1358B28828A5781600A8072C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		136829AF286CA84C0083D8E4 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssesmentLevelParser.swift; sourceTree = "<group>"; };
 		136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssesmentsPieChartViewController.xib; sourceTree = "<group>"; };
@@ -1948,7 +1951,6 @@
 		83800C771AA4D40300DD47EB /* Child Labor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Child Labor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83800C7B1AA4D40300DD47EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83800C7C1AA4D40300DD47EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83800C811AA4D40300DD47EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83800C831AA4D40300DD47EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83800C861AA4D40300DD47EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83800C8C1AA4D40300DD47EB /* Child LaborTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child LaborTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3509,7 +3511,7 @@
 				38BC75371CEED79100C53216 /* EnforceTableViewController.swift */,
 				8364BBA81B3CC67C008C547A /* SWXMLHash.swift */,
 				06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */,
-				83800C801AA4D40300DD47EB /* Main.storyboard */,
+				1358B28828A5781600A8072C /* Main.storyboard */,
 				83800C831AA4D40300DD47EB /* Images.xcassets */,
 				83800C851AA4D40300DD47EB /* LaunchScreen.xib */,
 				83800C7A1AA4D40300DD47EB /* Supporting Files */,
@@ -3534,7 +3536,8 @@
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
 				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
 				38CA953D1D4BAF2400319316 /* goods_2016.xml */,
-				1358B28228A54D7000A8072C /* derived_labor.png */,
+				1358B28428A571A700A8072C /* derived_labor.png */,
+				1358B28628A5750000A8072C /* dl_image.png */,
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
 				ED16FC2E1F5886F100B9F937 /* icon-60@3x.png */,
 				380048731D8B991C00E64714 /* TDA.pdf */,
@@ -3716,7 +3719,6 @@
 				8310FF291ABB11310025F7AE /* Spain.png in Resources */,
 				EDF0417420EFAA6300506499 /* icons_Carrots.png in Resources */,
 				8303DF6D1B41F21A00E4FD42 /* Bolivia-map.png in Resources */,
-				83800C821AA4D40300DD47EB /* Main.storyboard in Resources */,
 				835618411BD7DE79007BCF75 /* Costa Rica.pdf in Resources */,
 				8335AFB41B66813A000748F0 /* icons_Zinc.png in Resources */,
 				8335AF271B667963000748F0 /* icons_Ceramics.png in Resources */,
@@ -3776,7 +3778,7 @@
 				8356187B1BD7DE79007BCF75 /* Panama.pdf in Resources */,
 				835618541BD7DE79007BCF75 /* Guinea.pdf in Resources */,
 				8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */,
-				1358B28328A54D7000A8072C /* derived_labor.png in Resources */,
+				1358B28528A571A700A8072C /* derived_labor.png in Resources */,
 				8335AF6D1B667963000748F0 /* icons_Silk_Fabric.png in Resources */,
 				66C225E8289D936D004EADF8 /* icons_Wafers-33@3x.png in Resources */,
 				6682423824E70B5F009B203E /* icons_Tomato_Products-33@2x.png in Resources */,
@@ -3871,6 +3873,7 @@
 				66C225E1289D936D004EADF8 /* icons_Wafers.png in Resources */,
 				EDF0415820EFA90900506499 /* icons_Lettuce.png in Resources */,
 				8335AFB61B6681AA000748F0 /* icons_Gypsum_(mineral).png in Resources */,
+				1358B28728A5750000A8072C /* dl_image.png in Resources */,
 				8310FF141ABB11310025F7AE /* Saint_Kitts_and_Nevis.png in Resources */,
 				8335AF9A1B667FB4000748F0 /* icons_Manioc_Cassava.png in Resources */,
 				EDF0417220EFAA5C00506499 /* icons_Carrots-33@2x.png in Resources */,
@@ -4047,6 +4050,7 @@
 				835618201BD7DE79007BCF75 /* Albania.pdf in Resources */,
 				8356183F1BD7DE79007BCF75 /* Congo, Republic of the.pdf in Resources */,
 				EDF0416420EFA9BF00506499 /* icons_Mica-33@2x.png in Resources */,
+				1358B28928A5781700A8072C /* Main.storyboard in Resources */,
 				8310FF031ABB11310025F7AE /* Oman.png in Resources */,
 				EDF0416C20EFAA1500506499 /* icons_Cabbages-33@2x.png in Resources */,
 				8356187A1BD7DE79007BCF75 /* Pakistan.pdf in Resources */,
@@ -4864,14 +4868,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83800C801AA4D40300DD47EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83800C811AA4D40300DD47EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83800C851AA4D40300DD47EB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
