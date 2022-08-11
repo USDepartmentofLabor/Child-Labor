@@ -278,12 +278,12 @@ class GoodController: UITableViewController {
                 cell.accessibilityElementsHidden = true;
             }
         case 4:
-            cl?.isHidden = true
+            cl?.isHidden = false
             fl?.isHidden = true
             if #available(iOS 13.0, *) {
                 clImage?.image = UIImage(systemName: "flag.fill")
             }
-            clImage?.tintColor = .orange
+            clImage?.tintColor = .red
             clLabel?.text = ""
             clLabel?.accessibilityLabel = "Derived Labor"
             
