@@ -24,11 +24,11 @@ class AssesmentsPageViewController: UIPageViewController {
     private var currentIndex: Int = 0
     private var advancementsArr: [AssesmentPageDetails] = [AssesmentPageDetails]()
     
-    var colorCodes = ["Moderate Advancement" : UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1),
-                          "Minimal Advancement" : UIColor(red: 147.0/255.0, green: 78.0/255.0, blue: 80.0/255.0, alpha: 1),
-                          "No Assessment" : UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1),
-                          "No Advancement" : UIColor(red: 218.0/255.0, green: 142.0/255.0, blue: 57.0/255.0, alpha: 1),
-                          "Significant Advancement" : UIColor(red: 130.0/255.0, green: 152.0/255.0, blue: 143.0/255.0, alpha: 1)]
+    var colorCodes = ["Moderate Advancement" : UIColor(red: 106.0/255.0, green: 196.0/255.0, blue: 183.0/255.0, alpha: 1),
+                          "Minimal Advancement" : UIColor(red: 254.0/255.0, green: 194.0/255.0, blue: 49.0/255.0, alpha: 1),
+                          "No Assessment" : UIColor(red: 63.0/255.0, green: 81.0/255.0, blue: 163.0/255.0, alpha: 1),
+                          "No Advancement" : UIColor(red: 202.0/255.0, green: 31.0/255.0, blue: 65.0/255.0, alpha: 1),
+                          "Significant Advancement" : UIColor(red: 168.0/255.0, green: 207.0/255.0, blue: 64.0/255.0, alpha: 1)]
     var goodsSectors = Dictionary<String, Any>()
 
     override func viewDidLoad() {

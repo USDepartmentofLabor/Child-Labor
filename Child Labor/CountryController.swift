@@ -112,6 +112,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                         let childLaborStatusForGood = good["Child_Labor"].element?.text
                         let forcedLaborStatusForGood = good["Forced_Labor"].element?.text
                         let forcedChildLaborStatusForGood = good["Forced_Child_Labor"].element?.text
+                        let derivedLaborStatus = good["Derived_Labor_Exploitation"].element?.text
                         
                         goods.add(goodName!)
                         
@@ -126,9 +127,9 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                             exploitations.add(1)
                         } else if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "Yes" && forcedChildLaborStatusForGood == "No" {
                             exploitations.add(2)
-                        }
-                        
-                        else {
+                        } else if derivedLaborStatus == "Yes" {
+                            exploitations.add(4)
+                        } else {
                             exploitations.add(3)
                         }
                     }
@@ -196,6 +197,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         //
         let cl : UIView? = cell.viewWithTag(101)
         let fl : UIView? = cell.viewWithTag(102)
+        let dl : UIView? = cell.viewWithTag(103)
         
         let clImage : UIImageView? = cl!.viewWithTag(401) as? UIImageView
         let clLabel : UILabel? = cl!.viewWithTag(402) as? UILabel
@@ -218,7 +220,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         goodButton?.accessibilityLabel = goodName as? String
         if #available(iOS 13.0, *) {
             goodLabel?.textColor = UIColor.black
-        } else {
+            } else {
             // Fallback on earlier versions
         }
         //
@@ -226,6 +228,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         case 0:
             cl?.isHidden = false
             fl?.isHidden = true
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -233,6 +236,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         case 1:
             cl?.isHidden = true
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
@@ -240,13 +244,21 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         case 2:
             cl?.isHidden = false
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand")
             clLabel?.textColor = UIColor(red: 0.0, green: 0.48, blue: 1.0, alpha: 1.0)
             clLabel?.text = "CL"
             clLabel?.accessibilityLabel = "Child Labor"
+        case 4:
+            cl?.isHidden = true
+            fl?.isHidden = true
+            dl?.isHidden = false
+            
+            clLabel?.accessibilityLabel = "Derived Labor"
         default:
             cl?.isHidden = false
             fl?.isHidden = false
+            dl?.isHidden = true
             clImage?.image = UIImage(named: "hand-black")
             clLabel?.textColor = UIColor.black
             clLabel?.text = "FCL"

@@ -314,7 +314,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         {
             goodsCount.text = "1 result found for search " + searchBarFilter.text!
         }
-        if(getGoodsCount() == 157)
+        if(getGoodsCount() == 169)
         {
             goodsCount.text = ""
         }
@@ -322,7 +322,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
             if #available(iOS 12.0, *) {
                 if (self.traitCollection.userInterfaceStyle == .dark) {
                    
-                    if(getGoodsCount() == 157 && searchBarFilter.text! == "")
+                    if(getGoodsCount() == 169 && searchBarFilter.text! == "")
                     {
                         goodsCount.text = ""
                     } else {
@@ -337,7 +337,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
                     {
                         goodsCount.text = String(getGoodsCount()) + " results found for " + searchBarFilter.text!
                     }
-                    if(getGoodsCount() == 157)
+                    if(getGoodsCount() == 169)
                     {
                         goodsCount.text = ""
                 }

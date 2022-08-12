@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TR3-VW-VsN" customClass="CircularSliceView" customModule="Child_Labor" customModuleProvider="target">
-                    <rect key="frame" x="28" y="161" width="358" height="358.5"/>
+                    <rect key="frame" x="28" y="140.5" width="358" height="358.5"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="und-qY-hb5">
                             <rect key="frame" x="124" y="124" width="110" height="110"/>
@@ -55,10 +55,10 @@
                         <outlet property="delegate" destination="-1" id="19e-IJ-1nL"/>
                     </connections>
                 </collectionView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wfkjn sndcsj njkcdsncjwsdfkchsbjhbsjf bvhs sncjwsdfkchsbjhbsjf bvhs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGz-JQ-a3I">
-                    <rect key="frame" x="10" y="100" width="394" height="41"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGz-JQ-a3I">
+                    <rect key="frame" x="10" y="100" width="394" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
