@@ -115,9 +115,14 @@
 		66C06C4128AE8F1D000E787F /* icons_Açaí_Berries.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C3B28AE8F1C000E787F /* icons_Açaí_Berries.png */; };
 		66C06C4228AE8F1D000E787F /* icons_Lithium-Ion_Batteries-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C3C28AE8F1C000E787F /* icons_Lithium-Ion_Batteries-33@2x.png */; };
 		66C06C4328AE8F1D000E787F /* icons_Lithium-Ion_Batteries.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C3D28AE8F1D000E787F /* icons_Lithium-Ion_Batteries.png */; };
+		66C06C5628B01AB9000E787F /* icons_Photovoltaic_Wafers-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5028B01AB8000E787F /* icons_Photovoltaic_Wafers-33@2x.png */; };
+		66C06C5728B01AB9000E787F /* icons_Photovoltaic_Wafers-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5128B01AB9000E787F /* icons_Photovoltaic_Wafers-33@3x.png */; };
+		66C06C5828B01AB9000E787F /* icons_Photovoltaic_Wafers.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5228B01AB9000E787F /* icons_Photovoltaic_Wafers.png */; };
+		66C06C5928B01AB9000E787F /* icons_Photovoltaic_Ingots.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5328B01AB9000E787F /* icons_Photovoltaic_Ingots.png */; };
+		66C06C5A28B01AB9000E787F /* icons_Photovoltaic_Ingots-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5428B01AB9000E787F /* icons_Photovoltaic_Ingots-33@2x.png */; };
+		66C06C5B28B01AB9000E787F /* icons_Photovoltaic_Ingots-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C5528B01AB9000E787F /* icons_Photovoltaic_Ingots-33@3x.png */; };
 		66C225C9289D936D004EADF8 /* icons_Oleochemicals-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225A5289D9369004EADF8 /* icons_Oleochemicals-33@2x.png */; };
 		66C225CA289D936D004EADF8 /* icons_Crude_Palm_Kernel_Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225A6289D9369004EADF8 /* icons_Crude_Palm_Kernel_Oil.png */; };
-		66C225CB289D936D004EADF8 /* icons_Ingots.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225A7289D9369004EADF8 /* icons_Ingots.png */; };
 		66C225CD289D936D004EADF8 /* icons_Refined_Palm_Kernel_Oil-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225A9289D9369004EADF8 /* icons_Refined_Palm_Kernel_Oil-33@3x.png */; };
 		66C225D0289D936D004EADF8 /* icons_Crude_Palm_Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225AC289D936A004EADF8 /* icons_Crude_Palm_Oil.png */; };
 		66C225D1289D936D004EADF8 /* icons_Refined_Palm_Oil-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225AD289D936A004EADF8 /* icons_Refined_Palm_Oil-33@2x.png */; };
@@ -125,7 +130,6 @@
 		66C225D3289D936D004EADF8 /* icons_Solar_Modules.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225AF289D936A004EADF8 /* icons_Solar_Modules.png */; };
 		66C225D4289D936D004EADF8 /* icons_Solar_Modules-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B0289D936A004EADF8 /* icons_Solar_Modules-33@3x.png */; };
 		66C225D5289D936D004EADF8 /* icons_Crude_Palm_Oil-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B1289D936A004EADF8 /* icons_Crude_Palm_Oil-33@3x.png */; };
-		66C225D6289D936D004EADF8 /* icons_Ingots-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B2289D936A004EADF8 /* icons_Ingots-33@2x.png */; };
 		66C225D7289D936D004EADF8 /* icons_Dairy_Products.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B3289D936A004EADF8 /* icons_Dairy_Products.png */; };
 		66C225D8289D936D004EADF8 /* icons_Oleochemicals.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B4289D936B004EADF8 /* icons_Oleochemicals.png */; };
 		66C225DA289D936D004EADF8 /* icons_Refined_Palm_Oil-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B6289D936B004EADF8 /* icons_Refined_Palm_Oil-33@3x.png */; };
@@ -134,15 +138,11 @@
 		66C225DD289D936D004EADF8 /* icons_Refined_Palm_Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225B9289D936B004EADF8 /* icons_Refined_Palm_Oil.png */; };
 		66C225DE289D936D004EADF8 /* icons_Solar_Cells-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BA289D936B004EADF8 /* icons_Solar_Cells-33@2x.png */; };
 		66C225DF289D936D004EADF8 /* icons_Solar_Modules-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BB289D936B004EADF8 /* icons_Solar_Modules-33@2x.png */; };
-		66C225E0289D936D004EADF8 /* icons_Wafers-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BC289D936B004EADF8 /* icons_Wafers-33@2x.png */; };
-		66C225E1289D936D004EADF8 /* icons_Wafers.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BD289D936B004EADF8 /* icons_Wafers.png */; };
 		66C225E2289D936D004EADF8 /* icons_Solar_Cells-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BE289D936C004EADF8 /* icons_Solar_Cells-33@3x.png */; };
 		66C225E3289D936D004EADF8 /* icons_Dairy_Products-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225BF289D936C004EADF8 /* icons_Dairy_Products-33@2x.png */; };
 		66C225E4289D936D004EADF8 /* icons_Refined_Palm_Kernel_Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C0289D936C004EADF8 /* icons_Refined_Palm_Kernel_Oil.png */; };
 		66C225E6289D936D004EADF8 /* icons_Crude_Palm_Oil-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C2289D936C004EADF8 /* icons_Crude_Palm_Oil-33@2x.png */; };
 		66C225E7289D936D004EADF8 /* icons_Oleochemicals-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C3289D936C004EADF8 /* icons_Oleochemicals-33@3x.png */; };
-		66C225E8289D936D004EADF8 /* icons_Wafers-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C4289D936C004EADF8 /* icons_Wafers-33@3x.png */; };
-		66C225E9289D936D004EADF8 /* icons_Ingots-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C5289D936C004EADF8 /* icons_Ingots-33@3x.png */; };
 		66C225EA289D936D004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C6289D936C004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@2x.png */; };
 		66C225EB289D936D004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C225C7289D936C004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@3x.png */; };
 		66E3889E26DEB61C00998F5A /* upaA3.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E3889D26DEB61C00998F5A /* upaA3.png */; };
@@ -1272,9 +1272,14 @@
 		66C06C3B28AE8F1C000E787F /* icons_Açaí_Berries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Açaí_Berries.png"; sourceTree = "<group>"; };
 		66C06C3C28AE8F1C000E787F /* icons_Lithium-Ion_Batteries-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Lithium-Ion_Batteries-33@2x.png"; sourceTree = "<group>"; };
 		66C06C3D28AE8F1D000E787F /* icons_Lithium-Ion_Batteries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Lithium-Ion_Batteries.png"; sourceTree = "<group>"; };
+		66C06C5028B01AB8000E787F /* icons_Photovoltaic_Wafers-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Photovoltaic_Wafers-33@2x.png"; sourceTree = "<group>"; };
+		66C06C5128B01AB9000E787F /* icons_Photovoltaic_Wafers-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Photovoltaic_Wafers-33@3x.png"; sourceTree = "<group>"; };
+		66C06C5228B01AB9000E787F /* icons_Photovoltaic_Wafers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Photovoltaic_Wafers.png; sourceTree = "<group>"; };
+		66C06C5328B01AB9000E787F /* icons_Photovoltaic_Ingots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Photovoltaic_Ingots.png; sourceTree = "<group>"; };
+		66C06C5428B01AB9000E787F /* icons_Photovoltaic_Ingots-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Photovoltaic_Ingots-33@2x.png"; sourceTree = "<group>"; };
+		66C06C5528B01AB9000E787F /* icons_Photovoltaic_Ingots-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Photovoltaic_Ingots-33@3x.png"; sourceTree = "<group>"; };
 		66C225A5289D9369004EADF8 /* icons_Oleochemicals-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Oleochemicals-33@2x.png"; sourceTree = "<group>"; };
 		66C225A6289D9369004EADF8 /* icons_Crude_Palm_Kernel_Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Crude_Palm_Kernel_Oil.png; sourceTree = "<group>"; };
-		66C225A7289D9369004EADF8 /* icons_Ingots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Ingots.png; sourceTree = "<group>"; };
 		66C225A9289D9369004EADF8 /* icons_Refined_Palm_Kernel_Oil-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Refined_Palm_Kernel_Oil-33@3x.png"; sourceTree = "<group>"; };
 		66C225AC289D936A004EADF8 /* icons_Crude_Palm_Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Crude_Palm_Oil.png; sourceTree = "<group>"; };
 		66C225AD289D936A004EADF8 /* icons_Refined_Palm_Oil-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Refined_Palm_Oil-33@2x.png"; sourceTree = "<group>"; };
@@ -1282,7 +1287,6 @@
 		66C225AF289D936A004EADF8 /* icons_Solar_Modules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Solar_Modules.png; sourceTree = "<group>"; };
 		66C225B0289D936A004EADF8 /* icons_Solar_Modules-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Solar_Modules-33@3x.png"; sourceTree = "<group>"; };
 		66C225B1289D936A004EADF8 /* icons_Crude_Palm_Oil-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Crude_Palm_Oil-33@3x.png"; sourceTree = "<group>"; };
-		66C225B2289D936A004EADF8 /* icons_Ingots-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ingots-33@2x.png"; sourceTree = "<group>"; };
 		66C225B3289D936A004EADF8 /* icons_Dairy_Products.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Dairy_Products.png; sourceTree = "<group>"; };
 		66C225B4289D936B004EADF8 /* icons_Oleochemicals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Oleochemicals.png; sourceTree = "<group>"; };
 		66C225B6289D936B004EADF8 /* icons_Refined_Palm_Oil-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Refined_Palm_Oil-33@3x.png"; sourceTree = "<group>"; };
@@ -1291,15 +1295,11 @@
 		66C225B9289D936B004EADF8 /* icons_Refined_Palm_Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Refined_Palm_Oil.png; sourceTree = "<group>"; };
 		66C225BA289D936B004EADF8 /* icons_Solar_Cells-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Solar_Cells-33@2x.png"; sourceTree = "<group>"; };
 		66C225BB289D936B004EADF8 /* icons_Solar_Modules-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Solar_Modules-33@2x.png"; sourceTree = "<group>"; };
-		66C225BC289D936B004EADF8 /* icons_Wafers-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wafers-33@2x.png"; sourceTree = "<group>"; };
-		66C225BD289D936B004EADF8 /* icons_Wafers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Wafers.png; sourceTree = "<group>"; };
 		66C225BE289D936C004EADF8 /* icons_Solar_Cells-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Solar_Cells-33@3x.png"; sourceTree = "<group>"; };
 		66C225BF289D936C004EADF8 /* icons_Dairy_Products-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Dairy_Products-33@2x.png"; sourceTree = "<group>"; };
 		66C225C0289D936C004EADF8 /* icons_Refined_Palm_Kernel_Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Refined_Palm_Kernel_Oil.png; sourceTree = "<group>"; };
 		66C225C2289D936C004EADF8 /* icons_Crude_Palm_Oil-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Crude_Palm_Oil-33@2x.png"; sourceTree = "<group>"; };
 		66C225C3289D936C004EADF8 /* icons_Oleochemicals-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Oleochemicals-33@3x.png"; sourceTree = "<group>"; };
-		66C225C4289D936C004EADF8 /* icons_Wafers-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Wafers-33@3x.png"; sourceTree = "<group>"; };
-		66C225C5289D936C004EADF8 /* icons_Ingots-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Ingots-33@3x.png"; sourceTree = "<group>"; };
 		66C225C6289D936C004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Crude_Palm_Kernel_Oil-33@2x.png"; sourceTree = "<group>"; };
 		66C225C7289D936C004EADF8 /* icons_Crude_Palm_Kernel_Oil-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Crude_Palm_Kernel_Oil-33@3x.png"; sourceTree = "<group>"; };
 		66E3889D26DEB61C00998F5A /* upaA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upaA3.png; sourceTree = "<group>"; };
@@ -2751,6 +2751,12 @@
 				067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */,
 				067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */,
 				067E52EC269F31AD006924B0 /* icons_Polysilicon.png */,
+				66C06C5428B01AB9000E787F /* icons_Photovoltaic_Ingots-33@2x.png */,
+				66C06C5528B01AB9000E787F /* icons_Photovoltaic_Ingots-33@3x.png */,
+				66C06C5328B01AB9000E787F /* icons_Photovoltaic_Ingots.png */,
+				66C06C5028B01AB8000E787F /* icons_Photovoltaic_Wafers-33@2x.png */,
+				66C06C5128B01AB9000E787F /* icons_Photovoltaic_Wafers-33@3x.png */,
+				66C06C5228B01AB9000E787F /* icons_Photovoltaic_Wafers.png */,
 				66C06C3928AE8F1C000E787F /* icons_Açaí_Berries-33@2x.png */,
 				66C06C3A28AE8F1C000E787F /* icons_Açaí_Berries-33@3x.png */,
 				66C06C3B28AE8F1C000E787F /* icons_Açaí_Berries.png */,
@@ -2769,9 +2775,6 @@
 				66C225BF289D936C004EADF8 /* icons_Dairy_Products-33@2x.png */,
 				66C225B8289D936B004EADF8 /* icons_Dairy_Products-33@3x.png */,
 				66C225B3289D936A004EADF8 /* icons_Dairy_Products.png */,
-				66C225B2289D936A004EADF8 /* icons_Ingots-33@2x.png */,
-				66C225C5289D936C004EADF8 /* icons_Ingots-33@3x.png */,
-				66C225A7289D9369004EADF8 /* icons_Ingots.png */,
 				66C225A5289D9369004EADF8 /* icons_Oleochemicals-33@2x.png */,
 				66C225C3289D936C004EADF8 /* icons_Oleochemicals-33@3x.png */,
 				66C225B4289D936B004EADF8 /* icons_Oleochemicals.png */,
@@ -2787,9 +2790,6 @@
 				66C225BB289D936B004EADF8 /* icons_Solar_Modules-33@2x.png */,
 				66C225B0289D936A004EADF8 /* icons_Solar_Modules-33@3x.png */,
 				66C225AF289D936A004EADF8 /* icons_Solar_Modules.png */,
-				66C225BC289D936B004EADF8 /* icons_Wafers-33@2x.png */,
-				66C225C4289D936C004EADF8 /* icons_Wafers-33@3x.png */,
-				66C225BD289D936B004EADF8 /* icons_Wafers.png */,
 				66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */,
 				66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */,
 				66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */,
@@ -3780,7 +3780,6 @@
 				8335AFB01B668111000748F0 /* icons_Trona_(mineral).png in Resources */,
 				1358B28528A571A700A8072C /* derived_labor.png in Resources */,
 				8335AF6D1B667963000748F0 /* icons_Silk_Fabric.png in Resources */,
-				66C225E8289D936D004EADF8 /* icons_Wafers-33@3x.png in Resources */,
 				6682423824E70B5F009B203E /* icons_Tomato_Products-33@2x.png in Resources */,
 				8356184B1BD7DE79007BCF75 /* Falkland Islands (Islas Malvinas).pdf in Resources */,
 				83AD13A71B669137004B92D3 /* icons_Cobalt_ore_(heterogenite)-33@2x.png in Resources */,
@@ -3860,7 +3859,6 @@
 				8310FF3B1ABB11310025F7AE /* Turkey.png in Resources */,
 				8310FE8B1ABB11310025F7AE /* British_Virgin_Islands.png in Resources */,
 				8310FEAC1ABB11310025F7AE /* Equatorial_Guinea.png in Resources */,
-				66C225D6289D936D004EADF8 /* icons_Ingots-33@2x.png in Resources */,
 				8310FF281ABB11310025F7AE /* Soviet_Union.png in Resources */,
 				8303DFD71B41F21A00E4FD42 /* Vanuatu-map.png in Resources */,
 				8303DF6F1B41F21A00E4FD42 /* Botswana-map.png in Resources */,
@@ -3869,7 +3867,6 @@
 				83AD12CB1B668E71004B92D3 /* icons_Timber-33@3x.png in Resources */,
 				83AD13731B669137004B92D3 /* icons_Cassava-33@2x.png in Resources */,
 				83AD12961B668E71004B92D3 /* icons_Lobsters-33@3x.png in Resources */,
-				66C225E1289D936D004EADF8 /* icons_Wafers.png in Resources */,
 				EDF0415820EFA90900506499 /* icons_Lettuce.png in Resources */,
 				8335AFB61B6681AA000748F0 /* icons_Gypsum_(mineral).png in Resources */,
 				1358B28728A5750000A8072C /* dl_image.png in Resources */,
@@ -3896,7 +3893,6 @@
 				8310FED91ABB11310025F7AE /* Latvia.png in Resources */,
 				8335AF1B1B667963000748F0 /* icons_Beef.png in Resources */,
 				66C225DC289D936D004EADF8 /* icons_Dairy_Products-33@3x.png in Resources */,
-				66C225E0289D936D004EADF8 /* icons_Wafers-33@2x.png in Resources */,
 				EDE89E9F21383D9000A70A00 /* icons_Poppies.png in Resources */,
 				8356185D1BD7DE79007BCF75 /* Kazakhstan.pdf in Resources */,
 				83AD12721B668E71004B92D3 /* icons_Diamonds-33@3x.png in Resources */,
@@ -3958,6 +3954,7 @@
 				8310FF1E1ABB11310025F7AE /* Seychelles.png in Resources */,
 				8335AF7F1B667963000748F0 /* icons_Toys.png in Resources */,
 				83AD12951B668E71004B92D3 /* icons_Leather-33@3x.png in Resources */,
+				66C06C5A28B01AB9000E787F /* icons_Photovoltaic_Ingots-33@2x.png in Resources */,
 				8310FEEF1ABB11310025F7AE /* Moldova,_Republic_of.png in Resources */,
 				8335AF231B667963000748F0 /* icons_Cashews.png in Resources */,
 				83B3E98D1B3B519300742BC7 /* forced-labor@2x.png in Resources */,
@@ -4113,6 +4110,7 @@
 				8303DFCC1B41F21A00E4FD42 /* Thailand-map.png in Resources */,
 				8356183B1BD7DE79007BCF75 /* Cocos (Keeling) Islands.pdf in Resources */,
 				8310FED61ABB11310025F7AE /* Kuwait.png in Resources */,
+				66C06C5B28B01AB9000E787F /* icons_Photovoltaic_Ingots-33@3x.png in Resources */,
 				83AD127A1B668E71004B92D3 /* icons_Fish-33@3x.png in Resources */,
 				83AD12551B668E71004B92D3 /* icons_Brazil_Nuts_Chestnuts-33@3x.png in Resources */,
 				8310FF111ABB11310025F7AE /* Romania.png in Resources */,
@@ -4142,6 +4140,7 @@
 				66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */,
 				8303DF741B41F21A00E4FD42 /* Cameroon-map.png in Resources */,
 				8335AF481B667963000748F0 /* icons_Goats.png in Resources */,
+				66C06C5628B01AB9000E787F /* icons_Photovoltaic_Wafers-33@2x.png in Resources */,
 				8310FEA51ABB11310025F7AE /* Denmark.png in Resources */,
 				83AD12C51B668E71004B92D3 /* icons_Teak-33@3x.png in Resources */,
 				8310FF001ABB11310025F7AE /* Norfolk_Island.png in Resources */,
@@ -4256,7 +4255,6 @@
 				38CA953C1D4BAEF200319316 /* countries_2016.xml in Resources */,
 				8310FED21ABB11310025F7AE /* Jordan.png in Resources */,
 				83AD12B71B668E71004B92D3 /* icons_Sisal-33@3x.png in Resources */,
-				66C225E9289D936D004EADF8 /* icons_Ingots-33@3x.png in Resources */,
 				8335AF341B667963000748F0 /* icons_Cotton.png in Resources */,
 				8310FF0B1ABB11310025F7AE /* Pitcairn_Islands.png in Resources */,
 				8303DFB31B41F21A00E4FD42 /* Pakistan-map.png in Resources */,
@@ -4309,6 +4307,7 @@
 				83AD13EA1B669137004B92D3 /* icons_Wheat-33@2x.png in Resources */,
 				8335AF411B667963000748F0 /* icons_Footwear.png in Resources */,
 				EDE89E9E21383D9000A70A00 /* icons_Lettuce.png in Resources */,
+				66C06C5828B01AB9000E787F /* icons_Photovoltaic_Wafers.png in Resources */,
 				8356186D1BD7DE79007BCF75 /* Mongolia.pdf in Resources */,
 				835618991BD7DE79007BCF75 /* Tunisia.pdf in Resources */,
 				83800C871AA4D40300DD47EB /* LaunchScreen.xib in Resources */,
@@ -4511,6 +4510,7 @@
 				8335AEA11B6678DC000748F0 /* Macedonia-map.png in Resources */,
 				8303DF6C1B41F21A00E4FD42 /* Bhutan-map.png in Resources */,
 				83AD12611B668E71004B92D3 /* icons_Chestnut-33@3x.png in Resources */,
+				66C06C5928B01AB9000E787F /* icons_Photovoltaic_Ingots.png in Resources */,
 				668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */,
 				38CA954C1D4FF4F200319316 /* icons_Pepper-33@3x.png in Resources */,
 				8335AF671B667963000748F0 /* icons_Salt.png in Resources */,
@@ -4552,7 +4552,6 @@
 				8310FEF11ABB11310025F7AE /* Mongolia.png in Resources */,
 				8356185C1BD7DE79007BCF75 /* Jordan.pdf in Resources */,
 				83AD13EB1B669137004B92D3 /* icons_Tungsten_ore_(wolframite)-33@2x.png in Resources */,
-				66C225CB289D936D004EADF8 /* icons_Ingots.png in Resources */,
 				8303DFA31B41F21A00E4FD42 /* Malawi-map.png in Resources */,
 				835618531BD7DE79007BCF75 /* Guinea-Bissau.pdf in Resources */,
 				8335AF7E1B667963000748F0 /* icons_Tomatoes.png in Resources */,
@@ -4619,6 +4618,7 @@
 				8303DFCB1B41F21A00E4FD42 /* Tanzania-map.png in Resources */,
 				83AD13D71B669137004B92D3 /* icons_Sugar_Beets-33@2x.png in Resources */,
 				8303DF991B41F21A00E4FD42 /* Kazakhstan-map.png in Resources */,
+				66C06C5728B01AB9000E787F /* icons_Photovoltaic_Wafers-33@3x.png in Resources */,
 				66C225DD289D936D004EADF8 /* icons_Refined_Palm_Oil.png in Resources */,
 				83AD13DC1B669137004B92D3 /* icons_Tea-33@2x.png in Resources */,
 				835618461BD7DE79007BCF75 /* Ecuador.pdf in Resources */,
