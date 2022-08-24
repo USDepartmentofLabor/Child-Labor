@@ -179,8 +179,7 @@ class GoodController: UITableViewController {
         
         titleLabel?.text = countryName
         let flagImage = UIImage(named: countryName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil))
-        cell.imageView?.image = flagImage
-        
+        /*cell.imageView?.image = flagImage
         // Resize flag icons to a constant width, centered vertically
         if (flagImage != nil) {
             let adjustedWidth = flagImage!.size.width * 44 / flagImage!.size.height
@@ -199,6 +198,11 @@ class GoodController: UITableViewController {
                 cell.imageView?.image = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext();
             }
+        }*/
+        cell.imageView?.layer.borderColor = UIColor.gray.cgColor
+                cell.imageView?.layer.borderWidth = 1
+        if let countryFlag = flagImage {
+            cell.imageView?.image = imageWithImage(image: countryFlag, scaledToSize: CGSize(width: 42, height: 30))
         }
         
         cell.backgroundColor = UIColor.white
@@ -319,5 +323,14 @@ class GoodController: UITableViewController {
             svc.countryName = ((sender as! UITableViewCell).viewWithTag(301) as! UILabel).text!
         }
     }
+    
+    func imageWithImage(image: UIImage, scaledToSize newSize: CGSize) -> UIImage {
+            
+            UIGraphicsBeginImageContext(newSize)
+            image.draw(in: CGRect(x: 0 ,y: 0 ,width: newSize.width ,height: newSize.height))
+            let newImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            return newImage!.withRenderingMode(.alwaysOriginal)
+        }
 
 }
