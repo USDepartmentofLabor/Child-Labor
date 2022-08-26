@@ -34,6 +34,7 @@
 		1358B28528A571A700A8072C /* derived_labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28428A571A700A8072C /* derived_labor.png */; };
 		1358B28728A5750000A8072C /* dl_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28628A5750000A8072C /* dl_image.png */; };
 		1358B28928A5781700A8072C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28828A5781600A8072C /* Main.storyboard */; };
+		1358B28B28B92F8600A8072C /* dl_vertical_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1358B28A28B92F8500A8072C /* dl_vertical_image.png */; };
 		136829B0286CA84C0083D8E4 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829AF286CA84C0083D8E4 /* CustomLabel.swift */; };
 		136829B2287C58610083D8E4 /* AssesmentLevelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */; };
 		136829B4287C58720083D8E4 /* AssesmentsPieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */; };
@@ -1191,6 +1192,7 @@
 		1358B28428A571A700A8072C /* derived_labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derived_labor.png; sourceTree = "<group>"; };
 		1358B28628A5750000A8072C /* dl_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_image.png; sourceTree = "<group>"; };
 		1358B28828A5781600A8072C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1358B28A28B92F8500A8072C /* dl_vertical_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_vertical_image.png; sourceTree = "<group>"; };
 		136829AF286CA84C0083D8E4 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		136829B1287C58610083D8E4 /* AssesmentLevelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssesmentLevelParser.swift; sourceTree = "<group>"; };
 		136829B3287C58720083D8E4 /* AssesmentsPieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssesmentsPieChartViewController.xib; sourceTree = "<group>"; };
@@ -3536,6 +3538,7 @@
 				83B05CD41B9F1DE400A0F53A /* complete_goods_by_good.xml */,
 				380048811D8B993D00E64714 /* ToolkitForResponsibleBusinesses-lo.pdf */,
 				38CA953D1D4BAF2400319316 /* goods_2016.xml */,
+				1358B28A28B92F8500A8072C /* dl_vertical_image.png */,
 				1358B28428A571A700A8072C /* derived_labor.png */,
 				1358B28628A5750000A8072C /* dl_image.png */,
 				380048721D8B991C00E64714 /* Fact Sheet-OFCT-2016-lo.pdf */,
@@ -4720,6 +4723,7 @@
 				83AD13AA1B669137004B92D3 /* icons_Iron-33@2x.png in Resources */,
 				8356188C1BD7DE79007BCF75 /* Somalia.pdf in Resources */,
 				835618471BD7DE79007BCF75 /* Egypt.pdf in Resources */,
+				1358B28B28B92F8600A8072C /* dl_vertical_image.png in Resources */,
 				83AD12A61B668E71004B92D3 /* icons_Pineapples-33@3x.png in Resources */,
 				83AD13B11B669137004B92D3 /* icons_Matches-33@2x.png in Resources */,
 				83AD13A31B669137004B92D3 /* icons_Grapes-33@2x.png in Resources */,
