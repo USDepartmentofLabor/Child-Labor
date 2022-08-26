@@ -1,6 +1,6 @@
 <Goods>
   <Good>
-    <Good_Name>Açaí</Good_Name>
+    <Good_Name>Açaí Berries</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1030,7 +1030,7 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -1312,7 +1312,7 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -1645,7 +1645,7 @@
         <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -2422,7 +2422,7 @@
         <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -2829,21 +2829,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Ingots</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Iron</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
@@ -2991,7 +2976,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Lithium</Good_Name>
+    <Good_Name>Lithium-Ion Batteries</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -3001,7 +2986,7 @@
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
         <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Congo Democratic Republic of the</Derived_Country>
+        <Derived_Country>Congo, Democratic Republic of the</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3213,39 +3198,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Oil (Palm)</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Indonesia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-      <Country>
-        <Country_Name>Malaysia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-      <Country>
-        <Country_Name>Sierra Leone</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Oleochemicals</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -3291,6 +3243,39 @@
       <Country>
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Palm Fruit</Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Country>
+      <Country>
+        <Country_Name>Malaysia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
+        <Derived_Country>No</Derived_Country>
+      </Country>
+      <Country>
+        <Country_Name>Sierra Leone</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -3374,6 +3359,36 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
         <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
         <Derived_Country>No</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Photovoltaic Ingots</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Photovoltaic Wafers</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
+        <Derived_Country>China</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4540,7 +4555,7 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -4861,7 +4876,7 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -5122,7 +5137,7 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Congo Democratic Republic of the</Country_Name>
+        <Country_Name>Congo, Democratic Republic of the</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
@@ -5153,21 +5168,6 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
         <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
         <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Wafers</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
       </Country>
     </Countries>
   </Good>
