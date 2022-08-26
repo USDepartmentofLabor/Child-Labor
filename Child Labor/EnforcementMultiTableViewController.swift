@@ -80,7 +80,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         }
         
         
-        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"]
+        let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Labor Inspectors meet ILO Rec", "Mechanism to Assess Civil Penalties"]
         let sectionA2 = ["Initial Training for New Employees", "Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
         let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite"]
         let sectionA4 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]

@@ -19,7 +19,8 @@ class AssesmentsPieChartViewController: UIViewController {
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
     var chartDetails: AssesmentPageDetails!
     
-    
+    var chartOrderedArr = ["Significant Advancement", "Moderate Advancement", "Minimal Advancement", "No Advancement", "No Assessment"]
+        
     private(set) var leadingSpace = UIDevice.isIPad() ? 16.0 : 10.0
     
     override func viewDidLoad() {
@@ -37,8 +38,6 @@ class AssesmentsPieChartViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
     }
-    
-    
     
     private func setupCollectionView() {
         
@@ -59,6 +58,9 @@ class AssesmentsPieChartViewController: UIViewController {
     private func setupPieChart() {
         self.centerCircularView.layer.cornerRadius = 55
         circularPieView.segments = (chartDetails.chartData.count > 0) ? chartDetails.chartData : [Segment]()
+                
+        let chartTitles = chartDetails.chartData.map { $0.title }
+        chartOrderedArr = chartOrderedArr.filter{ chartTitles.contains($0) }
     }
 }
 
@@ -66,7 +68,7 @@ class AssesmentsPieChartViewController: UIViewController {
 extension AssesmentsPieChartViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return chartDetails.chartData.count
+        return chartOrderedArr.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -76,9 +78,10 @@ extension AssesmentsPieChartViewController: UICollectionViewDelegate, UICollecti
         guard let colorCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomColorCodeCollectionViewCell", for: indexPath) as? CustomColorCodeCollectionViewCell else {
             return cell
         }
-        let chartData = chartDetails.chartData
-        let title = chartData[indexPath.item].title
-        let color = chartData[indexPath.item].color
+        let currentTitleValue = chartOrderedArr[indexPath.item]
+        let chartData = chartDetails.chartData.filter{($0.title == currentTitleValue)}
+        let title = chartData[0].title
+        let color = chartData[0].color
         colorCell.lblTitle.numberOfLines = 2
         colorCell.lblTitle.text = title
         colorCell.colorCodeLbl.backgroundColor = color
