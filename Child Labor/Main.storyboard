@@ -631,7 +631,7 @@
                                                                     <constraint firstAttribute="width" constant="40" id="zWT-wV-bYa"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
-                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="textColor" systemColor="systemRedColor"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <variation key="default">
                                                                     <mask key="constraints">
@@ -2108,7 +2108,7 @@ and School</string>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="203" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dl_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="NjM-tT-D0B">
                                                     <rect key="frame" x="1" y="0.0" width="12" height="12"/>
-                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" systemColor="systemRedColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="12" id="fwr-hi-Uf5"/>
                                                         <constraint firstAttribute="height" constant="12" id="yzf-pr-wKh"/>
@@ -2118,7 +2118,7 @@ and School</string>
                                                     <rect key="frame" x="17" y="0.0" width="13" height="12"/>
                                                     <accessibility key="accessibilityConfiguration" label="Child Labor"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
-                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" systemColor="systemRedColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -6083,7 +6083,7 @@ Standards                                          </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iR0-4H-bt0"/>
+        <segue reference="xQ3-Ct-UlW"/>
         <segue reference="Qkd-VV-gmI"/>
         <segue reference="q6X-np-kmw"/>
         <segue reference="lgx-uC-KzH"/>
@@ -6121,6 +6121,9 @@ Standards                                          </string>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
