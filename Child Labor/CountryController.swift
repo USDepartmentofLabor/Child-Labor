@@ -28,6 +28,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     @IBOutlet weak var goodsCollection: UICollectionView!
     @IBOutlet weak var moreButton: UIButton!
     
+    var goodsWithDerivedCountry: [String: String] = [:]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -129,6 +131,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                             exploitations.add(2)
                         } else if derivedLaborStatus == "Yes" {
                             exploitations.add(4)
+                            let derivedCountry = good["Derived_Country"].element?.text ?? "no"
+                            goodsWithDerivedCountry.updateValue(derivedCountry, forKey: goodName ?? "")
                         } else {
                             exploitations.add(3)
                         }
@@ -220,7 +224,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         goodButton?.accessibilityLabel = goodName as? String
         if #available(iOS 13.0, *) {
             goodLabel?.textColor = UIColor.black
-            } else {
+        } else {
             // Fallback on earlier versions
         }
         //
@@ -253,8 +257,18 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
             cl?.isHidden = true
             fl?.isHidden = true
             dl?.isHidden = false
-            
+            let flagImageView : UIImageView? = dl!.viewWithTag(405) as? UIImageView
+            flagImageView?.isHidden = true
             clLabel?.accessibilityLabel = "Derived Labor"
+            if let derivedCountry = goodsWithDerivedCountry[goodName as! String] {
+                let countryName = derivedCountry.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil)
+                if let flagImage = UIImage(named: countryName) {
+                    flagImageView?.isHidden = false
+                    flagImageView?.image = flagImage
+                    flagImageView?.layer.borderColor = UIColor.gray.cgColor
+                    flagImageView?.layer.borderWidth = 1
+                }
+            }
         default:
             cl?.isHidden = false
             fl?.isHidden = false
