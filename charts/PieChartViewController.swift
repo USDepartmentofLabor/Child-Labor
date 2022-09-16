@@ -48,11 +48,11 @@ class PieChartViewController: UIViewController {
         
     
     private let countryRegionArray: [CountryRegionItem] = [
-        CountryRegionItem(title: "Europe and Eurasia", color: UIColor(red: 57.0/255.0, green: 89.0/255.0, blue: 122.0/255.0, alpha: 1)),
-        CountryRegionItem(title: "Indo-Pacific", color: UIColor(red: 147.0/255.0, green: 78.0/255.0, blue: 80.0/255.0, alpha: 1)),
-        CountryRegionItem(title: "Latin America and the Caribbean", color: UIColor(red: 108.0/255.0, green: 129.0/255.0, blue: 79.0/255.0, alpha: 1)),
-        CountryRegionItem(title: "Middle East and North Africa", color: UIColor(red: 218.0/255.0, green: 142.0/255.0, blue: 57.0/255.0, alpha: 1)),
-        CountryRegionItem(title: "Sub-Saharan Africa", color: UIColor(red: 130.0/255.0, green: 152.0/255.0, blue: 143.0/255.0, alpha: 1))
+        CountryRegionItem(title: "Europe and Eurasia", color: UIColor(red: 202/255.0, green: 31/255.0, blue: 65/255.0, alpha: 1)),
+        CountryRegionItem(title: "Indo-Pacific", color: UIColor(red: 63/255.0, green: 81/255.0, blue: 163/255.0, alpha: 1)),
+        CountryRegionItem(title: "Latin America and the Caribbean", color: UIColor(red: 126/255.0, green: 105/255.0, blue: 165/255.0, alpha: 1)),
+        CountryRegionItem(title: "Middle East and North Africa", color: UIColor(red: 36/255.0, green: 132/255.0, blue: 21/255.0, alpha: 1)),
+        CountryRegionItem(title: "Sub-Saharan Africa", color: UIColor(red: 51/255.0, green: 128/255.0, blue: 116/255.0, alpha: 1))
     ]
     var goodsXML = SWXMLHash.parse("<xml></xml>")
     
