@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
 class FullReportViewController: GAITrackedViewController {
     
     var countryName = "Brazil"
 
-    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,10 @@ class FullReportViewController: GAITrackedViewController {
 
         let pdfData = try? Data(contentsOf: targetURL)
         
-        webView.load(pdfData!, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
+        //webView.load(pdfData!, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
+        let fileURL = URL(fileURLWithPath: localFilePath ?? "")
+        
+        webView.loadFileURL(fileURL, allowingReadAccessTo: fileURL)
     }
 
     @IBAction func closeFullReport(_ sender: AnyObject) {

@@ -438,7 +438,7 @@
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Countries/Areas" id="bsP-lW-rNn"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="9d8-lJ-Jve">
-                            <rect key="frame" x="50" y="0.0" width="245" height="33"/>
+                            <rect key="frame" x="50" y="3" width="245" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="A–Z"/>
@@ -1730,7 +1730,7 @@ and School</string>
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Goods" id="Yto-wh-IYj"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="d0V-2m-jRq">
-                            <rect key="frame" x="80.5" y="0.0" width="159" height="32"/>
+                            <rect key="frame" x="80.5" y="3" width="159" height="32"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="A–Z"/>
@@ -2194,21 +2194,25 @@ and School</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" paginationMode="topToBottom" translatesAutoresizingMaskIntoConstraints="NO" id="sg6-q9-nJr">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Cb-9a-Bcg">
                                 <rect key="frame" x="0.0" y="44" width="320" height="475"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sg6-q9-nJr" firstAttribute="leading" secondItem="fGq-gl-AB7" secondAttribute="leadingMargin" constant="-16" id="Ka6-Yp-gh2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="sg6-q9-nJr" secondAttribute="trailing" constant="-16" id="RAs-QM-Ou2"/>
-                            <constraint firstItem="Pu7-mQ-mFp" firstAttribute="top" secondItem="sg6-q9-nJr" secondAttribute="bottom" id="V4g-sI-cPA"/>
-                            <constraint firstItem="sg6-q9-nJr" firstAttribute="top" secondItem="1ag-65-Kis" secondAttribute="bottom" id="if2-0h-ZAC"/>
+                            <constraint firstItem="Pu7-mQ-mFp" firstAttribute="top" secondItem="5Cb-9a-Bcg" secondAttribute="bottom" id="4zn-23-Hrn"/>
+                            <constraint firstAttribute="trailing" secondItem="5Cb-9a-Bcg" secondAttribute="trailing" id="8M4-IJ-Orh"/>
+                            <constraint firstItem="5Cb-9a-Bcg" firstAttribute="leading" secondItem="fGq-gl-AB7" secondAttribute="leading" id="Asz-ae-JrK"/>
+                            <constraint firstItem="5Cb-9a-Bcg" firstAttribute="top" secondItem="1ag-65-Kis" secondAttribute="bottom" id="u0k-Qj-qVa"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="sg6-q9-nJr" id="Wi5-hW-VkR"/>
+                        <outlet property="webView" destination="5Cb-9a-Bcg" id="uIy-u1-mfF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bE-QM-jrm" userLabel="First Responder" sceneMemberID="firstResponder"/>
