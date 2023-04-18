@@ -130,7 +130,7 @@ class PieChartViewController: UIViewController {
     
     private func setupNavigationBar() {
         
-        self.title = (self.chartDataType == .goodsSectorType) ? ChartTypes.goodsBySector.rawValue : ChartTypes.goodsByRegion.rawValue
+        self.title = (self.chartDataType == .goodsSectorType) ? ChartTypes.goodsBySector.rawValue : ""//ChartTypes.goodsByRegion.rawValue
         
         // Navigation bar color
         self.navigationController?.navigationBar.topItem?.title = " "
