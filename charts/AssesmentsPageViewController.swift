@@ -18,24 +18,52 @@ struct AssesmentPageDetails {
     var chartData: [Segment]
 }
 
+enum ScreenType {
+    case assesmentLevelByRegion
+    case newDVASCountries
+}
+
 class AssesmentsPageViewController: UIPageViewController {
     
+    private(set) var screenType: ScreenType?
     private var pageController: UIPageViewController?
     private var currentIndex: Int = 0
     private var advancementsArr: [AssesmentPageDetails] = [AssesmentPageDetails]()
-    var colorCodes = ["Moderate Advancement" : UIColor(red: 36/255.0, green: 132/255.0, blue: 21/255.0, alpha: 1),
-                          "Minimal Advancement" : UIColor(red: 63/255.0, green: 81/255.0, blue: 163/255.0, alpha: 1),
-                          "No Assessment" : UIColor(red: 126/255.0, green: 105/255.0, blue: 165/255.0, alpha: 1),
-                          "No Advancement" : UIColor(red: 202/255.0, green: 31/255.0, blue: 65/255.0, alpha: 1),
-                          "Significant Advancement" : UIColor(red: 51/255.0, green: 128/255.0, blue: 116/255.0, alpha: 1)]
+    var colorCodes = [String: UIColor]()
     var goodsSectors = Dictionary<String, Any>()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .lightGray
+        if screenType == .assesmentLevelByRegion {
+            colorCodes = ["Moderate Advancement" : UIColor(red: 36/255.0, green: 132/255.0, blue: 21/255.0, alpha: 1),
+                            "Minimal Advancement" : UIColor(red: 63/255.0, green: 81/255.0, blue: 163/255.0, alpha: 1),
+                            "No Assessment" : UIColor(red: 126/255.0, green: 105/255.0, blue: 165/255.0, alpha: 1),
+                            "No Advancement" : UIColor(red: 202/255.0, green: 31/255.0, blue: 65/255.0, alpha: 1),
+                            "Significant Advancement" : UIColor(red: 51/255.0, green: 128/255.0, blue: 116/255.0, alpha: 1)]
+        } else if screenType == .newDVASCountries {
+            colorCodes = ["Unknown" : UIColor(red: 63/255.0, green: 81/255.0, blue: 163/255.0, alpha: 1),
+                          "N/A" : UIColor(red: 126/255.0, green: 105/255.0, blue: 165/255.0, alpha: 1),
+                          "No" : UIColor(red: 202/255.0, green: 31/255.0, blue: 65/255.0, alpha: 1),
+                          "Yes" : UIColor(red: 51/255.0, green: 128/255.0, blue: 116/255.0, alpha: 1)]
+        }
+        
         self.setupNavigationBar()
         self.parseAssesmentLevelData()
+    }
+    
+    //MARK: - Initialisation methods.
+    /// Convenience init declaration
+    required convenience init?(coder: NSCoder) {
+        self.init(coder: coder)
+    }
+    
+    /// Convenience delcaration for charttype view initialization.
+    convenience init(screenType: ScreenType? = nil) {
+        self.init(nibName: "AssesmentsPageViewController",
+                  bundle: Bundle(for: AssesmentsPageViewController.self))
+        self.screenType = screenType
     }
     
     private func setupPageController() {
@@ -49,6 +77,7 @@ class AssesmentsPageViewController: UIPageViewController {
         self.view.addSubview(self.pageController!.view)
         
         let initialVC = AssesmentsPieChartViewController.loadFromNib()
+        initialVC.screenType = screenType
         if advancementsArr.count > 0 {
             initialVC.chartDetails = advancementsArr[0]
         }
@@ -58,8 +87,11 @@ class AssesmentsPageViewController: UIPageViewController {
     }
     
     private func setupNavigationBar() {
-        
-        self.title = "Assesment Level By Region"
+        if screenType == .assesmentLevelByRegion {
+            self.title = "Assesment Level By Region"
+        } else if screenType == .newDVASCountries {
+            self.title = "Labor Inspector Meet ILO by Region"
+        }
 
         // Navigation bar color
         self.navigationController?.navigationBar.topItem?.title = " "
@@ -88,7 +120,11 @@ class AssesmentsPageViewController: UIPageViewController {
             self.formatAssesmentData(assesmentData: self.goodsSectors)
             self.setupPageController()
         }
-        parserModel.parseGoodsData()
+        if screenType == .assesmentLevelByRegion {
+            parserModel.parseGoodsData()
+        } else if screenType == .newDVASCountries {
+            parserModel.parseNewDVAsCoutryData()
+        }
     }
     
     private func formatAssesmentData(assesmentData : [String : Any]) {
@@ -105,6 +141,10 @@ class AssesmentsPageViewController: UIPageViewController {
             }
         }
         
+    }
+    
+    func setScreenType(type: ScreenType) {
+        screenType = type
     }
 }
 
@@ -126,6 +166,7 @@ extension AssesmentsPageViewController: UIPageViewControllerDataSource, UIPageVi
         
         let vc: AssesmentsPieChartViewController = AssesmentsPieChartViewController.loadFromNib()
         vc.chartDetails = advancementsArr[index]
+        vc.screenType = screenType
         return vc
     }
     
@@ -145,6 +186,7 @@ extension AssesmentsPageViewController: UIPageViewControllerDataSource, UIPageVi
         
         let vc: AssesmentsPieChartViewController =  AssesmentsPieChartViewController.loadFromNib()
         vc.chartDetails = advancementsArr[index]
+        vc.screenType = screenType
         return vc
     }
     
