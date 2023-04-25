@@ -48,5 +48,38 @@ class AssesmentLevelParser {
         
         self.onCompletionGoodsParsing?(self.goodsSectors)
     }
-
+    
+    func parseNewDVAsCoutryData() {
+        let urlPath = Bundle.main.path(forResource: kCountriesXmlFile, ofType: "xml")
+        var contents: NSString?
+        do {
+            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
+        } catch _ {
+            contents = nil
+        }
+        
+        goodsXML = SWXMLHash.parse(contents! as String)
+        
+        for country in goodsXML[kCountries][kCountry].all {
+            if let countryRegion = country["Region"].element?.text, !countryRegion.isEmpty {
+                
+                if var enforcements = country["Enforcements"]["Labor_Inspectors_Intl_Standards"].element?.text, !enforcements.isEmpty {
+                    if var currentSector = self.goodsSectors[countryRegion] as? Dictionary<String, Any> {
+                        if var advancementInfo = currentSector[enforcements] as? Int {
+                            advancementInfo += 1
+                            currentSector[enforcements] = advancementInfo
+                        } else {
+                            currentSector[enforcements] = 1
+                        }
+                        self.goodsSectors[countryRegion] = currentSector
+                    } else {
+                        self.goodsSectors[countryRegion] = [enforcements : 1]
+                    }
+                }
+            }
+        }
+        
+        self.onCompletionGoodsParsing?(self.goodsSectors)
+    }
+    
 }

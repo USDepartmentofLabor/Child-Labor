@@ -7,6 +7,7 @@ enum ChartTypes: String, CaseIterable {
     case goodsBySector = "Goods By Sector"
     //case goodsByRegion = "Goods By Region"
     case assesmentLevelByRegion = "Assesment Level By Region"
+    case newDVAsCountries = "Labor Inspector Meet ILO by Region"
 }
 class DataVisualizationTableViewController: UITableViewController {
    
@@ -101,7 +102,11 @@ extension DataVisualizationTableViewController {
 //            vc = PieChartViewController(chartType: .countryRegionType)
 //            break
         case .assesmentLevelByRegion:
-            vc = AssesmentsPageViewController()
+            vc = AssesmentsPageViewController(screenType: .assesmentLevelByRegion)
+            
+            break
+        case .newDVAsCountries:
+            vc = AssesmentsPageViewController(screenType: .newDVASCountries)
             break
         @unknown default:
             vc = ProportionalChartViewController.loadFromNib()
