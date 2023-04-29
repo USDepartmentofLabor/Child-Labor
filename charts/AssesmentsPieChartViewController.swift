@@ -18,8 +18,9 @@ class AssesmentsPieChartViewController: UIViewController {
     @IBOutlet weak var colorCodesCollectionView : UICollectionView!
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
     var chartDetails: AssesmentPageDetails!
+    var screenType: ScreenType!
     
-    var chartOrderedArr = ["Significant Advancement", "Moderate Advancement", "Minimal Advancement", "No Advancement", "No Assessment"]
+    var chartOrderedArr: [String] = []
         
     private(set) var leadingSpace = UIDevice.isIPad() ? 16.0 : 10.0
     
@@ -27,6 +28,11 @@ class AssesmentsPieChartViewController: UIViewController {
         super.viewDidLoad()
 
         self.titleLabel.text = self.chartDetails.mainTitle
+        if screenType == .assesmentLevelByRegion {
+            chartOrderedArr = ["Significant Advancement", "Moderate Advancement", "Minimal Advancement", "No Advancement", "No Assessment"]
+        } else if screenType == .newDVASCountries {
+            chartOrderedArr = ["Yes", "No", "N/A", "Unknown"]
+        }
         self.setupCollectionView()
         self.setupPieChart()
     }
