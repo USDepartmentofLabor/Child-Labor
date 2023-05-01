@@ -64,6 +64,11 @@ class AssesmentLevelParser {
             if let countryRegion = country["Region"].element?.text, !countryRegion.isEmpty {
                 
                 if var enforcements = country["Enforcements"]["Labor_Inspectors_Intl_Standards"].element?.text, !enforcements.isEmpty {
+                 
+                    if var enforcement = country["Enforcements"]["Labor_Inspectors_Intl_Standards"]["Territory"]["Enforcement"].element?.text {
+                        enforcements = enforcement
+                    }
+                    
                     if var currentSector = self.goodsSectors[countryRegion] as? Dictionary<String, Any> {
                         if var advancementInfo = currentSector[enforcements] as? Int {
                             advancementInfo += 1

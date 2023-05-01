@@ -133,8 +133,11 @@ class AssesmentsPageViewController: UIPageViewController {
             if let regionAssesmentsDict = assesmentData[key] as? [String : Any] {
                 var chartSegments = [Segment]()
                 for assesmentKey in regionAssesmentsDict.keys {
-                    let assesmentSegment = Segment.init(color: colorCodes[assesmentKey] ?? .gray, value: CGFloat(regionAssesmentsDict[assesmentKey] as! Int), title : assesmentKey, isFloatType: false)
-                    chartSegments.append(assesmentSegment)
+                    if !assesmentKey.contains("\n") {
+                        let assesmentSegment = Segment.init(color: colorCodes[assesmentKey] ?? .gray, value: CGFloat(regionAssesmentsDict[assesmentKey] as! Int), title : assesmentKey, isFloatType: false)
+                        chartSegments.append(assesmentSegment)
+                    }
+                   
                 }
                let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Advancement Level for \(key)", index: index, chartData: chartSegments)
                 advancementsArr.append(chartDetails)
