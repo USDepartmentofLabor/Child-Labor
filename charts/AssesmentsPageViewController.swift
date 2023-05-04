@@ -139,8 +139,14 @@ class AssesmentsPageViewController: UIPageViewController {
                     }
                    
                 }
-               let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Advancement Level for \(key)", index: index, chartData: chartSegments)
-                advancementsArr.append(chartDetails)
+                if screenType == .assesmentLevelByRegion {
+                    let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Advancement Level for \(key)", index: index, chartData: chartSegments)
+                     advancementsArr.append(chartDetails)
+                } else if screenType == .newDVASCountries {
+                    let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Assessment Level for \(key)", index: index, chartData: chartSegments)
+                     advancementsArr.append(chartDetails)
+                }
+              
             }
         }
         
