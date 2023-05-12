@@ -62,18 +62,25 @@ class AssesmentLevelParser {
         
         for country in goodsXML[kCountries][kCountry].all {
             if let countryRegion = country["Region"].element?.text, !countryRegion.isEmpty {
-                
-                if var enforcements = country["Enforcements"]["Labor_Inspectors_Intl_Standards"].element?.text, !enforcements.isEmpty {
+                var enforcementss = ""
+                if var enforcement = country["Enforcements"]["Labor_Inspectors_Intl_Standards"]["Territory"]["Enforcement"].element?.text {
+                    enforcementss = enforcement
+                } else {
+                    if var enforcements = country["Enforcements"]["Labor_Inspectors_Intl_Standards"].element?.text, !enforcements.isEmpty {
+                        enforcementss = enforcements
+                    }
+                }
+                if enforcementss.count > 0 {
                     if var currentSector = self.goodsSectors[countryRegion] as? Dictionary<String, Any> {
-                        if var advancementInfo = currentSector[enforcements] as? Int {
+                        if var advancementInfo = currentSector[enforcementss] as? Int {
                             advancementInfo += 1
-                            currentSector[enforcements] = advancementInfo
+                            currentSector[enforcementss] = advancementInfo
                         } else {
-                            currentSector[enforcements] = 1
+                            currentSector[enforcementss] = 1
                         }
                         self.goodsSectors[countryRegion] = currentSector
                     } else {
-                        self.goodsSectors[countryRegion] = [enforcements : 1]
+                        self.goodsSectors[countryRegion] = [enforcementss : 1]
                     }
                 }
             }
