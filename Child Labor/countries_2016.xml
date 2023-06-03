@@ -43,6 +43,9 @@
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.12</Total_Percentage_of_Working_Children>
         <Total_Working_Population>1206134</Total_Working_Population>
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -113,6 +116,12 @@
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -293,6 +302,9 @@ programs to increase access to education and improve security in schools, partic
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.046</Total_Percentage_of_Working_Children>
         <Total_Working_Population>23665</Total_Working_Population>
+        <Agriculture>0.875</Agriculture>
+        <Industry>0.029</Industry>
+        <Services>0.096</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -363,6 +375,12 @@ programs to increase access to education and improve security in schools, partic
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -495,6 +513,9 @@ programs to assist children who are victims of human trafficking and those who a
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
         <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -565,6 +586,12 @@ programs to assist children who are victims of human trafficking and those who a
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -709,6 +736,9 @@ existing programs to address the full scope of the child labor problem, includin
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.151</Total_Percentage_of_Working_Children>
         <Total_Working_Population>1246354</Total_Working_Population>
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -779,6 +809,12 @@ existing programs to address the full scope of the child labor problem, includin
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -909,6 +945,9 @@ programs to address the full scope of the child labor problem.</Name>
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
         <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -979,11 +1018,17 @@ programs to address the full scope of the child labor problem.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -1164,6 +1209,9 @@ recruitment of children under age 18 by non-state armed groups.</Name>
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.053</Total_Percentage_of_Working_Children>
         <Total_Working_Population>371771</Total_Working_Population>
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -1234,6 +1282,12 @@ recruitment of children under age 18 by non-state armed groups.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -1451,6 +1505,12 @@ prevalent, including street begging.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -1471,7 +1531,7 @@ prevalent, including street begging.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$3.5 million</Labor_Funding>
+      <Labor_Funding>3500000</Labor_Funding>
       <Labor_Inspectors>57</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -1482,7 +1542,7 @@ prevalent, including street begging.</Name>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>No</Labor_Unannounced_Inspections_Premitted>
-      <Labor_Unannounced_Inspections_Conducted>N/A</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Unannounced_Inspections_Conducted>N/A </Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>No</Labor_Inspectors_Intl_Standards>
@@ -1612,7 +1672,7 @@ street work and in agriculture.</Name>
         <Services>0.072</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
-        <Age_Range>6-14</Age_Range>
+        <Age_Range>5-14</Age_Range>
         <Percentage>0.943</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
@@ -1680,6 +1740,12 @@ street work and in agriculture.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>19</Age>
@@ -1840,7 +1906,7 @@ consistently funded to provide adequate services to victims.</Name>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Furniture </Good_Name>
+        <Good_Name>Furniture</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -1984,6 +2050,12 @@ consistently funded to provide adequate services to victims.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -2268,6 +2340,12 @@ informal garment, leather, and fish drying industries.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -2423,7 +2501,7 @@ engaged in or at risk for involvement in the worst forms of child labor, to info
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Granite </Good_Name>
+        <Good_Name>Granite</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -2507,6 +2585,12 @@ engaged in or at risk for involvement in the worst forms of child labor, to info
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -2715,6 +2799,12 @@ annually on the progress of these programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -2911,7 +3001,7 @@ work.</Name>
     </Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
-        <Age_Range>7-14</Age_Range>
+        <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.154</Total_Percentage_of_Working_Children>
         <Total_Working_Population>286890</Total_Working_Population>
         <Agriculture>0.769</Agriculture>
@@ -2919,7 +3009,7 @@ work.</Name>
         <Services>0.189</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
-        <Age_Range>7-14</Age_Range>
+        <Age_Range>5-14</Age_Range>
         <Percentage>0.975</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
@@ -2987,6 +3077,12 @@ work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>No</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -3257,6 +3353,12 @@ national programs in rural areas to increase secondary school attendance.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -3477,6 +3579,12 @@ children are not punished for engagement in non-state armed groups.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -3849,6 +3957,12 @@ herding.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -4107,11 +4221,17 @@ labor violations are held accountable in accordance with the law.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -4230,7 +4350,7 @@ recruitment of children under age 18 by non-state armed groups.</Name>
     </Goods>
     <Country_Statistics>
       <Children_Work_Statistics>
-        <Age_Range>10-14</Age_Range>
+        <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.357</Total_Percentage_of_Working_Children>
         <Total_Working_Population>849922</Total_Working_Population>
         <Agriculture>0.8</Agriculture>
@@ -4238,11 +4358,11 @@ recruitment of children under age 18 by non-state armed groups.</Name>
         <Services>0.144</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
-        <Age_Range>10-14</Age_Range>
+        <Age_Range>5-14</Age_Range>
         <Percentage>Unavailable</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
-        <Age_Range>10-14</Age_Range>
+        <Age_Range>7-14</Age_Range>
         <Total>Unavailable</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
       <UNESCO_Primary_Completion_Rate>
@@ -4306,6 +4426,12 @@ recruitment of children under age 18 by non-state armed groups.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>20</Age>
@@ -4485,7 +4611,7 @@ labor in cotton production and gold mining.</Name>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Beans </Good_Name>
+        <Good_Name>Beans</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -4641,6 +4767,12 @@ labor in cotton production and gold mining.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -4900,6 +5032,12 @@ commercial sexual exploitation of children.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -4927,7 +5065,7 @@ commercial sexual exploitation of children.</Name>
       <Labor_Inspections>1000</Labor_Inspections>
       <Labor_Violations>0</Labor_Violations>
       <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Penalties_Collected>N/A </Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>Unknown</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
@@ -5117,6 +5255,12 @@ access to education by eliminating school-related fees; increasing the number of
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -5389,6 +5533,12 @@ programs to address child labor in agriculture and domestic work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -5687,6 +5837,12 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -5935,6 +6091,12 @@ and other social protection mechanisms.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -5964,7 +6126,7 @@ and other social protection mechanisms.</Name>
       <Labor_Penalties_Imposed>Unknown</Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>Unknown</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>No</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
+      <Labor_Routine_Inspections_Targeted>N/A </Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
       <Labor_Unannounced_Inspections_Conducted>Unknown</Labor_Unannounced_Inspections_Conducted>
       <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
@@ -6174,6 +6336,12 @@ resources and implement programs to address the worst forms of child labor, incl
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -6390,6 +6558,12 @@ policies and programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -6509,8 +6683,8 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
     <Name>China</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/china</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -6739,6 +6913,12 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -6774,12 +6954,6 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Mechanisms>
       <Program>NA</Program>
@@ -6873,6 +7047,12 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -7062,6 +7242,12 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -7294,6 +7480,12 @@ that judges do not suspend or commute sentences for commercial sexual exploitati
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -7556,6 +7748,12 @@ the child labor problem, particularly in agriculture, fishing, domestic, and inf
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -7691,9 +7889,6 @@ expand social programs designed to assist children engaged in forced labor in ag
       <Program>Yes</Program>
       <Policy>Yes</Policy>
       <Coordination>Yes</Coordination>
-      <Program>Yes</Program>
-      <Policy>No</Policy>
-      <Coordination>Yes</Coordination>
     </Mechanisms>
     <ILAB_Projects>
       <Project>
@@ -7812,6 +8007,12 @@ expand social programs designed to assist children engaged in forced labor in ag
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -7934,6 +8135,11 @@ students are not subjected to sexual violence.</Name>
         </Action>
       </Social_Programs>
     </Suggested_Actions>
+    <Mechanisms>
+      <Program>Yes</Program>
+      <Policy>No</Policy>
+      <Coordination>Yes</Coordination>
+    </Mechanisms>
     <ILAB_Projects>
       <Project>
         <Title>Prevention and Reintegration of Children Involved in Armed Conflict: An Inter-Regional Program</Title>
@@ -7954,6 +8160,22 @@ students are not subjected to sexual violence.</Name>
     <Description>Although research found no evidence that child labor exists in the Cook Islands, in 2022, the government made minimal advancement in efforts to prevent the worst forms of child labor.  The government partnered with the United Nations Children's Fund to launch the Pacific Islands Inclusive Educational Review to ensure all children, including those with disabilities, have access to quality education. However, the government has not established adequate legal protections to prevent the worst forms of child labor. The law does not criminally prohibit the use, procuring, or offering of a child for prostitution, the production of pornography, or pornographic performances, or the use of children for illicit activities, including for the production and trafficking of drugs. Additionally, while the Cook Islands provides free education to citizens, permanent residents, and children of permanent residents, children outside of these categories must pay a school fee.</Description>
     <Goods />
     <Country_Statistics>
+      <Children_Work_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
+      </Children_Work_Statistics>
+      <Education_Statistics_Attendance_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Percentage>Unavailable</Percentage>
+      </Education_Statistics_Attendance_Statistics>
+      <Children_Working_and_Studying_7-14_yrs_old>
+        <Age_Range>7-14</Age_Range>
+        <Total>Unavailable</Total>
+      </Children_Working_and_Studying_7-14_yrs_old>
       <UNESCO_Primary_Completion_Rate>
         <Rate>1.185</Rate>
       </UNESCO_Primary_Completion_Rate>
@@ -8015,6 +8237,12 @@ students are not subjected to sexual violence.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -8050,12 +8278,6 @@ students are not subjected to sexual violence.</Name>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -8223,11 +8445,17 @@ by law free basic public education for all children.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -8372,60 +8600,10 @@ education accessible for all children, including children in rural areas, girls,
   <Country>
     <Name>Cote d'Ivoire</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-d'ivoire</Webpage>
-    <ILAB_Projects>
-      <Project>
-        <Title>Country Level Engagement and Assistance to Reduce Child Labor </Title>
-        <Link>https://www.dol.gov/agencies/ilab/country-level-engagement-and-assistance-reduce-child-labor-clear</Link>
-      </Project>
-      <Project>
-        <Title>Building a Generation of Safe and Healthy Workers: SafeYouth@Work</Title>
-        <Link>https://www.dol.gov/agencies/ilab/building-generation-safe-and-healthy-workers-safeyouthwork</Link>
-      </Project>
-      <Project>
-        <Title>Enhancing National Capacity in Child Labor Data Collection, Analysis and Dissemination Through Technical Assistance to Surveys, Research and Training</Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_EnhancingNationalCapacity_FY06_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Combating Trafficking in Children for Labor Exploitation in West and Central Africa, Phase 1 &amp; 2 </Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestandCentralAfr_LUTRENA_CLOSED_0.pdfhttps://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestandCentralAfr_LUTRENA_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Eliminating the Worst Forms of Child Labor in West Africa and Strengthening Sub-regional Cooperation Through ECOWAS II</Title>
-        <Link>https://www.dol.gov/agencies/ilab/eliminating-worst-forms-child-labor-west-africa-and-strengthening-sub-regional</Link>
-      </Project>
-      <Project>
-        <Title>West Africa Cocoa/Commercial Agriculture Program to Combat Hazardous and Exploitive Child Labor </Title>
-        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestAfr_WACAP_CLOSED_0.pdfhttps://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestAfr_WACAP_CLOSED_0.pdf</Link>
-      </Project>
-      <Project>
-        <Title>Cooperatives Addressing Child Labor Accountability Outcomes </Title>
-        <Link>https://www.dol.gov/agencies/ilab/cacao-cooperatives-addressing-child-labor-accountability-outcomes</Link>
-      </Project>
-      <Project>
-        <Title>Eliminating Child Labor in Cocoa </Title>
-        <Link>https://www.dol.gov/agencies/ilab/eliminating-child-labor-cocoa-eclic-0</Link>
-      </Project>
-      <Project>
-        <Title>Survey Research on Child Labor in West African Cocoa Growing Areas</Title>
-        <Link>https://www.dol.gov/agencies/ilab/survey-research-child-labor-west-african-cocoa-growing-areas</Link>
-      </Project>
-      <Project>
-        <Title>Combating Forced Labor and Labor Trafficking of Adults and Children in Ghana and Cote d'Ivoire</Title>
-        <Link>https://www.dol.gov/agencies/ilab/combating-forced-labor-and-labor-trafficking-adults-and-children-ghana</Link>
-      </Project>
-      <Project>
-        <Title>Assessing Progress in Reducing Child Labor in Cocoa-Growing Areas of Cote d'Ivoire and Ghana</Title>
-        <Link>https://www.dol.gov/agencies/ilab/assessing-progress-reducing-child-labor-cocoa-growing-areas-cote-divoire-and-ghana</Link>
-      </Project>
-      <Project>
-        <Title>Towards Child Labor Free Cocoa Growing Communities</Title>
-        <Link>https://www.dol.gov/agencies/ilab/towards-child-labor-free-cocoa-growing-communities</Link>
-      </Project>
-      <Project>
-        <Title>Eliminating the Worst Forms of Child Labor in West Africa by Strengthening Sub-Regional Cooperation Through ECOWAS</Title>
-        <Link>https://www.dol.gov/agencies/ilab/eliminating-worst-forms-child-labor-west-africa-strengthening-sub-regional</Link>
-      </Project>
-    </ILAB_Projects>
+    <Region>Sub-Saharan Africa</Region>
+    <Multiple_Territories>No</Multiple_Territories>
+    <Advancement_Level>Significant Advancement</Advancement_Level>
+    <Description>In 2022, Côte d’Ivoire made significant advancement in efforts to eliminate the worst forms of child labor.The Ivoirian government conducted 9,471 inspections, a 234% increase from the previous year, and recruited 100 additional child labor agents to track instances of child labor on cocoa farms and production zones.The government also officially created the National Sustainable Cocoa Committee (Comité National du Cacao Durable, CNCD) which is designed to implement the National Strategic Plan to address deforestation, child labor, and low incomes of cocoa farmers.In addition, the governmentopened 91 new secondary schools, 517 new primary schools, and 227 new preschools during the reporting period.However, children in Côte d’Ivoire are subjected to the worst forms of child labor, including in forced labor in the harvesting of cocoa and coffee. The governmentdoes not have a mechanism to assess civilpenalties for labor law violations and the lack of financial resources and personnel may have hindered labor law enforcement efforts.</Description>
     <Goods>
       <Good>
         <Good_Name>Cocoa</Good_Name>
@@ -8440,15 +8618,6 @@ education accessible for all children, including children in rural areas, girls,
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Good>
     </Goods>
-  </Country>
-  <Country>
-    <Name>Cote d’Ivoire</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/cote-d’ivoire</Webpage>
-    <Region>Sub-Saharan Africa</Region>
-    <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Significant Advancement</Advancement_Level>
-    <Description>In 2022, Côte d’Ivoire made significant advancement in efforts to eliminate the worst forms of child labor.The Ivoirian government conducted 9,471 inspections, a 234% increase from the previous year, and recruited 100 additional child labor agents to track instances of child labor on cocoa farms and production zones.The government also officially created the National Sustainable Cocoa Committee (Comité National du Cacao Durable, CNCD) which is designed to implement the National Strategic Plan to address deforestation, child labor, and low incomes of cocoa farmers.In addition, the governmentopened 91 new secondary schools, 517 new primary schools, and 227 new preschools during the reporting period.However, children in Côte d’Ivoire are subjected to the worst forms of child labor, including in forced labor in the harvesting of cocoa and coffee. The governmentdoes not have a mechanism to assess civilpenalties for labor law violations and the lack of financial resources and personnel may have hindered labor law enforcement efforts.</Description>
-    <Goods />
     <Country_Statistics>
       <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -8527,6 +8696,12 @@ education accessible for all children, including children in rural areas, girls,
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -8628,6 +8803,60 @@ country.</Name>
       <Program>Yes</Program>
       <Coordination>Yes</Coordination>
     </Mechanisms>
+    <ILAB_Projects>
+      <Project>
+        <Title>Country Level Engagement and Assistance to Reduce Child Labor </Title>
+        <Link>https://www.dol.gov/agencies/ilab/country-level-engagement-and-assistance-reduce-child-labor-clear</Link>
+      </Project>
+      <Project>
+        <Title>Building a Generation of Safe and Healthy Workers: SafeYouth@Work</Title>
+        <Link>https://www.dol.gov/agencies/ilab/building-generation-safe-and-healthy-workers-safeyouthwork</Link>
+      </Project>
+      <Project>
+        <Title>Enhancing National Capacity in Child Labor Data Collection, Analysis and Dissemination Through Technical Assistance to Surveys, Research and Training</Title>
+        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/SIMPOC_EnhancingNationalCapacity_FY06_0.pdf</Link>
+      </Project>
+      <Project>
+        <Title>Combating Trafficking in Children for Labor Exploitation in West and Central Africa, Phase 1 &amp; 2 </Title>
+        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestandCentralAfr_LUTRENA_CLOSED_0.pdfhttps://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestandCentralAfr_LUTRENA_CLOSED_0.pdf</Link>
+      </Project>
+      <Project>
+        <Title>Eliminating the Worst Forms of Child Labor in West Africa and Strengthening Sub-regional Cooperation Through ECOWAS II</Title>
+        <Link>https://www.dol.gov/agencies/ilab/eliminating-worst-forms-child-labor-west-africa-and-strengthening-sub-regional</Link>
+      </Project>
+      <Project>
+        <Title>West Africa Cocoa/Commercial Agriculture Program to Combat Hazardous and Exploitive Child Labor </Title>
+        <Link>https://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestAfr_WACAP_CLOSED_0.pdfhttps://www.dol.gov/sites/dolgov/files/ILAB/pdf_override/WestAfr_WACAP_CLOSED_0.pdf</Link>
+      </Project>
+      <Project>
+        <Title>Cooperatives Addressing Child Labor Accountability Outcomes </Title>
+        <Link>https://www.dol.gov/agencies/ilab/cacao-cooperatives-addressing-child-labor-accountability-outcomes</Link>
+      </Project>
+      <Project>
+        <Title>Eliminating Child Labor in Cocoa </Title>
+        <Link>https://www.dol.gov/agencies/ilab/eliminating-child-labor-cocoa-eclic-0</Link>
+      </Project>
+      <Project>
+        <Title>Survey Research on Child Labor in West African Cocoa Growing Areas</Title>
+        <Link>https://www.dol.gov/agencies/ilab/survey-research-child-labor-west-african-cocoa-growing-areas</Link>
+      </Project>
+      <Project>
+        <Title>Combating Forced Labor and Labor Trafficking of Adults and Children in Ghana and Cote d'Ivoire</Title>
+        <Link>https://www.dol.gov/agencies/ilab/combating-forced-labor-and-labor-trafficking-adults-and-children-ghana</Link>
+      </Project>
+      <Project>
+        <Title>Assessing Progress in Reducing Child Labor in Cocoa-Growing Areas of Cote d'Ivoire and Ghana</Title>
+        <Link>https://www.dol.gov/agencies/ilab/assessing-progress-reducing-child-labor-cocoa-growing-areas-cote-divoire-and-ghana</Link>
+      </Project>
+      <Project>
+        <Title>Towards Child Labor Free Cocoa Growing Communities</Title>
+        <Link>https://www.dol.gov/agencies/ilab/towards-child-labor-free-cocoa-growing-communities</Link>
+      </Project>
+      <Project>
+        <Title>Eliminating the Worst Forms of Child Labor in West Africa by Strengthening Sub-Regional Cooperation Through ECOWAS</Title>
+        <Link>https://www.dol.gov/agencies/ilab/eliminating-worst-forms-child-labor-west-africa-strengthening-sub-regional</Link>
+      </Project>
+    </ILAB_Projects>
   </Country>
   <Country>
     <Name>Djibouti</Name>
@@ -8715,6 +8944,12 @@ country.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -8924,23 +9159,29 @@ work, street work, and commercial sexual exploitation.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
-      </Minumum_Voluntary_Military>
-      <Minumum_Non_State_Military>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
         <Standard>No</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Minumum_Non_State_Military>
-      <Compulsory_Education>
+      </Minumum_Voluntary_Military>
+      <Minumum_Non_State_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minumum_Non_State_Military>
+      <Compulsory_Education>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
@@ -8959,12 +9200,6 @@ work, street work, and commercial sexual exploitation.</Name>
       <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -9157,6 +9392,12 @@ education accessible for all children, including members of the Kalinago communi
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes*</Standard>
         <Age>18</Age>
@@ -9177,7 +9418,7 @@ education accessible for all children, including members of the Kalinago communi
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$4.4 million </Labor_Funding>
+      <Labor_Funding>4400000</Labor_Funding>
       <Labor_Inspectors>208</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -9513,6 +9754,12 @@ exploitation and harmful agricultural work, and ensure that programs also provid
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -9702,7 +9949,7 @@ refugee children and children from rural areas, by increasing classroom space an
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Stones </Good_Name>
+        <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -9786,6 +10033,12 @@ refugee children and children from rural areas, by increasing classroom space an
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
         <Age>15</Age>
@@ -10016,6 +10269,12 @@ exploitation and limestone quarrying.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -10036,7 +10295,7 @@ exploitation and limestone quarrying.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$1.68 million </Labor_Funding>
+      <Labor_Funding>1680000</Labor_Funding>
       <Labor_Inspectors>Unknown</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Unknown</Labor_New_Employee_Training>
@@ -10290,6 +10549,12 @@ criminal cases related to the worst forms of child labor, including by developin
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
         <Age />
@@ -10518,6 +10783,12 @@ inform policies and programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -10681,7 +10952,7 @@ herding.</Name>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Textiles </Good_Name>
+        <Good_Name>Textiles</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -10765,6 +11036,12 @@ herding.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -11007,6 +11284,12 @@ social protection programs to address child labor, including in agriculture and 
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -11042,29 +11325,8 @@ social protection programs to address child labor, including in agriculture and 
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
-      <Coordination>
-        <Action>
-          <Name>Not applicable</Name>
-        </Action>
-      </Coordination>
-      <Government_Policies>
-        <Action>
-          <Name>Not applicable</Name>
-        </Action>
-      </Government_Policies>
-      <Social_Programs>
-        <Action>
-          <Name>Not applicable</Name>
-        </Action>
-      </Social_Programs>
       <Legal_Framework>
         <Action>
           <Name>Raise the minimum age for work from 14 to 16 to align with the compulsory education age.</Name>
@@ -11096,6 +11358,21 @@ recruitment of children under age 18 by non-state armed groups.</Name>
           <Name>Establish a labor inspectorate to enforce labor laws, including laws pertaining to child labor.</Name>
         </Action>
       </Enforcement>
+      <Coordination>
+        <Action>
+          <Name>Not applicable</Name>
+        </Action>
+      </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Not applicable</Name>
+        </Action>
+      </Government_Policies>
+      <Social_Programs>
+        <Action>
+          <Name>Not applicable</Name>
+        </Action>
+      </Social_Programs>
     </Suggested_Actions>
     <Mechanisms>
       <Program>NA</Program>
@@ -11189,6 +11466,12 @@ recruitment of children under age 18 by non-state armed groups.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -11209,7 +11492,7 @@ recruitment of children under age 18 by non-state armed groups.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$4.57 million</Labor_Funding>
+      <Labor_Funding>4570000</Labor_Funding>
       <Labor_Inspectors>71</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -11385,6 +11668,12 @@ learning.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -11411,7 +11700,7 @@ learning.</Name>
       <Labor_New_Employee_Training>No</Labor_New_Employee_Training>
       <Labor_Inspections>0</Labor_Inspections>
       <Labor_Violations>N/A</Labor_Violations>
-      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Imposed>N/A </Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>N/A</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>N/A</Labor_Routine_Inspections_Targeted>
@@ -11518,6 +11807,221 @@ the number of teachers and schools in rural areas.</Name>
     </ILAB_Projects>
   </Country>
   <Country>
+    <Name>Gambia The</Name>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/gambia-the</Webpage>
+    <Region>Sub-Saharan Africa</Region>
+    <Multiple_Territories>No</Multiple_Territories>
+    <Advancement_Level>Moderate Advancement</Advancement_Level>
+    <Description>In 2022, The Gambia made moderate advancement in efforts to eliminate the worst forms of child labor. The government approved an Ethical Recruitment Policy Guidelines, a Pre-Departure Training Manual, and a Labor Migration Strategy to protect Gambian labor migrants, many of whom are children, from exploitation and unfair treatment. It also signed a Memorandum of Understanding with Nigeria to coordinate efforts to address the trafficking of women and children. Additionally, the government launched four centers to provide services to survivors of gender-based violence and trafficking in persons, including child victims. However, children in The Gambia are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking, and in forced begging.Gaps in the law remain, including that theminimum age for work of 18 years old is higher than the compulsory education age of 16 years old. The Gambia also lacked resources to conduct adequate enforcement efforts and has insufficient social programs to address child labor.</Description>
+    <Goods />
+    <Country_Statistics>
+      <Children_Work_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
+      </Children_Work_Statistics>
+      <Education_Statistics_Attendance_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Percentage>0.782</Percentage>
+      </Education_Statistics_Attendance_Statistics>
+      <Children_Working_and_Studying_7-14_yrs_old>
+        <Age_Range>7-14</Age_Range>
+        <Total>0.217</Total>
+      </Children_Working_and_Studying_7-14_yrs_old>
+      <UNESCO_Primary_Completion_Rate>
+        <Rate>0.852</Rate>
+      </UNESCO_Primary_Completion_Rate>
+    </Country_Statistics>
+    <Conventions>
+      <C_138_Ratified>Yes</C_138_Ratified>
+      <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
+      <CRC_Armed_Conflict_Ratified>Yes</CRC_Armed_Conflict_Ratified>
+      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>Yes</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
+      <Palermo_Ratified>Yes</Palermo_Ratified>
+      <C_182_Ratified>Yes</C_182_Ratified>
+    </Conventions>
+    <Legal_Standards>
+      <Free_Public_Education>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Free_Public_Education>
+      <Minimum_Work>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Work>
+      <Minimum_Hazardous_Work>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Types_Hazardous_Work>
+      <Prohibition_Forced_Labor>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_Forced_Labor>
+      <Prohibition_Child_Trafficking>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_Child_Trafficking>
+      <Prohibition_CSEC>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_CSEC>
+      <Prohibition_Illicit_Activities>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minumum_Voluntary_Military>
+      <Minumum_Non_State_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minumum_Non_State_Military>
+      <Compulsory_Education>
+        <Standard>Yes</Standard>
+        <Age>16</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Compulsory_Education>
+    </Legal_Standards>
+    <Enforcements>
+      <Labor_Funding>Unknown</Labor_Funding>
+      <Labor_Inspectors>4</Labor_Inspectors>
+      <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
+      <Labor_Inspections>31</Labor_Inspections>
+      <Labor_Violations>5</Labor_Violations>
+      <Labor_Penalties_Imposed>0</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>No</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>No</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>Yes</Criminal_New_Employee_Training>
+      <Criminal_Investigations>5</Criminal_Investigations>
+      <Criminal_Prosecutions>0</Criminal_Prosecutions>
+      <Criminal_Convictions>0</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>0</Criminal_Penalties_for_WFCL>
+    </Enforcements>
+    <Suggested_Actions>
+      <Legal_Framework>
+        <Action>
+          <Name>Raise the minimum age for workplace apprenticeships from age 12 to the age up to which education is compulsory.</Name>
+        </Action>
+        <Action>
+          <Name>Increase the compulsory education age from 16 years old to 18 years old to align with the minimum age for work.</Name>
+        </Action>
+      </Legal_Framework>
+      <Enforcement>
+        <Action>
+          <Name>Increase the number of labor inspectors from 4 to 24 to ensure adequate coverage of the labor force.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that the labor inspectorate is fully funded and has the resources and capabilities to conduct inspections in all sectors, including at private homes and farms.</Name>
+        </Action>
+        <Action>
+          <Name>Publish activities undertaken by agencies responsible for child labor law enforcement to address child labor, including actions by the Children's Court, Child Welfare Unit, and the Tourism Security Unit.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that criminal penalties for the worst forms of child labor are consistently applied to deter violations. </Name>
+        </Action>
+        <Action>
+          <Name>Ensure that labor law and criminal law enforcement agencies and the NAATIP have sufficient funding to carry out their mandates.</Name>
+        </Action>
+        <Action>
+          <Name>Publish information on the number of labor inspections conducted at worksites and whether routine inspections are conducted.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure the government conducts an adequate number of labor inspections.</Name>
+        </Action>
+        <Action>
+          <Name>Strengthen the labor inspectorate by initiating routine inspections rather than performing inspections solely based on complaints received, and ensure these inspections target sectors prone to the use of child labor.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure the National Agency Against Trafficking in Persons has sufficient government funding and resources to carry out its mandate and reduce its dependency on international partners.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure training for criminal law enforcement covers all of the worst forms of child labor, including commercial sexual exploitation, forced labor, and the use of children in illicit activity.</Name>
+        </Action>
+      </Enforcement>
+      <Coordination>
+        <Action>
+          <Name>Ensure that the National Coordination Committee on Child Labor isactive and able to carry out its intended mandate.</Name>
+        </Action>
+      </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Adopt and implement a policy that addresses all relevant worst forms of child labor.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure activities are undertaken to implementtheCode of Conduct of The Gambia Tourism
+Authority for the Protection of Childrenand publish results
+from activities implemented during the reporting period.</Name>
+        </Action>
+      </Government_Policies>
+      <Social_Programs>
+        <Action>
+          <Name>Ensure that children can
+complete compulsory schooling by subsidizing or defraying the cost of supplies,
+uniforms, transportation, and other fees.</Name>
+        </Action>
+        <Action>
+          <Name>Expand existing social programs to address the full scope of the child labor, including all worst forms of child labor.</Name>
+        </Action>
+        <Action>
+          <Name>Enhance opportunities for
+children to access education by providing adequate classroom facilities, clean water, and sanitation; ensuring accessibility for students with disabilities; and
+increasing the number of teachers in rural areas.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure activities are undertaken to implement key social programs, including the Child Welfare Drop-In Centers and the Conditional Cash Transfer Program, and publish results of activities implemented during the reporting period.</Name>
+        </Action>
+      </Social_Programs>
+    </Suggested_Actions>
+    <Mechanisms>
+      <Program>Yes</Program>
+      <Policy>Yes</Policy>
+      <Coordination>Yes</Coordination>
+    </Mechanisms>
+  </Country>
+  <Country>
     <Name>Georgia</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/georgia</Webpage>
     <Region>Europe and Eurasia</Region>
@@ -11603,6 +12107,12 @@ the number of teachers and schools in rural areas.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -11847,6 +12357,12 @@ labor in agriculture and other forms of informal work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -12146,11 +12662,17 @@ project-intensifying-action-against-forced-labor-and-child</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -12184,7 +12706,7 @@ project-intensifying-action-against-forced-labor-and-child</Link>
       <Criminal_New_Employee_Training>Yes</Criminal_New_Employee_Training>
       <Criminal_Investigations>0</Criminal_Investigations>
       <Criminal_Prosecutions>N/A</Criminal_Prosecutions>
-      <Criminal_Convictions>N/A</Criminal_Convictions>
+      <Criminal_Convictions>N/A </Criminal_Convictions>
       <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
       <Criminal_Penalties_for_WFCL>N/A</Criminal_Penalties_for_WFCL>
     </Enforcements>
@@ -12382,6 +12904,12 @@ policies and programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -12402,7 +12930,7 @@ policies and programs.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$5.73 million</Labor_Funding>
+      <Labor_Funding>5730000</Labor_Funding>
       <Labor_Inspectors>152</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -12707,6 +13235,12 @@ programs that address and prevent child labor.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -12945,6 +13479,12 @@ domestic work, forced begging, mining, and street work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -13074,18 +13614,18 @@ the child labor problem, including in street work, particularly begging, and agr
     <Description>In 2022, Guyana made minimal advancement in efforts to eliminate the worst forms of child labor. The Government of Guyana increased the amount given to families through student cash vouchers. However, children in Guyana are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking. Children also perform dangerous tasks in mining. Guyana does not meet the international standard for hazardous work for children because it allows children ages 16 to 17 to conduct night work in industrial activities.Guyanese law does not sufficiently prohibit all commercial sexual exploitation of children because it does not prohibit the use of children for prostitution.In addition, law enforcement agencies have insufficient resources to conduct inspections in remote areas, including a lack of transportation and accommodation. The government did not publicly release information on its labor law enforcement or criminal law enforcement efforts.</Description>
     <Goods />
     <Country_Statistics>
+      <Children_Work_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
+      </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
         <Percentage>0.969</Percentage>
       </Education_Statistics_Attendance_Statistics>
-      <Children_Work_Statistics>
-        <Agriculture>Unavailable</Agriculture>
-        <Industry>Unavailable</Industry>
-        <Services>Unavailable</Services>
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
-        <Total_Working_Population />
-      </Children_Work_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
         <Age_Range>7-14</Age_Range>
         <Total>0.185</Total>
@@ -13151,6 +13691,12 @@ the child labor problem, including in street work, particularly begging, and agr
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -13362,6 +13908,12 @@ including programs addressing child labor in the mining industry and the commerc
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>No</Standard>
         <Age />
@@ -13616,6 +14168,12 @@ work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -14011,6 +14569,12 @@ including children of African descent and indigenous children.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -14254,7 +14818,7 @@ and transportation options limit access to education.</Name>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Footwear </Good_Name>
+        <Good_Name>Footwear</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -14398,6 +14962,12 @@ and transportation options limit access to education.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age />
@@ -14418,14 +14988,14 @@ and transportation options limit access to education.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$15.1 million</Labor_Funding>
+      <Labor_Funding>15100000</Labor_Funding>
       <Labor_Inspectors>1570</Labor_Inspectors>
       <Authorized_Access_Penalties>No</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
       <Labor_Inspections>14627</Labor_Inspections>
       <Labor_Violations>0</Labor_Violations>
-      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Penalties_Imposed>N/A </Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A </Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
       <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
@@ -14593,8 +15163,8 @@ addressing-labor-exploitation-fishing-asean</Link>
     <Name>Iran</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/iran</Webpage>
     <Region>Middle East and North Africa</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -14649,15 +15219,21 @@ addressing-labor-exploitation-fishing-asean</Link>
       <C_182_Ratified>Yes</C_182_Ratified>
     </Conventions>
     <Legal_Standards>
-      <Minimum_Work>
+      <Free_Public_Education>
         <Standard>Yes</Standard>
         <Age>15</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Free_Public_Education>
+      <Minimum_Work>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Work>
       <Minimum_Hazardous_Work>
         <Standard>Yes</Standard>
-        <Age>18</Age>
+        <Age />
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Minimum_Hazardous_Work>
@@ -14668,10 +15244,10 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Types_Hazardous_Work>
       <Prohibition_Forced_Labor>
-        <Standard>Yes</Standard>
+        <Standard>No</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Forced_Labor>
       <Prohibition_Child_Trafficking>
         <Standard>No</Standard>
@@ -14686,35 +15262,35 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_CSEC>
       <Prohibition_Illicit_Activities>
-        <Standard>No</Standard>
+        <Standard>N/A</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
+      <Minimum_Compulsory_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minumum_Voluntary_Military>
-      <Minumum_Non_State_Military>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
         <Standard>No</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Minumum_Non_State_Military>
-      <Compulsory_Education>
+      </Minumum_Voluntary_Military>
+      <Minumum_Non_State_Military>
         <Standard>No</Standard>
         <Age>12</Age>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Compulsory_Education>
-      <Free_Public_Education>
+      </Minumum_Non_State_Military>
+      <Compulsory_Education>
         <Standard>Yes</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Free_Public_Education>
+      </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
       <Labor_Funding>Unknown</Labor_Funding>
@@ -14920,6 +15496,12 @@ military training.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -15144,6 +15726,12 @@ information about implementation measures publicly available.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -15361,6 +15949,12 @@ child labor in construction and street vending.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>19</Age>
@@ -15381,7 +15975,7 @@ child labor in construction and street vending.</Name>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$5.2 million</Labor_Funding>
+      <Labor_Funding>5200000</Labor_Funding>
       <Labor_Inspectors>261</Labor_Inspectors>
       <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -15634,6 +16228,12 @@ address child labor, particularly in the agriculture and service sectors.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -15881,11 +16481,17 @@ child labor, including child soldiering, accountable.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>Yes</Standard>
@@ -16069,6 +16675,12 @@ construction and street vending.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -16136,12 +16748,20 @@ construction and street vending.</Name>
       </Enforcement>
       <Coordination>
         <Action>
+          <Name>Not applicable</Name>
+        </Action>
+        <Action>
           <Name> Ensure that inter-ministerial communication between the Ministry of Internal Affairs and other government entities on issues concerning policymaking and enforcement related to child labor is improved.</Name>
         </Action>
         <Action>
           <Name>Ensure that the Committee on the Prevention and Elimination of Hazardous Forms of Child Labor is fully funded and active and able to carry out its mandate to coordinate government policies to combat child labor.</Name>
         </Action>
       </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Not applicable</Name>
+        </Action>
+      </Government_Policies>
       <Social_Programs>
         <Action>
           <Name>Collect
@@ -16264,6 +16884,12 @@ programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -16486,6 +17112,12 @@ the child labor problem, particularly in commercial sexual exploitation and in a
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -16713,6 +17345,12 @@ programs, including social services for human trafficking survivors, to fully ad
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -16934,6 +17572,12 @@ opportunities for secondary education, including the shortage of teachers and sc
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -17201,6 +17845,12 @@ rubber, commercial sexual exploitation, and the mining of gold and diamonds.</Na
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -17428,6 +18078,12 @@ reducing-child-labor-mica-producing-communities-madagascar</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -17589,8 +18245,8 @@ domestic service and commercial sexual exploitation.</Name>
     <Name>Malaysia</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/malaysia</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -17705,6 +18361,12 @@ domestic service and commercial sexual exploitation.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -17936,6 +18598,12 @@ for drug trafficking, and forced labor in domestic work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -18220,6 +18888,12 @@ and commercial sexual exploitation.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -18450,11 +19124,17 @@ social programs that provide services to formerly enslaved persons.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -18578,7 +19258,7 @@ quality social services and standards of care.</Name>
     <Description>In 2022, Mexico made moderate advancement in efforts to eliminate the worst forms of child labor. The government expanded various mechanisms to address child labor, such as by increasing the number of municipal-level bodies that are part of the the National Network of Local Inter-Institutional Commissions for the Prevention and Eradication of Child Labor and the Protection of Adolescent Workers of Permitted Age in Mexico. It also approved the ratification of the International Labor Organization Protocol of 2014 to the Forced Labor Convention (1930). In addition, the Benito Juárez Wellbeing National Scholarship Program reached 1.2 million more students in 2022 than in 2021. However, children in Mexico are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking, and in illicit activities, such as the production and trafficking of drugs. Children also perform dangerous tasks in agriculture, including in the production of chile peppers, coffee, sugarcane, and tomatoes. Although nearly 55 percent of all employment in Mexico occurs in the informal sector, federal and some state-level labor inspectors carry out inspections in that sector only after receiving formal complaints. Further, the Secretariat of Labor and Social Welfare does not have an internal system to track cases of child labor violations. Additionally, the 529 labor inspectors in the country are likely insufficient to cover the country's more than 57 million workers. Criminal law enforcement agencies responsible for conducting investigations into cases of the worst forms of child labor lacked human and financial resources to operate effectively against crime and the existing culture of impunity for perpetrators. Finally, the government published only limited information on its labor and criminal law enforcement efforts to address child labor.</Description>
     <Goods>
       <Good>
-        <Good_Name>Beans </Good_Name>
+        <Good_Name>Beans</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -18673,6 +19353,9 @@ quality social services and standards of care.</Name>
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>0.04</Total_Percentage_of_Working_Children>
         <Total_Working_Population>866293</Total_Working_Population>
+        <Agriculture>0.303</Agriculture>
+        <Industry>0.161</Industry>
+        <Services>0.536</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
@@ -18743,6 +19426,12 @@ quality social services and standards of care.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -18998,6 +19687,12 @@ government-mexico-approach-combating-child-labor-and-forced</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -19237,6 +19932,12 @@ survivors and children working in agriculture.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -19473,6 +20174,12 @@ of labor laws and regulations.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -19579,25 +20286,25 @@ of the child labor problem, especially in street work and forced begging.</Name>
     <Description>Although research found no evidence that child labor exists in Montserrat, in 2022, the government made no advancement in efforts to prevent the worst forms of child labor. Montserrat also continued to implement a law that delays advancement to prevent the worst forms of child labor.Labor inspectors do not have the authority to conduct unannounced inspections, as they must obtain either the business owner's consent or a search warrant in order to enter a business for the purposes of performing an inspection. The lack of unannounced inspections may leave potential violations of child labor laws and other labor abuses undetected in workplaces. In addition, the Labor Code allows children as young as age 14 to engage in light work; however, Montserrat does not have a list of activities that constitute light work, nor does it specify the conditions under which light work may be undertaken or limit the number of hours for light work. Additionally, the government has not determined by national law or regulation the types of hazardous work prohibited for children norcriminally prohibited the use of children for illicit activities, including in the production and trafficking of drugs.</Description>
     <Goods />
     <Country_Statistics>
-      <UNESCO_Primary_Completion_Rate>
-        <Rate>0.968</Rate>
-      </UNESCO_Primary_Completion_Rate>
       <Children_Work_Statistics>
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Age_Range />
+        <Total_Percentage_of_Working_Children>0.968</Total_Percentage_of_Working_Children>
         <Total_Working_Population />
         <Agriculture>Unavailable</Agriculture>
         <Industry>Unavailable</Industry>
         <Services>Unavailable</Services>
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
-        <Age_Range>5-14</Age_Range>
+        <Age_Range />
         <Percentage>Unavailable</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
-        <Age_Range>7-14</Age_Range>
-        <Total>0.199</Total>
+        <Age_Range>5-14</Age_Range>
+        <Total>Unavailable</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
+      <UNESCO_Primary_Completion_Rate>
+        <Rate>0.199</Rate>
+      </UNESCO_Primary_Completion_Rate>
     </Country_Statistics>
     <Conventions>
       <C_138_Ratified>No</C_138_Ratified>
@@ -19656,6 +20363,12 @@ of the child labor problem, especially in street work and forced begging.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>N/A</Standard>
         <Age />
@@ -19691,12 +20404,6 @@ of the child labor problem, especially in street work and forced begging.</Name>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -19846,6 +20553,12 @@ undertaken by children as young as 14 and limit thenumber of hours for light wor
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -20074,6 +20787,12 @@ worst forms of child labor byreporting on child labor efforts through existing c
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -20100,7 +20819,7 @@ worst forms of child labor byreporting on child labor efforts through existing c
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
       <Labor_Inspections>7647</Labor_Inspections>
       <Labor_Violations>0</Labor_Violations>
-      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Imposed>N/A </Labor_Penalties_Imposed>
       <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
       <Labor_Routine_Inspections_Conducted>Unknown</Labor_Routine_Inspections_Conducted>
       <Labor_Routine_Inspections_Targeted>Unknown</Labor_Routine_Inspections_Targeted>
@@ -20288,6 +21007,12 @@ the full scope of the child labor problem.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -20558,6 +21283,12 @@ domestic work.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -20807,7 +21538,7 @@ accelerate-progress-against-child-labor-catalyst</Link>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Stones </Good_Name>
+        <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -20897,6 +21628,12 @@ accelerate-progress-against-child-labor-catalyst</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -21182,6 +21919,12 @@ mandated by the Law Against Trafficking in Persons.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -21379,9 +22122,6 @@ to provide the necessary care to all children withdrawn from hazardous and force
         <Industry>Unavailable</Industry>
         <Services>Unavailable</Services>
       </Children_Work_Statistics>
-      <UNESCO_Primary_Completion_Rate>
-        <Rate>Unavailable</Rate>
-      </UNESCO_Primary_Completion_Rate>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
         <Percentage>0.78</Percentage>
@@ -21390,14 +22130,17 @@ to provide the necessary care to all children withdrawn from hazardous and force
         <Age_Range>7-14</Age_Range>
         <Total>0.104</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
+      <UNESCO_Primary_Completion_Rate>
+        <Rate>Unavailable</Rate>
+      </UNESCO_Primary_Completion_Rate>
     </Country_Statistics>
     <Conventions>
       <C_138_Ratified>Yes</C_138_Ratified>
-      <C_182_Ratified>Yes</C_182_Ratified>
       <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
       <CRC_Armed_Conflict_Ratified>Yes</CRC_Armed_Conflict_Ratified>
       <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>Yes</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
       <Palermo_Ratified>Yes</Palermo_Ratified>
+      <C_182_Ratified>Yes</C_182_Ratified>
     </Conventions>
     <Legal_Standards>
       <Free_Public_Education>
@@ -21448,6 +22191,12 @@ to provide the necessary care to all children withdrawn from hazardous and force
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -21712,6 +22461,12 @@ project-intensifying-action-against-forced-labor-and-child</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -21747,12 +22502,6 @@ project-intensifying-action-against-forced-labor-and-child</Link>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -21913,6 +22662,12 @@ armed groups.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -21948,12 +22703,6 @@ armed groups.</Name>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -22005,8 +22754,8 @@ work may be undertaken by children.</Name>
     <Name>North Korea</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/north-korea</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -22139,6 +22888,12 @@ work may be undertaken by children.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -22325,6 +23080,12 @@ language.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -22521,28 +23282,14 @@ programs.</Name>
         <Agriculture>0.694</Agriculture>
         <Industry>0.109</Industry>
         <Services>0.197</Services>
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>0.124</Total_Percentage_of_Working_Children>
-        <Total_Working_Population />
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>0.215</Total_Percentage_of_Working_Children>
-        <Total_Working_Population />
       </Children_Work_Statistics>
       <Education_Statistics_Attendance_Statistics>
         <Age_Range>10-14</Age_Range>
         <Percentage>0.78</Percentage>
-        <Age_Range>5-14</Age_Range>
-        <Percentage>0.606</Percentage>
-        <Age_Range>5-14</Age_Range>
-        <Percentage>Unavailable</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
         <Age_Range>10-14</Age_Range>
         <Total>0.008</Total>
-        <Age_Range>7-14</Age_Range>
-        <Total>0.082</Total>
-        <Age_Range>7-14</Age_Range>
-        <Total>0.116</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
       <UNESCO_Primary_Completion_Rate>
         <Rate>0.729</Rate>
@@ -22605,6 +23352,12 @@ programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -22927,11 +23680,17 @@ law.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>Yes</Standard>
@@ -23174,6 +23933,12 @@ and Afro-Panamanian communities, by expanding existing programs to cover transpo
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -23468,7 +24233,7 @@ commercial sexual exploitation, domestic work, and mining.</Name>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Good>
       <Good>
-        <Good_Name>Stones </Good_Name>
+        <Good_Name>Stones</Good_Name>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -23576,6 +24341,12 @@ commercial sexual exploitation, domestic work, and mining.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -23885,6 +24656,12 @@ more families and children affected by child labor in agriculture in rural areas
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -24236,6 +25013,12 @@ accelerate-progress-against-child-labor-catalyst</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -24474,8 +25257,8 @@ addressing-labor-exploitation-fishing-asean</Link>
     <Name>Russia</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/russia</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -24591,6 +25374,12 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -24826,11 +25615,17 @@ labor, including agriculture and mining.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -24861,12 +25656,6 @@ labor, including agriculture and mining.</Name>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -25018,11 +25807,17 @@ minimum age for employment.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -25214,11 +26009,17 @@ worst forms of child labor, including in commercial sexual exploitation, illicit
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A*</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A*</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -25419,11 +26220,17 @@ education accessible for all children, including children in rural communities, 
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -25529,6 +26336,217 @@ inform policies and programs.</Name>
     </Mechanisms>
   </Country>
   <Country>
+    <Name>Sao Tome and Principe</Name>
+    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/sao-tome-and-principe</Webpage>
+    <Region>Sub-Saharan Africa</Region>
+    <Multiple_Territories>No</Multiple_Territories>
+    <Advancement_Level>Minimal Advancement</Advancement_Level>
+    <Description>In 2022, São Tomé and Príncipe made minimal advancement in efforts to eliminate the worst forms of child labor.The government continued to fund three centers run by NGOs that assist vulnerable families, orphans, and children living and working on the street. However, children in São Tomé and Príncipe are subjected to the worst forms of child labor, including in commercial sexual exploitation. Children also perform dangerous tasks in agriculture. The Labor Code does not apply to children working outside of a formal labor relationship, such as children who are self-employed. Moreover, limited financial resources hampered law enforcement efforts, and policies addressing the worst forms of child labor do not exist.</Description>
+    <Goods />
+    <Country_Statistics>
+      <Children_Work_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
+      </Children_Work_Statistics>
+      <Education_Statistics_Attendance_Statistics>
+        <Age_Range>5-14</Age_Range>
+        <Percentage>0.925</Percentage>
+      </Education_Statistics_Attendance_Statistics>
+      <Children_Working_and_Studying_7-14_yrs_old>
+        <Age_Range>7-14</Age_Range>
+        <Total>0.233</Total>
+      </Children_Working_and_Studying_7-14_yrs_old>
+      <UNESCO_Primary_Completion_Rate>
+        <Rate>0.843</Rate>
+      </UNESCO_Primary_Completion_Rate>
+    </Country_Statistics>
+    <Conventions>
+      <C_138_Ratified>Yes</C_138_Ratified>
+      <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
+      <CRC_Armed_Conflict_Ratified>No</CRC_Armed_Conflict_Ratified>
+      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>No</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
+      <Palermo_Ratified>Yes</Palermo_Ratified>
+      <C_182_Ratified>Yes</C_182_Ratified>
+    </Conventions>
+    <Legal_Standards>
+      <Free_Public_Education>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Free_Public_Education>
+      <Minimum_Work>
+        <Standard>No</Standard>
+        <Age>15</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+      </Minimum_Work>
+      <Minimum_Hazardous_Work>
+        <Standard>Yes</Standard>
+        <Age>18</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Hazardous_Work>
+      <Types_Hazardous_Work>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Types_Hazardous_Work>
+      <Prohibition_Forced_Labor>
+        <Standard>No</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+      </Prohibition_Forced_Labor>
+      <Prohibition_Child_Trafficking>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_Child_Trafficking>
+      <Prohibition_CSEC>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_CSEC>
+      <Prohibition_Illicit_Activities>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>Yes</Standard>
+        <Age>17</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minumum_Voluntary_Military>
+      <Minumum_Non_State_Military>
+        <Standard>No</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
+      </Minumum_Non_State_Military>
+      <Compulsory_Education>
+        <Standard>Yes</Standard>
+        <Age>15</Age>
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Compulsory_Education>
+    </Legal_Standards>
+    <Enforcements>
+      <Labor_Funding>86000</Labor_Funding>
+      <Labor_Inspectors>5</Labor_Inspectors>
+      <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
+      <Labor_New_Employee_Training>No</Labor_New_Employee_Training>
+      <Labor_Inspections>40</Labor_Inspections>
+      <Labor_Violations>0</Labor_Violations>
+      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
+      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
+      <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
+      <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
+      <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
+      <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
+      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
+      <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
+      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
+      <Criminal_New_Employee_Training>No</Criminal_New_Employee_Training>
+      <Criminal_Investigations>0</Criminal_Investigations>
+      <Criminal_Prosecutions>0</Criminal_Prosecutions>
+      <Criminal_Convictions>0</Criminal_Convictions>
+      <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
+      <Criminal_Penalties_for_WFCL>Unknown</Criminal_Penalties_for_WFCL>
+    </Enforcements>
+    <Suggested_Actions>
+      <Legal_Framework>
+        <Action>
+          <Name>Accede to the UN CRC Optional Protocol on the Sale
+of Children, Child Prostitution and Child Pornography and the UN CRC Optional Protocol on Armed Conflict.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that minimum age for work laws apply to all children in formal and informal work relationships, including children who are self-employed.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that the law criminally prohibits the
+recruitment of children under age 18 by non-state armed groups.</Name>
+        </Action>
+        <Action>
+          <Name>Establish by law a minimum age for light work no less than 13 years and adopt legislation defining the activities and conditions permissible for light work.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that the law criminally prohibits practices similar to slavery or criminally prohibits debt bondage and forced or compulsory labor.</Name>
+        </Action>
+      </Legal_Framework>
+      <Enforcement>
+        <Action>
+          <Name>Strengthen the Labor Inspectorate by initiating
+targeted inspections based on analysis of data identifying risk-prone sectors
+and patterns of serious incidents, and ensure that inspections are conducted in the informal sector in which child labor is known to occur.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that labor inspectors are equipped with adequate resources needed to conduct inspections, including office facilities, fuel, and transportation, all disbursed in a timely and efficient manner, and ensure they receive adequate technical training to strengthen their ability to perform their duties.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that criminal investigators are equipped with the necessary resources, including transportation, fuel, and other necessities to carry out investigations, and ensure they receive training to better address violations of the worst forms of child labor.</Name>
+        </Action>
+        <Action>
+          <Name>Publish information on criminal law enforcement efforts undertaken, including data regarding imposed penalties for violations related to the worst forms of child labor.</Name>
+        </Action>
+      </Enforcement>
+      <Coordination>
+        <Action>
+          <Name>Ensure that the Anti-Child Labor Committee is active and able to carry out its intended mandate.</Name>
+        </Action>
+      </Coordination>
+      <Government_Policies>
+        <Action>
+          <Name>Adopt policies to address the worst forms of child labor, including the commercial sexual exploitation of children.</Name>
+        </Action>
+        <Action>
+          <Name>Ensure that activities are undertaken to implement the National Policy and Strategy for Social Protection and that data on these activities are published.</Name>
+        </Action>
+      </Government_Policies>
+      <Social_Programs>
+        <Action>
+          <Name>Implement programs that specifically target
+child labor in agriculture.</Name>
+        </Action>
+        <Action>
+          <Name>Implement programs to address the worst forms of child labor, including commercial sexual exploitation.</Name>
+        </Action>
+        <Action>
+          <Name>Increase access to education for children with disabilities, including creating programs that address children with mobility and hearing difficulties.</Name>
+        </Action>
+        <Action>
+          <Name>Collect and publish data on the extent and nature of child labor to inform policies and programs.</Name>
+        </Action>
+      </Social_Programs>
+    </Suggested_Actions>
+    <Mechanisms>
+      <Program>Yes</Program>
+      <Policy>Yes</Policy>
+      <Coordination>Yes</Coordination>
+    </Mechanisms>
+    <ILAB_Projects>
+      <Project>
+        <Title>Supporting Actions to Meet the 2015 Targets to Eliminate the Worst Forms of Child Labour in Lusophone Countries in Africa Through Knowledge, Awareness Raising and South-South Cooperation</Title>
+        <Link>https://www.dol.gov/agencies/ilab/supporting-actions-meet-2015-targets-eliminate-worst-forms-child-labour-lusophone</Link>
+      </Project>
+    </ILAB_Projects>
+  </Country>
+  <Country>
     <Name>Senegal</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/senegal</Webpage>
     <Region>Sub-Saharan Africa</Region>
@@ -25621,6 +26639,12 @@ inform policies and programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -25848,6 +26872,12 @@ programs to address child labor in domestic work, agriculture, and mining.</Name
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -26079,6 +27109,12 @@ populations, particularly migrant children, Roma children, and girls.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -26305,11 +27341,17 @@ availability of and funding for shelters and safe houses for survivors of forced
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -26452,20 +27494,24 @@ a policy that incorporates eliminating child labor and the worst forms of child 
     <Description>In 2022, Somalia is receiving an assessment of no advancement.TheSomali police force participated in trainings conducted by the United Nations Office on Drugs and Crime with the goal of increasing anti-trafficking efforts.Somaliland, which has self-declared independence from Somalia, passed an anti-trafficking in persons law.Despite these initiatives to address child labor, Somalia is assessed as having made no advancement because it demonstrated complicity in the use of forced child labor. During the reporting period, there is evidence that federal and state security forces continued to recruit and use children in armed conflict, in violation of national law. In other cases, government security forces detained children for suspected association with armed groups, at times subjecting them to lengthy interrogations and coerced confessions. Children also perform dangerous tasks in street work. It is unknown if the government conducted worksite inspections in 2022. Somali laws do not criminally prohibit child labor trafficking, commercial sexual exploitation, or the recruitment of children by non-state armed groups.</Description>
     <Goods />
     <Country_Statistics>
-      <Education_Statistics_Attendance_Statistics>
+      <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
-        <Percentage>0.383</Percentage>
+        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
+        <Total_Working_Population />
+        <Agriculture>Unavailable</Agriculture>
+        <Industry>Unavailable</Industry>
+        <Services>Unavailable</Services>
+      </Children_Work_Statistics>
+      <Education_Statistics_Attendance_Statistics>
         <Age_Range>5-14</Age_Range>
         <Percentage>0.442</Percentage>
       </Education_Statistics_Attendance_Statistics>
       <Children_Working_and_Studying_7-14_yrs_old>
         <Age_Range>7-14</Age_Range>
-        <Total>0.047</Total>
-        <Age_Range>7-14</Age_Range>
         <Total>0.066</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
       <UNESCO_Primary_Completion_Rate>
-        <Rate>Unavailable</Rate>
+        <Rate>0.383</Rate>
       </UNESCO_Primary_Completion_Rate>
     </Country_Statistics>
     <Conventions>
@@ -26525,6 +27571,12 @@ a policy that incorporates eliminating child labor and the worst forms of child 
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -26789,6 +27841,12 @@ project-intensifying-action-against-forced-labor-and-child</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -26809,7 +27867,7 @@ project-intensifying-action-against-forced-labor-and-child</Link>
       </Compulsory_Education>
     </Legal_Standards>
     <Enforcements>
-      <Labor_Funding>$38.28 million</Labor_Funding>
+      <Labor_Funding>3828000</Labor_Funding>
       <Labor_Inspectors>1882</Labor_Inspectors>
       <Authorized_Access_Penalties>No</Authorized_Access_Penalties>
       <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
@@ -27005,6 +28063,12 @@ South African Education Action Plan and the National Development Plan.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -27244,6 +28308,12 @@ social programs to reach more children at risk of child labor, including those i
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -27371,8 +28441,8 @@ social programs to reach more children at risk of child labor, including those i
     <Name>Sudan</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/sudan</Webpage>
     <Region>Sub-Saharan Africa</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -27420,12 +28490,12 @@ social programs to reach more children at risk of child labor, including those i
       </UNESCO_Primary_Completion_Rate>
     </Country_Statistics>
     <Conventions>
+      <C_138_Ratified>Yes</C_138_Ratified>
       <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
       <CRC_Armed_Conflict_Ratified>Yes</CRC_Armed_Conflict_Ratified>
       <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>Yes</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
       <Palermo_Ratified>Yes</Palermo_Ratified>
       <C_182_Ratified>Yes</C_182_Ratified>
-      <C_138_Ratified>Yes</C_138_Ratified>
     </Conventions>
     <Legal_Standards>
       <Free_Public_Education>
@@ -27476,6 +28546,12 @@ social programs to reach more children at risk of child labor, including those i
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -27600,216 +28676,11 @@ exploitation.</Name>
     </ILAB_Projects>
   </Country>
   <Country>
-    <Name>São Tomé and Príncipe</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/são-tomé-and-príncipe</Webpage>
-    <Region>Sub-Saharan Africa</Region>
-    <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Minimal Advancement</Advancement_Level>
-    <Description>In 2022, São Tomé and Príncipe made minimal advancement in efforts to eliminate the worst forms of child labor.The government continued to fund three centers run by NGOs that assist vulnerable families, orphans, and children living and working on the street. However, children in São Tomé and Príncipe are subjected to the worst forms of child labor, including in commercial sexual exploitation. Children also perform dangerous tasks in agriculture. The Labor Code does not apply to children working outside of a formal labor relationship, such as children who are self-employed. Moreover, limited financial resources hampered law enforcement efforts, and policies addressing the worst forms of child labor do not exist.</Description>
-    <Goods />
-    <Country_Statistics>
-      <Children_Work_Statistics>
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
-        <Total_Working_Population />
-        <Agriculture>Unavailable</Agriculture>
-        <Industry>Unavailable</Industry>
-        <Services>Unavailable</Services>
-      </Children_Work_Statistics>
-      <Education_Statistics_Attendance_Statistics>
-        <Age_Range>5-14</Age_Range>
-        <Percentage>0.925</Percentage>
-      </Education_Statistics_Attendance_Statistics>
-      <Children_Working_and_Studying_7-14_yrs_old>
-        <Age_Range>7-14</Age_Range>
-        <Total>0.233</Total>
-      </Children_Working_and_Studying_7-14_yrs_old>
-      <UNESCO_Primary_Completion_Rate>
-        <Rate>0.843</Rate>
-      </UNESCO_Primary_Completion_Rate>
-    </Country_Statistics>
-    <Conventions>
-      <C_138_Ratified>Yes</C_138_Ratified>
-      <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
-      <CRC_Armed_Conflict_Ratified>No</CRC_Armed_Conflict_Ratified>
-      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>No</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
-      <Palermo_Ratified>Yes</Palermo_Ratified>
-      <C_182_Ratified>Yes</C_182_Ratified>
-    </Conventions>
-    <Legal_Standards>
-      <Free_Public_Education>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Free_Public_Education>
-      <Minimum_Work>
-        <Standard>No</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Minimum_Work>
-      <Minimum_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minimum_Hazardous_Work>
-      <Types_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Types_Hazardous_Work>
-      <Prohibition_Forced_Labor>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Prohibition_Forced_Labor>
-      <Prohibition_Child_Trafficking>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_Child_Trafficking>
-      <Prohibition_CSEC>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_CSEC>
-      <Prohibition_Illicit_Activities>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>Yes</Standard>
-        <Age>17</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minumum_Voluntary_Military>
-      <Minumum_Non_State_Military>
-        <Standard>No</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
-      </Minumum_Non_State_Military>
-      <Compulsory_Education>
-        <Standard>Yes</Standard>
-        <Age>15</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Compulsory_Education>
-    </Legal_Standards>
-    <Enforcements>
-      <Labor_Funding>86000</Labor_Funding>
-      <Labor_Inspectors>5</Labor_Inspectors>
-      <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>No</Labor_New_Employee_Training>
-      <Labor_Inspections>40</Labor_Inspections>
-      <Labor_Violations>0</Labor_Violations>
-      <Labor_Penalties_Imposed>N/A</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
-      <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>Yes</Labor_Routine_Inspections_Targeted>
-      <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
-      <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
-      <Labor_Inspectors_Intl_Standards>Yes</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>No</Criminal_New_Employee_Training>
-      <Criminal_Investigations>0</Criminal_Investigations>
-      <Criminal_Prosecutions>0</Criminal_Prosecutions>
-      <Criminal_Convictions>0</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>Unknown</Criminal_Penalties_for_WFCL>
-    </Enforcements>
-    <Suggested_Actions>
-      <Legal_Framework>
-        <Action>
-          <Name>Accede to the UN CRC Optional Protocol on the Sale
-of Children, Child Prostitution and Child Pornography and the UN CRC Optional Protocol on Armed Conflict.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that minimum age for work laws apply to all children in formal and informal work relationships, including children who are self-employed.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that the law criminally prohibits the
-recruitment of children under age 18 by non-state armed groups.</Name>
-        </Action>
-        <Action>
-          <Name>Establish by law a minimum age for light work no less than 13 years and adopt legislation defining the activities and conditions permissible for light work.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that the law criminally prohibits practices similar to slavery or criminally prohibits debt bondage and forced or compulsory labor.</Name>
-        </Action>
-      </Legal_Framework>
-      <Enforcement>
-        <Action>
-          <Name>Strengthen the Labor Inspectorate by initiating
-targeted inspections based on analysis of data identifying risk-prone sectors
-and patterns of serious incidents, and ensure that inspections are conducted in the informal sector in which child labor is known to occur.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that labor inspectors are equipped with adequate resources needed to conduct inspections, including office facilities, fuel, and transportation, all disbursed in a timely and efficient manner, and ensure they receive adequate technical training to strengthen their ability to perform their duties.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that criminal investigators are equipped with the necessary resources, including transportation, fuel, and other necessities to carry out investigations, and ensure they receive training to better address violations of the worst forms of child labor.</Name>
-        </Action>
-        <Action>
-          <Name>Publish information on criminal law enforcement efforts undertaken, including data regarding imposed penalties for violations related to the worst forms of child labor.</Name>
-        </Action>
-      </Enforcement>
-      <Coordination>
-        <Action>
-          <Name>Ensure that the Anti-Child Labor Committee is active and able to carry out its intended mandate.</Name>
-        </Action>
-      </Coordination>
-      <Government_Policies>
-        <Action>
-          <Name>Adopt policies to address the worst forms of child labor, including the commercial sexual exploitation of children.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that activities are undertaken to implement the National Policy and Strategy for Social Protection and that data on these activities are published.</Name>
-        </Action>
-      </Government_Policies>
-      <Social_Programs>
-        <Action>
-          <Name>Implement programs that specifically target
-child labor in agriculture.</Name>
-        </Action>
-        <Action>
-          <Name>Implement programs to address the worst forms of child labor, including commercial sexual exploitation.</Name>
-        </Action>
-        <Action>
-          <Name>Increase access to education for children with disabilities, including creating programs that address children with mobility and hearing difficulties.</Name>
-        </Action>
-        <Action>
-          <Name>Collect and publish data on the extent and nature of child labor to inform policies and programs.</Name>
-        </Action>
-      </Social_Programs>
-    </Suggested_Actions>
-    <Mechanisms>
-      <Program>Yes</Program>
-      <Policy>Yes</Policy>
-      <Coordination>Yes</Coordination>
-    </Mechanisms>
-    <ILAB_Projects>
-      <Project>
-        <Title>Supporting Actions to Meet the 2015 Targets to Eliminate the Worst Forms of Child Labour in Lusophone Countries in Africa Through Knowledge, Awareness Raising and South-South Cooperation</Title>
-        <Link>https://www.dol.gov/agencies/ilab/supporting-actions-meet-2015-targets-eliminate-worst-forms-child-labour-lusophone</Link>
-      </Project>
-    </ILAB_Projects>
-  </Country>
-  <Country>
     <Name>Taiwan</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/taiwan</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -27824,8 +28695,8 @@ child labor in agriculture.</Name>
     <Name>Tajikistan</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/tajikistan</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -27977,6 +28848,12 @@ child labor in agriculture.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -28245,6 +29122,12 @@ production of tobacco, cloves, coffee, sisal, and tea.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -28408,215 +29291,6 @@ addressing-labor-exploitation-fishing-asean</Link>
     </ILAB_Projects>
   </Country>
   <Country>
-    <Name>The Gambia</Name>
-    <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/the-gambia</Webpage>
-    <Region>Sub-Saharan Africa</Region>
-    <Multiple_Territories>No</Multiple_Territories>
-    <Advancement_Level>Moderate Advancement</Advancement_Level>
-    <Description>In 2022, The Gambia made moderate advancement in efforts to eliminate the worst forms of child labor. The government approved an Ethical Recruitment Policy Guidelines, a Pre-Departure Training Manual, and a Labor Migration Strategy to protect Gambian labor migrants, many of whom are children, from exploitation and unfair treatment. It also signed a Memorandum of Understanding with Nigeria to coordinate efforts to address the trafficking of women and children. Additionally, the government launched four centers to provide services to survivors of gender-based violence and trafficking in persons, including child victims. However, children in The Gambia are subjected to the worst forms of child labor, including in commercial sexual exploitation, sometimes as a result of human trafficking, and in forced begging.Gaps in the law remain, including that theminimum age for work of 18 years old is higher than the compulsory education age of 16 years old. The Gambia also lacked resources to conduct adequate enforcement efforts and has insufficient social programs to address child labor.</Description>
-    <Goods />
-    <Country_Statistics>
-      <Children_Work_Statistics>
-        <Age_Range>5-14</Age_Range>
-        <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
-        <Total_Working_Population />
-        <Agriculture>Unavailable</Agriculture>
-        <Industry>Unavailable</Industry>
-        <Services>Unavailable</Services>
-      </Children_Work_Statistics>
-      <Education_Statistics_Attendance_Statistics>
-        <Age_Range>5-14</Age_Range>
-        <Percentage>0.782</Percentage>
-      </Education_Statistics_Attendance_Statistics>
-      <Children_Working_and_Studying_7-14_yrs_old>
-        <Age_Range>7-14</Age_Range>
-        <Total>0.217</Total>
-      </Children_Working_and_Studying_7-14_yrs_old>
-      <UNESCO_Primary_Completion_Rate>
-        <Rate>0.852</Rate>
-      </UNESCO_Primary_Completion_Rate>
-    </Country_Statistics>
-    <Conventions>
-      <C_138_Ratified>Yes</C_138_Ratified>
-      <Convention_on_the_Rights_of_the_Child_Ratified>Yes</Convention_on_the_Rights_of_the_Child_Ratified>
-      <CRC_Armed_Conflict_Ratified>Yes</CRC_Armed_Conflict_Ratified>
-      <CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>Yes</CRC_Commercial_Sexual_Exploitation_of_Children_Ratified>
-      <Palermo_Ratified>Yes</Palermo_Ratified>
-      <C_182_Ratified>Yes</C_182_Ratified>
-    </Conventions>
-    <Legal_Standards>
-      <Free_Public_Education>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Free_Public_Education>
-      <Minimum_Work>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minimum_Work>
-      <Minimum_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minimum_Hazardous_Work>
-      <Types_Hazardous_Work>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Types_Hazardous_Work>
-      <Prohibition_Forced_Labor>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_Forced_Labor>
-      <Prohibition_Child_Trafficking>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_Child_Trafficking>
-      <Prohibition_CSEC>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_CSEC>
-      <Prohibition_Illicit_Activities>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>Yes</Standard>
-        <Age>18</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minumum_Voluntary_Military>
-      <Minumum_Non_State_Military>
-        <Standard>Yes</Standard>
-        <Age />
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Minumum_Non_State_Military>
-      <Compulsory_Education>
-        <Standard>Yes</Standard>
-        <Age>16</Age>
-        <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
-      </Compulsory_Education>
-    </Legal_Standards>
-    <Enforcements>
-      <Labor_Funding>Unknown</Labor_Funding>
-      <Labor_Inspectors>4</Labor_Inspectors>
-      <Authorized_Access_Penalties>Yes</Authorized_Access_Penalties>
-      <Labor_New_Employee_Training>Yes</Labor_New_Employee_Training>
-      <Labor_Inspections>31</Labor_Inspections>
-      <Labor_Violations>5</Labor_Violations>
-      <Labor_Penalties_Imposed>0</Labor_Penalties_Imposed>
-      <Labor_Penalties_Collected>N/A</Labor_Penalties_Collected>
-      <Labor_Routine_Inspections_Conducted>Yes</Labor_Routine_Inspections_Conducted>
-      <Labor_Routine_Inspections_Targeted>No</Labor_Routine_Inspections_Targeted>
-      <Labor_Unannounced_Inspections_Premitted>Yes</Labor_Unannounced_Inspections_Premitted>
-      <Labor_Unannounced_Inspections_Conducted>Yes</Labor_Unannounced_Inspections_Conducted>
-      <Labor_Complaint_Mechanism>Yes</Labor_Complaint_Mechanism>
-      <Labor_Referral_Mechanism>Yes</Labor_Referral_Mechanism>
-      <Labor_Inspectors_Intl_Standards>No</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>Yes</Criminal_New_Employee_Training>
-      <Criminal_Investigations>5</Criminal_Investigations>
-      <Criminal_Prosecutions>0</Criminal_Prosecutions>
-      <Criminal_Convictions>0</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>Yes</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>0</Criminal_Penalties_for_WFCL>
-    </Enforcements>
-    <Suggested_Actions>
-      <Legal_Framework>
-        <Action>
-          <Name>Raise the minimum age for workplace apprenticeships from age 12 to the age up to which education is compulsory.</Name>
-        </Action>
-        <Action>
-          <Name>Increase the compulsory education age from 16 years old to 18 years old to align with the minimum age for work.</Name>
-        </Action>
-      </Legal_Framework>
-      <Enforcement>
-        <Action>
-          <Name>Increase the number of labor inspectors from 4 to 24 to ensure adequate coverage of the labor force.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that the labor inspectorate is fully funded and has the resources and capabilities to conduct inspections in all sectors, including at private homes and farms.</Name>
-        </Action>
-        <Action>
-          <Name>Publish activities undertaken by agencies responsible for child labor law enforcement to address child labor, including actions by the Children's Court, Child Welfare Unit, and the Tourism Security Unit.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure that criminal penalties for the worst forms of child labor are consistently applied to deter violations. </Name>
-        </Action>
-        <Action>
-          <Name>Ensure that labor law and criminal law enforcement agencies and the NAATIP have sufficient funding to carry out their mandates.</Name>
-        </Action>
-        <Action>
-          <Name>Publish information on the number of labor inspections conducted at worksites and whether routine inspections are conducted.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure the government conducts an adequate number of labor inspections.</Name>
-        </Action>
-        <Action>
-          <Name>Strengthen the labor inspectorate by initiating routine inspections rather than performing inspections solely based on complaints received, and ensure these inspections target sectors prone to the use of child labor.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure the National Agency Against Trafficking in Persons has sufficient government funding and resources to carry out its mandate and reduce its dependency on international partners.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure training for criminal law enforcement covers all of the worst forms of child labor, including commercial sexual exploitation, forced labor, and the use of children in illicit activity.</Name>
-        </Action>
-      </Enforcement>
-      <Coordination>
-        <Action>
-          <Name>Ensure that the National Coordination Committee on Child Labor isactive and able to carry out its intended mandate.</Name>
-        </Action>
-      </Coordination>
-      <Government_Policies>
-        <Action>
-          <Name>Adopt and implement a policy that addresses all relevant worst forms of child labor.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure activities are undertaken to implementtheCode of Conduct of The Gambia Tourism
-Authority for the Protection of Childrenand publish results
-from activities implemented during the reporting period.</Name>
-        </Action>
-      </Government_Policies>
-      <Social_Programs>
-        <Action>
-          <Name>Ensure that children can
-complete compulsory schooling by subsidizing or defraying the cost of supplies,
-uniforms, transportation, and other fees.</Name>
-        </Action>
-        <Action>
-          <Name>Expand existing social programs to address the full scope of the child labor, including all worst forms of child labor.</Name>
-        </Action>
-        <Action>
-          <Name>Enhance opportunities for
-children to access education by providing adequate classroom facilities, clean water, and sanitation; ensuring accessibility for students with disabilities; and
-increasing the number of teachers in rural areas.</Name>
-        </Action>
-        <Action>
-          <Name>Ensure activities are undertaken to implement key social programs, including the Child Welfare Drop-In Centers and the Conditional Cash Transfer Program, and publish results of activities implemented during the reporting period.</Name>
-        </Action>
-      </Social_Programs>
-    </Suggested_Actions>
-    <Mechanisms>
-      <Program>Yes</Program>
-      <Policy>Yes</Policy>
-      <Coordination>Yes</Coordination>
-    </Mechanisms>
-  </Country>
-  <Country>
     <Name>Timor-Leste</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/timor-leste</Webpage>
     <Region>Indo-Pacific</Region>
@@ -28702,6 +29376,12 @@ increasing the number of teachers in rural areas.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -28923,6 +29603,12 @@ for work of 15 to the age of 16 to align with the compulsory education age.</Nam
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -29061,9 +29747,6 @@ addition to alleviating poverty and promoting education.</Name>
     <Description>Although research found no evidence that child labor exists in Tokelau, in 2022, the government made minimal advancement in efforts to prevent the worst forms of child labor. The government partnered with the United Nations Child's Fund to launch the Pacific Region Inclusive Education Review to ensure all children, including those with disabilities, have access to quality education.However, the government has not established adequate legal protections to prevent the worst forms of child labor. The law does not criminally prohibit the use, procuring, or offering of a child for prostitution, the production of pornography, or pornographic performances, or the use of children for illicit activities, including for the production and trafficking of drugs. In addition, Tokelau has not established a minimum age for work and lacks a law that prohibits hazardous occupations and activities for children.</Description>
     <Goods />
     <Country_Statistics>
-      <UNESCO_Primary_Completion_Rate>
-        <Rate>1.476</Rate>
-      </UNESCO_Primary_Completion_Rate>
       <Children_Work_Statistics>
         <Age_Range>5-14</Age_Range>
         <Total_Percentage_of_Working_Children>Unavailable</Total_Percentage_of_Working_Children>
@@ -29080,6 +29763,9 @@ addition to alleviating poverty and promoting education.</Name>
         <Age_Range>7-14</Age_Range>
         <Total>Unavailable</Total>
       </Children_Working_and_Studying_7-14_yrs_old>
+      <UNESCO_Primary_Completion_Rate>
+        <Rate>1.476</Rate>
+      </UNESCO_Primary_Completion_Rate>
     </Country_Statistics>
     <Conventions>
       <C_138_Ratified>N/A</C_138_Ratified>
@@ -29138,6 +29824,12 @@ addition to alleviating poverty and promoting education.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A*†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A*†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -29328,6 +30020,12 @@ production and trafficking of drugs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes*</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes*</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
@@ -29551,6 +30249,12 @@ forms, to inform policies and programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -29666,8 +30370,8 @@ child labor problem, including in agriculture, fishing, commerce, manufacturing,
     <Name>Turkey</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/turkey</Webpage>
     <Region>Middle East and North Africa</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -29754,8 +30458,8 @@ child labor problem, including in agriculture, fishing, commerce, manufacturing,
     <Name>Turkmenistan</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/turkmenistan</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -29852,11 +30556,17 @@ child labor problem, including in agriculture, fishing, commerce, manufacturing,
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>Yes</Standard>
@@ -30129,6 +30839,12 @@ programs.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -30428,6 +31144,12 @@ accelerate-progress-against-child-labor-catalyst</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>17</Age>
@@ -30663,6 +31385,12 @@ education.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -30867,11 +31595,17 @@ child labor in public works, street works, and agriculture sectors other than co
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>No</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
-        <Standard>N/A</Standard>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A†</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -31021,8 +31755,8 @@ results of these efforts public.</Name>
     <Name>Venezuela</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/venezuela</Webpage>
     <Region>Latin America and the Caribbean</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -31037,8 +31771,8 @@ results of these efforts public.</Name>
     <Name>Vietnam</Name>
     <Webpage>https://www.dol.gov/agencies/ilab/resources/reports/child-labor/vietnam</Webpage>
     <Region>Indo-Pacific</Region>
-    
-    
+    <Multiple_Territories />
+    <Advancement_Level />
     <Description>Not covered in Child Labor Report.</Description>
     <Goods>
       <Good>
@@ -31252,11 +31986,17 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
-      <Minumum_Voluntary_Military>
+      <Minimum_Compulsory_Military>
         <Standard>N/A</Standard>
         <Age />
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
+      <Minumum_Voluntary_Military>
+        <Standard>N/A†</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>Yes</Standard>
@@ -31287,12 +32027,6 @@ addressing-labor-exploitation-fishing-asean</Link>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Unknown</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Mechanisms>
       <Program>NA</Program>
@@ -31386,11 +32120,17 @@ addressing-labor-exploitation-fishing-asean</Link>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
-        <Standard>Yes</Standard>
+        <Standard>Yes†</Standard>
         <Age>18</Age>
         <Calculated_Age>No</Calculated_Age>
-        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+        <Conforms_To_Intl_Standard>Yes†</Conforms_To_Intl_Standard>
       </Minumum_Voluntary_Military>
       <Minumum_Non_State_Military>
         <Standard>No</Standard>
@@ -31590,6 +32330,12 @@ work, and agriculture.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -31625,12 +32371,6 @@ work, and agriculture.</Name>
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>N/A</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -31771,6 +32511,12 @@ problem, including child victims of commercial sexual exploitation and domestic 
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -31806,12 +32552,6 @@ problem, including child victims of commercial sexual exploitation and domestic 
       <Labor_Complaint_Mechanism>Unknown</Labor_Complaint_Mechanism>
       <Labor_Referral_Mechanism>Unknown</Labor_Referral_Mechanism>
       <Labor_Inspectors_Intl_Standards>Unknown</Labor_Inspectors_Intl_Standards>
-      <Criminal_New_Employee_Training>None</Criminal_New_Employee_Training>
-      <Criminal_Investigations>None</Criminal_Investigations>
-      <Criminal_Prosecutions>None</Criminal_Prosecutions>
-      <Criminal_Convictions>None</Criminal_Convictions>
-      <Criminal_Referral_Mechanism>None</Criminal_Referral_Mechanism>
-      <Criminal_Penalties_for_WFCL>None</Criminal_Penalties_for_WFCL>
     </Enforcements>
     <Suggested_Actions>
       <Legal_Framework>
@@ -32019,6 +32759,12 @@ worst forms of child labor, including in commercial sexual exploitation and fish
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>N/A</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>N/A</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>18</Age>
@@ -32287,6 +33033,12 @@ mining, domestic work, and commercial sexual exploitation.</Name>
         <Calculated_Age>No</Calculated_Age>
         <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
       </Prohibition_Illicit_Activities>
+      <Minimum_Compulsory_Military>
+        <Standard>Yes</Standard>
+        <Age />
+        <Calculated_Age>No</Calculated_Age>
+        <Conforms_To_Intl_Standard>Yes</Conforms_To_Intl_Standard>
+      </Minimum_Compulsory_Military>
       <Minumum_Voluntary_Military>
         <Standard>Yes</Standard>
         <Age>16</Age>
