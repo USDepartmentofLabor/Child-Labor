@@ -137,19 +137,6 @@
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Paraguay</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Beans</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
         <Country_Name>Burma</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -158,6 +145,13 @@
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -179,7 +173,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Bidis</Good_Name>
+    <Good_Name>Bidis </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -432,7 +426,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Bricks</Good_Name>
+    <Good_Name>Bricks </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -836,7 +830,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cobalt ore</Good_Name>
+    <Good_Name>Cobalt ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -849,7 +843,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Coca</Good_Name>
+    <Good_Name>Coca </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -888,7 +882,7 @@
       </Country>
       <Country>
         <Country_Name>Côte d'Ivoire</Country_Name>
-        <Region>Sub-Saharan Africa</Region>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -963,7 +957,7 @@
       </Country>
       <Country>
         <Country_Name>Côte d'Ivoire</Country_Name>
-        <Region>Sub-Saharan Africa</Region>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
@@ -1234,7 +1228,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cottonseed</Good_Name>
+    <Good_Name>Cottonseed </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1617,7 +1611,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Fluorspar</Good_Name>
+    <Good_Name>Fluorspar </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -1662,6 +1656,13 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Turkey</Country_Name>
         <Country_Region>Middle East and North Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -1678,20 +1679,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Footwear</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Indonesia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Fruit</Good_Name>
+    <Good_Name>Fruit </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1708,6 +1696,13 @@
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Bangladesh</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Pakistan</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -1723,19 +1718,6 @@
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Furniture</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Bangladesh</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -2125,6 +2107,13 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Benin</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Burkina Faso</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -2140,19 +2129,6 @@
       </Country>
       <Country>
         <Country_Name>Sierra Leone</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Granite</Good_Name>
-    <Good_Sector>Mining</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Benin</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
@@ -2181,7 +2157,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gravel</Good_Name>
+    <Good_Name>Gravel </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2208,7 +2184,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gypsum</Good_Name>
+    <Good_Name>Gypsum </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2281,7 +2257,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Incense</Good_Name>
+    <Good_Name>Incense </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2333,7 +2309,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Jute</Good_Name>
+    <Good_Name>Jute </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2346,7 +2322,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat</Good_Name>
+    <Good_Name>Khat </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2359,7 +2335,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat/Miraa</Good_Name>
+    <Good_Name>Khat/Miraa </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2605,7 +2581,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Nile Perch</Good_Name>
+    <Good_Name>Nile Perch </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2618,7 +2594,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Oil</Good_Name>
+    <Good_Name>Oil </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2905,7 +2881,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Pulses</Good_Name>
+    <Good_Name>Pulses </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3437,6 +3413,13 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Egypt</Country_Name>
+        <Country_Region>Middle East and North Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -3458,33 +3441,6 @@
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
-        <Country_Name>Uganda</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
-        <Country_Name>Zambia</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Stones</Good_Name>
-    <Good_Sector>Mining</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Egypt</Country_Name>
-        <Country_Region>Middle East and North Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-      <Country>
         <Country_Name>Nicaragua</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -3494,6 +3450,20 @@
       <Country>
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Uganda</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Zambia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -3705,7 +3675,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tantalum ore</Good_Name>
+    <Good_Name>Tantalum ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -3718,7 +3688,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tanzanite</Good_Name>
+    <Good_Name>Tanzanite </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -3824,6 +3794,13 @@
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Ethiopia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Ghana</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -3854,19 +3831,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Textiles</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Ethiopia</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Thread/Yarn</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
@@ -3887,7 +3851,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tilapia</Good_Name>
+    <Good_Name>Tilapia </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3968,7 +3932,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tin ore</Good_Name>
+    <Good_Name>Tin ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4166,7 +4130,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Trona</Good_Name>
+    <Good_Name>Trona </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4179,7 +4143,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tungsten ore</Good_Name>
+    <Good_Name>Tungsten ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4238,7 +4202,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Yerba Mate</Good_Name>
+    <Good_Name>Yerba Mate </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
