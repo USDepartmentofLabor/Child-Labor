@@ -1,6 +1,6 @@
 <Goods>
   <Good>
-    <Good_Name>Açaí Berries</Good_Name>
+    <Good_Name>Acai</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -9,8 +9,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -24,8 +22,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -39,8 +35,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -54,8 +48,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -69,8 +61,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>El Salvador</Country_Name>
@@ -78,8 +68,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -87,8 +75,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -102,8 +88,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -117,8 +101,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -126,8 +108,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -135,8 +115,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -144,8 +122,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -153,8 +129,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -163,43 +137,25 @@
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
-        <Country_Name>Paraguay</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Country_Name>Burma</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Beans (green beans)</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
       <Country>
         <Country_Name>Mexico</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Beans (green, soy, yellow)</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
       <Country>
-        <Country_Name>Burma</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
+        <Country_Name>Paraguay</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -213,13 +169,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Bidis (hand-rolled cigarettes)</Good_Name>
+    <Good_Name>Bidis </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -228,8 +182,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -237,8 +189,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -252,8 +202,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -267,8 +215,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -276,8 +222,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Eswatini</Country_Name>
@@ -285,8 +229,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -294,8 +236,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -303,8 +243,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -318,8 +256,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -333,8 +269,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -342,8 +276,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -357,8 +289,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Argentina</Country_Name>
@@ -366,8 +296,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Bangladesh</Country_Name>
@@ -375,8 +303,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Bolivia</Country_Name>
@@ -384,8 +310,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -393,8 +317,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burma</Country_Name>
@@ -402,8 +324,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -411,8 +331,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -420,8 +338,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -429,8 +345,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Egypt</Country_Name>
@@ -438,8 +352,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -447,8 +359,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Iran</Country_Name>
@@ -456,8 +366,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nepal</Country_Name>
@@ -465,8 +373,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>North Korea</Country_Name>
@@ -474,8 +380,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -483,8 +387,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -492,8 +394,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -501,8 +401,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Russia</Country_Name>
@@ -510,8 +408,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -519,8 +415,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -528,13 +422,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Bricks (clay)</Good_Name>
+    <Good_Name>Bricks </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -543,8 +435,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -558,8 +448,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -573,8 +461,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -588,8 +474,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -597,8 +481,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Iran</Country_Name>
@@ -606,8 +488,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nepal</Country_Name>
@@ -615,8 +495,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -624,8 +502,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -639,8 +515,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -654,8 +528,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guinea</Country_Name>
@@ -663,8 +535,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -672,8 +542,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -687,8 +555,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -696,8 +562,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Chad</Country_Name>
@@ -705,8 +569,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Costa Rica</Country_Name>
@@ -714,8 +576,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>El Salvador</Country_Name>
@@ -723,8 +583,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ethiopia</Country_Name>
@@ -732,8 +590,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -741,8 +597,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Lesotho</Country_Name>
@@ -750,8 +604,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mauritania</Country_Name>
@@ -759,8 +611,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -768,8 +618,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Niger</Country_Name>
@@ -777,8 +625,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -786,8 +632,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>South Sudan</Country_Name>
@@ -795,8 +639,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -804,8 +646,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zambia</Country_Name>
@@ -813,8 +653,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -828,8 +666,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -843,8 +679,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -858,8 +692,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -873,8 +705,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -882,8 +712,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -897,8 +725,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -912,8 +738,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -927,8 +751,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -936,8 +758,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -951,8 +771,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -966,8 +784,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -975,8 +791,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -984,8 +798,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mongolia</Country_Name>
@@ -993,8 +805,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>North Korea</Country_Name>
@@ -1002,8 +812,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -1011,8 +819,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ukraine</Country_Name>
@@ -1020,13 +826,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cobalt ore (heterogenite)</Good_Name>
+    <Good_Name>Cobalt ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -1035,13 +839,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Coca (stimulant plant)</Good_Name>
+    <Good_Name>Coca </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1050,8 +852,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -1059,8 +859,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1074,8 +872,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cameroon</Country_Name>
@@ -1083,8 +879,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Côte d'Ivoire</Country_Name>
@@ -1092,8 +886,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -1101,8 +893,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guinea</Country_Name>
@@ -1110,8 +900,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -1119,8 +907,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Sierra Leone</Country_Name>
@@ -1128,8 +914,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1143,8 +927,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1158,8 +940,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -1167,8 +947,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Costa Rica</Country_Name>
@@ -1176,8 +954,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Côte d'Ivoire</Country_Name>
@@ -1185,8 +961,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Dominican Republic</Country_Name>
@@ -1194,8 +968,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>El Salvador</Country_Name>
@@ -1203,8 +975,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guatemala</Country_Name>
@@ -1212,8 +982,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guinea</Country_Name>
@@ -1221,8 +989,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Honduras</Country_Name>
@@ -1230,8 +996,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -1239,8 +1003,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -1248,8 +1010,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -1257,8 +1017,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Panama</Country_Name>
@@ -1266,8 +1024,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Sierra Leone</Country_Name>
@@ -1275,8 +1031,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tanzania</Country_Name>
@@ -1284,8 +1038,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -1293,8 +1045,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -1302,8 +1052,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1317,8 +1065,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1332,8 +1078,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -1341,8 +1085,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guatemala</Country_Name>
@@ -1350,8 +1092,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -1359,8 +1099,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -1368,8 +1106,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1383,8 +1119,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Azerbaijan</Country_Name>
@@ -1392,8 +1126,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Benin</Country_Name>
@@ -1401,8 +1133,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -1410,8 +1140,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burkina Faso</Country_Name>
@@ -1419,8 +1147,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -1428,8 +1154,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Egypt</Country_Name>
@@ -1437,8 +1161,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -1446,8 +1168,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kazakhstan</Country_Name>
@@ -1455,8 +1175,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kyrgyz Republic</Country_Name>
@@ -1464,8 +1182,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mali</Country_Name>
@@ -1473,8 +1189,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -1482,8 +1196,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tajikistan</Country_Name>
@@ -1491,8 +1203,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -1500,8 +1210,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkmenistan</Country_Name>
@@ -1509,8 +1217,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zambia</Country_Name>
@@ -1518,13 +1224,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cottonseed (hybrid)</Good_Name>
+    <Good_Name>Cottonseed </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1533,8 +1237,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1548,8 +1250,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1563,8 +1263,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1578,8 +1276,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1593,8 +1289,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1608,8 +1302,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1623,8 +1315,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Central African Republic</Country_Name>
@@ -1632,8 +1322,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Congo, Democratic Republic of the</Country_Name>
@@ -1641,8 +1329,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guinea</Country_Name>
@@ -1650,8 +1336,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Liberia</Country_Name>
@@ -1659,8 +1343,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Sierra Leone</Country_Name>
@@ -1668,8 +1350,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1683,8 +1363,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1698,8 +1376,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1713,8 +1389,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Malaysia</Country_Name>
@@ -1722,8 +1396,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -1731,8 +1403,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1746,8 +1416,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nepal</Country_Name>
@@ -1755,8 +1423,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1770,8 +1436,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1785,8 +1449,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1800,8 +1462,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>El Salvador</Country_Name>
@@ -1809,8 +1469,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guatemala</Country_Name>
@@ -1818,8 +1476,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -1827,8 +1483,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -1836,8 +1490,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1851,8 +1503,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -1860,8 +1510,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -1869,8 +1517,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -1878,8 +1524,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Indonesia</Country_Name>
@@ -1887,8 +1531,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -1896,8 +1538,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -1905,8 +1545,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -1914,8 +1552,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -1923,8 +1559,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Taiwan</Country_Name>
@@ -1932,8 +1566,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Thailand</Country_Name>
@@ -1941,8 +1573,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -1950,8 +1580,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -1959,8 +1587,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Yemen</Country_Name>
@@ -1968,8 +1594,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -1983,13 +1607,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Fluorspar (mineral)</Good_Name>
+    <Good_Name>Fluorspar </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -1998,8 +1620,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2013,8 +1633,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -2022,8 +1640,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -2031,8 +1647,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -2040,8 +1654,13 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -2049,8 +1668,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -2058,28 +1675,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Footwear (sandals)</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Indonesia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Fruit (Pome and Stone)</Good_Name>
+    <Good_Name>Fruit </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2088,8 +1688,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2098,13 +1696,18 @@
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Bangladesh</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Pakistan</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -2112,8 +1715,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -2121,23 +1722,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Furniture (steel)</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Bangladesh</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2151,8 +1735,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2166,8 +1748,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Bangladesh</Country_Name>
@@ -2175,8 +1755,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -2184,8 +1762,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burma</Country_Name>
@@ -2193,8 +1769,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -2202,8 +1776,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -2211,8 +1783,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Malaysia</Country_Name>
@@ -2220,8 +1790,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -2229,8 +1797,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -2238,8 +1804,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Thailand</Country_Name>
@@ -2247,8 +1811,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -2256,8 +1818,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -2265,8 +1825,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2280,8 +1838,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zambia</Country_Name>
@@ -2289,8 +1845,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2304,8 +1858,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2319,8 +1871,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -2328,8 +1878,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2343,8 +1891,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2358,8 +1904,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -2367,8 +1911,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2382,8 +1924,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burkina Faso</Country_Name>
@@ -2391,8 +1931,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cameroon</Country_Name>
@@ -2400,8 +1938,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -2409,8 +1945,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Congo, Democratic Republic of the</Country_Name>
@@ -2418,8 +1952,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -2427,8 +1959,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ethiopia</Country_Name>
@@ -2436,8 +1966,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -2445,8 +1973,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guinea</Country_Name>
@@ -2454,8 +1980,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Indonesia</Country_Name>
@@ -2463,8 +1987,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -2472,8 +1994,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mali</Country_Name>
@@ -2481,8 +2001,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mongolia</Country_Name>
@@ -2490,8 +2008,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -2499,8 +2015,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Niger</Country_Name>
@@ -2508,8 +2022,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -2517,8 +2029,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>North Korea</Country_Name>
@@ -2526,8 +2036,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -2535,8 +2043,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -2544,8 +2050,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Senegal</Country_Name>
@@ -2553,8 +2057,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Sudan</Country_Name>
@@ -2562,8 +2064,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Suriname</Country_Name>
@@ -2571,8 +2071,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tanzania</Country_Name>
@@ -2580,8 +2078,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -2589,8 +2085,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Venezuela</Country_Name>
@@ -2598,8 +2092,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zimbabwe</Country_Name>
@@ -2607,8 +2099,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2617,13 +2107,18 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Benin</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Burkina Faso</Country_Name>
         <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -2631,8 +2126,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Sierra Leone</Country_Name>
@@ -2640,23 +2133,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Granite (crushed)</Good_Name>
-    <Good_Sector>Mining</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Benin</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2670,8 +2146,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -2679,13 +2153,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gravel (crushed stones)</Good_Name>
+    <Good_Name>Gravel </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2694,8 +2166,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -2703,8 +2173,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -2712,13 +2180,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gypsum (mineral)</Good_Name>
+    <Good_Name>Gypsum </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2727,8 +2193,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2742,8 +2206,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2757,8 +2219,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2772,8 +2232,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -2781,8 +2239,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -2790,8 +2246,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -2799,13 +2253,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Incense (agarbatti)</Good_Name>
+    <Good_Name>Incense </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2814,8 +2266,19 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Ingots</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -2829,8 +2292,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2844,13 +2305,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Jute (textiles)</Good_Name>
+    <Good_Name>Jute </Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2859,13 +2318,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat (stimulant plant)</Good_Name>
+    <Good_Name>Khat </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2874,13 +2331,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
+    <Good_Name>Khat/Miraa </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2889,8 +2344,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2904,8 +2357,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -2913,8 +2364,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -2922,8 +2371,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2937,8 +2384,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -2946,8 +2391,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2961,13 +2404,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Lithium-Ion Batteries</Good_Name>
+    <Good_Name>Lithium</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2976,8 +2417,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Congo, Democratic Republic of the</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -2991,8 +2430,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3006,8 +2443,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3021,8 +2456,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -3030,8 +2463,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -3039,8 +2470,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3048,8 +2477,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3063,8 +2490,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -3072,8 +2497,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3087,8 +2510,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3102,8 +2523,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -3111,8 +2530,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Panama</Country_Name>
@@ -3120,8 +2537,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3129,8 +2544,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3144,8 +2557,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Madagascar</Country_Name>
@@ -3153,8 +2564,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3168,13 +2577,11 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Nile Perch (fish)</Good_Name>
+    <Good_Name>Nile Perch </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3183,8 +2590,33 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Oil </Good_Name>
+    <Good_Sector>Agriculture</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>Indonesia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Malaysia</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Sierra Leone</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -3198,8 +2630,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3213,8 +2643,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3228,8 +2656,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3237,41 +2663,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Palm Fruit</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Indonesia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-      <Country>
-        <Country_Name>Malaysia</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-      <Country>
-        <Country_Name>Sierra Leone</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3285,8 +2676,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3300,8 +2689,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3309,8 +2696,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Turkey</Country_Name>
@@ -3318,8 +2703,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3333,8 +2716,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3348,38 +2729,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Photovoltaic Ingots</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Photovoltaic Wafers</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3393,8 +2742,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3408,8 +2755,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3423,8 +2768,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -3432,8 +2775,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3447,8 +2788,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -3456,8 +2795,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3465,8 +2802,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -3474,8 +2809,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Russia</Country_Name>
@@ -3483,8 +2816,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Thailand</Country_Name>
@@ -3492,8 +2823,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ukraine</Country_Name>
@@ -3501,8 +2830,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3516,8 +2843,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3531,8 +2856,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -3540,8 +2863,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -3549,8 +2870,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3558,13 +2877,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Pulses (legumes)</Good_Name>
+    <Good_Name>Pulses </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3573,8 +2890,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3588,8 +2903,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3603,8 +2916,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3618,8 +2929,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>Indonesia</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3633,8 +2942,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burma</Country_Name>
@@ -3642,8 +2949,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Dominican Republic</Country_Name>
@@ -3651,8 +2956,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ecuador</Country_Name>
@@ -3660,8 +2963,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -3669,8 +2970,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -3678,8 +2977,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -3687,8 +2984,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mali</Country_Name>
@@ -3696,8 +2991,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -3705,8 +2998,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -3714,8 +3005,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -3723,8 +3012,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -3732,8 +3019,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3747,8 +3032,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -3756,8 +3039,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Indonesia</Country_Name>
@@ -3765,8 +3046,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Liberia</Country_Name>
@@ -3774,8 +3053,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -3783,8 +3060,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -3792,8 +3067,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3807,8 +3080,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3822,8 +3093,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3837,8 +3106,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Bangladesh</Country_Name>
@@ -3846,8 +3113,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -3855,8 +3120,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Niger</Country_Name>
@@ -3864,8 +3127,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3879,8 +3140,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nigeria</Country_Name>
@@ -3888,8 +3147,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -3897,8 +3154,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3912,8 +3167,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3927,8 +3180,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3942,8 +3193,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3951,8 +3200,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3966,8 +3213,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -3975,8 +3220,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -3990,8 +3233,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -3999,8 +3240,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4014,8 +3253,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burma</Country_Name>
@@ -4023,8 +3260,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -4032,8 +3267,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Thailand</Country_Name>
@@ -4041,8 +3274,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4056,8 +3287,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4071,8 +3300,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4086,8 +3313,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4101,8 +3326,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4116,8 +3339,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -4125,8 +3346,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tanzania</Country_Name>
@@ -4134,8 +3353,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4149,8 +3366,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4164,8 +3379,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4179,8 +3392,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4194,8 +3405,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>Yes</Derived_Labor_Exploitation>
-        <Derived_Country>China</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4204,13 +3413,18 @@
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
+        <Country_Name>Egypt</Country_Name>
+        <Country_Region>Middle East and North Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Madagascar</Country_Name>
@@ -4218,8 +3432,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nepal</Country_Name>
@@ -4227,41 +3439,13 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
-        <Country_Name>Uganda</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Country_Name>Nicaragua</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-      <Country>
-        <Country_Name>Zambia</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Stones (limestone)</Good_Name>
-    <Good_Sector>Mining</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Egypt</Country_Name>
-        <Country_Region>Middle East and North Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -4269,23 +3453,20 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Stones (pumice)</Good_Name>
-    <Good_Sector>Mining</Good_Sector>
-    <Countries>
       <Country>
-        <Country_Name>Nicaragua</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Country_Name>Uganda</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+      <Country>
+        <Country_Name>Zambia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -4299,8 +3480,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4314,8 +3493,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4329,8 +3506,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Bolivia</Country_Name>
@@ -4338,8 +3513,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -4347,8 +3520,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Burma</Country_Name>
@@ -4356,8 +3527,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -4365,8 +3534,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Colombia</Country_Name>
@@ -4374,8 +3541,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Dominican Republic</Country_Name>
@@ -4383,8 +3548,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>El Salvador</Country_Name>
@@ -4392,8 +3555,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Guatemala</Country_Name>
@@ -4401,8 +3562,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -4410,8 +3569,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -4419,8 +3576,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -4428,8 +3583,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -4437,8 +3590,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -4446,8 +3597,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -4455,8 +3604,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Thailand</Country_Name>
@@ -4464,8 +3611,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -4473,8 +3618,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -4482,8 +3625,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zimbabwe</Country_Name>
@@ -4491,8 +3632,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4506,8 +3645,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4521,8 +3658,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4536,13 +3671,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tantalum ore (coltan)</Good_Name>
+    <Good_Name>Tantalum ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4551,13 +3684,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tanzanite (gems)</Good_Name>
+    <Good_Name>Tanzanite </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4566,8 +3697,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4581,8 +3710,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -4590,8 +3717,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Malawi</Country_Name>
@@ -4599,8 +3724,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Rwanda</Country_Name>
@@ -4608,8 +3731,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tanzania</Country_Name>
@@ -4617,8 +3738,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -4626,8 +3745,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -4635,8 +3752,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4650,8 +3765,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4665,8 +3778,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -4674,8 +3785,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>China</Country_Name>
@@ -4683,8 +3792,13 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+      <Country>
+        <Country_Name>Ethiopia</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
         <Country_Name>Ghana</Country_Name>
@@ -4692,8 +3806,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>North Korea</Country_Name>
@@ -4701,8 +3813,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Pakistan</Country_Name>
@@ -4710,8 +3820,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -4719,23 +3827,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Textiles (hand-woven)</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Ethiopia</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>Yes</Forced_Labor>
-        <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4749,8 +3840,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>India</Country_Name>
@@ -4758,13 +3847,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tilapia (fish)</Good_Name>
+    <Good_Name>Tilapia </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -4773,8 +3860,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4788,8 +3873,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -4797,8 +3880,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>North Korea</Country_Name>
@@ -4806,8 +3887,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Peru</Country_Name>
@@ -4815,8 +3894,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Russia</Country_Name>
@@ -4824,8 +3901,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -4833,8 +3908,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4848,8 +3921,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Indonesia</Country_Name>
@@ -4857,13 +3928,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tin ore (cassiterite)</Good_Name>
+    <Good_Name>Tin ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4872,8 +3941,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -4887,8 +3954,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Brazil</Country_Name>
@@ -4896,8 +3961,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Cambodia</Country_Name>
@@ -4905,8 +3968,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Indonesia</Country_Name>
@@ -4914,8 +3975,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kenya</Country_Name>
@@ -4923,8 +3982,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Kyrgyz Republic</Country_Name>
@@ -4932,8 +3989,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Lebanon</Country_Name>
@@ -4941,8 +3996,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Malawi</Country_Name>
@@ -4950,8 +4003,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -4959,8 +4010,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mozambique</Country_Name>
@@ -4968,8 +4017,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Nicaragua</Country_Name>
@@ -4977,8 +4024,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Philippines</Country_Name>
@@ -4986,8 +4031,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Tanzania</Country_Name>
@@ -4995,8 +4038,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -5004,8 +4045,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Vietnam</Country_Name>
@@ -5013,8 +4052,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zambia</Country_Name>
@@ -5022,8 +4059,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Zimbabwe</Country_Name>
@@ -5031,8 +4066,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -5046,8 +4079,6 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -5061,8 +4092,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Dominican Republic</Country_Name>
@@ -5070,8 +4099,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Mexico</Country_Name>
@@ -5079,8 +4106,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -5088,8 +4113,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -5103,13 +4126,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Trona (mineral)</Good_Name>
+    <Good_Name>Trona </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -5118,13 +4139,11 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tungsten ore (wolframite)</Good_Name>
+    <Good_Name>Tungsten ore </Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -5133,8 +4152,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -5148,8 +4165,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Uganda</Country_Name>
@@ -5157,8 +4172,19 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Wafers</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
   </Good>
@@ -5172,13 +4198,11 @@
         <Child_Labor>No</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
+    <Good_Name>Yerba Mate </Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -5187,8 +4211,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
       <Country>
         <Country_Name>Paraguay</Country_Name>
@@ -5196,8 +4218,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>
@@ -5211,8 +4231,6 @@
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
-        <Derived_Labor_Exploitation>No</Derived_Labor_Exploitation>
-        <Derived_Country>No</Derived_Country>
       </Country>
     </Countries>
   </Good>

@@ -22,8 +22,7 @@ class AssesmentLevelParser {
         for country in goodsXML[kCountries][kCountry].all {
             
             if let countryRegion = country["Region"].element?.text, !countryRegion.isEmpty {
-                
-                if var advancementLevel  = country["Advancement_Level"].element?.text, !countryRegion.isEmpty {
+                if var advancementLevel  = country["Advancement_Level"].element?.text, !countryRegion.isEmpty, !advancementLevel.isEmpty {
                     if advancementLevel.contains("Minimal Advancement") {
                         advancementLevel = "Minimal Advancement"
                     }
