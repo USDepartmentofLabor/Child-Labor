@@ -1,6 +1,6 @@
 <Goods>
   <Good>
-    <Good_Name>Acai</Good_Name>
+    <Good_Name>Açaí Berries</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -173,7 +173,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Bidis </Good_Name>
+    <Good_Name>Bidis (hand-rolled cigarettes)</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -340,6 +340,13 @@
         <Forced_Child_Labor>Yes</Forced_Child_Labor>
       </Country>
       <Country>
+        <Country_Name>Colombia</Country_Name>
+        <Country_Region>Latin America and the Caribbean</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
         <Country_Name>Ecuador</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
@@ -419,19 +426,6 @@
       <Country>
         <Country_Name>Vietnam</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Bricks </Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Colombia</Country_Name>
-        <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
@@ -830,7 +824,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cobalt ore </Good_Name>
+    <Good_Name>Cobalt ore (heterogenite)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -843,7 +837,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Coca </Good_Name>
+    <Good_Name>Coca (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1228,7 +1222,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Cottonseed </Good_Name>
+    <Good_Name>Cottonseed (hybrid)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -1611,7 +1605,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Fluorspar </Good_Name>
+    <Good_Name>Fluorspar (mineral)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -1679,7 +1673,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Fruit </Good_Name>
+    <Good_Name>Fruit (Pome and Stone)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2157,7 +2151,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gravel </Good_Name>
+    <Good_Name>Gravel (crushed stones)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2184,7 +2178,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Gypsum </Good_Name>
+    <Good_Name>Gypsum (mineral)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -2257,26 +2251,13 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Incense </Good_Name>
+    <Good_Name>Incense (agarbatti)</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
         <Country_Name>India</Country_Name>
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
-    <Good_Name>Ingots</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2309,7 +2290,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Jute </Good_Name>
+    <Good_Name>Jute (textiles)</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2322,7 +2303,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat </Good_Name>
+    <Good_Name>Khat (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2335,7 +2316,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Khat/Miraa </Good_Name>
+    <Good_Name>Khat/Miraa (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2408,7 +2389,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Lithium</Good_Name>
+    <Good_Name>Lithium-Ion Batteries</Good_Name>
     <Good_Sector>Manufacturing</Good_Sector>
     <Countries>
       <Country>
@@ -2581,7 +2562,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Nile Perch </Good_Name>
+    <Good_Name>Nile Perch (fish)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -2727,6 +2708,32 @@
         <Country_Name>Paraguay</Country_Name>
         <Country_Region>Latin America and the Caribbean</Country_Region>
         <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Photovoltaic Ingots</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+    </Countries>
+  </Good>
+  <Good>
+    <Good_Name>Photovoltaic Wafers</Good_Name>
+    <Good_Sector>Manufacturing</Good_Sector>
+    <Countries>
+      <Country>
+        <Country_Name>China</Country_Name>
+        <Country_Region>Indo-Pacific</Country_Region>
+        <Child_Labor>No</Child_Labor>
         <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
@@ -2881,7 +2888,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Pulses </Good_Name>
+    <Good_Name>Pulses (legumes)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3675,7 +3682,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tantalum ore </Good_Name>
+    <Good_Name>Tantalum ore (coltan)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -3688,7 +3695,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tanzanite </Good_Name>
+    <Good_Name>Tanzanite (gems)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -3851,7 +3858,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tilapia </Good_Name>
+    <Good_Name>Tilapia (fish)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
@@ -3932,7 +3939,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tin ore </Good_Name>
+    <Good_Name>Tin ore (cassiterite)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4130,7 +4137,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Trona </Good_Name>
+    <Good_Name>Trona (mineral)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4143,7 +4150,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Tungsten ore </Good_Name>
+    <Good_Name>Tungsten ore (wolframite)</Good_Name>
     <Good_Sector>Mining</Good_Sector>
     <Countries>
       <Country>
@@ -4176,19 +4183,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Wafers</Good_Name>
-    <Good_Sector>Manufacturing</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>China</Country_Name>
-        <Country_Region>Indo-Pacific</Country_Region>
-        <Child_Labor>No</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Wheat</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -4202,7 +4196,7 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Yerba Mate </Good_Name>
+    <Good_Name>Yerba Mate (stimulant plant)</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
       <Country>
