@@ -84,7 +84,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborInspectorsLabel, text: enforcements["Labor_Inspectors"].element?.text)
                 
                 setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
-                setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
+                //setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
                 setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Worksite_Inspections"].element?.text)
                 
                 setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
@@ -96,7 +96,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
                 setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
                 setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
-                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
+//                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
                 setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
                 setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
                 setEnforcement(self.laborInspectorsMeetILORec, text: enforcements["Labor_Inspectors_Intl_Standards"].element?.text)
@@ -173,9 +173,9 @@ class EnforceTableViewController: UITableViewController {
             case 0:
                 return 4
             case 1:
-                return 3
+                return 1
             case 2:
-                return 2
+                return 1
             case 3:
                 return 3
             case 4:
@@ -191,7 +191,7 @@ class EnforceTableViewController: UITableViewController {
         else {
             switch section {
             case 7:
-                return 3
+                return 2
             case 8:
                 return 6
             default:
