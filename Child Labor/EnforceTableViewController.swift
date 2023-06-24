@@ -85,7 +85,7 @@ class EnforceTableViewController: UITableViewController {
                 
                 setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
                 //setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
-                setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Worksite_Inspections"].element?.text)
+                setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
                 
                 setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
                 setEnforcement(self.laborPenaltiesImposedLabel, text: enforcements["Labor_Penalties_Imposed"].element?.text)
