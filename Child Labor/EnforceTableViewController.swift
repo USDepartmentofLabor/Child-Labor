@@ -95,7 +95,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborUnannouncedPremittedLabel, text: enforcements["Labor_Unannounced_Inspections_Premitted"].element?.text)
                 setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
                 setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
-                setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
+              //  setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
 //                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
                 setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
                 setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
@@ -163,7 +163,7 @@ class EnforceTableViewController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 9
+        return 8
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -171,18 +171,18 @@ class EnforceTableViewController: UITableViewController {
         if state == 0 {
             switch section {
             case 0:
-                return 4
+                return 5
+//            case 1:
+//                return 0//1
             case 1:
                 return 1
             case 2:
-                return 1
-            case 3:
                 return 3
+            case 3:
+                return 2
             case 4:
                 return 2
             case 5:
-                return 2
-            case 6:
                 return 2
             default:
                 return 0
@@ -190,10 +190,10 @@ class EnforceTableViewController: UITableViewController {
         }
         else {
             switch section {
+            case 6:
+                return 1
             case 7:
-                return 2
-            case 8:
-                return 6
+                return 5
             default:
                 return 0
             }
@@ -206,11 +206,14 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        if (state == 0 && section <= 6) {
+        if (state == 0 && section <= 5) {
+            if section == 0 {
+                return 0
+            }
             return UITableViewAutomaticDimension;
         }
         
-        if (state == 1 && section >= 7) {
+        if (state == 1 && section >= 6) {
             return UITableViewAutomaticDimension;
         }
         
@@ -218,14 +221,14 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        if (state == 0 && section <= 6) {
-           return UITableViewAutomaticDimension;
+        if (state == 0 && section <= 5) {
+            return UITableViewAutomaticDimension;
             
         }
         
         
         
-        if (state == 1 && section > 6) {
+        if (state == 1 && section > 5) {
             return UITableViewAutomaticDimension;
         }
         
@@ -233,11 +236,11 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if (state == 0 && section <= 6) {
+        if (state == 0 && section <= 5) {
             return super.tableView(tableView, titleForHeaderInSection: section)
         }
         
-        if (state == 1 && section > 6) {
+        if (state == 1 && section > 5) {
             return super.tableView(tableView, titleForHeaderInSection: section)
         }
         
@@ -245,7 +248,7 @@ class EnforceTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        if (state == 0 && section <= 6) {
+        if (state == 0 && section <= 5) {
             if (section == 6 && self.hasLaborFooter) {
                 // return "*The government does not publish this information";
                 return " ";
@@ -253,8 +256,8 @@ class EnforceTableViewController: UITableViewController {
             return super.tableView(tableView, titleForFooterInSection: section)
         }
         
-        if (state == 1 && section > 6) {
-            if (section == 8 && self.hasCriminalFooter) {
+        if (state == 1 && section > 5) {
+            if (section == 7 && self.hasCriminalFooter) {
                 // return "*The government does not publish this information";
                 return " ";
             }

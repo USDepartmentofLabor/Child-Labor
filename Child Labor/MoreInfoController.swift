@@ -80,12 +80,12 @@ class MoreInfoController: UITableViewController {
         }
         if (indexPath.section == 1) {
             if (indexPath.row == 0) {
-                cell?.textLabel?.text = "Comply Chain App"
+                cell?.textLabel?.text = "Comply Chain"
             }
         }
         if (indexPath.section == 2) {
             if (indexPath.row == 0) {
-                cell?.textLabel?.text = "NEW: Better Trade Tool"
+                cell?.textLabel?.text = "Better Trade Tool"
             }
         }
         /*Old code below not using now after adding the new better trade tool link
@@ -122,7 +122,9 @@ class MoreInfoController: UITableViewController {
         }
         if (indexPath.section == 1){
             if (indexPath.row == 0) {
-                performSegue(withIdentifier: "presentSimilarApps", sender: self)
+                //performSegue(withIdentifier: "presentSimilarApps", sender: self)
+                guard let url = URL(string: "https://www.dol.gov/ilab/complychain/") else { return }
+                UIApplication.shared.openURL(url)
             }
         }
         if (indexPath.section == 2){

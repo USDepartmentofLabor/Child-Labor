@@ -90,7 +90,7 @@ class AssesmentsPageViewController: UIPageViewController {
         if screenType == .assesmentLevelByRegion {
             self.title = "Assesment Level By Region"
         } else if screenType == .newDVASCountries {
-            self.title = "Labor Inspector Meet ILO by Region"
+            self.title = "ILO Rec for Labor Inspectors Met"
         }
 
         // Navigation bar color
@@ -143,7 +143,7 @@ class AssesmentsPageViewController: UIPageViewController {
                     let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Advancement Level for \(key)", index: index, chartData: chartSegments)
                      advancementsArr.append(chartDetails)
                 } else if screenType == .newDVASCountries {
-                    let chartDetails = AssesmentPageDetails(name: key, mainTitle: "Assessment Level for \(key)", index: index, chartData: chartSegments)
+                    let chartDetails = AssesmentPageDetails(name: key, mainTitle: "ILO Rec for Labor Inspectors Met - \(key)", index: index, chartData: chartSegments)
                      advancementsArr.append(chartDetails)
                 }
               

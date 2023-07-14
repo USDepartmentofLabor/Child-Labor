@@ -7,7 +7,7 @@ enum ChartTypes: String, CaseIterable {
     case goodsBySector = "Goods By Sector"
     //case goodsByRegion = "Goods By Region"
     case assesmentLevelByRegion = "Assesment Level By Region"
-    case newDVAsCountries = "Labor Inspector Meet ILO by Region"
+    case newDVAsCountries = "ILO Rec for Labor Inspectors Met"
 }
 class DataVisualizationTableViewController: UITableViewController {
    
