@@ -438,7 +438,7 @@
                         <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Countries/Areas" id="bsP-lW-rNn"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="9d8-lJ-Jve">
-                            <rect key="frame" x="50" y="8.5" width="245" height="33"/>
+                            <rect key="frame" x="50" y="5.5" width="245" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="A–Z"/>
@@ -3198,7 +3198,7 @@ Standards                                          </string>
                             <tableViewSection headerTitle="Referral Mechanisms" id="fJA-9S-7av">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="OaI-BW-4uj">
-                                        <rect key="frame" x="0.0" y="1311" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1350" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="OaI-BW-4uj" id="twj-RZ-b8S">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3229,7 +3229,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="RGO-5R-uPw">
-                                        <rect key="frame" x="0.0" y="1391" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1430" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="RGO-5R-uPw" id="VVf-6D-cvT">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3265,7 +3265,7 @@ Standards                                          </string>
                             <tableViewSection headerTitle="Training for Investigators:" id="rqQ-AT-uMg">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="oSi-ZW-ALE">
-                                        <rect key="frame" x="0.0" y="1519" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1558" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="oSi-ZW-ALE" id="a8k-Ns-dDr">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3296,7 +3296,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="pq8-Bo-FjY">
-                                        <rect key="frame" x="0.0" y="1599" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1638" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="pq8-Bo-FjY" id="e8H-X7-n5F">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3327,7 +3327,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="6Sy-8C-xxh">
-                                        <rect key="frame" x="0.0" y="1679" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1718" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="6Sy-8C-xxh" id="OgV-bu-Kca">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3362,7 +3362,7 @@ Standards                                          </string>
                             <tableViewSection headerTitle="Other Data" id="Mfd-C9-VUq">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="ORU-Do-uVC">
-                                        <rect key="frame" x="0.0" y="1807" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1846" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="ORU-Do-uVC" id="REQ-uh-HpU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3393,7 +3393,7 @@ Standards                                          </string>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Enforcement" id="V5Y-kY-2Qd">
-                                        <rect key="frame" x="0.0" y="1887" width="320" height="80"/>
+                                        <rect key="frame" x="0.0" y="1926" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="V5Y-kY-2Qd" id="3tF-Xa-RA4">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
@@ -3538,6 +3538,7 @@ Standards                                          </string>
                         <outlet property="imposedPenaltiesForViolationsRelatedToTheWFCLLabel" destination="Dka-lk-5qO" id="cG8-Tz-XSU"/>
                         <outlet property="laborAccessPenaltiesLabel" destination="VZl-ph-Gq2" id="BwP-1g-jBS"/>
                         <outlet property="laborComplaintMechanismLabel" destination="APj-A9-3JK" id="4T8-iN-WME"/>
+                        <outlet property="laborEmployeeTrainingLabel" destination="FXw-d6-ECl" id="feh-P3-AyU"/>
                         <outlet property="laborFundingLabel" destination="YmR-7N-lpd" id="yoO-zN-14h"/>
                         <outlet property="laborInspectorsLabel" destination="KQJ-bm-UtT" id="6RQ-ud-CuH"/>
                         <outlet property="laborInspectorsMeetILORec" destination="qUB-s0-V8d" id="Hix-m4-WCS"/>
@@ -3554,7 +3555,7 @@ Standards                                          </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meh-sO-25b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2136" y="-1557"/>
+            <point key="canvasLocation" x="1978" y="-1530"/>
         </scene>
         <!--Enforcement (Multi)-->
         <scene sceneID="2vd-HD-0JI">
