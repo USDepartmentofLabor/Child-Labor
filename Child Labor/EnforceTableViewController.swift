@@ -94,7 +94,7 @@ class EnforceTableViewController: UITableViewController {
                 setEnforcement(self.laborRoutineTargetedLabel, text: enforcements["Labor_Routine_Inspections_Targeted"].element?.text)
                 setEnforcement(self.laborUnannouncedPremittedLabel, text: enforcements["Labor_Unannounced_Inspections_Premitted"].element?.text)
                 setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
-//                setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
+                setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
               //  setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
 //                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
                 setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
