@@ -314,7 +314,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         {
             goodsCount.text = "1 result found for search " + searchBarFilter.text!
         }
-        if(getGoodsCount() == 169)
+        if(getGoodsCount() == 170)
         {
             goodsCount.text = ""
         }
