@@ -2611,19 +2611,6 @@
     </Countries>
   </Good>
   <Good>
-    <Good_Name>Palm Fruit</Good_Name>
-    <Good_Sector>Agriculture</Good_Sector>
-    <Countries>
-      <Country>
-        <Country_Name>Sierra Leone</Country_Name>
-        <Country_Region>Sub-Saharan Africa</Country_Region>
-        <Child_Labor>Yes</Child_Labor>
-        <Forced_Labor>No</Forced_Labor>
-        <Forced_Child_Labor>No</Forced_Child_Labor>
-      </Country>
-    </Countries>
-  </Good>
-  <Good>
     <Good_Name>Oleochemicals</Good_Name>
     <Good_Sector>Agriculture</Good_Sector>
     <Countries>
@@ -2685,6 +2672,13 @@
         <Country_Region>Indo-Pacific</Country_Region>
         <Child_Labor>Yes</Child_Labor>
         <Forced_Labor>Yes</Forced_Labor>
+        <Forced_Child_Labor>No</Forced_Child_Labor>
+      </Country>
+      <Country>
+        <Country_Name>Sierra Leone</Country_Name>
+        <Country_Region>Sub-Saharan Africa</Country_Region>
+        <Child_Labor>Yes</Child_Labor>
+        <Forced_Labor>No</Forced_Labor>
         <Forced_Child_Labor>No</Forced_Child_Labor>
       </Country>
     </Countries>
@@ -4289,4 +4283,3 @@
     </Countries>
   </Good>
 </Goods>
-
