@@ -255,7 +255,7 @@
 		8303DFCE1B41F21A00E4FD42 /* Tonga-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF521B41F21A00E4FD42 /* Tonga-map.png */; };
 		8303DFCF1B41F21A00E4FD42 /* Trinidad and Tobago-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF531B41F21A00E4FD42 /* Trinidad and Tobago-map.png */; };
 		8303DFD01B41F21A00E4FD42 /* Tunisia-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF541B41F21A00E4FD42 /* Tunisia-map.png */; };
-		8303DFD11B41F21A00E4FD42 /* Turkey-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF551B41F21A00E4FD42 /* Turkey-map.png */; };
+		8303DFD11B41F21A00E4FD42 /* Turkey (Türkiye)-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF551B41F21A00E4FD42 /* Turkey (Türkiye)-map.png */; };
 		8303DFD21B41F21A00E4FD42 /* Tuvalu-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF561B41F21A00E4FD42 /* Tuvalu-map.png */; };
 		8303DFD31B41F21A00E4FD42 /* Uganda-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF571B41F21A00E4FD42 /* Uganda-map.png */; };
 		8303DFD51B41F21A00E4FD42 /* Uruguay-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DF591B41F21A00E4FD42 /* Uruguay-map.png */; };
@@ -467,7 +467,7 @@
 		8310FF381ABB11310025F7AE /* Tonga.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE581ABB11310025F7AE /* Tonga.png */; };
 		8310FF391ABB11310025F7AE /* Trinidad_and_Tobago.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE591ABB11310025F7AE /* Trinidad_and_Tobago.png */; };
 		8310FF3A1ABB11310025F7AE /* Tunisia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5A1ABB11310025F7AE /* Tunisia.png */; };
-		8310FF3B1ABB11310025F7AE /* Turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5B1ABB11310025F7AE /* Turkey.png */; };
+		8310FF3B1ABB11310025F7AE /* Turkey_(Türkiye).png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5B1ABB11310025F7AE /* Turkey_(Türkiye).png */; };
 		8310FF3C1ABB11310025F7AE /* Turkmenistan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5C1ABB11310025F7AE /* Turkmenistan.png */; };
 		8310FF3D1ABB11310025F7AE /* Turks_and_Caicos_Islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5D1ABB11310025F7AE /* Turks_and_Caicos_Islands.png */; };
 		8310FF3E1ABB11310025F7AE /* Tuvalu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8310FE5E1ABB11310025F7AE /* Tuvalu.png */; };
@@ -766,7 +766,7 @@
 		835618961BD7DE79007BCF75 /* Tokelau.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180D1BD7DE79007BCF75 /* Tokelau.pdf */; };
 		835618971BD7DE79007BCF75 /* Tonga.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8356180E1BD7DE79007BCF75 /* Tonga.pdf */; };
 		835618991BD7DE79007BCF75 /* Tunisia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618101BD7DE79007BCF75 /* Tunisia.pdf */; };
-		8356189A1BD7DE79007BCF75 /* Turkey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618111BD7DE79007BCF75 /* Turkey.pdf */; };
+		8356189A1BD7DE79007BCF75 /* Turkey_(Türkiye).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618111BD7DE79007BCF75 /* Turkey_(Türkiye).pdf */; };
 		8356189B1BD7DE79007BCF75 /* Tuvalu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618121BD7DE79007BCF75 /* Tuvalu.pdf */; };
 		8356189C1BD7DE79007BCF75 /* Uganda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618131BD7DE79007BCF75 /* Uganda.pdf */; };
 		8356189D1BD7DE79007BCF75 /* Ukraine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835618141BD7DE79007BCF75 /* Ukraine.pdf */; };
@@ -1413,7 +1413,7 @@
 		8303DF521B41F21A00E4FD42 /* Tonga-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tonga-map.png"; sourceTree = "<group>"; };
 		8303DF531B41F21A00E4FD42 /* Trinidad and Tobago-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trinidad and Tobago-map.png"; sourceTree = "<group>"; };
 		8303DF541B41F21A00E4FD42 /* Tunisia-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tunisia-map.png"; sourceTree = "<group>"; };
-		8303DF551B41F21A00E4FD42 /* Turkey-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turkey-map.png"; sourceTree = "<group>"; };
+		8303DF551B41F21A00E4FD42 /* Turkey (Türkiye)-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turkey (Türkiye)-map.png"; sourceTree = "<group>"; };
 		8303DF561B41F21A00E4FD42 /* Tuvalu-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tuvalu-map.png"; sourceTree = "<group>"; };
 		8303DF571B41F21A00E4FD42 /* Uganda-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Uganda-map.png"; sourceTree = "<group>"; };
 		8303DF591B41F21A00E4FD42 /* Uruguay-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Uruguay-map.png"; sourceTree = "<group>"; };
@@ -1625,7 +1625,7 @@
 		8310FE581ABB11310025F7AE /* Tonga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tonga.png; sourceTree = "<group>"; };
 		8310FE591ABB11310025F7AE /* Trinidad_and_Tobago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trinidad_and_Tobago.png; sourceTree = "<group>"; };
 		8310FE5A1ABB11310025F7AE /* Tunisia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunisia.png; sourceTree = "<group>"; };
-		8310FE5B1ABB11310025F7AE /* Turkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turkey.png; sourceTree = "<group>"; };
+		8310FE5B1ABB11310025F7AE /* Turkey_(Türkiye).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turkey_(Türkiye).png"; sourceTree = "<group>"; };
 		8310FE5C1ABB11310025F7AE /* Turkmenistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turkmenistan.png; sourceTree = "<group>"; };
 		8310FE5D1ABB11310025F7AE /* Turks_and_Caicos_Islands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turks_and_Caicos_Islands.png; sourceTree = "<group>"; };
 		8310FE5E1ABB11310025F7AE /* Tuvalu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tuvalu.png; sourceTree = "<group>"; };
@@ -1924,7 +1924,7 @@
 		8356180D1BD7DE79007BCF75 /* Tokelau.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tokelau.pdf; sourceTree = "<group>"; };
 		8356180E1BD7DE79007BCF75 /* Tonga.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tonga.pdf; sourceTree = "<group>"; };
 		835618101BD7DE79007BCF75 /* Tunisia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tunisia.pdf; sourceTree = "<group>"; };
-		835618111BD7DE79007BCF75 /* Turkey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Turkey.pdf; sourceTree = "<group>"; };
+		835618111BD7DE79007BCF75 /* Turkey_(Türkiye).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Turkey_(Türkiye).pdf"; sourceTree = "<group>"; };
 		835618121BD7DE79007BCF75 /* Tuvalu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tuvalu.pdf; sourceTree = "<group>"; };
 		835618131BD7DE79007BCF75 /* Uganda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Uganda.pdf; sourceTree = "<group>"; };
 		835618141BD7DE79007BCF75 /* Ukraine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ukraine.pdf; sourceTree = "<group>"; };
@@ -2493,7 +2493,7 @@
 				8303DF521B41F21A00E4FD42 /* Tonga-map.png */,
 				8303DF531B41F21A00E4FD42 /* Trinidad and Tobago-map.png */,
 				8303DF541B41F21A00E4FD42 /* Tunisia-map.png */,
-				8303DF551B41F21A00E4FD42 /* Turkey-map.png */,
+				8303DF551B41F21A00E4FD42 /* Turkey (Türkiye)-map.png */,
 				8303DF561B41F21A00E4FD42 /* Tuvalu-map.png */,
 				8303DF571B41F21A00E4FD42 /* Uganda-map.png */,
 				8335AEA41B667906000748F0 /* Ukraine-map.png */,
@@ -2723,7 +2723,7 @@
 				8310FE581ABB11310025F7AE /* Tonga.png */,
 				8310FE591ABB11310025F7AE /* Trinidad_and_Tobago.png */,
 				8310FE5A1ABB11310025F7AE /* Tunisia.png */,
-				8310FE5B1ABB11310025F7AE /* Turkey.png */,
+				8310FE5B1ABB11310025F7AE /* Turkey_(Türkiye).png */,
 				8310FE5C1ABB11310025F7AE /* Turkmenistan.png */,
 				8310FE5D1ABB11310025F7AE /* Turks_and_Caicos_Islands.png */,
 				8310FE5E1ABB11310025F7AE /* Tuvalu.png */,
@@ -3417,7 +3417,7 @@
 				8356180D1BD7DE79007BCF75 /* Tokelau.pdf */,
 				8356180E1BD7DE79007BCF75 /* Tonga.pdf */,
 				835618101BD7DE79007BCF75 /* Tunisia.pdf */,
-				835618111BD7DE79007BCF75 /* Turkey.pdf */,
+				835618111BD7DE79007BCF75 /* Turkey_(Türkiye).pdf */,
 				835618121BD7DE79007BCF75 /* Tuvalu.pdf */,
 				835618131BD7DE79007BCF75 /* Uganda.pdf */,
 				835618141BD7DE79007BCF75 /* Ukraine.pdf */,
@@ -3859,7 +3859,7 @@
 				8356184A1BD7DE79007BCF75 /* Ethiopia.pdf in Resources */,
 				EDF0414220EFA71F00506499 /* icons_lettuce-33@3x.png in Resources */,
 				8335AF651B667963000748F0 /* icons_Rubber.png in Resources */,
-				8310FF3B1ABB11310025F7AE /* Turkey.png in Resources */,
+				8310FF3B1ABB11310025F7AE /* Turkey_(Türkiye).png in Resources */,
 				8310FE8B1ABB11310025F7AE /* British_Virgin_Islands.png in Resources */,
 				8310FEAC1ABB11310025F7AE /* Equatorial_Guinea.png in Resources */,
 				8310FF281ABB11310025F7AE /* Soviet_Union.png in Resources */,
@@ -3879,7 +3879,7 @@
 				8303DFAC1B41F21A00E4FD42 /* Mozambique-map.png in Resources */,
 				83AD13911B669137004B92D3 /* icons_Fireworks-33@2x.png in Resources */,
 				8303DFD31B41F21A00E4FD42 /* Uganda-map.png in Resources */,
-				8356189A1BD7DE79007BCF75 /* Turkey.pdf in Resources */,
+				8356189A1BD7DE79007BCF75 /* Turkey_(Türkiye).pdf in Resources */,
 				8310FEEA1ABB11310025F7AE /* Martinique.png in Resources */,
 				83AD13DA1B669137004B92D3 /* icons_Surgical_Instruments-33@2x.png in Resources */,
 				EDF0417020EFAA5800506499 /* icons_Carrots-33@3x.png in Resources */,
@@ -4105,7 +4105,7 @@
 				835618601BD7DE79007BCF75 /* Kosovo.pdf in Resources */,
 				8335AF941B667F78000748F0 /* icons_Granite_(crushed).png in Resources */,
 				83AD12811B668E71004B92D3 /* icons_Furniture-33@3x.png in Resources */,
-				8303DFD11B41F21A00E4FD42 /* Turkey-map.png in Resources */,
+				8303DFD11B41F21A00E4FD42 /* Turkey (Türkiye)-map.png in Resources */,
 				83AD12D31B668E71004B92D3 /* icons_Tungsten_ore_(wolframite)-33@3x.png in Resources */,
 				83AD13871B669137004B92D3 /* icons_Cottonseed_(hybrid)-33@2x.png in Resources */,
 				8335AFA01B66803E000748F0 /* icons_Silk_Thread.png in Resources */,
