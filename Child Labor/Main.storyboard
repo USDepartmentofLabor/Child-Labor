@@ -250,11 +250,11 @@
                                 <rect key="frame" x="0.0" y="239" width="320" height="280"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundNew.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ejl-hO-RVy">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="280"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="329"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Q-78-HdS">
-                                        <rect key="frame" x="284" y="244" width="26" height="26"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Q-78-HdS">
+                                        <rect key="frame" x="284" y="259" width="26" height="26"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <segue destination="3s6-C9-493" kind="presentation" id="omh-cQ-qP8"/>
                                         </connections>
@@ -265,7 +265,7 @@
                                     <constraint firstItem="Ejl-hO-RVy" firstAttribute="top" secondItem="Zar-Fb-UJ0" secondAttribute="top" id="1La-co-9dG"/>
                                     <constraint firstAttribute="trailing" secondItem="l3Q-78-HdS" secondAttribute="trailing" constant="10" id="HHg-Sz-shN"/>
                                     <constraint firstItem="Ejl-hO-RVy" firstAttribute="top" secondItem="Zar-Fb-UJ0" secondAttribute="top" id="KrQ-NB-F5K"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ejl-hO-RVy" secondAttribute="bottom" id="a5f-IJ-OHg"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ejl-hO-RVy" secondAttribute="bottom" constant="-49" id="a5f-IJ-OHg"/>
                                     <constraint firstAttribute="trailing" secondItem="Ejl-hO-RVy" secondAttribute="trailing" id="fXK-7n-XKV"/>
                                     <constraint firstAttribute="bottom" secondItem="l3Q-78-HdS" secondAttribute="bottom" constant="10" id="rVn-cU-kvK"/>
                                     <constraint firstItem="Ejl-hO-RVy" firstAttribute="top" secondItem="Zar-Fb-UJ0" secondAttribute="top" id="y5m-0u-2yA"/>
