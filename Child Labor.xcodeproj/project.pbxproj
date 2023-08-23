@@ -15,7 +15,7 @@
 		067E52F0269F31AD006924B0 /* icons_Polysilicon-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */; };
 		067E52F1269F31AD006924B0 /* icons_Polysilicon-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */; };
 		06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */; };
-		06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */; };
+		06FDBA0926C17E6E0059FDA3 /* The Gambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
 		1334AC7B2832B76B000F647E /* ProportionalChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1334AC752832B76B000F647E /* ProportionalChartViewController.xib */; };
@@ -104,7 +104,7 @@
 		6682425C24E7205B009B203E /* icons_Gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425B24E7205A009B203E /* icons_Gloves.png */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
 		66A928E324FE85F100F0C226 /* Gambia, The-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E224FE85F000F0C226 /* Gambia, The-map.png */; };
-		66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* Gambia,_The.png */; };
+		66A928E524FE860500F0C226 /* The_Gambia.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* The_Gambia.png */; };
 		66A928E924FEABD300F0C226 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E824FEABD300F0C226 /* arrow.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		66C06C3528AE8F04000E787F /* icons_Palm_Fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C3228AE8F04000E787F /* icons_Palm_Fruit.png */; };
@@ -1172,7 +1172,7 @@
 		067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@3x.png"; sourceTree = "<group>"; };
 		067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@2x.png"; sourceTree = "<group>"; };
 		06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILABProjectsController.swift; sourceTree = "<group>"; };
-		06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gambia, The.pdf"; sourceTree = "<group>"; };
+		06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Gambia.pdf"; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
 		1334AC752832B76B000F647E /* ProportionalChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProportionalChartViewController.xib; sourceTree = "<group>"; };
@@ -1262,7 +1262,7 @@
 		6682425B24E7205A009B203E /* icons_Gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Gloves.png; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
 		66A928E224FE85F000F0C226 /* Gambia, The-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia, The-map.png"; sourceTree = "<group>"; };
-		66A928E424FE860500F0C226 /* Gambia,_The.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia,_The.png"; sourceTree = "<group>"; };
+		66A928E424FE860500F0C226 /* The_Gambia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Gambia.png; sourceTree = "<group>"; };
 		66A928E824FEABD300F0C226 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		66C06C3228AE8F04000E787F /* icons_Palm_Fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Palm_Fruit.png; sourceTree = "<group>"; };
@@ -2586,7 +2586,7 @@
 				8310FDD41ABB11300025F7AE /* France.png */,
 				8310FDD51ABB11300025F7AE /* French_Polynesia.png */,
 				8310FDD61ABB11300025F7AE /* Gabon.png */,
-				66A928E424FE860500F0C226 /* Gambia,_The.png */,
+				66A928E424FE860500F0C226 /* The_Gambia.png */,
 				8310FDD81ABB11300025F7AE /* Georgia.png */,
 				8310FDD91ABB11300025F7AE /* Germany.png */,
 				8310FDDA1ABB11300025F7AE /* Ghana.png */,
@@ -3291,7 +3291,7 @@
 		835D026E1BBAF1A10048657F /* Full Reports */ = {
 			isa = PBXGroup;
 			children = (
-				06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */,
+				06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */,
 				835617961BD7DE78007BCF75 /* Afghanistan.pdf */,
 				835617971BD7DE78007BCF75 /* Albania.pdf */,
 				835617981BD7DE78007BCF75 /* Algeria.pdf */,
@@ -4220,7 +4220,7 @@
 				8310FE891ABB11310025F7AE /* Botswana.png in Resources */,
 				8310FE791ABB11310025F7AE /* Aruba.png in Resources */,
 				8303DF791B41F21A00E4FD42 /* Colombia-map.png in Resources */,
-				06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */,
+				06FDBA0926C17E6E0059FDA3 /* The Gambia.pdf in Resources */,
 				6682424A24E70BB1009B203E /* icons_Hair_Products-33@3x.png in Resources */,
 				8310FF131ABB11310025F7AE /* Rwanda.png in Resources */,
 				8356182B1BD7DE79007BCF75 /* Benin.pdf in Resources */,
@@ -4638,7 +4638,7 @@
 				8310FEF81ABB11310025F7AE /* Nepal.png in Resources */,
 				835618651BD7DE79007BCF75 /* Macedonia.pdf in Resources */,
 				66C225D0289D936D004EADF8 /* icons_Crude_Palm_Oil.png in Resources */,
-				66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */,
+				66A928E524FE860500F0C226 /* The_Gambia.png in Resources */,
 				83AD12A41B668E71004B92D3 /* icons_Peanuts-33@3x.png in Resources */,
 				83AD139B1B669137004B92D3 /* icons_Garments-33@2x.png in Resources */,
 				8335AF541B667963000748F0 /* icons_Lobsters.png in Resources */,
