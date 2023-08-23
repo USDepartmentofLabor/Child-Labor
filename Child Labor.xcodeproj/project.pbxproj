@@ -642,7 +642,7 @@
 		8347AA081B3F58C400C439BA /* Montenegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA071B3F58C400C439BA /* Montenegro.png */; };
 		8347AA0A1B3F597300C439BA /* Tokelau.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA091B3F597300C439BA /* Tokelau.png */; };
 		8347AA0C1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */; };
-		8347AA0E1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */; };
+		8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */; };
 		834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */; };
 		834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */; };
 		834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */; };
@@ -743,7 +743,7 @@
 		8356187E1BD7DE79007BCF75 /* Peru.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F51BD7DE78007BCF75 /* Peru.pdf */; };
 		8356187F1BD7DE79007BCF75 /* Philippines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F61BD7DE78007BCF75 /* Philippines.pdf */; };
 		835618811BD7DE79007BCF75 /* Rwanda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F81BD7DE78007BCF75 /* Rwanda.pdf */; };
-		835618821BD7DE79007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */; };
+		835618821BD7DE79007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */; };
 		835618831BD7DE79007BCF75 /* Saint Lucia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */; };
 		835618841BD7DE79007BCF75 /* Saint Vincent and the Grenadines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */; };
 		835618851BD7DE79007BCF75 /* Samoa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FC1BD7DE78007BCF75 /* Samoa.pdf */; };
@@ -1800,7 +1800,7 @@
 		8347AA071B3F58C400C439BA /* Montenegro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Montenegro.png; sourceTree = "<group>"; };
 		8347AA091B3F597300C439BA /* Tokelau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokelau.png; sourceTree = "<group>"; };
 		8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heard_and_McDonald_Islands.png; sourceTree = "<group>"; };
-		8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saint_Helena_Ascension_and_Tristan_da_Cunha.png; sourceTree = "<group>"; };
+		8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png"; sourceTree = "<group>"; };
 		834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedActionsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LawsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConventionsTableViewController.swift; sourceTree = "<group>"; };
@@ -1901,7 +1901,7 @@
 		835617F51BD7DE78007BCF75 /* Peru.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Peru.pdf; sourceTree = "<group>"; };
 		835617F61BD7DE78007BCF75 /* Philippines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Philippines.pdf; sourceTree = "<group>"; };
 		835617F81BD7DE78007BCF75 /* Rwanda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rwanda.pdf; sourceTree = "<group>"; };
-		835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Helena Ascension and Tristan da Cunha.pdf"; sourceTree = "<group>"; };
+		835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Helena, Ascension, and Tristan da Cunha.pdf"; sourceTree = "<group>"; };
 		835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Lucia.pdf"; sourceTree = "<group>"; };
 		835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Vincent and the Grenadines.pdf"; sourceTree = "<group>"; };
 		835617FC1BD7DE78007BCF75 /* Samoa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Samoa.pdf; sourceTree = "<group>"; };
@@ -2681,7 +2681,7 @@
 				8310FE311ABB11310025F7AE /* Romania.png */,
 				8310FE321ABB11310025F7AE /* Russia.png */,
 				8310FE331ABB11310025F7AE /* Rwanda.png */,
-				8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */,
+				8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */,
 				8310FE341ABB11310025F7AE /* Saint_Kitts_and_Nevis.png */,
 				8310FE351ABB11310025F7AE /* Saint_Lucia.png */,
 				8310FE361ABB11310025F7AE /* Saint_Pierre.png */,
@@ -3394,7 +3394,7 @@
 				835617F51BD7DE78007BCF75 /* Peru.pdf */,
 				835617F61BD7DE78007BCF75 /* Philippines.pdf */,
 				835617F81BD7DE78007BCF75 /* Rwanda.pdf */,
-				835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */,
+				835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */,
 				835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */,
 				835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */,
 				835617FC1BD7DE78007BCF75 /* Samoa.pdf */,
@@ -4171,7 +4171,7 @@
 				83AD13981B669137004B92D3 /* icons_Furniture_(steel)-33@2x.png in Resources */,
 				8310FEDF1ABB11310025F7AE /* Lithuania.png in Resources */,
 				83AD13A01B669137004B92D3 /* icons_Gold-33@2x.png in Resources */,
-				835618821BD7DE79007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf in Resources */,
+				835618821BD7DE79007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf in Resources */,
 				EDF0415420EFA8E300506499 /* icons_Sheep-33@3x.png in Resources */,
 				8310FE861ABB11310025F7AE /* Bhutan.png in Resources */,
 				6682420824E4280D009B203E /* Mexico.pdf in Resources */,
@@ -4382,7 +4382,7 @@
 				8310FF371ABB11310025F7AE /* Togo.png in Resources */,
 				8310FF181ABB11310025F7AE /* Samoa.png in Resources */,
 				835618351BD7DE79007BCF75 /* Cambodia.pdf in Resources */,
-				8347AA0E1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png in Resources */,
+				8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png in Resources */,
 				8335AFC01B66827E000748F0 /* icons_Coal.png in Resources */,
 				83AD126D1B668E71004B92D3 /* icons_Corn-33@3x.png in Resources */,
 				835618281BD7DE79007BCF75 /* Bangladesh.pdf in Resources */,
