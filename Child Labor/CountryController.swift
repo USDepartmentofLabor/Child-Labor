@@ -377,7 +377,8 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         if (indexPath.row == 1) {
             if (countryName=="Somalia") {
-                performSegue(withIdentifier: "presentStats", sender: self)
+                //performSegue(withIdentifier: "presentStats", sender: self)
+                performSegue(withIdentifier: "presentSomalia", sender: self)
 
             }
 
