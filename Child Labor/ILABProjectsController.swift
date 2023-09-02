@@ -39,7 +39,7 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
         let value:String = (titles[indexPath.item] as! String)
         switch UIDevice.current.userInterfaceIdiom {
             case .phone:
-                return value.height(constraintedWidth:screenWidth-200)
+            return value.count < 60 ? 50 : value.height(constraintedWidth:screenWidth-200)
             case .pad:
                 return value.height(constraintedWidth:screenWidth-600)
         @unknown default:

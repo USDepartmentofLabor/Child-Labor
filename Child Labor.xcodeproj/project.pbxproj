@@ -15,7 +15,7 @@
 		067E52F0269F31AD006924B0 /* icons_Polysilicon-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */; };
 		067E52F1269F31AD006924B0 /* icons_Polysilicon-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */; };
 		06CB3B4E2684C20900D489F9 /* ILABProjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */; };
-		06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */; };
+		06FDBA0926C17E6E0059FDA3 /* The Gambia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */; };
 		1022CD62252C9AC40098C1A8 /* TDA-foreword-2019.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */; };
 		1022CD64252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */; };
 		1334AC7B2832B76B000F647E /* ProportionalChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1334AC752832B76B000F647E /* ProportionalChartViewController.xib */; };
@@ -104,7 +104,7 @@
 		6682425C24E7205B009B203E /* icons_Gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 6682425B24E7205A009B203E /* icons_Gloves.png */; };
 		668DC7E02332A31E0070C554 /* icons_Cereal_Grains.png in Resources */ = {isa = PBXBuildFile; fileRef = 668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */; };
 		66A928E324FE85F100F0C226 /* Gambia, The-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E224FE85F000F0C226 /* Gambia, The-map.png */; };
-		66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* Gambia,_The.png */; };
+		66A928E524FE860500F0C226 /* The_Gambia.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E424FE860500F0C226 /* The_Gambia.png */; };
 		66A928E924FEABD300F0C226 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A928E824FEABD300F0C226 /* arrow.png */; };
 		66BB45E324DDA90B001FD519 /* Burma-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BB45E224DDA90A001FD519 /* Burma-map.png */; };
 		66C06C3528AE8F04000E787F /* icons_Palm_Fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C06C3228AE8F04000E787F /* icons_Palm_Fruit.png */; };
@@ -642,7 +642,7 @@
 		8347AA081B3F58C400C439BA /* Montenegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA071B3F58C400C439BA /* Montenegro.png */; };
 		8347AA0A1B3F597300C439BA /* Tokelau.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA091B3F597300C439BA /* Tokelau.png */; };
 		8347AA0C1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */; };
-		8347AA0E1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */; };
+		8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */; };
 		834D8DA11B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */; };
 		834D8DA31B4C5ECC001CD795 /* LawsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */; };
 		834D8DA51B4C5EE8001CD795 /* ConventionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */; };
@@ -743,7 +743,7 @@
 		8356187E1BD7DE79007BCF75 /* Peru.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F51BD7DE78007BCF75 /* Peru.pdf */; };
 		8356187F1BD7DE79007BCF75 /* Philippines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F61BD7DE78007BCF75 /* Philippines.pdf */; };
 		835618811BD7DE79007BCF75 /* Rwanda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F81BD7DE78007BCF75 /* Rwanda.pdf */; };
-		835618821BD7DE79007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */; };
+		835618821BD7DE79007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */; };
 		835618831BD7DE79007BCF75 /* Saint Lucia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */; };
 		835618841BD7DE79007BCF75 /* Saint Vincent and the Grenadines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */; };
 		835618851BD7DE79007BCF75 /* Samoa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 835617FC1BD7DE78007BCF75 /* Samoa.pdf */; };
@@ -1172,7 +1172,7 @@
 		067E52ED269F31AD006924B0 /* icons_Polysilicon-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@3x.png"; sourceTree = "<group>"; };
 		067E52EE269F31AD006924B0 /* icons_Polysilicon-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Polysilicon-33@2x.png"; sourceTree = "<group>"; };
 		06CB3B4D2684C20900D489F9 /* ILABProjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILABProjectsController.swift; sourceTree = "<group>"; };
-		06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gambia, The.pdf"; sourceTree = "<group>"; };
+		06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Gambia.pdf"; sourceTree = "<group>"; };
 		1022CD61252C9AC40098C1A8 /* TDA-foreword-2019.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TDA-foreword-2019.pdf"; sourceTree = "<group>"; };
 		1022CD63252C9E770098C1A8 /* 2019_Sweat_And_Toil_Magazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2019_Sweat_And_Toil_Magazine.pdf; sourceTree = "<group>"; };
 		1334AC752832B76B000F647E /* ProportionalChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProportionalChartViewController.xib; sourceTree = "<group>"; };
@@ -1262,7 +1262,7 @@
 		6682425B24E7205A009B203E /* icons_Gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Gloves.png; sourceTree = "<group>"; };
 		668DC7DF2332A31D0070C554 /* icons_Cereal_Grains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Cereal_Grains.png; sourceTree = "<group>"; };
 		66A928E224FE85F000F0C226 /* Gambia, The-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia, The-map.png"; sourceTree = "<group>"; };
-		66A928E424FE860500F0C226 /* Gambia,_The.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gambia,_The.png"; sourceTree = "<group>"; };
+		66A928E424FE860500F0C226 /* The_Gambia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Gambia.png; sourceTree = "<group>"; };
 		66A928E824FEABD300F0C226 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		66BB45E224DDA90A001FD519 /* Burma-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burma-map.png"; sourceTree = "<group>"; };
 		66C06C3228AE8F04000E787F /* icons_Palm_Fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_Palm_Fruit.png; sourceTree = "<group>"; };
@@ -1800,7 +1800,7 @@
 		8347AA071B3F58C400C439BA /* Montenegro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Montenegro.png; sourceTree = "<group>"; };
 		8347AA091B3F597300C439BA /* Tokelau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokelau.png; sourceTree = "<group>"; };
 		8347AA0B1B3F5A0A00C439BA /* Heard_and_McDonald_Islands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heard_and_McDonald_Islands.png; sourceTree = "<group>"; };
-		8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saint_Helena_Ascension_and_Tristan_da_Cunha.png; sourceTree = "<group>"; };
+		8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png"; sourceTree = "<group>"; };
 		834D8DA01B4C5EB9001CD795 /* SuggestedActionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedActionsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA21B4C5ECC001CD795 /* LawsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LawsTableViewController.swift; sourceTree = "<group>"; };
 		834D8DA41B4C5EE8001CD795 /* ConventionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConventionsTableViewController.swift; sourceTree = "<group>"; };
@@ -1901,7 +1901,7 @@
 		835617F51BD7DE78007BCF75 /* Peru.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Peru.pdf; sourceTree = "<group>"; };
 		835617F61BD7DE78007BCF75 /* Philippines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Philippines.pdf; sourceTree = "<group>"; };
 		835617F81BD7DE78007BCF75 /* Rwanda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rwanda.pdf; sourceTree = "<group>"; };
-		835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Helena Ascension and Tristan da Cunha.pdf"; sourceTree = "<group>"; };
+		835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Helena, Ascension, and Tristan da Cunha.pdf"; sourceTree = "<group>"; };
 		835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Lucia.pdf"; sourceTree = "<group>"; };
 		835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saint Vincent and the Grenadines.pdf"; sourceTree = "<group>"; };
 		835617FC1BD7DE78007BCF75 /* Samoa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Samoa.pdf; sourceTree = "<group>"; };
@@ -2586,7 +2586,7 @@
 				8310FDD41ABB11300025F7AE /* France.png */,
 				8310FDD51ABB11300025F7AE /* French_Polynesia.png */,
 				8310FDD61ABB11300025F7AE /* Gabon.png */,
-				66A928E424FE860500F0C226 /* Gambia,_The.png */,
+				66A928E424FE860500F0C226 /* The_Gambia.png */,
 				8310FDD81ABB11300025F7AE /* Georgia.png */,
 				8310FDD91ABB11300025F7AE /* Germany.png */,
 				8310FDDA1ABB11300025F7AE /* Ghana.png */,
@@ -2681,7 +2681,7 @@
 				8310FE311ABB11310025F7AE /* Romania.png */,
 				8310FE321ABB11310025F7AE /* Russia.png */,
 				8310FE331ABB11310025F7AE /* Rwanda.png */,
-				8347AA0D1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png */,
+				8347AA0D1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png */,
 				8310FE341ABB11310025F7AE /* Saint_Kitts_and_Nevis.png */,
 				8310FE351ABB11310025F7AE /* Saint_Lucia.png */,
 				8310FE361ABB11310025F7AE /* Saint_Pierre.png */,
@@ -3291,7 +3291,7 @@
 		835D026E1BBAF1A10048657F /* Full Reports */ = {
 			isa = PBXGroup;
 			children = (
-				06FDBA0826C17E6E0059FDA3 /* Gambia, The.pdf */,
+				06FDBA0826C17E6E0059FDA3 /* The Gambia.pdf */,
 				835617961BD7DE78007BCF75 /* Afghanistan.pdf */,
 				835617971BD7DE78007BCF75 /* Albania.pdf */,
 				835617981BD7DE78007BCF75 /* Algeria.pdf */,
@@ -3394,7 +3394,7 @@
 				835617F51BD7DE78007BCF75 /* Peru.pdf */,
 				835617F61BD7DE78007BCF75 /* Philippines.pdf */,
 				835617F81BD7DE78007BCF75 /* Rwanda.pdf */,
-				835617F91BD7DE78007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf */,
+				835617F91BD7DE78007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf */,
 				835617FA1BD7DE78007BCF75 /* Saint Lucia.pdf */,
 				835617FB1BD7DE78007BCF75 /* Saint Vincent and the Grenadines.pdf */,
 				835617FC1BD7DE78007BCF75 /* Samoa.pdf */,
@@ -4171,7 +4171,7 @@
 				83AD13981B669137004B92D3 /* icons_Furniture_(steel)-33@2x.png in Resources */,
 				8310FEDF1ABB11310025F7AE /* Lithuania.png in Resources */,
 				83AD13A01B669137004B92D3 /* icons_Gold-33@2x.png in Resources */,
-				835618821BD7DE79007BCF75 /* Saint Helena Ascension and Tristan da Cunha.pdf in Resources */,
+				835618821BD7DE79007BCF75 /* Saint Helena, Ascension, and Tristan da Cunha.pdf in Resources */,
 				EDF0415420EFA8E300506499 /* icons_Sheep-33@3x.png in Resources */,
 				8310FE861ABB11310025F7AE /* Bhutan.png in Resources */,
 				6682420824E4280D009B203E /* Mexico.pdf in Resources */,
@@ -4220,7 +4220,7 @@
 				8310FE891ABB11310025F7AE /* Botswana.png in Resources */,
 				8310FE791ABB11310025F7AE /* Aruba.png in Resources */,
 				8303DF791B41F21A00E4FD42 /* Colombia-map.png in Resources */,
-				06FDBA0926C17E6E0059FDA3 /* Gambia, The.pdf in Resources */,
+				06FDBA0926C17E6E0059FDA3 /* The Gambia.pdf in Resources */,
 				6682424A24E70BB1009B203E /* icons_Hair_Products-33@3x.png in Resources */,
 				8310FF131ABB11310025F7AE /* Rwanda.png in Resources */,
 				8356182B1BD7DE79007BCF75 /* Benin.pdf in Resources */,
@@ -4382,7 +4382,7 @@
 				8310FF371ABB11310025F7AE /* Togo.png in Resources */,
 				8310FF181ABB11310025F7AE /* Samoa.png in Resources */,
 				835618351BD7DE79007BCF75 /* Cambodia.pdf in Resources */,
-				8347AA0E1B3F5AB800C439BA /* Saint_Helena_Ascension_and_Tristan_da_Cunha.png in Resources */,
+				8347AA0E1B3F5AB800C439BA /* Saint_Helena,_Ascension,_and_Tristan_da_Cunha.png in Resources */,
 				8335AFC01B66827E000748F0 /* icons_Coal.png in Resources */,
 				83AD126D1B668E71004B92D3 /* icons_Corn-33@3x.png in Resources */,
 				835618281BD7DE79007BCF75 /* Bangladesh.pdf in Resources */,
@@ -4638,7 +4638,7 @@
 				8310FEF81ABB11310025F7AE /* Nepal.png in Resources */,
 				835618651BD7DE79007BCF75 /* Macedonia.pdf in Resources */,
 				66C225D0289D936D004EADF8 /* icons_Crude_Palm_Oil.png in Resources */,
-				66A928E524FE860500F0C226 /* Gambia,_The.png in Resources */,
+				66A928E524FE860500F0C226 /* The_Gambia.png in Resources */,
 				83AD12A41B668E71004B92D3 /* icons_Peanuts-33@3x.png in Resources */,
 				83AD139B1B669137004B92D3 /* icons_Garments-33@2x.png in Resources */,
 				8335AF541B667963000748F0 /* icons_Lobsters.png in Resources */,
