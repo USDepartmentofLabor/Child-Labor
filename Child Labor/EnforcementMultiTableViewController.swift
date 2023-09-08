@@ -66,7 +66,7 @@ class EnforcementMultiTableViewController: UITableViewController {
                 let sectionA1 = (showDedicatedInspectors) ? [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"], enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"]] : [enforcements["Labor_Funding"], enforcements["Labor_Inspectors"],enforcements["Labor_Inspectors_Intl_Standards"], enforcements["Authorized_Access_Penalties"],
                     enforcements["Labor_New_Employee_Training"]]
 //                let sectionA2 = [ enforcements["Labor_New_Law_Training"], enforcements["Labor_Refresher_Courses"]]
-                let sectionA3 = [enforcements["Labor_Inspections"], enforcements["Labor_Worksite_Inspections"]]
+                let sectionA3 = [ enforcements["Labor_Worksite_Inspections"]]//enforcements["Labor_Inspections"],
                 let sectionA4 = [enforcements["Labor_Violations"], enforcements["Labor_Penalties_Imposed"], enforcements["Labor_Penalties_Collected"]]
                 let sectionA5 = [enforcements["Labor_Routine_Inspections_Conducted"], enforcements["Labor_Routine_Inspections_Targeted"]]
                 let sectionA6 = [enforcements["Labor_Unannounced_Inspections_Premitted"], enforcements["Labor_Unannounced_Inspections_Conducted"]]
@@ -84,7 +84,7 @@ class EnforcementMultiTableViewController: UITableViewController {
         
         let sectionA1 = (showDedicatedInspectors) ? ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Labor Inspectors meet ILO Rec", "Inspectorate Authorized to Assess Penalties"] : ["Labor Inspectorate Funding", "No. of Labor Inspectors", "No. of Labor Inspectors meet ILO Rec", "Mechanism to Assess Civil Penalties", "Initial Training for New Employees"]
 //        let sectionA2 = [ "Initial Training for New Employees","Training on New Laws Related to Child Labor", "Refresher Courses Provided"]
-        let sectionA3 = ["No. Of Inspections", "No. Conducted at Worksite"]
+        let sectionA3 = [ "No. Conducted at Worksite"]//"No. Of Inspections",
         let sectionA4 = ["No. of Violations Found", "No. of Penalties Imposed", "No. of Collected Penalties"]
         let sectionA5 = ["Conducted", "Targeted"]
         let sectionA6 = ["Permitted", "Conducted"]
