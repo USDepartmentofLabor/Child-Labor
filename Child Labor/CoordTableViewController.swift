@@ -22,11 +22,6 @@ class CoordTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Coordination Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
         self.tableView.estimatedRowHeight = 80.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
 
@@ -71,6 +66,11 @@ class CoordTableViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.coordination)
     }
 
     // MARK: - Table view data source

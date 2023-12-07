@@ -14,10 +14,7 @@ class SomaliaTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Somalia Statistics Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
+
         self.addTableViewFooter()
     }
 
@@ -39,6 +36,11 @@ class SomaliaTableViewController: UITableViewController {
         customView.addSubview(button)
         self.tableView.tableFooterView = customView
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.somaliaStatistics)
     }
     
     @objc func openWorkingStatics(_ sender: UIButton!) {

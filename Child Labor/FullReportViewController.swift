@@ -20,9 +20,6 @@ class FullReportViewController: GAITrackedViewController {
 
         // Do any additional setup after loading the view.
         
-        // View name for Google Analytics
-        self.screenName = "Report PDF Screen"
-        
         // Get the contents of the file to load
         let localFilePath = Bundle.main.path(forResource: countryName, ofType: "pdf")
         let targetURL = URL(fileURLWithPath: localFilePath!)
@@ -33,6 +30,11 @@ class FullReportViewController: GAITrackedViewController {
         let fileURL = URL(fileURLWithPath: localFilePath ?? "")
         
         webView.loadFileURL(fileURL, allowingReadAccessTo: fileURL)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.reportPDF)
     }
 
     @IBAction func closeFullReport(_ sender: AnyObject) {

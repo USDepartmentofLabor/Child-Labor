@@ -26,11 +26,6 @@ class LawsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Laws Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
@@ -144,6 +139,11 @@ class LawsTableViewController: UITableViewController {
         // * - Does Not Meet International Standards. † - Age calculated based on available information.
 
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.lawsList)
     }
 
     override func didReceiveMemoryWarning() {

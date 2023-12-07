@@ -42,6 +42,11 @@ class InfoViewController: UIViewController, UIWebViewDelegate {
         // Load contents into the webview
         webView.loadHTMLString(contents as! String, baseURL: baseUrl)
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.info)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

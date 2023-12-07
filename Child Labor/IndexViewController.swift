@@ -19,11 +19,6 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
 
         super.viewDidLoad()
-
-
-        
-        // View name for Google Analytics
-        self.screenName = "Index Screen"
         
         // Navigation bar color
         self.navigationController?.navigationBar.barStyle = UIBarStyle.black
@@ -63,7 +58,10 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
         }
     }
     
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.index)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

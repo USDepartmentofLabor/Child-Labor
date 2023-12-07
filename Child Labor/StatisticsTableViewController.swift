@@ -32,11 +32,6 @@ class StatisticsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Statistics Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as? [AnyHashable: Any])
-        
         self.addTableViewFooter()
 
         // Get the country data
@@ -311,6 +306,11 @@ class StatisticsTableViewController: UITableViewController {
             }
         }
   
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.statistics)
     }
 
     func addTableViewFooter() {

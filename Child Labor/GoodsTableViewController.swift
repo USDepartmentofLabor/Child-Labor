@@ -46,11 +46,6 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Goods List Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
         // Populate the list
         let urlPath = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
         var contents: NSString?
@@ -126,6 +121,12 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         }
         
         self.changeSegmentControlColorWithMode()
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.goodList)
     }
     
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {

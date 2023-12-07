@@ -19,9 +19,6 @@ class FactSheetViewController: GAITrackedViewController {
 
         // Do any additional setup after loading the view.
         
-        // View name for Google Analytics
-        self.screenName = "Fact Sheet Screen"
-        
         // Get the contents of the file to load
         let localFilePath = Bundle.main.path(forResource: factSheet, ofType: "pdf")
         let targetURL = URL(fileURLWithPath: localFilePath!)
@@ -34,6 +31,11 @@ class FactSheetViewController: GAITrackedViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.factSheet)
     }
     
 

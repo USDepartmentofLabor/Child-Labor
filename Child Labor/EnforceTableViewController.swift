@@ -54,11 +54,6 @@ class EnforceTableViewController: UITableViewController {
         self.tableView.estimatedRowHeight = 50.0;
         self.tableView.rowHeight = UITableViewAutomaticDimension;
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Enforcement Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -117,6 +112,11 @@ class EnforceTableViewController: UITableViewController {
         
         
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.enforcement)
     }
     
     func setEnforcement(_ label: UILabel, text: String?) {

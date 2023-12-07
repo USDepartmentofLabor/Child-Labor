@@ -34,11 +34,6 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Laws Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
-        
         // Get the country data
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
@@ -67,6 +62,11 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         sectionTitles.append(["Types of Hazardous Work"])
         sectionTitles.append(["Forced Labor", "Child Trafficking", "Commercial Sexual Exploitation of Children", "Using Children in Illicit Activities", "State Compulsory Military Recruitment", "Non-State Military Recruitment"])
         sectionTitles.append(["Compulsory Education Age", "Free Public Education"])
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.lawsMultiStandards)
     }
     
     override func didReceiveMemoryWarning() {

@@ -30,11 +30,7 @@ class GoodController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "Good Profile Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as! [AnyHashable: Any])
+
         
         // Do any additional setup after loading the view.
         self.title = goodName
@@ -91,7 +87,10 @@ class GoodController: UITableViewController {
         }
     }
 
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.goodProfile)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

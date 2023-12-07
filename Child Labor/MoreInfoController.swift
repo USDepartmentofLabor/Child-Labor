@@ -20,6 +20,10 @@ class MoreInfoController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.moreInfo)
+    }
     
     
     override func didReceiveMemoryWarning() {

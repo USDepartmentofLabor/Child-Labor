@@ -150,6 +150,7 @@
 		66E388AA26DFCC9000998F5A /* icons_Jute_(textiles)-33@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */; };
 		66E388AB26DFCC9000998F5A /* icons_Jute_(textiles).png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */; };
 		66E388AC26DFCC9000998F5A /* icons_Jute_(textiles)-33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */; };
+		69145E462B0B02B000CA8848 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69145E452B0B02B000CA8848 /* Analytics.swift */; };
 		8303DF621B41F21A00E4FD42 /* Algeria-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE61B41F21A00E4FD42 /* Algeria-map.png */; };
 		8303DF631B41F21A00E4FD42 /* Angola-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE71B41F21A00E4FD42 /* Angola-map.png */; };
 		8303DF641B41F21A00E4FD42 /* Argentina-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8303DEE81B41F21A00E4FD42 /* Argentina-map.png */; };
@@ -1308,6 +1309,7 @@
 		66E388A726DFCC8F00998F5A /* icons_Jute_(textiles)-33@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles)-33@3x.png"; sourceTree = "<group>"; };
 		66E388A826DFCC8F00998F5A /* icons_Jute_(textiles).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles).png"; sourceTree = "<group>"; };
 		66E388A926DFCC8F00998F5A /* icons_Jute_(textiles)-33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_Jute_(textiles)-33@2x.png"; sourceTree = "<group>"; };
+		69145E452B0B02B000CA8848 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		8303DEE61B41F21A00E4FD42 /* Algeria-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Algeria-map.png"; sourceTree = "<group>"; };
 		8303DEE71B41F21A00E4FD42 /* Angola-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angola-map.png"; sourceTree = "<group>"; };
 		8303DEE81B41F21A00E4FD42 /* Argentina-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Argentina-map.png"; sourceTree = "<group>"; };
@@ -3479,6 +3481,7 @@
 		83800C791AA4D40300DD47EB /* Child Labor */ = {
 			isa = PBXGroup;
 			children = (
+				69145E452B0B02B000CA8848 /* Analytics.swift */,
 				1334AC96283BC372000F647E /* CustomExtensions.swift */,
 				1334AC982841028C000F647E /* GoodsParser.swift */,
 				1334AC9A28410338000F647E /* Constants.swift */,
@@ -4839,6 +4842,7 @@
 				1334AC94283BC367000F647E /* CircularSliceView.swift in Sources */,
 				13840007282965170072C737 /* ProportionalChartController.swift in Sources */,
 				83C497D41AF2511A00817383 /* ExploitationTableViewController.swift in Sources */,
+				69145E462B0B02B000CA8848 /* Analytics.swift in Sources */,
 				1334AC7E2832B76B000F647E /* DataVisualizationTableViewController.swift in Sources */,
 				38BC75381CEED79100C53216 /* EnforceTableViewController.swift in Sources */,
 				831E4AE71B0E53B000DCD332 /* FullReportViewController.swift in Sources */,

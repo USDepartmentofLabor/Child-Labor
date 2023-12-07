@@ -29,10 +29,6 @@ class EnforcementTableViewController: UITableViewController {
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
         /*
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(kGAIScreenName, value: "Enforcement Screen")
-        tracker.send(GAIDictionaryBuilder.createAppView().build() as [NSObject : AnyObject])
         
         // Get the country data
         let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
@@ -52,6 +48,11 @@ class EnforcementTableViewController: UITableViewController {
         enforcement.add("State Investigative and Protection Agency (SIPA) and State Border Police (SBP)")
         enforcement.add("State, Entity, and FBiH Cantonal-Level Prosecutors’ Offices")
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.enforcement)
     }
 
     override func didReceiveMemoryWarning() {

@@ -15,7 +15,6 @@ class DataVisualizationTableViewController: UITableViewController {
         
         super.viewDidLoad()
 
-        self.sendGAIEvent()
         self.setupNavigationBar()
         self.setupTableView()
         
@@ -23,18 +22,13 @@ class DataVisualizationTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        Analytics.trackScreenView(.dataVisualizationList)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.title = "Data Visualizations"
     }
-    
-    func sendGAIEvent() {
-        // Record GA view
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker?.set(kGAIScreenName, value: "DataVisualization List Screen")
-        tracker?.send(GAIDictionaryBuilder.createAppView().build() as? [AnyHashable: Any])
-    }
+
     
     func setupNavigationBar() {
         
