@@ -18,6 +18,11 @@ class LegalStandardsMultiWrapperViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.legalStandardsMultiWrapper, metaData: self.countryName)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -34,6 +39,7 @@ class LegalStandardsMultiWrapperViewController: UIViewController {
         
         if segue.identifier == "embedLegalStandardsWrapper"
         {
+            Analytics.trackAction(.legalStandardsMultiWrapper, category: .embedLegalStandardsWrapper, metaData: self.countryName)
             let svc = segue.destination as! LegalStandardsMultiTableViewController
             svc.countryName = self.countryName;
             

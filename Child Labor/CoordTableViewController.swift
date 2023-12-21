@@ -70,7 +70,7 @@ class CoordTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.coordination)
+        Analytics.trackScreenView(.coordination, metaData: self.countryName)
     }
 
     // MARK: - Table view data source

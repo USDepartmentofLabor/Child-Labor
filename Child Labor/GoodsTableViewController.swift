@@ -126,7 +126,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.goodList)
+        Analytics.trackScreenView(.goodsList)
     }
     
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
@@ -262,6 +262,14 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
     }
 
     @IBAction func groupChanged(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            Analytics.trackAction(.goodsList, category: .sortOrder, metaData: "A-Z")
+        case 1:
+            Analytics.trackAction(.goodsList, category: .sortOrder, metaData: "By Sector")
+        default:
+            break
+        }
         state = sender.selectedSegmentIndex
         self.tableView.reloadData()
     }
@@ -302,6 +310,8 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
     
     func filterResults() {
         let query = self.searchBarFilter.text
+        
+        Analytics.trackAction(.goodsList, category: .search)
         
         allGoods = filterSection(allGoodsAll, query: query!)
         manGoods = filterSection(manGoodsAll, query: query!)
@@ -386,6 +396,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         if segue.identifier == "goodSelectedFromGoodsTable" {
             let svc = segue.destination as! GoodController
             svc.goodName = (sender as! UITableViewCell).textLabel!.text!
+            Analytics.trackAction(.goodsList, category: .goodSelected, metaData: svc.goodName)
         }
     }
 

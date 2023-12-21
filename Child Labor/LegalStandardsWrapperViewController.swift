@@ -20,6 +20,11 @@ class LegalStandardsWrapperViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(.legalStandardsWrapper, metaData: self.countryName)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -35,6 +40,7 @@ class LegalStandardsWrapperViewController: UIViewController {
     
    if segue.identifier == "embedLegalStandards"
     {
+       Analytics.trackAction(.legalStandardsWrapper, category: .embedLegalStandardsWrapper, metaData: self.countryName)
         let svc = segue.destination as! LegalStandardsTableViewController
         svc.countryName = self.countryName;
         

@@ -116,7 +116,7 @@ class EnforceTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.enforcement)
+        Analytics.trackScreenView(.enforcement, metaData: self.countryName)
     }
     
     func setEnforcement(_ label: UILabel, text: String?) {
@@ -202,6 +202,11 @@ class EnforceTableViewController: UITableViewController {
     
     @IBAction func changeSection(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
+        if state == 0 {
+            Analytics.trackAction(.enforcement, category: .laborSelected, metaData: countryName)
+        } else {
+            Analytics.trackAction(.enforcement, category: .criminalSelected, metaData: countryName)
+        }
         self.tableView.reloadData()
     }
     

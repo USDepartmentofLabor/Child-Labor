@@ -661,6 +661,17 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
 //    }
     
     @IBAction func groupChanged(_ sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
+        case 0:
+            Analytics.trackAction(.countryList, category: .sortOrder, metaData: "A-Z")
+        case 1:
+            Analytics.trackAction(.countryList, category: .sortOrder, metaData: "By Level")
+        case 2:
+            Analytics.trackAction(.countryList, category: .sortOrder, metaData: "By Region")
+        default:
+            break
+        }
         //segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.redColor()], forState: .Selected)
 
 //        let titleTextAttribute1 = [NSAttributedStringKey.foregroundColor: UIColor.white]
@@ -704,6 +715,9 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
     }
     
     func filterResults() {
+        
+        Analytics.trackAction(.countryList, category: .search)
+        
         let query = self.searchBarFilter.text
         
         aCountries = filterSection(aCountriesAll, query: query!)
@@ -950,6 +964,7 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
         if segue.identifier == "countrySelectedFromCountriesTable" {
             let svc = segue.destination as! CountryController
             svc.countryName = (sender as! UITableViewCell).textLabel!.text!
+            Analytics.trackAction(.countryList, category: .countrySelected, metaData: svc.countryName)
         }
     }
 

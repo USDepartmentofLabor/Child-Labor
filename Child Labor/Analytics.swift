@@ -14,21 +14,24 @@ let appName = "Sweat and Toil"
 
 enum Screen: String, Codable {
     case boot
+    case home
     case dataVisualizationList
     case pakistanStatistics
     case conventions
     case countryProfile
     case countryList
-    case explotation
+    case exploitationList
     case factSheet
     case reportPDF
     case index
     case goodProfile
-    case goodList
+    case goodsList
     case lawsList
     case lawsMulti
     case lawsStandards
     case lawsMultiStandards
+    case legalStandardsMultiWrapper
+    case legalStandardsWrapper
     case coordination
     case statistics
     case somaliaStatistics
@@ -36,14 +39,51 @@ enum Screen: String, Codable {
     case enforcement
     case similarApp
     case tanzaniaStatistics
-    case home
     case moreInfo
     case info
+    case iLabProjects
+    case chartGoodsBySector
+    case chartCountryRegionType
+    case chartWorkingStatistics
+    case chart
 }
 
 enum Category: String, Codable {
-    case homeButtonPress
+    case countryAreasPressed
+    case goodsPressed
+    case explotationTypesPressed
+    case dataVisualizationsPressed
+    case openIlabWebsite
+    case openDolGovWebsite
     case bootUp
+    case search
+    case sortOrder
+    case countrySelected
+    case suggestedActions
+    case statistics
+    case internationalConventions
+    case legalStandards
+    case enforcement
+    case coordinationMechanisms
+    case countryWebPage
+    case iLabProjects
+    case openAnalysis
+    case embedLegalStandardsWrapper
+    case laborSelected
+    case criminalSelected
+    case selectIlabProject
+    case goodSelected
+    case allSelected
+    case childLaborSelected
+    case forcedLaborSelected
+    case forcedChildLaborSelected
+    case derivedLaborSelected
+    case countrySelectedFromGood
+    case goodsBySector
+    case assessmentLevelByRegion
+    case adequateNumberInspectors
+    case sectorSelection
+    case error
     case none
 }
 
@@ -73,9 +113,12 @@ struct Session: Codable {
 class Analytics {
     
     static var analyticsFilePath = ""
+    static var bootTimeStamp = ""
+    static let anonymousDeviceId = UUID().uuidString
     static let dateFormatter = ISO8601DateFormatter()
     static let backgroundQueue = DispatchQueue.global(qos: .background)
-    static var firstRequest = true
+    static let serialQueue = DispatchQueue(label: "gov.dol.sweatandtoil.analytics")
+    static let backgroundTrackingQueue = DispatchQueue(label: "gov.dol.sweatandtoil.analytics.backgroundTrackingQueue")
     
     static func bootInit()  {
         
@@ -83,7 +126,10 @@ class Analytics {
         dateFormatter.formatOptions = [.withFullDate, .withTime, .withColonSeparatorInTime, .withTimeZone]
         dateFormatter.timeZone = TimeZone(identifier: "UTC")
         
-        setupSessionDataFile(analyticsFilePath)
+        let date = Date()
+        bootTimeStamp = dateFormatter.string(from: date)
+        
+        setupSessionDataFile()
         backgroundQueue.async {
             uploadSessionData()
         }
@@ -103,7 +149,6 @@ class Analytics {
                     print("Contents of \(fileURL.absoluteString):")
                     print(contentsString)
                     let finalString = contentsString + "]}"
-                    print("GGG: FinalString: \(finalString)")
                     sendSessionDataToAWS(finalString, fileLocation: fileURL)
                 } else {
                     print("Unable to decode contents of \(fileURL.absoluteString) as UTF-8.")
@@ -148,7 +193,7 @@ class Analytics {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.setValue("Bearer owlO64/z5Z9CPsE1J4", forHTTPHeaderField: "Authorization")
         request.httpBody = sessionData.data(using: .utf8)
-        print("GGG: \(sessionData)")
+        print("GGG: sending session data \(String(sessionData.prefix(200))).....")
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let error = error {
                 print("Error: \(error)")
@@ -159,19 +204,26 @@ class Analytics {
                 print(dataStr)
             }
             guard let httpResponse = response as? HTTPURLResponse else { return }
-            if httpResponse.statusCode == 200 {
+            print("GGG: sending analytics data http response \(httpResponse.statusCode)")
+            if httpResponse.statusCode == 200 || httpResponse.statusCode == 400 {
+                if httpResponse.statusCode == 400 {
+                    print("GGG: 400 Error on data \(sessionData)")
+                    Analytics.trackAction(.boot, category: .error, metaData: "Trying to send data error \(httpResponse.statusCode)")
+                }
                 do {
                     try FileManager.default.removeItem(at: fileLocation)
                     print("File deleted successfully")
                 } catch {
                     print("Error deleting file: \(error.localizedDescription)")
                 }
+            } else {
+                Analytics.trackAction(.boot, category: .error, metaData: "Trying to send data error \(httpResponse.statusCode)")
             }
         }
         task.resume()
     }
     
-    static func setupSessionDataFile(_ currentAnalyticsFile: String)  {
+    static func setupSessionDataFile()  {
         
         let os = ProcessInfo.processInfo.operatingSystemVersion
         let osVersionString = "\(os.majorVersion).\(os.minorVersion).\(os.patchVersion)"
@@ -185,10 +237,10 @@ class Analytics {
         }
         
         let date = Date()
-        let bootTimeStamp = dateFormatter.string(from: date)
+        let logTimeStamp = dateFormatter.string(from: date)
 
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let tmpAnalyticsFilePath = documentsDirectory.appendingPathComponent("session-\(bootTimeStamp)").path
+        let tmpAnalyticsFilePath = documentsDirectory.appendingPathComponent("session-\(logTimeStamp)").path
 
         let bootEvent = AnalyticsEvent(
             type: .view,
@@ -196,9 +248,17 @@ class Analytics {
             timeStamp: bootTimeStamp,
             category: .bootUp,
             metaData: "")
-        
+        var bootEventString = ""
+        do {
+            let jsonData = try JSONEncoder().encode(bootEvent)
+            if let jsonString = String(data: jsonData, encoding: .utf8) {
+                bootEventString = jsonString
+            }
+        } catch {
+            print("Error encoding JSON: \(error)")
+        }
         let session = Session(
-            anonymousDeviceId: UUID().uuidString,
+            anonymousDeviceId: anonymousDeviceId,
             deviceClass: UIDevice.current.model,
             osPlatform: osVersionString,
             appVersion: appVersionStr,
@@ -209,12 +269,12 @@ class Analytics {
             let jsonData = try JSONEncoder().encode(session)
             if let jsonString = String(data: jsonData, encoding: .utf8) {
                 print(jsonString)
-                let tweakedJson = jsonString.replacingOccurrences(of: "}", with: ",\"analytics\":[")
+                var tweakedJson = jsonString.replacingOccurrences(of: "}", with: ",\"analytics\":[")
+                tweakedJson = tweakedJson.appending(bootEventString)
                 
                 if FileManager.default.createFile(atPath: tmpAnalyticsFilePath, contents: tweakedJson.data(using: .utf8), attributes: nil) {
                     print("File created successfully.")
                     analyticsFilePath = tmpAnalyticsFilePath
-                    firstRequest = true
                 } else {
                     print("Error creating the file.")
                 }
@@ -236,6 +296,28 @@ class Analytics {
         fileHandle.write(content)
 
         fileHandle.closeFile()
+        
+        if let size = getFileSize(atPath: analyticsFilePath) {
+            if (size > 5000) {
+                print("GGG: Setting up new")
+                setupSessionDataFile()
+            }
+        }
+    }
+    
+    static func getFileSize(atPath filePath: String) -> UInt64? {
+        do {
+            let fileAttributes = try FileManager.default.attributesOfItem(atPath: filePath)
+            if let fileSize = fileAttributes[FileAttributeKey.size] as? UInt64 {
+                return fileSize
+            } else {
+                print("Failed to retrieve file size.")
+                return nil
+            }
+        } catch {
+            print("Error: \(error)")
+            return nil
+        }
     }
     
     static func trackScreenView(_ screen: Screen, category: Category = .none, metaData: String = "" )  {
@@ -248,7 +330,7 @@ class Analytics {
     
     static func doTrack(_ type:EventType, screen: Screen, category: Category = .none, metaData: String = "" )  {
         if !analyticsFilePath.isEmpty {
-            backgroundQueue.async {
+            backgroundTrackingQueue.async {
                 do {
                     let date = Date()
                     let timeStamp = dateFormatter.string(from: date)
@@ -260,16 +342,14 @@ class Analytics {
                         category: category,
                         metaData: metaData)
                     
-                    
                     let commaByte: UInt8 = 44
                     let commaData = Data([commaByte])
                     let jsonData = try JSONEncoder().encode(screenView)
-                    var modJsonData = jsonData
-                    if !firstRequest {
-                        modJsonData = commaData + jsonData
+                    var modJsonData = commaData + jsonData
+                    
+                    serialQueue.async {
+                        appendToFile(content: modJsonData)
                     }
-                    appendToFile(content: modJsonData)
-                    firstRequest = false
                     
                 } catch {
                     print("Error encoding JSON: \(error)")

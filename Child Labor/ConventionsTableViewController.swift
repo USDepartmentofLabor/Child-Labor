@@ -172,7 +172,7 @@ class ConventionsTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.conventions)
+        Analytics.trackScreenView(.conventions, metaData: self.countryName)
     }
 
     override func didReceiveMemoryWarning() {

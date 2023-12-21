@@ -113,7 +113,7 @@ class SuggestedActionsTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.suggestedActions)
+        Analytics.trackScreenView(.suggestedActions, metaData: self.countryName)
     }
 
     override func didReceiveMemoryWarning() {

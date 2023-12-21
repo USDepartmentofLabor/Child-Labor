@@ -91,16 +91,18 @@ extension DataVisualizationTableViewController {
 //            break
         case .goodsBySector:
             vc = PieChartViewController(chartType: .goodsSectorType)
+            Analytics.trackAction(.dataVisualizationList, category: .goodsBySector)
             break
 //        case .goodsByRegion:
 //            vc = PieChartViewController(chartType: .countryRegionType)
 //            break
         case .assesmentLevelByRegion:
             vc = AssesmentsPageViewController(screenType: .assesmentLevelByRegion)
-            
+            Analytics.trackAction(.dataVisualizationList, category: .assessmentLevelByRegion)
             break
         case .newDVAsCountries:
             vc = AssesmentsPageViewController(screenType: .newDVASCountries)
+            Analytics.trackAction(.dataVisualizationList, category: .adequateNumberInspectors)
             break
         @unknown default:
             vc = ProportionalChartViewController.loadFromNib()

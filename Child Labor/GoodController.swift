@@ -89,7 +89,7 @@ class GoodController: UITableViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.goodProfile)
+        Analytics.trackScreenView(.goodProfile, metaData: self.goodName)
     }
     
     override func didReceiveMemoryWarning() {
@@ -314,6 +314,20 @@ class GoodController: UITableViewController {
 
     @IBAction func filterChanged(_ sender: AnyObject) {
         state = sender.selectedSegmentIndex
+        switch state {
+        case 0:
+            Analytics.trackAction(.goodProfile, category: .allSelected, metaData: self.goodName)
+        case 1:
+            Analytics.trackAction(.goodProfile, category: .childLaborSelected, metaData: self.goodName)
+        case 2:
+            Analytics.trackAction(.goodProfile, category: .forcedLaborSelected, metaData: self.goodName)
+        case 3:
+            Analytics.trackAction(.goodProfile, category: .forcedChildLaborSelected, metaData: self.goodName)
+        case 4:
+            Analytics.trackAction(.goodProfile, category: .derivedLaborSelected, metaData: self.goodName)
+        default:
+            break
+        }
         self.tableView.reloadData()
     }
     
@@ -322,6 +336,7 @@ class GoodController: UITableViewController {
         if segue.identifier == "countrySelectedFromGoodView" {
             let svc = segue.destination as! CountryController
             svc.countryName = ((sender as! UITableViewCell).viewWithTag(301) as! UILabel).text!
+            Analytics.trackAction(.goodProfile, category: .countrySelectedFromGood, metaData: self.goodName + ":" + svc.countryName)
         }
     }
     

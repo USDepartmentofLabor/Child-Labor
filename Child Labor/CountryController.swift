@@ -152,7 +152,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.countryProfile)
+        Analytics.trackScreenView(.countryProfile, metaData: self.countryName)
     }
     
     override func viewDidLayoutSubviews() {
@@ -372,55 +372,65 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         
         if (indexPath.section == 0){
             if (indexPath.row == 0) {
+                Analytics.trackAction(.countryProfile, category: .suggestedActions, metaData: self.countryName)
              performSegue(withIdentifier: "presentSuggestedActions", sender: self)
             }
         
         if (indexPath.row == 1) {
             if (countryName=="Somalia") {
                 //performSegue(withIdentifier: "presentStats", sender: self)
+                Analytics.trackAction(.countryProfile, category: .statistics, metaData: self.countryName)
                 performSegue(withIdentifier: "presentSomalia", sender: self)
 
             }
 
             else
             if (countryName=="Pakistan") {
+                Analytics.trackAction(.countryProfile, category: .statistics, metaData: self.countryName)
                 performSegue(withIdentifier: "presentStats", sender: self)
                 
             }
             
             else if (countryName=="Tanzania") {
+                Analytics.trackAction(.countryProfile, category: .statistics, metaData: self.countryName)
                 performSegue(withIdentifier: "presentStats", sender: self)
                 
             }
                 
             else {
+                Analytics.trackAction(.countryProfile, category: .statistics, metaData: self.countryName)
                 performSegue(withIdentifier: "presentStats", sender: self)
             }
         }
         if (indexPath.row == 2) {
+            Analytics.trackAction(.countryProfile, category: .internationalConventions, metaData: self.countryName)
          performSegue(withIdentifier: "presentConventions", sender: self)
         }
         if (indexPath.row == 3) {
             if multipleTerritories {
                 
-                                
+                Analytics.trackAction(.countryProfile, category: .legalStandards, metaData: self.countryName)
                 performSegue(withIdentifier: "presentLegalStandardsMultiWrapper", sender: self)
                 
             }
             else {
+                Analytics.trackAction(.countryProfile, category: .legalStandards, metaData: self.countryName)
                 performSegue(withIdentifier: "presentLegalStandardsWrapper", sender: self)
             }
         }
         
         if (indexPath.row == 4) {
             if multipleTerritories {
+                Analytics.trackAction(.countryProfile, category: .enforcement, metaData: self.countryName)
                 performSegue(withIdentifier: "presentEnforcementMulti", sender: self)
             }
             else {
+                Analytics.trackAction(.countryProfile, category: .enforcement, metaData: self.countryName)
                 performSegue(withIdentifier: "presentEnforcement", sender: self)
             }
         }
         if (indexPath.row == 5) {
+            Analytics.trackAction(.countryProfile, category: .coordinationMechanisms, metaData: self.countryName)
          performSegue(withIdentifier: "presentCoordination", sender: self)
         }
             
@@ -438,12 +448,13 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     url = "https://www.dol.gov/agencies/ilab/resources/reports/child-labor/c%C3%B4te-dIvoire"
                 }
                 
-                
+                Analytics.trackAction(.countryProfile, category: .countryWebPage, metaData: self.countryName)
                  UIApplication.shared.openURL(URL(string: url)!)
                 
                 
             }
             if (indexPath.row == 1) {
+                Analytics.trackAction(.countryProfile, category: .iLabProjects, metaData: self.countryName)
                     performSegue(withIdentifier: "presentILABProjects", sender: self)
                    }
             
@@ -480,6 +491,7 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         if segue.identifier == "goodSelectedFromCountryProfile" {
             let svc = segue.destination as! GoodController
             svc.goodName = ((sender as! UIButton).superview?.viewWithTag(301) as! UILabel).text!
+            Analytics.trackAction(.countryProfile, category: .goodSelected, metaData: self.countryName + ":" + svc.goodName)
         } else if segue.identifier == "presentFullReportDocument" {
             let svc = segue.destination as! FullReportViewController
             svc.countryName = self.countryName.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil)

@@ -310,7 +310,7 @@ class StatisticsTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.statistics)
+        Analytics.trackScreenView(.statistics, metaData: self.countryName)
     }
 
     func addTableViewFooter() {
@@ -333,6 +333,7 @@ class StatisticsTableViewController: UITableViewController {
         viewController.isFromWorkingStatistics = true
         viewController.workingStatistics = self.analyticsData
         viewController.countryName = self.countryName
+        Analytics.trackAction(.statistics, category: .openAnalysis, metaData: self.countryName)
         navigationController?.pushViewController(viewController, animated: true)
     }
 

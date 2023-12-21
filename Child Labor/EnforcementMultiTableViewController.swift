@@ -100,7 +100,7 @@ class EnforcementMultiTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.lawsMulti)
+        Analytics.trackScreenView(.lawsMulti, metaData: self.countryName)
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

@@ -49,6 +49,7 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        Analytics.trackAction(.iLabProjects, category: .selectIlabProject, metaData: links[indexPath.item] as! String)
         UIApplication.shared.openURL(URL(string: (links[indexPath.item] as! String))!)
     }
     
@@ -102,6 +103,7 @@ class ILABProjectsController : UIViewController,UITableViewDelegate,UITableViewD
     
     
     override func viewDidAppear(_ animated: Bool) {
+        Analytics.trackScreenView(.iLabProjects, metaData: self.countryName)
         projectsTableView.reloadData()
     }
     

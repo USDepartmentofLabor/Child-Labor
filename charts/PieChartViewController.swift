@@ -44,6 +44,7 @@ class PieChartViewController: UIViewController {
     var countryName: String = ""
     var workingStatistics: [Segment]?
     private(set) var chartDataType: ChartDataType?
+    private(set) var analyticsScreen: Screen = .chart
     private(set) var leadingSpace = UIDevice.isIPad() ? 16.0 : 10.0
         
     
@@ -69,6 +70,16 @@ class PieChartViewController: UIViewController {
         self.init(nibName: "PieChartViewController",
                   bundle: Bundle(for: PieChartViewController.self))
         self.chartDataType = chartType
+        switch chartType {
+        case .goodsSectorType:
+            self.analyticsScreen = .chartGoodsBySector
+        case .none:
+            self.analyticsScreen = .chart
+        case .some(.countryRegionType):
+            self.analyticsScreen = .chartCountryRegionType
+        case .some(.workingStatistics):
+            self.analyticsScreen = .chartWorkingStatistics
+        }
     }
     
     override func viewDidLoad() {
@@ -107,6 +118,11 @@ class PieChartViewController: UIViewController {
             self.view.addSubview(self.countryTitleLabel)
 
         }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Analytics.trackScreenView(self.analyticsScreen, metaData: self.chartDataType?.rawValue ?? "unknown")
     }
     
     private func setupCollectionView() {
@@ -247,6 +263,7 @@ class PieChartViewController: UIViewController {
     private func refreshChartInfo() {
         if let selectedSegment = self.goodsSegments.titleForSegment(at: self.goodsSegments.selectedSegmentIndex), let chartInfo = self.goodsSectors[selectedSegment] as? Dictionary<String, Any> {
             self.setupPieChartView(segmentInfo: chartInfo)
+            Analytics.trackAction(self.analyticsScreen, category: .sectorSelection, metaData: selectedSegment)
         }
     }
 

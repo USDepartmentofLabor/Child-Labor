@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "740F8C72-D22D-4D26-A763-3F8387E0E701"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12EABAA4-EE7D-4939-B7B9-1B0303DA0201"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Child Labor/Analytics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
+            landmarkName = "setupSessionDataFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12EABAA4-EE7D-4939-B7B9-1B0303DA0201 - 14eef194ead966ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Child_Labor.Analytics.setupSessionDataFile() -&gt; ()"
+                  moduleName = "Child Labor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gruse-george-g/Documents/dev/Child-Labor/Child%20Labor/Analytics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "5256">
+               </Location>
+               <Location
+                  uuid = "12EABAA4-EE7D-4939-B7B9-1B0303DA0201 - 14eef194ead96641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Child_Labor.Analytics.setupSessionDataFile() -&gt; ()"
+                  moduleName = "Child Labor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gruse-george-g/Documents/dev/Child-Labor/Child%20Labor/Analytics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "5064">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

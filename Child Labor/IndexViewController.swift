@@ -50,8 +50,6 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
 
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
         // Clears selection on viewWillAppear
         if let tableIndex = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: tableIndex, animated: false)
@@ -60,7 +58,7 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.index)
+        Analytics.trackScreenView(.home)
     }
 
     override func didReceiveMemoryWarning() {
@@ -99,23 +97,29 @@ class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITabl
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
+            Analytics.trackAction(.home, category: .countryAreasPressed)
             self.performSegue(withIdentifier: "countriesSelectedFromIndex", sender: self)
         case 1:
+            Analytics.trackAction(.home, category: .goodsPressed)
             self.performSegue(withIdentifier: "goodsSelectedFromIndex", sender: self)
         case 2:
+            Analytics.trackAction(.home, category: .explotationTypesPressed)
             self.performSegue(withIdentifier: "exploitationSelectedFromIndex", sender: self)
         default:
+            Analytics.trackAction(.home, category: .dataVisualizationsPressed)
             self.performSegue(withIdentifier: "DataVisualizationsSelectedFromIndex", sender: self)
         }
     }
 
     @IBAction func openIlabWebsite(_ sender: AnyObject) {
         // Open website
+        Analytics.trackAction(.home, category: .openIlabWebsite)
         UIApplication.shared.openURL(URL(string: "https://www.dol.gov/agencies/ilab")!)
     }
     
     @IBAction func openDolWebsite(_ sender: AnyObject) {
         // Open website
+        Analytics.trackAction(.home, category: .openDolGovWebsite)
         UIApplication.shared.openURL(URL(string: "http://www.dol.gov")!)
     }
     

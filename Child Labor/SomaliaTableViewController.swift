@@ -40,7 +40,7 @@ class SomaliaTableViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        Analytics.trackScreenView(.somaliaStatistics)
+        Analytics.trackScreenView(.somaliaStatistics, metaData: self.countryName)
     }
     
     @objc func openWorkingStatics(_ sender: UIButton!) {
@@ -49,6 +49,7 @@ class SomaliaTableViewController: UITableViewController {
         viewController.isFromWorkingStatistics = true
         viewController.workingStatistics = [Segment]()
         viewController.countryName = self.countryName
+        Analytics.trackAction(.somaliaStatistics, category: .openAnalysis, metaData: self.countryName)
         navigationController?.pushViewController(viewController, animated: true)
     }
     
