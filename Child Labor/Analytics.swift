@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 
-let appName = "Sweat and Toil"
+let appName = "SweatAndToil"
 
 enum Screen: String, Codable {
     case boot
@@ -178,7 +178,7 @@ class Analytics {
     
     static public func sendSessionDataToAWS(_ sessionData: String, fileLocation: URL) {
         
-        let url = URL(string: "https://mjy3f15q2d.execute-api.us-east-1.amazonaws.com/msha/usagemetricsjs")!
+        let url = URL(string: "https://mjy3f15q2d.execute-api.us-east-1.amazonaws.com/msha/usagemetricsjs/sweatandtoil")!
         var request = URLRequest(url: url)
         
         let currentTime = Date()
