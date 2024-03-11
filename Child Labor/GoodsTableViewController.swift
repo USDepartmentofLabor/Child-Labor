@@ -13,12 +13,7 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
     var state = 0
     
     @IBOutlet weak var goodsCount: UILabel!
-    var goodsXML = SWXMLHash.parse("<xml></xml>")
-    
     @IBOutlet weak var segmentedControl: UISegmentedControl!
-    
-    
-    
     
     var allGoods = NSMutableArray()
     var numCountriesByGood: [String: Int] = [:]
@@ -39,38 +34,23 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Populate the list
-        let urlPath = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        goodsXML = SWXMLHash.parse(contents! as String)
         
-        // Create lists of countries in each sector section
-        for good in goodsXML["Goods"]["Good"].all {
-            if good["Countries"]["Country"].all.count > 0 {
-                allGoods.add((good["Good_Name"].element?.text)!)
-                numCountriesByGood.updateValue(good["Countries"]["Country"].all.count, forKey: (good["Good_Name"].element?.text)!)
-                
-                if good["Good_Sector"].element?.text == "Agriculture" {
-                    agGoods.add((good["Good_Name"].element?.text)!)
-                } else if good["Good_Sector"].element?.text == "Manufacturing" {
-                    manGoods.add((good["Good_Name"].element?.text)!)
-                } else if good["Good_Sector"].element?.text == "Mining" {
-                    minGoods.add((good["Good_Name"].element?.text)!)
-                } else {
-                    othGoods.add((good["Good_Name"].element?.text)!)
-                }
+        for goodObj in Model.shared().goods {
+            if !allGoods.contains(goodObj.good) {
+                allGoods.add(goodObj.good)
+            }
+            let countryCnt = (numCountriesByGood[goodObj.good] ?? 0) + 1
+            numCountriesByGood.updateValue(countryCnt, forKey: goodObj.good)
+            
+            if goodObj.sector == "Agriculture" && !agGoods.contains(goodObj.good)  {
+                agGoods.add(goodObj.good)
+            } else if goodObj.sector == "Manufacturing" && !manGoods.contains(goodObj.good) {
+                manGoods.add(goodObj.good)
+            } else if goodObj.sector == "Mining" && !minGoods.contains(goodObj.good) {
+                minGoods.add(goodObj.good)
+            } else if !othGoods.contains(goodObj.good) {
+                othGoods.add(goodObj.good)
             }
         }
         
@@ -82,44 +62,23 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         othGoodsAll = othGoods
         
         self.searchBarFilter.delegate = self
-        // self.searchBarFilter.text = "Filter Goods"
+   
         let textFieldInsideSearchBar = searchBarFilter.value(forKey: "searchField") as? UITextField
         let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
         clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
         clearButton.tintColor =  UIColor.black
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).attributedPlaceholder = NSAttributedString(string: "Filter Goods", attributes: [NSAttributedStringKey.foregroundColor: UIColor.gray])
-        if #available(iOS 12.0, *) {
         if (self.traitCollection.userInterfaceStyle == .dark) {
-//           textFieldInsideSearchBar?.backgroundColor = UIColor.white
-//           textFieldInsideSearchBar?.textColor = UIColor.black
-            
             textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
-            
             textFieldInsideSearchBar?.borderStyle = .line
             textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
             textFieldInsideSearchBar?.textColor = UIColor.black
-//            textFieldInsideSearchBar?.clearButtonMode = .always
-////            textFieldInsideSearchBar?.clearButtonMode = .whileEditing
-//            self.clearButtonTintColor = UIColor.blue
-//            let clearButton = textFieldInsideSearchBar?.value(forKey: "clearButton") as! UIButton
-//            clearButton.setImage(clearButton.imageView?.image?.withRenderingMode(.alwaysTemplate), for: .normal)
-//            clearButton.setImage(UIImage(named: "cancel.png"), for: .normal)
-//            clearButton.setImage(UIImage(named: "cancel.png"), for: .normal)
-            
-            } else {
-//            textFieldInsideSearchBar?.backgroundColor = UIColor.black
-                textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
-                textFieldInsideSearchBar?.borderStyle = .line
-                textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
-                
-//                textFieldInsideSearchBar?.font = UIFont.boldSystemFont(ofSize: 16)
+        } else {
+            textFieldInsideSearchBar?.background = UIImage(named: "upaA3.png")
+            textFieldInsideSearchBar?.borderStyle = .line
+            textFieldInsideSearchBar?.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1.0)
             textFieldInsideSearchBar?.textColor = UIColor.black
-
-//                self.textFieldInsideSearchBar?.bordercolor = UIColor.blue
-//                textFieldInsideSearchBar?.tintColor = UIColor.gray
-            }
         }
-        
         self.changeSegmentControlColorWithMode()
     }
     
@@ -370,24 +329,6 @@ class GoodsTableViewController: UITableViewController, UISearchBarDelegate, UITe
         }
         return NSMutableArray(array: tempArray)
     }
-    
-    
-//    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
-//        // Determine the grouping the user has selected
-//        switch state {
-//            
-//        // For A—Z mode
-//        case 0:
-//            return Array()
-//            
-//        case 1:
-//            return ["Man", "Ag", "Min", "Oth"]
-//            
-//            // For other modes, no section index is necessary
-//        default:
-//            return Array()
-//        }
-//    }
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
