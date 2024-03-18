@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FactSheetViewController: GAITrackedViewController {
+class FactSheetViewController: UIViewController {
     
     var factSheet = "Fact Sheet-Reports 3.34pm"
 

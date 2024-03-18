@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IndexViewController: GAITrackedViewController, UITableViewDelegate, UITableViewDataSource {
+class IndexViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
