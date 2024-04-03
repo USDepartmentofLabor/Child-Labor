@@ -18,12 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         Analytics.bootInit()
-        
-        // Init Google Analytics
-        GAI.sharedInstance().trackUncaughtExceptions = true
-        GAI.sharedInstance().dispatchInterval = 20
-//        GAI.sharedInstance().logger.logLevel = GAILogLevel.Verbose
-        GAI.sharedInstance().tracker(withTrackingId: "UA-61504244-3").set(kGAIAnonymizeIp, value: "1")
 
         return true
     }

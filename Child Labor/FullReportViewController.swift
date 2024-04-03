@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class FullReportViewController: GAITrackedViewController {
+class FullReportViewController: UIViewController {
     
     var countryName = "Brazil"
 
