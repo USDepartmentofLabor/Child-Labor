@@ -24,58 +24,78 @@ class GoodController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-
         
-        // Do any additional setup after loading the view.
         self.title = goodName
         goodTitle.text = goodName
         if let image = UIImage(named:"icons_" + goodName.replacingOccurrences(of: "/", with: "_").replacingOccurrences(of: " ", with: "_")) {
             goodImage.image = image
         }
-        
-        let urlPathGoods = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
-        var contentsGoods: NSString?
-        do {
-            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contentsGoods = nil
-        }
-        let goodsXML = SWXMLHash.parse(contentsGoods as! String)
-        
-        for good in goodsXML["Goods"]["Good"].all {
-            if good["Good_Name"].element?.text == self.goodName {
-                sector.text = good["Good_Sector"].element?.text
                 
-                for country in good["Countries"]["Country"].all {
-                    countries.add((country["Country_Name"].element?.text)!)
-                    
-                    // Add the exploitation type to an array
-                    if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
-                        exploitations.add(0)
-                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
-                        exploitations.add(1)
-                        
-                    } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
-                        exploitations.add(2)
-                        
-                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
-                        exploitations.add(3)
-                    } else if country["Derived_Labor_Exploitation"].element?.text == "Yes" {
-                        exploitations.add(4)
-                    } else {
-                        exploitations.add(3)
-                    }
+        for goodObj in Model.shared().goods {
+            if (goodObj.good == goodName && !countries.contains(goodObj.country)) {
+                countries.add(goodObj.country)
+                
+                let goodsFromCountry = Model.shared().goods.filter { $0.country == goodObj.country }
+                
+                let clGoods = goodsFromCountry.filter { $0.good == goodName && $0.exploitation_type == "CL" }
+                let flGoods = goodsFromCountry.filter { $0.good == goodName && $0.exploitation_type == "FL" }
+                let fclGoods = goodsFromCountry.filter { $0.good == goodName && $0.exploitation_type == "FCL" }
+                let derGoods = goodsFromCountry.filter { $0.good == goodName && $0.exploitation_type == "DER" }
+                
+                if !clGoods.isEmpty && flGoods.isEmpty && derGoods.isEmpty {
+                    exploitations.add(0)
+                } else if clGoods.isEmpty && !flGoods.isEmpty && derGoods.isEmpty {
+                    exploitations.add(1)
+                } else if !clGoods.isEmpty && !flGoods.isEmpty && fclGoods.isEmpty && derGoods.isEmpty {
+                    exploitations.add(2)
+                } else if clGoods.isEmpty && !flGoods.isEmpty && !fclGoods.isEmpty && derGoods.isEmpty {
+                    exploitations.add(3)
+                } else if !derGoods.isEmpty {
+                    exploitations.add(4)
+                } else {
+                    exploitations.add(3)
                 }
-                
-                break;
+
             }
         }
+        
+//        let urlPathGoods = Bundle.main.path(forResource: "goods_2016", ofType: "xml")
+//        var contentsGoods: NSString?
+//        do {
+//            contentsGoods = try NSString(contentsOfFile: urlPathGoods!, encoding: String.Encoding.utf8.rawValue)
+//        } catch _ {
+//            contentsGoods = nil
+//        }
+//        let goodsXML = SWXMLHash.parse(contentsGoods as! String)
+        
+//        for good in goodsXML["Goods"]["Good"].all {
+//            if good["Good_Name"].element?.text == self.goodName {
+//                sector.text = good["Good_Sector"].element?.text
+//                
+//                for country in good["Countries"]["Country"].all {
+//                    countries.add((country["Country_Name"].element?.text)!)
+//                    
+//                    // Add the exploitation type to an array
+//                    if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
+//                        exploitations.add(0)
+//                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
+//                        exploitations.add(1)
+//                        
+//                    } else if country["Child_Labor"].element?.text == "Yes" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "No" && country["Derived_Labor_Exploitation"].element?.text == "No" {
+//                        exploitations.add(2)
+//                        
+//                    } else if country["Child_Labor"].element?.text == "No" && country["Forced_Labor"].element?.text == "Yes" && country["Forced_Child_Labor"].element?.text == "Yes" && country["Derived_Labor_Exploitation"].element?.text == "No" {
+//                        exploitations.add(3)
+//                    } else if country["Derived_Labor_Exploitation"].element?.text == "Yes" {
+//                        exploitations.add(4)
+//                    } else {
+//                        exploitations.add(3)
+//                    }
+//                }
+//                
+//                break;
+//            }
+//        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

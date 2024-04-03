@@ -14,7 +14,7 @@ public class Model {
         let model = Model()
         return model
     }()
-
+    
     // MARK: - Accessors
     class func shared() -> Model {
         return singletonModelData
