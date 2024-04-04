@@ -205,8 +205,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             //TODO: •    Where is <Territory_Display_Name>All Territories</Territory_Display_Name>
             //      •    Where is <Territory_Name>All Territories</Territory_Name>
 
-            nameLabel.text = territory["Territory_Display_Name"].element?.text
-            nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
+//            nameLabel.text = territory["Territory_Display_Name"].element?.text
+//            nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
             if #available(iOS 13.0, *) {
                 nameLabel.textColor = .label
             } else {
@@ -218,7 +218,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             } else {
                 // Fallback on earlier versions
             }
-            setLegalStandard(valueLabel, standardXML: territory)
+       //     setLegalStandard(valueLabel, standardXML: territory)
             
             index += 1
         }

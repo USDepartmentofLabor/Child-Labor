@@ -28,18 +28,8 @@ class EnforcementTableViewController: UITableViewController {
         
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        /*
+
         
-        // Get the country data
-        let urlPath = NSBundle.mainBundle().pathForResource("countries_for_app", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: NSUTF8StringEncoding)
-        } catch _ {
-            contents = nil
-        }
-        let dataXML = SWXMLHash.parse(contents as! String)
-        */
         enforcement.add("FBiH Ministry of Labor and Social Policy’s Federal Inspection Agency and Cantonal-Level Labor Inspectorates")
         enforcement.add("RS Ministry of Labor and Veterans’ Labor Inspectorate")
         enforcement.add("BD Administrative Support Department")
