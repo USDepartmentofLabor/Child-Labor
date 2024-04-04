@@ -32,21 +32,11 @@ class CoordTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         
-        // Get the country data
-        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        let countriesXML = SWXMLHash.parse(contents as! String)
-        
-        for country in countriesXML["Countries"]["Country"].all {
-            if country["Name"].element?.text == self.countryName {
-                setMechanism(self.coordLabel, text: country["Mechanisms"]["Coordination"].element?.text)
-                setMechanism(self.policyLabel, text: country["Mechanisms"]["Policy"].element?.text)
-                setMechanism(self.programLabel, text: country["Mechanisms"]["Program"].element?.text)
+        for countryObj in Model.shared().countries {
+            if (countryObj.country == self.countryName) {
+                setMechanism(self.coordLabel, text: countryObj.mechanismCoordinateClEfforts)
+                setMechanism(self.policyLabel, text:countryObj.nationalPolicyCl)
+                setMechanism(self.programLabel, text:countryObj.nationalProgramCl)
             }
         }
     }

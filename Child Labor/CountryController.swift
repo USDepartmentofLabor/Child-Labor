@@ -45,32 +45,21 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
         // Set labels
         countryTitle.text = countryName
         
-        // Get the country data
-        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        let countriesXML = SWXMLHash.parse(contents as! String)
-        
-        for country in countriesXML["Countries"]["Country"].all {
-            if country["Name"].element?.text == self.countryName {
-                countryMap.image = UIImage(named: (country["Name"].element?.text)!.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil) + "-map")
+        for countryObj in Model.shared().countries {
+            if (countryObj.country == self.countryName) {
+                countryMap.image = UIImage(named: countryObj.country.replacingOccurrences(of: "ô", with: "o", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "ã", with: "a", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "é", with: "e", options: NSString.CompareOptions.literal, range: nil).replacingOccurrences(of: "í", with: "i", options: NSString.CompareOptions.literal, range: nil) + "-map")
                 
+               // TODO: BUGBUG url = (country["Webpage"].element?.text)!
                 
-                url = (country["Webpage"].element?.text)!
-                
-                if (country["Advancement_Level"].element?.text != nil) {
-                    advancementLevel.text = (country["Advancement_Level"].element?.text)!
+                if (!countryObj.assessmentLevel.isEmpty) {
+                    advancementLevel.text = countryObj.assessmentLevel
                 } else {
                     advancementLevel.text = "Not Covered in TDA Report"
                     countryMap.image = nil
                 }
                 
                 // If there is no profile for this country
-                if ((country["Description"].element?.text == nil) || (country["Description"].element?.text == nil))  {
+                if countryObj.summaryParagraph.isEmpty  {
                     // Hide the "more" button
                     moreButton.isHidden = true
                     
@@ -84,11 +73,11 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     headerView.frame = newRect
                     self.tableView.tableHeaderView = headerView
                 } else {
-                    countryProfile.text = country["Description"].element?.text
+                    countryProfile.text = countryObj.summaryParagraph
                 }
                 
                 // If there are no goods for this country
-                if country["Goods"]["Good"].all.count == 0 {
+                if countryObj.goods.count == 0 {
                     let oldCollectionHeaderHeight = collectionHeader.frame.height
                     let oldCollectionViewHeight = goodsCollection.frame.height
                     
@@ -103,15 +92,15 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     headerView.frame = newRect
                     self.tableView.tableHeaderView = headerView
                 } else {
-                    for good in country["Goods"]["Good"].all {
-                        let goodName = good["Good_Name"].element?.text
+                    for goodObj in countryObj.goods {
+                        let goodName = goodObj.good
                         
-                        let childLaborStatusForGood = good["Child_Labor"].element?.text
-                        let forcedLaborStatusForGood = good["Forced_Labor"].element?.text
-                        let forcedChildLaborStatusForGood = good["Forced_Child_Labor"].element?.text
-                        let derivedLaborStatus = good["Derived_Labor_Exploitation"].element?.text
+                        let childLaborStatusForGood = goodObj.childLabor
+                        let forcedLaborStatusForGood = goodObj.forcedLabor
+                        let forcedChildLaborStatusForGood = goodObj.forcedChildLabor
+                        let derivedLaborStatus = goodObj.derivedLaborExploitation
                         
-                        goods.add(goodName!)
+                        goods.add(goodName)
                         
                         // Add the exploitation type to an array
                         if childLaborStatusForGood == "Yes" && forcedLaborStatusForGood == "No" {
@@ -126,15 +115,17 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                             exploitations.add(2)
                         } else if derivedLaborStatus == "Yes" {
                             exploitations.add(4)
-                            let derivedCountry = good["Derived_Country"].element?.text ?? "no"
-                            goodsWithDerivedCountry.updateValue(derivedCountry, forKey: goodName ?? "")
+                            // TODO: BUGBUG no derived country
+//                            let derivedCountry = good["Derived_Country"].element?.text ?? "no"
+//                            goodsWithDerivedCountry.updateValue(derivedCountry, forKey: goodName ?? "")
                         } else {
                             exploitations.add(3)
                         }
                     }
                 }
                 
-                multipleTerritories = country["Multiple_Territories"].element?.text == "Yes"
+                // TODO: BUGBUG no Multiple_Territories in country file
+//                multipleTerritories = country["Multiple_Territories"].element?.text == "Yes"
                 
                 break;
             }

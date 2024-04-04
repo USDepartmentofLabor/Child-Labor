@@ -70,43 +70,70 @@ class EnforceTableViewController: UITableViewController {
         }
         let countriesXML = SWXMLHash.parse(contents as! String)
         
-        for country in countriesXML["Countries"]["Country"].all {
-            if country["Name"].element?.text == self.countryName {
-                let enforcements = country["Enforcements"]
+        for countryObj in Model.shared().countries {
+            if (countryObj.country == self.countryName) {
                 
                 tempState = 0
-                setEnforcement(self.laborFundingLabel, text: enforcements["Labor_Funding"].element?.text)
-                setEnforcement(self.laborInspectorsLabel, text: enforcements["Labor_Inspectors"].element?.text)
+// TODO: Labor_Funding is missing
+//                setEnforcement(self.laborFundingLabel, text: enforcements["Labor_Funding"].element?.text)
                 
-                setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
-                //setEnforcement(self.laborInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
-                setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
+                setEnforcement(self.laborInspectorsLabel, text: String(countryObj.numberLaborInspectors))
                 
-                setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
-                setEnforcement(self.laborPenaltiesImposedLabel, text: enforcements["Labor_Penalties_Imposed"].element?.text)
-                setEnforcement(self.laborPenaltiesCollectedLabel, text: enforcements["Labor_Penalties_Collected"].element?.text)
-                setEnforcement(self.laborRoutineConductedLabel, text: enforcements["Labor_Routine_Inspections_Conducted"].element?.text)
-                setEnforcement(self.laborRoutineTargetedLabel, text: enforcements["Labor_Routine_Inspections_Targeted"].element?.text)
-                setEnforcement(self.laborUnannouncedPremittedLabel, text: enforcements["Labor_Unannounced_Inspections_Premitted"].element?.text)
-                setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
-                setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
-              //  setEnforcement(self.laborLawTrainingLabel, text: enforcements["Labor_New_Law_Training"].element?.text)
-//                setEnforcement(self.laborRefresherCoursesLabel, text: enforcements["Labor_Refresher_Courses"].element?.text)
-                setEnforcement(self.laborComplaintMechanismLabel, text: enforcements["Labor_Complaint_Mechanism"].element?.text)
-                setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
-                setEnforcement(self.laborInspectorsMeetILORec, text: enforcements["Labor_Inspectors_Intl_Standards"].element?.text)
+// TODO: Authorized_Access_Penalties is Unclear
+//                setEnforcement(self.laborAccessPenaltiesLabel, text: enforcements["Authorized_Access_Penalties"].element?.text)
+                                
+// TODO: Labor_Inspections is missing
+//                setEnforcement(self.laborWorksiteInspectionsLabel, text: enforcements["Labor_Inspections"].element?.text)
+                
+// TODO: Labor_Violations is missing
+//                setEnforcement(self.laborViolationsLabel, text: enforcements["Labor_Violations"].element?.text)
+                
+// TODO: Labor_Penalties_Imposed is unclear
+//                setEnforcement(self.laborPenaltiesImposedLabel, text: enforcements["Labor_Penalties_Imposed"].element?.text)
+                
+// TODO: Labor_Penalties_Collected is missing
+//                setEnforcement(self.laborPenaltiesCollectedLabel, text: enforcements["Labor_Penalties_Collected"].element?.text)
+                
+                setEnforcement(self.laborRoutineConductedLabel, text: countryObj.routineWorksiteInspections)
+                
+// TODO: Labor_Routine_Inspections_Targeted is missing
+//                setEnforcement(self.laborRoutineTargetedLabel, text: enforcements["Labor_Routine_Inspections_Targeted"].element?.text)
+                
+                setEnforcement(self.laborUnannouncedPremittedLabel, text: countryObj.unannouncedInspectionsPermitted)
+                
+// TODO: Labor_Unannounced_Inspections_Conducted is missing
+//                setEnforcement(self.laborUnannouncedConductedLabel, text: enforcements["Labor_Unannounced_Inspections_Conducted"].element?.text)
+                
+// TODO: Labor_New_Employee_Training is missing
+//                setEnforcement(self.laborEmployeeTrainingLabel, text: enforcements["Labor_New_Employee_Training"].element?.text)
+                
+                setEnforcement(self.laborComplaintMechanismLabel, text: countryObj.complaintMechanism)
+                
+// TODO: Labor_Referral_Mechanism is unclear
+//                setEnforcement(self.laborReferralMechanismLabel, text: enforcements["Labor_Referral_Mechanism"].element?.text)
+                
+// TODO: Labor_Inspectors_Intl_Standards is missing
+//                setEnforcement(self.laborInspectorsMeetILORec, text: enforcements["Labor_Inspectors_Intl_Standards"].element?.text)
                 
                 tempState = 1
-                setEnforcement(self.criminalInvestigationsLabel, text: enforcements["Criminal_Investigations"].element?.text)
-                //setEnforcement(self.criminalViolationsLabel, text: enforcements["Criminal_Violations"].element?.text)
-                setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
-                setEnforcement(self.criminalConvictionsLabel, text: enforcements["Criminal_Convictions"].element?.text)
-                setEnforcement(self.imposedPenaltiesForViolationsRelatedToTheWFCLLabel, text: enforcements["Criminal_Penalties_for_WFCL"].element?.text)
-                setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
+// TODO: Criminal_Investigations is missing
+//                setEnforcement(self.criminalInvestigationsLabel, text: enforcements["Criminal_Investigations"].element?.text)
                 
-                setEnforcement(self.criminalEmployeeTrainingLabel, text: enforcements["Criminal_New_Employee_Training"].element?.text)
-//                setEnforcement(self.criminalNewLawsTrainingLabel, text: enforcements["Criminal_New_Law_Training"].element?.text)
-//                setEnforcement(self.criminalRefresherCoursesLabel, text: enforcements["Criminal_Refresher_Courses"].element?.text)
+// TODO: Criminal_Prosecutions is missing
+//                setEnforcement(self.criminalProsecutionsLabel, text: enforcements["Criminal_Prosecutions"].element?.text)
+                
+// TODO: Criminal_Convictions is missing
+//                setEnforcement(self.criminalConvictionsLabel, text: enforcements["Criminal_Convictions"].element?.text)
+                
+// TODO: Criminal_Penalties_for_WFCL is unclear
+//                setEnforcement(self.imposedPenaltiesForViolationsRelatedToTheWFCLLabel, text: enforcements["Criminal_Penalties_for_WFCL"].element?.text)
+                
+// TODO: Criminal_Referral_Mechanism is unclear
+//                setEnforcement(self.criminalReferralMechanismLabel, text: enforcements["Criminal_Referral_Mechanism"].element?.text)
+                
+// TODO: Labor_Inspections is missing
+//                setEnforcement(self.criminalEmployeeTrainingLabel, text: enforcements["Criminal_New_Employee_Training"].element?.text)
+                
             }
         }
         

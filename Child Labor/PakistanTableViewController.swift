@@ -31,6 +31,11 @@ class PakistanTableViewController: UITableViewController {
     }
     
     func readDataFromXML() {
+        
+// TODO: - Issue with JSON data see json-question-working_children_services
+//        for countryObj in Model.shared().countries {
+//            if countryObj.country == "Pakistan" {
+//                if countryObj.workingChildrenAgriculture ==
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {

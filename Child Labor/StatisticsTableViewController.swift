@@ -35,6 +35,11 @@ class StatisticsTableViewController: UITableViewController {
         self.addTableViewFooter()
 
         // Get the country data
+        
+// TODO: Could the below be split into two fields:
+//        o     "hazardous_work_children": "10.5% (3,000,000) ",
+//        o    "working": "12.0% (1,206,134)",
+
         let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
         var contents: NSString?
         do {

@@ -17,7 +17,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
     var combatRow = false
     
     
-    var sectionTerritories = Array<Array<XMLIndexer>>()
+    var sectionTerritories = Array<Array<String>>()
     var sectionTitles = Array<Array<String>>()
     
     override func viewDidLoad() {
@@ -34,27 +34,37 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        // Get the country data
-        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        let countriesXML = SWXMLHash.parse(contents! as String)
-        
-        for country in countriesXML["Countries"]["Country"].all {
-            if country["Name"].element?.text == self.countryName {
-                let legalStandards = country["Legal_Standards"]
+        for countryObj in Model.shared().countries {
+            if (countryObj.country == self.countryName) {
                 
-                sectionTerritories.append([legalStandards["Minimum_Work"], legalStandards["Minimum_Hazardous_Work"],legalStandards["Minumum_Voluntary_Military"]])
-                sectionTerritories.append([legalStandards["Types_Hazardous_Work"]])
-                sectionTerritories.append([legalStandards["Prohibition_Forced_Labor"], legalStandards["Prohibition_Child_Trafficking"], legalStandards["Prohibition_CSEC"], legalStandards["Prohibition_Illicit_Activities"],
-                                           legalStandards["Minimum_Compulsory_Military"],
+                var minWorkStr = countryObj.minimumAgeWork
+                if !countryObj.minimumAgeWorkAge.isEmpty {
+                    minWorkStr = minWorkStr + "(\(countryObj.minimumAgeWorkAge))"
+                }
+                
+                var minHazWorkStr = countryObj.minimumAgeWork
+                if !countryObj.minimumAgeWorkAge.isEmpty {
+                    minWorkStr = minWorkStr + "(\(countryObj.minimumAgeWorkAge))"
+                }
+                
+                var minMilitaryStr = countryObj.minimumAgeWork
+                if !countryObj.minimumAgeWorkAge.isEmpty {
+                    minWorkStr = minWorkStr + "(\(countryObj.minimumAgeWorkAge))"
+                }
+                sectionTerritories.append([minWorkStr, minHazWorkStr, minMilitaryStr])
+                
+                sectionTerritories.append([countryObj.hazardousWorkList])
+                // TODO: Need to add legalStandards["Minumum_Non_State_Military"] below
+                sectionTerritories.append([countryObj.prohibitionFl, countryObj.prohibitionChildTrafficking, countryObj.prohibitionCsec, countryObj.prohibitionIllicitActivities,
+                                           countryObj.prohibitionCompulsoryMilitaryRecruitment])
                                            
-                                           legalStandards["Minumum_Non_State_Military"]])
-                sectionTerritories.append([legalStandards["Compulsory_Education"], legalStandards["Free_Public_Education"]])
+                                         //  legalStandards["Minumum_Non_State_Military"]])
+                
+                var compulsoryEduStr = countryObj.compulsoryEducationAge
+                if !countryObj.compulsoryEducationAgeAge.isEmpty {
+                    compulsoryEduStr = compulsoryEduStr + "(\(countryObj.compulsoryEducationAgeAge))"
+                }
+                sectionTerritories.append([compulsoryEduStr, countryObj.freePublicEducation])
             }
         }
         
@@ -153,7 +163,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         
         let territories = sectionTerritories[indexPath.section][indexPath.row]
         
-        let territoryCount = territories["Territory"].all.count
+        let territoryCount = territories.count
         
         let cellName = (territoryCount != 0) ? "Cell-" + String(territoryCount) : "Cell-1"
         
@@ -188,10 +198,13 @@ class LegalStandardsMultiTableViewController: UITableViewController {
         }
         
         var index = 1
-        for territory in territories["Territory"].all {
+        for territory in territories {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
+            //TODO: •    Where is <Territory_Display_Name>All Territories</Territory_Display_Name>
+            //      •    Where is <Territory_Name>All Territories</Territory_Name>
+
             nameLabel.text = territory["Territory_Display_Name"].element?.text
             nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
             if #available(iOS 13.0, *) {

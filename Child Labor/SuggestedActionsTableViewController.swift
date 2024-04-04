@@ -32,73 +32,57 @@ class SuggestedActionsTableViewController: UITableViewController {
         self.tableView.estimatedRowHeight = 100.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
         
-        // Get the country data
-        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        let dataXML = SWXMLHash.parse(contents as! String)
-        
-        // For each country
-        for country in dataXML["Countries"]["Country"].all {
-            if country["Name"].element?.text == countryName {
+        for countryObj in Model.shared().countries {
+            if (countryObj.country == self.countryName) {
                 
                 // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Legal_Framework"]["Action"].all {
-                    laws.add((action["Name"].element?.text)!)
+                let legalActions = countryObj.suggestedActions.filter { $0.area.contains("Legal") }
+                for action in legalActions {
+                    laws.add(action.suggestedAction)
                 }
-                
-                
-                for action in country["Suggested_Actions"]["Laws"]["Action"].all {
-                    laws.add((action["Name"].element?.text)!)
-                }
-                
-                
+// TODO: Where is “Laws” defined in suggestedActions?
+//                for action in country["Suggested_Actions"]["Laws"]["Action"].all {
+//                    laws.add((action["Name"].element?.text)!)
+//                }
                 if (laws.count != 0)
                 {
                 sectionItems.add("Legal Frameworks")
                 }
                 
                 
-                for action in country["Suggested_Actions"]["Enforcement"]["Action"].all {
-                    enforcement.add((action["Name"].element?.text)!)
+                let enforcementActions = countryObj.suggestedActions.filter { $0.area.contains("Enforcement") }
+                for action in enforcementActions {
+                    enforcement.add(action.suggestedAction)
                 }
-                
                 if (enforcement.count != 0)
                 {
                     sectionItems.add("Enforcement")
                 }
                 
-                for action in country["Suggested_Actions"]["Coordination"]["Action"].all {
-                    coordination.add((action["Name"].element?.text)!)
+                let coordinationActions = countryObj.suggestedActions.filter { $0.area.contains("Coordination") }
+                for action in coordinationActions {
+                    coordination.add(action.suggestedAction)
                 }
-                
                 if (coordination.count != 0)
                 {
                     sectionItems.add("Coordination")
                 }
                 
                 
-                // Duping these to accomodate inconsistent element name in the XML
-                for action in country["Suggested_Actions"]["Government_Policies"]["Action"].all {
-                    governmentPolicies.add((action["Name"].element?.text)!)
+                let govPolicyActions = countryObj.suggestedActions.filter { $0.area.contains("Government Policies") }
+                for action in govPolicyActions {
+                    governmentPolicies.add(action.suggestedAction)
                 }
-                for action in country["Suggested_Actions"]["Policies"]["Action"].all {
-                    governmentPolicies.add((action["Name"].element?.text)!)
-                }
-                
+
                 if (governmentPolicies.count != 0)
                 {
                     sectionItems.add("Government Policies")
                 }
                 
-                for action in country["Suggested_Actions"]["Social_Programs"]["Action"].all {
-                    socialPrograms.add((action["Name"].element?.text)!)
+                let socialActions = countryObj.suggestedActions.filter { $0.area.contains("Social Programs") }
+                for action in socialActions {
+                    socialPrograms.add(action.suggestedAction)
                 }
-                
                 if (socialPrograms.count != 0)
                 {
                     sectionItems.add("Social Programs")

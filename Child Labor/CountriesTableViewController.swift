@@ -138,108 +138,99 @@ class CountriesTableViewController: UITableViewController, UISearchBarDelegate {
                 textFieldInsideSearchBar?.textColor = UIColor.black
             }
         }
-        // Get the country data
-        let urlPath = Bundle.main.path(forResource: "countries_2016", ofType: "xml")
-        var contents: NSString?
-        do {
-            contents = try NSString(contentsOfFile: urlPath!, encoding: String.Encoding.utf8.rawValue)
-        } catch _ {
-            contents = nil
-        }
-        let countriesXML = SWXMLHash.parse(contents as! String)
-        
+    
         // For each country
-        for country in countriesXML["Countries"]["Country"].all {
-            let countryName = country["Name"].element?.text
+        for countryObj in Model.shared().countries {
+            let countryName = countryObj.country
             
             // Create lists of countries in each letter section
-            if Array(countryName!.characters)[0] == "A" {
-                aCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "B" {
-                bCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "C" {
-                cCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "D" {
-                dCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "E" {
-                eCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "F" {
-                fCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "G" {
-                gCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "H" {
-                hCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "I" {
-                iCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "J" {
-                jCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "K" {
-                kCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "L" {
-                lCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "M" {
-                mCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "N" {
-                nCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "O" {
-                oCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "P" {
-                pCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "Q" {
-                qCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "R" {
-                rCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "S" {
-                sCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "T" {
-                tCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "U" {
-                uCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "V" {
-                vCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "W" {
-                wCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "X" {
-                xCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "Y" {
-                yCountries.add(countryName!)
-            } else if Array(countryName!.characters)[0] == "Z" {
-                zCountries.add(countryName!)
+            if countryName[countryName.startIndex] == "A" {
+                aCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "B" {
+                bCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "C" {
+                cCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "D" {
+                dCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "E" {
+                eCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "F" {
+                fCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "G" {
+                gCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "H" {
+                hCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "I" {
+                iCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "J" {
+                jCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "K" {
+                kCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "L" {
+                lCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "M" {
+                mCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "N" {
+                nCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "O" {
+                oCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "P" {
+                pCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "Q" {
+                qCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "R" {
+                rCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "S" {
+                sCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "T" {
+                tCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "U" {
+                uCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "V" {
+                vCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "W" {
+                wCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "X" {
+                xCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "Y" {
+                yCountries.add(countryName)
+            } else if countryName[countryName.startIndex] == "Z" {
+                zCountries.add(countryName)
             }
 
             // Create lists of countries in each advancement level section
-            if ((country["Advancement_Level"].element?.text.hasPrefix("Significant")) == true) {
-                sigCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text.hasPrefix("Moderate") == true {
-                modCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text.hasPrefix("Minimal") == true{
-                minCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text.hasPrefix("No Advancement") == true {
-                noCountries.add(countryName!)
-            } else if country["Advancement_Level"].element?.text.hasPrefix("No Assessment") == true {
-                noAssessmentCountries.add(countryName!)
+            if countryObj.assessmentLevel.hasPrefix("Significant") == true {
+                sigCountries.add(countryName)
+            } else if countryObj.assessmentLevel.hasPrefix("Moderate") == true {
+                modCountries.add(countryName)
+            } else if countryObj.assessmentLevel.hasPrefix("Minimal") == true{
+                minCountries.add(countryName)
+            } else if countryObj.assessmentLevel.hasPrefix("No Advancement") == true {
+                noCountries.add(countryName)
+            } else if countryObj.assessmentLevel.hasPrefix("No Assessment") == true {
+                noAssessmentCountries.add(countryName)
             } else {
-                noDataCountries.add(countryName!)
+                noDataCountries.add(countryName)
             }
 
             // Create lists of countries in each region section
-            if country["Region"].element?.text == "Indo-Pacific" {
-                asiaCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Europe and Eurasia" {
-                europeCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Latin America and the Caribbean" {
-                latinCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Middle East and North Africa" {
-                middleCountries.add(countryName!)
-            } else if country["Region"].element?.text == "Sub-Saharan Africa" {
-                saharanCountries.add(countryName!)
+            if countryObj.region == "Indo-Pacific" {
+                asiaCountries.add(countryName)
+            } else if countryObj.region == "Europe and Eurasia" {
+                europeCountries.add(countryName)
+            } else if countryObj.region == "Latin America and the Caribbean" {
+                latinCountries.add(countryName)
+            } else if countryObj.region == "Middle East and North Africa" {
+                middleCountries.add(countryName)
+            } else if countryObj.region == "Sub-Saharan Africa" {
+                saharanCountries.add(countryName)
             }
             
             // Record whether each country has a profile in an associative array
-            if (country["Description"].element?.text == nil && country["Goods"]["Good"].all.count == 0) {
-                hasDataByCounty[countryName!] = false
+            if (countryObj.summaryParagraph.isEmpty && countryObj.goods.count == 0) {
+                hasDataByCounty[countryName] = false
             } else {
-                hasDataByCounty[countryName!] = true
+                hasDataByCounty[countryName] = true
             }
             self.changeSegmentControlColorWithMode()
         }
