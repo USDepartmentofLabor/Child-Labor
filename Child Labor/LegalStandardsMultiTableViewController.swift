@@ -54,11 +54,8 @@ class LegalStandardsMultiTableViewController: UITableViewController {
                 sectionTerritories.append([minWorkStr, minHazWorkStr, minMilitaryStr])
                 
                 sectionTerritories.append([countryObj.hazardousWorkList])
-                // TODO: Need to add legalStandards["Minumum_Non_State_Military"] below
                 sectionTerritories.append([countryObj.prohibitionFl, countryObj.prohibitionChildTrafficking, countryObj.prohibitionCsec, countryObj.prohibitionIllicitActivities,
                                            countryObj.prohibitionCompulsoryMilitaryRecruitment])
-                                           
-                                         //  legalStandards["Minumum_Non_State_Military"]])
                 
                 var compulsoryEduStr = countryObj.compulsoryEducationAge
                 if !countryObj.compulsoryEducationAgeAge.isEmpty {
@@ -202,11 +199,7 @@ class LegalStandardsMultiTableViewController: UITableViewController {
             let tag = index * 10
             
             let nameLabel = cell.contentView.viewWithTag(tag) as! UILabel
-            //TODO: •    Where is <Territory_Display_Name>All Territories</Territory_Display_Name>
-            //      •    Where is <Territory_Name>All Territories</Territory_Name>
 
-//            nameLabel.text = territory["Territory_Display_Name"].element?.text
-//            nameLabel.accessibilityLabel = territory["Territory_Name"].element?.text
             if #available(iOS 13.0, *) {
                 nameLabel.textColor = .label
             } else {

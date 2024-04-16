@@ -59,12 +59,11 @@ class LegalStandardsTableViewController: UITableViewController {
                 setLegalStandard(self.minimumHazardousWorkLabel, standardXML: legalStandards["Minimum_Hazardous_Work"])
                 setLegalStandard(self.minimumComplusoryMilitaryLabel, standardXML: legalStandards["Minimum_Compulsory_Military"])
                 setLegalStandard(self.minimumVoluntaryMilitaryLabel, standardXML: legalStandards["Minumum_Voluntary_Military"])
-                setLegalStandard(self.typesHazardousWorkLabel, standardXML: legalStandards["Types_Hazardous_Work"])
+                setLegalStandard(self.typesHazardousWorkLabel, standardXML: legalStandards["hazardous_work_list"])
                 setLegalStandard(self.prohibitionForcedLaborLabel, standardXML: legalStandards["Prohibition_Forced_Labor"])
                 setLegalStandard(self.prohibitionChildTraffickingLabel, standardXML: legalStandards["Prohibition_Child_Trafficking"])
                 setLegalStandard(self.prohibitionCSECLabel, standardXML: legalStandards["Prohibition_CSEC"])
                 setLegalStandard(self.prohibitionIllicitActivitiesLabel, standardXML: legalStandards["Prohibition_Illicit_Activities"])
-                setLegalStandard(self.nsCompulsoryMilitary, standardXML: legalStandards["Minumum_Non_State_Military"])
                 setLegalStandard(self.compulsoryEducationLabel, standardXML: legalStandards["Compulsory_Education"])
                 setLegalStandard(self.freePublicEducationLabel, standardXML: legalStandards["Free_Public_Education"])
             }

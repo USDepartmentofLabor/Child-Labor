@@ -124,9 +124,6 @@ class CountryController: UITableViewController, UICollectionViewDataSource, UICo
                     }
                 }
                 
-                // TODO: BUGBUG no Multiple_Territories in country file
-//                multipleTerritories = country["Multiple_Territories"].element?.text == "Yes"
-                
                 break;
             }
         }
